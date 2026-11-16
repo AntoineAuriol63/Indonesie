@@ -1,0 +1,1044 @@
+{
+ "regions": {
+  "lombok-et-gili": {
+   "intro": "Lombok est l'île juste à l'est de Bali, en plus calme. Au sud, autour de Kuta, des baies de sable blanc entre des collines sèches. Au centre, les rizières de Tetebatu sur les pentes du Rinjani. Au nord, les cascades de Senaru dans la jungle. Et au large de la côte nord-ouest, les trois Gili, des îlots sans voiture où l'on nage avec les tortues. On peut tout enchaîner en une dizaine de jours sans monter au sommet du volcan.",
+   "august": "Août est en pleine saison sèche : ciel bleu, collines jaunies dans le sud. La mer peut quand même secouer entre Bali, les Gili et Lombok, on prend plutôt les bateaux du matin.",
+   "access": "On arrive par l'aéroport de Lombok, à une demi-heure de Kuta, ou en bateau rapide depuis Bali vers les Gili et le port de Bangsal. Sur l'île, on circule en voiture avec chauffeur ou en scooter."
+  },
+  "flores-et-komodo": {
+   "intro": "Tout commence à Labuan Bajo, un petit port à la pointe ouest de Flores. De là partent les bateaux pour le parc de Komodo : les dragons de Komodo et de Rinca, le belvédère de Padar, les raies manta. Ensuite on peut s'enfoncer dans l'île par la route, jusqu'à Ruteng et ses rizières en toile d'araignée, puis jusqu'au village de Wae Rebo, dans la montagne. Compter trois ou quatre jours pour la mer et autant pour l'intérieur.",
+   "august": "Saison sèche : les îles du parc sont jaunes et pelées, la mer est en général calme. C'est aussi le mois le plus chargé, les bateaux se réservent à l'avance, et un coup de vent peut encore faire modifier une sortie.",
+   "access": "Vol direct pour Labuan Bajo depuis Bali ou Jakarta. Les îles se visitent en bateau, l'intérieur de Flores en voiture avec chauffeur par la route transflorésienne, lente et pleine de virages."
+  },
+  "sumbawa": {
+   "intro": "Sumbawa est la grande île entre Lombok et Komodo, que presque tout le monde survole. Pour l'instant je n'ai regardé que l'ouest : Sumbawa Besar, ancienne capitale d'un sultanat qui a gardé son palais en bois, et l'île de Moyo juste en face, une réserve naturelle où la cascade de Mata Jitu coule dans des bassins vert émeraude. Le reste de l'île, dont le volcan Tambora, reste à creuser.",
+   "august": "Saison sèche, il fait chaud et sec. Les traversées vers Moyo se font en petit bateau en bois, plutôt le matin quand la mer est plate.",
+   "access": "Depuis Lombok, ferry de Labuhan Lombok à Poto Tano puis deux heures de route jusqu'à Sumbawa Besar, qui a aussi un petit aéroport. Pour Moyo, on traverse en bateau depuis Sumbawa Besar."
+  },
+  "sumba": {
+   "intro": "Sumba est une île sèche au sud de Flores, à l'écart des circuits. On y vit encore dans des villages aux toits de chaume très hauts, avec les tombes des ancêtres, d'énormes dalles de pierre, posées devant les maisons, et des chevaux en liberté dans la savane. À l'ouest, autour de Waikabubak, les villages traditionnels et le lagon de Weekuri. À l'est, autour de Waingapu, les collines de Wairinding, des cascades et les ateliers d'ikat.",
+   "august": "Saison sèche. Les collines de Wairinding sont dorées de juillet à octobre, pas vertes comme sur beaucoup de photos. Le Pasola, la joute à cheval de l'ouest, a lieu en février et mars, pas en août.",
+   "access": "Deux aéroports reliés à Bali : Tambolaka à l'ouest, Waingapu à l'est. On peut arriver par l'un et repartir par l'autre ; entre les deux, la traversée de l'île en voiture avec chauffeur prend une demi-journée."
+  }
+ },
+ "places": {
+  "sud-de-lombok": {
+   "intro": [
+    "Kuta Lombok n'a rien à voir avec le Kuta de Bali : c'est un village de surfeurs, quelques rues de cafés et de warungs, entouré de baies de sable blanc et de collines sèches. On y dort trois ou quatre nuits et on part chaque jour vers une plage différente, en scooter ou avec un chauffeur.",
+    "Chaque plage a son usage : Tanjung Aan pour se baigner, Selong Belanak pour un premier cours de surf, Mawun pour la carte postale. En fin de journée on monte sur la colline de Merese, et on garde une matinée pour un village sasak, Sade ou Ende."
+   ],
+   "todo": [
+    {
+     "name": "Plage de Tanjung Aan",
+     "type": "Mer",
+     "text": "Deux baies en croissant à un quart d'heure à l'est de Kuta, à l'eau turquoise peu profonde. D'un côté le sable est fin comme de la farine, de l'autre en petits grains comme du poivre. C'est la plage la plus facile pour se baigner.",
+     "time": "demi-journée",
+     "price": null
+    },
+    {
+     "name": "Coucher de soleil sur la colline de Merese",
+     "type": "Randonnée",
+     "text": "Une colline d'herbe rase au bout de Tanjung Aan. Dix à quinze minutes de montée depuis le parking, et on voit les baies des deux côtés. Tout le monde y vient pour le coucher du soleil : monter vers 17 h avec de l'eau.",
+     "time": "1 h 30",
+     "price": null
+    },
+    {
+     "name": "Premier cours de surf à Selong Belanak",
+     "type": "Mer",
+     "text": "Une longue baie à 40 minutes à l'ouest de Kuta, avec un fond de sable et des vagues douces : c'est là que les écoles emmènent les débutants. On loue planche et moniteur directement sur la plage. En fin d'après-midi, des troupeaux de buffles traversent le sable.",
+     "time": "demi-journée",
+     "price": null
+    },
+    {
+     "name": "Plage de Mawun",
+     "type": "Mer",
+     "text": "Une baie presque fermée entre deux collines, à 20 minutes à l'ouest de Kuta. Peu de monde, quelques warungs sous les arbres pour une noix de coco ou du poisson grillé. L'eau devient vite profonde, on reste près du bord.",
+     "time": "2 à 3 h",
+     "price": null
+    },
+    {
+     "name": "Village sasak de Sade ou d'Ende",
+     "type": "Culture",
+     "text": "Sur la route de l'aéroport, deux villages où les Sasak vivent encore dans des maisons de bambou à toit de chaume. Un habitant fait la visite contre un don. Le sol des maisons est lissé à la bouse de buffle et les femmes tissent devant les portes.",
+     "time": "1 h",
+     "price": null
+    },
+    {
+     "name": "Dîner à Kuta",
+     "type": "Cuisine",
+     "text": "Kuta est le seul endroit du sud où il y a du monde le soir. On y goûte l'ayam taliwang, le poulet grillé très pimenté de Lombok, avec du plecing kangkung, des liserons d'eau à la sauce tomate et piment. Sinon, poisson grillé et cafés de surfeurs.",
+     "time": "le soir",
+     "price": null
+    }
+   ],
+   "access": "Kuta est à 30 minutes de route de l'aéroport de Lombok, en taxi ou avec un chauffeur. Depuis les Gili, compter environ 3 h entre le bateau jusqu'à Bangsal et la route.",
+   "tips": [
+    "Une plage bonne pour le surf ne l'est pas forcément pour la baignade : pour nager, Tanjung Aan ; pour apprendre le surf, Selong Belanak.",
+    "Les routes vers les plages n'ont pas d'éclairage : en scooter, on rentre avant la nuit.",
+    "Sur les plages, des enfants vendent des bracelets avec insistance. Un non souriant suffit."
+   ],
+   "photos": [
+    {
+     "file": "BIRUNYA TANJUNG AAN.jpg",
+     "caption": "Plage de Tanjung Aan",
+     "author": "Suryanata budi",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "file": "Biru Bening Tanjung Aan.jpg",
+     "caption": "Tanjung Aan vue de la colline de Merese",
+     "author": "Dhika Ayu Agustin Cahyani",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "file": "Kuta Lombok Mawun Beach.JPG",
+     "caption": "Baie de Mawun",
+     "author": "Whatsinaname",
+     "license": "Public domain",
+     "licenseUrl": "https://commons.wikimedia.org/wiki/File:Kuta_Lombok_Mawun_Beach.JPG"
+    },
+    {
+     "file": "Shepherd and herd of buffalo.jpg",
+     "caption": "Buffles sur la plage de Selong Belanak",
+     "author": "Surya Edy Gautama",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "file": "Berugaq Desa Sade Lombok.jpg",
+     "caption": "Toits de chaume au village de Sade",
+     "author": "RaiyaniM",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "file": "Indonesian postcard (Lombok) (37378310672).jpg",
+     "caption": "Surfeur entrant dans l'eau à Lombok",
+     "author": "madras91",
+     "license": "CC BY 2.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    }
+   ]
+  },
+  "tetebatu": {
+   "intro": [
+    "Tetebatu est un village de rizières sur les pentes sud du Rinjani. Il est en altitude, donc il y fait plus frais que sur la côte. On loge dans de petites homestays au milieu des champs et on passe ses journées à pied avec un guide du village : digues entre les rizières, champs de tabac, forêt des singes noirs, cascades.",
+    "Ça change des plages : tout est vert et il y a de l'eau partout. Deux nuits suffisent, et pas besoin de grimper au sommet du volcan pour en profiter."
+   ],
+   "todo": [
+    {
+     "name": "Marche dans les rizières",
+     "type": "Randonnée",
+     "text": "Le classique de Tetebatu : trois ou quatre heures avec un guide du village, sur les digues entre les rizières en terrasses, les champs de tabac et de piment. On croise les paysans au travail et on finit en général par la forêt des singes ou par une cascade.",
+     "time": "3 à 4 h",
+     "price": null
+    },
+    {
+     "name": "Cascade de Sarang Walet",
+     "type": "Nature",
+     "text": "Une petite cascade cachée au fond d'une gorge étroite, à la sortie du village. On y arrive en marchant dans le lit de la rivière, de l'eau jusqu'aux genoux, puis on se met dessous. Prévoir un maillot et des sandales qui tiennent au pied.",
+     "time": "2 h",
+     "price": null
+    },
+    {
+     "name": "Forêt des singes noirs",
+     "type": "Faune",
+     "text": "Au-dessus du village, en lisière du parc du Rinjani, vit une colonie de lutungs, des singes noirs à très longue queue, plus farouches que les macaques. On a plus de chances de les voir tôt le matin ou en fin d'après-midi, haut dans les arbres.",
+     "time": "1 à 2 h",
+     "price": null
+    },
+    {
+     "name": "Cascade de Jeruk Manis",
+     "type": "Nature",
+     "text": "Plus haute que Sarang Walet, à l'intérieur du parc national du Rinjani. On laisse la voiture ou le scooter à l'entrée du parc et on finit à pied par un sentier en forêt, souvent en croisant des singes. L'eau est froide.",
+     "time": "demi-journée",
+     "price": null
+    },
+    {
+     "name": "Villages d'artisans de Pringgasela et Loyok",
+     "type": "Culture",
+     "text": "À quelques kilomètres de Tetebatu. Pringgasela est le village des tisserandes : elles travaillent devant leur maison sur un métier tendu par une sangle dans le dos, avec des fils teints aux plantes. À Loyok, on tresse le bambou en paniers et en boîtes.",
+     "time": "2 h",
+     "price": null
+    },
+    {
+     "name": "Cours de cuisine sasak",
+     "type": "Cuisine",
+     "text": "Plusieurs homestays proposent de cuisiner avec la famille : on cueille les légumes au jardin, on pile le sambal au mortier de pierre, on cuit au feu de bois et on mange ce qu'on a préparé.",
+     "time": "2 à 3 h",
+     "price": null
+    },
+    {
+     "name": "Cascades de Benang Stokel et Benang Kelambu",
+     "type": "Nature",
+     "text": "Une excursion vers l'ouest, près du village d'Aik Berik. D'abord Benang Stokel, deux chutes jumelles près du parking, puis Benang Kelambu, plus haut en forêt, où l'eau sort de la végétation en rideau. On monte de l'une à l'autre à pied ou à moto.",
+     "time": "demi-journée",
+     "price": null
+    }
+   ],
+   "access": "Tetebatu est à environ 1 h 30 de route de l'aéroport de Lombok, un peu plus depuis Kuta, en voiture avec chauffeur. Aucun transport public pratique ne monte jusqu'au village.",
+   "tips": [
+    "On prend un guide du village pour les marches : les sentiers ne sont pas balisés et c'est lui qui règle la longueur du parcours, de deux heures à la journée.",
+    "En août, tout n'est pas vert : en saison sèche une partie des parcelles passe au tabac ou aux légumes."
+   ],
+   "photos": [
+    {
+     "file": "Near-tetebatu (99516017).jpg",
+     "caption": "Rizières en terrasses près de Tetebatu",
+     "author": "Jon Evans",
+     "license": "CC BY 2.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+     "file": "Rinjani mountains the rain.jpg",
+     "caption": "Route de Tetebatu au pied du Rinjani",
+     "author": "HannoSEA",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "file": "Memanfaatkan Tenaga Hewan Ternak.jpg",
+     "caption": "Labour d'une rizière à Lombok",
+     "author": "Focusfeel",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "file": "Lombok - Benang Stokel Waterfall 1.jpg",
+     "caption": "Cascade de Benang Stokel",
+     "author": "P. Hughes",
+     "license": "CC BY 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+    },
+    {
+     "file": "LombokPaddyField.JPG",
+     "caption": "Rizière près de Masbagik",
+     "author": "Torbenbrinker",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
+  },
+  "nord-de-lombok": {
+   "intro": [
+    "Senaru est un village accroché à la pente nord du Rinjani. La plupart des voyageurs y passent une nuit avant de grimper le volcan. Nous, on y va pour les deux cascades, Sendang Gile et Tiu Kelep, qui tombent dans la jungle juste en dessous du village, et pour l'air frais.",
+    "On arrive par la route côtière du nord, on dort dans une guesthouse avec vue sur la vallée et on descend aux cascades tôt le matin, avant les groupes. L'après-midi, on visite le hameau traditionnel et la vieille mosquée de Bayan."
+   ],
+   "todo": [
+    {
+     "name": "Cascade de Sendang Gile",
+     "type": "Nature",
+     "text": "La plus facile des deux : un long escalier en béton descend depuis l'entrée du site, une vingtaine de minutes de marche. L'eau tombe en deux paliers d'une falaise couverte de mousse et de fougères. On peut se mettre dessous, elle est froide.",
+     "time": "1 h",
+     "price": null
+    },
+    {
+     "name": "Cascade de Tiu Kelep",
+     "type": "Randonnée",
+     "text": "On continue après Sendang Gile par un sentier en forêt : on longe un canal d'irrigation, puis on traverse la rivière à gué, de l'eau jusqu'aux genoux. Au bout, un mur d'eau bien plus large tombe dans une vasque où l'on se baigne.",
+     "time": "2 à 3 h avec Sendang Gile",
+     "price": null
+    },
+    {
+     "name": "Hameau traditionnel de Senaru",
+     "type": "Culture",
+     "text": "Tout en haut du village, près de l'entrée du parc du Rinjani : des maisons sasak en bambou tressé et toit de chaume, alignées autour d'une cour de terre battue. Les habitants font visiter contre un don et montrent l'intérieur d'une maison.",
+     "time": "30 min",
+     "price": null
+    },
+    {
+     "name": "Vieille mosquée de Bayan Beleq",
+     "type": "Culture",
+     "text": "À Bayan, quelques kilomètres avant Senaru, la plus ancienne mosquée de Lombok : une petite bâtisse carrée en bambou tressé, sur un socle de galets, sous un toit de chaume. Elle ne sert plus que pour quelques cérémonies du wetu telu, l'islam local mêlé de rites plus anciens.",
+     "time": "30 min",
+     "price": null
+    },
+    {
+     "name": "Balade dans les rizières de Senaru",
+     "type": "Randonnée",
+     "text": "Les guesthouses proposent un tour à pied d'une ou deux heures dans les rizières en terrasses et les plantations de café et de cacao autour du village. Par temps clair, on voit la mer d'un côté et le sommet du Rinjani de l'autre, surtout tôt le matin.",
+     "time": "1 à 2 h",
+     "price": null
+    }
+   ],
+   "access": "Senaru est à 1 h 30 ou 2 h de route de Bangsal, le port des Gili, par la côte nord, et à environ 3 h de l'aéroport de Lombok. On y va en voiture avec chauffeur.",
+   "tips": [
+    "Sandales qui tiennent au pied et maillot de bain : pour Tiu Kelep on marche dans l'eau et on finit trempé.",
+    "Pas besoin de guide pour Sendang Gile. Pour Tiu Kelep, il aide aux passages à gué.",
+    "Cette étape ne comprend pas l'ascension du Rinjani, qui est un trek de plusieurs jours."
+   ],
+   "photos": [
+    {
+     "file": "Tiu Kelep.jpg",
+     "caption": "Cascade de Tiu Kelep",
+     "author": "Jordy Meow",
+     "license": "CC BY 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+    },
+    {
+     "file": "Air Terjun Sendhang Gile.JPG",
+     "caption": "Cascade de Sendang Gile",
+     "author": "JV06Nofi Andari",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+     "file": "Rumah adat desa Senaru Lombok.jpg",
+     "caption": "Maison traditionnelle du hameau de Senaru",
+     "author": "RaiyaniM",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "file": "DSC 0041-02.jpg",
+     "caption": "Vieille mosquée de Bayan Beleq",
+     "author": "Inspiramdhany",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "file": "Rinjani Lombok Utara.jpg",
+     "caption": "Le Rinjani vu du nord de Lombok",
+     "author": "Isna bayan",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
+  },
+  "gili-air-meno-trawangan": {
+   "intro": [
+    "Trois îlots plats au large du nord-ouest de Lombok, entourés d'eau turquoise. Ni voiture ni scooter : on se déplace à pied, à vélo ou en cidomo, une carriole à cheval. On fait le tour de chaque île à pied en une à deux heures.",
+    "Trawangan est la plus grande et la plus festive, avec des bars et de la musique le soir. Meno est la plus petite et la plus calme, presque vide. Air est entre les deux : des cafés les pieds dans le sable, mais on dort tranquille. Pour un séjour à deux, je pencherais pour Air ou Meno."
+   ],
+   "todo": [
+    {
+     "name": "Snorkeling avec les tortues",
+     "type": "Faune",
+     "text": "Des tortues vertes et des tortues imbriquées broutent les herbiers à quelques mètres du bord. On en voit depuis la plage au nord-est de Trawangan, et presque à chaque fois avec les bateaux qui s'arrêtent à Turtle Point, devant Gili Meno. On regarde sans toucher.",
+     "time": "1 à 2 h",
+     "price": null
+    },
+    {
+     "name": "Tour des trois îles en bateau",
+     "type": "Mer",
+     "text": "La sortie classique, en bateau à fond de verre partagé ou en barque privée : trois ou quatre arrêts masque et tuba, dont le point des tortues et les statues immergées de Gili Meno, un cercle de silhouettes grandeur nature posé à quelques mètres de fond.",
+     "time": "demi-journée",
+     "price": null
+    },
+    {
+     "name": "Tour de l'île à vélo",
+     "type": "Détente",
+     "text": "On loue un vélo à la journée et on fait le tour de Trawangan ou d'Air par la piste qui longe la côte. Il y a des passages de sable mou où il faut pousser. Sur Meno, tout se fait à pied.",
+     "time": "1 à 2 h",
+     "price": null
+    },
+    {
+     "name": "Coucher de soleil côté ouest",
+     "type": "Détente",
+     "text": "Sur la côte ouest de Trawangan et d'Air, les bars sortent des poufs et plantent des balançoires dans l'eau. Le soleil se couche du côté de Bali, avec la silhouette du volcan Agung quand l'horizon est dégagé.",
+     "time": "1 h",
+     "price": null
+    },
+    {
+     "name": "Lever de soleil sur le Rinjani",
+     "type": "Nature",
+     "text": "Côté est, c'est l'inverse : le soleil se lève derrière le Rinjani et les montagnes de Lombok, juste en face. Il suffit de sortir vers 6 h et de marcher jusqu'à la plage. À cette heure-là, il n'y a que les pêcheurs.",
+     "time": "30 min",
+     "price": null
+    },
+    {
+     "name": "Une journée sur l'île voisine",
+     "type": "Mer",
+     "text": "Un bateau public fait la navette entre les trois îles, le matin et l'après-midi. On peut dormir à Air et passer la journée à Meno, pour ses plages désertes et son lac salé au milieu de l'île, ou aller voir l'ambiance de Trawangan.",
+     "time": "la journée",
+     "price": null
+    },
+    {
+     "name": "Marché de nuit de Trawangan",
+     "type": "Cuisine",
+     "text": "Le soir, sur la place près du port de Trawangan, des stands de poisson grillé, de brochettes et de nasi campur. On choisit son poisson au comptoir, on le fait griller et on mange à de grandes tables communes.",
+     "time": "le soir",
+     "price": null
+    }
+   ],
+   "access": "Bateau rapide direct depuis Bali (Padang Bai, environ 2 h de traversée), ou bateau public depuis le port de Bangsal, à Lombok : 15 à 30 minutes selon l'île.",
+   "tips": [
+    "Il y a du courant dans les chenaux entre les îles : on ne tente pas la traversée à la nage et on reste près du bord en snorkeling.",
+    "La traversée depuis Bali peut secouer. Prendre un bateau du matin et un cachet contre le mal de mer.",
+    "Dans beaucoup d'hébergements, l'eau de la douche est un peu salée."
+   ],
+   "photos": [
+    {
+     "file": "Gili Air Eastern coast looking at Lombok.jpg",
+     "caption": "Côte est de Gili Air face à Lombok",
+     "author": "Laurent Bigué",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+     "file": "Gili trawangan turtle 01.jpg",
+     "caption": "Tortue marine devant Gili Trawangan",
+     "author": "Nuctuslasheca",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "file": "Gili Trawangan.jpg",
+     "caption": "Cidomo sur le port de Gili Trawangan",
+     "author": "Will Kew",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+     "file": "Lombok Island and Mount Rinjani from Gili Meno Island, Indonesia.jpg",
+     "caption": "Lombok et le Rinjani vus de Gili Meno",
+     "author": "Vyacheslav Argenberg",
+     "license": "CC BY 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+    },
+    {
+     "file": "Sunset, Gili Trawangan, Indonesia (932884927).jpg",
+     "caption": "Coucher de soleil depuis Gili Trawangan",
+     "author": "yeowatzup",
+     "license": "CC BY 2.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+     "file": "Red colour at sunrise and Lombok's mountains - Trawangan Gili island (16358688994).jpg",
+     "caption": "Lever de soleil sur Lombok depuis Trawangan",
+     "author": "Jorge Láscar",
+     "license": "CC BY 2.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    }
+   ]
+  },
+  "labuan-bajo-komodo": {
+   "intro": [
+    "Labuan Bajo est le port d'où partent tous les bateaux pour le parc national de Komodo, un chapelet d'îles sèches entre Flores et Sumbawa. On y vient pour les dragons, des varans qui peuvent atteindre trois mètres et ne vivent qu'ici, mais on se souvient autant de la vue du haut de Padar et des raies manta.",
+    "Deux formules : la journée en bateau rapide, départ vers 5 h 30, cinq ou six arrêts, retour en fin d'après-midi ; ou la croisière de deux jours avec une nuit à bord d'un bateau en bois, qui laisse le temps de monter à Padar au lever du jour."
+   ],
+   "todo": [
+    {
+     "name": "Dragons de Komodo ou de Rinca",
+     "type": "Faune",
+     "text": "On débarque sur l'une des deux îles et un ranger armé d'un bâton fourchu nous emmène sur un sentier dans la savane. Les dragons restent souvent à l'ombre, près des bâtiments des rangers. Rinca est plus proche de Labuan Bajo, Komodo plus grande.",
+     "time": "1 à 2 h",
+     "price": null
+    },
+    {
+     "name": "Lever de soleil sur Padar",
+     "type": "Randonnée",
+     "text": "La photo qu'on voit partout : du haut d'une crête, trois baies aux plages de couleurs différentes, blanche, grise et rose. On monte par un escalier puis un sentier de terre, une demi-heure sans ombre. À faire au lever du jour ou en fin d'après-midi.",
+     "time": "1 h 30",
+     "price": null
+    },
+    {
+     "name": "Pink Beach",
+     "type": "Mer",
+     "text": "Le sable est rosé à cause de débris de corail rouge mêlés au sable blanc. La couleur ressort surtout là où la vague mouille la plage. Devant, le récif commence à quelques mètres du bord : masque et tuba suffisent.",
+     "time": "1 h",
+     "price": null
+    },
+    {
+     "name": "Nager avec les raies manta",
+     "type": "Faune",
+     "text": "À Manta Point, un plateau peu profond balayé par le courant, les raies viennent se nourrir et se faire nettoyer par de petits poissons. Le bateau nous dépose en amont, on se laisse dériver et on les voit passer en dessous. Elles font trois à quatre mètres d'envergure.",
+     "time": "45 min",
+     "price": null
+    },
+    {
+     "name": "Banc de sable de Taka Makassar",
+     "type": "Mer",
+     "text": "Un croissant de sable blanc qui sort de l'eau au milieu du parc, à côté de Manta Point. Les bateaux s'y arrêtent pour une baignade dans une eau très claire. À marée haute, il disparaît presque.",
+     "time": "30 min",
+     "price": null
+    },
+    {
+     "name": "Envol des chauves-souris à Kalong",
+     "type": "Faune",
+     "text": "Au coucher du soleil, les bateaux mouillent devant un îlot de mangrove près de Rinca. Quand la lumière baisse, des milliers de roussettes, de grandes chauves-souris qui mangent des fruits, décollent et passent au-dessus du pont. Les croisières de deux jours y passent la soirée.",
+     "time": "1 h",
+     "price": null
+    },
+    {
+     "name": "Île de Kelor",
+     "type": "Randonnée",
+     "text": "Un îlot tout près de Labuan Bajo, souvent le premier ou le dernier arrêt. Un raidillon d'un quart d'heure mène en haut de la colline, avec vue sur le chenal turquoise et la côte de Flores. En bas, une plage et un snorkeling tranquille.",
+     "time": "1 h",
+     "price": null
+    },
+    {
+     "name": "Grotte de Rangko",
+     "type": "Nature",
+     "text": "Hors du parc, au nord de Labuan Bajo : on roule jusqu'au village de Rangko, puis une barque mène à la grotte. Dedans, on se baigne dans un bassin d'eau salée. Y être en début d'après-midi, quand le soleil entre et allume l'eau en bleu.",
+     "time": "demi-journée",
+     "price": null
+    },
+    {
+     "name": "Coucher de soleil à Labuan Bajo",
+     "type": "Ville",
+     "text": "Le port regarde plein ouest. On voit le soleil descendre derrière les îles et les bateaux au mouillage depuis un des cafés perchés sur la colline, puis on dîne de poisson grillé aux stands du marché de nuit de Kampung Ujung, sur le front de mer.",
+     "time": "le soir",
+     "price": null
+    }
+   ],
+   "access": "Vol direct pour Labuan Bajo depuis Bali, un peu plus d'une heure, ou depuis Jakarta. L'aéroport est à dix minutes du port, d'où partent toutes les excursions.",
+   "tips": [
+    "Août est la haute saison : réserver le bateau à l'avance et demander ce que le prix comprend (droits d'entrée du parc, ranger, masque et palmes).",
+    "Les courants sont forts dans le parc. On ne se met à l'eau que là où l'équipage le dit, et on garde le gilet si on n'est pas à l'aise.",
+    "Dragons et raies sont des animaux sauvages : on en voit presque toujours, mais personne ne peut le garantir."
+   ],
+   "photos": [
+    {
+     "file": "Pulau Padar 1.jpg",
+     "caption": "Les baies de Padar vues de la crête",
+     "author": "YUS JULIADI",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "file": "Komodo dragon (Varanus komodoensis) 4.jpg",
+     "caption": "Dragon de Komodo sur l'île de Rinca",
+     "author": "Charles J. Sharp",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "file": "Pink Beach, Padar Island, Komodo National Park, Indonesia, 20250822 1108 2680.jpg",
+     "caption": "Plage rose sur l'île de Padar",
+     "author": "Jakub Hałun",
+     "license": "CC BY 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+    },
+    {
+     "file": "Manta .jpg",
+     "caption": "Raie manta dans le parc de Komodo",
+     "author": "Jonathangarryh",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "file": "Large flying foxes (Pteropus vampyrus) in flight from Pulau Kalong Rinca.jpg",
+     "caption": "Envol des roussettes à Kalong",
+     "author": "Charles J. Sharp",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "file": "Labuan Bajo pier at sunset (16497766814).jpg",
+     "caption": "Port de Labuan Bajo au coucher du soleil",
+     "author": "Jorge Láscar",
+     "license": "CC BY 2.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    }
+   ]
+  },
+  "ruteng-et-manggarai": {
+   "intro": [
+    "Ruteng est une petite ville de montagne à quatre heures de route de Labuan Bajo, à plus de 1 000 m d'altitude : il y fait frais, souvent brumeux, on ressort le pull. C'est le pays des Manggarai, avec ses rizières découpées en toile d'araignée, ses maisons coniques et ses duels au fouet les jours de fête.",
+    "On y dort une ou deux nuits, sur la route de Wae Rebo ou en aller-retour depuis Labuan Bajo. Les sites sont dispersés autour de la ville, on les enchaîne avec le chauffeur."
+   ],
+   "todo": [
+    {
+     "name": "Rizières en toile d'araignée de Cancar",
+     "type": "Nature",
+     "text": "À Cancar, une demi-heure à l'ouest de Ruteng, on monte dix minutes sur une colline et on voit les rizières découpées en parts de gâteau. C'est le lingko, le partage des terres chez les Manggarai : chaque famille reçoit une part qui s'élargit vers l'extérieur.",
+     "time": "1 h",
+     "price": null
+    },
+    {
+     "name": "Grotte de Liang Bua",
+     "type": "Culture",
+     "text": "La grotte où l'on a découvert en 2003 l'homme de Florès, un petit humain d'un mètre de haut surnommé le hobbit. C'est une grande salle ouverte, avec des stalactites et les carrés de fouille au sol. À une dizaine de kilomètres au nord de Ruteng.",
+     "time": "1 h 30 avec la route",
+     "price": null
+    },
+    {
+     "name": "Village de Ruteng Pu'u",
+     "type": "Culture",
+     "text": "Le vieux village, à la sortie de la ville : deux maisons traditionnelles au toit conique, et devant, une cour ronde pavée de pierres avec le compang, la plateforme qui sert d'autel aux ancêtres. On signe le livre d'or et on laisse un don.",
+     "time": "30 min",
+     "price": null
+    },
+    {
+     "name": "Marché de Ruteng",
+     "type": "Ville",
+     "text": "Le matin, au marché central : légumes de montagne, café de Manggarai, tabac, poisson séché, et les songke, les sarongs noirs à motifs colorés que portent les gens d'ici. Bon endroit pour acheter du café à rapporter.",
+     "time": "1 h",
+     "price": null
+    },
+    {
+     "name": "Lac Ranamese",
+     "type": "Nature",
+     "text": "Un petit lac de cratère entouré de forêt, au bord de la route transflorésienne, à une vingtaine de kilomètres à l'est de Ruteng. Un sentier descend jusqu'à la rive. Le matin, des pêcheurs y lancent leur ligne depuis un radeau de bambou.",
+     "time": "1 h",
+     "price": null
+    },
+    {
+     "name": "Combat de caci",
+     "type": "Culture",
+     "text": "Un duel au fouet : l'un frappe, l'autre pare avec un bouclier rond, au son des gongs. Il a lieu pour les fêtes de récolte, les mariages et autour du 17 août, la fête nationale. Demander à l'hôtel s'il y en a un ces jours-là.",
+     "time": "",
+     "price": null
+    }
+   ],
+   "access": "Par la route transflorésienne depuis Labuan Bajo : environ 4 h de virages, en voiture avec chauffeur. On s'arrête à Cancar juste avant d'arriver à Ruteng.",
+   "tips": [
+    "La route tourne sans arrêt : prévoir de quoi lutter contre le mal des transports.",
+    "Ruteng est en altitude, les soirées sont fraîches même en août."
+   ],
+   "photos": [
+    {
+     "file": "Wyspa Flores-Indonezja -pola ryżowe - panoramio.jpg",
+     "caption": "Rizières en toile d'araignée de Cancar",
+     "author": "Jan Markiewicz",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+     "file": "Homo floresiensis cave.jpg",
+     "caption": "Intérieur de la grotte de Liang Bua",
+     "author": "Rosino",
+     "license": "CC BY-SA 2.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    {
+     "file": "RUT - Paddy fields near Ruteng, Flores, Indonesia, 2019.jpg",
+     "caption": "Rizières en terrasses près de Ruteng",
+     "author": "Josep M. Gracia",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "file": "Tari Caci.jpg",
+     "caption": "Duel de caci, fouet contre bouclier",
+     "author": "Fakhri Anindita",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "file": "Nelayan Ranamese.jpg",
+     "caption": "Pêcheur sur le lac Ranamese",
+     "author": "Benny Agung Muljawan",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "file": "RUT - Interior of a market in Ruteng, Flores, Indonesia, 2019.jpg",
+     "caption": "Allée du marché de Ruteng",
+     "author": "Josep M. Gracia",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
+  },
+  "wae-rebo": {
+   "intro": [
+    "Wae Rebo est un hameau manggarai isolé dans une cuvette de montagne, au sud-ouest de Ruteng : sept grandes maisons coniques, couvertes de chaume presque jusqu'au sol, disposées en arc de cercle autour d'un autel de pierre. Aucune route n'y monte.",
+    "On laisse la voiture à Denge, le dernier village, et on grimpe à pied par un sentier de forêt. En haut, les anciens nous reçoivent dans la maison principale, puis on dîne et on dort tous ensemble sur des nattes dans une des maisons. On redescend le lendemain matin."
+   ],
+   "todo": [
+    {
+     "name": "Montée à pied depuis Denge",
+     "type": "Randonnée",
+     "text": "Le sentier part au-dessus de Denge et grimpe dans la forêt humide jusqu'à un col, d'où on voit les toits. Ça monte presque tout le temps, sur un chemin bien tracé, glissant après la pluie. Au dernier abri, on frappe un tambour de bambou pour s'annoncer.",
+     "time": "",
+     "price": null
+    },
+    {
+     "name": "Cérémonie d'accueil",
+     "type": "Culture",
+     "text": "Avant de sortir l'appareil photo, on entre dans la plus grande maison, celle des tambours. Un ancien nous présente aux ancêtres en quelques phrases, on remet un don, et on devient des invités du village. Après seulement, on peut se promener et photographier.",
+     "time": "20 min",
+     "price": null
+    },
+    {
+     "name": "Nuit dans une maison conique",
+     "type": "Culture",
+     "text": "Les visiteurs dorment en cercle sur des nattes tressées, avec oreiller et couverture, dans une maison réservée aux hôtes. Le dîner et le petit déjeuner sont préparés par les familles : riz, légumes, poulet, café du village. Les toilettes sont dehors, l'eau est froide.",
+     "time": "la nuit",
+     "price": null
+    },
+    {
+     "name": "Café de Wae Rebo",
+     "type": "Cuisine",
+     "text": "Le village vit du café, cultivé sur les pentes autour. On voit les cerises sécher sur des bâches devant les maisons et les femmes trier les grains à la main. On en boit en arrivant et on peut en acheter un sachet à rapporter.",
+     "time": "",
+     "price": null
+    },
+    {
+     "name": "Lever du jour sur le village",
+     "type": "Nature",
+     "text": "Le meilleur moment. Vers 6 h, la brume remplit la vallée et les toits en sortent un par un, pendant que la fumée des cuisines passe à travers le chaume. On grimpe sur la butte au-dessus des maisons pour la vue d'ensemble.",
+     "time": "30 min",
+     "price": null
+    }
+   ],
+   "access": "Depuis Ruteng, compter environ 3 h de petite route jusqu'à Denge, et presque le double depuis Labuan Bajo. La fin se fait à pied.",
+   "tips": [
+    "Avant de réserver, demander au guide la durée et le dénivelé de la montée : c'est une marche de montagne, pas une promenade.",
+    "Confort minimal : on dort par terre, à plusieurs dizaines dans la même pièce, et il fait froid la nuit. Prendre une polaire, une lampe frontale et des bouchons d'oreilles.",
+    "Ne monter que le nécessaire pour une nuit. On peut payer un porteur à Denge."
+   ],
+   "photos": [
+    {
+     "file": "Rumah Adat Mbaru Niang.jpg",
+     "caption": "Les maisons coniques de Wae Rebo",
+     "author": "AsdarMunandar",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "file": "Wae Rebo village, Flores Island, Indonesia, 20250824 0753 3029.jpg",
+     "caption": "Maison conique et café qui sèche",
+     "author": "Jakub Hałun",
+     "license": "CC BY 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+    },
+    {
+     "file": "Wae Rebo village, Flores Island, Indonesia, 20250823 1729 2910.jpg",
+     "caption": "Partie de ballon devant les maisons",
+     "author": "Jakub Hałun",
+     "license": "CC BY 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+    },
+    {
+     "file": "WAE - Women sorting coffee beans in Wae Rebo, Flores, Indonesia, 2019.jpg",
+     "caption": "Tri des grains de café",
+     "author": "Josep M. Gracia",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "file": "Distant view of Wae Rebo village, Flores Island, Indonesia, 20250824 0824 3037.jpg",
+     "caption": "Un toit du village dans la forêt",
+     "author": "Jakub Hałun",
+     "license": "CC BY 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+    },
+    {
+     "file": "WAE - Wae Rebo village in fog, Flores, Indonesia, 2019.jpg",
+     "caption": "Wae Rebo dans la brume",
+     "author": "Josep M. Gracia",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
+  },
+  "sumbawa-besar-moyo": {
+   "intro": [
+    "Moyo est une île-réserve en face de Sumbawa Besar, couverte de forêt, avec un millier d'habitants et presque pas de route. On y va pour la cascade de Mata Jitu, une série de bassins de calcaire vert émeraude en pleine forêt, et pour le snorkeling devant les plages.",
+    "On part en bateau de Sumbawa Besar jusqu'au village de Labuan Aji, où l'on dort en homestay. Compter deux nuits sur l'île, plus une à Sumbawa Besar pour voir le vieux palais en bois des sultans."
+   ],
+   "todo": [
+    {
+     "name": "Cascade de Mata Jitu",
+     "type": "Nature",
+     "text": "À cinq kilomètres de Labuan Aji : on monte à l'arrière d'une moto-taxi par une piste en forêt, puis on finit à pied. L'eau descend en escalier dans des vasques de calcaire, d'un vert laiteux. La princesse Diana y est venue en 1993.",
+     "time": "2 à 3 h",
+     "price": null
+    },
+    {
+     "name": "Snorkeling devant Labuan Aji",
+     "type": "Mer",
+     "text": "Le récif commence à quelques brasses de la plage du village : coraux, poissons-clowns, parfois une tortue. Toute l'île est entourée d'une réserve marine. Apporter son masque et son tuba, on n'en trouve pas toujours à louer sur place.",
+     "time": "1 à 2 h",
+     "price": null
+    },
+    {
+     "name": "Cascade de Diwu Mba'i",
+     "type": "Nature",
+     "text": "Plus près du village que Mata Jitu : une vasque profonde au pied d'une petite chute, où les enfants du coin se jettent à l'eau au bout d'une corde accrochée à un arbre. C'est là qu'on se baigne.",
+     "time": "1 à 2 h",
+     "price": null
+    },
+    {
+     "name": "Palais Dalam Loka",
+     "type": "Culture",
+     "text": "À Sumbawa Besar, l'ancien palais des sultans, construit en 1885 : deux grandes bâtisses jumelles entièrement en bois, posées sur 99 piliers de teck. On visite l'intérieur, presque vide, et on en fait le tour par le jardin.",
+     "time": "45 min",
+     "price": null
+    },
+    {
+     "name": "Requins-baleines de la baie de Saleh",
+     "type": "Faune",
+     "text": "Dans la baie de Saleh, à l'est de Sumbawa Besar, des requins-baleines viennent au lever du jour sous les plateformes de pêche, attirés par les petits poissons des filets. On part en bateau avant l'aube et on nage à côté d'eux avec masque et tuba.",
+     "time": "la matinée",
+     "price": null
+    },
+    {
+     "name": "Île de Kenawa",
+     "type": "Nature",
+     "text": "Sur la route en venant de Lombok, en face du port de Poto Tano : un îlot désert couvert d'herbe, avec une seule colline. Un pêcheur y dépose depuis le port. On monte en haut de la colline pour la vue, puis on se baigne.",
+     "time": "2 à 3 h",
+     "price": null
+    }
+   ],
+   "access": "Depuis Lombok, ferry de Labuhan Lombok à Poto Tano (environ 1 h 30), puis deux heures de route jusqu'à Sumbawa Besar. De là, un bateau en bois traverse vers Labuan Aji, sur Moyo.",
+   "tips": [
+    "Pas d'horaire affiché pour Moyo : le bateau public part quand il est plein, sinon on affrète une barque. L'hôtel de Sumbawa Besar ou la homestay de Labuan Aji s'en occupent.",
+    "Sur l'île, on loge chez l'habitant, très simplement. L'autre adresse est l'Amanwana, un camp de tentes de grand luxe."
+   ],
+   "photos": [
+    {
+     "file": "Sumbawa Adventour - Moyo Island Mata Jitu Waterfall.jpg",
+     "caption": "Bassins de la cascade de Mata Jitu",
+     "author": "Egaryan Saadi",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "file": "Moyo Island, North Sumbawa.JPG",
+     "caption": "Mer turquoise autour de l'île de Moyo",
+     "author": "Katiebowl",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+     "file": "Hiu paus ( whale shark ).jpg",
+     "caption": "Requin-baleine dans la baie de Saleh",
+     "author": "Muhammad syaran",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "file": "SuBesarPalace.JPG",
+     "caption": "Palais Dalam Loka à Sumbawa Besar",
+     "author": "Torbenbrinker",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+     "file": "MoyoSchiffbau.JPG",
+     "caption": "Maison et bateau en chantier sur Moyo",
+     "author": "Torbenbrinker",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+     "file": "SumbawaPaddyFields.JPG",
+     "caption": "Rizières près de Sumbawa Besar",
+     "author": "Torbenbrinker",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
+  },
+  "sud-ouest-waikabubak": {
+   "intro": [
+    "L'ouest de Sumba est la partie la plus traditionnelle de l'île. Les villages sont bâtis sur des buttes : de hautes maisons au toit de chaume en chapeau pointu et, devant, les tombes des ancêtres, d'énormes dalles de pierre. Beaucoup d'habitants suivent encore le marapu, la religion des ancêtres.",
+    "On dort à Waikabubak ou près de Tambolaka et on fait deux boucles en voiture : les villages autour de Waikabubak, puis la côte de Kodi, tout à l'ouest, avec Ratenggaro, le lagon de Weekuri et la plage de Mandorak."
+   ],
+   "todo": [
+    {
+     "name": "Village de Ratenggaro",
+     "type": "Culture",
+     "text": "Sur la côte de Kodi : des toits de chaume d'une quinzaine de mètres, parmi les plus hauts de Sumba, au bord d'une plage où se jette une rivière. Des tombes en pierre font face au large. Les enfants proposent un tour à cheval sur le sable.",
+     "time": "1 h",
+     "price": null
+    },
+    {
+     "name": "Lagon de Weekuri",
+     "type": "Mer",
+     "text": "Un bassin d'eau de mer turquoise fermé par une barrière de rochers : les vagues passent par des trous dans la roche et renouvellent l'eau. On s'y baigne sans vague ni courant, et on saute d'une plateforme en bois. Plus d'eau à marée haute.",
+     "time": "2 h",
+     "price": null
+    },
+    {
+     "name": "Plage de Mandorak",
+     "type": "Mer",
+     "text": "À quelques minutes de Weekuri, une petite crique de sable blanc serrée entre deux avancées de rocher, avec une ouverture étroite sur le large. On y vient pour le décor et pour se tremper au bord : la houle entre fort, on ne s'éloigne pas.",
+     "time": "45 min",
+     "price": null
+    },
+    {
+     "name": "Villages de Tarung et Waitabar",
+     "type": "Culture",
+     "text": "En pleine ville de Waikabubak, sur une colline : deux villages collés l'un à l'autre, avec les tombes au milieu et, sur les façades, les cornes de buffle et les mâchoires de cochon des sacrifices passés. Tarung a brûlé en 2017 et a été reconstruit à l'identique.",
+     "time": "1 h",
+     "price": null
+    },
+    {
+     "name": "Village de Praijing",
+     "type": "Culture",
+     "text": "À quelques kilomètres de Waikabubak, un village étagé sur une colline. Depuis la plateforme d'observation à l'entrée, on voit des dizaines de toits pointus sortir des arbres. Il est plus aménagé pour les visiteurs que les autres.",
+     "time": "45 min",
+     "price": null
+    },
+    {
+     "name": "Plage de Bwanna",
+     "type": "Mer",
+     "text": "Une plage sauvage au pied d'une falaise, aussi appelée Mbawana, avec une arche de pierre géante plantée dans le sable. On y descend par un sentier raide. À marée basse, on passe sous l'arche à pied.",
+     "time": "2 h",
+     "price": null
+    },
+    {
+     "name": "Cascade de Lapopu",
+     "type": "Nature",
+     "text": "Dans le parc national au sud de Waikabubak : une cascade en escalier d'environ 90 m de haut, qui dévale la roche jusqu'à un bassin vert. On y arrive par une courte marche le long de la rivière, et on se baigne en bas.",
+     "time": "demi-journée",
+     "price": null
+    },
+    {
+     "name": "Marché de Waikabubak",
+     "type": "Ville",
+     "text": "Le matin, au marché de la ville : des tas de noix d'arec et de feuilles de bétel, que tout le monde mâche ici (d'où les dents rouges), du tabac, des légumes. Les hommes portent le parang, la machette, glissé dans un tissu noué à la taille.",
+     "time": "45 min",
+     "price": null
+    }
+   ],
+   "access": "Vol depuis Bali jusqu'à Tambolaka, à environ une heure de route de Waikabubak. Sur place, il faut une voiture avec chauffeur : aucun transport ne dessert les plages et les villages.",
+   "tips": [
+    "Dans les villages, on signe le livre d'or et on laisse un don : prévoir des petites coupures. Un guide local aide à comprendre les tombes, les maisons et le marapu.",
+    "Demander avant de photographier les gens.",
+    "À Weekuri la baignade est facile. Sur les plages ouvertes, Mandorak et Bwanna, la houle de l'océan Indien est forte."
+   ],
+   "photos": [
+    {
+     "file": "Rumah Kampung Adat Ratenggaro - Sumba Barat Daya.jpg",
+     "caption": "Maisons à hauts toits de Ratenggaro",
+     "author": "Allwyn Wawyn",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "file": "Weekuri Lagoon.jpg",
+     "caption": "Lagon de Weekuri",
+     "author": "Bimantara.prawoto",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "file": "Kampung Adat Praijing, Sumba Barat.jpg",
+     "caption": "Village de Praijing vu d'en haut",
+     "author": "Zahrasrtn",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "file": "Pantai Mandorak, Sumba Barat Daya.jpg",
+     "caption": "Crique de Mandorak",
+     "author": "Zahrasrtn",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "file": "Kampung Adat Ratenggaro - Sumba Barat Daya.jpg",
+     "caption": "Tombes de pierre à Ratenggaro",
+     "author": "Allwyn Wawyn",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "file": "Pantai Mbawana, Sumba Barat Daya.jpg",
+     "caption": "Arche de pierre de la plage de Bwanna",
+     "author": "Zahrasrtn",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
+  },
+  "waingapu-et-est": {
+   "intro": [
+    "L'est de Sumba est sec et vide : des collines d'herbe jusqu'à l'horizon, des chevaux en liberté, quelques villages de tisserandes. On dort à Waingapu, la plus grande ville de l'île, et on part en voiture à la journée.",
+    "En août les collines de Wairinding sont jaune paille, pas vertes comme sur les photos prises en saison des pluies. On vient aussi pour l'ikat de Sumba, de grands tissus à motifs de chevaux, de coqs et de crevettes, teints à l'indigo et à la racine de morinda."
+   ],
+   "todo": [
+    {
+     "name": "Collines de Wairinding",
+     "type": "Nature",
+     "text": "À une demi-heure de Waingapu, sur la route de l'ouest. On se gare, on monte cinq minutes et on voit des dizaines de collines rondes couvertes d'herbe, sans arbre. Y aller au lever du soleil ou vers 17 h, quand la lumière rasante creuse les reliefs.",
+     "time": "1 h",
+     "price": null
+    },
+    {
+     "name": "Ateliers d'ikat à Prailiu et Rende",
+     "type": "Culture",
+     "text": "À Prailiu, village royal à la sortie de Waingapu, les femmes tissent sous les maisons et montrent les étapes : nouer les fils, les teindre, tisser. Une grande pièce demande des mois. À Rende, plus loin vers l'est, mêmes tissages au pied de tombes royales sculptées.",
+     "time": "demi-journée",
+     "price": null
+    },
+    {
+     "name": "Arbres dansants de Walakiri",
+     "type": "Nature",
+     "text": "Une plage à une demi-heure à l'est de Waingapu. À marée basse, au coucher du soleil, de petits palétuviers tordus se découpent sur l'eau qui se retire : on les appelle les arbres qui dansent. On marche jusqu'à eux sur le sable mouillé.",
+     "time": "1 h 30",
+     "price": null
+    },
+    {
+     "name": "Cascade de Waimarang",
+     "type": "Nature",
+     "text": "Une vasque turquoise au fond d'une gorge de calcaire, alimentée par une petite chute. Depuis le parking, vingt minutes de descente raide en forêt, et la remontée fait transpirer. On se baigne dans le bassin. Arriver le matin, avant le monde.",
+     "time": "demi-journée",
+     "price": null
+    },
+    {
+     "name": "Cascade de Tanggedu",
+     "type": "Randonnée",
+     "text": "Au nord-ouest de Waingapu, un canyon de roche claire, sculptée en strates, où deux rivières se rejoignent en cascades et en bassins bleu-vert. La fin de la route est une piste, puis on marche dans la savane en plein soleil. Partir tôt avec beaucoup d'eau.",
+     "time": "la journée",
+     "price": null
+    },
+    {
+     "name": "Savane de Puru Kambera",
+     "type": "Nature",
+     "text": "Sur la route côtière qui mène à Tanggedu : une plaine d'herbe jaune piquée de quelques arbres, au bord d'une mer bleu foncé. Des chevaux de Sumba y broutent en liberté. On s'arrête pour marcher un peu et se baigner sur la plage d'en face.",
+     "time": "1 h",
+     "price": null
+    }
+   ],
+   "access": "Vol depuis Bali jusqu'à l'aéroport de Waingapu, tout près de la ville. Depuis Waikabubak et l'ouest de l'île, environ 4 h de route, en passant par les collines de Wairinding.",
+   "tips": [
+    "Ne pas s'attendre à des collines vertes en août : elles sont dorées de juillet à octobre.",
+    "Pour voir une démonstration de teinture ou de tissage, faire prévenir la veille par le chauffeur. Sans rendez-vous, on ne voit parfois que les tissus à vendre.",
+    "Très peu d'ombre partout : chapeau, eau, et les sites exposés tôt le matin ou en fin d'après-midi."
+   ],
+   "photos": [
+    {
+     "file": "Bukit Wairinding-Sumba Timur.jpg",
+     "caption": "Collines de Wairinding en saison sèche",
+     "author": "Djakartacaver",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "file": "Bakau di walakiri beach.jpg",
+     "caption": "Palétuviers de Walakiri au coucher du soleil",
+     "author": "Ignaskunda8",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "file": "Surga tersembunyi di Waimarang, Sumba.jpg",
+     "caption": "Vasque de la cascade de Waimarang",
+     "author": "Jordan siva",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "file": "Tenun Ikat Sumba.jpg",
+     "caption": "Fils d'ikat teints mis à sécher",
+     "author": "06Ivonne",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "file": "Liarnya keindahan Sumba.jpg",
+     "caption": "Chevaux dans la savane de Puru Kambera",
+     "author": "Jordan siva",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "file": "Air Terjun Tanggedu, Sumba Timur.jpg",
+     "caption": "Cascade de Tanggedu",
+     "author": "Zahrasrtn",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
+  }
+ }
+}

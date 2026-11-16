@@ -1,0 +1,716 @@
+{
+  "regions": {
+    "moluques": {
+      "intro": "Les îles aux épices. C'est pour la muscade de Banda et le girofle de Ternate que Portugais, Espagnols et Hollandais se sont battus ici pendant deux siècles. Il en reste des forts un peu partout, des volcans qui tombent dans la mer et très peu de touristes. Banda est tout au sud, Ternate, Tidore et Morotai tout au nord : ce sont deux voyages différents, l'un par Ambon, l'autre par Ternate. On choisit l'un ou l'autre, rarement les deux.",
+      "august": "À Banda, août tombe en pleine saison de pluie et de vent : la mer est agitée et les bateaux depuis Ambon sont souvent annulés. À Ternate et Tidore il fait plutôt sec, à Morotai il peut pleuvoir toute l'année.",
+      "access": "On arrive en avion à Ambon pour Banda, à Ternate pour le nord. Ensuite ce sont des bateaux et de petits avions qui ne partent pas tous les jours : on cale ses dates sur leurs horaires."
+    },
+    "raja-ampat": {
+      "intro": "Des centaines d'îlots calcaires couverts de jungle, au bout de la Papouasie, et sous la surface des récifs parmi les plus riches du monde. Ici on ne fait pas de circuit. On choisit un homestay sur pilotis à Kri, Gam ou Arborek, on y reste plusieurs nuits et on nage devant la cabane, masque sur le nez. Les repas sont compris, la douche se prend au seau, l'électricité s'arrête la nuit. Pour le reste, on sort en bateau à la journée.",
+      "august": "De juin à septembre, le vent du sud lève de la houle : les longues traversées, comme celle de Piaynemo, peuvent être annulées. On prend un homestay sur une côte abritée et on garde des jours de marge.",
+      "access": "Vol jusqu'à Sorong, puis ferry rapide pour Waisai en 2 h environ, où le homestay vient nous chercher en bateau. Tous les déplacements entre les îles se font en bateau et se paient à part."
+    },
+    "timor-occidental-et-alor": {
+      "intro": "Kupang, à l'ouest de Timor, est la grande ville du coin : on y atterrit, on y passe une soirée devant un poisson grillé, puis on reprend un petit avion pour Alor. Là-bas, c'est une île volcanique et sèche, avec des villages perchés et un détroit plein de coraux où l'eau est fraîche et le courant fort. On pose ses sacs sur l'îlot de Kepa et on nage. Très peu de voyageurs font le détour.",
+      "august": "Août est en pleine saison sèche : ciel bleu, collines jaunies. Autour d'Alor, la mer est fraîche à cette période et les courants restent forts toute l'année.",
+      "access": "On atterrit à Kupang, puis un vol d'environ une heure mène à Alor. Sur place, on circule en voiture avec chauffeur ou en scooter, et on traverse en barque jusqu'à Kepa."
+    }
+  },
+  "places": {
+    "banda-neira": {
+      "intro": [
+        "Dix petites îles volcaniques perdues en mer de Banda, à près de 200 km d'Ambon. Jusqu'au XIXe siècle, toute la muscade du monde venait d'ici, et les Hollandais ont massacré presque toute la population en 1621 pour en garder le monopole. Banda Neira, le bourg principal, a encore ses deux forts et ses maisons coloniales à colonnades, un peu décaties.",
+        "En face, à quelques minutes de barque, le cône du Gunung Api sort de l'eau. On visite à pied, on traverse vers les plantations de Banda Besar et on nage sur des récifs en très bon état."
+      ],
+      "todo": [
+        {
+          "name": "Fort Belgica",
+          "type": "Culture",
+          "text": "Bâti par les Hollandais en 1611 au-dessus du bourg, reconstruit en pentagone vers 1672 et restauré en 1991. On monte sur les remparts et dans les tours, avec la baie et le Gunung Api en face. Plus beau en fin d'après-midi.",
+          "time": "1 h",
+          "price": null
+        },
+        {
+          "name": "Fort Nassau et les maisons coloniales",
+          "type": "Ville",
+          "text": "En contrebas de Belgica, le fort Nassau, le premier des Hollandais, est à moitié en ruine. Autour, on longe les maisons à colonnades : l'Istana Mini, ancienne résidence du gouverneur, et celles où Hatta et Sjahrir ont vécu en exil avant l'indépendance.",
+          "time": "2 h",
+          "price": null
+        },
+        {
+          "name": "Plantations de muscade de Banda Besar",
+          "type": "Nature",
+          "text": "On traverse en barque jusqu'à Lonthoir, sur Banda Besar. Les muscadiers poussent à l'ombre d'immenses kenaris. Sur place, on nous ouvre le fruit : la noix brune, le macis rouge qui l'entoure, puis le séchage au soleil.",
+          "time": "demi-journée",
+          "price": null
+        },
+        {
+          "name": "Montée au Gunung Api",
+          "type": "Randonnée",
+          "text": "Le volcan d'en face culmine à 640 m et sa dernière éruption date de 1988. La montée est courte mais très raide, sur des cailloux qui roulent. On part au lever du jour avec un guide et de bonnes chaussures. D'en haut, on voit tout l'archipel.",
+          "time": "3 à 4 h aller-retour",
+          "price": null
+        },
+        {
+          "name": "Snorkeling sur la coulée de lave",
+          "type": "Mer",
+          "text": "Au pied du Gunung Api, la coulée de 1988 est entrée dans la mer et le corail a repoussé dessus étonnamment vite. On y va en barque depuis Banda Neira, en quelques minutes. L'eau est claire et le récif commence tout près du bord.",
+          "time": "2 h",
+          "price": null
+        },
+        {
+          "name": "Journée à Pulau Hatta ou Pulau Ai",
+          "type": "Mer",
+          "text": "Les plus beaux récifs sont sur les îles extérieures. À Pulau Hatta, le tombant démarre à quelques mètres de la plage du village. Pulau Ai a aussi ses muscadiers et les ruines d'un fort. Environ une heure de bateau à l'aller, par mer calme seulement.",
+          "time": "la journée",
+          "price": null
+        },
+        {
+          "name": "Confiture de muscade et sauce kenari",
+          "type": "Cuisine",
+          "text": "Dans les pensions, on goûte la confiture et le sirop faits avec la chair du fruit de la muscade. Le poisson grillé et l'aubergine arrivent avec une sauce aux noix de kenari, une sorte d'amande locale.",
+          "time": "",
+          "price": null
+        }
+      ],
+      "access": "Depuis Ambon : bateau rapide au départ de Tulehu (environ 6 h, quelques départs par semaine), gros ferry Pelni ou petit avion, tous peu fréquents. On rejoint Ambon par un vol depuis Jakarta ou Makassar.",
+      "tips": [
+        "En août, c'est la mauvaise saison ici : pluie, mer agitée, bateau rapide souvent arrêté, donc plusieurs jours de marge à garder avant le vol retour.",
+        "Sur place tout se fait à pied, les barques se négocient au port.",
+        "On retire son liquide à Ambon avant de partir."
+      ],
+      "photos": [
+        {
+          "file": "Banda Pisang view on Api.jpg",
+          "caption": "Le Gunung Api vu de Pulau Pisang",
+          "author": "WiDi",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Fort Belgica Fortifications 2018.jpg",
+          "caption": "Remparts du fort Belgica et la baie",
+          "author": "The13thSchulzter",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Benteng Nassau 13.jpg",
+          "caption": "Fort Nassau et le Gunung Api",
+          "author": "Zhilal Darma",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Agrowisata Kebun Pala Lonthoir 06.jpg",
+          "caption": "Noix de muscade ouvertes à Lonthoir",
+          "author": "Zhilal Darma",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Banda Pisang.jpg",
+          "caption": "Eau claire à Pulau Pisang",
+          "author": "WiDi",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Rumah Pengasingan Bung Hatta 01.jpg",
+          "caption": "Maison d'exil de Hatta à Banda Neira",
+          "author": "Zhilal Darma",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
+    },
+    "ternate-tidore": {
+      "intro": [
+        "Ternate, c'est un volcan de 1 715 m, le Gamalama, avec une ville accrochée à son flanc. L'île est toute petite : on en fait le tour par la route côtière en une demi-journée. C'était la capitale du clou de girofle. Les sultans, les Portugais et les Hollandais y ont laissé un palais et une série de forts.",
+        "En face, Tidore, l'île rivale, est à une dizaine de minutes de bateau. Plus calme, elle a son propre sultanat, ses forts espagnols et des girofliers partout sur les pentes."
+      ],
+      "todo": [
+        {
+          "name": "Tournée des forts",
+          "type": "Culture",
+          "text": "Trois forts se visitent facilement. Tolukko, petit fort portugais sur une butte au nord de la ville. Oranje, le grand fort hollandais de 1607, en plein centre. Kalamata, au sud, posé au ras de l'eau face à Tidore.",
+          "time": "demi-journée",
+          "price": null
+        },
+        {
+          "name": "Palais du sultan",
+          "type": "Culture",
+          "text": "Le kedaton est une grande maison jaune sur une butte face à la mer. Une partie se visite comme un musée : armes, armures portugaises, objets de cour. Juste à côté, la mosquée du sultanat et son toit à étages.",
+          "time": "1 h",
+          "price": null
+        },
+        {
+          "name": "Lac Tolire",
+          "type": "Nature",
+          "text": "Un lac de cratère vert au pied du Gamalama, au nord-ouest de l'île, entouré de falaises. La légende dit qu'aucune pierre lancée du bord n'atteint l'eau, et des gamins en vendent pour essayer. On s'y arrête pendant le tour de l'île.",
+          "time": "1 h",
+          "price": null
+        },
+        {
+          "name": "Tour de l'île par la côte",
+          "type": "Nature",
+          "text": "En voiture ou en scooter : la coulée de lave noire de Batu Angus, la plage de Sulamadaha et sa crique claire où l'on nage avec un masque, puis le lac Ngade, d'où l'on voit Maitara et Tidore comme sur l'ancien billet de 1 000 roupies.",
+          "time": "demi-journée",
+          "price": null
+        },
+        {
+          "name": "Girofliers du Gamalama",
+          "type": "Nature",
+          "text": "Sur les pentes au-dessus de la ville, on monte voir Cengkeh Afo, les plus vieux girofliers de l'île, au milieu des plantations de girofle et de muscade. À la récolte, les clous sèchent sur des bâches au bord des routes et toute l'île sent le girofle.",
+          "time": "2 h",
+          "price": null
+        },
+        {
+          "name": "Journée à Tidore",
+          "type": "Culture",
+          "text": "Bateau rapide du port de Bastiong jusqu'à Rum, puis route jusqu'à Soasio, de l'autre côté de l'île, pour le palais du sultan de Tidore et le fort Tahula, en haut de ses marches. Les navires de l'expédition de Magellan y ont chargé du girofle en 1521.",
+          "time": "la journée",
+          "price": null
+        },
+        {
+          "name": "Thon cru et sagou",
+          "type": "Cuisine",
+          "text": "À goûter : le gohu ikan, du thon cru mariné au citron, au basilic et aux cacahuètes, et le papeda, une pâte de sagou qu'on avale avec un bouillon de poisson jaune. Le soir, on boit un air guraka, du gingembre chaud aux noix de kenari.",
+          "time": "",
+          "price": null
+        }
+      ],
+      "access": "Vols directs pour Ternate depuis Jakarta, Makassar ou Manado, et l'aéroport est à un quart d'heure du centre. Pour Tidore, des bateaux partent toute la journée du port de Bastiong.",
+      "tips": [
+        "Le Gamalama est actif, son sommet est parfois fermé et la montée est longue et raide : on se contente des pentes.",
+        "Ville très musulmane et peu touristique : tenue couverte en dehors de la plage, peu d'alcool."
+      ],
+      "photos": [
+        {
+          "file": "Gamalama Mountain.jpg",
+          "caption": "Ternate et le Gamalama depuis la mer",
+          "author": "Septiana Sulistiawati",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Pulau Maitara e Pulau Tidore from Pulau Ternate, The Moluccas (Maluku) (15012618807).jpg",
+          "caption": "Maitara et Tidore vues de Ternate",
+          "author": "Fabio Achilli",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "file": "Danau Tolire Besar, Ternate 01.jpg",
+          "caption": "Lac Tolire au pied du Gamalama",
+          "author": "RaymondSutanto",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Benteng Kalamata (Kalamata Fort) in Ternate, The Moluccas (Maluku) (15012708900).jpg",
+          "caption": "Remparts du fort Kalamata",
+          "author": "Fabio Achilli",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "file": "Ternate, Keraton.jpg",
+          "caption": "Palais du sultan de Ternate",
+          "author": "Kainjock",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Spices, Pulau Tidore (Tidore Island), The Moluccas (15013115810).jpg",
+          "caption": "Clous de girofle séchant à Tidore",
+          "author": "Fabio Achilli",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        }
+      ]
+    },
+    "morotai": {
+      "intro": [
+        "Une grande île couverte de forêt, tout au nord des Moluques, face au Pacifique. En septembre 1944, les Américains de MacArthur y ont débarqué pour en faire une base aérienne avant de reprendre les Philippines. Il en reste deux musées, une statue et pas mal de ferraille rouillée.",
+        "Aujourd'hui, on y vient pour les îlots au large de Daruba, la petite ville du sud : du sable blanc et presque personne. Le plus connu est Dodola, deux îles reliées par un banc de sable."
+      ],
+      "todo": [
+        {
+          "name": "Îles de Dodola",
+          "type": "Mer",
+          "text": "Dodola Besar et Dodola Kecil sont reliées par une langue de sable blanc qu'on traverse à pied à marée basse. On y va en bateau depuis Daruba, en une demi-heure environ. On se baigne, on sort le masque, et on apporte son pique-nique et son eau.",
+          "time": "la journée",
+          "price": null
+        },
+        {
+          "name": "Tournée des îlots en bateau",
+          "type": "Mer",
+          "text": "Autour de Daruba, on loue un bateau pour enchaîner Kolorai, Zum Zum ou Tabailenge. Les plages sont vides et le récif commence dans peu d'eau. Sur Zum Zum, une statue de MacArthur rappelle son passage.",
+          "time": "la journée",
+          "price": null
+        },
+        {
+          "name": "Musées de la guerre à Daruba",
+          "type": "Culture",
+          "text": "Deux petits musées voisins, l'un sur la Seconde Guerre mondiale, l'autre sur l'opération Trikora, avec des casques, des munitions et des photos du débarquement. Ailleurs sur l'île, un monument rappelle Teruo Nakamura, soldat de l'armée japonaise resté caché dans la jungle jusqu'en 1974.",
+          "time": "1 h 30",
+          "price": null
+        },
+        {
+          "name": "Source d'Air Kaca",
+          "type": "Nature",
+          "text": "Une source au fond d'une petite grotte, près de Daruba, où MacArthur venait se baigner d'après les habitants. L'eau est limpide, d'où son nom d'eau de verre. Arrêt rapide, à combiner avec les musées.",
+          "time": "30 min",
+          "price": null
+        }
+      ],
+      "access": "Depuis Ternate, petit avion jusqu'à Daruba, ou route et bateau en passant par Tobelo, au nord de Halmahera. Les horaires changent souvent : on les cale avant de réserver le reste.",
+      "tips": [
+        "Le plus compliqué, c'est d'y aller : vols rares, bateaux lents, une journée entière dans chaque sens.",
+        "Peu d'hébergements et très peu d'anglais : le plus simple est de réserver le bateau pour Dodola par son hôtel."
+      ],
+      "photos": [
+        {
+          "file": "Pantai Kolorai, Maluku Utara.jpg",
+          "caption": "Plage de l'îlot de Kolorai",
+          "author": "Andika25051996",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "A beach on dodola island.jpg",
+          "caption": "Plage sur l'île de Dodola",
+          "author": "M.akbar.raf",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Pantai Pulau Ngele-Ngele, Maluku Utara.jpg",
+          "caption": "Pirogue sur la plage de Ngele-Ngele",
+          "author": "Andika25051996",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Pulau Tabailenge.jpg",
+          "caption": "Plage de l'îlot de Tabailenge",
+          "author": "Rezamega13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Foto Selfie di Pantai Kolorai, Maluku Utara.jpg",
+          "caption": "Balançoire sur la plage de Kolorai",
+          "author": "Andika25051996",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
+    },
+    "kri-gam-arborek": {
+      "intro": [
+        "Trois îles voisines au cœur de Raja Ampat, dans le détroit de Dampier, là où il y a le plus de poissons. On dort dans une cabane en feuilles de palmier sur pilotis, tenue par une famille papoue, et le récif commence au pied de l'escalier : on y croise des tortues et des requins à pointe noire sans prendre de bateau.",
+        "Kri a les plus beaux tombants, Gam la jungle et les oiseaux de paradis, Arborek son village minuscule et ses raies manta. On en choisit une et on visite les autres à la journée."
+      ],
+      "todo": [
+        {
+          "name": "Dormir en homestay sur pilotis",
+          "type": "Détente",
+          "text": "Une cabane sur l'eau ou sur la plage, un matelas sous moustiquaire, une salle d'eau commune le plus souvent, de l'électricité le soir seulement. Les trois repas sont compris : poisson, riz, légumes. On réserve directement auprès des familles sur le site Stay Raja Ampat.",
+          "time": "",
+          "price": {
+            "amount": 63,
+            "currency": "EUR",
+            "what": "nuit pour deux au Junior Homestay, trois repas par jour compris, transferts et excursions en plus"
+          }
+        },
+        {
+          "name": "Yenbuba, le ponton et le banc de sable",
+          "type": "Mer",
+          "text": "Sur Mansuar, juste en face de Kri. Sous le ponton du village tournent des bancs de poissons, des tortues et des bénitiers géants. À marée basse, un banc de sable relie presque les deux îles et on traverse à pied.",
+          "time": "2 h",
+          "price": {
+            "amount": 69,
+            "currency": "EUR",
+            "what": "nuit pour deux au Yenbuba Homestay, trois repas par jour compris, transferts et excursions en plus"
+          }
+        },
+        {
+          "name": "Snorkeling à Cape Kri",
+          "type": "Mer",
+          "text": "La pointe de Kri détient un record : 374 espèces de poissons comptées en une seule plongée. En surface, on se laisse porter par le courant le long du tombant, avec le bateau qui suit. On y va avec un guide du homestay, jamais seul.",
+          "time": "2 h",
+          "price": null
+        },
+        {
+          "name": "Arborek et son ponton",
+          "type": "Mer",
+          "text": "Une île qu'on traverse à pied en dix minutes, avec un village fleuri de quelque deux cents habitants. Sous le ponton, des nuages de petits poissons et des bénitiers. Les femmes tressent des chapeaux et des sacs en pandanus. On y passe une demi-journée ou on y dort.",
+          "time": "demi-journée",
+          "price": null
+        },
+        {
+          "name": "Raies manta à Manta Sandy",
+          "type": "Faune",
+          "text": "Près d'Arborek, les mantas viennent se faire nettoyer par de petits poissons au-dessus d'un fond de sable. On reste en surface, à distance, sous l'œil des gardes. La bonne saison va d'octobre à avril : en août, on en voit moins souvent.",
+          "time": "demi-journée",
+          "price": null
+        },
+        {
+          "name": "Oiseaux de paradis à l'aube sur Gam",
+          "type": "Faune",
+          "text": "Départ à la frontale vers 5 h depuis Sawinggrai ou Yenbeser, une demi-heure de montée en forêt, puis on attend sous l'arbre. Au lever du jour, les paradisiers rouges mâles viennent danser et crier sur les branches hautes. Jumelles utiles.",
+          "time": "3 h",
+          "price": null
+        },
+        {
+          "name": "Baie de Kabui et le passage",
+          "type": "Nature",
+          "text": "Entre Gam et Waigeo, la baie de Kabui est semée d'îlots calcaires en forme de champignon. Au fond, un chenal étroit comme une rivière sépare les deux îles : on y nage au-dessus de coraux mous orange, le long de la mangrove.",
+          "time": "demi-journée",
+          "price": null
+        }
+      ],
+      "access": "Vol pour Sorong, ferry rapide jusqu'à Waisai (environ 2 h), puis bateau du homestay, entre 30 minutes et 1 h selon l'île. À Waisai, on paie la carte d'entrée du parc marin.",
+      "tips": [
+        "Le courant peut être fort devant certains homestays : demander où et à quelle heure nager.",
+        "En août, le vent vient du sud : les homestays de la côte nord de Kri et de Gam sont à l'abri.",
+        "Ni distributeur ni boutique sur les îles : liquide, crème solaire et masque se prévoient avant d'embarquer à Sorong."
+      ],
+      "photos": [
+        {
+          "file": "20170909 Lumba lumba homestay.jpg",
+          "caption": "Cabane de homestay sur pilotis",
+          "author": "Lasthib",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Boat and corals near Pulau Gam, Raja Ampat.jpg",
+          "caption": "Barque au-dessus du corail à Gam",
+          "author": "Fabian Lambeck",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Kampung Arborek.jpg",
+          "caption": "Ponton du village d'Arborek",
+          "author": "Anazlombu",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Red Bird-of-Paradise 0A2A2853.jpg",
+          "caption": "Paradisiers rouges en parade",
+          "author": "JJ Harrison",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Coral in Raja Ampat.jpg",
+          "caption": "Coraux sous le ponton d'Arborek",
+          "author": "Akbar raf",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Giant Manta AdF.jpg",
+          "caption": "Raie manta à Raja Ampat",
+          "author": "Arturo de Frias Marques",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
+    },
+    "waigeo-secteur-de-piaynemo": {
+      "intro": [
+        "Piaynemo, c'est la photo qu'on a tous vue de Raja Ampat : des dizaines d'îlots calcaires en pain de sucre posés sur un lagon turquoise, vus d'en haut. Le belvédère est dans les îles Fam, à l'ouest, et on y va en bateau rapide à la journée depuis Waisai, Kri ou Arborek.",
+        "Waigeo, la grande île, sert surtout à arriver : le ferry de Sorong accoste à Waisai. On peut aussi y dormir en homestay, voir les oiseaux de paradis en forêt et nager à Friwen."
+      ],
+      "todo": [
+        {
+          "name": "Belvédère de Piaynemo",
+          "type": "Nature",
+          "text": "Un escalier en bois d'un peu plus de 300 marches monte dans la forêt jusqu'à deux plateformes. Une vingtaine de minutes de montée, à l'ombre, avec des paliers pour souffler. Sur le ponton du bas, des habitants vendent des noix de coco fraîches.",
+          "time": "1 h",
+          "price": null
+        },
+        {
+          "name": "Telaga Bintang, le lagon en étoile",
+          "type": "Nature",
+          "text": "À quelques minutes de bateau de Piaynemo. Ici, pas d'escalier : on grimpe cinq à dix minutes sur du calcaire coupant, en chaussures fermées. D'en haut, le lagon dessine une étoile à cinq branches.",
+          "time": "30 min",
+          "price": null
+        },
+        {
+          "name": "La journée en bateau",
+          "type": "Mer",
+          "text": "La sortie classique enchaîne Piaynemo, Telaga Bintang, un arrêt snorkeling à Arborek et Pasir Timbul, un banc de sable qui sort de l'eau à marée basse. Le bateau se loue à la journée et se partage entre passagers : mieux vaut se grouper avec d'autres voyageurs.",
+          "time": "la journée",
+          "price": null
+        },
+        {
+          "name": "Oiseaux de paradis près de Waisai",
+          "type": "Faune",
+          "text": "Dans la forêt de Saporkren, près de Waisai, des guides du village emmènent avant l'aube jusqu'à des affûts. On y voit le paradisier rouge et le paradisier républicain, ou de Wilson, tout petit, avec sa calotte bleue et sa queue en spirale.",
+          "time": "3 h",
+          "price": null
+        },
+        {
+          "name": "Friwen",
+          "type": "Mer",
+          "text": "Une petite île entre Waisai et Gam. Devant le village, une balançoire au-dessus de l'eau et un récif facile. Juste en face, Friwen Wall, une paroi couverte de coraux mous qu'on longe au masque quand le courant est faible.",
+          "time": "2 h",
+          "price": null
+        },
+        {
+          "name": "Dormir en homestay",
+          "type": "Détente",
+          "text": "Autour de Waigeo aussi, des familles louent des cabanes sur pilotis, repas compris. Même confort simple qu'à Kri : moustiquaire, douche au seau, électricité le soir.",
+          "time": "",
+          "price": {
+            "amount": 58,
+            "currency": "EUR",
+            "what": "nuit pour deux au homestay Raja Ampat Sunrise, trois repas par jour compris, transferts et excursions en plus"
+          }
+        }
+      ],
+      "access": "Vol pour Sorong, puis ferry rapide jusqu'à Waisai, sur Waigeo, en 2 h environ. De Waisai, Piaynemo est à 1 h 30 ou 2 h de bateau rapide, un peu moins depuis Arborek.",
+      "tips": [
+        "En août, le vent du sud peut rendre la traversée vers Piaynemo très secouée ou l'annuler : on la prévoit en début de séjour pour pouvoir la décaler.",
+        "Partir tôt : la mer est plus calme le matin.",
+        "Chapeau et eau : il n'y a pas d'ombre sur les plateformes."
+      ],
+      "photos": [
+        {
+          "file": "Piaynemo, Raja Ampat (39660320633).jpg",
+          "caption": "Îlots de Piaynemo vus du belvédère",
+          "author": "peter harris",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        },
+        {
+          "file": "\"Telaga Bintang\" Raja Ampat.jpg",
+          "caption": "Lagon en étoile de Telaga Bintang",
+          "author": "Caka komsary",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Piaynemo Island, Raja Ampat, West Papua, Indonesia.jpg",
+          "caption": "Escalier et plateforme de Piaynemo",
+          "author": "Irma Ade",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Pasir timbul raja ampat.jpg",
+          "caption": "Banc de sable de Pasir Timbul",
+          "author": "GGgord",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Corals near Pulau Friwen, Raja Ampat.jpg",
+          "caption": "Coraux près de Friwen",
+          "author": "Fabian Lambeck",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Waisai port.jpg",
+          "caption": "Port de Waisai sur Waigeo",
+          "author": "Lord Mountbatten",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
+    },
+    "kupang": {
+      "intro": [
+        "Kupang est la capitale des petites îles de la Sonde orientales, tout à l'ouest de Timor. Une ville de province chaude et sèche, tournée vers sa baie, où l'on passe surtout parce que les vols pour Alor partent d'ici. Une nuit suffit.",
+        "On en profite pour regarder le soleil se coucher sur le front de mer, manger du poisson grillé au marché de nuit et, avec une demi-journée de plus, aller nager dans le bassin de la grotte de Kristal."
+      ],
+      "todo": [
+        {
+          "name": "Marché de nuit de Kampung Solor",
+          "type": "Cuisine",
+          "text": "À la tombée du jour, une rue du vieux centre se remplit de stands. On choisit son poisson, son calamar ou ses crevettes sur la glace, on le fait griller devant soi et on mange à des tables en plastique, avec du riz et du sambal.",
+          "time": "le soir",
+          "price": null
+        },
+        {
+          "name": "Coucher de soleil sur le front de mer",
+          "type": "Ville",
+          "text": "La ville regarde vers l'ouest : le soleil se couche dans la baie. On s'installe sur la petite plage de Tedis, dans le vieux quartier, avec un épi de maïs grillé, au milieu des familles et des vendeurs ambulants.",
+          "time": "1 h",
+          "price": null
+        },
+        {
+          "name": "Plage de Lasiana",
+          "type": "Détente",
+          "text": "À une douzaine de kilomètres à l'est du centre, une longue plage de sable bordée de palmiers lontar. On y boit une noix de coco sous les paillotes. Le week-end, toute la ville y vient. Mieux en fin de journée.",
+          "time": "2 h",
+          "price": null
+        },
+        {
+          "name": "Grotte de Kristal",
+          "type": "Nature",
+          "text": "Vers Bolok, à l'ouest de la ville, une grotte cache un bassin d'eau claire et bleutée où l'on se baigne. On descend sur des rochers glissants, dans la pénombre. Il faut y aller en fin de matinée, quand le soleil entre et éclaire l'eau.",
+          "time": "1 h 30",
+          "price": null
+        },
+        {
+          "name": "Se'i et sasando",
+          "type": "Cuisine",
+          "text": "La spécialité de Kupang est le se'i, une viande fumée servie avec un sambal très citronné et des feuilles de papaye. Dans certains restaurants, on entend du sasando, la harpe en feuille de lontar de l'île voisine de Rote.",
+          "time": "",
+          "price": null
+        }
+      ],
+      "access": "Vols directs pour l'aéroport El Tari depuis Bali, Surabaya ou Jakarta. Le centre est à une vingtaine de minutes en taxi.",
+      "tips": [
+        "Au retour d'Alor, garder une nuit de marge à Kupang avant la correspondance suivante.",
+        "Il fait très chaud et sec en août : on sort le matin et en fin d'après-midi."
+      ],
+      "photos": [
+        {
+          "file": "Kupang lighthouse and anchorage.JPG",
+          "caption": "Phare et mouillage de Kupang",
+          "author": "Chrisdev",
+          "license": "Public domain",
+          "licenseUrl": "https://commons.wikimedia.org/wiki/File:Kupang_lighthouse_and_anchorage.JPG"
+        },
+        {
+          "file": "Sunset at NTT 4.jpg",
+          "caption": "Bateaux de pêche au coucher du soleil",
+          "author": "Alvaro Radhitya A.",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Sei sapi Kupang.jpg",
+          "caption": "Assiette de se'i de bœuf",
+          "author": "Astari28",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        },
+        {
+          "file": "Unnamed Road, Lasiana, Klp. Lima, Kota Kupang, Nusa Tenggara Tim., Indonesia - panoramio.jpg",
+          "caption": "Coucher de soleil sur la plage de Lasiana",
+          "author": "Emus Usboko",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        },
+        {
+          "file": "Goa kristal.jpg",
+          "caption": "Baignade dans la grotte de Kristal",
+          "author": "Alexandria putera",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Kupang.jpg",
+          "caption": "Kupang et sa baie vues du ciel",
+          "author": "Davidelit",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
+    },
+    "alor-kepa": {
+      "intro": [
+        "Alor est la dernière des petites îles de la Sonde, au nord de Timor : des volcans, des collines sèches et un détroit où le courant brasse une eau fraîche et très claire. Kepa est un îlot posé dans ce détroit, à cinq minutes de barque du village d'Alor Kecil.",
+        "On y loge dans quelques bungalows, en pension complète, et on nage sur le récif devant la plage. Le reste du temps, on monte voir les villages abui dans les collines et leurs tambours de bronze, les moko."
+      ],
+      "todo": [
+        {
+          "name": "Séjour sur l'îlot de Kepa",
+          "type": "Détente",
+          "text": "Le seul hébergement de l'îlot, La P'tite Kepa, est tenu par une famille française installée là depuis plus de vingt ans : bungalows de style local, électricité solaire, repas pris tous ensemble. Il y a peu de places, on réserve longtemps à l'avance.",
+          "time": "",
+          "price": null
+        },
+        {
+          "name": "Snorkeling devant Kepa et Alor Kecil",
+          "type": "Mer",
+          "text": "Le récif démarre à quelques mètres de la plage : des coraux durs en très bon état, des anémones, parfois une tortue. L'eau est fraîche en août, un lycra épais ou un shorty évite d'écourter la baignade.",
+          "time": "2 h",
+          "price": null
+        },
+        {
+          "name": "Sortie en barque vers Pura et Ternate",
+          "type": "Mer",
+          "text": "Avec un pêcheur ou le bateau du logement, on traverse vers les îles de Pura et de Ternate, celle d'Alor, pas celle des Moluques. On nage le long des villages, au-dessus des nasses en bambou posées sur le récif, avec les enfants qui plongent en lunettes de bois.",
+          "time": "demi-journée",
+          "price": null
+        },
+        {
+          "name": "Village de Takpala",
+          "type": "Culture",
+          "text": "Un village abui perché sur une colline, à une demi-heure de route de Kalabahi. Une quinzaine de maisons en bambou à haut toit de chaume autour d'une place. Les habitants y dansent le lego-lego en cercle, bras dessus bras dessous, au son des gongs et des moko.",
+          "time": "2 h",
+          "price": null
+        },
+        {
+          "name": "Musée des mille moko à Kalabahi",
+          "type": "Culture",
+          "text": "Les moko sont des tambours de bronze en forme de sablier, qui servent encore de dot pour les mariages à Alor. Le petit musée de Kalabahi en montre toute une collection, avec des ikats tissés sur l'île.",
+          "time": "1 h",
+          "price": null
+        }
+      ],
+      "access": "Vol d'environ une heure de Kupang à l'aéroport d'Alor, près de Kalabahi. Ensuite, moins d'une heure de route jusqu'à Alor Kecil et cinq minutes de barque pour Kepa.",
+      "tips": [
+        "Le courant du détroit est fort et tourne avec la marée : on nage aux heures et aux endroits indiqués sur place, jamais seul au large.",
+        "Alor est surtout connue des plongeurs, mais le récif de Kepa se voit très bien au masque et au tuba.",
+        "Pas de distributeur en dehors de Kalabahi."
+      ],
+      "photos": [
+        {
+          "file": "Beautiful view from Pura Island - Alor - East Nusa Tenggara.jpg",
+          "caption": "Eau claire devant l'île de Pura",
+          "author": "Sims8899",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "A Church and Clear Sea Near Ternate Island Alor - panoramio.jpg",
+          "caption": "Village et récif de l'île de Ternate",
+          "author": "Herman Darnel Ibrahim",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        },
+        {
+          "file": "Abui Lego-lego.jpg",
+          "caption": "Danse lego-lego au village de Takpala",
+          "author": "Geo saad",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Takpala Traditional Village.jpg",
+          "caption": "Maisons abui du village de Takpala",
+          "author": "Irfantraveller",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Pengrajin tenun di Pulau Alor.jpg",
+          "caption": "Tisseuses d'ikat à Alor",
+          "author": "Arya Antaputra",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Strong Current at Kalabahi Bay - panoramio.jpg",
+          "caption": "Courant dans la baie de Kalabahi",
+          "author": "Herman Darnel Ibrahim",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        }
+      ]
+    }
+  }
+}
