@@ -152,72 +152,77 @@
         {
           "name": "Kawah Putih",
           "type": "Nature",
-          "text": "Un lac de cratère laiteux, turquoise ou presque blanc suivant la lumière, à plus de 2 400 m sur le volcan Patuha. Arbres morts, sable clair, odeur de soufre : on reste une demi-heure au bord, pas plus, avec un masque. Des minibus ouverts montent depuis le parking du bas.",
+          "text": "Un lac de cratère laiteux, turquoise ou presque blanc suivant la lumière, à 2 430 m sur le volcan Patuha. Arbres morts, sable clair, odeur de soufre : on reste une demi-heure au bord, pas plus, avec un masque. Du parking du bas, des minibus ouverts montent les cinq derniers kilomètres.",
           "time": "1 h 30",
           "price": null
         },
         {
           "name": "Plantations de thé de Rancabali",
           "type": "Nature",
-          "text": "Après le Kawah Putih, la route continue au milieu du thé : des collines vert vif à perte de vue, avec quelques gros rochers et des arbres isolés. On s'arrête où on veut pour marcher entre les rangs. Les cueilleuses travaillent le matin, la brume arrive souvent en début d'après-midi.",
+          "text": "Après le Kawah Putih, la route continue au milieu du thé, vers 1 600 m d'altitude : des collines vert vif à perte de vue, avec quelques gros rochers et des arbres isolés. On s'arrête où on veut pour marcher entre les rangs. Il y fait une vingtaine de degrés.",
           "time": "1 à 2 h",
           "price": null
         },
         {
           "name": "Lac de Situ Patenggang",
           "type": "Nature",
-          "text": "Un lac calme entouré de thé et de forêt, au bout de la route de Rancabali. On le traverse en barque peinte jusqu'à la petite île et au Batu Cinta, le « rocher de l'amour » d'une légende sundanaise.",
+          "text": "Un lac calme entouré de thé et de forêt, à 7 km du Kawah Putih. On le traverse en barque jusqu'à l'île d'Asmara et au Batu Cinta, le « rocher de l'amour », où se retrouvent les deux amants d'une légende sundanaise. Brume fréquente le matin.",
           "time": "1 h",
           "price": null
         },
         {
           "name": "Fraises et sources chaudes de Ciwidey",
           "type": "Détente",
-          "text": "Sur la route du retour, on cueille soi-même ses fraises dans les fermes de Ciwidey, puis on se baigne dans les bassins d'eau chaude de Ciwalini, au milieu des théiers.",
+          "text": "Sur la route du retour, on cueille soi-même ses fraises dans les fermes de Ciwidey, puis on se baigne dans les bassins d'eau chaude de Ciwalini, au milieu des théiers de la plantation Walini.",
           "time": "1 à 2 h",
           "price": null
         },
         {
           "name": "Jalan Braga et le Bandung Art déco",
           "type": "Ville",
-          "text": "La rue chic de l'époque coloniale, restée presque intacte : façades des années 1920 et 1930, cafés, peintres qui exposent leurs toiles sur le trottoir. Au bout, la rue Asia-Afrika et l'hôtel Savoy Homann, tout en courbes. À faire à pied en fin de journée.",
+          "text": "La rue chic de l'époque coloniale, celle qui a valu à Bandung son surnom de « Paris de Java » : façades Art déco, cafés, peintres qui exposent leurs toiles sur le trottoir. Au bout, la rue Asia-Afrika et l'hôtel Savoy Homann de 1939, tout en courbes. À faire à pied en fin de journée.",
           "time": "2 h",
           "price": null
         },
         {
           "name": "Gedung Merdeka, la conférence de 1955",
           "type": "Culture",
-          "text": "La salle où 29 pays d'Asie et d'Afrique se sont réunis en 1955 pour la conférence de Bandung. Un musée occupe une partie du bâtiment : photos, drapeaux et la salle plénière restée en l'état.",
+          "text": "Le bâtiment où 29 pays d'Asie et d'Afrique se sont réunis en avril 1955 pour la conférence de Bandung. Le musée montre une reconstitution de la séance d'ouverture, des photos, des documents et un film d'époque. Gratuit, ouvert du mercredi au samedi de 9 h à 15 h, sur inscription en ligne.",
           "time": "45 min",
           "price": null
         },
         {
           "name": "Gedung Sate",
           "type": "Culture",
-          "text": "Le grand bâtiment blanc des années 1920 où siège le gouverneur de Java occidental. Sur le toit, une tige ornée de boules qui ressemble à une brochette de sate : c'est de là que vient son nom. Il se regarde surtout de l'extérieur, depuis le parc d'en face.",
+          "text": "Le grand bâtiment blanc construit de 1920 à 1924, où siège le gouverneur de Java occidental. Sur le toit, une tige ornée de six boules qui ressemble à une brochette de sate : c'est de là que vient son nom. Il se regarde surtout de l'extérieur.",
           "time": "30 min",
           "price": null
         },
         {
           "name": "Spectacle d'angklung chez Udjo",
           "type": "Culture",
-          "text": "L'après-midi, l'école Saung Angklung Udjo donne un spectacle d'angklung, l'instrument sundanais en tubes de bambou qu'on secoue. Des enfants jouent et dansent, puis chaque spectateur reçoit un angklung et apprend un morceau avec eux.",
+          "text": "Tous les jours à 15 h 30, l'école Saung Angklung Udjo donne un spectacle d'angklung, l'instrument sundanais en tubes de bambou qu'on secoue. Des enfants jouent et dansent, il y a des marionnettes wayang golek, puis chaque spectateur reçoit un angklung et apprend un morceau avec eux.",
           "time": "1 h 30",
-          "price": null
+          "price": {
+            "amount": 120000,
+            "currency": "IDR",
+            "what": "spectacle de Saung Angklung Udjo, adulte étranger, par personne"
+          }
         },
         {
           "name": "Cuisine sundanaise",
           "type": "Cuisine",
-          "text": "Les Indonésiens viennent à Bandung pour manger. À goûter : le batagor (boulettes de poisson frites, sauce cacahuète), le nasi timbel, du riz roulé dans une feuille de bananier avec légumes crus et sambal, et les surabi, de petites crêpes de riz cuites sur la braise.",
+          "text": "Les Indonésiens viennent à Bandung pour manger. À goûter : le batagor (tofu et boulettes de poisson frits, sauce cacahuète), le nasi timbel, du riz roulé dans une feuille de bananier avec légumes crus et sambal, et les surabi, de petites crêpes de riz cuites sur la braise.",
           "time": "",
           "price": null
         }
       ],
-      "access": "Depuis Jakarta, le train à grande vitesse Whoosh part de la gare de Halim et rejoint Padalarang, en banlieue de Bandung, en moins d'une heure, puis une navette ferroviaire mène au centre ; le train classique met environ 3 h depuis la gare de Gambir. Pour Rancabali, compter 2 h de route depuis Bandung.",
+      "access": "Depuis Jakarta, le train à grande vitesse Whoosh part de la gare de Halim et rejoint Padalarang, en banlieue de Bandung, en 30 minutes ; une navette ferroviaire comprise dans le billet mène ensuite au centre en 20 minutes. Le train classique met environ 3 h depuis la gare de Gambir. Pour le Kawah Putih et Rancabali, compter 2 h de route depuis Bandung.",
       "tips": [
-        "Partir de Bandung avant 7 h : le Kawah Putih se couvre de brouillard dans la journée.",
-        "Éviter le week-end, la route de Ciwidey est bouchée par les voitures venues de Jakarta.",
-        "Prendre une polaire, il fait frais et humide là-haut."
+        "Le Kawah Putih ouvre à 8 h : partir de Bandung vers 6 h pour y être à l'ouverture, avant les nuages et les cars.",
+        "Éviter le dimanche et les jours fériés, la route de Ciwidey est bouchée et les parkings sont pleins.",
+        "Prendre une polaire : il fait une dizaine de degrés au bord du cratère.",
+        "Au Kawah Putih, les étrangers paient un tarif à part, autour de 100 000 roupies, et la navette est en plus."
       ],
       "photos": [
         {
@@ -229,7 +234,7 @@
         },
         {
           "file": "Panorama Alam Kawah Putih Ciwidey.jpg",
-          "caption": "Lac de cratère du Kawah Putih",
+          "caption": "Lac de cratère du Kawah Putih vu du ciel",
           "author": "Galeri ega",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
@@ -256,11 +261,11 @@
           "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
         },
         {
-          "file": "Jl Braga Street Sign in Bandung.jpg",
-          "caption": "Plaque de rue de Jalan Braga",
-          "author": "J-lorentz",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+          "file": "Braga Street Bandung.JPG",
+          "caption": "Tableaux exposés sur le trottoir, Jalan Braga",
+          "author": "Midori",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
         }
       ]
     },

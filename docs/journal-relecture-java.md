@@ -33,3 +33,30 @@ Vérifications faites le 16 novembre 2026. Une section par fiche : affirmation, 
 | TransJakarta ligne 1 de Kota vers le centre, en site propre | https://en.wikipedia.org/wiki/Transjakarta_Corridor_1 | confirmée |
 
 Photos : les six photos existantes ont été regardées et sont justes. Les vélos de la place Fatahillah (deuxième vue de la même place) sont remplacés par « Kerak Telor Betawi Vendor.jpg » (Gunawan Kartapranata, CC BY-SA 3.0), pour la cuisine de rue qui manquait. Légende du temple précisée (cierges rouges). Ordre revu.
+
+## Bandung et Rancabali
+
+| Affirmation | Source (URL) | Verdict |
+| --- | --- | --- |
+| Bandung à plus de 700 m | https://en.wikivoyage.org/wiki/Bandung (768 m) | confirmée |
+| Kawah Putih à 50 km au sud, près de Ciwidey | https://en.wikipedia.org/wiki/Kawah_Putih | confirmée |
+| Kawah Putih « à plus de 2 400 m », volcan Patuha | https://en.wikipedia.org/wiki/Kawah_Putih (2 430 m) | précisée : 2 430 m |
+| Demi-heure au bord, masque, minibus depuis le parking du bas | https://theworldtravelguy.com/kawah-putih-bandung-white-crater-lake-in-ciwidey-indonesia/ (15 à 30 min, masques vendus, navette sur les 5 derniers km) ; https://en.wikipedia.org/wiki/Kawah_Putih | confirmée, « cinq derniers kilomètres » ajouté |
+| Prix du Kawah Putih pour un étranger | theworldtravelguy (110 000 IDR en 2026, navette 27 000) ; https://www.exploresunda.com/kawah-putih.html (81 000 + navette 29 000) ; backindo (90 000, 122 000 avec navette) | sources divergentes : pas de `price`, un conseil « autour de 100 000 roupies, navette en plus » |
+| Rancabali : cueilleuses le matin, brume en début d'après-midi | aucune source | retirée ; remplacée par l'altitude (1 600 m environ) et la température (une vingtaine de degrés), https://nz.trip.com/moments/poi-ciwidey-valley-56927300 et https://en.wikivoyage.org/wiki/Ciwidey |
+| Situ Patenggang : barque, petite île, Batu Cinta, légende | https://www.exploresunda.com/situ-patenggang-bandung.html ; https://www.goodnewsfromindonesia.id/2017/12/06/singgah-di-situ-patenggang-singgah-di-batu-cinta | confirmée ; « au bout de la route » -> « à 7 km du Kawah Putih », île d'Asmara nommée, brume du matin ajoutée ; « barque peinte » -> « barque » |
+| Fraises à cueillir, bassins de Ciwalini au milieu du thé | https://en.wikivoyage.org/wiki/Ciwidey ; https://en.wikipedia.org/wiki/Kawah_Putih ; recherche Ciwalini (bassins au milieu de la plantation Walini) | confirmée |
+| Jalan Braga, façades des années 1920 et 1930, peintres sur le trottoir | https://en.wikipedia.org/wiki/Braga_Street ; https://www.thejakartapost.com/culture/2023/01/13/a-stroll-down-bandungs-historic-jl-braga | confirmée ; datation remplacée par « Art déco », surnom « Paris de Java » ajouté |
+| Savoy Homann, tout en courbes, rue Asia-Afrika | https://en.wikipedia.org/wiki/Savoy_Homann_Bidakara_Hotel (Aalbers, 1939) | confirmée, date ajoutée |
+| 29 pays à la conférence de 1955, Gedung Merdeka | https://en.wikipedia.org/wiki/Bandung_Conference (18-24 avril 1955) | confirmée |
+| Musée : « salle plénière restée en l'état » | https://www.metrotvnews.com/read/kqYCdWvY-museum-kaa-bandung-jadi-destinasi-wisata-sejarah-favorit-selama-libur-sekolah (juillet 2026) | corrigée : diorama de la séance d'ouverture, photos, documents, film ; ajoutés : gratuit, mercredi à samedi 9 h-15 h, inscription en ligne |
+| Gedung Sate « des années 1920 », siège du gouverneur, brochette de sate | https://en.wikipedia.org/wiki/Gedung_Sate (1920-1924, six boules) | confirmée et précisée ; « depuis le parc d'en face » retiré (non sourcé) |
+| Spectacle d'angklung l'après-midi chez Udjo | https://angklung-udjo.co.id/ (tous les jours 15 h 30-17 h ; adulte étranger 120 000 IDR) | confirmée ; heure, wayang golek et prix ajoutés |
+| Batagor, nasi timbel, surabi | https://en.tempo.co/read/2026315/what-to-eat-in-bandung-try-these-10-signature-local-dishes ; https://en.wikivoyage.org/wiki/Bandung | confirmée ; batagor précisé (tofu et boulettes de poisson frits) |
+| Whoosh Halim-Padalarang « en moins d'une heure », puis navette | https://en.wikivoyage.org/wiki/Bandung ; https://www.metrotvnews.com/read/kqYCd32a-jadwal-lengkap-ka-feeder-bandung-padalarang-hari-ini-akses-cepat-ke-kereta-whoosh (juin 2026) | précisée : 30 min, navette de 20 min comprise dans le billet |
+| Train classique Gambir-Bandung en 3 h environ | https://momsmoney.kontan.co.id/news/ka-parahyangan-kembali-beroperasi-1-februari-2025-simak-tarif-dan-jadwalnya (2 h 51 à 3 h 13) | confirmée |
+| Bandung-Rancabali : 2 h de route | https://www.exploresunda.com/situ-patenggang-bandung.html (48 km, environ 2 h) | confirmée |
+| Partir avant 7 h à cause du brouillard | https://en.wikivoyage.org/wiki/Ciwidey (ouverture à 8 h) ; theworldtravelguy (nuages sur le cratère, venir tôt) | reformulée : ouverture à 8 h, partir vers 6 h |
+| Éviter le week-end | https://www.exploresunda.com/situ-patenggang-bandung.html (dimanches et jours fériés très chargés) | confirmée, reformulée |
+
+Photos : les six photos existantes ont été regardées. La plaque de rue de Jalan Braga (faible) est remplacée par « Braga Street Bandung.JPG » (Midori, CC BY 3.0), qui montre les tableaux exposés sur le trottoir.
