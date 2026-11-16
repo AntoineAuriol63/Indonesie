@@ -48,7 +48,7 @@ function euros(price) {
   return `environ ${value < 10 ? Math.max(1, Math.round(value)) : Math.round(value)} €`;
 }
 
-// Bande de photos qu'on fait défiler ; un clic ouvre la page de la photo sur Wikimedia Commons.
+// Bande de photos qu'on fait défiler.
 function gallery(photos) {
   if (!photos.length) return '';
   return `
@@ -57,7 +57,7 @@ function gallery(photos) {
         .map(
           (p) => `
         <figure>
-          <a href="${esc(p.page)}" target="_blank" rel="noopener"><img src="${esc(p.src)}?width=960" alt="${esc(p.caption)}" loading="lazy" onerror="this.closest('figure').remove()" /></a>
+          <img src="${esc(p.src)}?width=960" alt="${esc(p.caption)}" loading="lazy" onerror="this.closest('figure').remove()" />
           <figcaption>${esc(p.caption)}</figcaption>
         </figure>`,
         )

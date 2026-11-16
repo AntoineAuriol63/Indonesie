@@ -41,4 +41,4 @@ Le script réécrit `src/data/base.json` et applique les règles de style (apost
 | Carte en mode compatibilité, sans WebGL | `src/world/flat.js` |
 | Fiches et navigation | `src/main.js`, `src/style.css` |
 
-Les contours de la carte viennent de Natural Earth (`npm run geo` pour les régénérer). Les photos sont chargées depuis Wikimedia Commons ; un clic sur une photo ouvre sa page d'origine.
+Les contours de la carte viennent de Natural Earth (`npm run geo` pour les régénérer). Les photos sont chargées depuis Wikimedia Commons.
