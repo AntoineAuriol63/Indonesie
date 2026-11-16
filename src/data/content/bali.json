@@ -611,71 +611,72 @@
     },
     "sud-de-bali-uluwatu": {
       "intro": [
-        "La presqu'île de Bukit, tout au sud de Bali, est un plateau calcaire sec qui tombe dans l'océan Indien par de hautes falaises. Au bout, le temple d'Uluwatu. En dessous, des plages qu'on atteint par des escaliers et les vagues de récif qui ont fait la réputation d'Uluwatu chez les surfeurs.",
-        "C'est à moins d'une heure de l'aéroport, donc pratique pour finir le voyage : deux ou trois jours de plage, un coucher de soleil avec la danse kecak, un dîner de poisson grillé à Jimbaran."
+        "La presqu'île de Bukit, tout au sud de Bali, est un plateau calcaire qui tombe dans l'océan Indien par de hautes falaises. Au bout, le temple d'Uluwatu. En dessous, des plages qu'on atteint par des escaliers et les vagues de récif qui ont fait la réputation d'Uluwatu chez les surfeurs.",
+        "C'est à 40 minutes de l'aéroport quand ça roule, donc pratique pour finir le voyage : deux ou trois jours de plage, un coucher de soleil avec la danse kecak, un dîner de poisson grillé à Jimbaran."
       ],
       "todo": [
         {
           "name": "Temple d'Uluwatu",
           "type": "Culture",
-          "text": "Un petit temple au bord d'une falaise de 70 m au-dessus de l'océan. On longe le vide par un chemin de ronde, des deux côtés. Les macaques du site volent lunettes et téléphones pour les échanger contre de la nourriture : on range tout.",
+          "text": "Un petit temple au bord d'une falaise de 70 m au-dessus de l'océan, agrandi au XIe siècle. On longe le vide par un chemin bordé d'un muret. Les macaques volent lunettes et tongs et ne les rendent que contre de la nourriture : on range tout. Ouvert de 7 h à 19 h.",
           "time": "1 h 30",
           "price": null
         },
         {
           "name": "Danse kecak au coucher du soleil",
           "type": "Culture",
-          "text": "Tous les soirs vers 18 h, dans l'amphithéâtre à côté du temple. Pas d'instruments : des dizaines d'hommes assis en cercle scandent « tchak tchak » pendant que des danseurs jouent un épisode du Ramayana, et ça finit dans le feu. Acheter les billets tôt, c'est souvent complet.",
+          "text": "Tous les soirs à 18 h, puis à 19 h, dans l'amphithéâtre à côté du temple. Pas d'instruments : une cinquantaine d'hommes assis en cercle scandent « tchak » pendant que des danseurs jouent le Ramayana, et ça finit dans le feu. Réserver quelques jours avant. L'entrée du temple se paie en plus.",
           "time": "1 h",
           "price": null
         },
         {
           "name": "Plage de Padang Padang",
           "type": "Mer",
-          "text": "Une crique de sable clair qu'on rejoint par un escalier coincé dans une faille entre deux rochers. À marée haute l'eau est calme, c'est une des rares plages du coin où l'on se baigne facilement.",
+          "text": "Une crique de sable clair qu'on rejoint par un escalier de 120 marches coincé dans une faille entre deux rochers. À marée basse l'eau est calme, c'est une des rares plages du coin où l'on se baigne facilement. À marée haute le sable disparaît presque. Entrée payante, singes près du parking.",
           "time": "2 h",
           "price": null
         },
         {
           "name": "Plage de Suluban",
           "type": "Mer",
-          "text": "Sous les cafés de Blue Point : on descend des escaliers, on passe dans une grotte et on débouche sur le sable entre les rochers, à marée basse seulement. Les surfeurs partent de là vers la vague d'Uluwatu, on les regarde depuis les terrasses.",
+          "text": "Sous les cafés de Blue Point : on descend des escaliers raides, on passe dans une grotte et on débouche sur le sable et les rochers, à marée basse seulement. Les surfeurs partent de là vers la vague d'Uluwatu, on les regarde depuis les terrasses. Pas une plage pour se baigner.",
           "time": "1 h 30",
           "price": null
         },
         {
           "name": "Bingin et Dreamland",
           "type": "Mer",
-          "text": "Bingin, ce sont des bungalows accrochés à la falaise et une petite plage en bas d'un escalier raide, avec des warungs qui grillent le poisson le soir. Dreamland, à côté, est une grande plage de sable aux gros rouleaux, plus facile d'accès.",
+          "text": "Bingin est une petite plage de surf en bas d'un escalier raide. En 2025, les autorités ont fait démolir des constructions sans permis sur la falaise : l'accès et les commerces ont changé, on se renseigne sur place. À marée basse on rejoint à pied Dreamland, une grande plage aux vagues puissantes, bonne pour le bodyboard.",
           "time": "demi-journée",
           "price": null
         },
         {
           "name": "Cours de surf pour débutants",
           "type": "Mer",
-          "text": "Les grosses vagues d'Uluwatu cassent sur le récif et sont pour les surfeurs confirmés. Pour un premier cours, les écoles emmènent sur la petite vague de Padang Padang ou à Dreamland, avec une planche en mousse et un moniteur dans l'eau.",
+          "text": "Les grosses vagues d'Uluwatu cassent sur le récif et sont pour les surfeurs confirmés. Pour un premier cours, on va sur la petite vague du bord à Padang Padang ou à Thomas Beach, où les vagues sont plus douces et où des stands louent des planches et donnent des leçons.",
           "time": "2 h",
           "price": null
         },
         {
           "name": "Plage de Melasti",
           "type": "Mer",
-          "text": "Sur la côte sud de la presqu'île. La route descend en lacets entre deux murs de calcaire taillé jusqu'à une longue plage blanche protégée par le récif. À marée haute l'eau est turquoise et calme. On y arrive en voiture, sans escalier.",
+          "text": "Sur la côte sud de la presqu'île. La route descend en lacets entre des murs de calcaire jusqu'à une longue plage blanche protégée par le récif. À marée haute il y a assez d'eau pour nager, à marée basse le récif affleure. On arrive en voiture au niveau du sable. Transats, douches et clubs de plage.",
           "time": "demi-journée",
           "price": null
         },
         {
           "name": "Poisson grillé à Jimbaran",
           "type": "Cuisine",
-          "text": "À Jimbaran, juste au sud de l'aéroport, les restaurants installent leurs tables dans le sable. On choisit son poisson et ses crevettes au poids, ils sont grillés sur des braises de coques de noix de coco, et on dîne pieds nus pendant que le soleil se couche.",
+          "text": "À Jimbaran, à 10 ou 15 minutes au sud de l'aéroport, une cinquantaine de restaurants installent leurs tables dans le sable. On choisit son poisson et ses crevettes au poids, ils sont grillés sur place, et on dîne pieds nus pendant que le soleil se couche. Arriver vers 17 h.",
           "time": "la soirée",
           "price": null
         }
       ],
-      "access": "Depuis l'aéroport, 45 minutes à 1 h de voiture selon les bouchons. Sur place les plages sont loin les unes des autres : il faut un scooter ou un chauffeur.",
+      "access": "Depuis l'aéroport, 20 à 25 km : 40 minutes quand ça roule, jusqu'à 1 h 30 en fin d'après-midi. Sur place les plages sont loin les unes des autres et les routes ne communiquent pas toujours : il faut un scooter ou un chauffeur.",
       "tips": [
         "Les plages sont au pied des falaises : escaliers raides partout, et plusieurs disparaissent à marée haute. Regarder l'horaire des marées avant de descendre.",
-        "L'océan est puissant de ce côté, surtout en août, en pleine saison de surf. On se baigne à Padang Padang ou à Melasti, pas n'importe où."
+        "L'océan est puissant de ce côté, surtout en saison sèche, la saison du surf. On se baigne à Melasti ou à Padang Padang à marée basse, pas n'importe où.",
+        "Sarong obligatoire au temple d'Uluwatu, prêté à l'entrée. Pour le kecak sans réservation, être au guichet vers 16 h 30."
       ],
       "photos": [
         {
@@ -691,6 +692,13 @@
           "author": "Midori",
           "license": "CC BY 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/by/3.0/"
+        },
+        {
+          "file": "Pantai Melasti, Bali.jpg",
+          "caption": "Plage de Melasti à marée basse",
+          "author": "Bayu Stiawan",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
         },
         {
           "file": "Macaca fascicularis, Pura Luhur Uluwatu, Bali, 20220826 0955 1021.jpg",
@@ -712,13 +720,6 @@
           "author": "Arthamade",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
-        },
-        {
-          "file": "Bali surfer (7373617042).jpg",
-          "caption": "Surfeur sur la vague d'Uluwatu",
-          "author": "Simon_sees",
-          "license": "CC BY 2.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
         }
       ]
     },
