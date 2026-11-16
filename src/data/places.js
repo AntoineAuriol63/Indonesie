@@ -79,6 +79,7 @@ const PLACE_VIEW = {
   'sumbawa-besar-moyo': ['Moyo', 'waterfall', 1],
   kupang: ['Kupang', 'palm', 1],
   'alor-kepa': ['Alor', 'snorkel', 1, [124.38, -8.3]],
+  sanur: ['Sanur', 'palm', 3],
 };
 
 export const REGIONS = base.regions.map((r) => {
@@ -87,14 +88,19 @@ export const REGIONS = base.regions.map((r) => {
 });
 export const REGION_BY_ID = Object.fromEntries(REGIONS.map((r) => [r.id, r]));
 
-export const PLACES = base.places.map((p) => {
+// Étapes qui ne viennent pas du tableur. « hidden » : visible seulement dans l'exemple d'itinéraire.
+const EXTRA_PLACES = [
+  { id: 'sanur', region: 'bali', name: 'Sanur', themes: 'Plage / détente', see: 'Plage, front de mer à vélo', daysMin: 2, daysMax: 3, lat: -8.688, lon: 115.262, hidden: true, activities: [], prices: [] },
+];
+
+export const PLACES = [...base.places, ...EXTRA_PLACES].map((p) => {
   const [short, model, rank, spot] = PLACE_VIEW[p.id];
   const content = written.places[p.id];
   const photos = content?.photos?.length ? content.photos.map(commonsPhoto) : p.photo ? [sheetPhoto(p.photo)] : [];
   return { ...p, content, photos, short, model, rank, lon: spot ? spot[0] : p.lon, lat: spot ? spot[1] : p.lat };
 });
 export const PLACE_BY_ID = Object.fromEntries(PLACES.map((p) => [p.id, p]));
-export const placesOf = (regionId) => PLACES.filter((p) => p.region === regionId);
+export const placesOf = (regionId) => PLACES.filter((p) => p.region === regionId && !p.hidden);
 
 // Grandes villes : [nom, lon, lat, modèle 3D ou null si une étape voisine en a déjà un]
 export const CITIES = [

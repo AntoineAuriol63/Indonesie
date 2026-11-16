@@ -1,0 +1,96 @@
+{
+ "regions": {},
+ "places": {
+  "sanur": {
+   "intro": [
+    "Sanur, c'est la plage tranquille du sud de Bali : pas de grosses vagues, pas de foule, une longue promenade au bord de l'eau. On y finit le voyage pour se reposer avant l'avion, l'aéroport est à une demi-heure.",
+    "La plage fait face à l'est, donc le spectacle est le matin, quand le soleil sort de la mer derrière les bateaux de pêche."
+   ],
+   "todo": [
+    {
+     "name": "Lever de soleil sur la plage",
+     "type": "Détente",
+     "text": "Sanur regarde vers l'est : le soleil se lève sur la mer, derrière les jukung, les pirogues à balancier des pêcheurs. Par temps clair, on voit le mont Agung au fond.",
+     "time": "tôt le matin",
+     "price": null
+    },
+    {
+     "name": "Front de mer à vélo",
+     "type": "Détente",
+     "text": "Une promenade pavée longe la plage sur plusieurs kilomètres, sans voitures. On loue un vélo et on s'arrête dans les warungs, les pieds dans le sable.",
+     "time": "2 h",
+     "price": null
+    },
+    {
+     "name": "Baignade dans le lagon",
+     "type": "Mer",
+     "text": "La barrière de corail casse les vagues au large : l'eau est calme et peu profonde, sans courant. À marée basse, il faut marcher loin pour avoir de l'eau jusqu'à la taille.",
+     "time": "",
+     "price": null
+    },
+    {
+     "name": "Musée Le Mayeur",
+     "type": "Culture",
+     "text": "La maison du peintre belge Adrien-Jean Le Mayeur, installé ici dans les années 1930 avec sa femme, la danseuse balinaise Ni Pollok. Ses toiles sont accrochées dans les pièces où il vivait, au bord de la plage.",
+     "time": "1 h",
+     "price": null
+    },
+    {
+     "name": "Marché de nuit de Sindhu",
+     "type": "Cuisine",
+     "text": "Le soir, les stands s'installent au marché de Sindhu : brochettes de satay, nasi campur, martabak. On choisit, on s'assoit sur un tabouret en plastique et on mange avec les gens du quartier.",
+     "time": "le soir",
+     "price": null
+    },
+    {
+     "name": "Journée à Nusa Lembongan",
+     "type": "Mer",
+     "text": "Les bateaux rapides partent du port de Sanur et mettent environ une demi-heure. Sur place : plages, snorkeling et le pont jaune vers Nusa Ceningan.",
+     "time": "la journée",
+     "price": null
+    }
+   ],
+   "access": "Depuis Ubud, une heure de voiture, davantage s'il y a des embouteillages. L'aéroport de Denpasar est à une demi-heure.",
+   "tips": [
+    "À marée basse, la mer se retire loin : on se baigne plutôt à marée haute."
+   ],
+   "photos": [
+    {
+     "file": "Morning in Sanur Beach, Bali.jpg",
+     "caption": "Lever de soleil sur la plage de Sanur",
+     "author": "Danangtrihartanto",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "file": "Sanur Beach Bali Indonesia - panoramio (19).jpg",
+     "caption": "Plage de Sanur",
+     "author": "Michelle Maria",
+     "license": "CC BY 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+    },
+    {
+     "file": "Pantai Sanur 3.jpg",
+     "caption": "Promenade du front de mer",
+     "author": "Fitri Penyalai",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "file": "Pantai Sanur 4.jpg",
+     "caption": "Pirogue de pêche et mont Agung",
+     "author": "Fitri Penyalai",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "file": "Museum Le Mayeur - 2025-02-17 - Andy Mabbett - 138.jpg",
+     "caption": "Musée Le Mayeur",
+     "author": "Andy Mabbett",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
+  }
+ }
+}

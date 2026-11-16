@@ -146,40 +146,52 @@ function placeCard(p) {
 }
 
 function itineraryCard() {
-  const total = ITINERARY.stops.reduce((n, s) => n + s.days, 0);
-  const steps = ITINERARY.stops
+  const stops = ITINERARY.stops
     .map((s, i) => {
       const p = PLACE_BY_ID[s.place];
-      const leg = ITINERARY.legs[i];
-      const next = ITINERARY.stops[i + 1];
-      const paid = p.content ? p.content.todo.filter((t) => t.price) : [];
       return `
         <button class="stop" data-action="place" data-id="${p.id}" style="--c:${REGION_BY_ID[p.region].color}">
           <span class="stop__n">${i + 1}</span>
-          <span class="stop__body">
-            <span class="stop__name">${esc(p.name)}</span>
-            <span class="stop__meta">${s.days} jour${s.days > 1 ? 's' : ''} · ${esc(p.see)}</span>
-            ${paid.map((t) => `<span class="stop__price">${esc(t.price.what.charAt(0).toUpperCase() + t.price.what.slice(1))} : ${euros(t.price)}</span>`).join('')}
-          </span>
-        </button>
-        ${
-          next
-            ? `<div class="leg">
-                <span class="leg__mode">${esc(leg.mode)} vers ${esc(PLACE_BY_ID[next.place].short)}</span>
-                <span>${[leg.duration, leg.price && `${euros(leg.price)} ${leg.price.what}`].filter(Boolean).map(esc).join(' · ')}</span>
-              </div>`
-            : ''
-        }`;
+          <span class="stop__name">${esc(p.short)}</span>
+          <span class="stop__meta">${s.nights} nuit${s.nights > 1 ? 's' : ''}</span>
+        </button>`;
     })
     .join('');
+  // Un clic sur un jour amène la carte sur l'étape concernée, sans quitter le programme.
+  const dayRows = ITINERARY.days
+    .map((d) => {
+      const tag = d.place ? 'button' : 'div';
+      return `
+        <${tag} class="day" ${d.place ? `data-action="day" data-id="${d.place}"` : ''}>
+          <span class="day__n">J${d.n}</span>
+          <span class="day__body">
+            <span class="day__title">${esc(d.title)}</span>
+            <span class="day__text">${esc(d.text)}</span>
+            ${d.night ? `<span class="day__night">${esc(d.night)}</span>` : ''}
+          </span>
+        </${tag}>`;
+    })
+    .join('');
+  const b = ITINERARY.budget;
   return `
     <header class="card__head" style="--c:#1d2b53">
       <button class="back" data-action="back">‹ Indonésie</button>
       <h2>${esc(ITINERARY.title)}</h2>
-      <p class="card__themes">${ITINERARY.draft ? 'Exemple provisoire · ' : ''}${ITINERARY.stops.length} étapes · ${total} jours sur place</p>
+      <p class="card__themes">${esc(ITINERARY.facts)}</p>
     </header>
     <div class="card__scroll">
-      <div class="timeline">${steps}</div>
+      <p class="card__text">${esc(ITINERARY.summary)}</p>
+      <h3>Les étapes</h3>
+      <div class="stops">${stops}</div>
+      <h3>Jour par jour</h3>
+      <div class="days">${dayRows}</div>
+      <h3>Budget par personne</h3>
+      <p class="card__text">${esc(b.basis)}</p>
+      <div class="budget">
+        ${b.lines.map((l) => `<div class="budget__line"><span>${esc(l.label)}${l.note ? `<small>${esc(l.note)}</small>` : ''}</span><b>${l.amount} €</b></div>`).join('')}
+        <div class="budget__line budget__line--total"><span>Total hors vol international</span><b>${b.total.toLocaleString('fr-FR')} €</b></div>
+      </div>
+      <p class="card__text">${esc(b.flight)}</p>
     </div>`;
 }
 
@@ -214,7 +226,7 @@ function flyToItinerary() {
   const lons = pts.map((p) => p.lon);
   const lats = pts.map((p) => p.lat);
   const span = Math.max(Math.max(...lons) - Math.min(...lons), (Math.max(...lats) - Math.min(...lats)) * 2.4);
-  world.flyTo((Math.max(...lons) + Math.min(...lons)) / 2, (Math.max(...lats) + Math.min(...lats)) / 2, Math.max(5, span * 1.35 + 3), { duration: 1.8 });
+  world.flyTo((Math.max(...lons) + Math.min(...lons)) / 2, (Math.max(...lats) + Math.min(...lats)) / 2, Math.max(5, span * 1.6 + 3), { duration: 1.8 });
 }
 
 function openRegion(id) {
@@ -277,6 +289,7 @@ const handlers = {
   },
   back,
   place: (el) => openPlace(el.dataset.id),
+  day: (el) => world.focusPlace(el.dataset.id),
   itinerary: toggleItinerary,
   zoom: (el) => world.zoom(+el.dataset.factor),
   help: () => $('help').classList.toggle('is-open'),

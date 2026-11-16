@@ -537,8 +537,8 @@ export function createFlatWorld({ canvas, labelLayer, onRegion, onPlace }) {
     }
     for (const m of markers) {
       // Étapes de la région ouverte (ou de l'itinéraire) en grand, les autres en petit.
-      m.active = state.itinerary ? state.itinerary.includes(m.id) : m.region === state.region;
-      if (state.itinerary && !m.active) m.onScreen = false;
+      m.active = state.itinerary ? state.itinerary.includes(m.id) : m.region === state.region && !m.hidden;
+      if ((state.itinerary || m.hidden) && !m.active) m.onScreen = false;
       if (!m.onScreen) continue;
       const active = m.selected || m.hovered;
       const k = active ? 1.45 : m.active ? 1.15 : 0.6;

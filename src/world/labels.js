@@ -26,6 +26,7 @@ export function createLabels(layer, { onRegion, onPlace, onRegionHover }) {
   for (const p of PLACES) {
     const item = add('place', p.id, p.lon, p.lat, 'button', 'lbl--place', `<span class="lbl__n"></span>${p.short}`, 70 - p.rank);
     item.region = p.region;
+    item.hidden = !!p.hidden;
     item.badge = item.el.firstElementChild;
     item.el.addEventListener('click', () => onPlace(p.id));
   }
@@ -47,7 +48,7 @@ export function createLabels(layer, { onRegion, onPlace, onRegionHover }) {
         el.classList.toggle('is-dim', !!region);
       } else if (item.type === 'place') {
         const order = itinerary ? itinerary.indexOf(item.id) + 1 : 0;
-        item.shown = itinerary ? order > 0 : item.region === region;
+        item.shown = itinerary ? order > 0 : item.region === region && !item.hidden;
         item.selected = item.id === place;
         item.badge.textContent = order || '';
         el.classList.toggle('is-selected', item.selected);

@@ -206,7 +206,7 @@ export function createWorld({ canvas, labelLayer, onRegion, onPlace }) {
 
   const placeSpots = {};
   PLACES.forEach((p) => {
-    const spot = addSpot(p.lon, p.lat, p.model, { id: p.id, region: p.region, rank: p.rank, tag: labels.byId[p.id] });
+    const spot = addSpot(p.lon, p.lat, p.model, { id: p.id, region: p.region, rank: p.rank, hidden: !!p.hidden, tag: labels.byId[p.id] });
     const ring = new THREE.Mesh(
       ringGeometry,
       new THREE.MeshBasicMaterial({ color: REGION_BY_ID[p.region].color, transparent: true, opacity: 0, depthWrite: false }),
@@ -329,7 +329,7 @@ export function createWorld({ canvas, labelLayer, onRegion, onPlace }) {
       s.sx = (projected.x * 0.5 + 0.5) * width;
       s.sy = (-projected.y * 0.5 + 0.5) * height;
       const inItinerary = state.itinerary?.includes(s.id);
-      s.active = state.itinerary ? inItinerary : !!s.id && s.region === state.region;
+      s.active = state.itinerary ? inItinerary : !!s.id && s.region === state.region && !s.hidden;
       // Priorité : étape sélectionnée, étapes de la région ouverte, puis rang.
       s.order = s.id === state.place ? 0 : s.active ? 1 : 1 + s.rank;
     }
@@ -337,7 +337,7 @@ export function createWorld({ canvas, labelLayer, onRegion, onPlace }) {
     for (const s of [...spots].sort((a, b) => a.order - b.order)) {
       if (state.itinerary) s.wanted = s.active;
       else if (s.active || s.id === state.place) s.wanted = true;
-      else s.wanted = !shownSpots.some((o) => Math.hypot(o.sx - s.sx, o.sy - s.sy) < minGap);
+      else s.wanted = !s.hidden && !shownSpots.some((o) => Math.hypot(o.sx - s.sx, o.sy - s.sy) < minGap);
       if (s.wanted && s.onScreen) shownSpots.push(s);
     }
     for (const s of spots) {

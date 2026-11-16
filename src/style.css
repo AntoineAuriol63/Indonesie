@@ -555,65 +555,129 @@ body:not(.started) .topbar {
 .tag--detente { background: #f7d4ef; }
 
 /* Itinéraire */
-.timeline {
-  display: grid;
+.stops {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
 }
 .stop {
   display: flex;
-  align-items: flex-start;
-  gap: 10px;
-  padding: 10px 12px;
+  align-items: center;
+  gap: 7px;
+  padding: 5px 11px 5px 6px;
   border: 2.5px solid var(--ink);
-  border-radius: 16px;
-  background: color-mix(in srgb, var(--c) 16%, white);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--c) 22%, white);
   box-shadow: 0 3px 0 var(--ink);
-  text-align: left;
   transition: transform 0.1s;
 }
 .stop:hover {
-  transform: translateX(3px);
+  transform: translateY(-2px);
 }
 .stop__n {
-  flex: none;
   display: grid;
   place-items: center;
-  width: 26px;
-  height: 26px;
+  width: 22px;
+  height: 22px;
   border-radius: 50%;
   background: var(--ink);
   color: var(--sun);
   font-family: var(--font-display);
   font-weight: 600;
-  font-size: 14px;
-}
-.stop__body {
-  display: grid;
-  gap: 1px;
+  font-size: 13px;
 }
 .stop__name {
   font-family: var(--font-display);
   font-weight: 600;
-  font-size: 16px;
+  font-size: 14.5px;
 }
-.stop__meta,
-.stop__price {
-  font-size: 13px;
+.stop__meta {
+  font-size: 12.5px;
   color: var(--ink-soft);
 }
-.leg {
+.days {
   display: grid;
-  gap: 1px;
-  margin: 0 0 0 24px;
-  padding: 10px 0 10px 22px;
-  border-left: 3px dashed var(--ink);
-  font-size: 13px;
-  color: var(--ink-soft);
+  gap: 8px;
 }
-.leg__mode {
+.day {
+  display: flex;
+  align-items: flex-start;
+  gap: 11px;
+  width: 100%;
+  padding: 9px 12px 10px 9px;
+  border: 2.5px solid var(--ink);
+  border-radius: 14px;
+  background: #fff;
+  text-align: left;
+  font-size: 14px;
+  line-height: 1.45;
+}
+button.day {
+  transition: background 0.1s;
+}
+button.day:hover {
+  background: #fff6cf;
+}
+.day__n {
+  flex: none;
+  min-width: 36px;
+  padding: 2px 0;
+  border-radius: 9px;
+  background: var(--ink);
+  color: var(--sun);
   font-family: var(--font-display);
   font-weight: 600;
+  font-size: 13.5px;
+  text-align: center;
+}
+.day__body {
+  display: grid;
+  gap: 3px;
+}
+.day__title {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 15.5px;
+  line-height: 1.2;
+}
+.day__night {
+  font-weight: 800;
+  font-size: 12.5px;
+  color: var(--ink-soft);
+}
+.budget {
+  display: grid;
+  margin: 10px 0 12px;
+  border: 2.5px solid var(--ink);
+  border-radius: 14px;
+  background: #fff;
+  overflow: hidden;
   font-size: 14px;
-  color: var(--ink);
+}
+.budget__line {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 7px 12px;
+  border-bottom: 1.5px solid var(--paper-2);
+}
+.budget__line small {
+  display: block;
+  font-size: 12px;
+  color: var(--ink-soft);
+}
+.budget__line b {
+  font-family: var(--font-display);
+  font-weight: 600;
+  white-space: nowrap;
+}
+.budget__line--total {
+  border-bottom: 0;
+  background: var(--sun);
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 15px;
 }
 
 /* ------------------------------------------------------------ Zoom et aide */
