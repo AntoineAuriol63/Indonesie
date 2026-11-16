@@ -30,15 +30,21 @@ const BUDGETS = ['', 'Petit budget', 'Budget moyen', 'Budget élevé'];
 const ui = { selected: null, filter: 'all', tour: null, started: false };
 let tourTimer = null;
 
-const world = createWorld({
-  canvas: $('scene'),
-  labelLayer: $('labels'),
-  onSelect: (id) => {
-    if (!ui.started) return;
-    if (ui.tour) stopTour();
-    select(id);
-  },
-});
+let world;
+try {
+  world = createWorld({
+    canvas: $('scene'),
+    labelLayer: $('labels'),
+    onSelect: (id) => {
+      if (!ui.started) return;
+      if (ui.tour) stopTour();
+      select(id);
+    },
+  });
+} catch (error) {
+  window.showBootError('affichage 3D (WebGL) indisponible');
+  throw error;
+}
 
 const syncWorld = () => world.setState({ selected: ui.selected, stops: state.stops, votes: state.votes });
 
@@ -149,7 +155,7 @@ function renderDetail() {
         <h3>Statistiques</h3>
         <div class="stats">${stats}</div>
 
-        <h3>Quêtes à ne pas manquer</h3>
+        <h3>À ne pas manquer</h3>
         <ul class="quests">${d.highlights.map((h, i) => `<li style="animation-delay:${0.2 + i * 0.06}s">${h}</li>`).join('')}</ul>
 
         <h3>Infos pratiques</h3>
@@ -411,9 +417,9 @@ async function share() {
 }
 
 const PHASE_INFO = {
-  1: ['Niveau 1 — Rêver : explorez, votez, composez l’itinéraire.', '🌴'],
-  2: ['Niveau 2 — Planifier : hôtels, activités et budget jour par jour. À débloquer une fois l’itinéraire choisi !', '🔒'],
-  3: ['Niveau 3 — Partager : journal de bord, photos et messages pour la famille et les amis. Bientôt !', '🔒'],
+  1: ['Étape 1 — Rêver : explorez, votez, composez l’itinéraire.', '🌴'],
+  2: ['Étape 2 — Planifier : hôtels, activités et budget jour par jour. À débloquer une fois l’itinéraire choisi !', '🔒'],
+  3: ['Étape 3 — Partager : journal de bord, photos et messages pour la famille et les amis. Bientôt !', '🔒'],
 };
 
 const handlers = {
@@ -463,7 +469,7 @@ const handlers = {
   },
   rename: (el) => {
     const i = +el.dataset.player;
-    const name = prompt(`Prénom du joueur ${i + 1} :`, state.names[i]);
+    const name = prompt('Prénom :', state.names[i]);
     if (name) actions.setName(i, name);
   },
   leg: (el) => {
@@ -542,3 +548,10 @@ renderList();
 renderDock();
 syncWorld();
 updatePadding();
+
+// Tout est prêt : on active le bouton de l'écran titre.
+document.body.classList.add('ready');
+$('start').disabled = false;
+$('start').textContent = '▶ Commencer l’aventure';
+$('start-hint').hidden = false;
+$('start').focus({ preventScroll: true });

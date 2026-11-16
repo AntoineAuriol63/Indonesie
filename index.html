@@ -46,18 +46,50 @@
 
     <div id="intro" class="intro">
       <div class="intro__card">
-        <p class="intro__kicker">17 000 îles · 1 voyage · 2 joueurs</p>
+        <p class="intro__kicker">17 000 îles · 1 voyage</p>
         <h1 class="intro__title" aria-label="Indonésie">
           <span>I</span><span>n</span><span>d</span><span>o</span><span>n</span><span>é</span><span>s</span><span>i</span><span>e</span>
         </h1>
         <p class="intro__sub">Explorez la carte, votez pour vos coups de cœur<br />et construisez l'itinéraire ensemble.</p>
-        <button class="btn btn--start" data-action="start">▶ Commencer l'aventure</button>
-        <p class="intro__hint">ou appuyez sur <kbd>Entrée</kbd></p>
+        <button class="btn btn--start" id="start" data-action="start" disabled>Chargement…</button>
+        <p class="intro__hint" id="start-hint" hidden>ou appuyez sur <kbd>Entrée</kbd></p>
+        <p class="intro__error" id="boot-error" role="alert" hidden></p>
       </div>
     </div>
 
     <div id="fx"></div>
     <div id="toasts"></div>
+    <script>
+      // Si le site ne peut pas démarrer (navigateur trop ancien, 3D indisponible…), on l'explique au lieu de rester muet.
+      [Array.prototype, String.prototype, Object.getPrototypeOf(Int8Array.prototype)].forEach(function (proto) {
+        if (!proto.at)
+          Object.defineProperty(proto, 'at', {
+            value: function (i) {
+              i = Math.trunc(i) || 0;
+              return this[i < 0 ? i + this.length : i];
+            },
+            writable: true,
+            configurable: true,
+          });
+      });
+      window.showBootError = function (detail) {
+        var el = document.getElementById('boot-error');
+        if (!el || !el.hidden || document.body.className.indexOf('ready') >= 0) return;
+        el.textContent =
+          'Le site n’a pas pu démarrer sur ce navigateur. Essayez avec une version récente de Chrome, Firefox, Edge ou Safari.' +
+          (detail ? ' (' + detail + ')' : '');
+        el.hidden = false;
+        document.getElementById('start').textContent = 'Démarrage impossible';
+      };
+      window.addEventListener(
+        'error',
+        function (event) {
+          var isScript = event.target && event.target.tagName === 'SCRIPT';
+          if (event.message || isScript) window.showBootError(event.message || 'script introuvable');
+        },
+        true,
+      );
+    </script>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>

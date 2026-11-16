@@ -2,7 +2,7 @@
 
 Site de préparation de notre voyage en Indonésie, pensé comme un jeu vidéo : une carte 3D low-poly de l'archipel, des destinations à explorer, des coups de cœur à voter à deux et un itinéraire à composer.
 
-## Les trois niveaux
+## Les trois étapes
 
 1. **Rêver** (en ligne) — explorer les destinations, voter, composer et comparer des itinéraires.
 2. **Planifier** (à venir) — détailler jour par jour : hôtels, activités, transports, budget.

@@ -9,7 +9,7 @@ const defaults = () => ({
   votes: {}, // { [id]: 'a' | 'b' | 'ab' }
   days: 21,
   month: null, // 0-11
-  names: ['Joueur 1', 'Joueur 2'],
+  names: ['Prénom 1', 'Prénom 2'],
 });
 
 function sanitize(raw) {
