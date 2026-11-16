@@ -129,3 +129,30 @@ Le quota de recherches web de la session a été épuisé au début de cette fic
 | Argent liquide, longs week-ends | Wikivoyage (un seul distributeur, cartes indonésiennes ; hôtels pleins pendant les congés de trois jours) | ajoutée |
 
 Photos : les six regardées. « Bébé tortue verte à Derawan » (Tukik.jpg) retirée : rien sur Commons ne dit où elle a été prise. Remplacée par une méduse du lac de Kakaban (Commons, Riza Nugraha, CC BY 2.0, 1 000 px). Légende de la raie manta corrigée : la photo est prise à Sangalaki, pas à Maratua (description Commons).
+
+## Pays Toraja
+
+Vérifié sans moteur de recherche (quota épuisé), sur des pages consultées directement : Wikivoyage, Wikipédia, deux guides datés de 2025-2026.
+
+| Affirmation | Source (URL) | Verdict |
+|---|---|---|
+| Tongkonan, tombes dans les falaises, funérailles de plusieurs jours avec buffles sacrifiés | https://en.wikipedia.org/wiki/Toraja | confirmée (dizaines de buffles, centaines de cochons) |
+| Cérémonies « surtout de juin à septembre » | https://en.wikivoyage.org/wiki/Tana_Toraja (pic en juillet-août, presque tous les jours) ; https://www.backindo.com/tana-toraja-guide/ (mai 2026) ; https://theworldtravelguy.com/tana-toraja-indonesia-things-to-do-in-sulawesi-funeral-land/ | précisée -> surtout juillet et août |
+| Ke'te Kesu « à 4 km de Rantepao » | https://en.wikivoyage.org/wiki/Rantepao (6 km au sud) | corrigée -> 6 km |
+| Ke'te Kesu : « cornes de buffle empilées », « vieux cercueils suspendus » | Wikivoyage (maisons, greniers, aire de cérémonie, sépultures) ; theworldtravelguy (grotte-cimetière derrière le village) ; backindo (tombes de falaise et tau-tau) | reformulée ; cornes retirées |
+| Lemo : caveaux, balcons de tau-tau | Wikivoyage ; theworldtravelguy (sur la route de l'aéroport) | confirmée ; « y aller le matin, paroi au soleil » retiré |
+| Londa : deux grottes, lampe louée à l'entrée, cercueils et crânes | theworldtravelguy (lanterne à louer, deux grottes reliées) ; backindo (guides avec lampe à pétrole) ; https://id.wikipedia.org/wiki/Londa (tombes suspendues) | confirmée ; « balcon de tau-tau au-dessus de l'entrée » retiré |
+| Marché de Bolu « tous les six jours » | Wikivoyage Rantepao et Tana Toraja (mardi et samedi matin, 2 km au nord-est, entrée libre) | corrigée -> mardi et samedi matin |
+| Bolu : « centaines de buffles », buffles tachetés aux yeux bleus, cochons sur des brancards | aucune page consultée (la photo montre des dizaines de buffles) | retirée, sauf buffles et cochons |
+| Batutumonga sur les pentes du Sesean, café face à la vallée, Lo'ko Mata | theworldtravelguy (rocher de Lo'ko Mata au bord de la route, dizaines de tombes) ; backindo (point de vue, brume le matin, caféiers) | confirmée ; « on redescend à pied par les rizières » retiré |
+| Bori Kalimbuang : « une centaine » de menhirs, au nord de Rantepao | theworldtravelguy (pierres dressées, arbres aux bébés, rocher de plus d'une dizaine de tombes) ; backindo ; Wikivoyage (au nord) | nombre retiré ; rocher et arbre ajoutés |
+| Kambira : bébés morts avant leurs dents, niches dans le tronc, pratique abandonnée | backindo ; descriptions Commons des photos de Kambira (volets de bois, plus pratiqué) | confirmée ; « fibres de palmier » -> volet |
+| Funérailles : guide, cigarettes ou sucre, tenue sombre | backindo ; Wikivoyage | confirmée |
+| Toraja chrétiens ; pa'piong à commander « quelques heures avant » | Wikipedia (86 % de chrétiens) ; Wikivoyage (au moins 2 h avant) | confirmée, précisée |
+| Makassar-Rantepao : 8 à 9 h | https://www.backindo.com/makassar-to-tana-toraja/ (août 2026 : compter 9 à 11 h) ; theworldtravelguy (9 à 10 h) ; Wikivoyage (8 à 10 h) | corrigée -> 9 à 10 h |
+| Bus de nuit, sièges presque à plat | backindo (départs 20-21 h, arrivée 5-7 h, sièges-couchettes) ; Wikivoyage | confirmée |
+| Vols Makassar-Toraja | https://en.wikipedia.org/wiki/Toraja_Airport (Wings Air) ; backindo (certains jours, 55 min, juillet 2026 ; aéroport à 45-60 min de Rantepao) ; theworldtravelguy (ligne interrompue en 2025, reprise en janvier 2026) | confirmée, précisée |
+| Droit d'entrée par site, en liquide | theworldtravelguy (environ 30 000 IDR par site) ; Wikivoyage (20 000 IDR, ancien) | confirmée ; montant non repris (sources discordantes) |
+| Nuits fraîches | Wikivoyage (16 à 28 °C, pluie fréquente l'après-midi même en saison sèche) | confirmée, pluie ajoutée |
+
+Photos : les six regardées, toutes justes. « Rizières en terrasses du pays Toraja » (Limbong, lieu absent de la fiche) remplacée par les rizières de Batutumonga (Commons, Romain Pontida, CC BY-SA 2.0).

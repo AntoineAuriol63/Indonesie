@@ -600,78 +600,79 @@
     "pays-toraja": {
       "intro": [
         "Dans les montagnes du sud de Sulawesi, les Toraja vivent dans des villages de maisons tongkonan, aux toits recourbés comme des coques de bateau, et enterrent leurs morts dans les falaises. Les funérailles sont le grand événement d'une famille : plusieurs jours, des centaines d'invités, des buffles sacrifiés.",
-        "On loge à Rantepao et on circule en scooter ou avec un guide entre les villages, les tombes et les rizières. Les cérémonies ont surtout lieu de juin à septembre, donc août tombe bien, mais on ne sait qu'une fois sur place s'il y en a une."
+        "On loge à Rantepao et on circule en scooter ou avec un chauffeur entre les villages, les tombes et les rizières. Les funérailles ont lieu surtout en juillet et en août, presque tous les jours : on tombe bien, mais on ne sait qu'une fois sur place où et quand."
       ],
       "todo": [
         {
           "name": "Village de Ke'te Kesu",
           "type": "Culture",
-          "text": "À 4 km de Rantepao. Une rangée de tongkonan face à leurs greniers à riz, avec des dizaines de cornes de buffle empilées sur le poteau de façade. Derrière le village, un sentier mène à une falaise où pendent de vieux cercueils sculptés.",
+          "text": "À 6 km au sud de Rantepao. Une rangée de tongkonan face à leurs greniers à riz, avec une aire de cérémonie au milieu. Derrière le village, un sentier mène à la falaise et à la grotte où sont déposés les cercueils, gardés par des tau-tau.",
           "time": "1 h 30",
           "price": null
         },
         {
           "name": "Tombes de Lemo",
           "type": "Culture",
-          "text": "Une falaise percée de caveaux creusés à la main, avec des balcons où sont alignés les tau-tau, des statues de bois à l'effigie des morts, les bras tendus. Elle donne sur des rizières. Y aller le matin, quand la paroi est au soleil.",
+          "text": "Une falaise percée de caveaux creusés à la main, avec des balcons où sont alignés les tau-tau, des statues de bois à l'effigie des morts, les bras tendus. C'est tout près de la route principale, au sud de Rantepao, sur le chemin de l'aéroport.",
           "time": "1 h",
           "price": null
         },
         {
           "name": "Grottes de Londa",
           "type": "Culture",
-          "text": "Deux grottes funéraires au pied d'une falaise. À l'entrée, on loue une lampe à pétrole avec son porteur, puis on avance entre les cercueils empilés et les crânes posés sur les rochers. Des tau-tau regardent depuis un balcon, au-dessus de l'entrée.",
+          "text": "Deux grottes funéraires au pied d'une falaise, reliées par un boyau. À l'entrée, on loue une lanterne ou on suit un guide avec sa lampe à pétrole, puis on avance entre les cercueils et les ossements. Dehors, d'autres cercueils sont accrochés à la paroi.",
           "time": "1 h",
           "price": null
         },
         {
           "name": "Marché aux buffles de Bolu",
           "type": "Culture",
-          "text": "À Rantepao, le grand marché a lieu tous les six jours. Des centaines de buffles lavés et brossés attendent un acheteur. Les plus chers, tachetés de rose avec des yeux bleus, sont réservés aux funérailles. À côté, les cochons sont vendus ficelés sur des brancards de bambou.",
+          "text": "À 2 km au nord-est du centre de Rantepao, le marché aux bestiaux se tient le mardi et le samedi matin. Les buffles y attendent un acheteur par dizaines : presque tous finiront sacrifiés à des funérailles. On y vend aussi des cochons. L'entrée est libre.",
           "time": "2 h",
           "price": null
         },
         {
           "name": "Rizières de Batutumonga",
           "type": "Randonnée",
-          "text": "Sur les pentes du mont Sesean, au nord de Rantepao. On monte en scooter, on boit un café face à la vallée, puis on redescend à pied par les rizières en terrasses et les villages. En chemin, le rocher de Lo'ko Mata, percé de dizaines de tombes.",
+          "text": "Un village perché sur les pentes du mont Sesean, au nord de Rantepao. On monte en scooter par une route de rizières en terrasses, on boit un café face à la vallée, souvent dans la brume le matin. Au bord de la route, le rocher de Lo'ko Mata est percé de dizaines de tombes.",
           "time": "demi-journée ou journée",
           "price": null
         },
         {
           "name": "Menhirs de Bori Kalimbuang",
           "type": "Culture",
-          "text": "Un champ d'une centaine de pierres dressées, de toutes les tailles, chacune plantée pour les funérailles d'un notable. C'est à quelques kilomètres au nord de Rantepao, sur la route de Batutumonga.",
+          "text": "Un champ de pierres dressées de toutes les tailles, chacune plantée pour les funérailles d'un notable. À côté, un gros rocher creusé de plus d'une dizaine de tombes et un arbre aux bébés. C'est au nord de Rantepao, sur la route de Batutumonga.",
           "time": "45 min",
           "price": null
         },
         {
           "name": "Arbre aux bébés de Kambira",
           "type": "Culture",
-          "text": "Un gros arbre au milieu des bambous. Les bébés morts avant leurs premières dents étaient déposés dans des niches creusées dans le tronc, refermées par des fibres de palmier. On ne le fait plus, mais les niches se voient encore.",
+          "text": "Un gros arbre au milieu des bambous. Les bébés morts avant leurs premières dents étaient déposés dans des niches creusées dans le tronc vivant, fermées par un petit volet. On ne le fait plus, mais les volets se voient encore.",
           "time": "30 min",
           "price": null
         },
         {
           "name": "Assister à des funérailles",
           "type": "Culture",
-          "text": "Si une cérémonie a lieu, on y va avec un guide local. On apporte des cigarettes ou du sucre à la famille, on s'habille en sombre et on s'assoit là où l'on nous place. Les buffles sont sacrifiés devant tout le monde : c'est dur à regarder.",
+          "text": "Si une cérémonie a lieu, on y va avec un guide local. On apporte des cigarettes ou du sucre à la famille, on s'habille en sombre et on s'assoit là où l'on nous place. Des dizaines de buffles et de cochons peuvent être sacrifiés devant tout le monde : c'est dur à regarder.",
           "time": "demi-journée",
           "price": null
         },
         {
           "name": "Pa'piong et café toraja",
           "type": "Cuisine",
-          "text": "Les Toraja sont chrétiens et cuisinent le porc. Le pa'piong est une viande cuite avec des herbes dans un tube de bambou, à commander au restaurant quelques heures avant. L'arabica du pays se boit partout, très noir.",
+          "text": "Les Toraja sont en grande majorité chrétiens et cuisinent le porc. Le pa'piong est une viande cuite avec des légumes dans un tube de bambou, à commander au restaurant deux heures avant. L'arabica du pays se boit partout, servi avec son marc.",
           "time": "",
           "price": null
         }
       ],
-      "access": "Depuis Makassar, 8 à 9 heures de route jusqu'à Rantepao. Les bus de nuit ont des sièges qui s'allongent presque à plat. Il existe aussi quelques vols entre Makassar et le petit aéroport de Toraja.",
+      "access": "Depuis Makassar, 9 à 10 heures de route jusqu'à Rantepao. Les bus de nuit partent vers 21 h et arrivent au petit matin, avec des sièges qui s'allongent presque à plat. Certains jours, Wings Air relie Makassar au petit aéroport de Toraja en 55 minutes ; il reste 45 minutes à une heure de voiture jusqu'à Rantepao.",
       "tips": [
         "Une cérémonie ne se réserve pas et ne se garantit pas : demander à la guesthouse ou à un guide dès l'arrivée.",
         "Chaque site a son petit droit d'entrée, à payer en liquide.",
-        "Les nuits sont fraîches en altitude."
+        "La ligne aérienne a été interrompue plusieurs mois en 2025 : se faire confirmer le vol avant de construire le voyage dessus.",
+        "Il pleut souvent l'après-midi, même en saison sèche, et les nuits sont fraîches : prendre un pull et une veste de pluie."
       ],
       "photos": [
         {
@@ -689,11 +690,11 @@
           "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
         },
         {
-          "file": "Limbong (46440966984).jpg",
-          "caption": "Rizières en terrasses du pays Toraja",
-          "author": "Jorge Franganillo",
-          "license": "CC BY 2.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+          "file": "Rice terraces, Batutumonga, South Sulawesi, Indonesia (10226584193).jpg",
+          "caption": "Rizières en terrasses de Batutumonga",
+          "author": "Romain Pontida",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
         },
         {
           "file": "Rantepao Pasar Bolu (32105047077).jpg",
