@@ -33,6 +33,7 @@ Format d'une étape :
 
 - `type` : `Culture`, `Nature`, `Mer`, `Randonnée`, `Ville`, `Cuisine`, `Faune` ou `Détente`.
 - `price` : `null` ou un montant dans sa devise d'origine (le site convertit en euros, à 20 100 roupies pour 1 €). `what` dit exactement ce qu'on paie. Un prix n'est ajouté que s'il vient d'une source datée et fiable.
+- Une activité (`todo`) peut porter sa position : champs `lat` et `lon` (degrés décimaux, 4 décimales). Chaque fiche affiche en bas une vraie carte avec un repère numéroté par activité localisée. Objectif : localiser toutes les activités qui ont un lieu précis, à partir d'une source consultée (OpenStreetMap, Google Maps, Wikipédia) ; ne pas localiser une activité sans lieu fixe (« cuisine de rue »). Seules trois activités de Jakarta sont localisées pour l'instant.
 - Une activité (`todo`) peut porter sa propre photo : champ `photo`, au même format qu'une entrée de `photos`. Sans ce champ, le site lui attribue la photo de la galerie dont la légende parle du même sujet. Objectif : une photo par activité quand il en existe une bonne.
 - `photos` : 4 à 6 par étape, la plus belle en premier. Regarder chaque photo avant de la retenir. Légende de 3 à 8 mots, strictement descriptive.
 - Par région : `intro`, `august`, `access`.

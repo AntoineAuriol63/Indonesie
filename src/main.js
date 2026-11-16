@@ -11,6 +11,7 @@ import { createFlatWorld } from './world/flat.js';
 import { PLACE_BY_ID, REGION_BY_ID, placesOf } from './data/places.js';
 import { ITINERARY } from './data/itinerary.js';
 import { toast } from './ui/fx.js';
+import { hideMinimap, showMinimap } from './ui/minimap.js';
 
 const $ = (id) => document.getElementById(id);
 const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
@@ -30,12 +31,7 @@ const worldOptions = {
   // Clic sur un élément de la scène détaillée : on montre l'activité correspondante dans la fiche.
   onDetail: (id, match) => {
     if (ui.place !== id) return;
-    const todo = [...document.querySelectorAll('#panel .todo')].find((el) => el.querySelector('.todo__name').textContent.startsWith(match));
-    if (!todo) return;
-    todo.scrollIntoView({ behavior: 'smooth', block: 'center' });
-    todo.classList.remove('is-flash');
-    void todo.offsetWidth;
-    todo.classList.add('is-flash');
+    flashTodo([...document.querySelectorAll('#panel .todo')].find((el) => el.querySelector('.todo__name').lastChild.textContent.startsWith(match)));
   },
 };
 let world;
@@ -120,10 +116,10 @@ function todoList(p) {
   return items
     .map(
       (t, i) => `
-      <div class="todo">
+      <div class="todo" data-n="${i + 1}">
         ${p.todoImages[i] ? `<img class="todo__photo" src="${esc(p.todoImages[i].at(640))}" alt="${esc(p.todoImages[i].caption)}" loading="lazy" onerror="this.remove()" />` : ''}
         <div class="todo__head">
-          <span class="todo__name">${esc(t.name)}</span>
+          <span class="todo__name"><span class="todo__n">${i + 1}</span>${esc(t.name)}</span>
           ${t.type ? `<span class="tag tag--${TYPE_CLASS[t.type] || 'ville'}">${esc(t.type)}</span>` : ''}
         </div>
         <p>${esc(t.text)}</p>
@@ -154,7 +150,29 @@ function placeCard(p) {
         ${fact('Y aller', c ? c.access : p.access)}
         ${tips.length ? `<div class="fact"><dt>À savoir</dt><dd>${tips.map((t) => `<p>${esc(t)}</p>`).join('')}</dd></div>` : ''}
       </dl>
+      <h3>Sur la carte</h3>
+      <div class="minimap" id="minimap"></div>
     </div>`;
+}
+
+// Met en avant une activité dans la fiche ouverte (depuis la scène 3D ou la carte en bas de fiche).
+function flashTodo(todo) {
+  if (!todo) return;
+  todo.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  todo.classList.remove('is-flash');
+  void todo.offsetWidth;
+  todo.classList.add('is-flash');
+}
+
+function placeMap(p) {
+  const todo = p.content ? p.content.todo : [];
+  const points = todo.map((t, i) => ({ n: i + 1, name: t.name, lat: t.lat, lon: t.lon })).filter((t) => Number.isFinite(t.lat) && Number.isFinite(t.lon));
+  showMinimap($('minimap'), {
+    center: p.real,
+    points,
+    color: REGION_BY_ID[p.region].color,
+    onPick: (n) => flashTodo(document.querySelector(`#panel .todo[data-n="${n}"]`)),
+  });
 }
 
 function itineraryCard() {
@@ -212,8 +230,11 @@ function render() {
   const panel = $('panel');
   const open = ui.place || ui.region || ui.itinerary;
   panel.classList.toggle('is-open', !!open);
-  if (ui.place) panel.innerHTML = placeCard(PLACE_BY_ID[ui.place]);
-  else if (ui.itinerary) panel.innerHTML = itineraryCard();
+  hideMinimap();
+  if (ui.place) {
+    panel.innerHTML = placeCard(PLACE_BY_ID[ui.place]);
+    placeMap(PLACE_BY_ID[ui.place]);
+  } else if (ui.itinerary) panel.innerHTML = itineraryCard();
   else if (ui.region) panel.innerHTML = regionCard(REGION_BY_ID[ui.region]);
   panel.scrollTop = 0;
   document.body.classList.toggle('has-panel', !!open);

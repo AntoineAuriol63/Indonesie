@@ -50,14 +50,18 @@
           "type": "Ville",
           "text": "L'obélisque de l'indépendance, coiffé d'une flamme recouverte d'or, au milieu d'une place d'environ un kilomètre de côté. Un petit ascenseur monte à la plateforme d'observation, à 115 m, et le nombre de billets par jour est limité : venir à l'ouverture, à 8 h. Fermé le lundi.",
           "time": "1 h 30",
-          "price": null
+          "price": null,
+          "lat": -6.1754,
+          "lon": 106.8271
         },
         {
           "name": "Mosquée Istiqlal et cathédrale",
           "type": "Culture",
           "text": "La plus grande mosquée d'Asie du Sud-Est, en marbre et en acier, sous une coupole de 45 m de diamètre. On s'inscrit à l'accueil pour une visite guidée gratuite, en dehors des prières : tunique prêtée, et la salle de prière se regarde depuis les galeries. Juste en face, la cathédrale néogothique de 1901.",
           "time": "1 h 30",
-          "price": null
+          "price": null,
+          "lat": -6.1698,
+          "lon": 106.8309
         },
         {
           "name": "Musée national",
@@ -68,7 +72,9 @@
             "amount": 150000,
             "currency": "IDR",
             "what": "entrée du musée national, tarif étranger en vigueur depuis janvier 2026, par personne"
-          }
+          },
+          "lat": -6.1761,
+          "lon": 106.8217
         },
         {
           "name": "Cuisine de rue",
