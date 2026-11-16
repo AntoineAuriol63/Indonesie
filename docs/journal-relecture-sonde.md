@@ -63,3 +63,30 @@ Photos : retirées « Memanfaatkan Tenaga Hewan Ternak.jpg » (Mareje, ouest de 
 | Pas de distributeur à Senaru | wtp.travel (le plus proche à Tanjung, 1 h) | ajoutée |
 
 Photos : « Air Terjun Sendhang Gile.JPG » (cascade à peine visible derrière les arbres) remplacée par une photo Flickr de ralexander Photos (CC BY 2.0, titrée « Sendang Gile Waterfall », petit filigrane en bas à droite) qui montre les deux paliers. Les quatre autres regardées et gardées. « Senaru Waterfall (16737156290).jpg » écartée : c'est Tiu Kelep, déjà illustrée.
+
+## gili-air-meno-trawangan
+
+| Affirmation | Source (URL) | Verdict |
+| --- | --- | --- |
+| Ni voiture ni scooter, cidomo, tour à pied en 1 à 2 h | https://en.wikivoyage.org/wiki/Gili_Islands (90 min) ; https://en.wikivoyage.org/wiki/Gili_Trawangan (7 km, 90 à 120 min) ; https://en.wikivoyage.org/wiki/Gili_Meno (90 min) | confirmée |
+| Trawangan la plus grande et festive, Meno la plus petite et calme | Wikivoyage (340, 188 et 150 ha ; Meno 400 habitants) | confirmée |
+| Tortues vertes et imbriquées, nord-est de Trawangan, « Turtle Point devant Gili Meno » | https://southeastasiabackpacker.com/gili-trawangan-snorkeling/ et https://www.snorkeling-report.com/spot/snorkeling-gili-trawangan (les deux espèces ; Turtle Point au nord-est de Trawangan) ; description Commons de « Gili trawangan turtle 01.jpg » ; Wikivoyage Gili Meno (tortues devant la côte nord-ouest) | corrigée : Turtle Point est à Trawangan, pas devant Meno |
+| Statues immergées de Meno, cercle de silhouettes grandeur nature | https://atlasobscura.com/places/nest-gili-meno ; https://baskgilimeno.com/blog/snorkeling-the-nest-gili-meno (Nest, Jason deCaires Taylor, 2017, 48 figures, 4 m de fond, 100 m du bord) | confirmée, chiffres ajoutés |
+| Sortie snorkeling, bateau à fond de verre, 3 ou 4 arrêts | Wikivoyage Gili Islands (10 h à 16 h, 3 ou 4 sites) ; annonces de sorties (Turtle Point, statues, jardin de corail) | confirmée ; durée élargie ; pas de prix retenu (60 000 à 150 000 IDR sur Wikivoyage, non daté) |
+| Tour à vélo, sable mou | Wikivoyage Gili Trawangan (moins d'une heure, pousser le vélo dans le sable ; location 30 000 à 50 000 IDR, non daté) | confirmée |
+| Coucher de soleil côté ouest, volcan Agung ; poufs et balançoires | photo Commons « Sunset, Gili Trawangan, Indonesia (932884927).jpg » (silhouette de l'Agung) | Agung confirmé ; « poufs et balançoires dans l'eau » retiré (non retrouvé cette fois) |
+| Lever de soleil sur le Rinjani côté est | photo Commons « Red colour at sunrise and Lombok's mountains » | confirmée |
+| Navette publique entre les îles, matin et après-midi | https://www.lomboknetwork.net/lombok/gili-islands/public-boat-from-bangsal/ (Air 8 h 30 et 15 h, Trawangan 9 h 30 et 16 h, 40 000 IDR) ; Wikivoyage Gili Islands (40 000 et 45 000 IDR, 2024) ; https://wildlovelyworld.com/gili-islands-island-hopping-public-slow-boat/ (40 000 à 45 000) | confirmée ; horaires et prix ajoutés |
+| Lac salé au milieu de Meno | Wikivoyage Gili Meno (côté ouest du centre de l'île) | confirmée |
+| Marché de nuit près du port de Trawangan, poisson au choix, tables communes | Wikivoyage Gili Trawangan ; https://gili.travel/restaurants-bars/trawangan-night-market (dès 18 h, on choisit, tables communes, prix parfois gonflés) | confirmée |
+| Padang Bai-Gili environ 2 h | 12go, trvlogue (1 h 30 à 2 h 30 selon l'opérateur) | corrigée : environ 2 h -> 1 h 30 à 2 h 30 |
+| Bangsal : 15 à 30 min | Wikivoyage (15 min Air, 30 Meno, 45 Trawangan) ; lomboknetwork (19 500 à 22 500 IDR, départ quand le bateau est plein, guichet fermé à 16 h 30) | corrigée : jusqu'à 45 min ; tarif et fonctionnement ajoutés |
+| Courant entre les îles | Wikivoyage (« do not attempt it », plusieurs noyades) | confirmée |
+| Eau de douche salée | Wikivoyage (petits hébergements, Meno surtout) | confirmée |
+| Méduses en juillet-août | Wikivoyage Gili Islands | ajoutée |
+
+Photos : les six regardées, toutes justes (lieu confirmé par les descriptions Commons). Pas de photo libre des statues immergées sur Commons.
+
+## Région lombok-et-gili
+
+Les trois textes relus après les quatre fiches : aéroport à une demi-heure de Kuta (Wikivoyage), bateaux rapides depuis Bali vers les Gili et Bangsal, mer agitée dans le détroit (Wikivoyage Gili Trawangan). Rien à corriger.

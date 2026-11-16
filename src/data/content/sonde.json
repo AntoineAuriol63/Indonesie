@@ -326,28 +326,28 @@
     {
      "name": "Snorkeling avec les tortues",
      "type": "Faune",
-     "text": "Des tortues vertes et des tortues imbriquées broutent les herbiers à quelques mètres du bord. On en voit depuis la plage au nord-est de Trawangan, et presque à chaque fois avec les bateaux qui s'arrêtent à Turtle Point, devant Gili Meno. On regarde sans toucher.",
+     "text": "Des tortues vertes et des tortues imbriquées broutent les herbiers à quelques mètres du bord. On en voit depuis la plage au nord-est de Trawangan, le coin appelé Turtle Point, et devant la côte nord-ouest de Meno. Les sorties en bateau s'y arrêtent aussi. On regarde sans toucher.",
      "time": "1 à 2 h",
      "price": null
     },
     {
      "name": "Tour des trois îles en bateau",
      "type": "Mer",
-     "text": "La sortie classique, en bateau à fond de verre partagé ou en barque privée : trois ou quatre arrêts masque et tuba, dont le point des tortues et les statues immergées de Gili Meno, un cercle de silhouettes grandeur nature posé à quelques mètres de fond.",
-     "time": "demi-journée",
+     "text": "La sortie classique, en bateau à fond de verre partagé ou en barque privée : trois ou quatre arrêts masque et tuba, dont le point des tortues et les statues immergées de Gili Meno, un cercle de 48 silhouettes grandeur nature posé par 4 m de fond, à cent mètres de la plage.",
+     "time": "demi-journée à la journée",
      "price": null
     },
     {
      "name": "Tour de l'île à vélo",
      "type": "Détente",
-     "text": "On loue un vélo à la journée et on fait le tour de Trawangan ou d'Air par la piste qui longe la côte. Il y a des passages de sable mou où il faut pousser. Sur Meno, tout se fait à pied.",
+     "text": "On loue un vélo à la journée et on fait le tour de Trawangan, 7 km, ou d'Air par la piste qui longe la côte : moins d'une heure. Il y a des passages de sable mou où il faut pousser. Sur Meno, tout se fait à pied.",
      "time": "1 à 2 h",
      "price": null
     },
     {
      "name": "Coucher de soleil côté ouest",
      "type": "Détente",
-     "text": "Sur la côte ouest de Trawangan et d'Air, les bars sortent des poufs et plantent des balançoires dans l'eau. Le soleil se couche du côté de Bali, avec la silhouette du volcan Agung quand l'horizon est dégagé.",
+     "text": "Le soleil se couche du côté de Bali, avec la silhouette du volcan Agung quand l'horizon est dégagé. On s'installe sur la côte ouest de Trawangan ou d'Air, dans un des bars de plage, une heure avant.",
      "time": "1 h",
      "price": null
     },
@@ -361,23 +361,28 @@
     {
      "name": "Une journée sur l'île voisine",
      "type": "Mer",
-     "text": "Un bateau public fait la navette entre les trois îles, le matin et l'après-midi. On peut dormir à Air et passer la journée à Meno, pour ses plages désertes et son lac salé au milieu de l'île, ou aller voir l'ambiance de Trawangan.",
+     "text": "Un bateau public fait le tour des trois îles deux fois par jour : départ d'Air vers 8 h 30 et 15 h, de Trawangan vers 9 h 30 et 16 h. On peut dormir à Air et passer la journée à Meno, pour ses plages désertes et son lac salé, ou aller voir l'ambiance de Trawangan.",
      "time": "la journée",
-     "price": null
+     "price": {
+      "amount": 40000,
+      "currency": "IDR",
+      "what": "bateau public d'une île à l'autre, par personne, aller simple (45 000 jusqu'à Trawangan)"
+     }
     },
     {
      "name": "Marché de nuit de Trawangan",
      "type": "Cuisine",
-     "text": "Le soir, sur la place près du port de Trawangan, des stands de poisson grillé, de brochettes et de nasi campur. On choisit son poisson au comptoir, on le fait griller et on mange à de grandes tables communes.",
+     "text": "Le soir, à partir de 18 h, près du port de Trawangan : des stands de poisson et de fruits de mer grillés. On choisit son poisson, on le fait griller et on mange à de grandes tables communes. Demander le prix avant de commander.",
      "time": "le soir",
      "price": null
     }
    ],
-   "access": "Bateau rapide direct depuis Bali (Padang Bai, environ 2 h de traversée), ou bateau public depuis le port de Bangsal, à Lombok : 15 à 30 minutes selon l'île.",
+   "access": "Bateau rapide direct depuis Bali : de Padang Bai, 1 h 30 à 2 h 30 de traversée selon le bateau et les escales. Depuis Lombok, bateau public au port de Bangsal : 15 minutes pour Air, 30 pour Meno, 45 pour Trawangan, une vingtaine de milliers de roupies. Il part quand il est plein, et le guichet ferme vers 16 h 30.",
    "tips": [
-    "Il y a du courant dans les chenaux entre les îles : on ne tente pas la traversée à la nage et on reste près du bord en snorkeling.",
+    "Il y a du courant dans les chenaux entre les îles : on ne tente pas la traversée à la nage, des nageurs s'y sont noyés, et on reste près du bord en snorkeling.",
     "La traversée depuis Bali peut secouer. Prendre un bateau du matin et un cachet contre le mal de mer.",
-    "Dans beaucoup d'hébergements, l'eau de la douche est un peu salée."
+    "Dans les petits hébergements, l'eau de la douche est souvent salée, surtout à Meno.",
+    "Juillet et août sont les mois où il y a le plus de méduses."
    ],
    "photos": [
     {
