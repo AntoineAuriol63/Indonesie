@@ -510,7 +510,7 @@ export function createWorld({ canvas, labelLayer, onRegion, onPlace, onDetail })
         // (0,69 = 2·tan(19°), l'ouverture verticale de la caméra ; 0,77 = écrasement de la profondeur à 40° d'inclinaison).
         const freeW = Math.max(200, width - padding.left - padding.right);
         const freeH = Math.max(200, height - padding.top - padding.bottom);
-        const margin = detailed.scale * 0.5;
+        const margin = detailed.margin;
         const forWidth = ((detailed.spanX + margin) * height) / (0.69 * 0.92 * freeW);
         const forHeight = ((detailed.spanZ + margin) * 0.77 * height) / (0.69 * 0.9 * freeH);
         // Une scène en altitude est plus près de la caméra que le sol visé : on recule d'autant.

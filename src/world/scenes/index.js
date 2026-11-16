@@ -30,6 +30,8 @@ export function sceneOf(placeId) {
     items,
     scale,
     center: { dx: (Math.min(...xs) + Math.max(...xs)) / 2, dz: (Math.min(...zs) + Math.max(...zs)) / 2 },
+    // Marge à garder autour de la scène : place pour les étiquettes et l'emprise des éléments du bord.
+    margin: scale * (0.2 + Math.max(...items.map((i) => i.size)) * 1.6),
     spanX: Math.max(...xs) - Math.min(...xs),
     spanZ: Math.max(...zs) - Math.min(...zs),
   };

@@ -632,7 +632,7 @@ const YOGYAKARTA = [
     name: 'Kraton',
     match: 'Kraton',
     dx: 0.5,
-    dz: 0.92,
+    dz: 0.86,
     size: 0.21,
     height: 0.95,
     build() {
