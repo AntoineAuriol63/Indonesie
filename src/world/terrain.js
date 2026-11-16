@@ -2,7 +2,7 @@
 import * as THREE from 'three';
 import Delaunator from 'delaunator';
 import geo from '../data/geo.json';
-import { DESTINATIONS, PEAKS } from '../data/destinations.js';
+import { PEAKS, PLACES } from '../data/places.js';
 import { fbm, mulberry32 } from './noise.js';
 
 // Projection : 1 unité = 1 degré, nord vers -z.
@@ -20,6 +20,13 @@ const EXTRA_ISLETS = [
   [116.1, -8.36, 0.018], // Gili Air
   [124.76, 1.62, 0.04], // Bunaken
   [124.7, 1.72, 0.03], // Manado Tua
+  [118.13, 2.3285, 0.03], // Derawan
+  [118.62, 2.22, 0.05], // Maratua
+  [119.57, -8.656, 0.035], // Padar
+  [129.9, -4.53, 0.035], // Banda Neira
+  [129.93, -4.57, 0.03], // Banda Besar
+  [130.5175, -0.565, 0.02], // Arborek
+  [130.68, -0.56, 0.03], // Kri
 ];
 
 // Lacs : ellipse (centre, demi-axes, rotation) + île centrale éventuelle.
@@ -90,7 +97,7 @@ const peaks = PEAKS.map(([name, lon, lat, h, smokes]) => {
 
 // Zones où le maillage est affiné sur les grandes îles (autour des étapes et des lacs).
 const detailZones = [
-  ...DESTINATIONS.map((d) => {
+  ...PLACES.map((d) => {
     const [x, z] = toWorld(d.lon, d.lat);
     return { x, z, r: 0.55, s: 0.075 };
   }),
@@ -109,11 +116,13 @@ const RAMP_INDONESIA = [
   [0.8, C('#8a8f86')],
   [0.92, C('#ffffff')],
 ];
+// Pays voisins : teintes de carte ancienne, pour que l'Indonésie ressorte sans que le reste paraisse vide.
 const RAMP_NEIGHBOURS = [
-  [0.0, C('#e9e2c4')],
-  [0.05, C('#d5dcb8')],
-  [0.25, C('#c3cfae')],
-  [0.5, C('#b2c0a4')],
+  [0.0, C('#f7ecd0')],
+  [0.04, C('#f1dfb4')],
+  [0.14, C('#e6cb96')],
+  [0.3, C('#d6b47c')],
+  [0.5, C('#c39c6b')],
 ];
 const ROCK = C('#6d5549');
 const LAVA = C('#ff6b35');
@@ -333,7 +342,7 @@ export function buildTerrain() {
   const skirt = { pos: [], col: [] };
 
   const indoStyle = { minSpacing: 0.035, maxSpacing: 0.21, relief: 0.4, ramp: RAMP_INDONESIA, peaks: true, zones: true };
-  const neighbourStyle = { minSpacing: 0.12, maxSpacing: 0.34, relief: 0.22, ramp: RAMP_NEIGHBOURS, peaks: false, zones: false };
+  const neighbourStyle = { minSpacing: 0.12, maxSpacing: 0.34, relief: 0.3, ramp: RAMP_NEIGHBOURS, peaks: false, zones: false };
 
   const project = (ring) => ring.map(([lon, lat]) => toWorld(lon, lat));
   for (const ring of geo.indonesia) addIsland(project(ring), indoStyle, rand, land, skirt);

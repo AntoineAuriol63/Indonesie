@@ -1,12 +1,15 @@
-# Indonésie — Notre aventure 🌴
+# Indonésie, août 2027
 
-Site de préparation de notre voyage en Indonésie, pensé comme un jeu vidéo : une carte 3D low-poly de l'archipel, des destinations à explorer, des coups de cœur à voter à deux et un itinéraire à composer.
+Site de préparation du voyage : une carte 3D low-poly de l'Indonésie pour parcourir les régions et leurs étapes, et se donner des idées avant de choisir un itinéraire.
 
-## Les trois étapes
+## Ce que fait le site
 
-1. **Rêver** (en ligne) — explorer les destinations, voter, composer et comparer des itinéraires.
-2. **Planifier** (à venir) — détailler jour par jour : hôtels, activités, transports, budget.
-3. **Partager** (à venir) — journal de bord, photos et messages pour la famille et les amis pendant le voyage.
+- La vue d'ensemble montre l'archipel, le nom des régions, les grandes villes et un petit modèle 3D animé pour chaque étape.
+- Un clic sur une région y fait entrer : ses étapes s'affichent avec leur nom, et une fiche présente la région.
+- Un clic sur une étape ouvre sa fiche : photo, présentation, activités, durée, accès, prix relevés.
+- Le bouton « Exemple d'itinéraire » n'affiche que les étapes d'un parcours, trace le trajet et en donne le détail.
+
+Se déplacer : glisser, molette, clic droit pour tourner, ou au clavier les flèches et ZQSD (A et E pour tourner, + et - pour zoomer).
 
 ## Lancer le site
 
@@ -15,23 +18,26 @@ npm install
 npm run dev
 ```
 
-`npm run build` génère le site statique dans `dist/`.
+`npm run build` génère le site statique dans `dist/`. Chaque push sur la branche le publie sur GitHub Pages (`.github/workflows/deploy.yml`).
 
-## Mise en ligne
+## Mettre à jour le contenu
 
-Le workflow `.github/workflows/deploy.yml` publie le site sur GitHub Pages à chaque push. À activer une seule fois : **Settings → Pages → Source : GitHub Actions**.
+Les textes des fiches viennent du tableur de préparation. Après une modification du tableur :
 
-## Où modifier quoi
+```bash
+python3 scripts/import-base.py chemin/vers/Indonesie_base_voyage.xlsx
+```
+
+Le script réécrit `src/data/base.json` et applique les règles de style (apostrophes droites, pas de tirets longs, pas de renvois aux sources).
 
 | Quoi | Fichier |
 | --- | --- |
-| Destinations (textes, notes, saisons, coordonnées) | `src/data/destinations.js` |
-| Itinéraires suggérés | `src/data/presets.js` |
-| Temps de trajet entre étapes | `src/data/legs.js` |
-| Carte 3D (relief, mer, décor, caméra) | `src/world/` |
-| Carte en mode compatibilité (appareils sans WebGL) | `src/world/flat.js` |
-| Interface (fiches, itinéraire, votes) | `src/main.js`, `src/ui/`, `src/style.css` |
+| Textes des régions et des étapes (générés) | `src/data/base.json` |
+| Couleurs, cadrages, noms courts, modèles 3D, villes | `src/data/places.js` |
+| Exemple d'itinéraire | `src/data/itinerary.js` |
+| Carte 3D (relief, mer, nuages, caméra, clavier) | `src/world/` |
+| Modèles 3D animés | `src/world/models.js` |
+| Carte en mode compatibilité, sans WebGL | `src/world/flat.js` |
+| Fiches et navigation | `src/main.js`, `src/style.css` |
 
-L'itinéraire et les votes sont enregistrés dans le navigateur ; le bouton **Partager** génère un lien qui les contient.
-
-Les contours de la carte viennent de Natural Earth (`npm run geo` pour les régénérer). Les durées de trajet et les saisons sont des ordres de grandeur à vérifier avant de réserver.
+Les contours de la carte viennent de Natural Earth (`npm run geo` pour les régénérer). Les photos sont chargées depuis Wikimedia Commons, avec l'auteur et la licence indiqués sous chaque image.

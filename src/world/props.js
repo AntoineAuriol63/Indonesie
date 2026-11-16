@@ -5,22 +5,26 @@ import { SEABED_COLOR, toWorld } from './terrain.js';
 
 export function createWater() {
   const group = new THREE.Group();
-  const W = 76;
-  const H = 40;
+  const W = 84;
+  const H = 52;
   const CELL = 0.32;
   const geometry = new THREE.PlaneGeometry(W, H, Math.round(W / CELL), Math.round(H / CELL));
   geometry.rotateX(-Math.PI / 2);
   geometry.translate(3, 0, 0.5);
   const pos = geometry.attributes.position;
   const rand = mulberry32(7);
-  const base = new Float32Array(pos.count * 2);
+  const base = new Float32Array(pos.count * 3);
   for (let i = 0; i < pos.count; i++) {
-    const x = pos.getX(i) + (rand() - 0.5) * CELL * 0.6;
-    const z = pos.getZ(i) + (rand() - 0.5) * CELL * 0.6;
+    // Les vagues s'aplatissent vers le bord pour se raccorder sans couture à la nappe immobile qui l'entoure.
+    const edge = Math.min(W / 2 - Math.abs(pos.getX(i) - 3), H / 2 - Math.abs(pos.getZ(i) - 0.5));
+    const border = edge < 0.01;
+    const x = pos.getX(i) + (border ? 0 : (rand() - 0.5) * CELL * 0.6);
+    const z = pos.getZ(i) + (border ? 0 : (rand() - 0.5) * CELL * 0.6);
     pos.setX(i, x);
     pos.setZ(i, z);
-    base[i * 2] = x;
-    base[i * 2 + 1] = z;
+    base[i * 3] = x;
+    base[i * 3 + 1] = z;
+    base[i * 3 + 2] = Math.min(1, edge / 4);
   }
   const material = new THREE.MeshPhongMaterial({
     color: 0x25c4dd,
@@ -60,46 +64,60 @@ export function createWater() {
   const update = (t) => {
     const arr = pos.array;
     for (let i = 0; i < pos.count; i++) {
-      const x = base[i * 2];
-      const z = base[i * 2 + 1];
-      arr[i * 3 + 1] = Math.sin(x * 2.1 + t * 1.1) * 0.011 + Math.cos(z * 2.6 + t * 0.9 + x * 0.7) * 0.011;
+      const x = base[i * 3];
+      const z = base[i * 3 + 1];
+      arr[i * 3 + 1] = (Math.sin(x * 2.1 + t * 1.1) * 0.011 + Math.cos(z * 2.6 + t * 0.9 + x * 0.7) * 0.011) * base[i * 3 + 2];
     }
     pos.needsUpdate = true;
   };
   return { group, update };
 }
 
+// Nuages : plats, légèrement translucides, haut perchés, avec leur ombre portée sur la carte
+// pour qu'on les lise comme des nuages et non comme du relief.
+const CLOUD_ALTITUDE = 3.4;
 export function createClouds() {
   const rand = mulberry32(42);
-  const material = new THREE.MeshLambertMaterial({ color: 0xffffff, flatShading: true, transparent: true, opacity: 0.9 });
+  const material = new THREE.MeshLambertMaterial({ color: 0xffffff, flatShading: true, transparent: true, opacity: 0.85, depthWrite: false });
+  const shadowMaterial = new THREE.MeshBasicMaterial({ color: 0x0b3a66, transparent: true, opacity: 0.16, depthWrite: false, depthTest: false });
   const blob = new THREE.IcosahedronGeometry(1, 0);
+  const disc = new THREE.CircleGeometry(1, 14).rotateX(-Math.PI / 2);
   const group = new THREE.Group();
   const clouds = [];
-  for (let i = 0; i < 11; i++) {
+  for (let i = 0; i < 10; i++) {
     const cloud = new THREE.Group();
     const parts = 3 + Math.floor(rand() * 3);
     for (let p = 0; p < parts; p++) {
       const m = new THREE.Mesh(blob, material);
-      const s = 0.35 + rand() * 0.4;
-      m.scale.set(s * 1.5, s * 0.7, s);
-      m.position.set((p - parts / 2) * 0.55 + rand() * 0.2, rand() * 0.15, (rand() - 0.5) * 0.4);
-      m.rotation.set(rand() * 3, rand() * 3, rand() * 3);
+      const s = 0.4 + rand() * 0.35;
+      m.scale.set(s * 1.7, s * 0.42, s * 1.15);
+      m.position.set((p - (parts - 1) / 2) * 0.7 + rand() * 0.2, rand() * 0.1, (rand() - 0.5) * 0.45);
+      m.rotation.y = rand() * 3;
+      m.renderOrder = 4;
       cloud.add(m);
     }
-    cloud.position.set(-26 + rand() * 60, 2.6 + rand() * 1.2, -9 + rand() * 18);
-    cloud.userData.speed = 0.08 + rand() * 0.12;
-    cloud.scale.setScalar(0.45 + rand() * 0.5);
-    clouds.push(cloud);
-    group.add(cloud);
+    const size = 0.6 + rand() * 0.6;
+    const altitude = CLOUD_ALTITUDE + rand() * 1.2;
+    cloud.scale.setScalar(size);
+    cloud.position.set(-26 + rand() * 60, altitude, -9 + rand() * 18);
+    // L'ombre est décalée à l'opposé du soleil, comme une vraie ombre portée.
+    const shadow = new THREE.Mesh(disc, shadowMaterial);
+    shadow.scale.set(size * parts * 0.55, 1, size * 0.75);
+    shadow.renderOrder = 2;
+    clouds.push({ cloud, shadow, altitude, speed: 0.07 + rand() * 0.1 });
+    group.add(cloud, shadow);
   }
   const update = (dt, camDist) => {
-    for (const c of clouds) {
-      c.position.x += c.userData.speed * dt;
-      if (c.position.x > 36) c.position.x = -28;
-    }
     // Les nuages s'effacent quand on zoome, pour ne pas masquer les îles.
-    material.opacity = THREE.MathUtils.clamp((camDist - 7) / 8, 0, 1) * 0.9;
-    group.visible = material.opacity > 0.01;
+    const fade = THREE.MathUtils.clamp((camDist - 8) / 9, 0, 1);
+    material.opacity = fade * 0.85;
+    shadowMaterial.opacity = fade * 0.16;
+    group.visible = fade > 0.01;
+    for (const c of clouds) {
+      c.cloud.position.x += c.speed * dt;
+      if (c.cloud.position.x > 36) c.cloud.position.x = -28;
+      c.shadow.position.set(c.cloud.position.x + c.altitude * 0.55, 0.05, c.cloud.position.z - c.altitude * 0.45);
+    }
   };
   return { group, update };
 }

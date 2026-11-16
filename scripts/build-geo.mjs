@@ -2,7 +2,7 @@
 // À relancer uniquement si l'on veut changer le niveau de détail : `npm run geo`.
 import { readFileSync, writeFileSync } from 'node:fs';
 import { feature } from 'topojson-client';
-import { DESTINATIONS } from '../src/data/destinations.js';
+const DESTINATIONS = JSON.parse(readFileSync(new URL('../src/data/base.json', import.meta.url))).places;
 
 const topo = JSON.parse(readFileSync(new URL('../node_modules/world-atlas/countries-10m.json', import.meta.url)));
 const countries = feature(topo, topo.objects.countries).features;

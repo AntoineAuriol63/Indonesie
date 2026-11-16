@@ -1,8 +1,10 @@
-// Scène 3D : carte low-poly, caméra, marqueurs cliquables et étiquettes HTML.
+// Scène 3D : carte low-poly, caméra, modèles animés des étapes et des villes, textes de la carte.
 import * as THREE from 'three';
 import { MapControls } from 'three/addons/controls/MapControls.js';
-import { WORLD_BY_ID } from '../data/destinations.js';
+import { CITIES, PLACES, PLACE_BY_ID, REGION_BY_ID } from '../data/places.js';
+import { createKeys } from './keys.js';
 import { createLabels } from './labels.js';
+import { createModel } from './models.js';
 import { buildTerrain, toWorld } from './terrain.js';
 import { createBoats, createClouds, createSmoke, createWater } from './props.js';
 import { createRoute } from './route.js';
@@ -11,19 +13,19 @@ const SKY = 0xbdeeff;
 const DEFAULT_POLAR = THREE.MathUtils.degToRad(40);
 const easeInOut = (t) => (t < 0.5 ? 4 * t * t * t : 1 - (-2 * t + 2) ** 3 / 2);
 
-export function createWorld({ canvas, labelLayer, onSelect }) {
+export function createWorld({ canvas, labelLayer, onRegion, onPlace }) {
   let renderer;
   try {
     renderer = new THREE.WebGLRenderer({ canvas, antialias: true, powerPreference: 'high-performance' });
   } catch {
-    // Deuxième essai avec des réglages minimaux ; si la 3D reste indisponible, l'erreur remonte et la carte 2D prend le relais.
+    // Deuxième essai avec des réglages minimaux ; si la 3D reste indisponible, l'erreur remonte et le mode compatibilité prend le relais.
     renderer = new THREE.WebGLRenderer({ canvas, antialias: false });
   }
   renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
 
   const scene = new THREE.Scene();
   scene.background = new THREE.Color(SKY);
-  scene.fog = new THREE.Fog(SKY, 45, 110);
+  scene.fog = new THREE.Fog(SKY, 60, 140);
 
   const camera = new THREE.PerspectiveCamera(38, 1, 0.05, 300);
   scene.add(new THREE.HemisphereLight(0xffffff, 0x7fd6c2, 1.5));
@@ -44,16 +46,17 @@ export function createWorld({ canvas, labelLayer, onSelect }) {
   controls.enableDamping = true;
   controls.dampingFactor = 0.08;
   controls.minDistance = 1.6;
-  controls.maxDistance = 60;
+  controls.maxDistance = 125;
   controls.minPolarAngle = THREE.MathUtils.degToRad(8);
   controls.maxPolarAngle = THREE.MathUtils.degToRad(62);
   controls.zoomToCursor = true;
-  controls.autoRotateSpeed = 0.35;
-  controls.addEventListener('change', () => {
-    controls.target.x = THREE.MathUtils.clamp(controls.target.x, -25, 24);
-    controls.target.z = THREE.MathUtils.clamp(controls.target.z, -10, 9);
+  controls.autoRotateSpeed = 0.3;
+  const clampTarget = () => {
+    controls.target.x = THREE.MathUtils.clamp(controls.target.x, -25, 25);
+    controls.target.z = THREE.MathUtils.clamp(controls.target.z, -10.5, 9.5);
     controls.target.y = 0;
-  });
+  };
+  controls.addEventListener('change', clampTarget);
 
   const spherical = new THREE.Spherical();
   const place = (target, radius, phi, theta) => {
@@ -81,7 +84,7 @@ export function createWorld({ canvas, labelLayer, onSelect }) {
     let fromTheta = spherical.theta;
     while (fromTheta - theta > Math.PI) fromTheta -= Math.PI * 2;
     while (fromTheta - theta < -Math.PI) fromTheta += Math.PI * 2;
-    const toRadius = dist * fit();
+    const toRadius = Math.min(dist * fit(), controls.maxDistance);
     const travel = controls.target.distanceTo(to);
     flight = {
       t: 0,
@@ -101,62 +104,126 @@ export function createWorld({ canvas, labelLayer, onSelect }) {
     controls.autoRotate = false;
   }
 
-  const target0 = new THREE.Vector3(...[toWorld(118.5, -3)[0], 0, toWorld(118.5, -3)[1]]);
+  const [startX, startZ] = toWorld(118.5, -3);
   const flyTarget = new THREE.Vector3();
 
-  // ---------- Marqueurs ----------
-  const markerGroup = new THREE.Group();
-  scene.add(markerGroup);
-  const gemGeometry = new THREE.OctahedronGeometry(1, 0);
-  const ringGeometry = new THREE.RingGeometry(0.75, 1, 20).rotateX(-Math.PI / 2);
-  const hitGeometry = new THREE.SphereGeometry(1.5, 8, 6);
+  // ---------- Clavier ----------
+  const keys = createKeys(() => {
+    cancelFlight();
+    controls.autoRotate = false;
+  });
+  const forward = new THREE.Vector3();
+  const right = new THREE.Vector3();
+  const offset = new THREE.Vector3();
+  function applyKeys(dt, camDist) {
+    const k = keys.read();
+    if (!k.active || flight) return;
+    if (k.x || k.y) {
+      camera.getWorldDirection(forward);
+      forward.y = 0;
+      forward.normalize();
+      right.crossVectors(forward, camera.up).normalize();
+      const step = camDist * 0.38 * dt;
+      offset.set(0, 0, 0).addScaledVector(right, k.x * step).addScaledVector(forward, -k.y * step);
+      const before = controls.target.clone();
+      controls.target.add(offset);
+      clampTarget();
+      camera.position.add(controls.target.clone().sub(before));
+    }
+    if (k.rotate || k.zoom) {
+      spherical.setFromVector3(offset.copy(camera.position).sub(controls.target));
+      spherical.theta += k.rotate * dt * 1.2;
+      spherical.radius = THREE.MathUtils.clamp(spherical.radius * (1 + k.zoom * dt * 1.4), controls.minDistance, controls.maxDistance);
+      camera.position.setFromSpherical(spherical).add(controls.target);
+      camera.lookAt(controls.target);
+    }
+  }
+
+  // ---------- Étapes et villes : un modèle animé par lieu ----------
+  const labels = createLabels(labelLayer, { onRegion, onPlace });
+  const modelGroup = new THREE.Group();
+  scene.add(modelGroup);
+  const ringGeometry = new THREE.RingGeometry(0.72, 1, 24).rotateX(-Math.PI / 2);
+  const hitGeometry = new THREE.SphereGeometry(0.8, 8, 6);
   const hitMaterial = new THREE.MeshBasicMaterial({ visible: false });
   const hitMeshes = [];
 
-  const labels = createLabels(labelLayer, onSelect);
-  const markers = labels.items.map((tag) => {
-    const { dest } = tag;
-    const [x, z] = toWorld(dest.lon, dest.lat);
-    const y = Math.max(0.01, terrain.groundAt(x, z));
-    const color = new THREE.Color(WORLD_BY_ID[dest.world].color);
+  const spots = [];
+  const addSpot = (lon, lat, kind, extra) => {
+    const [x, z] = toWorld(lon, lat);
+    const y = Math.max(0.004, terrain.groundAt(x, z));
+    const model = createModel(kind);
     const root = new THREE.Group();
     root.position.set(x, y, z);
+    root.add(model.object);
+    modelGroup.add(root);
+    const spot = { root, model, x, y, z, show: 0, wanted: true, sx: 0, sy: 0, ...extra };
+    spots.push(spot);
+    return spot;
+  };
 
-    const gem = new THREE.Mesh(
-      gemGeometry,
-      new THREE.MeshStandardMaterial({ color, flatShading: true, roughness: 0.35, metalness: 0.1, emissive: color, emissiveIntensity: 0.35 }),
-    );
-    gem.scale.set(0.5, 0.85, 0.5);
+  const placeSpots = {};
+  PLACES.forEach((p) => {
+    const spot = addSpot(p.lon, p.lat, p.model, { id: p.id, region: p.region, rank: p.rank, tag: labels.byId[p.id] });
     const ring = new THREE.Mesh(
       ringGeometry,
-      new THREE.MeshBasicMaterial({ color: 0xffffff, transparent: true, opacity: 0.8, depthWrite: false }),
+      new THREE.MeshBasicMaterial({ color: REGION_BY_ID[p.region].color, transparent: true, opacity: 0, depthWrite: false }),
     );
-    ring.position.y = 0.04;
+    ring.position.y = 0.03;
     const hit = new THREE.Mesh(hitGeometry, hitMaterial);
-    hit.position.y = 1.4;
-    hit.userData.id = dest.id;
+    hit.position.y = 0.6;
+    hit.userData.id = p.id;
     hitMeshes.push(hit);
-    root.add(gem, ring, hit);
-    markerGroup.add(root);
-    return Object.assign(tag, { root, gem, ring, top: new THREE.Vector3(x, y, z) });
+    spot.root.add(ring, hit);
+    spot.ring = ring;
+    placeSpots[p.id] = spot;
   });
-  const markerById = labels.byId;
+  CITIES.filter((c) => c.model).forEach((c) => addSpot(c.lon, c.lat, c.model, { rank: 4 }));
 
-  function setState(state) {
+  // Position au sol des textes qui ne sont pas attachés à un modèle.
+  const anchors = labels.items
+    .filter((item) => item.type !== 'place')
+    .map((item) => {
+      const [x, z] = toWorld(item.lon, item.lat);
+      return { item, position: new THREE.Vector3(x, item.type === 'city' ? Math.max(0, terrain.groundAt(x, z)) : 0, z) };
+    });
+
+  let state = { region: null, place: null, itinerary: null };
+  function setState(next) {
+    state = next;
     labels.setState(state);
-    for (const m of markers) m.ring.material.color.set(m.order ? 0xffd23f : 0xffffff);
-    route.setStops(state.stops.map((s) => markerById[s.id].root.position.clone().setY(markerById[s.id].root.position.y + 0.02)));
+    route.setStops(state.itinerary ? state.itinerary.map((id) => placeSpots[id].root.position.clone().setY(placeSpots[id].y + 0.03)) : []);
   }
 
   // ---------- Sélection à la souris / au doigt ----------
   const raycaster = new THREE.Raycaster();
   const pointer = new THREE.Vector2();
-  const pick = (event) => {
+  const aim = (event) => {
     const rect = canvas.getBoundingClientRect();
     pointer.set(((event.clientX - rect.left) / rect.width) * 2 - 1, -((event.clientY - rect.top) / rect.height) * 2 + 1);
     raycaster.setFromCamera(pointer, camera);
-    const hit = raycaster.intersectObjects(hitMeshes, false)[0];
+  };
+  const pickPlace = (event) => {
+    aim(event);
+    const hit = raycaster.intersectObjects(hitMeshes, false).find((h) => placeSpots[h.object.userData.id].show > 0.5);
     return hit ? hit.object.userData.id : null;
+  };
+  // Clic sur une terre : on retrouve la région par l'étape la plus proche.
+  const pickRegion = (event) => {
+    aim(event);
+    const hit = raycaster.intersectObject(terrain.landMesh, false)[0];
+    if (!hit) return null;
+    let best = null;
+    let bestDist = 2.2;
+    for (const p of PLACES) {
+      const s = placeSpots[p.id];
+      const d = Math.hypot(s.x - hit.point.x, s.z - hit.point.z);
+      if (d < bestDist) {
+        best = p.region;
+        bestDist = d;
+      }
+    }
+    return best;
   };
   let down = null;
   canvas.addEventListener('pointerdown', (e) => {
@@ -167,17 +234,21 @@ export function createWorld({ canvas, labelLayer, onSelect }) {
     const moved = Math.hypot(e.clientX - down.x, e.clientY - down.y);
     down = null;
     if (moved > 6) return;
-    const id = pick(e);
-    if (id) onSelect(id);
+    const id = pickPlace(e);
+    if (id) return onPlace(id);
+    if (!state.region && !state.itinerary) {
+      const region = pickRegion(e);
+      if (region) onRegion(region);
+    }
   });
   canvas.addEventListener('pointermove', (e) => {
     if (e.pointerType !== 'mouse' || down) return;
-    const id = pick(e);
+    const id = pickPlace(e);
     canvas.style.cursor = id ? 'pointer' : '';
-    for (const m of markers) m.hovered = m.dest.id === id;
+    for (const p of PLACES) placeSpots[p.id].tag.hovered = p.id === id;
   });
 
-  // ---------- Décalage de la vue (pour centrer la carte dans la zone non couverte par les panneaux) ----------
+  // ---------- Décalage de la vue (pour centrer la carte dans la zone non couverte par le panneau) ----------
   const viewShift = { x: 0, y: 0, tx: 0, ty: 0 };
   function setViewPadding({ left = 0, right = 0, top = 0, bottom = 0 }) {
     viewShift.tx = (right - left) / 2;
@@ -195,21 +266,63 @@ export function createWorld({ canvas, labelLayer, onSelect }) {
   }
   window.addEventListener('resize', resize);
   resize();
-  place(target0, 34 * fit(), THREE.MathUtils.degToRad(50), 0.5);
+  place(new THREE.Vector3(startX, 0, startZ), 36 * fit(), THREE.MathUtils.degToRad(50), 0.5);
   controls.autoRotate = true;
 
-  // ---------- Étiquettes ----------
+  // ---------- Modèles : taille constante à l'écran, et on n'affiche pas ceux qui se marcheraient dessus ----------
   const projected = new THREE.Vector3();
-  function updateLabels(camDist) {
-    for (const m of markers) {
-      projected.copy(m.top);
-      projected.y += m.root.scale.y * 2.6;
-      projected.project(camera);
-      m.onScreen = projected.z < 1 && Math.abs(projected.x) < 1.1 && Math.abs(projected.y) < 1.15;
-      m.sx = (projected.x * 0.5 + 0.5) * width;
-      m.sy = (-projected.y * 0.5 + 0.5) * height;
+  const shownSpots = [];
+  function updateSpots(dt, camDist, elapsed) {
+    const base = THREE.MathUtils.clamp(camDist * 0.032, 0.04, 1.8);
+    const minGap = Math.max(40, height * 0.058);
+    for (const s of spots) {
+      projected.set(s.x, s.y, s.z).project(camera);
+      s.onScreen = projected.z < 1 && Math.abs(projected.x) < 1.15 && Math.abs(projected.y) < 1.2;
+      s.sx = (projected.x * 0.5 + 0.5) * width;
+      s.sy = (-projected.y * 0.5 + 0.5) * height;
+      const inItinerary = state.itinerary?.includes(s.id);
+      s.active = state.itinerary ? inItinerary : !!s.id && s.region === state.region;
+      // Priorité : étape sélectionnée, étapes de la région ouverte, puis rang.
+      s.order = s.id === state.place ? 0 : s.active ? 1 : 1 + s.rank;
     }
-    labels.layout(camDist > 36 * fit());
+    shownSpots.length = 0;
+    for (const s of [...spots].sort((a, b) => a.order - b.order)) {
+      if (state.itinerary) s.wanted = s.active;
+      else if (s.active || s.id === state.place) s.wanted = true;
+      else s.wanted = !shownSpots.some((o) => Math.hypot(o.sx - s.sx, o.sy - s.sy) < minGap);
+      if (s.wanted && s.onScreen) shownSpots.push(s);
+    }
+    for (const s of spots) {
+      s.show += ((s.wanted ? 1 : 0) - s.show) * Math.min(1, dt * 9);
+      const visible = s.show > 0.02 && s.onScreen;
+      s.root.visible = visible;
+      if (!visible) continue;
+      const selected = s.id && s.id === state.place;
+      const hovered = s.tag?.hovered;
+      const scale = base * s.show * (selected ? 1.35 : hovered ? 1.18 : 1);
+      s.root.scale.setScalar(scale);
+      s.model.update(elapsed);
+      if (s.ring) {
+        const pulse = (elapsed * 0.7 + s.x) % 1;
+        s.ring.scale.setScalar(0.7 + pulse * 0.9);
+        s.ring.material.opacity = s.active ? (1 - pulse) * 0.9 : 0;
+      }
+      if (s.tag) {
+        // Le nom de l'étape se place juste au-dessus du modèle.
+        projected.set(s.x, s.y + scale * 1.55, s.z).project(camera);
+        s.tag.sx = (projected.x * 0.5 + 0.5) * width;
+        s.tag.sy = (-projected.y * 0.5 + 0.5) * height;
+        s.tag.onScreen = true;
+      }
+    }
+    for (const s of spots) if (s.tag && !s.root.visible) s.tag.onScreen = false;
+    for (const a of anchors) {
+      projected.copy(a.position).project(camera);
+      a.item.onScreen = projected.z < 1 && Math.abs(projected.x) < 1.1 && Math.abs(projected.y) < 1.1;
+      a.item.sx = (projected.x * 0.5 + 0.5) * width;
+      a.item.sy = (-projected.y * 0.5 + 0.5) * height;
+    }
+    labels.layout();
   }
 
   // ---------- Boucle ----------
@@ -218,6 +331,7 @@ export function createWorld({ canvas, labelLayer, onSelect }) {
   function frame() {
     const dt = Math.min(clock.getDelta(), 0.1);
     elapsed += dt;
+    let camDist = camera.position.distanceTo(controls.target);
 
     if (flight) {
       flight.t = Math.min(1, flight.t + dt / flight.duration);
@@ -227,6 +341,7 @@ export function createWorld({ canvas, labelLayer, onSelect }) {
       place(flyTarget, radius, THREE.MathUtils.lerp(flight.fromPhi, flight.toPhi, e), THREE.MathUtils.lerp(flight.fromTheta, flight.toTheta, e));
       if (flight.t >= 1) cancelFlight();
     } else {
+      applyKeys(dt, camDist);
       controls.update(dt);
     }
 
@@ -235,26 +350,17 @@ export function createWorld({ canvas, labelLayer, onSelect }) {
     if (Math.abs(viewShift.x) > 0.5 || Math.abs(viewShift.y) > 0.5) camera.setViewOffset(width, height, viewShift.x, viewShift.y, width, height);
     else if (camera.view) camera.clearViewOffset();
 
-    const camDist = camera.position.distanceTo(controls.target);
-    const markerScale = THREE.MathUtils.clamp(camDist * 0.02, 0.03, 0.55);
-    for (const m of markers) {
-      const active = m.selected || m.hovered;
-      const s = markerScale * (active ? 1.5 : m.order ? 1.2 : 1);
-      m.root.scale.setScalar(s);
-      m.gem.position.y = 1.5 + Math.sin(elapsed * 2.2 + m.phase) * 0.25;
-      m.gem.rotation.y = elapsed * (active ? 3 : 1.1) + m.phase;
-      const pulse = (elapsed * 0.7 + m.phase * 0.3) % 1;
-      m.ring.scale.setScalar(0.6 + pulse * 1.3);
-      m.ring.material.opacity = (1 - pulse) * 0.85;
-    }
-
+    camDist = camera.position.distanceTo(controls.target);
+    // La brume recule avec la caméra, pour que la carte reste nette même vue de très haut (petits écrans).
+    scene.fog.near = Math.max(60, camDist * 1.5);
+    scene.fog.far = Math.max(140, camDist * 3.6);
     water.update(elapsed);
     clouds.update(dt, camDist);
     boats.update(elapsed, camDist);
     smoke.update(elapsed, camDist);
     route.update(elapsed, camDist);
+    updateSpots(dt, camDist, elapsed);
     renderer.render(scene, camera);
-    updateLabels(camDist);
     requestAnimationFrame(frame);
   }
   requestAnimationFrame(frame);
@@ -264,10 +370,9 @@ export function createWorld({ canvas, labelLayer, onSelect }) {
     flyTo,
     setState,
     setViewPadding,
-    focusDestination(id, dist) {
-      const d = markerById[id].dest;
-      const base = WORLD_BY_ID[d.world].focus.dist;
-      flyTo(d.lon, d.lat, dist ?? Math.min(base, 4.2), { duration: 1.4 });
+    focusPlace(id) {
+      const p = PLACE_BY_ID[id];
+      flyTo(p.lon, p.lat, THREE.MathUtils.clamp(REGION_BY_ID[p.region].focus.dist * 0.55, 2.4, 4.6), { duration: 1.3 });
     },
     zoom(factor) {
       spherical.setFromVector3(camera.position.clone().sub(controls.target));

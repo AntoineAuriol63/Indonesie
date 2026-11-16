@@ -1,74 +1,81 @@
-// Étiquettes HTML des destinations, partagées par la carte 3D et la carte 2D de secours.
-import { DESTINATIONS, WORLD_BY_ID } from '../data/destinations.js';
+// Textes posés sur la carte : noms des régions (cliquables), étapes, villes et repères géographiques.
+// Partagé par la carte 3D et la carte en mode compatibilité, qui fournissent seulement la position à l'écran.
+import { CITIES, GEO_LABELS, PLACES, REGIONS, placesOf } from '../data/places.js';
 
-export function createLabels(layer, onSelect) {
-  const items = DESTINATIONS.map((dest, index) => {
-    const label = document.createElement('button');
-    label.type = 'button';
-    label.className = 'map-label';
-    label.style.setProperty('--c', WORLD_BY_ID[dest.world].color);
-    label.innerHTML = `<span class="map-label__badge"></span><span class="map-label__icon">${dest.icon}</span><span class="map-label__name">${dest.name}</span><span class="map-label__hearts"></span>`;
-    label.addEventListener('click', () => onSelect(dest.id));
-    layer.appendChild(label);
-    return {
-      dest,
-      label,
-      badge: label.querySelector('.map-label__badge'),
-      hearts: label.querySelector('.map-label__hearts'),
-      phase: index * 0.9,
-      order: 0,
-      selected: false,
-      hovered: false,
-      width: 0,
-      // Position à l'écran, renseignée par la carte avant chaque appel à layout()
-      sx: 0,
-      sy: 0,
-      onScreen: false,
-    };
-  });
-  const byId = Object.fromEntries(items.map((m) => [m.dest.id, m]));
+export function createLabels(layer, { onRegion, onPlace }) {
+  const items = [];
+  const add = (type, id, lon, lat, tag, className, html, priority) => {
+    const el = document.createElement(tag);
+    el.className = `lbl ${className}`;
+    el.innerHTML = html;
+    if (tag === 'button') el.type = 'button';
+    layer.appendChild(el);
+    const item = { type, id, lon, lat, el, priority, shown: false, hovered: false, selected: false, w: 0, h: 0, sx: 0, sy: 0, onScreen: false };
+    items.push(item);
+    return item;
+  };
 
-  function setState({ selected, stops, votes }) {
-    const order = Object.fromEntries(stops.map((s, i) => [s.id, i + 1]));
-    for (const m of items) {
-      m.selected = m.dest.id === selected;
-      m.order = order[m.dest.id] || 0;
-      m.label.classList.toggle('is-selected', m.selected);
-      m.label.classList.toggle('is-stop', m.order > 0);
-      m.badge.textContent = m.order || '';
-      const v = votes[m.dest.id] || '';
-      m.hearts.innerHTML = (v.includes('a') ? '<i class="heart heart--a">♥</i>' : '') + (v.includes('b') ? '<i class="heart heart--b">♥</i>' : '');
-      m.width = 0;
+  for (const r of REGIONS) {
+    const count = placesOf(r.id).length;
+    const item = add('region', r.id, r.label.lon, r.label.lat, 'button', 'lbl--region', `${r.short}<small>${count} étape${count > 1 ? 's' : ''}</small>`, 50);
+    item.el.style.setProperty('--c', r.color);
+    item.el.addEventListener('click', () => onRegion(r.id));
+  }
+  for (const p of PLACES) {
+    const item = add('place', p.id, p.lon, p.lat, 'button', 'lbl--place', `<span class="lbl__n"></span>${p.short}`, 70 - p.rank);
+    item.region = p.region;
+    item.badge = item.el.firstElementChild;
+    item.el.addEventListener('click', () => onPlace(p.id));
+  }
+  for (const c of CITIES) add('city', c.name, c.lon, c.lat, 'span', 'lbl--city', c.name, c.name === 'Jakarta' ? 30 : 20);
+  for (const g of GEO_LABELS) add('geo', g.name, g.lon, g.lat, 'span', `lbl--geo lbl--${g.kind}`, g.name, g.kind === 'sea' ? 5 : 10);
+
+  const byId = Object.fromEntries(items.filter((i) => i.type === 'place').map((i) => [i.id, i]));
+
+  function setState({ region, place, itinerary }) {
+    for (const item of items) {
+      const el = item.el;
+      if (item.type === 'region') {
+        item.shown = !itinerary && item.id !== region;
+        el.classList.toggle('is-dim', !!region);
+      } else if (item.type === 'place') {
+        const order = itinerary ? itinerary.indexOf(item.id) + 1 : 0;
+        item.shown = itinerary ? order > 0 : item.region === region;
+        item.selected = item.id === place;
+        item.badge.textContent = order || '';
+        el.classList.toggle('is-selected', item.selected);
+      } else if (item.type === 'city') {
+        // Une ville qui porte le même nom qu'une étape affichée ferait doublon.
+        item.shown = !itinerary && !PLACES.some((p) => p.short === item.id && p.region === region);
+      } else {
+        item.shown = !itinerary;
+      }
+      item.w = 0;
     }
   }
 
-  // Place les étiquettes en évitant les chevauchements : les moins prioritaires se réduisent à leur icône, puis se masquent.
+  // Place les textes par ordre de priorité ; ceux qui en recouvriraient un autre sont masqués.
   const placed = [];
-  function layout(compactAll) {
+  function layout() {
     placed.length = 0;
-    const sorted = [...items].sort((a, b) => b.selected - a.selected || b.hovered - a.hovered || (b.order > 0) - (a.order > 0));
-    for (const m of sorted) {
-      if (!m.onScreen) {
-        m.label.style.display = 'none';
-        continue;
+    const order = (i) => (i.selected ? 200 : i.hovered ? 150 : i.priority);
+    const sorted = items.filter((i) => i.shown && i.onScreen).sort((a, b) => order(b) - order(a));
+    for (const item of items) if (!item.shown || !item.onScreen) item.el.style.display = 'none';
+    for (const item of sorted) {
+      const el = item.el;
+      el.style.display = '';
+      if (!item.w) {
+        item.w = el.offsetWidth;
+        item.h = el.offsetHeight;
       }
-      m.label.style.display = '';
-      if (!m.width) m.width = m.label.offsetWidth;
-      const important = m.selected || m.hovered;
-      let compact = !important && compactAll && !m.order;
-      const overlaps = (w) => placed.some((p) => Math.abs(p.x - m.sx) < (p.w + w) / 2 + 4 && Math.abs(p.y - m.sy) < 30);
-      let w = compact ? 34 : m.width;
-      if (!important && !compact && overlaps(w)) {
-        compact = true;
-        w = 34;
-      }
-      const hidden = !important && compact && overlaps(w);
-      m.label.classList.toggle('is-compact', compact);
-      m.label.classList.toggle('is-hidden', hidden);
-      m.label.classList.toggle('is-hovered', m.hovered);
-      m.label.style.translate = `calc(${m.sx.toFixed(1)}px - 50%) calc(${m.sy.toFixed(1)}px - 100%)`;
-      m.label.style.zIndex = important ? 3 : m.order ? 2 : 1;
-      if (!hidden) placed.push({ x: m.sx, y: m.sy, w });
+      const x = item.sx - item.w / 2;
+      const y = item.type === 'place' ? item.sy - item.h : item.type === 'city' ? item.sy + 5 : item.sy - item.h / 2;
+      const keep = item.selected || item.hovered;
+      const hit = !keep && placed.some((p) => x < p.x + p.w + 3 && x + item.w + 3 > p.x && y < p.y + p.h + 2 && y + item.h + 2 > p.y);
+      el.classList.toggle('is-hidden', hit);
+      el.classList.toggle('is-hovered', item.hovered);
+      el.style.translate = `${x.toFixed(1)}px ${y.toFixed(1)}px`;
+      if (!hit) placed.push({ x, y, w: item.w, h: item.h });
     }
   }
 

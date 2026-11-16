@@ -1,0 +1,1792 @@
+{
+ "regions": [
+  {
+   "id": "bali",
+   "name": "Bali",
+   "themes": "Temples, rizières, montagnes, littoral",
+   "text": "Bali réunit des temples, des rizières, des reliefs et plusieurs bases de bord de mer. Ubud, Munduk et Sidemen permettent de composer la partie terrestre. Amed, Pemuteran et les Nusa répondent à des envies maritimes différentes. Les trajets par la route et les traversées comptent dans le choix des étapes.",
+   "august": "Saison généralement sèche, sans garantie quotidienne",
+   "access": "DPS puis route ; bateau pour Nusa",
+   "transport": "Route, chauffeurs et navettes sur certains axes",
+   "strengths": "Combinaisons terre / mer sur une île",
+   "limits": "Circulation et traversées à intégrer ; offre variable selon la zone",
+   "daysMin": 7,
+   "daysMax": 14,
+   "photo": {
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Sidemen_sawah_countryside_(Bali%2C_Indonesia_2016)_(30039194120).jpg",
+    "alt": "Rizières de Sidemen",
+    "author": "Paul Arps",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Sidemen_sawah_countryside_(Bali%2C_Indonesia_2016)_(30039194120).jpg"
+   },
+   "reviews": [
+    {
+     "zone": "Nord-ouest de Bali",
+     "context": "Séjour 2024",
+     "liked": "Fréquentation jugée raisonnable et rencontres appréciées",
+     "caveat": "Ne prédit pas la fréquentation d'août 2027"
+    }
+   ]
+  },
+  {
+   "id": "flores-et-komodo",
+   "name": "Flores et Komodo",
+   "themes": "Îles, faune, villages et reliefs",
+   "text": "À l'ouest de Flores, Labuan Bajo donne accès aux îles du parc de Komodo. À l'intérieur, le Manggarai apporte des villages et des paysages agricoles, autour de Ruteng et de Wae Rebo. Une sortie en bateau et une découverte de l'intérieur demandent des organisations distinctes.",
+   "august": "Période généralement sèche à Flores et Komodo. La navigation reste soumise aux conditions du jour.",
+   "access": "Labuan Bajo puis route ou bateau",
+   "transport": "Bateaux et routes ; ne pas confondre parc et traversée de Flores",
+   "strengths": "Expériences maritimes et villages de l'intérieur",
+   "limits": "Prestations bateau et longs trajets peuvent structurer le budget",
+   "daysMin": 5,
+   "daysMax": 12,
+   "photo": {
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Padar_Island%2C_Komodo.jpg",
+    "alt": "Île de Padar, dans le parc de Komodo",
+    "author": "James Mamoto",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Padar_Island%2C_Komodo.jpg"
+   },
+   "reviews": []
+  },
+  {
+   "id": "java",
+   "name": "Java",
+   "themes": "Villes, patrimoine, artisanat et volcans",
+   "text": "Java permet de relier plusieurs villes en train et d'ajouter des excursions vers les temples ou les reliefs. Jakarta, Yogyakarta et Surabaya donnent une place à la vie urbaine. Borobudur, Dieng et le Bromo ouvrent d'autres possibilités. Les sorties nocturnes et les longues liaisons doivent trouver leur place dans le calendrier.",
+   "august": "Saison généralement sèche, sans garantie quotidienne",
+   "access": "Jakarta ou autre aéroport ; réseau ferroviaire",
+   "transport": "Train entre plusieurs villes ; route pour excursions",
+   "strengths": "Association de visites urbaines, monuments et paysages",
+   "limits": "Excursions volcaniques parfois nocturnes ; distances à compter",
+   "daysMin": 7,
+   "daysMax": 15,
+   "photo": {
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Borobudur_(Central_Java%2C_Indonesia)_(51112274801).jpg",
+    "alt": "Temple de Borobudur, près de Yogyakarta",
+    "author": "Sasha India",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Borobudur_(Central_Java%2C_Indonesia)_(51112274801).jpg"
+   },
+   "reviews": [
+    {
+     "zone": "Yogyakarta / Malang",
+     "context": "Voyage solo, juillet 2025",
+     "liked": "Rencontres et Yogyakarta appréciées",
+     "caveat": "Bromo fatigue ; terrain mouillé à Tumpak Sewu"
+    }
+   ]
+  },
+  {
+   "id": "kalimantan",
+   "name": "Kalimantan",
+   "themes": "Forêt, faune et archipels",
+   "text": "Deux secteurs de Kalimantan sont retenus : la forêt et les rivières de Tanjung Puting, et les îles de Derawan et Maratua. Le premier se découvre en bateau, avec des marches d'observation. Le second se prête aux sorties en mer. Leurs accès sont différents : ce sont deux séjours possibles, à comparer.",
+   "august": "Mois relativement sec, mais chaud et humide. Fumées d'incendies possibles selon les années ; contrôler la situation locale.",
+   "access": "Pangkalan Bun pour le parc ; Berau pour Derawan",
+   "transport": "Route et bateau ; deux pôles à traiter séparément",
+   "strengths": "Observation animalière et découverte maritime distinctes",
+   "limits": "Bateau privatisé et transferts peuvent peu se partager en solo",
+   "daysMin": 4,
+   "daysMax": 10,
+   "photo": {
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Orangutan_at_Tanjung_Puting_National_Park_(31266099698).jpg",
+    "alt": "Orang-outan photographié à Tanjung Puting",
+    "author": "Jorge Franganillo",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Orangutan_at_Tanjung_Puting_National_Park_(31266099698).jpg"
+   },
+   "reviews": []
+  },
+  {
+   "id": "lombok-et-gili",
+   "name": "Lombok et Gili",
+   "themes": "Plages, villages, rizières et mer",
+   "text": "Lombok associe les plages du sud, les rizières de Tetebatu et les cascades du nord. Les Gili ajoutent un séjour sur de petites îles. Ces activités permettent d'envisager Lombok sans faire l'ascension du Rinjani. Le choix dépendra surtout du temps réservé à la marche, à la mer et aux transferts.",
+   "august": "Saison généralement sèche à Lombok et aux Gili. Ne garantit pas une traversée calme.",
+   "access": "Aéroport de Lombok ou bateau",
+   "transport": "Route à Lombok ; traversées pour Gili",
+   "strengths": "Combinaison de l'intérieur et du littoral",
+   "limits": "Sommet du Rinjani non retenu dans la sélection accessible",
+   "daysMin": 5,
+   "daysMax": 10,
+   "photo": {
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Kuta_Lombok.jpg",
+    "alt": "Plage de Kuta à Lombok",
+    "author": "Deazaskia Prihutami",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Kuta_Lombok.jpg"
+   },
+   "reviews": []
+  },
+  {
+   "id": "moluques",
+   "name": "Moluques",
+   "themes": "Histoire des épices, îles et mer",
+   "text": "Banda, Ternate, Tidore et Morotai offrent plusieurs entrées dans les Moluques : histoire des épices, villes insulaires, plages et sorties en bateau. Elles ne forment pas une boucle simple. Pour août, les conditions maritimes de Banda méritent une attention particulière, sans étendre cette conclusion à toutes les îles.",
+   "august": "Banda : pluie et vent peuvent gêner les bateaux. Ternate et Tidore ont une tendance plus sèche. Morotai : donnée locale à compléter.",
+   "access": "Ternate ou Ambon selon le secteur ; correspondances",
+   "transport": "Liaisons maritimes ou aériennes selon les îles",
+   "strengths": "Patrimoine des épices et découvertes insulaires",
+   "limits": "Horaires et fréquence essentiels avant réservation",
+   "daysMin": 6,
+   "daysMax": 12,
+   "photo": {
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Banda_Neira_Banner.jpg",
+    "alt": "Panorama de Banda Neira",
+    "author": "WiDi",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Banda_Neira_Banner.jpg"
+   },
+   "reviews": []
+  },
+  {
+   "id": "raja-ampat",
+   "name": "Raja Ampat",
+   "themes": "Récifs, îles et vie côtière",
+   "text": "À Raja Ampat, le choix du logement détermine une bonne partie du séjour : récif accessible à proximité, exposition au vent, transferts et confort. Un séjour dans une seule base et une succession d'îles ne demandent pas le même budget ni les mêmes traversées. Les homestays incluent souvent les repas, mais leur équipement varie.",
+   "august": "Vent possible juin–septembre. Séjour abrité possible ; longues traversées plus contraintes",
+   "access": "Sorong puis ferry / bateau",
+   "transport": "Bateaux ; séjour fixe ou circuit très différents",
+   "strengths": "Snorkeling depuis certaines bases et paysages insulaires",
+   "limits": "Transferts, état de la mer et confort du logement à comparer",
+   "daysMin": 7,
+   "daysMax": 10,
+   "photo": {
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Karst_Landscape_of_Piaynemo_Island.jpg",
+    "alt": "Îlots et paysage karstique de Piaynemo",
+    "author": "WhiteducksIG",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Karst_Landscape_of_Piaynemo_Island.jpg"
+   },
+   "reviews": [
+    {
+     "zone": "Kri",
+     "context": "Publication mars 2024",
+     "liked": "Transfert organisé dans le cadre d'un forfait",
+     "caveat": "Horaire propre au prestataire"
+    }
+   ]
+  },
+  {
+   "id": "sulawesi",
+   "name": "Sulawesi",
+   "themes": "Cultures, forêt et mer",
+   "text": "Sulawesi rassemble des voyages assez différents. Le pays Toraja se découvre pour ses maisons et son patrimoine funéraire. Au nord, Bunaken permet des sorties marines et Tangkoko des marches à la recherche d'animaux. Associer le sud et le nord suppose une liaison supplémentaire, à compter dans la durée disponible.",
+   "august": "Tendance sèche, notamment au sud et en pays Toraja. Des averses restent possibles autour de Manado.",
+   "access": "Makassar pour le sud ; Manado pour le nord",
+   "transport": "Routes et bateaux ; sud et nord ne sont pas une même étape",
+   "strengths": "Architecture toraja, faune de Tangkoko et fonds marins",
+   "limits": "Temps d'accès entre pôles ; cérémonies non garanties",
+   "daysMin": 6,
+   "daysMax": 14,
+   "photo": {
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Sulawesi_du_Sud_-_Village_Toraja.jpg",
+    "alt": "Maisons dans un village du pays Toraja",
+    "author": "Pibewiki",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Sulawesi_du_Sud_-_Village_Toraja.jpg"
+   },
+   "reviews": [
+    {
+     "zone": "Sulawesi",
+     "context": "Fil de discussion indexé en 2026",
+     "liked": "Plusieurs pôles évoqués du sud au nord",
+     "caveat": "Ne démontre pas une traversée courte ou facile"
+    }
+   ]
+  },
+  {
+   "id": "sumatra",
+   "name": "Sumatra",
+   "themes": "Forêt, lacs, villes et hauts plateaux",
+   "text": "Le nord de Sumatra permet d'associer Bukit Lawang et le lac Toba. Dans l'ouest, Bukittinggi ouvre sur les hauts plateaux minangkabau. Forêt, paysages lacustres et découverte culturelle sont donc présents, mais répartis entre plusieurs secteurs. Les trajets routiers et la difficulté réelle des marches doivent guider le choix des bases.",
+   "august": "Des averses restent possibles au nord. Les guides divergent sur l'appréciation globale d'août ; fumées d'incendies variables selon les années.",
+   "access": "Medan pour le nord ; Padang pour l'ouest",
+   "transport": "Routes ; ne pas traiter nord et ouest comme voisins immédiats",
+   "strengths": "Jungle à la journée et découverte des hauts plateaux",
+   "limits": "Trek humide possible ; transports routiers à compter",
+   "daysMin": 7,
+   "daysMax": 14,
+   "photo": {
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Wonderful_Lake_Toba.jpg",
+    "alt": "Lac Toba vu depuis Huta Sagala, sur Samosir",
+    "author": "Tio Gultom",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Wonderful_Lake_Toba.jpg"
+   },
+   "reviews": [
+    {
+     "zone": "Sumatra",
+     "context": "Voyage juillet/août ; année à confirmer",
+     "liked": "Compte rendu incluant nord et ouest",
+     "caveat": "Information de préparation parfois difficile à trouver"
+    }
+   ]
+  },
+  {
+   "id": "sumba",
+   "name": "Sumba",
+   "themes": "Villages, ikat, lagon et collines",
+   "text": "Sumba se découvre entre villages, tissage ikat, collines et littoral. L'ouest et les environs de Waingapu donnent accès à des sites différents. Les collines de Wairinding sont généralement dorées de juillet à octobre. Le parcours dépendra aussi du véhicule et des logements disponibles hors offres de luxe.",
+   "august": "Saison généralement sèche. Wairinding est décrit comme doré de juillet à octobre.",
+   "access": "Tambolaka ou Waingapu",
+   "transport": "Déplacements routiers entre sites",
+   "strengths": "Architecture, tissage et paysages",
+   "limits": "Traversée est–ouest à chiffrer ; rituels non garantis",
+   "daysMin": 5,
+   "daysMax": 8,
+   "photo": {
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Kampung_Tarung-Waitabar.jpg",
+    "alt": "Maisons de Tarung-Waitabar à Waikabubak",
+    "author": "monica renata",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Kampung_Tarung-Waitabar.jpg"
+   },
+   "reviews": []
+  },
+  {
+   "id": "sumbawa",
+   "name": "Sumbawa",
+   "themes": "Littoral, île de Moyo et cascades",
+   "text": "Seuls Sumbawa Besar et l'île de Moyo sont documentés pour l'instant. La cascade de Mata Jitu et le littoral de Moyo y sont les principales possibilités. Les autres secteurs de l'île restent à étudier.",
+   "august": "Août appartient généralement à la saison sèche. Les traversées vers Moyo restent à vérifier localement.",
+   "access": "Sumbawa Besar puis bateau pour Moyo",
+   "transport": "Route et bateau ; fréquences à vérifier",
+   "strengths": "Association de cascade et littoral à Moyo",
+   "limits": "Documentation plus partielle, sans jugement sur l'intérêt",
+   "daysMin": 4,
+   "daysMax": 7,
+   "photo": {
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Sumbawa_Adventour_-_Moyo_Island_Mata_Jitu_Waterfall.jpg",
+    "alt": "Cascade de Mata Jitu sur Moyo",
+    "author": "Egaryan Saadi",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Sumbawa_Adventour_-_Moyo_Island_Mata_Jitu_Waterfall.jpg"
+   },
+   "reviews": []
+  },
+  {
+   "id": "timor-occidental-et-alor",
+   "name": "Timor occidental et Alor",
+   "themes": "Ville, îles et mer",
+   "text": "Kupang sert de point d'entrée pour cette partie de l'Indonésie. Alor et Kepa demandent ensuite leurs propres transferts. La sélection privilégie la découverte de la ville et les activités marines accessibles. Les courants, les conditions du snorkeling et le confort des hébergements doivent être précisés avant de retenir cette extension.",
+   "august": "Période généralement sèche dans les Nusa Tenggara orientales, dont Alor. Les courants ne se déduisent pas du seul calendrier.",
+   "access": "Kupang puis Alor ; route et court bateau pour Kepa",
+   "transport": "Vol intérieur, route et bateau selon l'étape",
+   "strengths": "Extension distincte à explorer ; offre snorkeling à qualifier",
+   "limits": "Plongée technique hors sélection ; accès à chiffrer",
+   "daysMin": 5,
+   "daysMax": 9,
+   "photo": {
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Beautiful_View_from_Ternate_island_-_Alor_-_East_Nusa_Tenggara.jpg",
+    "alt": "Paysage depuis l'île de Ternate, dans l'archipel d'Alor",
+    "author": "Sims8899",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Beautiful_View_from_Ternate_island_-_Alor_-_East_Nusa_Tenggara.jpg"
+   },
+   "reviews": []
+  }
+ ],
+ "places": [
+  {
+   "id": "ubud",
+   "region": "bali",
+   "name": "Ubud",
+   "themes": "Culture / paysages",
+   "text": "Ubud permet d'associer visites culturelles, artisanat et promenades vers les rizières. Les excursions alentour demandent des déplacements routiers.",
+   "see": "Temples, artisanat, rizières",
+   "access": "Route depuis DPS",
+   "effort": "Visites / marche",
+   "daysMin": 3,
+   "daysMax": 4,
+   "note": "Choisir les excursions selon les temps de route",
+   "lat": -8.507,
+   "lon": 115.262,
+   "photo": {
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Rice_Terrace_in_Ubud.jpg",
+    "alt": "Rizières de Tegallalang, près d'Ubud",
+    "author": "Rarioj",
+    "license": "Domaine public, libération par l'auteur",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Rice_Terrace_in_Ubud.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Rice_Terrace_in_Ubud.jpg"
+   },
+   "activities": [
+    {
+     "name": "Temples et artisanat",
+     "what": "Visites autour d'Ubud",
+     "duration": "Demi-journée ou journée",
+     "level": "Accessible",
+     "conditions": "Choisir les sites et vérifier horaires"
+    }
+   ],
+   "prices": []
+  },
+  {
+   "id": "munduk",
+   "region": "bali",
+   "name": "Munduk",
+   "themes": "Nature / randonnée",
+   "text": "Munduk est une étape de reliefs et de cascades. Le choix des sentiers détermine la difficulté de la journée.",
+   "see": "Cascades et reliefs",
+   "access": "Route depuis les autres bases de Bali",
+   "effort": "Marche à adapter au sentier",
+   "daysMin": 2,
+   "daysMax": 3,
+   "note": "Dénivelé et terrain humide à confirmer",
+   "lat": -8.254,
+   "lon": 115.0792,
+   "photo": {
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Munduk_air_terjun_2009.jpg",
+    "alt": "Cascade de Munduk",
+    "author": "Jean-Marie Hullot",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Munduk_air_terjun_2009.jpg"
+   },
+   "activities": [
+    {
+     "name": "Promenade vers les cascades",
+     "what": "Sentier à sélectionner selon niveau",
+     "duration": "Journée maximum",
+     "level": "À qualifier",
+     "conditions": "Dénivelé, marches et terrain à vérifier"
+    }
+   ],
+   "prices": []
+  },
+  {
+   "id": "sidemen",
+   "region": "bali",
+   "name": "Sidemen",
+   "themes": "Paysages / vie rurale",
+   "text": "À Sidemen, les promenades dans les rizières occupent le séjour. Des accompagnements et transferts sont proposés localement.",
+   "see": "Rizières et promenades",
+   "access": "Route depuis Ubud ou Padang Bai",
+   "effort": "Promenade",
+   "daysMin": 2,
+   "daysMax": 3,
+   "note": "Éviter de supposer tous les chemins publics",
+   "lat": -8.4679,
+   "lon": 115.4429,
+   "photo": {
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Sidemen_sawah_countryside_(Bali%2C_Indonesia_2016)_(30039194120).jpg",
+    "alt": "Rizières de Sidemen",
+    "author": "Paul Arps",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Sidemen_sawah_countryside_(Bali%2C_Indonesia_2016)_(30039194120).jpg"
+   },
+   "activities": [
+    {
+     "name": "Promenade dans les rizières",
+     "what": "Découverte à pied",
+     "duration": "Demi-journée",
+     "level": "Accessible",
+     "conditions": "Accès autorisé et itinéraire local"
+    }
+   ],
+   "prices": [
+    {
+     "label": "Sidemen–Ubud, Uma Dewi Sri",
+     "kind": "Transfert",
+     "amount": 400000,
+     "currency": "IDR",
+     "unit": "transfert ; unité véhicule à confirmer",
+     "includes": "Trajet publié",
+     "excludes": "Suppléments et capacité à confirmer"
+    },
+    {
+     "label": "Sidemen–Padang Bai, Sidemen Tour",
+     "kind": "Transfert",
+     "amount": 350000,
+     "currency": "IDR",
+     "unit": "transfert ; unité véhicule à confirmer",
+     "includes": "Trajet publié",
+     "excludes": "Suppléments et capacité à confirmer"
+    }
+   ]
+  },
+  {
+   "id": "amed",
+   "region": "bali",
+   "name": "Amed",
+   "themes": "Mer",
+   "text": "Amed permet de consacrer plusieurs jours au littoral et au snorkeling. Le choix du site doit tenir compte des conditions en mer.",
+   "see": "Snorkeling et littoral",
+   "access": "Route ; navettes sur certains axes",
+   "effort": "Savoir nager pour snorkeling",
+   "daysMin": 3,
+   "daysMax": 4,
+   "note": "Site et conditions à choisir avec un professionnel local",
+   "lat": -8.3333,
+   "lon": 115.65,
+   "photo": {
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Amed_Beach_during_sunset.JPG",
+    "alt": "Littoral d'Amed au coucher du soleil",
+    "author": "(WT-shared) Whatsinaname",
+    "license": "Domaine public, libération par l'auteur",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Amed_Beach_during_sunset.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Amed_Beach_during_sunset.JPG"
+   },
+   "activities": [
+    {
+     "name": "Snorkeling à Amed",
+     "what": "Sortie adaptée aux débutants nageurs",
+     "duration": "Demi-journée",
+     "level": "Conditionnel",
+     "conditions": "Savoir nager ; mer et encadrement"
+    }
+   ],
+   "prices": []
+  },
+  {
+   "id": "pemuteran-menjangan",
+   "region": "bali",
+   "name": "Pemuteran / Menjangan",
+   "themes": "Mer / nature",
+   "text": "Pemuteran peut servir de base pour une sortie en bateau vers Menjangan. Il faut distinguer le séjour à terre des prestations maritimes.",
+   "see": "Littoral et sortie snorkeling",
+   "access": "Route puis bateau pour Menjangan",
+   "effort": "Savoir nager",
+   "daysMin": 3,
+   "daysMax": 4,
+   "note": "Bateau et droits éventuels à chiffrer séparément",
+   "lat": -8.1453,
+   "lon": 114.6539,
+   "photo": {
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Damai.jpg",
+    "alt": "Palétuvier sur le littoral de Pemuteran",
+    "author": "Paco Paulus Pater",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Damai.jpg"
+   },
+   "activities": [
+    {
+     "name": "Snorkeling à Menjangan",
+     "what": "Excursion en bateau",
+     "duration": "Journée",
+     "level": "Conditionnel",
+     "conditions": "Bateau, guide, matériel et permis à vérifier"
+    }
+   ],
+   "prices": []
+  },
+  {
+   "id": "sud-de-bali-uluwatu",
+   "region": "bali",
+   "name": "Sud de Bali / Uluwatu",
+   "themes": "Littoral / culture",
+   "text": "Le temple d'Uluwatu se trouve au-dessus de l'océan, sur la côte sud-ouest de Bali. La visite peut se combiner avec les paysages de falaises. Les plages ont leurs propres conditions d'accès et de baignade.",
+   "see": "Plages, falaises et temple",
+   "access": "Route depuis DPS",
+   "effort": "Visites / marche",
+   "daysMin": 2,
+   "daysMax": 3,
+   "note": "Accès aux plages et baignade variables",
+   "lat": -8.8289,
+   "lon": 115.085,
+   "photo": {
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Uluwatu_Temple.jpg",
+    "alt": "Temple d'Uluwatu",
+    "author": "GeoffClarke",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Uluwatu_Temple.jpg"
+   },
+   "activities": [
+    {
+     "name": "Temple et panorama côtier",
+     "what": "Visite du secteur d'Uluwatu",
+     "duration": "Demi-journée",
+     "level": "Accessible",
+     "conditions": "Horaires et transport à vérifier"
+    }
+   ],
+   "prices": []
+  },
+  {
+   "id": "nusa-penida-lembongan",
+   "region": "bali",
+   "name": "Nusa Penida / Lembongan",
+   "themes": "Mer / paysages",
+   "text": "Nusa Penida réunit des points de vue côtiers comme Kelingking et des visites telles que le temple de Goa Giri Putri. On y arrive en bateau depuis Bali, puis on poursuit par la route. Voir une plage depuis la falaise ne signifie pas que sa descente est adaptée à tous.",
+   "see": "Paysages côtiers et sorties en mer",
+   "access": "Bateau depuis Bali",
+   "effort": "Variable selon activité",
+   "daysMin": 3,
+   "daysMax": 4,
+   "note": "Points de vue et accès à la plage ne sont pas équivalents",
+   "lat": -8.7509,
+   "lon": 115.4742,
+   "photo": {
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Kelingking_Beach%2C_Nusa_Penida.jpg",
+    "alt": "Falaise et plage de Kelingking à Nusa Penida",
+    "author": "Shrigusti",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Kelingking_Beach%2C_Nusa_Penida.jpg"
+   },
+   "activities": [
+    {
+     "name": "Points de vue côtiers",
+     "what": "Circuit routier ciblé",
+     "duration": "Journée",
+     "level": "Conditionnel",
+     "conditions": "Ne comprend pas les descentes raides aux plages"
+    }
+   ],
+   "prices": []
+  },
+  {
+   "id": "labuan-bajo-komodo",
+   "region": "flores-et-komodo",
+   "name": "Labuan Bajo / Komodo",
+   "themes": "Faune / mer",
+   "text": "Labuan Bajo est la base de départ pour les excursions dans le parc de Komodo. Elles associent observation des dragons, îles et panoramas. Une journée en mer et une croisière avec nuit à bord sont deux formules à comparer séparément.",
+   "see": "Dragons, îles, panoramas",
+   "access": "Aéroport de Labuan Bajo puis bateau",
+   "effort": "Marche et mer",
+   "daysMin": 3,
+   "daysMax": 5,
+   "note": "Conditions de navigation ; observation animale non garantie",
+   "lat": -8.6564,
+   "lon": 119.5719,
+   "photo": {
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Padar_Island%2C_Komodo.jpg",
+    "alt": "Île de Padar, dans le parc de Komodo",
+    "author": "James Mamoto",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Padar_Island%2C_Komodo.jpg"
+   },
+   "activities": [
+    {
+     "name": "Dragons de Komodo",
+     "what": "Marche accompagnée sur site autorisé",
+     "duration": "Selon circuit bateau",
+     "level": "Conditionnel",
+     "conditions": "Ranger, accès et conditions du parc"
+    },
+    {
+     "name": "Sortie entre les îles",
+     "what": "Panoramas et snorkeling adapté",
+     "duration": "1 journée",
+     "level": "Conditionnel",
+     "conditions": "Choisir sites et opérateur selon niveau de nage"
+    }
+   ],
+   "prices": []
+  },
+  {
+   "id": "ruteng-et-manggarai",
+   "region": "flores-et-komodo",
+   "name": "Ruteng et Manggarai",
+   "themes": "Culture / paysages",
+   "text": "Ruteng permet de prolonger la découverte de Flores dans le Manggarai. Les villages et les paysages agricoles complètent les îles autour de Labuan Bajo. Le trajet par la route est long et fait partie du voyage.",
+   "see": "Villages et reliefs",
+   "access": "Route depuis Labuan Bajo",
+   "effort": "Visites / marche",
+   "daysMin": 2,
+   "daysMax": 3,
+   "note": "Le trajet est une composante du séjour",
+   "lat": -8.6127,
+   "lon": 120.4626,
+   "photo": {
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/RUT_-_Rice_fields_landscape_near_Ruteng%2C_Flores%2C_Indonesia%2C_2019.jpg",
+    "alt": "Rizières près de Ruteng",
+    "author": "Josep M. Gracia",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:RUT_-_Rice_fields_landscape_near_Ruteng%2C_Flores%2C_Indonesia%2C_2019.jpg"
+   },
+   "activities": [
+    {
+     "name": "Villages de Manggarai",
+     "what": "Architecture et paysages",
+     "duration": "Journée",
+     "level": "Accessible",
+     "conditions": "Guide et accueil à organiser"
+    }
+   ],
+   "prices": []
+  },
+  {
+   "id": "wae-rebo",
+   "region": "flores-et-komodo",
+   "name": "Wae Rebo",
+   "themes": "Culture / randonnée",
+   "text": "Wae Rebo est un village de montagne connu pour ses maisons coniques. L'accès comprend une approche routière et une marche. Le parcours et les conditions de nuit sur place sont à confirmer : le confort n'est pas celui d'un hôtel.",
+   "see": "Village aux maisons coniques",
+   "access": "Approche routière puis marche",
+   "effort": "Randonnée à qualifier",
+   "daysMin": 2,
+   "daysMax": 3,
+   "note": "Ne pas retenir avant vérification durée, dénivelé et logement",
+   "lat": -8.7694,
+   "lon": 120.2831,
+   "photo": {
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Wae_Rebo_village%2C_Flores_Island%2C_Indonesia%2C_20250824_0620_2956.jpg",
+    "alt": "Maisons du village de Wae Rebo",
+    "author": "Jakub Hałun",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Wae_Rebo_village%2C_Flores_Island%2C_Indonesia%2C_20250824_0620_2956.jpg"
+   },
+   "activities": [
+    {
+     "name": "Marche vers Wae Rebo",
+     "what": "Approche du village",
+     "duration": "",
+     "level": "À qualifier",
+     "conditions": "Vérifier dénivelé et faisabilité sans trek multi-jours"
+    }
+   ],
+   "prices": []
+  },
+  {
+   "id": "jakarta",
+   "region": "java",
+   "name": "Jakarta",
+   "themes": "Ville / histoire",
+   "text": "À Jakarta, Kota Tua permet d'aborder l'histoire de Batavia et de visiter des musées. Glodok ajoute la découverte d'un autre quartier. Sur un séjour court, mieux vaut regrouper les visites par quartier.",
+   "see": "Kota Tua, Glodok, musées",
+   "access": "Aéroport de Jakarta",
+   "effort": "Visites",
+   "daysMin": 2,
+   "daysMax": 3,
+   "note": "Regrouper les visites par quartier",
+   "lat": -6.1343,
+   "lon": 106.8136,
+   "photo": {
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Kota_tua_Jakarta.jpg",
+    "alt": "Kota Tua à Jakarta",
+    "author": "Chitra arti",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Kota_tua_Jakarta.jpg"
+   },
+   "activities": [
+    {
+     "name": "Kota Tua et musée historique",
+     "what": "Architecture et collections",
+     "duration": "Demi-journée",
+     "level": "Accessible",
+     "conditions": "Vérifier jour d'ouverture"
+    },
+    {
+     "name": "Glodok",
+     "what": "Quartier et découverte culinaire",
+     "duration": "Demi-journée",
+     "level": "Accessible",
+     "conditions": "Promenade locale"
+    }
+   ],
+   "prices": [
+    {
+     "label": "Musée historique de Jakarta : étranger",
+     "kind": "Entrée",
+     "amount": 50000,
+     "currency": "IDR",
+     "unit": "personne",
+     "includes": "Entrée musée",
+     "excludes": "Transport"
+    }
+   ]
+  },
+  {
+   "id": "bandung-et-rancabali",
+   "region": "java",
+   "name": "Bandung et Rancabali",
+   "themes": "Ville / paysages",
+   "text": "Bandung se rejoint en train sur le réseau de Java. Les plantations de thé de Rancabali se trouvent à l'extérieur de la ville et nécessitent une excursion routière. Il faut donc réserver un temps distinct à la ville et aux paysages agricoles.",
+   "see": "Ville et plantation de thé",
+   "access": "Train vers Bandung ; route pour Rancabali",
+   "effort": "Visites / marche",
+   "daysMin": 2,
+   "daysMax": 3,
+   "note": "Plantations hors centre-ville",
+   "lat": -7.154,
+   "lon": 107.3711,
+   "photo": {
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Rancabali_1.jpg",
+    "alt": "Plantations de thé de Rancabali",
+    "author": "Felicia Tejo",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Rancabali_1.jpg"
+   },
+   "activities": [
+    {
+     "name": "Plantation de Rancabali",
+     "what": "Découverte du thé",
+     "duration": "Journée avec trajet",
+     "level": "Accessible",
+     "conditions": "Transport depuis Bandung et accès à confirmer"
+    }
+   ],
+   "prices": []
+  },
+  {
+   "id": "yogyakarta-et-temples",
+   "region": "java",
+   "name": "Yogyakarta et temples",
+   "themes": "Culture / patrimoine",
+   "text": "Yogyakarta associe le palais du Kraton, le batik et les excursions vers Borobudur et Prambanan. Les temples demandent des déplacements hors de la ville. À Borobudur, l'accès à l'enceinte et la montée sur la structure correspondent à des billets différents.",
+   "see": "Kraton, batik, Borobudur, Prambanan",
+   "access": "Train ou avion puis route",
+   "effort": "Visites et escaliers",
+   "daysMin": 4,
+   "daysMax": 5,
+   "note": "Billet enceinte différent du billet montée à Borobudur",
+   "lat": -7.6079,
+   "lon": 110.2039,
+   "photo": {
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Borobudur_(Central_Java%2C_Indonesia)_(51112274801).jpg",
+    "alt": "Temple de Borobudur, près de Yogyakarta",
+    "author": "Sasha India",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Borobudur_(Central_Java%2C_Indonesia)_(51112274801).jpg"
+   },
+   "activities": [
+    {
+     "name": "Kraton et artisanat",
+     "what": "Palais et ateliers",
+     "duration": "Journée",
+     "level": "Accessible",
+     "conditions": "Horaires / démonstrations à vérifier"
+    },
+    {
+     "name": "Borobudur : enceinte",
+     "what": "Visite au pied du monument",
+     "duration": "Demi-journée avec trajet",
+     "level": "Accessible",
+     "conditions": "Billet distinct de la montée"
+    },
+    {
+     "name": "Borobudur : structure",
+     "what": "Montée sur le monument",
+     "duration": "Demi-journée avec trajet",
+     "level": "Escaliers",
+     "conditions": "Créneau et quota à vérifier"
+    },
+    {
+     "name": "Prambanan",
+     "what": "Ensemble de temples",
+     "duration": "Demi-journée avec trajet",
+     "level": "Visites / marche",
+     "conditions": "Tarif étranger daté à relever"
+    }
+   ],
+   "prices": [
+    {
+     "label": "Borobudur enceinte : adulte étranger",
+     "kind": "Entrée",
+     "amount": 375000,
+     "currency": "IDR",
+     "unit": "personne",
+     "includes": "Enceinte",
+     "excludes": "Montée sur la structure ; transport"
+    },
+    {
+     "label": "Borobudur structure : adulte étranger",
+     "kind": "Entrée",
+     "amount": 455000,
+     "currency": "IDR",
+     "unit": "personne",
+     "includes": "Accès structure",
+     "excludes": "Conditions exactes à recouper en billetterie"
+    }
+   ]
+  },
+  {
+   "id": "dieng",
+   "region": "java",
+   "name": "Dieng",
+   "themes": "Patrimoine / reliefs",
+   "text": "Dieng est une étape de hauts plateaux, de temples et de paysages volcaniques. L'accès passe par la route, notamment via Wonosobo. Le programme doit tenir compte des conditions d'ouverture des différents sites volcaniques.",
+   "see": "Hauts plateaux et temples",
+   "access": "Route via Wonosobo",
+   "effort": "Marche selon circuit",
+   "daysMin": 2,
+   "daysMax": 3,
+   "note": "Ouverture des zones volcaniques à vérifier",
+   "lat": -7.207,
+   "lon": 109.8641,
+   "photo": {
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Dieng.jpg",
+    "alt": "Paysage des hauts plateaux de Dieng",
+    "author": "Tuwuh Sarwoprasojo",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Dieng.jpg"
+   },
+   "activities": [
+    {
+     "name": "Découverte des hauts plateaux",
+     "what": "Sites accessibles de Dieng",
+     "duration": "Journée",
+     "level": "À qualifier",
+     "conditions": "Ouverture et accès du circuit choisi"
+    }
+   ],
+   "prices": []
+  },
+  {
+   "id": "malang-bromo",
+   "region": "java",
+   "name": "Malang / Bromo",
+   "themes": "Ville / volcan",
+   "text": "Malang peut servir de base urbaine avant une excursion au Bromo. L'excursion se fait souvent de nuit : départ vers minuit, retour en fin de matinée. Il faut prévoir du repos ensuite.",
+   "see": "Malang et points de vue du Bromo",
+   "access": "Train vers Malang puis route",
+   "effort": "Départ nocturne possible",
+   "daysMin": 3,
+   "daysMax": 4,
+   "note": "Sommeil et récupération après excursion",
+   "lat": -7.9417,
+   "lon": 112.95,
+   "photo": {
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Bromo_(Gunung_Bromo)_Indonesia%2C_East_Java.jpg",
+    "alt": "Paysage volcanique du Bromo",
+    "author": "flydime",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Mount_Bromo_(Gunung_Bromo)_Indonesia%2C_East_Java.jpg"
+   },
+   "activities": [
+    {
+     "name": "Bromo : lever du jour",
+     "what": "Points de vue et marche éventuelle",
+     "duration": "Minuit–11 h dans un récit de 2025",
+     "level": "Conditionnel",
+     "conditions": "Nuit courte ; accès et programme à revérifier"
+    },
+    {
+     "name": "Promenade à Malang",
+     "what": "Découverte de la ville",
+     "duration": "Demi-journée",
+     "level": "Accessible",
+     "conditions": "Quartiers à sélectionner"
+    }
+   ],
+   "prices": [
+    {
+     "label": "Train Yogyakarta–Malang, exécutive",
+     "kind": "Transport",
+     "amount": 400000,
+     "currency": "IDR",
+     "unit": "personne",
+     "includes": "Siège selon témoignage",
+     "excludes": "Autres trajets"
+    }
+   ]
+  },
+  {
+   "id": "tumpak-sewu",
+   "region": "java",
+   "name": "Tumpak Sewu",
+   "themes": "Cascade / randonnée",
+   "text": "Tumpak Sewu peut se découvrir depuis un point de vue ou par une descente vers la cascade. Le terrain de la descente est mouillé et glissant : elle n'est pas adaptée à tout le monde.",
+   "see": "Panorama ; descente seulement si adaptée",
+   "access": "Route depuis Malang",
+   "effort": "Descente exigeante à qualifier",
+   "daysMin": 1,
+   "daysMax": 1,
+   "note": "Terrain mouillé rapporté ; panorama à privilégier si nécessaire",
+   "lat": -8.2314,
+   "lon": 112.9172,
+   "photo": {
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Tumpak_Sewu.jpg",
+    "alt": "Cascade de Tumpak Sewu",
+    "author": "Chamomils18",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Tumpak_Sewu.jpg"
+   },
+   "activities": [
+    {
+     "name": "Tumpak Sewu : panorama",
+     "what": "Point de vue sans présumer de la descente",
+     "duration": "Journée avec trajet",
+     "level": "À qualifier",
+     "conditions": "Accès actuel du point de vue à confirmer"
+    },
+    {
+     "name": "Tumpak Sewu : descente",
+     "what": "Chemin mouillé vers la cascade",
+     "duration": "",
+     "level": "Exigeant",
+     "conditions": "Guide et aptitude à vérifier"
+    }
+   ],
+   "prices": []
+  },
+  {
+   "id": "surabaya",
+   "region": "java",
+   "name": "Surabaya",
+   "themes": "Ville / cuisine",
+   "text": "Surabaya est une étape urbaine à l'est de Java, desservie par le train et l'avion. On y vient surtout pour la ville et sa cuisine. Les musées et quartiers à visiter restent à choisir.",
+   "see": "Découverte urbaine et cuisine",
+   "access": "Train / route / avion",
+   "effort": "Visites",
+   "daysMin": 1,
+   "daysMax": 2,
+   "note": "Activités culturelles précises à enrichir",
+   "lat": -7.2458,
+   "lon": 112.7378,
+   "photo": {
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Surabaya_Tunjungan.jpg",
+    "alt": "Jalan Tunjungan à Surabaya, de nuit",
+    "author": "Satria Eka Saputra",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Surabaya_Tunjungan.jpg"
+   },
+   "activities": [
+    {
+     "name": "Découverte culinaire",
+     "what": "Repas et promenade urbaine",
+     "duration": "Demi-journée",
+     "level": "Accessible",
+     "conditions": "Adresses à vérifier"
+    }
+   ],
+   "prices": [
+    {
+     "label": "Minibus Malang–Surabaya",
+     "kind": "Transport",
+     "amount": 72500,
+     "currency": "IDR",
+     "unit": "personne",
+     "includes": "Trajet selon témoignage",
+     "excludes": "Autres trajets"
+    }
+   ]
+  },
+  {
+   "id": "tanjung-puting",
+   "region": "kalimantan",
+   "name": "Tanjung Puting",
+   "themes": "Faune / rivière",
+   "text": "Tanjung Puting se rejoint depuis Pangkalan Bun puis Kumai. La navigation sur les rivières et les marches d'observation permettent d'aborder la forêt et ses orangs-outans. Pour une nuit à bord, vérifier les couchages, les sanitaires et les repas.",
+   "see": "Orangs-outans et navigation",
+   "access": "Pangkalan Bun puis Kumai et bateau",
+   "effort": "Marche ponctuelle",
+   "daysMin": 3,
+   "daysMax": 5,
+   "note": "Vérifier cabine, sanitaires, groupe et repas",
+   "lat": -3.055,
+   "lon": 111.9184,
+   "photo": {
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Orangutan_at_Tanjung_Puting_National_Park_(31266099698).jpg",
+    "alt": "Orang-outan photographié à Tanjung Puting",
+    "author": "Jorge Franganillo",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Orangutan_at_Tanjung_Puting_National_Park_(31266099698).jpg"
+   },
+   "activities": [
+    {
+     "name": "Navigation et observation",
+     "what": "Bateau et visites des sites du parc",
+     "duration": "Circuit de plusieurs jours à comparer",
+     "level": "Conditionnel",
+     "conditions": "Ce n'est pas un trek multi-jours ; cabine / sanitaires à vérifier"
+    }
+   ],
+   "prices": []
+  },
+  {
+   "id": "derawan-maratua",
+   "region": "kalimantan",
+   "name": "Derawan / Maratua",
+   "themes": "Mer / îles",
+   "text": "Derawan et Maratua sont des bases insulaires pour découvrir les récifs et les habitats de tortues. On y accède par Berau, puis par la route et le bateau. Les excursions vers d'autres îles se chiffrent séparément, et l'accès à Kakaban est à confirmer.",
+   "see": "Récifs et habitats de tortues",
+   "access": "Berau puis route et bateau",
+   "effort": "Savoir nager",
+   "daysMin": 4,
+   "daysMax": 6,
+   "note": "Kakaban et traversées à vérifier avant inclusion",
+   "lat": 2.3285,
+   "lon": 118.1298,
+   "photo": {
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Derawan_Island_East_Kalimantan.jpg",
+    "alt": "Littoral de l'île de Derawan",
+    "author": "Riza Nugraha",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Derawan_Island_East_Kalimantan.jpg"
+   },
+   "activities": [
+    {
+     "name": "Snorkeling dans l'archipel",
+     "what": "Site adapté au niveau de nage",
+     "duration": "Journée",
+     "level": "Conditionnel",
+     "conditions": "Courants, bateau et ouverture des sites"
+    }
+   ],
+   "prices": []
+  },
+  {
+   "id": "sud-de-lombok",
+   "region": "lombok-et-gili",
+   "name": "Sud de Lombok",
+   "themes": "Plages / villages",
+   "text": "Le sud de Lombok permet d'alterner plages et visites de villages. Une plage adaptée au surf ne l'est pas nécessairement à la baignade.",
+   "see": "Plages et découverte des villages",
+   "access": "Aéroport de Lombok puis route",
+   "effort": "Visites ; initiation encadrée possible",
+   "daysMin": 3,
+   "daysMax": 4,
+   "note": "Choisir la plage selon baignade ou apprentissage du surf",
+   "lat": -8.8853,
+   "lon": 116.2757,
+   "photo": {
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Kuta_Lombok.jpg",
+    "alt": "Plage de Kuta à Lombok",
+    "author": "Deazaskia Prihutami",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Kuta_Lombok.jpg"
+   },
+   "activities": [
+    {
+     "name": "Plages et villages",
+     "what": "Circuit terrestre",
+     "duration": "Journée",
+     "level": "Accessible",
+     "conditions": "Baignade à évaluer séparément"
+    },
+    {
+     "name": "Initiation au surf",
+     "what": "Cours accompagné sur plage adaptée",
+     "duration": "Demi-journée",
+     "level": "Conditionnel",
+     "conditions": "Savoir nager ; école et conditions à vérifier"
+    }
+   ],
+   "prices": []
+  },
+  {
+   "id": "tetebatu",
+   "region": "lombok-et-gili",
+   "name": "Tetebatu",
+   "themes": "Paysages / marche",
+   "text": "Tetebatu se découvre à pied entre rizières et abords du Rinjani. On y trouve aussi la cascade de Sarang Walet et des activités autour de la vie du village. Il est possible de composer une journée de marche sans prévoir une ascension du volcan.",
+   "see": "Rizières, marche, cascade Sarang Walet et découverte villageoise",
+   "access": "Route depuis Lombok",
+   "effort": "Randonnée de jour",
+   "daysMin": 2,
+   "daysMax": 3,
+   "note": "Itinéraire et difficulté à confirmer avec guide",
+   "lat": -8.5577,
+   "lon": 116.4176,
+   "photo": {
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Tetebatu.jpg",
+    "alt": "Rizière à Tetebatu",
+    "author": "praziquantel",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Tetebatu.jpg"
+   },
+   "activities": [
+    {
+     "name": "Marche à Tetebatu",
+     "what": "Promenades et paysages",
+     "duration": "Journée maximum",
+     "level": "À qualifier",
+     "conditions": "Guide et longueur du parcours"
+    }
+   ],
+   "prices": []
+  },
+  {
+   "id": "nord-de-lombok",
+   "region": "lombok-et-gili",
+   "name": "Nord de Lombok",
+   "themes": "Nature",
+   "text": "Senaru permet de découvrir les cascades de Sendang Gile et Tiu Kelep ainsi que le village traditionnel. Ces visites se situent au pied du Rinjani. Elles constituent un séjour distinct de l'ascension, avec des parcours à choisir selon le terrain et votre envie de marcher.",
+   "see": "Sendang Gile, Tiu Kelep et village traditionnel de Senaru",
+   "access": "Route depuis Lombok",
+   "effort": "Marche selon parcours",
+   "daysMin": 2,
+   "daysMax": 3,
+   "note": "Ne comprend pas l'ascension du Rinjani",
+   "lat": -8.3029,
+   "lon": 116.4007,
+   "photo": {
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Tiu_Kelep.jpg",
+    "alt": "Cascade de Tiu Kelep, au nord de Lombok",
+    "author": "Jordy Meow",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Tiu_Kelep.jpg"
+   },
+   "activities": [
+    {
+     "name": "Cascades du nord",
+     "what": "Sortie sans ascension du Rinjani",
+     "duration": "Journée",
+     "level": "À qualifier",
+     "conditions": "Nombre de marches et terrain à vérifier"
+    }
+   ],
+   "prices": []
+  },
+  {
+   "id": "gili-air-meno-trawangan",
+   "region": "lombok-et-gili",
+   "name": "Gili Air / Meno / Trawangan",
+   "themes": "Mer / îles",
+   "text": "Gili Air, Meno et Trawangan permettent un séjour tourné vers la mer. L'ambiance de l'île et les traversées sont à comparer avant de choisir une base.",
+   "see": "Snorkeling et séjour insulaire",
+   "access": "Bateau depuis Lombok ou Bali",
+   "effort": "Savoir nager",
+   "daysMin": 3,
+   "daysMax": 4,
+   "note": "Comparer ambiance de chaque île ; horaires maritimes",
+   "lat": -8.351,
+   "lon": 116.0637,
+   "photo": {
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Gili_Meno_Beach.jpg",
+    "alt": "Côte sud-est de Gili Meno, face à Lombok",
+    "author": "yeowatzup",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Gili_Meno_Beach.jpg"
+   },
+   "activities": [
+    {
+     "name": "Snorkeling aux Gili",
+     "what": "Sortie depuis une île choisie",
+     "duration": "Demi-journée",
+     "level": "Conditionnel",
+     "conditions": "Savoir nager ; choix du site et de l'encadrement"
+    }
+   ],
+   "prices": []
+  },
+  {
+   "id": "banda-neira",
+   "region": "moluques",
+   "name": "Banda Neira",
+   "themes": "Histoire / mer",
+   "text": "Banda Neira se visite pour les forts Belgica et Nassau et l'histoire de la muscade. On peut aussi y faire des sorties en mer. En août, l'accès et la navigation sont le premier point à résoudre avant de réserver un parcours serré.",
+   "see": "Forts et patrimoine de la muscade",
+   "access": "Liaisons depuis Ambon à confirmer",
+   "effort": "Visites",
+   "daysMin": 4,
+   "daysMax": 6,
+   "note": "Août : navigation à vérifier particulièrement",
+   "lat": -4.5316,
+   "lon": 129.8965,
+   "photo": {
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Banda_Neira_Banner.jpg",
+    "alt": "Panorama de Banda Neira",
+    "author": "WiDi",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Banda_Neira_Banner.jpg"
+   },
+   "activities": [
+    {
+     "name": "Forts et histoire des épices",
+     "what": "Belgica, Nassau et patrimoine de la muscade",
+     "duration": "1–2 jours",
+     "level": "Accessible",
+     "conditions": "Accès aux sites et éventuel bateau"
+    }
+   ],
+   "prices": []
+  },
+  {
+   "id": "ternate-tidore",
+   "region": "moluques",
+   "name": "Ternate / Tidore",
+   "themes": "Histoire / vie locale",
+   "text": "Ternate et Tidore permettent d'aborder l'histoire des épices et la vie des îles à travers les marchés et les visites locales. Ternate sert de point d'arrivée, avec une traversée pour Tidore. Le programme peut donc rester centré sur un petit secteur, sous réserve des liaisons disponibles.",
+   "see": "Marchés, épices et îles",
+   "access": "Arrivée à Ternate ; bateau pour Tidore",
+   "effort": "Visites",
+   "daysMin": 3,
+   "daysMax": 5,
+   "note": "Vols, traversées et horaires des sites à compléter",
+   "lat": 0.78,
+   "lon": 127.3819,
+   "photo": {
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Ternate_Island.jpg",
+    "alt": "Vue de l'île de Ternate, dans les Moluques",
+    "author": "A. Rabin",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Ternate_Island.jpg"
+   },
+   "activities": [
+    {
+     "name": "Marchés et découverte des îles",
+     "what": "Ternate / Tidore",
+     "duration": "1–2 jours",
+     "level": "Accessible",
+     "conditions": "Traversée et transport à confirmer"
+    }
+   ],
+   "prices": []
+  },
+  {
+   "id": "morotai",
+   "region": "moluques",
+   "name": "Morotai",
+   "themes": "Mer / îles",
+   "text": "Morotai et les îles de Dodola offrent une possibilité de séjour littoral dans les Moluques du Nord, entre plages et sorties vers les îles. Les correspondances et les horaires pour août 2027 restent à établir.",
+   "see": "Plages et Dodola",
+   "access": "Options via Ternate (avion ou bateau) ou via Halmahera ; fonctionnement aux dates du voyage à confirmer",
+   "effort": "Visites / baignade selon site",
+   "daysMin": 3,
+   "daysMax": 5,
+   "note": "Accès août 2027 non établi",
+   "lat": 2.3,
+   "lon": 128.4,
+   "photo": {
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/A_beach_on_dodola_island.jpg",
+    "alt": "Plage de Dodola, près de Morotai",
+    "author": "M.akbar.raf",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:A_beach_on_dodola_island.jpg"
+   },
+   "activities": [
+    {
+     "name": "Dodola et littoral",
+     "what": "Sortie insulaire",
+     "duration": "Journée",
+     "level": "Conditionnel",
+     "conditions": "Navigation et baignade selon météo"
+    }
+   ],
+   "prices": []
+  },
+  {
+   "id": "kri-gam-arborek",
+   "region": "raja-ampat",
+   "name": "Kri / Gam / Arborek",
+   "themes": "Mer / vie côtière",
+   "text": "Kri, Gam et Arborek offrent plusieurs bases pour le snorkeling et la découverte de villages côtiers. L'exposition au vent et le récif proche du logement peuvent compter davantage que le nombre d'îles visitées. Il faut demander le détail des transferts, des repas et de la salle de bains.",
+   "see": "Récifs et villages selon base",
+   "access": "Sorong puis Waisai / transfert réservé",
+   "effort": "Snorkeling adapté au niveau",
+   "daysMin": 5,
+   "daysMax": 8,
+   "note": "Courants et exposition au vent ; logement à qualifier",
+   "lat": -0.565,
+   "lon": 130.5175,
+   "photo": {
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Arborek_island.jpg",
+    "alt": "Accueil du village d'Arborek",
+    "author": "Anazlombu",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Arborek_island.jpg"
+   },
+   "activities": [
+    {
+     "name": "Snorkeling près de la base",
+     "what": "Récif choisi selon niveau",
+     "duration": "Demi-journée",
+     "level": "Conditionnel",
+     "conditions": "Exposition et courant à valider localement"
+    }
+   ],
+   "prices": [
+    {
+     "label": "Junior Homestay : prix d'appel",
+     "kind": "Hébergement",
+     "amount": 63,
+     "currency": "EUR",
+     "unit": "nuit pour 2 adultes",
+     "includes": "3 repas par jour",
+     "excludes": "Transferts / excursions ; salle de bains à confirmer"
+    },
+    {
+     "label": "Yenbuba Homestay : prix d'appel",
+     "kind": "Hébergement",
+     "amount": 69,
+     "currency": "EUR",
+     "unit": "nuit pour 2 adultes",
+     "includes": "3 repas par jour",
+     "excludes": "Transferts / excursions ; salle de bains à confirmer"
+    }
+   ]
+  },
+  {
+   "id": "waigeo-secteur-de-piaynemo",
+   "region": "raja-ampat",
+   "name": "Waigeo / secteur de Piaynemo",
+   "themes": "Paysages / mer",
+   "text": "Le secteur de Piaynemo permet de découvrir les îlots et leurs points de vue. Cette excursion implique des trajets en bateau, à distinguer du séjour autour de Waigeo. En août, le programme doit pouvoir s'adapter au vent et à l'état de la mer.",
+   "see": "Îles et points de vue",
+   "access": "Sorong puis bateau",
+   "effort": "Escaliers selon site",
+   "daysMin": 3,
+   "daysMax": 5,
+   "note": "Grandes traversées dépendantes de la mer",
+   "lat": -0.5817,
+   "lon": 130.3002,
+   "photo": {
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Karst_Landscape_of_Piaynemo_Island.jpg",
+    "alt": "Îlots et paysage karstique de Piaynemo",
+    "author": "WhiteducksIG",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Karst_Landscape_of_Piaynemo_Island.jpg"
+   },
+   "activities": [
+    {
+     "name": "Excursion panoramique",
+     "what": "Secteur de Piaynemo",
+     "duration": "Selon base de départ",
+     "level": "Conditionnel",
+     "conditions": "Coût et faisabilité maritime à confirmer"
+    }
+   ],
+   "prices": [
+    {
+     "label": "Raja Ampat Sunrise : prix d'appel",
+     "kind": "Hébergement",
+     "amount": 58,
+     "currency": "EUR",
+     "unit": "nuit pour 2 adultes",
+     "includes": "3 repas par jour",
+     "excludes": "Transferts / excursions ; confort à confirmer"
+    }
+   ]
+  },
+  {
+   "id": "pays-toraja",
+   "region": "sulawesi",
+   "name": "Pays Toraja",
+   "themes": "Culture / paysages",
+   "text": "Le pays Toraja se découvre à travers les maisons tongkonan, les villages et le patrimoine funéraire. Les cérémonies relèvent de la vie des familles : leur présence ne peut pas être promise dans un itinéraire. Les visites déjà identifiées suffisent à construire le séjour sans dépendre d'un événement.",
+   "see": "Maisons et patrimoine funéraire",
+   "access": "Via Makassar ; liaison finale à confirmer",
+   "effort": "Visites",
+   "daysMin": 4,
+   "daysMax": 6,
+   "note": "Une cérémonie familiale ne se garantit pas",
+   "lat": -2.969,
+   "lon": 119.9,
+   "photo": {
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Sulawesi_du_Sud_-_Village_Toraja.jpg",
+    "alt": "Maisons dans un village du pays Toraja",
+    "author": "Pibewiki",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Sulawesi_du_Sud_-_Village_Toraja.jpg"
+   },
+   "activities": [
+    {
+     "name": "Villages et patrimoine toraja",
+     "what": "Architecture et sites funéraires",
+     "duration": "1–3 jours",
+     "level": "Accessible",
+     "conditions": "Accompagnement culturel ; cérémonies non garanties"
+    }
+   ],
+   "prices": []
+  },
+  {
+   "id": "manado-bunaken",
+   "region": "sulawesi",
+   "name": "Manado / Bunaken",
+   "themes": "Mer",
+   "text": "Manado donne accès à Bunaken par bateau. On y pratique le snorkeling sans certification de plongée. Le récif accessible, les sorties proposées et le niveau de nage attendu sont à préciser avec l'hébergement ou l'opérateur.",
+   "see": "Snorkeling depuis une base adaptée",
+   "access": "Arrivée à Manado puis bateau",
+   "effort": "Savoir nager",
+   "daysMin": 4,
+   "daysMax": 6,
+   "note": "Plongée certifiée exclue de cette sélection",
+   "lat": 1.623,
+   "lon": 124.7652,
+   "photo": {
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Bunaken.jpg",
+    "alt": "Parc marin de Bunaken",
+    "author": "Borgx",
+    "license": "Domaine public, libération par l'auteur",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Bunaken.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Bunaken.jpg"
+   },
+   "activities": [
+    {
+     "name": "Snorkeling à Bunaken",
+     "what": "Sortie adaptée sans plongée bouteille",
+     "duration": "Demi-journée",
+     "level": "Conditionnel",
+     "conditions": "Savoir nager ; conditions du site"
+    }
+   ],
+   "prices": []
+  },
+  {
+   "id": "tangkoko",
+   "region": "sulawesi",
+   "name": "Tangkoko",
+   "themes": "Faune / forêt",
+   "text": "À Tangkoko, la marche en forêt permet de rechercher notamment des tarsiers et des macaques à crête. La visite se prépare avec un guide et des horaires adaptés à l'observation. La présence d'une espèce dans la réserve ne garantit pas de la voir pendant chaque sortie.",
+   "see": "Recherche de tarsiers et macaques",
+   "access": "Route depuis la région de Manado / Bitung",
+   "effort": "Marche guidée",
+   "daysMin": 1,
+   "daysMax": 2,
+   "note": "Observation non garantie ; horaires à organiser",
+   "lat": 1.5089,
+   "lon": 125.2311,
+   "photo": {
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Macaca_nigra_Tangkoko_Nature_Reserve.JPG",
+    "alt": "Macaque à crête dans la réserve de Tangkoko",
+    "author": "Sakurai Midori",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5/",
+    "page": "https://commons.wikimedia.org/wiki/File:Macaca_nigra_Tangkoko_Nature_Reserve.JPG"
+   },
+   "activities": [
+    {
+     "name": "Observation à Tangkoko",
+     "what": "Marche en forêt avec guide",
+     "duration": "Demi-journée",
+     "level": "À qualifier",
+     "conditions": "Horaire lié aux espèces ; aucune garantie d'observation"
+    }
+   ],
+   "prices": []
+  },
+  {
+   "id": "medan-bukit-lawang",
+   "region": "sumatra",
+   "name": "Medan / Bukit Lawang",
+   "themes": "Faune / randonnée",
+   "text": "Bukit Lawang se rejoint depuis Medan. Des sorties guidées permettent de découvrir la forêt sur une journée, sans nuit de trek. Une coopérative locale propose une sortie à la journée avec guide, permis et repas. Il reste à choisir un parcours adapté au terrain et à sa condition physique.",
+   "see": "Forêt et recherche d'orangs-outans",
+   "access": "Medan puis route",
+   "effort": "Journée de marche possible",
+   "daysMin": 3,
+   "daysMax": 4,
+   "note": "Pentes glissantes ; itinéraire adapté au niveau",
+   "lat": 3.557,
+   "lon": 98.145,
+   "photo": {
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Indonesia_-_Bukit_Lawang_(25950027323).jpg",
+    "alt": "Bukit Lawang, au nord de Sumatra",
+    "author": "Visions of Domino",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Indonesia_-_Bukit_Lawang_(25950027323).jpg"
+   },
+   "activities": [
+    {
+     "name": "Trek forêt 1 journée",
+     "what": "Recherche d'orangs-outans et découverte de la forêt",
+     "duration": "Journée ; départ annoncé 9 h",
+     "level": "Conditionnel",
+     "conditions": "Guide, pentes, humidité ; pas de nuit en forêt"
+    },
+    {
+     "name": "Trek forêt 4 heures",
+     "what": "Alternative plus courte",
+     "duration": "4 h annoncées",
+     "level": "Conditionnel",
+     "conditions": "Le terrain reste à confirmer"
+    }
+   ],
+   "prices": [
+    {
+     "label": "Trek 1 jour : coopérative",
+     "kind": "Activité",
+     "amount": 70,
+     "currency": "EUR",
+     "unit": "personne",
+     "includes": "Guide, permis, fruits, eau et déjeuner",
+     "excludes": "Radeau : supplément annoncé 10 EUR"
+    },
+    {
+     "label": "Trek 4 heures : Sumatra Jungle Trekking",
+     "kind": "Activité",
+     "amount": 55,
+     "currency": "EUR",
+     "unit": "personne",
+     "includes": "Guide et permis selon page",
+     "excludes": "Transfert Medan et hébergement non établis"
+    }
+   ]
+  },
+  {
+   "id": "lac-toba",
+   "region": "sumatra",
+   "name": "Lac Toba",
+   "themes": "Paysages",
+   "text": "Le lac Toba et Samosir associent paysages lacustres et découverte de la culture batak. Le choix de la base compte pour les promenades et les visites. Les accès routiers et les éventuelles traversées doivent être inclus dans la durée du séjour.",
+   "see": "Lac et découverte des environs",
+   "access": "Route depuis Medan ou étapes du nord",
+   "effort": "Visites / promenades",
+   "daysMin": 3,
+   "daysMax": 4,
+   "note": "Durée des transferts à relever",
+   "lat": 2.68,
+   "lon": 98.88,
+   "photo": {
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Wonderful_Lake_Toba.jpg",
+    "alt": "Lac Toba vu depuis Huta Sagala, sur Samosir",
+    "author": "Tio Gultom",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Wonderful_Lake_Toba.jpg"
+   },
+   "activities": [
+    {
+     "name": "Découverte du lac",
+     "what": "Promenades et étapes autour du lac",
+     "duration": "1–3 jours",
+     "level": "Accessible",
+     "conditions": "Choisir une base avant de chiffrer les déplacements"
+    }
+   ],
+   "prices": []
+  },
+  {
+   "id": "bukittinggi-et-hauts-plateaux",
+   "region": "sumatra",
+   "name": "Bukittinggi et hauts plateaux",
+   "themes": "Culture / paysages",
+   "text": "Bukittinggi permet de découvrir les hauts plateaux de l'ouest de Sumatra et la culture minangkabau. Le canyon de Sianok et la ville en sont les principaux points d'intérêt. Cette étape se prépare depuis Padang et ne s'ajoute pas au nord de Sumatra comme un court détour.",
+   "see": "Découverte minangkabau et promenades",
+   "access": "Via Padang ; transfert à vérifier",
+   "effort": "Promenades à la journée",
+   "daysMin": 3,
+   "daysMax": 5,
+   "note": "Nord de Sumatra et ouest exigent un vrai transfert",
+   "lat": -0.3007,
+   "lon": 100.3686,
+   "photo": {
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Bukittinggiview.jpg",
+    "alt": "Vue sur Bukittinggi depuis Fort de Kock",
+    "author": "Adri45an",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Bukittinggiview.jpg"
+   },
+   "activities": [
+    {
+     "name": "Hauts plateaux minangkabau",
+     "what": "Visites et promenades à partir de Bukittinggi",
+     "duration": "1–3 jours",
+     "level": "À qualifier",
+     "conditions": "Circuits de journée à sélectionner"
+    }
+   ],
+   "prices": []
+  },
+  {
+   "id": "sud-ouest-waikabubak",
+   "region": "sumba",
+   "name": "Sud-ouest / Waikabubak",
+   "themes": "Culture / lagon",
+   "text": "Autour de Waikabubak et dans le sud-ouest de Sumba, villages, marchés et littoral peuvent se combiner. Le lagon de Weekuri appartient à cette partie de l'île. Les sites sont dispersés : le véhicule et les temps de route devront être chiffrés avec les logements.",
+   "see": "Villages, marché, Weekuri",
+   "access": "Tambolaka puis route",
+   "effort": "Visites",
+   "daysMin": 3,
+   "daysMax": 4,
+   "note": "Baignade selon conditions ; guide pour compréhension culturelle",
+   "lat": -9.6667,
+   "lon": 119.4167,
+   "photo": {
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Kampung_Tarung-Waitabar.jpg",
+    "alt": "Maisons de Tarung-Waitabar à Waikabubak",
+    "author": "monica renata",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Kampung_Tarung-Waitabar.jpg"
+   },
+   "activities": [
+    {
+     "name": "Villages et marché",
+     "what": "Waikabubak et artisanat",
+     "duration": "Journée",
+     "level": "Accessible",
+     "conditions": "Accueil et éventuelles contributions à confirmer"
+    },
+    {
+     "name": "Weekuri",
+     "what": "Découverte du lagon",
+     "duration": "Demi-journée",
+     "level": "Conditionnel",
+     "conditions": "Baignade selon conditions locales"
+    }
+   ],
+   "prices": []
+  },
+  {
+   "id": "waingapu-et-est",
+   "region": "sumba",
+   "name": "Waingapu et est",
+   "themes": "Artisanat / paysages",
+   "text": "Waingapu donne accès à l'est de Sumba, aux paysages de Wairinding et au tissage ikat. Les collines changent d'aspect selon la saison. En août, elles sont plutôt dorées que vertes.",
+   "see": "Ikat et Wairinding",
+   "access": "Waingapu puis route",
+   "effort": "Visites / promenade",
+   "daysMin": 2,
+   "daysMax": 4,
+   "note": "Ne pas attendre des collines vertes en août",
+   "lat": -9.6567,
+   "lon": 120.2641,
+   "photo": {
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Bukit_Wairinding%2C_Sumba_Timur.jpg",
+    "alt": "Collines de Wairinding, photographiées en mai",
+    "author": "Zahrasrtn",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Bukit_Wairinding%2C_Sumba_Timur.jpg"
+   },
+   "activities": [
+    {
+     "name": "Tissage ikat",
+     "what": "Villages et ateliers",
+     "duration": "Demi-journée",
+     "level": "Accessible",
+     "conditions": "Démonstration non garantie sans organisation"
+    },
+    {
+     "name": "Wairinding",
+     "what": "Panorama de collines",
+     "duration": "Demi-journée",
+     "level": "Promenade",
+     "conditions": "Paysage doré en août"
+    }
+   ],
+   "prices": []
+  },
+  {
+   "id": "sumbawa-besar-moyo",
+   "region": "sumbawa",
+   "name": "Sumbawa Besar / Moyo",
+   "themes": "Nature / mer",
+   "text": "Depuis Sumbawa Besar, une liaison en bateau permet de rejoindre Moyo. On y va pour la cascade de Mata Jitu et le littoral. L'organisation dépend du bateau, des déplacements sur l'île et du logement.",
+   "see": "Mata Jitu et littoral de Moyo",
+   "access": "Sumbawa Besar puis bateau",
+   "effort": "Marche et mer",
+   "daysMin": 3,
+   "daysMax": 5,
+   "note": "Fréquence des bateaux et confort à confirmer",
+   "lat": -8.2118,
+   "lon": 117.5192,
+   "photo": {
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Sumbawa_Adventour_-_Moyo_Island_Mata_Jitu_Waterfall.jpg",
+    "alt": "Cascade de Mata Jitu sur Moyo",
+    "author": "Egaryan Saadi",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Sumbawa_Adventour_-_Moyo_Island_Mata_Jitu_Waterfall.jpg"
+   },
+   "activities": [
+    {
+     "name": "Mata Jitu",
+     "what": "Cascade sur Moyo",
+     "duration": "Journée avec bateau",
+     "level": "À qualifier",
+     "conditions": "Accès final et difficulté à confirmer"
+    },
+    {
+     "name": "Littoral de Moyo",
+     "what": "Plage et snorkeling adapté",
+     "duration": "Demi-journée",
+     "level": "Conditionnel",
+     "conditions": "Nage et mer à valider"
+    }
+   ],
+   "prices": []
+  },
+  {
+   "id": "kupang",
+   "region": "timor-occidental-et-alor",
+   "name": "Kupang",
+   "themes": "Ville",
+   "text": "Kupang est une arrivée possible à Timor occidental et un point de correspondance pour Alor. Une étape en ville permet de découvrir ce secteur avant la liaison suivante.",
+   "see": "Découverte de la ville et point d'entrée",
+   "access": "Aéroport de Kupang",
+   "effort": "Visites",
+   "daysMin": 1,
+   "daysMax": 2,
+   "note": "Contenu culturel et hébergements à approfondir",
+   "lat": -10.1702,
+   "lon": 123.6077,
+   "photo": {
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Kupang.jpg",
+    "alt": "Vue aérienne de Kupang",
+    "author": "Davidelit",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Kupang.jpg"
+   },
+   "activities": [
+    {
+     "name": "Découverte de Kupang",
+     "what": "Visite urbaine à préciser",
+     "duration": "Demi-journée",
+     "level": "Accessible",
+     "conditions": "Liste de sites à compléter"
+    }
+   ],
+   "prices": []
+  },
+  {
+   "id": "alor-kepa",
+   "region": "timor-occidental-et-alor",
+   "name": "Alor / Kepa",
+   "themes": "Mer / île",
+   "text": "Alor et la petite île de Kepa demandent un accès en plusieurs étapes : avion vers Alor, route jusqu'à Alor Kecil puis bateau. Le séjour peut être étudié pour la mer sans retenir de plongée technique. Les sites de snorkeling et leurs courants restent à qualifier avec un opérateur local.",
+   "see": "Séjour insulaire ; snorkeling à qualifier",
+   "access": "Kupang–Alor, route puis bateau vers Kepa",
+   "effort": "Nage ; sites à sélectionner",
+   "daysMin": 4,
+   "daysMax": 6,
+   "note": "Courants et prestation sans plongée à confirmer",
+   "lat": -8.2239,
+   "lon": 124.3656,
+   "photo": {
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Beautiful_View_from_Ternate_island_-_Alor_-_East_Nusa_Tenggara.jpg",
+    "alt": "Paysage depuis l'île de Ternate, dans l'archipel d'Alor",
+    "author": "Sims8899",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Beautiful_View_from_Ternate_island_-_Alor_-_East_Nusa_Tenggara.jpg"
+   },
+   "activities": [
+    {
+     "name": "Séjour insulaire à Kepa",
+     "what": "Base à étudier pour snorkeling",
+     "duration": "Plusieurs jours",
+     "level": "À qualifier",
+     "conditions": "Confirmer offre pour non-plongeurs et courants"
+    }
+   ],
+   "prices": []
+  }
+ ]
+}

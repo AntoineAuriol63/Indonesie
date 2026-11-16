@@ -2,7 +2,8 @@
 // Même relief low-poly, vu sous le même angle incliné, mêmes marqueurs et même API que la carte 3D (src/world/index.js).
 // La projection est axonométrique : se déplacer = translater, zoomer = mettre à l'échelle, ce qui permet de ne
 // redessiner les ~40 000 facettes que lorsque la vue se stabilise.
-import { WORLD_BY_ID } from '../data/destinations.js';
+import { PLACE_BY_ID, REGION_BY_ID } from '../data/places.js';
+import { createKeys } from './keys.js';
 import { buildTerrain, toWorld } from './terrain.js';
 import { createLabels } from './labels.js';
 import { BOAT_SPOTS } from './props.js';
@@ -65,7 +66,7 @@ function prepareTriangles(mesh) {
   return { coords, colors, count };
 }
 
-export function createFlatWorld({ canvas, labelLayer, onSelect }) {
+export function createFlatWorld({ canvas, labelLayer, onRegion, onPlace }) {
   let ctx = canvas.getContext('2d');
   if (!ctx) {
     // Un canvas qui a déjà tenté un contexte 3D peut refuser le 2D : on repart d'un canvas neuf.
@@ -80,14 +81,27 @@ export function createFlatWorld({ canvas, labelLayer, onSelect }) {
   const land = prepareTriangles(terrain.landMesh);
   const skirt = prepareTriangles(terrain.skirtMesh);
 
-  const labels = createLabels(labelLayer, onSelect);
-  const markers = labels.items.map((tag) => {
-    const [x, z] = toWorld(tag.dest.lon, tag.dest.lat);
-    const color = WORLD_BY_ID[tag.dest.world].color;
-    const y = Math.max(0.01, terrain.groundAt(x, z));
-    return Object.assign(tag, { x, z, y, color, light: shade(color, 0.35), dark: shade(color, -0.25), gx: 0, gy: 0 });
-  });
+  const labels = createLabels(labelLayer, { onRegion, onPlace });
+  // Dans ce mode, chaque étape est une gemme à la couleur de sa région (les modèles 3D demandent WebGL).
+  const markers = labels.items
+    .filter((item) => item.type === 'place')
+    .map((tag, index) => {
+      const [x, z] = toWorld(tag.lon, tag.lat);
+      const color = REGION_BY_ID[tag.region].color;
+      const y = Math.max(0.01, terrain.groundAt(x, z));
+      return Object.assign(tag, { x, z, y, color, light: shade(color, 0.35), dark: shade(color, -0.25), gx: 0, gy: 0, phase: index * 0.9, k: 1, active: false });
+    });
+  const anchors = labels.items
+    .filter((item) => item.type !== 'place')
+    .map((item) => {
+      const [x, z] = toWorld(item.lon, item.lat);
+      return { item, x, z };
+    });
+  let state = { region: null, place: null, itinerary: null };
   let stops = [];
+  const keys = createKeys(() => {
+    flight = null;
+  });
 
   // ---------- Vue ----------
   let width = 0;
@@ -200,7 +214,7 @@ export function createFlatWorld({ canvas, labelLayer, onSelect }) {
     let best = null;
     let bestDist = 26;
     for (const m of markers) {
-      const d = Math.hypot(px - m.gx, py - (m.gy - 30));
+      const d = Math.hypot(px - m.gx, py - (m.gy - 30 * m.k));
       if (d < bestDist) {
         best = m;
         bestDist = d;
@@ -257,7 +271,7 @@ export function createFlatWorld({ canvas, labelLayer, onSelect }) {
     pinch = null;
     if (e.type === 'pointerup' && pointers.size === 0 && moved < 8) {
       const hit = markerAt(e.clientX, e.clientY);
-      if (hit) onSelect(hit.dest.id);
+      if (hit) onPlace(hit.id);
     }
   };
   canvas.addEventListener('pointerup', release);
@@ -481,15 +495,21 @@ export function createFlatWorld({ canvas, labelLayer, onSelect }) {
       m.onScreen = m.gx > -60 && m.gx < width + 60 && m.gy > -20 && m.gy < height + 90;
     }
     for (const m of markers) {
+      // Étapes de la région ouverte (ou de l'itinéraire) en grand, les autres en petit.
+      m.active = state.itinerary ? state.itinerary.includes(m.id) : m.region === state.region;
+      if (state.itinerary && !m.active) m.onScreen = false;
       if (!m.onScreen) continue;
       const active = m.selected || m.hovered;
-      const k = active ? 1.45 : m.order ? 1.2 : 1;
-      const pulse = (t * 0.7 + m.phase * 0.3) % 1;
-      ctx.strokeStyle = m.order ? `rgba(255, 210, 63, ${(1 - pulse).toFixed(2)})` : `rgba(255, 255, 255, ${(1 - pulse).toFixed(2)})`;
-      ctx.lineWidth = 3;
-      ctx.beginPath();
-      ctx.ellipse(m.gx, m.gy, (6 + pulse * 16) * k, (3.5 + pulse * 9) * k, 0, 0, Math.PI * 2);
-      ctx.stroke();
+      const k = active ? 1.45 : m.active ? 1.15 : 0.6;
+      m.k = k;
+      if (m.active) {
+        const pulse = (t * 0.7 + m.phase * 0.3) % 1;
+        ctx.strokeStyle = `rgba(255, 255, 255, ${(1 - pulse).toFixed(2)})`;
+        ctx.lineWidth = 3;
+        ctx.beginPath();
+        ctx.ellipse(m.gx, m.gy, (6 + pulse * 16) * k, (3.5 + pulse * 9) * k, 0, 0, Math.PI * 2);
+        ctx.stroke();
+      }
 
       // Gemme à facettes qui flotte au-dessus du lieu
       const cy = m.gy - 30 * k - Math.sin(t * 2.2 + m.phase) * 4;
@@ -551,6 +571,14 @@ export function createFlatWorld({ canvas, labelLayer, onSelect }) {
       lastMove = now;
       if (flight.t >= 1) flight = null;
     }
+    const pressed = keys.read();
+    if (pressed.active && !flight) {
+      view.x += (pressed.x * width * 0.55 * dt) / view.s;
+      view.z += (pressed.y * width * 0.55 * dt) / (view.s * KZ);
+      view.s *= 1 - pressed.zoom * dt * 1.4;
+      clampView();
+      lastMove = now;
+    }
     const sx = shift.x;
     shift.x += (shift.tx - shift.x) * Math.min(1, dt * 6);
     shift.y += (shift.ty - shift.y) * Math.min(1, dt * 6);
@@ -570,7 +598,12 @@ export function createFlatWorld({ canvas, labelLayer, onSelect }) {
     drawMarkers(elapsed);
     drawRoute(elapsed);
     drawClouds(elapsed);
-    labels.layout(view.s < scaleFor(36));
+    for (const a of anchors) {
+      a.item.sx = toScreenX(a.x);
+      a.item.sy = toScreenY(a.z);
+      a.item.onScreen = a.item.sx > -80 && a.item.sx < width + 80 && a.item.sy > -40 && a.item.sy < height + 40;
+    }
+    labels.layout();
     requestAnimationFrame(frame);
   }
   requestAnimationFrame(frame);
@@ -578,17 +611,18 @@ export function createFlatWorld({ canvas, labelLayer, onSelect }) {
   return {
     mode: 'relief',
     flyTo,
-    setState(state) {
+    setState(next) {
+      state = next;
       labels.setState(state);
-      stops = state.stops.map((s) => labels.byId[s.id]);
+      stops = state.itinerary ? state.itinerary.map((id) => labels.byId[id]) : [];
     },
     setViewPadding({ left = 0, right = 0, top = 0, bottom = 0 }) {
       shift.tx = (right - left) / 2;
       shift.ty = (bottom - top) / 2;
     },
-    focusDestination(id, dist) {
-      const d = labels.byId[id].dest;
-      flyTo(d.lon, d.lat, dist ?? Math.min(WORLD_BY_ID[d.world].focus.dist, 4.2), { duration: 1.4 });
+    focusPlace(id) {
+      const p = PLACE_BY_ID[id];
+      flyTo(p.lon, p.lat, clamp(REGION_BY_ID[p.region].focus.dist * 0.55, 2.4, 4.6), { duration: 1.3 });
     },
     zoom(factor) {
       fly({ x: view.x, z: view.z, s: clamp(view.s / factor, minScale(), maxScale()) }, 0.45);
