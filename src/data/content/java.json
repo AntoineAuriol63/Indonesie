@@ -278,7 +278,7 @@
         {
           "name": "Borobudur, montée sur le temple",
           "type": "Culture",
-          "text": "Une pyramide de pierre de plus de mille ans : des galeries couvertes de bas-reliefs sur la vie du Bouddha et, en haut, 72 stupas en forme de cloche face aux volcans. On monte par créneau d'une heure, en groupe avec un guide, chaussé des sandales fournies. Places limitées, à réserver en ligne.",
+          "text": "Une pyramide de pierre de plus de mille ans : des galeries couvertes de bas-reliefs sur la vie du Bouddha et, en haut, 72 stupas en forme de cloche face aux volcans. On monte en petit groupe avec un guide, pour une heure environ, chaussé des sandales fournies. 1 200 places par jour, à réserver en ligne.",
           "time": "demi-journée avec le trajet",
           "price": {
             "amount": 455000,
@@ -289,10 +289,10 @@
         {
           "name": "Borobudur, enceinte seule",
           "type": "Culture",
-          "text": "Le billet de base donne accès au parc et au pied du monument, sans monter dessus. On en fait le tour par les jardins et on visite les deux petits musées du site. C'est la solution quand les créneaux de montée sont complets.",
+          "text": "Le billet de base donne accès au parc et au pied du monument, sans monter dessus. On en fait le tour par les jardins et on visite les deux petits musées du site. C'est la solution quand les créneaux de montée sont complets, ou le lundi, jour où la montée est le plus souvent fermée.",
           "time": "demi-journée avec le trajet",
           "price": {
-            "amount": 375000,
+            "amount": 400000,
             "currency": "IDR",
             "what": "billet d'entrée dans l'enceinte de Borobudur, sans montée sur le temple, adulte étranger, par personne"
           }
@@ -300,28 +300,36 @@
         {
           "name": "Prambanan",
           "type": "Culture",
-          "text": "Le grand ensemble hindou du IXe siècle : des tours pointues dédiées à Shiva, Vishnu et Brahma, dont la plus haute dépasse 45 m, sculptées de scènes du Ramayana. On y va vers 15 h pour rester jusqu'au coucher du soleil. Dans le même parc, le temple bouddhique de Sewu est presque vide.",
+          "text": "Le grand ensemble hindou du IXe siècle : des tours pointues dédiées à Shiva, Vishnu et Brahma, dont la plus haute dépasse 45 m, sculptées de scènes du Ramayana. On y va vers 15 h et on reste jusqu'à la fermeture, à 17 h. Dans le même parc, à un kilomètre au nord, le temple bouddhique de Sewu.",
           "time": "demi-journée avec le trajet",
-          "price": null
+          "price": {
+            "amount": 400000,
+            "currency": "IDR",
+            "what": "billet d'entrée de Prambanan, adulte étranger, par personne"
+          }
         },
         {
           "name": "Ballet du Ramayana à Prambanan",
           "type": "Culture",
-          "text": "En saison sèche, donc en août, le Ramayana est dansé le soir sur une scène en plein air, avec les temples éclairés en fond et un orchestre de gamelan. Il n'y a pas de représentation tous les soirs : regarder le calendrier et réserver.",
-          "time": "2 h",
-          "price": null
+          "text": "De mai à octobre, le Ramayana est dansé sur la scène en plein air, avec les temples éclairés en fond et un orchestre de gamelan. Représentations le mardi, le jeudi et le samedi à 19 h 30. Le billet est distinct de celui du temple et se réserve en ligne ; les places les moins chères sont sur les côtés.",
+          "time": "1 h 30",
+          "price": {
+            "amount": 150000,
+            "currency": "IDR",
+            "what": "place la moins chère au ballet du Ramayana (de 150 000 à 450 000 roupies selon la catégorie), par personne"
+          }
         },
         {
           "name": "Kraton, le palais du sultan",
           "type": "Culture",
-          "text": "Le sultan Hamengkubuwono X y habite toujours. On visite les pavillons et les cours de sable, guidé par des serviteurs du palais en sarong, le kriss dans le dos. Fermeture en début d'après-midi. Suivant le jour, on tombe sur du gamelan, des marionnettes ou de la danse.",
+          "text": "Le sultan Hamengkubuwono X y habite toujours. On visite les pavillons et les cours avec un guide du palais. Ouvert du mardi au dimanche, et tout ferme vers 14 h. De 9 h à 11 h, il y a chaque jour un spectacle : gamelan et danse le mardi, marionnettes le mercredi et le jeudi, danse le week-end.",
           "time": "2 h",
           "price": null
         },
         {
           "name": "Taman Sari, le château d'eau",
           "type": "Culture",
-          "text": "L'ancien jardin de plaisance des sultans, du XVIIIe siècle : des bassins où se baignaient les femmes de la cour, la tour d'où le sultan les regardait et, dans les ruelles voisines, la mosquée souterraine de Sumur Gumuling avec ses cinq escaliers qui se rejoignent.",
+          "text": "L'ancien jardin de plaisance des sultans, construit vers 1760 : des bassins où se baignaient les filles et les concubines du sultan, la tour d'où il les regardait et, dans les ruelles voisines, la mosquée souterraine de Sumur Gumuling, avec ses escaliers qui se rejoignent au centre. Ferme à 15 h.",
           "time": "1 h 30",
           "price": null
         },
@@ -342,22 +350,23 @@
         {
           "name": "Merapi en jeep",
           "type": "Nature",
-          "text": "Sur les pentes du volcan qui domine la ville, de vieilles jeeps roulent dans les coulées de l'éruption de 2010 : un village enseveli, un bunker, des blocs de lave, et le sommet qui fume au-dessus. Départ de Kaliurang, à une heure au nord, de préférence au lever du jour.",
+          "text": "Sur les pentes du volcan qui domine la ville, de vieilles jeeps roulent dans les zones ravagées par l'éruption de 2010 : la maison du gardien du volcan, mort ce jour-là, un bunker, un petit musée du souvenir. Départ à 27 km au nord, une heure de route. Il existe une sortie au lever du jour.",
           "time": "2 à 3 h sur place",
           "price": null
         },
         {
           "name": "Gudeg et kopi joss",
           "type": "Cuisine",
-          "text": "Le plat de la ville est le gudeg : du jacquier vert mijoté des heures dans le lait de coco et le sucre de palme. La rue Wijilan en est pleine. Le soir, près de la gare Tugu, on boit un kopi joss, un café où l'on plonge un charbon ardent.",
+          "text": "Le plat de la ville est le gudeg : du jacquier vert mijoté des heures dans le lait de coco et le sucre de palme. La rue Wijilan en est pleine. Le soir, juste au nord de la gare Tugu, on boit un kopi joss, un café où l'on plonge un charbon ardent.",
           "time": "",
           "price": null
         }
       ],
-      "access": "Train depuis Jakarta en 6 à 8 h, ou vol jusqu'à l'aéroport YIA, à 45 km à l'ouest, relié à la gare Tugu par un train en 40 minutes environ. Pour Borobudur, voiture avec chauffeur ; Prambanan se rejoint aussi par le train de banlieue vers Solo.",
+      "access": "Train depuis Jakarta en 6 à 8 h, ou vol jusqu'à l'aéroport YIA, à 45 km, relié à la gare Tugu par un train en 40 minutes environ. Pour Borobudur, voiture avec chauffeur, 1 h à 1 h 30 de route. Prambanan se rejoint aussi par le train de banlieue vers Solo, en une demi-heure jusqu'à la gare de Brambanan.",
       "tips": [
-        "À Borobudur, le billet pour monter sur le temple n'est pas le même que le billet d'enceinte, et les créneaux partent vite en août : réserver dès que les dates sont fixées.",
-        "Pour voir Borobudur au lever du soleil, on monte à la frontale sur la colline de Punthuk Setumbu, à quelques kilomètres du temple.",
+        "À Borobudur, le billet pour monter sur le temple n'est pas le même que le billet d'enceinte. La vente en ligne ouvre environ une semaine avant la visite et les places partent vite en août : réserver dès l'ouverture.",
+        "Le lundi, le Kraton est fermé et la montée à Borobudur l'est le plus souvent aussi : garder ce jour-là pour Prambanan ou le Merapi.",
+        "Pour voir Borobudur au lever du soleil, on monte à la frontale, en un quart d'heure, sur la colline de Punthuk Setumbu, à quelques kilomètres du temple.",
         "Escaliers raides et aucune ombre sur les temples : chapeau et eau."
       ],
       "photos": [
@@ -398,7 +407,7 @@
         },
         {
           "file": "Maestro Batik Tulis di Imogiri.jpg",
-          "caption": "Artisane au travail sur un batik",
+          "caption": "Artisane de batik à Imogiri, près de Jogja",
           "author": "Aconkyeah",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"

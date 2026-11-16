@@ -60,3 +60,35 @@ Photos : les six photos existantes ont été regardées et sont justes. Les vél
 | Éviter le week-end | https://www.exploresunda.com/situ-patenggang-bandung.html (dimanches et jours fériés très chargés) | confirmée, reformulée |
 
 Photos : les six photos existantes ont été regardées. La plaque de rue de Jalan Braga (faible) est remplacée par « Braga Street Bandung.JPG » (Midori, CC BY 3.0), qui montre les tableaux exposés sur le trottoir.
+
+## Yogyakarta et temples
+
+| Affirmation | Source (URL) | Verdict |
+| --- | --- | --- |
+| Borobudur, plus grand temple bouddhique du monde, 72 stupas, 40 km au nord-ouest | https://en.wikipedia.org/wiki/Borobudur | confirmée |
+| Montée : « créneau d'une heure, en groupe avec un guide, sandales fournies, places limitées, réservation en ligne » | https://en.wikivoyage.org/wiki/Borobudur (visite guidée d'une heure, 150 billets par heure, juillet 2026) ; https://injourney.id/media-publication/article/harga-tiket-masuk-candi-borobudur-2026-terbaru-dan-cara-belinya (sandales upanat, guide, quota) ; https://visit-jogja.com/harga-tiket-borobudur-2026/ (1 200 par jour, créneaux de 90 min, groupes de 10 à 15) ; https://www.backindo.com/?p=2664 | confirmée ; durée « une heure environ », quota de 1 200 par jour ajouté |
+| Billet de montée : 455 000 IDR, adulte étranger | injourney.id (officiel), Wikivoyage (juillet 2026), visit-jogja, backindo | confirmée |
+| Billet d'enceinte : 375 000 IDR | visit-jogja.com (400 000 IDR, 25 USD) ; backindo (environ 400 000) | corrigée : 375 000 -> 400 000 |
+| Montée fermée le lundi | Wikivoyage (fermé le lundi) ; injourney.id et visit-jogja (le lundi, enceinte seulement) ; backindo (« ouvert tous les jours désormais ») | ajoutée, formulation prudente : « le plus souvent fermée le lundi » |
+| Réservation : « dès que les dates sont fixées » | Wikivoyage (réservations ouvertes 7 jours avant) ; visit-jogja (quota épuisé environ 3 jours avant) | corrigée : la vente ouvre environ une semaine avant |
+| Deux petits musées sur le site | Wikivoyage (Karmawibhangga et Samudraraksa, compris dans le billet) | confirmée |
+| Prambanan, IXe siècle, tour de plus de 45 m, 17 km à l'est | https://en.wikivoyage.org/wiki/Prambanan (vers 850, Candi Siva 45 m) | confirmée |
+| Prambanan : rester « jusqu'au coucher du soleil » | Wikivoyage (06 h 30-17 h) ; recherche (dernière entrée vers 16 h) | corrigée : jusqu'à la fermeture, à 17 h |
+| Temple de Sewu dans le même parc, « presque vide » | Wikivoyage (à 1 km au nord de l'entrée) | « presque vide » retiré, distance ajoutée |
+| Prix de Prambanan | Wikivoyage (400 000 IDR adulte étranger) ; plusieurs guides 2026 (387 500 à 415 000) | ajoutée : 400 000 IDR |
+| Ballet du Ramayana : plein air en saison sèche, pas tous les soirs | https://ticket.injourneydestination.id/en/ramayana-ballet-prambanan (mai à octobre 2026 : mardi, jeudi, samedi, 19 h 30-21 h) | confirmée et précisée ; durée 2 h -> 1 h 30 |
+| Prix du ballet | https://www.backindo.com/ramayana-ballet-prambanan/ (déc. 2025 : 150 000 à 450 000 IDR, billet distinct du temple, places de 2e catégorie sur les côtés) | ajoutée |
+| Kraton : Hamengkubuwono X y habite | https://en.wikipedia.org/wiki/Hamengkubuwono_X | confirmée |
+| Kraton : « fermeture en début d'après-midi », spectacles suivant le jour | https://www.indonesia.travel/id-id/destination/java/yogyakarta/karaton-ngayogyakarta/ (mardi-dimanche 9 h-14 h) ; Traveloka (8 h 30-14 h 30) ; https://tourism.kratonjogja.id/en-US/destination/9-performances-at-srimanganti (9 h-11 h, programme par jour, fermé le lundi) | confirmée et précisée : fermé le lundi, fermeture vers 14 h, programme des spectacles |
+| Kraton : « serviteurs en sarong, le kriss dans le dos », « cours de sable » | pas de source consultée | retirée ; « guide du palais » (https://tourism.kratonjogja.id/en-US/) |
+| Taman Sari : XVIIIe siècle, bassins, tour, Sumur Gumuling « cinq escaliers » | https://en.wikipedia.org/wiki/Taman_Sari_(Yogyakarta) (1758-1765, filles et concubines, quatre escaliers se rejoignent sur la plateforme) ; https://en.wikivoyage.org/wiki/Yogyakarta (9 h-15 h) | corrigée : « vers 1760 », nombre d'escaliers retiré, fermeture à 15 h ajoutée |
+| Malioboro, marché Beringharjo, fort Vredeburg | https://en.wikivoyage.org/wiki/Yogyakarta | confirmée |
+| Fausses « expositions d'étudiants » | https://www.traveller.com.au/buying-batik-in-indonesia-how-i-fell-for-the-most-obvious-travel-scam-grryyk ; https://www.smartertravel.com/tips-avoiding-yogyakarta-tourist-traps/ | confirmée |
+| Merapi en jeep : éruption de 2010, village enseveli, bunker, départ de Kaliurang à une heure | https://www.backindo.com/merapi-lava-tour-yogyakarta/ (départ à 27 km au nord, une heure par Jalan Kaliurang ; maison de Mbah Maridjan, bunker de Kaliadem, musée) | corrigée : « village enseveli » et « blocs de lave » remplacés par les arrêts sourcés ; sortie au lever du jour confirmée (départ 4 h 30) |
+| Gudeg rue Wijilan, kopi joss près de la gare Tugu | https://en.wikivoyage.org/wiki/Yogyakarta (Jl. Wijilan ; Angkringan Lik Man, au nord de la gare) | confirmée |
+| Train Jakarta-Yogyakarta en 6 à 8 h | tiket.com (Argo Semeru 6 h 25) ; https://www.jawapos.com/travelling/2606090159/5-ka-gambir-yogyakarta-ternyaman-untuk-perjalanan-malam-bisa-tidur-nyenyak (6 à 7 h 30) | confirmée |
+| Aéroport YIA à 45 km, train en 40 min | https://en.wikipedia.org/wiki/Yogyakarta_International_Airport (45 km, 35 à 39 min) ; Wikivoyage (40 min, un train par heure) | confirmée ; « à l'ouest » retiré (non relu) |
+| Prambanan par le train de banlieue vers Solo | https://en.wikivoyage.org/wiki/Prambanan (30 min jusqu'à Brambanan, 9 min à pied) | confirmée, durée ajoutée |
+| Punthuk Setumbu au lever du soleil | https://www.backindo.com/?p=2664 (10 à 15 min de montée sur des marches) | confirmée, durée ajoutée |
+
+Photos : les six photos existantes ont été regardées, toutes justes et de bonne qualité ; aucune remplacée. Légende de la photo de batik précisée (Imogiri).
