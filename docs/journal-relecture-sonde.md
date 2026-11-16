@@ -90,3 +90,28 @@ Photos : les six regardées, toutes justes (lieu confirmé par les descriptions 
 ## Région lombok-et-gili
 
 Les trois textes relus après les quatre fiches : aéroport à une demi-heure de Kuta (Wikivoyage), bateaux rapides depuis Bali vers les Gili et Bangsal, mer agitée dans le détroit (Wikivoyage Gili Trawangan). Rien à corriger.
+
+## labuan-bajo-komodo
+
+Le quota de recherches web de la session a été épuisé pendant cette fiche : la suite des vérifications s'appuie sur des pages consultées directement (Wikipédia, Wikivoyage, presse indonésienne, guides déjà repérés) et sur les descriptions des fichiers Commons.
+
+| Affirmation | Source (URL) | Verdict |
+| --- | --- | --- |
+| Dragons jusqu'à 3 m, « ne vivent qu'ici » | https://en.wikipedia.org/wiki/Komodo_dragon (3 m ; Komodo, Rinca, Flores, Gili Motang, Gili Dasami) | confirmée |
+| Droit d'entrée du parc | https://kupang.antaranews.com/berita/140801/btn-komodo-sosialisasi-penyesuaian-tarif-baru-masuk-kawasan (PP 36/2024, en vigueur le 30 octobre 2024 : 250 000 IDR par étranger et par jour, semaine comme jours fériés, trek, observation et snorkeling compris) ; repris par plusieurs pages de 2026 | prix ajouté (250 000 IDR). Des sites d'agences donnent d'autres montants (150 000 / 225 000 de l'ancien barème, 500 000) : non retenus |
+| Quota de visiteurs | https://www.metrotvnews.com/read/NOlCAq8V-taman-nasional-komodo-batasi-kunjungan-1000-orang-per-hari-mulai-2026 (20 oct. 2025) ; https://www.detik.com/bali/wisata/d-8148406/ (7 oct. 2025) : 1 000 visiteurs par jour, essai de janvier à mars 2026, application en avril 2026, billets sur l'application SiOra, Padar en trois sessions de 300 personnes | ajouté (conseils et Padar) |
+| Journée en bateau rapide, départ vers 5 h 30, cinq ou six arrêts | https://jonnymelon.com/padar-island/ (fév. 2026 : six arrêts, montée de Padar en général au lever du jour) ; https://en.wikivoyage.org/wiki/Labuan_Bajo (Padar, Pink Beach, Komodo, Manta Point) | corrigée : « vers 5 h 30 » -> « à l'aube » (heure exacte introuvable) |
+| Ranger et bâton fourchu, dragons près des bâtiments | https://en.wikivoyage.org/wiki/Rinca (guide obligatoire, perche en Y, dragons près de l'aire des visiteurs) | confirmée |
+| Rinca plus proche, Komodo plus grande | https://en.wikipedia.org/wiki/Rinca (moins visitée que Komodo) ; https://en.wikipedia.org/wiki/Komodo_National_Park (environ 1 700 dragons à Komodo, 1 300 à Rinca) | reformulée : Rinca plus proche et moins visitée, Komodo a le plus de dragons |
+| Padar : trois baies, plages blanche, grise, rose ; une demi-heure de montée | https://en.wikipedia.org/wiki/Padar_Island ; jonnymelon (15 à 45 min, marches de bois et de pierre puis gravier, peu d'ombre) | confirmée, durée élargie |
+| Pink Beach : corail rouge | jonnymelon | confirmée |
+| Raies manta de 3 à 4 m, nettoyage, dérive | https://en.wikipedia.org/wiki/Reef_manta_ray (3 à 3,5 m en général, stations de nettoyage, nage face au courant) ; description Commons de « A Flying Manta ray.jpg » (Manta Point) ; https://www.komodoluxury.com/blog/komodo-national-park-guide/ (arrêt « si l'horaire le permet ») | corrigée : 3 à 4 m -> 3 m et plus ; « le bateau nous dépose en amont, on se laisse dériver » retiré (introuvable) |
+| Taka Makassar : croissant de sable à côté de Manta Point | description Commons de « Taka Makasar, Flores, NTT.jpg » (banc qui n'émerge qu'à marée basse, 30 min de bateau de Manta Point) | corrigée : « croissant » retiré, distance précisée |
+| Kalong : roussettes au coucher du soleil | Wikivoyage Labuan Bajo (1 h de bateau, envol au crépuscule, 20 min) ; description Commons de la photo (Pulau Kalong, Rinca) | confirmée ; « les croisières y passent la soirée » retiré |
+| Kelor : raidillon d'un quart d'heure | descriptions Commons (colline, vue sur la côte ouest de Flores, premier arrêt des bateaux) ; jonnymelon (baignade) | durée retirée (introuvable) |
+| Grotte de Rangko | https://id.wikipedia.org/wiki/Gua_Rangko (1 h de route, 20 min de bateau, 500 m à pied, bassin d'eau salée, lumière entre 12 h et 14 h) | confirmée, précisée : « début d'après-midi » -> 12 h à 14 h |
+| Marché de nuit de Kampung Ujung | Wikivoyage Labuan Bajo (étals du soir, poisson grillé à la commande) ; description Commons de « Sore di Pasar Kampung Ujung Labuan Bajo - 2023.jpg » | confirmée |
+| Vol depuis Bali, un peu plus d'une heure ; aéroport à dix minutes | https://www.rome2rio.com/s/Denpasar/Labuan-Bajo (1 h 10 à 1 h 17, plusieurs vols par jour) ; Wikivoyage (aéroport à 2 km) | confirmée |
+| Août très chaud et sec, haute saison | https://en.wikivoyage.org/wiki/Komodo_National_Park ; jonnymelon ; komodoluxury | ajouté aux conseils |
+
+Photos : « Manta .jpg » (eau trouble) remplacée par « A Flying Manta ray.jpg » (Siharaditia, Manta Point). « Labuan Bajo pier at sunset » remplacée par « Gua Rangko.jpg » (Pravda V. Wardhana), seule photo libre de la grotte : 855 px de large, d'où un avertissement du script. Les quatre autres regardées et gardées. Rien sur Flickr pour Rangko.
