@@ -3,8 +3,8 @@
  "places": {
   "sanur": {
    "intro": [
-    "Sanur, c'est la plage tranquille du sud de Bali : pas de grosses vagues, pas de foule, une longue promenade au bord de l'eau. On y finit le voyage pour se reposer avant l'avion, l'aéroport est à une demi-heure.",
-    "La plage fait face à l'est, donc le spectacle est le matin, quand le soleil sort de la mer derrière les bateaux de pêche."
+    "Sanur, c'est la plage tranquille du sud de Bali : pas de grosses vagues, pas de foule, une promenade de 5 km au bord de l'eau. On y finit le voyage pour se reposer avant l'avion, l'aéroport est à une demi-heure.",
+    "La plage fait face à l'est, donc le spectacle est le matin, vers 6 h, quand le soleil sort de la mer derrière les bateaux de pêche."
    ],
    "todo": [
     {
@@ -17,42 +17,47 @@
     {
      "name": "Front de mer à vélo",
      "type": "Détente",
-     "text": "Une promenade pavée longe la plage sur plusieurs kilomètres, sans voitures. On loue un vélo et on s'arrête dans les warungs, les pieds dans le sable.",
+     "text": "Une promenade pavée longe la plage sur environ 5 km, de Matahari Terbit au nord à Mertasari au sud, sans voitures. On loue un vélo et on s'arrête dans les warungs, les pieds dans le sable.",
      "time": "2 h",
      "price": null
     },
     {
      "name": "Baignade dans le lagon",
      "type": "Mer",
-     "text": "La barrière de corail casse les vagues au large : l'eau est calme et peu profonde, sans courant. À marée basse, il faut marcher loin pour avoir de l'eau jusqu'à la taille.",
+     "text": "La barrière de corail casse les vagues au large : l'eau est calme et peu profonde. À marée basse, la mer se retire très loin et il reste quelques centimètres d'eau : on se baigne à marée haute, plutôt le matin.",
      "time": "",
      "price": null
     },
     {
      "name": "Musée Le Mayeur",
      "type": "Culture",
-     "text": "La maison du peintre belge Adrien-Jean Le Mayeur, installé ici dans les années 1930 avec sa femme, la danseuse balinaise Ni Pollok. Ses toiles sont accrochées dans les pièces où il vivait, au bord de la plage.",
+     "text": "La maison du peintre belge Adrien-Jean Le Mayeur, arrivé à Bali en 1932 et marié en 1935 à la danseuse balinaise Ni Pollok. Ses toiles sont accrochées dans les pièces où il vivait, au bord de la plage. Le musée ferme en milieu d'après-midi, plus tôt le vendredi.",
      "time": "1 h",
      "price": null
     },
     {
      "name": "Marché de nuit de Sindhu",
      "type": "Cuisine",
-     "text": "Le soir, les stands s'installent au marché de Sindhu : brochettes de satay, nasi campur, martabak. On choisit, on s'assoit sur un tabouret en plastique et on mange avec les gens du quartier.",
+     "text": "Les stands s'installent vers 17 h au marché de Sindhu, Jalan Pungutan, et le meilleur moment est entre 18 h et 19 h : brochettes de satay, nasi campur, soupe bakso aux boulettes. On s'assoit sur un tabouret en plastique et on paie en liquide.",
      "time": "le soir",
      "price": null
     },
     {
      "name": "Journée à Nusa Lembongan",
      "type": "Mer",
-     "text": "Les bateaux rapides partent du port de Sanur et mettent environ une demi-heure. Sur place : plages, snorkeling et le pont jaune vers Nusa Ceningan.",
+     "text": "Les bateaux rapides partent du nouveau port de Sanur, au bout de Jalan Matahari Terbit, et mettent environ une demi-heure. Sur place : plages, snorkeling, mangrove en pirogue et le pont jaune vers Nusa Ceningan.",
      "time": "la journée",
-     "price": null
+     "price": {
+      "amount": 150000,
+      "currency": "IDR",
+      "what": "aller simple en bateau rapide, par personne, premier prix au guichet"
+     }
     }
    ],
-   "access": "Depuis Ubud, une heure de voiture, davantage s'il y a des embouteillages. L'aéroport de Denpasar est à une demi-heure.",
+   "access": "Depuis Ubud, 1 h à 1 h 30 de voiture en journée, 45 minutes tôt le matin. L'aéroport de Denpasar est à 20 ou 30 minutes en taxi.",
    "tips": [
-    "À marée basse, la mer se retire loin : on se baigne plutôt à marée haute."
+    "La marée commande la baignade : regarder les horaires de marée haute la veille.",
+    "Les VTC comme Grab ne peuvent pas prendre de clients dans la rue du port : on les commande depuis la route principale."
    ],
    "photos": [
     {
