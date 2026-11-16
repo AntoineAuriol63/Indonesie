@@ -84,7 +84,7 @@ function regionCard(r) {
         ${fact('Durée', days(r.daysMin, r.daysMax))}
         ${fact('Y aller', r.access)}
       </dl>
-      <h3>Les étapes</h3>
+      <h3>Les activités</h3>
       <div class="rows">
         ${places
           .map(
