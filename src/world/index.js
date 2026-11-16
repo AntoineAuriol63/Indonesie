@@ -8,6 +8,7 @@ import { CITIES, PLACES, PLACE_BY_ID, REGIONS, REGION_BY_ID } from '../data/plac
 import { createKeys } from './keys.js';
 import { createLabels } from './labels.js';
 import { createModel } from './models.js';
+import { buildItem, sceneOf } from './scenes.js';
 import { buildTerrain, toWorld } from './terrain.js';
 import { createBoats, createClouds, createSmoke, createWater } from './props.js';
 import { createRoute } from './route.js';
@@ -16,7 +17,7 @@ const SKY = 0xbdeeff;
 const DEFAULT_POLAR = THREE.MathUtils.degToRad(40);
 const easeInOut = (t) => (t < 0.5 ? 4 * t * t * t : 1 - (-2 * t + 2) ** 3 / 2);
 
-export function createWorld({ canvas, labelLayer, onRegion, onPlace }) {
+export function createWorld({ canvas, labelLayer, onRegion, onPlace, onDetail }) {
   let renderer;
   try {
     renderer = new THREE.WebGLRenderer({ canvas, antialias: true, powerPreference: 'high-performance' });
@@ -222,6 +223,59 @@ export function createWorld({ canvas, labelLayer, onRegion, onPlace }) {
   });
   CITIES.filter((c) => c.model).forEach((c) => addSpot(c.lon, c.lat, c.model, { rank: 4 }));
 
+  // ---------- Scènes détaillées : les lieux à voir autour d'une étape, affichés quand elle est sélectionnée ----------
+  const scenes = {};
+  const easeOutBack = (k) => 1 + 2.70158 * (k - 1) ** 3 + 1.70158 * (k - 1) ** 2;
+  function sceneFor(id) {
+    if (id in scenes) return scenes[id];
+    const def = sceneOf(id);
+    if (!def) return (scenes[id] = null);
+    const origin = placeSpots[id];
+    const items = def.items.map((item) => {
+      const x = origin.x + item.dx;
+      const z = origin.z + item.dz;
+      const y = Math.max(0, terrain.groundAt(x, z));
+      const built = buildItem(item);
+      const root = new THREE.Group();
+      root.position.set(x, y, z);
+      root.add(built.object);
+      root.visible = false;
+      scene.add(root);
+      const label = document.createElement('button');
+      label.type = 'button';
+      label.className = 'lbl lbl--detail';
+      label.textContent = item.name;
+      label.style.display = 'none';
+      label.addEventListener('click', () => onDetail?.(id, item.match));
+      labelLayer.appendChild(label);
+      return { item, root, update: built.update, label, top: new THREE.Vector3(x, y + item.height * item.size, z) };
+    });
+    return (scenes[id] = { items, detail: 0 });
+  }
+  function updateScenes(dt, elapsed) {
+    if (state.place && !state.itinerary) sceneFor(state.place);
+    for (const [id, sc] of Object.entries(scenes)) {
+      if (!sc) continue;
+      const target = id === state.place ? 1 : 0;
+      sc.detail += (target - sc.detail) * Math.min(1, dt * 3.5);
+      if (target === 0 && sc.detail < 0.01) sc.detail = 0;
+      const n = sc.items.length;
+      sc.items.forEach((it, i) => {
+        // Les éléments apparaissent l'un après l'autre, avec un petit rebond.
+        const k = THREE.MathUtils.clamp(sc.detail * (1 + n * 0.28) - i * 0.28, 0, 1);
+        it.root.visible = k > 0.01;
+        it.label.style.display = k > 0.85 ? '' : 'none';
+        if (!it.root.visible) return;
+        it.root.scale.setScalar(it.item.size * easeOutBack(k));
+        it.update(elapsed);
+        projected.copy(it.top).project(camera);
+        const sx = (projected.x * 0.5 + 0.5) * width;
+        const sy = (-projected.y * 0.5 + 0.5) * height;
+        it.label.style.translate = `calc(${sx.toFixed(1)}px - 50%) calc(${sy.toFixed(1)}px - 100%)`;
+      });
+    }
+  }
+
   // Position au sol des textes qui ne sont pas attachés à un modèle.
   const anchors = labels.items
     .filter((item) => item.type !== 'place')
@@ -347,7 +401,8 @@ export function createWorld({ canvas, labelLayer, onRegion, onPlace }) {
       if (!visible) continue;
       const selected = s.id && s.id === state.place;
       const hovered = s.tag?.hovered;
-      const scale = base * s.show * (selected ? 1.35 : hovered ? 1.18 : 1);
+      const detail = scenes[s.id]?.detail || 0;
+      const scale = base * s.show * (selected ? 1.35 : hovered ? 1.18 : 1) * (1 - detail);
       s.root.scale.setScalar(scale);
       s.model.update(elapsed);
       if (s.ring) {
@@ -360,7 +415,7 @@ export function createWorld({ canvas, labelLayer, onRegion, onPlace }) {
         projected.set(s.x, s.y + scale * 1.55, s.z).project(camera);
         s.tag.sx = (projected.x * 0.5 + 0.5) * width;
         s.tag.sy = (-projected.y * 0.5 + 0.5) * height;
-        s.tag.onScreen = true;
+        s.tag.onScreen = detail < 0.5;
       }
     }
     for (const s of spots) if (s.tag && !s.root.visible) s.tag.onScreen = false;
@@ -409,6 +464,7 @@ export function createWorld({ canvas, labelLayer, onRegion, onPlace }) {
     route.update(elapsed, camDist);
     updateHover();
     updateOutlines(dt);
+    updateScenes(dt, elapsed);
     updateSpots(dt, camDist, elapsed);
     renderer.render(scene, camera);
     requestAnimationFrame(frame);
@@ -422,6 +478,9 @@ export function createWorld({ canvas, labelLayer, onRegion, onPlace }) {
     setViewPadding,
     focusPlace(id) {
       const p = PLACE_BY_ID[id];
+      const detailed = sceneOf(id);
+      // Avec une scène détaillée, on cadre l'ensemble de ses éléments, d'un peu plus près.
+      if (detailed) return flyTo(p.lon + detailed.center.dx, p.lat - detailed.center.dz, Math.max(2.6, detailed.span * 2.6), { duration: 1.3 });
       flyTo(p.lon, p.lat, THREE.MathUtils.clamp(REGION_BY_ID[p.region].focus.dist * 0.55, 2.4, 4.6), { duration: 1.3 });
     },
     zoom(factor) {

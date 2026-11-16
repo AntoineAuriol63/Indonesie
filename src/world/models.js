@@ -1169,3 +1169,6 @@ export function createModel(kind) {
   update(0);
   return { object, update };
 }
+
+// Briques réutilisées par les scènes détaillées (src/world/scenes.js).
+export { Builder, flag, person, puff, rise };

@@ -27,6 +27,16 @@ const worldOptions = {
   labelLayer: $('labels'),
   onRegion: (id) => ui.started && openRegion(id),
   onPlace: (id) => ui.started && openPlace(id),
+  // Clic sur un élément de la scène détaillée : on montre l'activité correspondante dans la fiche.
+  onDetail: (id, match) => {
+    if (ui.place !== id) return;
+    const todo = [...document.querySelectorAll('#panel .todo')].find((el) => el.querySelector('.todo__name').textContent.startsWith(match));
+    if (!todo) return;
+    todo.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    todo.classList.remove('is-flash');
+    void todo.offsetWidth;
+    todo.classList.add('is-flash');
+  },
 };
 let world;
 try {
