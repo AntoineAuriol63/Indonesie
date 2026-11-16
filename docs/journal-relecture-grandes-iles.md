@@ -31,3 +31,28 @@ Relecture de novembre 2026. Chaque affirmation a été vérifiée sur une source
 | Un seul distributeur, peu fiable | backindo (août 2025) | ajoutée |
 
 Photos : les six photos existantes ont été regardées, toutes justes. La mosquée Al-Mashun est retirée pour faire place à la descente en bouées (Flickr, Andrew H, CC BY 2.0, géolocalisée à Sumatra-Nord, trouvée sous « Bukit Lawang tubing »). Grotte aux chauves-souris : seule photo libre trouvée, un portrait sombre de l'entrée sur Commons, non retenue.
+
+## Lac Toba
+
+| Affirmation | Source (URL) | Verdict |
+|---|---|---|
+| Lac : 100 km de long, « 35 » de large, 905 m d'altitude | https://en.wikipedia.org/wiki/Lake_Toba | corrigée -> 30 km de large ; le reste confirmé |
+| Samosir « grande île » | https://en.wikipedia.org/wiki/Samosir ; https://en.wikivoyage.org/wiki/Lake_Toba | précisée : ancienne presqu'île, isthme coupé par le canal de Tano Ponggol en 1906, pont à Pangururan |
+| On loge à Tuk Tuk, guesthouses au bord de l'eau | Wikipedia Samosir ; https://museumofwander.com/samosir-island-lake-toba/ (mis à jour juillet 2026) | confirmée |
+| « Chaque guesthouse a son ponton, on plonge » | museumofwander (rivage rocheux, ne pas plonger) ; Wikivoyage (eau polluée par endroits par les élevages de poissons) | corrigée |
+| « Tour de Tuk Tuk à pied en une petite heure » | aucune | retirée |
+| Route du nord : Ambarita, Simanindo, Pangururan et sources chaudes | https://www.gunungbagging.com/samosir/ (tour de l'île d'environ 100 km, vallonné) ; museumofwander | confirmée ; longueur de la boucle ajoutée ; « rizières, églises » retiré |
+| Tomok : sarcophages, stands de souvenirs, Sigale-gale | https://www.lonelyplanet.com/indonesia/attractions/king-sidabutar-grave/a/poi-sig/485246/356546 (5 km au sud-est de Tuk Tuk) ; https://trevallog.com/exploring-samosir-island (ulos, spectacle payé par un groupe) | confirmée ; distance, ulos et spectacle à la demande ajoutés |
+| Ambarita : Huta Siallagan, mur de pierre, chaises, lieu d'exécution | https://www.indonesia.travel/gb-en/travel-ideas/heritage/huta-siallagan-ancient-batak-village-on-samosir-island/ | confirmée |
+| Simanindo : musée Huta Bolon, danses « en fin de matinée » | https://en.wikipedia.org/wiki/Museum_Huta_Bolon_Simanindo (spectacle quotidien, public invité à danser) ; https://www.merahputih.com/post/amp/museum-huta-bolon-simanindo-merasakan-kekuatan-masa-lalu (10 h 30) | précisée -> tous les jours à 10 h 30 |
+| Sipiso-piso : 120 m, près de Tongging, centaines de marches | https://en.wikipedia.org/wiki/Sipisopiso | confirmée ; 651 marches, rivière souterraine |
+| Arsik, andaliman, porc, vin de palme, musique le soir | Wikivoyage ; museumofwander | confirmée |
+| Medan-Parapat : 4 à 5 h | museumofwander (4 à 5 h en voiture partagée) ; Wikivoyage (3 à 4 h par l'autoroute) | confirmée |
+| Ferry Parapat-Tuk Tuk : 30 à 45 min, dépose devant les guesthouses | Wikivoyage ; museumofwander ; https://www.bucketlistly.blog/posts/how-to-get-from-medan-to-lake-toba | confirmée ; horaires ajoutés (un par heure, 8 h 30 à 18 h environ) |
+| Aéroport de Silangit, vols depuis Jakarta, 1 h 30 à 2 h de Parapat | Wikivoyage ; https://www.indonesia.travel/id-id/travel-ideas/adventure/travel-by-taxi-to-lake-toba-from-silangit-airport/ | ajoutée |
+| Depuis Bukit Lawang « en général par Berastagi » | https://www.bukitlawang.com/Transport (7 h par Medan, minibus touristique) | corrigée -> la journée en minibus |
+| Pas de ferry le soir | Wikivoyage (jusqu'à 18 h) | confirmée, heure ajoutée |
+| Soirées fraîches | https://weather-and-climate.com/tuk-tuk-id-August-averages (27 °C le jour, 19 °C la nuit en août) | confirmée, chiffrée |
+| Sécurité des bateaux | Wikivoyage (accidents de juin 2018) | ajoutée |
+
+Photos : les six regardées, toutes justes. « Le lac vu depuis Tuk Tuk » (grise, peu lisible) remplacée par les sarcophages de Tomok (Commons, Really Rin). Légende de la photo des danseurs précisée (musée Huta Bolon, d'après la catégorie Commons).
