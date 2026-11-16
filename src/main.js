@@ -20,6 +20,7 @@ const days = (min, max) => (min === max ? `${min} jour${min > 1 ? 's' : ''}` : `
 // Où l'on se trouve : vue d'ensemble, dans une région, sur une étape, ou dans l'exemple d'itinéraire.
 const ui = { region: null, place: null, itinerary: false, started: false };
 const itineraryIds = ITINERARY.stops.map((s) => s.place);
+let itineraryScroll = 0;
 
 const worldOptions = {
   canvas: $('scene'),
@@ -157,7 +158,7 @@ function itineraryCard() {
         </button>`;
     })
     .join('');
-  // Un clic sur un jour amène la carte sur l'étape concernée, sans quitter le programme.
+  // Un clic sur un jour ouvre la fiche de l'étape concernée ; le bouton retour ramène au programme.
   const dayRows = ITINERARY.days
     .map((d) => {
       const tag = d.place ? 'button' : 'div';
@@ -239,6 +240,8 @@ function openRegion(id) {
 }
 
 function openPlace(id) {
+  // On retient où l'on en était dans le programme pour y revenir au même endroit.
+  if (ui.itinerary && !ui.place) itineraryScroll = document.querySelector('#panel .card__scroll')?.scrollTop || 0;
   ui.place = id;
   if (!ui.itinerary) ui.region = PLACE_BY_ID[id].region;
   render();
@@ -249,7 +252,10 @@ function back() {
   if (ui.place) {
     ui.place = null;
     render();
-    if (ui.itinerary) return flyToItinerary();
+    if (ui.itinerary) {
+      document.querySelector('#panel .card__scroll').scrollTop = itineraryScroll;
+      return flyToItinerary();
+    }
     const f = REGION_BY_ID[ui.region].focus;
     return world.flyTo(f.lon, f.lat, f.dist);
   }
@@ -289,7 +295,7 @@ const handlers = {
   },
   back,
   place: (el) => openPlace(el.dataset.id),
-  day: (el) => world.focusPlace(el.dataset.id),
+  day: (el) => openPlace(el.dataset.id),
   itinerary: toggleItinerary,
   zoom: (el) => world.zoom(+el.dataset.factor),
   help: () => $('help').classList.toggle('is-open'),
