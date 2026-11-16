@@ -132,7 +132,7 @@
   },
   "tetebatu": {
    "intro": [
-    "Tetebatu est un village de rizières sur les pentes sud du Rinjani. Il est en altitude, donc il y fait plus frais que sur la côte. On loge dans de petites homestays au milieu des champs et on passe ses journées à pied avec un guide du village : digues entre les rizières, champs de tabac, forêt des singes noirs, cascades.",
+    "Tetebatu est un village de rizières sur les pentes sud du Rinjani, vers 700 m d'altitude : il y fait plus frais que sur la côte. On loge dans de petites homestays au milieu des champs et on passe ses journées à pied avec un guide du village : digues entre les rizières, champs de tabac, forêt des singes noirs, cascades.",
     "Ça change des plages : tout est vert et il y a de l'eau partout. Deux nuits suffisent, et pas besoin de grimper au sommet du volcan pour en profiter."
    ],
    "todo": [
@@ -146,50 +146,52 @@
     {
      "name": "Cascade de Sarang Walet",
      "type": "Nature",
-     "text": "Une petite cascade cachée au fond d'une gorge étroite, à la sortie du village. On y arrive en marchant dans le lit de la rivière, de l'eau jusqu'aux genoux, puis on se met dessous. Prévoir un maillot et des sandales qui tiennent au pied.",
+     "text": "Une petite cascade au fond d'une gorge étroite. On y arrive par les rizières, puis en marchant dans la rivière, de l'eau jusqu'aux genoux, et on se baigne au pied de la chute. Prévoir un maillot et des sandales qui tiennent au pied.",
      "time": "2 h",
      "price": null
     },
     {
      "name": "Forêt des singes noirs",
      "type": "Faune",
-     "text": "Au-dessus du village, en lisière du parc du Rinjani, vit une colonie de lutungs, des singes noirs à très longue queue, plus farouches que les macaques. On a plus de chances de les voir tôt le matin ou en fin d'après-midi, haut dans les arbres.",
+     "text": "À environ 4 km au nord du village, en lisière du parc du Rinjani, vivent des macaques gris et des lutungs, des singes noirs à longue queue. Les lutungs restent haut dans les arbres et ne s'approchent pas : ici, personne ne les nourrit.",
      "time": "1 à 2 h",
      "price": null
     },
     {
      "name": "Cascade de Jeruk Manis",
      "type": "Nature",
-     "text": "Plus haute que Sarang Walet, à l'intérieur du parc national du Rinjani. On laisse la voiture ou le scooter à l'entrée du parc et on finit à pied par un sentier en forêt, souvent en croisant des singes. L'eau est froide.",
+     "text": "Une chute d'une trentaine de mètres, à l'intérieur du parc national du Rinjani. On laisse la voiture ou le scooter à l'entrée du parc et on finit à pied par un sentier en forêt, une demi-heure environ. On paie un droit d'entrée et un guide est souvent imposé. L'eau est froide.",
      "time": "demi-journée",
      "price": null
     },
     {
      "name": "Villages d'artisans de Pringgasela et Loyok",
      "type": "Culture",
-     "text": "À quelques kilomètres de Tetebatu. Pringgasela est le village des tisserandes : elles travaillent devant leur maison sur un métier tendu par une sangle dans le dos, avec des fils teints aux plantes. À Loyok, on tresse le bambou en paniers et en boîtes.",
+     "text": "À quelques kilomètres de Tetebatu. Pringgasela est le village des tisserandes : elles tissent à la main des étoffes aux motifs du village, certaines encore teintes aux plantes, indigo, curcuma ou racine de noni. À Loyok, sur la route de Tetebatu, on tresse le bambou en paniers et en sacs.",
      "time": "2 h",
      "price": null
     },
     {
      "name": "Cours de cuisine sasak",
      "type": "Cuisine",
-     "text": "Plusieurs homestays proposent de cuisiner avec la famille : on cueille les légumes au jardin, on pile le sambal au mortier de pierre, on cuit au feu de bois et on mange ce qu'on a préparé.",
+     "text": "Plusieurs homestays proposent un cours de cuisine sasak : on prépare le repas avec la famille et on mange ce qu'on a cuisiné. Demander en réservant la chambre.",
      "time": "2 à 3 h",
      "price": null
     },
     {
      "name": "Cascades de Benang Stokel et Benang Kelambu",
      "type": "Nature",
-     "text": "Une excursion vers l'ouest, près du village d'Aik Berik. D'abord Benang Stokel, deux chutes jumelles près du parking, puis Benang Kelambu, plus haut en forêt, où l'eau sort de la végétation en rideau. On monte de l'une à l'autre à pied ou à moto.",
+     "text": "À 45 minutes vers l'ouest, au village d'Aik Berik. D'abord Benang Stokel, deux hautes chutes côte à côte, à un quart d'heure de marche de l'entrée. Puis Benang Kelambu, un quart d'heure plus loin, où l'eau sort de la végétation en rideau. Le guide proposé à l'entrée n'est pas obligatoire.",
      "time": "demi-journée",
      "price": null
     }
    ],
-   "access": "Tetebatu est à environ 1 h 30 de route de l'aéroport de Lombok, un peu plus depuis Kuta, en voiture avec chauffeur. Aucun transport public pratique ne monte jusqu'au village.",
+   "access": "Tetebatu est à environ 1 h 30 de route de l'aéroport de Lombok, 1 h 45 à 2 h de Kuta et un peu plus de 2 h du port de Bangsal, en voiture avec chauffeur. Les transports publics sont lents et s'arrêtent avant le village.",
    "tips": [
-    "On prend un guide du village pour les marches : les sentiers ne sont pas balisés et c'est lui qui règle la longueur du parcours, de deux heures à la journée.",
-    "En août, tout n'est pas vert : en saison sèche une partie des parcelles passe au tabac ou aux légumes."
+    "On prend un guide du village pour les marches : c'est lui qui trouve le chemin entre les parcelles et règle la longueur du parcours, de quelques heures à la journée.",
+    "En août, tout n'est pas vert : en saison sèche une partie des parcelles passe au tabac.",
+    "Un seul distributeur de billets au village et pas de bureau de change : arriver avec des roupies.",
+    "Les soirées sont fraîches en saison sèche : prévoir un pull."
    ],
    "photos": [
     {
@@ -200,6 +202,11 @@
      "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
     },
     {
+     "url": "https://live.staticflickr.com/1583/24629842369_d0a8c8f216_k.jpg",
+     "caption": "Travail dans une rizière de Tetebatu",
+     "source": "Flickr, Franklin Heijnen, CC BY-SA 2.0"
+    },
+    {
      "file": "Rinjani mountains the rain.jpg",
      "caption": "Route de Tetebatu au pied du Rinjani",
      "author": "HannoSEA",
@@ -207,11 +214,14 @@
      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
     },
     {
-     "file": "Memanfaatkan Tenaga Hewan Ternak.jpg",
-     "caption": "Labour d'une rizière à Lombok",
-     "author": "Focusfeel",
-     "license": "CC BY-SA 4.0",
-     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+     "url": "https://live.staticflickr.com/1497/24904035981_e6029ab308_k.jpg",
+     "caption": "Parcelles en terrasses sous les arbres",
+     "source": "Flickr, Franklin Heijnen, CC BY-SA 2.0"
+    },
+    {
+     "url": "https://live.staticflickr.com/1500/24879406972_19b5267fd2_k.jpg",
+     "caption": "Marche dans une gorge à Tetebatu",
+     "source": "Flickr, Franklin Heijnen, CC BY-SA 2.0"
     },
     {
      "file": "Lombok - Benang Stokel Waterfall 1.jpg",
@@ -219,13 +229,6 @@
      "author": "P. Hughes",
      "license": "CC BY 4.0",
      "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
-    },
-    {
-     "file": "LombokPaddyField.JPG",
-     "caption": "Rizière près de Masbagik",
-     "author": "Torbenbrinker",
-     "license": "CC BY-SA 3.0",
-     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
     }
    ]
   },
