@@ -117,7 +117,16 @@ Tenir un journal des vérifications (affirmation, source, verdict) hors du dép�
 
 ### Sumatra, Kalimantan, Sulawesi (`grandes-iles.json`)
 
-Textes écrits, galeries de photos pas encore faites au moment où ces consignes sont rédigées. Tout est à vérifier.
+- Tanjung Puting : horaires de nourrissage (Tanjung Harapan vers 15 h, Pondok Tanggui à 9 h, Camp Leakey en début d'après-midi).
+- Derawan : fermetures du lac de Kakaban, requins-baleines de Talisayan (départ de nuit), Derawan-Maratua (1 h).
+- Durées de trajet : Medan-Bukit Lawang (3 à 4 h), Medan-Parapat (4 à 5 h) puis ferry, Padang-Bukittinggi (2 à 3 h), Berau-Tanjung Batu (2 à 3 h), Makassar-Rantepao (8 à 9 h), Manado-Bunaken (45 min), Bunaken-Siladen, Manado-Batuputih (1 h 30 à 2 h).
+- Vols : Jakarta-Pangkalan Bun, Makassar-aéroport de Toraja, Makassar-Manado en direct.
+- Lac Toba : danses de Simanindo « en fin de matinée », pas de ferry pour Tuk Tuk le soir, Sipiso-piso (120 m). Samosir est écrite « île » alors que c'est une presqu'île reliée par un isthme.
+- Medan : visite du palais Maimun, restaurant Tip Top.
+- Bukittinggi : hauteur des falaises du canyon de Sianok, nasi kapau de Los Lambuang.
+- Pays Toraja : marché de Bolu tous les six jours, menhirs de Bori Kalimbuang, distance de Ke'te Kesu.
+- Tangkoko : heures de sortie des tarsiers et des macaques, guide obligatoire.
+- Photos manquantes : lac aux méduses de Kakaban, raies manta de Sangalaki, Tomok, rizières de Batutumonga, tubing et grotte aux chauves-souris de Bukit Lawang.
 
 ### Sanur (`sanur.json`)
 
