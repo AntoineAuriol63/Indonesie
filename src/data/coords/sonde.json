@@ -83,6 +83,10 @@
     "Coucher de soleil à Labuan Bajo": [
       -8.4921,
       119.8751
+    ],
+    "Dragons de Komodo ou de Rinca": [
+      -8.5683,
+      119.5069
     ]
   },
   "ruteng-et-manggarai": {
@@ -121,6 +125,32 @@
     "Requins-baleines de la baie de Saleh": [
       -8.5104,
       117.8957
+    ],
+    "Cascade de Mata Jitu": [
+      -8.2118,
+      117.5199
+    ],
+    "Palais Dalam Loka": [
+      -8.5043,
+      117.4273
+    ]
+  },
+  "sud-ouest-waikabubak": {
+    "Village de Ratenggaro": [
+      -9.6274,
+      119.0042
+    ],
+    "Lagon de Weekuri": [
+      -9.4911,
+      118.9598
+    ],
+    "Villages de Tarung et Waitabar": [
+      -9.6323,
+      119.4075
+    ],
+    "Marché de Waikabubak": [
+      -9.6355,
+      119.4075
     ]
   }
 }
