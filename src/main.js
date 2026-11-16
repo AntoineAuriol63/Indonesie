@@ -181,18 +181,19 @@ function itineraryCard() {
       <p class="card__themes">${esc(ITINERARY.facts)}</p>
     </header>
     <div class="card__scroll">
-      <p class="card__text">${esc(ITINERARY.summary)}</p>
+      ${ITINERARY.summary.map((para) => `<p class="card__text">${esc(para)}</p>`).join('')}
       <h3>Les étapes</h3>
       <div class="stops">${stops}</div>
       <h3>Jour par jour</h3>
       <div class="days">${dayRows}</div>
-      <h3>Budget par personne</h3>
-      <p class="card__text">${esc(b.basis)}</p>
+      <h3>Transports à réserver</h3>
+      <div class="transports">${ITINERARY.transports.map((t) => `<p>${esc(t)}</p>`).join('')}</div>
+      <h3>Budget</h3>
       <div class="budget">
-        ${b.lines.map((l) => `<div class="budget__line"><span>${esc(l.label)}${l.note ? `<small>${esc(l.note)}</small>` : ''}</span><b>${l.amount} €</b></div>`).join('')}
-        <div class="budget__line budget__line--total"><span>Total hors vol international</span><b>${b.total.toLocaleString('fr-FR')} €</b></div>
+        ${b.lines.map((l) => `<div class="budget__line"><span>${esc(l.label)}</span><b>${esc(l.amount)}</b></div>`).join('')}
+        <div class="budget__line budget__line--total"><span>${esc(b.totalLabel)}</span><b>${esc(b.total)}</b></div>
       </div>
-      <p class="card__text">${esc(b.flight)}</p>
+      <p class="card__text">${esc(b.note)}</p>
     </div>`;
 }
 
