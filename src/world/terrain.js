@@ -358,5 +358,5 @@ export function buildTerrain() {
     return hit ? hit.point.y : 0;
   };
 
-  return { group, landMesh, groundAt, peaks };
+  return { group, landMesh, skirtMesh, groundAt, peaks };
 }

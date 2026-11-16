@@ -7,6 +7,7 @@ import '@fontsource/nunito/latin-800.css';
 import './style.css';
 
 import { createWorld } from './world/index.js';
+import { createFlatWorld } from './world/flat.js';
 import { DESTINATIONS, DEST_BY_ID, STAT_LABELS, WORLDS, WORLD_BY_ID } from './data/destinations.js';
 import { PRESETS } from './data/presets.js';
 import { formatHours, getLeg } from './data/legs.js';
@@ -30,20 +31,24 @@ const BUDGETS = ['', 'Petit budget', 'Budget moyen', 'Budget élevé'];
 const ui = { selected: null, filter: 'all', tour: null, started: false };
 let tourTimer = null;
 
+const worldOptions = {
+  canvas: $('scene'),
+  labelLayer: $('labels'),
+  onSelect: (id) => {
+    if (!ui.started) return;
+    if (ui.tour) stopTour();
+    select(id);
+  },
+};
 let world;
 try {
-  world = createWorld({
-    canvas: $('scene'),
-    labelLayer: $('labels'),
-    onSelect: (id) => {
-      if (!ui.started) return;
-      if (ui.tour) stopTour();
-      select(id);
-    },
-  });
+  world = createWorld(worldOptions);
 } catch (error) {
-  window.showBootError('affichage 3D (WebGL) indisponible');
-  throw error;
+  // Pas de WebGL sur cet appareil : la carte en relief calculée par le site prend le relais, tout le reste fonctionne à l'identique.
+  console.warn('WebGL indisponible, passage au rendu logiciel :', error);
+  $('labels').replaceChildren();
+  world = createFlatWorld(worldOptions);
+  document.body.classList.add('is-flat');
 }
 
 const syncWorld = () => world.setState({ selected: ui.selected, stops: state.stops, votes: state.votes });
@@ -431,6 +436,8 @@ const handlers = {
   },
   phase: (el) => toast(...PHASE_INFO[el.dataset.phase]),
   zoom: (el) => world.zoom(+el.dataset.factor),
+  'why-2d': () =>
+    toast('Ce navigateur n’a pas d’accélération graphique (WebGL) : la carte est dessinée en mode compatibilité, sans rotation de la caméra. Pour le rendu complet, activez l’accélération graphique dans les réglages du navigateur.', 'ℹ️'),
   'toggle-list': () => document.body.classList.toggle('list-open'),
   filter: (el) => {
     if (el.dataset.id === 'season' && state.month === null) {

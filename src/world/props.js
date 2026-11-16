@@ -124,7 +124,7 @@ function makeBoat(sailColor) {
 }
 
 // Quelques voiliers qui tournent en rond là où il y a de la mer : [lon, lat, rayon]
-const BOAT_SPOTS = [
+export const BOAT_SPOTS = [
   [115.75, -8.62, 0.14],
   [116.0, -8.2, 0.12],
   [119.5, -8.42, 0.14],

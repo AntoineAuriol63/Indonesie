@@ -418,6 +418,24 @@ h3 {
   display: none;
   margin-left: auto;
 }
+.flat-chip {
+  display: none;
+  padding: 5px 12px;
+  border: 2.5px solid var(--ink);
+  border-radius: 999px;
+  background: var(--paper);
+  box-shadow: 0 3px 0 var(--ink);
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 13px;
+  white-space: nowrap;
+}
+.is-flat .flat-chip {
+  display: block;
+}
+.is-touring .flat-chip {
+  display: none;
+}
 
 /* ------------------------------------------------------------ Liste */
 .list {
@@ -1595,7 +1613,8 @@ body:not(.started) .dock {
   :root {
     --dock-h: 124px;
   }
-  .phases {
+  .phases,
+  .is-flat .flat-chip {
     display: none;
   }
   .topbar__menu {

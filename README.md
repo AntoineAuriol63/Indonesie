@@ -29,6 +29,7 @@ Le workflow `.github/workflows/deploy.yml` publie le site sur GitHub Pages à ch
 | Itinéraires suggérés | `src/data/presets.js` |
 | Temps de trajet entre étapes | `src/data/legs.js` |
 | Carte 3D (relief, mer, décor, caméra) | `src/world/` |
+| Carte en mode compatibilité (appareils sans WebGL) | `src/world/flat.js` |
 | Interface (fiches, itinéraire, votes) | `src/main.js`, `src/ui/`, `src/style.css` |
 
 L'itinéraire et les votes sont enregistrés dans le navigateur ; le bouton **Partager** génère un lien qui les contient.

@@ -1,7 +1,8 @@
 // Scène 3D : carte low-poly, caméra, marqueurs cliquables et étiquettes HTML.
 import * as THREE from 'three';
 import { MapControls } from 'three/addons/controls/MapControls.js';
-import { DESTINATIONS, WORLD_BY_ID } from '../data/destinations.js';
+import { WORLD_BY_ID } from '../data/destinations.js';
+import { createLabels } from './labels.js';
 import { buildTerrain, toWorld } from './terrain.js';
 import { createBoats, createClouds, createSmoke, createWater } from './props.js';
 import { createRoute } from './route.js';
@@ -11,7 +12,13 @@ const DEFAULT_POLAR = THREE.MathUtils.degToRad(40);
 const easeInOut = (t) => (t < 0.5 ? 4 * t * t * t : 1 - (-2 * t + 2) ** 3 / 2);
 
 export function createWorld({ canvas, labelLayer, onSelect }) {
-  const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, powerPreference: 'high-performance' });
+  let renderer;
+  try {
+    renderer = new THREE.WebGLRenderer({ canvas, antialias: true, powerPreference: 'high-performance' });
+  } catch {
+    // Deuxième essai avec des réglages minimaux ; si la 3D reste indisponible, l'erreur remonte et la carte 2D prend le relais.
+    renderer = new THREE.WebGLRenderer({ canvas, antialias: false });
+  }
   renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
 
   const scene = new THREE.Scene();
@@ -106,7 +113,9 @@ export function createWorld({ canvas, labelLayer, onSelect }) {
   const hitMaterial = new THREE.MeshBasicMaterial({ visible: false });
   const hitMeshes = [];
 
-  const markers = DESTINATIONS.map((dest, index) => {
+  const labels = createLabels(labelLayer, onSelect);
+  const markers = labels.items.map((tag) => {
+    const { dest } = tag;
     const [x, z] = toWorld(dest.lon, dest.lat);
     const y = Math.max(0.01, terrain.groundAt(x, z));
     const color = new THREE.Color(WORLD_BY_ID[dest.world].color);
@@ -129,49 +138,14 @@ export function createWorld({ canvas, labelLayer, onSelect }) {
     hitMeshes.push(hit);
     root.add(gem, ring, hit);
     markerGroup.add(root);
-
-    const label = document.createElement('button');
-    label.type = 'button';
-    label.className = 'map-label';
-    label.style.setProperty('--c', WORLD_BY_ID[dest.world].color);
-    label.innerHTML = `<span class="map-label__badge"></span><span class="map-label__icon">${dest.icon}</span><span class="map-label__name">${dest.name}</span><span class="map-label__hearts"></span>`;
-    label.addEventListener('click', () => onSelect(dest.id));
-    labelLayer.appendChild(label);
-
-    return {
-      dest,
-      root,
-      gem,
-      ring,
-      label,
-      badge: label.querySelector('.map-label__badge'),
-      hearts: label.querySelector('.map-label__hearts'),
-      top: new THREE.Vector3(x, y, z),
-      phase: index * 0.9,
-      order: 0,
-      selected: false,
-      hovered: false,
-      width: 120,
-    };
+    return Object.assign(tag, { root, gem, ring, top: new THREE.Vector3(x, y, z) });
   });
-  const markerById = Object.fromEntries(markers.map((m) => [m.dest.id, m]));
+  const markerById = labels.byId;
 
-  let selectedId = null;
-  function setState({ selected, stops, votes }) {
-    selectedId = selected;
-    const order = Object.fromEntries(stops.map((s, i) => [s.id, i + 1]));
-    for (const m of markers) {
-      m.selected = m.dest.id === selected;
-      m.order = order[m.dest.id] || 0;
-      m.label.classList.toggle('is-selected', m.selected);
-      m.label.classList.toggle('is-stop', m.order > 0);
-      m.badge.textContent = m.order || '';
-      const v = votes[m.dest.id] || '';
-      m.hearts.innerHTML = (v.includes('a') ? '<i class="heart heart--a">♥</i>' : '') + (v.includes('b') ? '<i class="heart heart--b">♥</i>' : '');
-      m.ring.material.color.set(m.order ? 0xffd23f : 0xffffff);
-      m.width = 0;
-    }
-    route.setStops(stops.map((s) => markerById[s.id].root.position.clone().setY(markerById[s.id].root.position.y + 0.02)));
+  function setState(state) {
+    labels.setState(state);
+    for (const m of markers) m.ring.material.color.set(m.order ? 0xffd23f : 0xffffff);
+    route.setStops(state.stops.map((s) => markerById[s.id].root.position.clone().setY(markerById[s.id].root.position.y + 0.02)));
   }
 
   // ---------- Sélection à la souris / au doigt ----------
@@ -226,41 +200,16 @@ export function createWorld({ canvas, labelLayer, onSelect }) {
 
   // ---------- Étiquettes ----------
   const projected = new THREE.Vector3();
-  const placed = [];
   function updateLabels(camDist) {
-    placed.length = 0;
-    const sorted = markers
-      .map((m) => m)
-      .sort((a, b) => b.selected - a.selected || b.hovered - a.hovered || (b.order > 0) - (a.order > 0));
-    for (const m of sorted) {
+    for (const m of markers) {
       projected.copy(m.top);
       projected.y += m.root.scale.y * 2.6;
       projected.project(camera);
-      const visible = projected.z < 1 && Math.abs(projected.x) < 1.1 && Math.abs(projected.y) < 1.15;
-      if (!visible) {
-        m.label.style.display = 'none';
-        continue;
-      }
-      m.label.style.display = '';
-      if (!m.width) m.width = m.label.offsetWidth;
-      const sx = (projected.x * 0.5 + 0.5) * width;
-      const sy = (-projected.y * 0.5 + 0.5) * height;
-      const important = m.selected || m.hovered;
-      let compact = !important && camDist > 36 * fit() && !m.order;
-      const overlaps = (w) => placed.some((p) => Math.abs(p.x - sx) < (p.w + w) / 2 + 4 && Math.abs(p.y - sy) < 30);
-      let w = compact ? 34 : m.width;
-      if (!important && !compact && overlaps(w)) {
-        compact = true;
-        w = 34;
-      }
-      const hidden = !important && compact && overlaps(w);
-      m.label.classList.toggle('is-compact', compact);
-      m.label.classList.toggle('is-hidden', hidden);
-      m.label.classList.toggle('is-hovered', m.hovered);
-      m.label.style.translate = `calc(${sx.toFixed(1)}px - 50%) calc(${sy.toFixed(1)}px - 100%)`;
-      m.label.style.zIndex = important ? 3 : m.order ? 2 : 1;
-      if (!hidden) placed.push({ x: sx, y: sy, w });
+      m.onScreen = projected.z < 1 && Math.abs(projected.x) < 1.1 && Math.abs(projected.y) < 1.15;
+      m.sx = (projected.x * 0.5 + 0.5) * width;
+      m.sy = (-projected.y * 0.5 + 0.5) * height;
     }
+    labels.layout(camDist > 36 * fit());
   }
 
   // ---------- Boucle ----------
@@ -311,6 +260,7 @@ export function createWorld({ canvas, labelLayer, onSelect }) {
   requestAnimationFrame(frame);
 
   return {
+    mode: '3d',
     flyTo,
     setState,
     setViewPadding,
