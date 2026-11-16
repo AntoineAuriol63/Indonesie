@@ -37,5 +37,23 @@
     "Raies manta de Sangalaki": [2.0863, 118.3995],
     "Lagon et tombants de Maratua": [2.2375, 118.5728],
     "Requins-baleines de Talisayan": [1.6033, 118.1782]
+  },
+  "pays-toraja": {
+    "Village de Ke'te Kesu": [-2.9966, 119.9103],
+    "Tombes de Lemo": [-3.0414, 119.8776],
+    "Grottes de Londa": [-3.0149, 119.8759],
+    "Marché aux buffles de Bolu": [-2.9612, 119.9118],
+    "Rizières de Batutumonga": [-2.9113, 119.8858],
+    "Menhirs de Bori Kalimbuang": [-2.9203, 119.9203],
+    "Arbre aux bébés de Kambira": [-3.0825, 119.9176]
+  },
+  "manado-bunaken": {
+    "Snorkeling sur les tombants de Bunaken": [1.6143, 124.7755],
+    "Île de Siladen": [1.6319, 124.8022],
+    "Tomohon et le cratère du Mahawu": [1.3532, 124.8629],
+    "Lac Linow": [1.2708, 124.8265]
+  },
+  "tangkoko": {
+    "Plage de sable noir de Batuputih": [1.5749, 125.1610]
   }
 }

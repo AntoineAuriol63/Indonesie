@@ -166,7 +166,19 @@ function flashTodo(todo) {
 
 function placeMap(p) {
   const todo = p.content ? p.content.todo : [];
-  const points = todo.map((t, i) => ({ n: i + 1, name: t.name, at: p.todoCoords[i] })).filter((t) => t.at).map((t) => ({ ...t, lat: t.at[0], lon: t.at[1] }));
+  // Deux activités au même endroit partagent un seul repère, qui porte leurs deux numéros.
+  const byPosition = new Map();
+  todo.forEach((t, i) => {
+    const at = p.todoCoords[i];
+    if (!at) return;
+    const key = at.join(',');
+    const point = byPosition.get(key);
+    if (point) {
+      point.label += `·${i + 1}`;
+      point.name += `, ${t.name}`;
+    } else byPosition.set(key, { n: i + 1, label: String(i + 1), name: t.name, lat: at[0], lon: at[1] });
+  });
+  const points = [...byPosition.values()];
   showMinimap($('minimap'), {
     center: p.real,
     points,

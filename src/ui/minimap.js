@@ -11,7 +11,7 @@ async function load() {
   return leaflet;
 }
 
-// points : [{ n, name, lat, lon }] ; center : { lat, lon } de l'étape, utilisé quand aucun point n'est localisé.
+// points : [{ n, label, name, lat, lon }] ; center : { lat, lon } de l'étape, utilisé quand aucun point n'est localisé.
 export async function showMinimap(container, { center, points, color, onPick }) {
   const L = await load();
   if (!container.isConnected) return; // la fiche a été refermée entre-temps
@@ -22,7 +22,7 @@ export async function showMinimap(container, { center, points, color, onPick }) 
   L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 18, attribution: '© OpenStreetMap' }).addTo(map);
 
   const markers = points.map((p) => {
-    const icon = L.divIcon({ className: 'pin', html: `<span style="--c:${color}">${p.n}</span>`, iconSize: [26, 26], iconAnchor: [13, 13] });
+    const icon = L.divIcon({ className: 'pin', html: `<span style="--c:${color}">${p.label}</span>`, iconSize: [26, 26], iconAnchor: [13, 13] });
     const marker = L.marker([p.lat, p.lon], { icon, title: p.name }).addTo(map);
     marker.bindTooltip(p.name, { direction: 'top', offset: [0, -12] });
     marker.on('click', () => onPick?.(p.n));

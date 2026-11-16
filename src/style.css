@@ -613,10 +613,12 @@ body:not(.started) .topbar {
 .pin span {
   display: grid;
   place-items: center;
-  width: 26px;
+  min-width: 26px;
+  width: max-content;
+  padding: 0 5px;
   height: 26px;
   border: 2.5px solid var(--ink);
-  border-radius: 50%;
+  border-radius: 999px;
   background: color-mix(in srgb, var(--c) 45%, white);
   box-shadow: 0 2px 0 var(--ink);
   font-family: var(--font-display);
