@@ -80,3 +80,29 @@ Photos : les six regardées, toutes justes. « Le lac vu depuis Tuk Tuk » (gris
 | Épaules et genoux couverts | backindo | confirmée |
 
 Photos : les six regardées, toutes justes et bien légendées ; aucune changée. Candidates vues et non retenues faute de place : Janjang Koto Gadang, nasi kapau de Los Lambuang, métier à tisser de Pandai Sikek (Commons).
+
+## Tanjung Puting
+
+| Affirmation | Source (URL) | Verdict |
+|---|---|---|
+| Klotok à deux étages, on dort sur le pont sous moustiquaire, repas à bord | https://theworldtravelguy.com/?p=62922 (publié juin 2025) ; https://tanjungputingklotoktour.com/ ; https://www.takeyourbackpack.com/backpacking-in-indonesia/visit-tanjung-puting-national-park/ (octobre 2026) | confirmée |
+| « Plus grande population d'orangs-outans sauvages au monde » | aucune source fiable (un site d'agence avance plus de 6 000) | corrigée -> plusieurs milliers, sauvages ou relâchés |
+| Équipage : capitaine, cuisinier, guide | theworldtravelguy (capitaine, matelot, guide, cuisinier ; équipage en bas) | précisée |
+| « On embarque le matin », « palmiers nipa » | aucune | retirées ; durées de navigation ajoutées (2 h puis 1 h 30 à 2 h entre les stations, theworldtravelguy) |
+| Nourrissages : Tanjung Harapan vers 15 h, Pondok Tanggui 9 h, Camp Leakey début d'après-midi | https://www.lonelyplanet.com/indonesia/tanjung-puting-national-park/attractions/orang-utan-feedings/a/poi-sig/1085986/1002259 (15 h, 9 h, 14 h, horaires fixes) ; theworldtravelguy | confirmée ; Camp Leakey précisé à 14 h |
+| Marche d'un quart d'heure à une demi-heure par arrêt | takeyourbackpack (1 km à Tanjung Harapan, 1 à 2 km ailleurs) ; https://www.thejakartapost.com/news/2009/11/10/up-close-and-personal (2 km à Camp Leakey, 500 m de passerelle) | reformulée en distances |
+| Pondok Tanggui « moins de monde, marche plus longue » | aucune | retirée |
+| Camp Leakey fondé en 1971 par Biruté Galdikas, eau noire | https://orangutan.org/our-projects/research/ ; theworldtravelguy | confirmée |
+| « Plus de chances de voir un grand mâle » à Camp Leakey | theworldtravelguy (grand mâle vu à Pondok Tanggui, mères et petits à Camp Leakey) | retirée |
+| Nasiques vers 17 h au bord de l'eau | takeyourbackpack (à l'aube et au crépuscule, surtout près de Tanjung Harapan) | confirmée, précisée |
+| Lucioles, nuit sur le pont | takeyourbackpack ; theworldtravelguy (marche de nuit d'une heure le premier soir) | confirmée |
+| Vol jusqu'à Pangkalan Bun depuis Jakarta | https://en.wikipedia.org/wiki/Iskandar_Airport ; theworldtravelguy (directs quotidiens de Jakarta, Semarang, Surabaya) | confirmée, complétée |
+| « Une demi-heure de taxi » jusqu'à Kumai | theworldtravelguy (15 min) ; takeyourbackpack (15 à 30 min) | corrigée -> 15 à 30 min |
+| Prix : croisière privée 3 jours, à partir de 415 EUR par personne à deux | takeyourbackpack (octobre 2026) ; tanjungputingklotoktour (434 à 475 EUR) ; theworldtravelguy (12 à 20 millions IDR le bateau pour deux, 12 millions payés en décembre 2024) | ajoutée |
+| Haute saison en août, réserver à l'avance | theworldtravelguy (jusqu'à 100 bateaux en saison sèche) ; takeyourbackpack | confirmée ; « plusieurs mois » -> plusieurs semaines au moins |
+| Crocodiles, pas de baignade | theworldtravelguy | confirmée |
+| Droit d'entrée du parc | tanjungputingklotoktour (250 000 IDR par jour pour un étranger, source unique) | non chiffré dans la fiche, conseil ajouté |
+
+Photos : les six regardées, toutes prises dans le parc (descriptions Commons) et bien légendées ; aucune changée.
+
+Correction de la fiche Bukittinggi dans le même commit : Pandai Sikek, « boutique-atelier » (sans source) remplacé par les sculpteurs sur bois (Wikivoyage).

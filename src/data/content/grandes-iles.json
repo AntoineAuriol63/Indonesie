@@ -318,7 +318,7 @@
         {
           "name": "Tissages de Pandai Sikek",
           "type": "Culture",
-          "text": "Un village à une quinzaine de kilomètres au sud de Bukittinggi où l'on tisse le songket à la main, avec des fils dorés. Quatre maisons sur cinq ont un métier à tisser, et ce sont surtout les femmes qui travaillent. On s'arrête dans une boutique-atelier pour les regarder faire.",
+          "text": "Un village à une quinzaine de kilomètres au sud de Bukittinggi où l'on tisse le songket à la main, avec des fils dorés. Quatre maisons sur cinq ont un métier à tisser, et ce sont surtout les femmes qui travaillent. Le village est aussi connu pour ses sculpteurs sur bois.",
           "time": "1 h",
           "price": null
         },
@@ -385,57 +385,63 @@
     "tanjung-puting": {
       "intro": [
         "Trois jours sur un klotok, un bateau en bois à deux étages, à remonter la rivière Sekonyer dans la forêt de Bornéo. On dort sur le pont sous une moustiquaire, le cuisinier prépare les repas à bord et on s'arrête trois fois pour marcher jusqu'aux plateformes où les orangs-outans viennent manger.",
-        "Le parc abrite la plus grande population d'orangs-outans sauvages au monde. Depuis le bateau, on voit aussi des singes nasiques, des calaos, parfois un crocodile. Ce n'est pas un trek : on marche entre un quart d'heure et une demi-heure à chaque arrêt."
+        "Le parc abrite plusieurs milliers d'orangs-outans, sauvages ou relâchés après réhabilitation. Depuis le bateau, on voit aussi des singes nasiques, des macaques, parfois un crocodile. Ce n'est pas un trek : à chaque arrêt, on marche un ou deux kilomètres à plat, en partie sur des passerelles en bois."
       ],
       "todo": [
         {
           "name": "Croisière en klotok sur la Sekonyer",
           "type": "Nature",
-          "text": "On embarque à Kumai le matin, avec un capitaine, un cuisinier et un guide. Le bateau avance doucement entre les palmiers nipa, puis dans la forêt. On passe la journée sur le pont du haut, sur des matelas, à guetter les singes dans les arbres.",
+          "text": "On embarque à Kumai avec un capitaine, un matelot, un cuisinier et un guide. L'équipage vit en bas, on passe la journée sur le pont du haut à guetter les singes dans les arbres. Le bateau avance doucement : deux heures jusqu'à la première station, puis une heure et demie à deux heures entre les suivantes.",
           "time": "3 jours, 2 nuits",
-          "price": null
+          "price": {
+            "amount": 415,
+            "currency": "EUR",
+            "what": "croisière privée de 3 jours et 2 nuits pour deux, par personne, avec bateau, équipage, guide et repas : premier prix relevé en ligne en octobre 2026 (en direct, 12 à 20 millions de roupies pour le bateau)"
+          }
         },
         {
           "name": "Orangs-outans de Tanjung Harapan",
           "type": "Faune",
-          "text": "Premier arrêt, l'après-midi du premier jour. On marche jusqu'à la plateforme où les rangers déposent des bananes vers 15 h. Les orangs-outans arrivent par les arbres, les mères avec leur petit accroché au ventre.",
+          "text": "Premier arrêt, l'après-midi du premier jour. On marche un kilomètre jusqu'à la plateforme où les rangers déposent des bananes à 15 h, et on regarde de derrière une barrière. Les orangs-outans arrivent par les arbres, les mères avec leur petit accroché au ventre.",
           "time": "2 h",
           "price": null
         },
         {
           "name": "Pondok Tanggui",
           "type": "Faune",
-          "text": "Deuxième station, le matin du deuxième jour, avec un nourrissage vers 9 h. Il y a moins de monde qu'à Camp Leakey et la marche à travers la forêt est un peu plus longue.",
+          "text": "Deuxième station, le matin du deuxième jour : le bateau repart vers 7 h pour le nourrissage de 9 h. Un à deux kilomètres de marche dans la forêt. Arriver un peu avant l'heure aide à trouver une bonne place.",
           "time": "2 h",
           "price": null
         },
         {
           "name": "Camp Leakey",
           "type": "Faune",
-          "text": "Le camp de recherche fondé en 1971 par la primatologue Biruté Galdikas, au bout d'un affluent à l'eau noire comme du thé. Nourrissage en début d'après-midi. C'est là qu'on a le plus de chances de voir un grand mâle aux joues larges.",
+          "text": "Le camp de recherche fondé en 1971 par la primatologue Biruté Galdikas, au bout d'un affluent à l'eau noire où la forêt se reflète comme dans un miroir. Nourrissage à 14 h, à deux kilomètres du ponton, dont 500 m sur une passerelle. On y croise aussi des macaques et des varans.",
           "time": "demi-journée",
           "price": null
         },
         {
           "name": "Singes nasiques au coucher du soleil",
           "type": "Faune",
-          "text": "Vers 17 h, des groupes de nasiques s'installent pour la nuit dans les arbres du bord de l'eau. Le bateau coupe le moteur juste dessous : on les regarde sauter de branche en branche, les mâles avec leur gros nez qui pend.",
+          "text": "À l'aube et en fin d'après-midi, des groupes de nasiques s'installent dans les arbres du bord de l'eau, surtout près de Tanjung Harapan. Depuis le pont, on les regarde sauter de branche en branche, les mâles avec leur gros nez qui pend.",
           "time": "1 h",
           "price": null
         },
         {
           "name": "Lucioles et nuit sur le pont",
           "type": "Nature",
-          "text": "Le klotok s'amarre aux palmiers pour la nuit. On dîne sur le pont, puis les lucioles s'allument par centaines dans les arbres. On dort dehors sur un matelas, sous une moustiquaire, avec les bruits de la forêt.",
+          "text": "Le klotok s'amarre au bord de la rivière pour la nuit. Après le dîner, les lucioles s'allument dans les palmiers. On dort dehors sur un matelas, sous une moustiquaire, avec les bruits de la forêt. Le premier soir, le guide propose souvent une heure de marche de nuit.",
           "time": "",
           "price": null
         }
       ],
-      "access": "Vol jusqu'à Pangkalan Bun (il y en a depuis Jakarta), puis une demi-heure de taxi jusqu'au port de Kumai, où le klotok attend.",
+      "access": "Vol jusqu'à Pangkalan Bun, avec des directs tous les jours depuis Jakarta, Semarang et Surabaya, puis 15 à 30 minutes de voiture jusqu'au port de Kumai, où le klotok attend. L'organisateur vient en général chercher ses clients à l'aéroport.",
       "tips": [
         "Avant de réserver, demander des photos du couchage, des toilettes et de la douche, et se faire confirmer que le bateau est pour nous deux seulement.",
-        "Août est la haute saison : réserver le klotok plusieurs mois avant et s'attendre à d'autres bateaux à chaque plateforme.",
-        "On ne se baigne pas dans la rivière, il y a des crocodiles."
+        "Août est la haute saison : jusqu'à une centaine de bateaux dans le parc, donc du monde à chaque plateforme. Réserver le klotok plusieurs semaines avant, au moins.",
+        "On ne se baigne pas dans la rivière : des crocodiles y ont déjà tué des gens.",
+        "L'électricité vient d'un groupe électrogène, allumé le soir seulement : prendre une batterie externe.",
+        "Demander si le droit d'entrée du parc est compris dans le prix."
       ],
       "photos": [
         {
