@@ -96,7 +96,9 @@ const EXTRA_PLACES = [
 export const PLACES = [...base.places, ...EXTRA_PLACES].map((p) => {
   const [short, model, rank, spot] = PLACE_VIEW[p.id];
   const content = written.places[p.id];
-  const photos = content?.photos?.length ? content.photos.map(commonsPhoto) : p.photo ? [sheetPhoto(p.photo)] : [];
+  // Une galerie n'est utilisée que si elle est complète (fichier et vraie légende pour chaque photo).
+  const gallery = (content?.photos || []).filter((ph) => ph.file && ph.caption?.length > 3);
+  const photos = gallery.length ? gallery.map(commonsPhoto) : p.photo ? [sheetPhoto(p.photo)] : [];
   return { ...p, content, photos, short, model, rank, lon: spot ? spot[0] : p.lon, lat: spot ? spot[1] : p.lat };
 });
 export const PLACE_BY_ID = Object.fromEntries(PLACES.map((p) => [p.id, p]));
