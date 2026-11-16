@@ -115,3 +115,28 @@ Photos : les six ont été regardées. « Sidemen scenes (Unsplash) » (sacs d'e
 | Courant certains matins | BHS snorkeling (courant modéré à fort à Bunutan et Selang) | précisée |
 
 Photos : les six ont été regardées. « Liberty-wreck3.JPG » (cale de l'épave en plongée, sombre) est remplacée par un poisson-chèvre sur le récif de Jemeluk (Commons, Bernard Dupont, CC BY-SA 4.0), en troisième position : c'est la photo de snorkeling à Amed qui manquait. Les photos Flickr « Snorkeling plage de Jemeluk » (Globetrotteur17, CC BY-SA) ont été écartées : cadre noir et signature incrustés.
+
+## Pemuteran / Menjangan
+
+À partir de cette fiche, la recherche web n'était plus disponible (quota de la session atteint) : les vérifications reposent sur des pages ouvertes directement (Wikivoyage, Wikipédia, Commons, guides déjà identifiés). Ce qui n'a pas pu être recoupé a été retiré.
+
+| Affirmation | Source (URL) | Verdict |
+|---|---|---|
+| Village calme du nord-ouest, près de quatre heures depuis le sud | https://en.wikivoyage.org/wiki/Pemuteran (village de pêcheurs, environ 4 h depuis le sud ; Lovina 1 h 15 ; Gilimanuk 45 min à 1 h) | confirmée ; Lovina ajouté |
+| Plage de sable gris | WV Pemuteran (sable noir fin ; récif à l'est qui découvre à marée basse, oursins) | corrigée : sable noir |
+| Menjangan : île inhabitée du parc national | https://en.wikipedia.org/wiki/Menjangan_Island (dans le parc, à environ 5 miles de Bali, trois temples) ; https://id.wikipedia.org/wiki/Pulau_Menjangan (habitée seulement par des cerfs, temples) | reformulée : « pas de village, des temples et des cerfs », distance ajoutée |
+| « À une demi-heure de bateau » | durée de traversée non retrouvée | retirée |
+| Tombants de corail à quelques brasses du bord, mur qui plonge, gorgones, tortues | non retrouvé dans les pages consultées ; https://en.wikivoyage.org/wiki/West_Bali_National_Park (« probablement le meilleur snorkeling de Bali », eau claire, mer calme) ; https://en.wikipedia.org/wiki/West_Bali_National_Park (plus de 110 espèces de coraux, récif bien conservé) | reformulée avec ce qui est sourcé ; tombants, gorgones, tortues retirés |
+| Sortie avec deux arrêts et déjeuner | non retrouvé | retirée ; remplacée par le fonctionnement décrit par WV (bateaux de Labuhan Lalang à 15 min de Pemuteran, affrétés le jour même ou partagés le matin, guide et permis obligatoires, rien à boire ni à manger sur place) |
+| Droit d'entrée du parc | WV West Bali National Park (200 000 en semaine, 300 000 dimanches et jours fériés) ; BHS (200 000 en semaine, 300 000 le week-end) | prix ajouté : 200 000 |
+| Menjangan veut dire « cerf », cerfs qui entrent dans la mer | WP Menjangan Island (le nom veut dire cerf ; les cerfs gagnent l'île à la nage) ; WP West Bali National Park (cerf rusa) | confirmée |
+| Grande statue blanche de Ganesh tournée vers le large | Commons, catégorie « Colossal statue of Ganesha, Menjangan Island » (photo « Manjangan.jpg » : statue de Ganesh du Pura Segara Giri Dharma Kencana, regardée) | confirmée ; tour de l'île à pied en 1 h 15 ajouté (WV) |
+| Récif restauré : dizaines de structures métalliques, lancé par le village en 2000 | WV Pemuteran (projet Biorock lancé en 2000, présenté comme le plus grand du monde, accessible à la nage à l'ouest du village) ; Commons, « Snorkeling Pemuteran Bali 2.jpg » (structures et statue, regardée) | confirmée ; « des dizaines » retiré (nombre non retrouvé) |
+| Marche de deux à trois heures avec un garde, cerfs, singes noirs, calaos | WV West Bali National Park (guide officiel obligatoire ; sentier de Tegal Blunder, facile, 2 h, oiseaux) ; WP West Bali National Park (cerf rusa, langur de Java oriental dit « singe noir ») | confirmée pour l'essentiel ; calaos retirés (non retrouvés) |
+| Étourneau de Bali : blanc, tour de l'œil bleu, endémique | https://en.wikipedia.org/wiki/Bali_myna (seul vertébré endémique de Bali, blanc, peau bleue autour de l'œil, moins de 100 adultes sauvages en 2015, moins de 50 en 2020) ; WP West Bali National Park (« dernier bastion ») | confirmée ; effectif ajouté |
+| Pulaki : temple adossé à la falaise, à dix minutes, colonie de macaques | https://en.wikipedia.org/wiki/Pura_Pulaki (temple de la mer sur terrain plat, adossé à des rochers, près de la plage de Gondol, route Singaraja-Gilimanuk ; légende de Nirartha guidé par des macaques) ; WV Pemuteran (Pulaki à environ 10 km à l'est) | corrigée : rochers et non falaise, « une dizaine de kilomètres » ; la colonie de macaques d'aujourd'hui n'a pas été retrouvée, seule la légende est gardée |
+| Mer souvent plate, soleil couchant côté volcans de Java | WV (mer calme) ; photos Commons de Pemuteran au couchant (« Damai.jpg ») | conservée |
+| Munduk-Pemuteran : environ 2 h par Seririt | https://www.rome2rio.com/s/Munduk/Pemuteran (62 km, environ 1 h 04 de conduite) | corrigée : une soixantaine de kilomètres, une bonne heure ; « par Seririt » retiré. Une seule source, temps théorique |
+| Bateaux au départ de Pemuteran ou de Labuhan Lalang | WV Pemuteran (départ de Labuhan Lalang, permis au bureau du parc derrière le parking) | précisée ; départ direct de Pemuteran non retrouvé, retiré |
+
+Photos : les six ont été regardées. Deux photos de mangrove au couchant, très proches, sont retirées (« Paradise Found.jpg », « Damai.jpg ») au profit de la statue de Ganesh de Menjangan (« Manjangan.jpg », Oogstweg, CC BY-SA 3.0) et d'une structure du récif restauré de Pemuteran (« Snorkeling Pemuteran Bali 2.jpg », Ennio morricone, CC BY-SA 3.0 ; 960 px de large seulement, mais c'est la seule image libre du récif restauré).

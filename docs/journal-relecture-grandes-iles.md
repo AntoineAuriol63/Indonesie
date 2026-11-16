@@ -106,3 +106,26 @@ Photos : les six regardées, toutes justes et bien légendées ; aucune changée
 Photos : les six regardées, toutes prises dans le parc (descriptions Commons) et bien légendées ; aucune changée.
 
 Correction de la fiche Bukittinggi dans le même commit : Pandai Sikek, « boutique-atelier » (sans source) remplacé par les sculpteurs sur bois (Wikivoyage).
+
+## Derawan / Maratua (vérification partielle)
+
+Le quota de recherches web de la session a été épuisé au début de cette fiche. Les vérifications ci-dessous viennent de pages consultées directement (Wikipédia, Wikivoyage). Les points marqués « non vérifié » sont laissés tels quels dans la fiche et restent à contrôler.
+
+| Affirmation | Source (URL) | Verdict |
+|---|---|---|
+| Archipel dans la mer de Célèbes, au large de la côte est de Bornéo | https://en.wikipedia.org/wiki/Derawan_Islands | confirmée |
+| Derawan : 45 hectares, un village | Wikipedia (44,6 ha, environ 1 260 habitants) ; https://en.wikivoyage.org/wiki/Derawan (île qu'on parcourt à pied, vélos et scooters à louer) | confirmée ; population et location de vélos ajoutées |
+| Tortues vertes à Derawan, ponte dans l'archipel | Wikivoyage ; Wikipedia (plus grand site de ponte de tortues vertes d'Indonésie) | confirmée |
+| Maratua « à une heure de bateau », atoll en fer à cheval | https://id.wikipedia.org/wiki/Pulau_Maratua (environ 1 h 30 de Derawan, île longue et très recourbée) | corrigée -> une heure ou une heure et demie ; « atoll en fer à cheval » -> île recourbée autour d'un lagon |
+| Kakaban : lac au milieu de l'île, méduses qui ne piquent pas | https://en.wikipedia.org/wiki/Kakaban (quatre espèces, eau saumâtre, 10 min de marche depuis la plage) | confirmée ; « escalier en bois à travers la forêt » remplacé par les dix minutes de marche |
+| Kakaban : sans palmes et sans crème solaire | aucune page consultée ne le dit | non vérifié, laissé |
+| Fermetures passées du lac de Kakaban | aucune page consultée ne le dit | non vérifié : l'affirmation est retirée, le conseil de demander si le lac est ouvert est gardé |
+| Sangalaki : raies manta, protection des tortues | Wikivoyage (Manta Spot, île de conservation où ne vit que le personnel d'une ONG) | confirmée |
+| Maratua : lagon, tombants, tortues, grottes | Wikipedia (au moins 13 grottes, reliées à la mer) ; Wikivoyage (requins et tortues) | confirmée en partie ; grotte Haji Mangku : non vérifié, laissé |
+| Excursion à la journée, « déjeuner sur une plage », bateau loué en entier | Wikivoyage (location du bateau à la journée, aucun restaurant à Kakaban ni à Sangalaki) | corrigée -> on emporte son déjeuner |
+| Requins-baleines de Talisayan, départ de nuit | aucune page consultée ne le dit | non vérifié, laissé |
+| Vol jusqu'à Berau « en général par Balikpapan » | https://en.wikipedia.org/wiki/Kalimarau_Airport (Balikpapan : Super Air Jet, Sriwijaya, Wings ; directs de Jakarta et Surabaya par Batik Air) | précisée |
+| Berau-Tanjung Batu : 2 à 3 h ; hors-bord : 30 min | Wikivoyage (environ 2 h, puis 30 min) | précisée -> 2 heures au moins |
+| Argent liquide, longs week-ends | Wikivoyage (un seul distributeur, cartes indonésiennes ; hôtels pleins pendant les congés de trois jours) | ajoutée |
+
+Photos : les six regardées. « Bébé tortue verte à Derawan » (Tukik.jpg) retirée : rien sur Commons ne dit où elle a été prise. Remplacée par une méduse du lac de Kakaban (Commons, Riza Nugraha, CC BY 2.0, 1 000 px). Légende de la raie manta corrigée : la photo est prise à Sangalaki, pas à Maratua (description Commons).

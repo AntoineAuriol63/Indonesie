@@ -490,7 +490,7 @@
     },
     "derawan-maratua": {
       "intro": [
-        "Un archipel au large de la côte est de Bornéo, dans la mer de Célèbes. Derawan est une toute petite île de sable avec un village et des chambres sur pilotis ; les tortues vertes nagent sous les pontons. Maratua, à une heure de bateau, est un grand atoll en fer à cheval avec un lagon turquoise.",
+        "Un archipel au large de la côte est de Bornéo, dans la mer de Célèbes. Derawan est une toute petite île de sable avec un village de 1 200 habitants et des chambres sur pilotis ; les tortues vertes nagent sous les pontons. Maratua, à une heure ou une heure et demie de bateau, est une grande île recourbée autour d'un lagon turquoise.",
         "On passe ses journées en bateau et dans l'eau : le lac aux méduses de Kakaban, les raies manta de Sangalaki, les tombants de Maratua. Tout se voit avec un masque et un tuba."
       ],
       "todo": [
@@ -504,21 +504,21 @@
         {
           "name": "Tour de Derawan à pied",
           "type": "Détente",
-          "text": "L'île fait 45 hectares : on en fait le tour par la plage en moins d'une heure. Un seul village, des ruelles de sable, des pontons en bois où l'on regarde le coucher du soleil devant un poisson grillé.",
+          "text": "L'île fait 45 hectares : on en fait le tour par la plage en moins d'une heure. Un seul village, des ruelles de sable, des pontons en bois où l'on regarde le coucher du soleil. On peut aussi louer un vélo dans la rue principale.",
           "time": "1 h",
           "price": null
         },
         {
           "name": "Lac aux méduses de Kakaban",
           "type": "Mer",
-          "text": "Un lac salé enfermé au milieu de l'île, rempli de méduses qui ne piquent pas. On y accède par un escalier en bois à travers la forêt, puis on nage au milieu d'elles, sans palmes et sans crème solaire pour ne pas les abîmer.",
+          "text": "Un lac d'eau saumâtre enfermé au milieu de l'île, à dix minutes de marche de la plage, où vivent quatre espèces de méduses qui ne piquent pas. On nage au milieu d'elles, sans palmes et sans crème solaire pour ne pas les abîmer.",
           "time": "1 à 2 h sur place",
           "price": null
         },
         {
           "name": "Raies manta de Sangalaki",
           "type": "Mer",
-          "text": "Autour de cette petite île, les raies manta viennent se nourrir près de la surface. Le bateau tourne pour les trouver et on saute à l'eau dès qu'il en voit une. Sur l'île, des gardes protègent les nids de tortues vertes.",
+          "text": "Autour de cette petite île, les raies manta viennent se nourrir près de la surface. Le bateau tourne pour les trouver et on saute à l'eau dès qu'il en voit une. Personne n'habite l'île, à part l'équipe qui protège les nids de tortues vertes.",
           "time": "2 h",
           "price": null
         },
@@ -532,7 +532,7 @@
         {
           "name": "Journée en hors-bord entre les îles",
           "type": "Mer",
-          "text": "L'excursion classique depuis Derawan : départ le matin, arrêts à Kakaban, Sangalaki et Maratua, déjeuner sur une plage, retour avant la nuit. Le bateau se loue en entier, donc on cherche d'autres voyageurs sur le ponton pour partager.",
+          "text": "L'excursion classique depuis Derawan : départ le matin, arrêts à Kakaban, Sangalaki et Maratua, retour avant la nuit. On emporte son déjeuner : il n'y a aucun restaurant à Kakaban ni à Sangalaki. Le bateau se loue en entier, donc on cherche d'autres voyageurs sur le ponton pour partager.",
           "time": "la journée",
           "price": null
         },
@@ -544,11 +544,13 @@
           "price": null
         }
       ],
-      "access": "Vol jusqu'à Berau, en général par Balikpapan, puis 2 à 3 heures de route jusqu'à Tanjung Batu et 30 minutes de hors-bord jusqu'à Derawan. Maratua est une heure de bateau plus loin.",
+      "access": "Vol jusqu'à Berau, avec une escale à Balikpapan ou en direct de Jakarta et de Surabaya selon les compagnies, puis 2 heures de route au moins jusqu'à Tanjung Batu et 30 minutes de hors-bord jusqu'à Derawan. Maratua est une heure ou une heure et demie de bateau plus loin.",
       "tips": [
-        "Le lac de Kakaban a déjà été fermé plusieurs mois pour protéger les méduses : demander s'il est ouvert avant de payer l'excursion.",
+        "Avant de payer l'excursion, demander si le lac de Kakaban est ouvert aux nageurs ce jour-là.",
         "Ni les mantas ni les requins-baleines ne sont là tous les jours.",
-        "Il faut être à l'aise dans l'eau : il y a du courant le long des tombants."
+        "Il faut être à l'aise dans l'eau : il y a du courant le long des tombants.",
+        "Le seul distributeur de Derawan ne prend que les cartes indonésiennes : arriver avec assez de roupies pour tout le séjour.",
+        "Pendant les longs week-ends indonésiens, les chambres de Derawan sont toutes prises : réserver avant."
       ],
       "photos": [
         {
@@ -566,25 +568,25 @@
           "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
         },
         {
-          "file": "Maratua Paradise Resort.jpg",
-          "caption": "Bungalows sur pilotis à Maratua",
-          "author": "Deffy Kuswanto",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+          "file": "Stingless jellyfish.jpg",
+          "caption": "Méduse du lac de Kakaban",
+          "author": "Riza Nugraha",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
         },
         {
           "file": "Maratua Manta birostris (36).jpg",
-          "caption": "Raie manta près de Maratua",
+          "caption": "Raie manta à Sangalaki",
           "author": "Nanosanchez",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
         },
         {
-          "file": "Tukik.jpg",
-          "caption": "Bébé tortue verte à Derawan",
-          "author": "Fikry Agara",
-          "license": "CC BY 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+          "file": "Maratua Paradise Resort.jpg",
+          "caption": "Bungalows sur pilotis à Maratua",
+          "author": "Deffy Kuswanto",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
         },
         {
           "file": "Side view of Maratua Island.jpg",

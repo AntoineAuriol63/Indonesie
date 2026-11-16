@@ -432,20 +432,24 @@
   "labuan-bajo-komodo": {
    "intro": [
     "Labuan Bajo est le port d'où partent tous les bateaux pour le parc national de Komodo, un chapelet d'îles sèches entre Flores et Sumbawa. On y vient pour les dragons, des varans qui peuvent atteindre trois mètres et ne vivent qu'ici, mais on se souvient autant de la vue du haut de Padar et des raies manta.",
-    "Deux formules : la journée en bateau rapide, départ vers 5 h 30, cinq ou six arrêts, retour en fin d'après-midi ; ou la croisière de deux jours avec une nuit à bord d'un bateau en bois, qui laisse le temps de monter à Padar au lever du jour."
+    "Deux formules : la journée en bateau rapide, départ à l'aube, cinq ou six arrêts, retour en fin d'après-midi ; ou la croisière de deux jours avec une nuit à bord d'un bateau en bois, qui laisse le temps de monter à Padar au lever du jour."
    ],
    "todo": [
     {
      "name": "Dragons de Komodo ou de Rinca",
      "type": "Faune",
-     "text": "On débarque sur l'une des deux îles et un ranger armé d'un bâton fourchu nous emmène sur un sentier dans la savane. Les dragons restent souvent à l'ombre, près des bâtiments des rangers. Rinca est plus proche de Labuan Bajo, Komodo plus grande.",
+     "text": "On débarque sur l'une des deux îles et un ranger, obligatoire, nous emmène sur un sentier dans la savane avec son bâton fourchu. Les dragons traînent souvent près du poste des rangers. Rinca est plus proche de Labuan Bajo et moins visitée ; Komodo compte le plus de dragons.",
      "time": "1 à 2 h",
-     "price": null
+     "price": {
+      "amount": 250000,
+      "currency": "IDR",
+      "what": "droit d'entrée du parc, par personne et par jour, tarif étranger (ranger en plus)"
+     }
     },
     {
      "name": "Lever de soleil sur Padar",
      "type": "Randonnée",
-     "text": "La photo qu'on voit partout : du haut d'une crête, trois baies aux plages de couleurs différentes, blanche, grise et rose. On monte par un escalier puis un sentier de terre, une demi-heure sans ombre. À faire au lever du jour ou en fin d'après-midi.",
+     "text": "La photo qu'on voit partout : du haut d'une crête, trois baies aux plages de couleurs différentes, blanche, grise et rose. On monte par un escalier puis un sentier de gravier, 15 à 45 minutes selon la forme, sans ombre. Depuis 2026, la visite se fait par créneaux de 300 personnes, matin, midi ou fin d'après-midi.",
      "time": "1 h 30",
      "price": null
     },
@@ -459,50 +463,52 @@
     {
      "name": "Nager avec les raies manta",
      "type": "Faune",
-     "text": "À Manta Point, un plateau peu profond balayé par le courant, les raies viennent se nourrir et se faire nettoyer par de petits poissons. Le bateau nous dépose en amont, on se laisse dériver et on les voit passer en dessous. Elles font trois à quatre mètres d'envergure.",
+     "text": "À Manta Point, les raies nagent face au courant, la bouche ouverte, pour filtrer le plancton, et se font nettoyer par de petits poissons. On se met à l'eau avec masque et tuba et on les voit passer en dessous. Elles font trois mètres d'envergure et plus. L'arrêt n'est pas garanti : il dépend de l'horaire.",
      "time": "45 min",
      "price": null
     },
     {
      "name": "Banc de sable de Taka Makassar",
      "type": "Mer",
-     "text": "Un croissant de sable blanc qui sort de l'eau au milieu du parc, à côté de Manta Point. Les bateaux s'y arrêtent pour une baignade dans une eau très claire. À marée haute, il disparaît presque.",
+     "text": "Un banc de sable blanc qui n'émerge qu'à marée basse, au milieu du parc, à une demi-heure de bateau de Manta Point. Les bateaux s'y arrêtent pour une baignade dans une eau très claire.",
      "time": "30 min",
      "price": null
     },
     {
      "name": "Envol des chauves-souris à Kalong",
      "type": "Faune",
-     "text": "Au coucher du soleil, les bateaux mouillent devant un îlot de mangrove près de Rinca. Quand la lumière baisse, des milliers de roussettes, de grandes chauves-souris qui mangent des fruits, décollent et passent au-dessus du pont. Les croisières de deux jours y passent la soirée.",
+     "text": "Au coucher du soleil, les bateaux mouillent devant un îlot de mangrove près de Rinca, à une heure de Labuan Bajo. Quand la lumière baisse, des milliers de roussettes, de grandes chauves-souris qui mangent des fruits, décollent et passent au-dessus du pont. Le défilé dure une vingtaine de minutes.",
      "time": "1 h",
      "price": null
     },
     {
      "name": "Île de Kelor",
      "type": "Randonnée",
-     "text": "Un îlot tout près de Labuan Bajo, souvent le premier ou le dernier arrêt. Un raidillon d'un quart d'heure mène en haut de la colline, avec vue sur le chenal turquoise et la côte de Flores. En bas, une plage et un snorkeling tranquille.",
+     "text": "Un îlot tout près de Labuan Bajo, souvent le premier ou le dernier arrêt. Un raidillon court et sans ombre mène en haut de la colline, avec vue sur le chenal turquoise et la côte de Flores. En bas, une plage où l'on se baigne.",
      "time": "1 h",
      "price": null
     },
     {
      "name": "Grotte de Rangko",
      "type": "Nature",
-     "text": "Hors du parc, au nord de Labuan Bajo : on roule jusqu'au village de Rangko, puis une barque mène à la grotte. Dedans, on se baigne dans un bassin d'eau salée. Y être en début d'après-midi, quand le soleil entre et allume l'eau en bleu.",
+     "text": "Hors du parc, au nord de Labuan Bajo : une heure de route jusqu'au village de Rangko, vingt minutes de barque, puis 500 m à pied sur des rochers glissants. Dedans, on se baigne dans un bassin d'eau salée. Y être entre 12 h et 14 h, quand le soleil entre et allume l'eau en bleu.",
      "time": "demi-journée",
      "price": null
     },
     {
      "name": "Coucher de soleil à Labuan Bajo",
      "type": "Ville",
-     "text": "Le port regarde plein ouest. On voit le soleil descendre derrière les îles et les bateaux au mouillage depuis un des cafés perchés sur la colline, puis on dîne de poisson grillé aux stands du marché de nuit de Kampung Ujung, sur le front de mer.",
+     "text": "Le port regarde plein ouest. On voit le soleil descendre derrière les îles et les bateaux au mouillage depuis un des bars perchés sur la colline, puis on dîne de poisson grillé à la commande aux stands du marché de Kampung Ujung, sur le front de mer.",
      "time": "le soir",
      "price": null
     }
    ],
-   "access": "Vol direct pour Labuan Bajo depuis Bali, un peu plus d'une heure, ou depuis Jakarta. L'aéroport est à dix minutes du port, d'où partent toutes les excursions.",
+   "access": "Vol direct pour Labuan Bajo depuis Bali, environ 1 h 15, plusieurs fois par jour, ou depuis Jakarta. L'aéroport est à 2 km du centre et du port, d'où partent toutes les excursions.",
    "tips": [
-    "Août est la haute saison : réserver le bateau à l'avance et demander ce que le prix comprend (droits d'entrée du parc, ranger, masque et palmes).",
-    "Les courants sont forts dans le parc. On ne se met à l'eau que là où l'équipage le dit, et on garde le gilet si on n'est pas à l'aise.",
+    "Depuis avril 2026, le parc n'admet que 1 000 visiteurs par jour et les billets se prennent à l'avance sur l'application SiOra, en général par l'agence du bateau. Pour août, réserver tôt.",
+    "Demander ce que le prix du bateau comprend : droit d'entrée du parc (250 000 roupies par jour pour un étranger), ranger, masque et palmes.",
+    "Il y a du courant dans le parc. On ne se met à l'eau que là où l'équipage le dit, et on garde le gilet si on n'est pas à l'aise.",
+    "Août et septembre sont très chauds et secs sur les îles : chapeau, beaucoup d'eau, et les montées tôt le matin.",
     "Dragons et raies sont des animaux sauvages : on en voit presque toujours, mais personne ne peut le garantir."
    ],
    "photos": [
@@ -528,9 +534,9 @@
      "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
     },
     {
-     "file": "Manta .jpg",
-     "caption": "Raie manta dans le parc de Komodo",
-     "author": "Jonathangarryh",
+     "file": "A Flying Manta ray.jpg",
+     "caption": "Raie manta à Manta Point",
+     "author": "Siharaditia",
      "license": "CC BY-SA 4.0",
      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
     },
@@ -542,11 +548,11 @@
      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
     },
     {
-     "file": "Labuan Bajo pier at sunset (16497766814).jpg",
-     "caption": "Port de Labuan Bajo au coucher du soleil",
-     "author": "Jorge Láscar",
-     "license": "CC BY 2.0",
-     "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+     "file": "Gua Rangko.jpg",
+     "caption": "Bassin de la grotte de Rangko",
+     "author": "Pravda V. Wardhana",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
     }
    ]
   },
