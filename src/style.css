@@ -553,13 +553,6 @@ body:not(.started) .topbar {
 .tag--cuisine { background: #ffd0d6; }
 .tag--faune { background: #ffe58f; }
 .tag--detente { background: #f7d4ef; }
-.credits p {
-  margin: 0 0 6px;
-  font-size: 12.5px;
-}
-.credits a {
-  color: inherit;
-}
 
 /* Itinéraire */
 .timeline {
@@ -678,16 +671,6 @@ body:not(.started) .topbar {
 .help.is-open {
   opacity: 1;
   transform: none;
-  pointer-events: auto !important;
-}
-.help__credits {
-  margin-top: 6px;
-  padding: 0;
-  border: 0;
-  background: none;
-  font-weight: 800;
-  text-decoration: underline;
-  text-underline-offset: 3px;
 }
 .help p {
   margin: 0;

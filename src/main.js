@@ -8,7 +8,7 @@ import './style.css';
 
 import { createWorld } from './world/index.js';
 import { createFlatWorld } from './world/flat.js';
-import { PLACES, PLACE_BY_ID, REGION_BY_ID, placesOf } from './data/places.js';
+import { PLACE_BY_ID, REGION_BY_ID, placesOf } from './data/places.js';
 import { ITINERARY } from './data/itinerary.js';
 import { toast } from './ui/fx.js';
 
@@ -18,7 +18,7 @@ const isMobile = () => matchMedia('(max-width: 860px)').matches;
 const days = (min, max) => (min === max ? `${min} jour${min > 1 ? 's' : ''}` : `${min} à ${max} jours`);
 
 // Où l'on se trouve : vue d'ensemble, dans une région, sur une étape, ou dans l'exemple d'itinéraire.
-const ui = { region: null, place: null, itinerary: false, credits: false, started: false };
+const ui = { region: null, place: null, itinerary: false, started: false };
 const itineraryIds = ITINERARY.stops.map((s) => s.place);
 
 const worldOptions = {
@@ -41,14 +41,14 @@ try {
 // ---------------------------------------------------------------- Fiches
 
 // Tous les prix sont affichés en euros. Les montants en roupies sont convertis à un taux arrondi.
-const IDR_PER_EUR = 19000;
+const IDR_PER_EUR = 20100;
 function euros(price) {
   if (price.currency === 'EUR') return `${price.amount.toLocaleString('fr-FR')} €`;
   const value = price.amount / IDR_PER_EUR;
   return `environ ${value < 10 ? Math.max(1, Math.round(value)) : Math.round(value)} €`;
 }
 
-// Bande de photos qu'on fait défiler ; un clic ouvre la page de la photo sur Wikimedia Commons (auteur, licence).
+// Bande de photos qu'on fait défiler ; un clic ouvre la page de la photo sur Wikimedia Commons.
 function gallery(photos) {
   if (!photos.length) return '';
   return `
@@ -183,28 +183,11 @@ function itineraryCard() {
     </div>`;
 }
 
-// Auteurs et licences de toutes les photos (les licences Creative Commons demandent cette mention).
-function creditsCard() {
-  const rows = PLACES.flatMap((p) => p.photos.map((ph) => ({ ...ph, place: p.name })));
-  return `
-    <header class="card__head" style="--c:#1d2b53">
-      <button class="back" data-action="back">‹ Indonésie</button>
-      <h2>Crédits photos</h2>
-    </header>
-    <div class="card__scroll">
-      <p class="card__text">Les photos viennent de Wikimedia Commons. Un clic sur une photo ouvre sa page d'origine.</p>
-      <div class="credits">
-        ${rows.map((ph) => `<p><a href="${esc(ph.page)}" target="_blank" rel="noopener">${esc(ph.caption)}</a> : ${esc(ph.author)}, <a href="${esc(ph.licenseUrl)}" target="_blank" rel="noopener">${esc(ph.license)}</a></p>`).join('')}
-      </div>
-    </div>`;
-}
-
 function render() {
   const panel = $('panel');
-  const open = ui.place || ui.region || ui.itinerary || ui.credits;
+  const open = ui.place || ui.region || ui.itinerary;
   panel.classList.toggle('is-open', !!open);
-  if (ui.credits) panel.innerHTML = creditsCard();
-  else if (ui.place) panel.innerHTML = placeCard(PLACE_BY_ID[ui.place]);
+  if (ui.place) panel.innerHTML = placeCard(PLACE_BY_ID[ui.place]);
   else if (ui.itinerary) panel.innerHTML = itineraryCard();
   else if (ui.region) panel.innerHTML = regionCard(REGION_BY_ID[ui.region]);
   panel.scrollTop = 0;
@@ -219,7 +202,7 @@ function render() {
 // ---------------------------------------------------------------- Navigation
 
 function updatePadding() {
-  const open = ui.place || ui.region || ui.itinerary || ui.credits;
+  const open = ui.place || ui.region || ui.itinerary;
   if (isMobile()) world.setViewPadding({ top: 60, bottom: open ? window.innerHeight * 0.55 : 0 });
   else world.setViewPadding({ top: 60, right: open ? 430 : 0 });
 }
@@ -235,7 +218,6 @@ function flyToItinerary() {
 }
 
 function openRegion(id) {
-  ui.credits = false;
   ui.itinerary = false;
   ui.region = id;
   ui.place = null;
@@ -245,7 +227,6 @@ function openRegion(id) {
 }
 
 function openPlace(id) {
-  ui.credits = false;
   ui.place = id;
   if (!ui.itinerary) ui.region = PLACE_BY_ID[id].region;
   render();
@@ -253,10 +234,6 @@ function openPlace(id) {
 }
 
 function back() {
-  if (ui.credits) {
-    ui.credits = false;
-    return render();
-  }
   if (ui.place) {
     ui.place = null;
     render();
@@ -271,7 +248,6 @@ function back() {
 }
 
 function toggleItinerary() {
-  ui.credits = false;
   ui.itinerary = !ui.itinerary;
   ui.region = null;
   ui.place = null;
@@ -292,13 +268,7 @@ function start() {
 
 const handlers = {
   start,
-  credits: () => {
-    ui.credits = true;
-    $('help').classList.remove('is-open');
-    render();
-  },
   home: () => {
-    ui.credits = false;
     ui.region = null;
     ui.place = null;
     ui.itinerary = false;
@@ -325,7 +295,7 @@ document.addEventListener('keydown', (event) => {
     if (event.key === 'Enter' || event.key === ' ') start();
     return;
   }
-  if (event.key === 'Escape' && (ui.place || ui.region || ui.itinerary || ui.credits)) back();
+  if (event.key === 'Escape' && (ui.place || ui.region || ui.itinerary)) back();
 });
 
 window.addEventListener('resize', updatePadding);
