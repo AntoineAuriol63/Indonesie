@@ -66,3 +66,42 @@ Photos : les six photos existantes ont été regardées et correspondent à leur
 Prix : traversée Ternate-Tidore à 15 000 IDR relevée dans une seule source de 2024 (Antara) : non retenue.
 
 Photos : les six photos existantes regardées, toutes conformes à leur légende (descriptions Commons lues). Galerie inchangée.
+
+## morotai
+
+| Affirmation | Source (URL) | Verdict |
+| --- | --- | --- |
+| Grande île forestière au nord des Moluques, face au Pacifique | https://en.wikipedia.org/wiki/Morotai | Confirmée (côte est sur le Pacifique) |
+| Débarquement américain de septembre 1944, base aérienne avant les Philippines | Wikipedia Morotai | Confirmée |
+| « Deux petits musées et pas mal de ferraille rouillée » | https://jelajahekonomi.kontan.co.id/pariwisata/news/berkaraoke-ria-di-museum-perang-dunia-ii-dan-trikora-morotai, https://en.wikivoyage.org/wiki/Morotai (site des chars amphibies de Gotalamo, piste de Pitu) | Reformulée : musée, véhicules amphibies, pistes de l'époque |
+| Dodola : deux îles reliées par un banc de sable à marée basse | https://rri.co.id/voice-of-indonesia/tourism/2720158/dodola-island-a-peaceful-tropical-escape-in-north-maluku (11 sept. 2026) | Confirmée ; 500 m entre les deux îles, pas d'électricité, moucherons (agas) ajoutés |
+| Daruba-Dodola : une demi-heure de bateau | RRI (30 min), merahputih.com (20 à 30 min) | Confirmée |
+| « On apporte son pique-nique et son eau » | aucune | Retirée |
+| Kolorai, Zum Zum, Tabailenge en bateau loué | Wikivoyage, koran-jakarta.com (location au port de Daruba, 2025) | Confirmée |
+| « Plages vides, récif dans peu d'eau » | aucune | Retirée |
+| Statue de MacArthur sur Zum Zum | Wikipedia Morotai (île Sumsum, à 3 miles de Daruba, où MacArthur a séjourné), indonesia.travel | Confirmée, précisée |
+| Deux musées voisins (Seconde Guerre mondiale, Trikora) | kontan.co.id (2019 : côte à côte, monument Trikora entre les deux, blindés dans la cour, 8 h-17 h) ; Kompas 2019 cité par la recherche (pas ouvert tous les jours, prévenir) | Confirmée ; contenu reformulé (photos, équipement de soldats) ; « casques, munitions » retiré |
+| Monument de Teruo Nakamura, caché jusqu'en 1974 | Wikipedia (reddition le 18 décembre 1974) ; village de Dehegila (indonesia-guide.com, recherche) | Confirmée, village ajouté |
+| Air Kaca : source au fond d'une petite grotte, MacArthur s'y baignait | https://rri.co.id/en/tourism/2720172/air-kaca-links-morotais-beauty-with-world-war-ii-history (11 sept. 2026) | Corrigée : source entourée de rochers à Wawama, à 5 min du centre, eau moins limpide qu'avant ; « grotte » retiré |
+| Petit avion depuis Ternate | https://timesindonesia.co.id/ekonomi/597507/ (Wings Air, reprise le 20 juillet 2026, lundi et jeudi, 45 min) | Confirmée, précisée |
+| Route et bateau par Tobelo | Wikivoyage, indonesia.travel (ferry Tobelo-Daruba, environ 2 h) | Confirmée, durée ajoutée |
+| « Très peu d'anglais » | aucune | Retirée |
+| Pluie toute l'année à Morotai | Wikipedia (Daruba : 104 à 138 mm de juillet à octobre, environ 200 mm les autres mois) | Corrigée : août fait partie des mois les moins pluvieux |
+
+Prix : location d'un bateau pour Dodola, seul chiffre trouvé daté de 2018 (900 000 à 1 200 000 IDR la journée) : non retenu. Entrée du musée (15 000 IDR), source unique non datée : non retenue.
+
+Photos :
+- Ajoutée : `Kibarkan Merah Putih.jpg` (apnéiste sur le récif de Dodola, description Commons : eaux de Dodola, septembre 2019).
+- Ajoutée : `Boeing SB-17G "Ready Teddy," Morotai, 1945.jpg` (photo d'archive de la base).
+- Ajoutée : `Landasan Pitu Morotai - panoramio.jpg` (hélice exposée à la piste de Pitu ; 1000 px, petit filigrane).
+- Retirées : pirogue de Ngele-Ngele (île non citée dans la fiche) et balançoire de Kolorai (doublon).
+- Banc de sable de Dodola : aucune photo libre trouvée (Commons, Openverse).
+
+## Région moluques
+
+| Affirmation | Source (URL) | Verdict |
+| --- | --- | --- |
+| Portugais, Espagnols et Hollandais se sont battus « pendant deux siècles » | Wikipedia Ternate, Banda Islands | Reformulée : aux XVIe et XVIIe siècles |
+| Août à Banda : pluie, vent, bateaux « souvent annulés » | voir banda-neira | Corrigée : le bateau rapide ne navigue pas |
+| Ternate et Tidore plutôt secs, Morotai « pluie toute l'année » | Wikipedia Ternate et Morotai | Corrigée : période la moins pluvieuse pour les trois |
+| Accès par Ambon (Banda) et Ternate (nord), bateaux et petits avions peu fréquents | voir fiches | Confirmée |

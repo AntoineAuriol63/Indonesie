@@ -1,8 +1,8 @@
 {
  "regions": {
   "moluques": {
-   "intro": "Les îles aux épices. C'est pour la muscade de Banda et le girofle de Ternate que Portugais, Espagnols et Hollandais se sont battus ici pendant deux siècles. Il en reste des forts un peu partout, au pied de volcans qui tombent dans la mer, et presque aucun touriste. Banda est tout au sud, Ternate, Tidore et Morotai tout au nord : ce sont deux voyages différents, l'un par Ambon, l'autre par Ternate. On choisit l'un ou l'autre, rarement les deux.",
-   "august": "À Banda, août tombe en pleine saison de pluie et de vent : la mer est agitée et les bateaux depuis Ambon sont souvent annulés. À Ternate et Tidore il fait plutôt sec, à Morotai il peut pleuvoir toute l'année.",
+   "intro": "Les îles aux épices. C'est pour la muscade de Banda et le girofle de Ternate que Portugais, Espagnols et Hollandais se sont battus ici aux XVIe et XVIIe siècles. Il en reste des forts un peu partout, au pied de volcans qui tombent dans la mer, et très peu de touristes. Banda est tout au sud, Ternate, Tidore et Morotai tout au nord : ce sont deux voyages différents, l'un par Ambon, l'autre par Ternate. On choisit l'un ou l'autre, rarement les deux.",
+   "august": "À Banda, août tombe en pleine saison de pluie et de vent : la mer est agitée et le bateau rapide d'Ambon ne navigue pas. À Ternate, Tidore et Morotai, c'est au contraire la période la moins pluvieuse de l'année.",
    "access": "On arrive en avion à Ambon pour Banda, à Ternate pour le nord. Ensuite ce sont des bateaux et de petits avions qui ne partent pas tous les jours : on cale ses dates sur leurs horaires."
   },
   "raja-ampat": {
@@ -234,43 +234,44 @@
   },
   "morotai": {
    "intro": [
-    "Une grande île couverte de forêt, tout au nord des Moluques, face au Pacifique. En septembre 1944, les Américains de MacArthur y ont débarqué pour en faire une base aérienne avant de reprendre les Philippines. Il en reste deux petits musées et pas mal de ferraille rouillée.",
-    "Aujourd'hui, on y vient pour les îlots au large de Daruba, la petite ville du sud : du sable blanc et presque personne. Le plus connu est Dodola, deux îles reliées par un banc de sable."
+    "Une grande île couverte de forêt, tout au nord des Moluques, dont la côte est donne sur le Pacifique. En septembre 1944, les Américains de MacArthur y ont débarqué pour en faire une base aérienne avant de reprendre les Philippines. Il en reste un musée, des carcasses de véhicules amphibies et les pistes de l'époque, où se pose encore l'avion de Ternate.",
+    "Aujourd'hui, on y vient pour les îlots au large de Daruba, la petite ville du sud : du sable blanc et une eau turquoise. Le plus connu est Dodola, deux îles reliées par un banc de sable."
    ],
    "todo": [
     {
      "name": "Îles de Dodola",
      "type": "Mer",
-     "text": "Dodola Besar et Dodola Kecil sont reliées par une langue de sable blanc qu'on traverse à pied à marée basse. On y va en bateau depuis Daruba, en une demi-heure environ. On se baigne, on sort le masque, et on apporte son pique-nique et son eau.",
+     "text": "Dodola Besar et Dodola Kecil sont séparées par 500 m d'eau. À marée basse, une langue de sable blanc les relie et on traverse à pied. Une demi-heure de bateau depuis Daruba. On se baigne, on sort le masque. Pas d'électricité sur l'île, et de petits moucherons qui piquent : antimoustique dans le sac.",
      "time": "la journée",
      "price": null
     },
     {
      "name": "Tournée des îlots en bateau",
      "type": "Mer",
-     "text": "Autour de Daruba, on loue un bateau pour enchaîner Kolorai, Zum Zum ou Tabailenge. Les plages sont vides et le récif commence dans peu d'eau. Sur Zum Zum, une statue de MacArthur rappelle son passage.",
+     "text": "Au port de Daruba, on loue un bateau à la journée pour enchaîner Dodola, Kolorai, Tabailenge ou Zum Zum. Sur Zum Zum, à 5 km de Daruba, une statue de MacArthur rappelle qu'il y a séjourné pendant qu'il préparait la reconquête des Philippines.",
      "time": "la journée",
      "price": null
     },
     {
      "name": "Musées de la guerre à Daruba",
      "type": "Culture",
-     "text": "Deux petits musées voisins, l'un sur la Seconde Guerre mondiale, l'autre sur l'opération Trikora, avec des casques, des munitions et des photos du débarquement. Ailleurs sur l'île, un monument rappelle Teruo Nakamura, soldat de l'armée japonaise resté caché dans la jungle jusqu'en 1974.",
+     "text": "Le musée de la Seconde Guerre mondiale et le musée Trikora sont côte à côte, près du centre : photos, équipement de soldats retrouvé sur l'île, blindés dans la cour. Ils n'ouvrent pas tous les jours, on prévient avant. À Dehegila, un monument rappelle Teruo Nakamura, soldat de l'armée japonaise resté caché dans la jungle jusqu'en 1974.",
      "time": "1 h 30",
      "price": null
     },
     {
      "name": "Source d'Air Kaca",
      "type": "Nature",
-     "text": "Une source au fond d'une petite grotte, près de Daruba, où MacArthur venait se baigner d'après les habitants. L'eau est limpide, d'où son nom d'eau de verre. Arrêt rapide, à combiner avec les musées.",
+     "text": "Une source entourée de rochers à Wawama, à cinq minutes de scooter du centre de Daruba. Les Américains s'y approvisionnaient en eau et MacArthur s'y serait baigné. Son nom veut dire eau de verre, même si elle n'est plus aussi limpide qu'avant. Arrêt rapide, à combiner avec les musées.",
      "time": "30 min",
      "price": null
     }
    ],
-   "access": "Depuis Ternate, petit avion jusqu'à Daruba, ou route et bateau en passant par Tobelo, au nord de Halmahera. Les horaires changent souvent : on les cale avant de réserver le reste.",
+   "access": "Depuis Ternate, un avion Wings Air rejoint Daruba en 45 minutes : la ligne a rouvert en juillet 2026 avec deux vols par semaine, le lundi et le jeudi. Sinon, bateau rapide de Ternate à Sofifi, route jusqu'à Tobelo, au nord de Halmahera, puis ferry pour Daruba en 2 h environ.",
    "tips": [
-    "Le plus compliqué, c'est d'y aller : vols rares, bateaux lents, une journée entière dans chaque sens.",
-    "Peu d'hébergements et très peu d'anglais : le plus simple est de réserver le bateau pour Dodola par son hôtel."
+    "Le plus compliqué, c'est d'y aller : deux vols par semaine, sinon une journée entière de bateau et de route dans chaque sens.",
+    "D'août à octobre, il pleut nettement moins que le reste de l'année.",
+    "Daruba a peu d'hôtels : on réserve avant de venir, et on passe par l'hôtel ou le port pour louer le bateau des îles."
    ],
    "photos": [
     {
@@ -288,9 +289,9 @@
      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
     },
     {
-     "file": "Pantai Pulau Ngele-Ngele, Maluku Utara.jpg",
-     "caption": "Pirogue sur la plage de Ngele-Ngele",
-     "author": "Andika25051996",
+     "file": "Kibarkan Merah Putih.jpg",
+     "caption": "Apnéiste au-dessus du récif de Dodola",
+     "author": "Fransiskus Simbolon",
      "license": "CC BY-SA 4.0",
      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
     },
@@ -302,11 +303,18 @@
      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
     },
     {
-     "file": "Foto Selfie di Pantai Kolorai, Maluku Utara.jpg",
-     "caption": "Balançoire sur la plage de Kolorai",
-     "author": "Andika25051996",
-     "license": "CC BY-SA 4.0",
-     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+     "file": "Boeing SB-17G \"Ready Teddy,\" Morotai, 1945.jpg",
+     "caption": "Avion américain sur la base de Morotai en 1945",
+     "author": "Clifford (Pat) Maurice Reedy",
+     "license": "CC BY 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+    },
+    {
+     "file": "Landasan Pitu Morotai - panoramio.jpg",
+     "caption": "Hélice exposée sur l'ancienne piste de Pitu",
+     "author": "Kurniawan Dwi",
+     "license": "CC BY 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
     }
    ]
   },
