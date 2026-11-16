@@ -34,6 +34,39 @@ const LAKES = [
   { lon: 98.86, lat: 2.66, rx: 0.5, rz: 0.19, rot: 0.7, island: { rx: 0.17, rz: 0.075 } }, // Toba & Samosir
 ];
 
+// Rattache chaque île à une région du site : [région, lon min, lon max, lat min, lat max], testé dans l'ordre
+// sur le centre de l'île. Les îles hors de toute boîte (Papouasie, Natuna…) ne sont pas cliquables.
+const REGION_BOXES = [
+  ['raja-ampat', 129.3, 131.45, -2.25, 0.6],
+  ['bali', 114.4, 115.75, -8.95, -8.0],
+  ['lombok-et-gili', 115.8, 116.8, -9.2, -8.1],
+  ['sumbawa', 116.7, 119.2, -9.2, -8.0],
+  ['flores-et-komodo', 119.2, 123.2, -9.1, -8.0],
+  ['sumba', 118.8, 121.0, -10.5, -9.2],
+  ['timor-occidental-et-alor', 123.0, 125.3, -11.0, -8.0],
+  ['java', 105.0, 114.7, -8.9, -5.7],
+  ['sumatra', 94.0, 106.8, -6.2, 6.5],
+  ['kalimantan', 108.5, 118.95, -4.4, 4.5],
+  ['sulawesi', 118.95, 125.4, -6.7, 4.2],
+  ['moluques', 125.4, 135.2, -8.6, 3.2],
+];
+function regionOf(ring) {
+  let minX = Infinity;
+  let maxX = -Infinity;
+  let minZ = Infinity;
+  let maxZ = -Infinity;
+  for (const p of ring) {
+    minX = Math.min(minX, p[0]);
+    maxX = Math.max(maxX, p[0]);
+    minZ = Math.min(minZ, p[1]);
+    maxZ = Math.max(maxZ, p[1]);
+  }
+  const lon = (minX + maxX) / 2 + LON0;
+  const lat = LAT0 - (minZ + maxZ) / 2;
+  const box = REGION_BOXES.find((b) => lon >= b[1] && lon <= b[2] && lat >= b[3] && lat <= b[4]);
+  return box ? box[0] : null;
+}
+
 const clamp = (v, a, b) => Math.max(a, Math.min(b, v));
 
 function signedArea(ring) {
@@ -345,9 +378,32 @@ export function buildTerrain() {
   const neighbourStyle = { minSpacing: 0.12, maxSpacing: 0.34, relief: 0.3, ramp: RAMP_NEIGHBOURS, peaks: false, zones: false };
 
   const project = (ring) => ring.map(([lon, lat]) => toWorld(lon, lat));
-  for (const ring of geo.indonesia) addIsland(project(ring), indoStyle, rand, land, skirt);
-  for (const [lon, lat, r] of EXTRA_ISLETS) addIsland(isletRing(lon, lat, r, rand), indoStyle, rand, land, skirt);
+  // Pour chaque île indonésienne : sa région, son contour et la plage de sommets qu'elle occupe dans le maillage.
+  const islands = [];
+  const addIndonesian = (ring) => {
+    const start = land.pos.length / 3;
+    addIsland(ring, indoStyle, rand, land, skirt);
+    islands.push({ region: regionOf(ring), ring, start, end: land.pos.length / 3 });
+  };
+  for (const ring of geo.indonesia) addIndonesian(project(ring));
+  for (const [lon, lat, r] of EXTRA_ISLETS) addIndonesian(isletRing(lon, lat, r, rand));
   for (const ring of geo.neighbours) addIsland(project(ring), neighbourStyle, rand, land, skirt);
+
+  // Région de l'île touchée, à partir du numéro de facette renvoyé par un lancer de rayon.
+  const regionOfFace = (faceIndex) => {
+    const vertex = faceIndex * 3;
+    let lo = 0;
+    let hi = islands.length - 1;
+    while (lo <= hi) {
+      const mid = (lo + hi) >> 1;
+      if (vertex < islands[mid].start) hi = mid - 1;
+      else if (vertex >= islands[mid].end) lo = mid + 1;
+      else return islands[mid].region;
+    }
+    return null;
+  };
+  // Région de l'île qui contient un point au sol (utilisé par le mode compatibilité).
+  const regionAtPoint = (x, z) => islands.find((i) => pointInRing(i.ring, x, z))?.region ?? null;
 
   const group = new THREE.Group();
   const landMesh = new THREE.Mesh(makeGeometry(land), new THREE.MeshLambertMaterial({ vertexColors: true }));
@@ -367,5 +423,5 @@ export function buildTerrain() {
     return hit ? hit.point.y : 0;
   };
 
-  return { group, landMesh, skirtMesh, groundAt, peaks };
+  return { group, landMesh, skirtMesh, groundAt, peaks, islands, regionOfFace, regionAtPoint };
 }

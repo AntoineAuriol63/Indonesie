@@ -5,8 +5,8 @@ Site de préparation du voyage : une carte 3D low-poly de l'Indonésie pour parc
 ## Ce que fait le site
 
 - La vue d'ensemble montre l'archipel, le nom des régions, les grandes villes et un petit modèle 3D animé pour chaque étape.
-- Un clic sur une région y fait entrer : ses étapes s'affichent avec leur nom, et une fiche présente la région.
-- Un clic sur une étape ouvre sa fiche : photo, présentation, activités, durée, accès, prix relevés.
+- Un clic n'importe où sur une île (son contour s'épaissit au survol) fait entrer dans la région : ses étapes s'affichent avec leur nom, et une fiche présente la région.
+- Une fois dans la région, un clic sur une étape ouvre sa fiche : photos, présentation, liste de ce qu'il y a à faire, durée, accès, prix en euros.
 - Le bouton « Exemple d'itinéraire » n'affiche que les étapes d'un parcours, trace le trajet et en donne le détail.
 
 Se déplacer : glisser, molette, clic droit pour tourner, ou au clavier les flèches et ZQSD (A et E pour tourner, + et - pour zoomer).
@@ -32,7 +32,8 @@ Le script réécrit `src/data/base.json` et applique les règles de style (apost
 
 | Quoi | Fichier |
 | --- | --- |
-| Textes des régions et des étapes (générés) | `src/data/base.json` |
+| Données du tableur (durées, repères, prix) | `src/data/base.json` |
+| Textes, activités et photos des fiches | `src/data/content/*.json` |
 | Couleurs, cadrages, noms courts, modèles 3D, villes | `src/data/places.js` |
 | Exemple d'itinéraire | `src/data/itinerary.js` |
 | Carte 3D (relief, mer, nuages, caméra, clavier) | `src/world/` |
@@ -40,4 +41,4 @@ Le script réécrit `src/data/base.json` et applique les règles de style (apost
 | Carte en mode compatibilité, sans WebGL | `src/world/flat.js` |
 | Fiches et navigation | `src/main.js`, `src/style.css` |
 
-Les contours de la carte viennent de Natural Earth (`npm run geo` pour les régénérer). Les photos sont chargées depuis Wikimedia Commons, avec l'auteur et la licence indiqués sous chaque image.
+Les contours de la carte viennent de Natural Earth (`npm run geo` pour les régénérer). Les photos sont chargées depuis Wikimedia Commons ; auteurs et licences sont listés dans « Crédits photos » (bouton ?).

@@ -2,7 +2,7 @@
 // Même relief low-poly, vu sous le même angle incliné, mêmes marqueurs et même API que la carte 3D (src/world/index.js).
 // La projection est axonométrique : se déplacer = translater, zoomer = mettre à l'échelle, ce qui permet de ne
 // redessiner les ~40 000 facettes que lorsque la vue se stabilise.
-import { PLACE_BY_ID, REGION_BY_ID } from '../data/places.js';
+import { PLACE_BY_ID, REGIONS, REGION_BY_ID } from '../data/places.js';
 import { createKeys } from './keys.js';
 import { buildTerrain, toWorld } from './terrain.js';
 import { createLabels } from './labels.js';
@@ -81,7 +81,12 @@ export function createFlatWorld({ canvas, labelLayer, onRegion, onPlace }) {
   const land = prepareTriangles(terrain.landMesh);
   const skirt = prepareTriangles(terrain.skirtMesh);
 
-  const labels = createLabels(labelLayer, { onRegion, onPlace });
+  let hoverRegion = null;
+  const setHoverRegion = (id) => {
+    hoverRegion = id;
+    labels.setHoverRegion(id);
+  };
+  const labels = createLabels(labelLayer, { onRegion, onPlace, onRegionHover: setHoverRegion });
   // Dans ce mode, chaque étape est une gemme à la couleur de sa région (les modèles 3D demandent WebGL).
   const markers = labels.items
     .filter((item) => item.type === 'place')
@@ -215,7 +220,7 @@ export function createFlatWorld({ canvas, labelLayer, onRegion, onPlace }) {
     let bestDist = 26;
     for (const m of markers) {
       const d = Math.hypot(px - m.gx, py - (m.gy - 30 * m.k));
-      if (d < bestDist) {
+      if (m.active && d < bestDist) {
         best = m;
         bestDist = d;
       }
@@ -244,8 +249,10 @@ export function createFlatWorld({ canvas, labelLayer, onRegion, onPlace }) {
     if (!p) {
       if (e.pointerType === 'mouse') {
         const hit = markerAt(e.clientX, e.clientY);
-        canvas.style.cursor = hit ? 'pointer' : '';
         for (const m of markers) m.hovered = m === hit;
+        const region = hit || state.itinerary ? null : regionAt(e.clientX, e.clientY);
+        setHoverRegion(region && region !== state.region ? region : null);
+        canvas.style.cursor = hit || hoverRegion ? 'pointer' : '';
       }
       return;
     }
@@ -271,7 +278,9 @@ export function createFlatWorld({ canvas, labelLayer, onRegion, onPlace }) {
     pinch = null;
     if (e.type === 'pointerup' && pointers.size === 0 && moved < 8) {
       const hit = markerAt(e.clientX, e.clientY);
-      if (hit) onPlace(hit.id);
+      if (hit) return onPlace(hit.id);
+      const region = state.itinerary ? null : regionAt(e.clientX, e.clientY);
+      if (region && region !== state.region) onRegion(region);
     }
   };
   canvas.addEventListener('pointerup', release);
@@ -488,6 +497,38 @@ export function createFlatWorld({ canvas, labelLayer, onRegion, onPlace }) {
     ctx.restore();
   }
 
+  // Région de l'île sous un point de l'écran (on ignore l'altitude : la projection la décale très peu).
+  function regionAt(px, py) {
+    const wx = (px - width / 2 + shift.x) / view.s + view.x;
+    const wz = (py - height / 2 + shift.y) / (view.s * KZ) + view.z;
+    return terrain.regionAtPoint(wx, wz);
+  }
+
+  // Contour des îles à la couleur de leur région : discret au repos, épais au survol ou quand la région est ouverte.
+  const ringsByRegion = REGIONS.map((r) => ({ id: r.id, color: r.color, rings: terrain.islands.filter((i) => i.region === r.id).map((i) => i.ring) }));
+  function drawOutlines() {
+    ctx.lineJoin = 'round';
+    for (const region of ringsByRegion) {
+      const hot = region.id === hoverRegion && !state.itinerary;
+      const open = region.id === state.region;
+      ctx.strokeStyle = region.color;
+      ctx.lineWidth = hot ? 5 : open ? 3.5 : 1.5;
+      ctx.globalAlpha = hot || open ? 1 : 0.55;
+      ctx.beginPath();
+      for (const ring of region.rings) {
+        for (let i = 0; i < ring.length; i++) {
+          const x = toScreenX(ring[i][0]);
+          const y = toScreenY(ring[i][1]);
+          if (i) ctx.lineTo(x, y);
+          else ctx.moveTo(x, y);
+        }
+        ctx.closePath();
+      }
+      ctx.stroke();
+    }
+    ctx.globalAlpha = 1;
+  }
+
   function drawMarkers(t) {
     for (const m of markers) {
       m.gx = toScreenX(m.x);
@@ -593,6 +634,7 @@ export function createFlatWorld({ canvas, labelLayer, onRegion, onPlace }) {
     const cw = width * CACHE_MARGIN * k;
     const ch = height * CACHE_MARGIN * k;
     ctx.drawImage(cache, toScreenX(cacheView.x) - cw / 2, toScreenY(cacheView.z) - ch / 2, cw, ch);
+    drawOutlines();
     drawBoats(elapsed);
     drawSmoke(elapsed);
     drawMarkers(elapsed);

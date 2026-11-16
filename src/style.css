@@ -126,7 +126,8 @@ h3 {
   text-transform: uppercase;
   color: var(--ink-soft);
 }
-.lbl--region:hover {
+.lbl--region:hover,
+.lbl--region.is-hot {
   scale: 1.08;
   background: var(--sun);
 }
@@ -396,26 +397,42 @@ body:not(.started) .topbar {
 .card__text {
   margin: 0;
 }
-.photo {
-  margin: 0 0 14px;
+/* Photos : bande à faire défiler */
+.gallery {
+  display: flex;
+  gap: 10px;
+  margin: 0 -18px 14px;
+  padding: 0 18px 4px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: thin;
+  scrollbar-color: var(--ink) transparent;
 }
-.photo img {
+.gallery figure {
+  flex: none;
+  width: 86%;
+  margin: 0;
+  scroll-snap-align: center;
+}
+.gallery--single figure {
+  width: 100%;
+}
+.gallery img {
   display: block;
   width: 100%;
-  height: 200px;
+  height: 210px;
   object-fit: cover;
   border: 3px solid var(--ink);
   border-radius: 16px;
   background: var(--paper-2);
 }
-.photo figcaption {
-  margin-top: 5px;
-  font-size: 11.5px;
-  line-height: 1.35;
+.gallery figcaption {
+  margin-top: 4px;
+  font-size: 12.5px;
   color: var(--ink-soft);
 }
-.photo a {
-  color: inherit;
+.card__text + .card__text {
+  margin-top: 10px;
 }
 .facts {
   display: grid;
@@ -427,7 +444,7 @@ body:not(.started) .topbar {
 }
 .fact {
   display: grid;
-  grid-template-columns: 82px 1fr;
+  grid-template-columns: 76px 1fr;
   gap: 10px;
   font-size: 14px;
 }
@@ -438,14 +455,18 @@ body:not(.started) .topbar {
 .fact dd {
   margin: 0;
 }
+.fact dd p {
+  margin: 0 0 6px;
+}
 .rows {
   display: grid;
-  gap: 7px;
+  gap: 8px;
 }
 .row {
-  display: grid;
-  gap: 1px;
-  padding: 8px 12px;
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  padding: 7px 12px 7px 7px;
   border: 2.5px solid var(--ink);
   border-radius: 14px;
   background: #fff;
@@ -459,6 +480,19 @@ body:not(.started) .topbar {
   background: var(--sun);
   transform: translateX(3px);
 }
+.row img {
+  flex: none;
+  width: 58px;
+  height: 46px;
+  object-fit: cover;
+  border: 2px solid var(--ink);
+  border-radius: 9px;
+}
+.row__text {
+  display: grid;
+  gap: 1px;
+  min-width: 0;
+}
 .row__name {
   font-family: var(--font-display);
   font-weight: 600;
@@ -468,71 +502,63 @@ body:not(.started) .topbar {
   font-size: 12.5px;
   color: var(--ink-soft);
 }
-.activities {
+
+/* À faire */
+.todos {
   display: grid;
-  gap: 10px;
+  gap: 9px;
 }
-.activity {
-  display: grid;
-  gap: 1px;
-  padding-left: 12px;
-  border-left: 3px solid var(--ink);
+.todo {
+  padding: 9px 12px 10px;
+  border: 2.5px solid var(--ink);
+  border-radius: 14px;
+  background: #fff;
   font-size: 14px;
 }
-.activity__name {
+.todo__head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 8px;
+}
+.todo__name {
   font-family: var(--font-display);
   font-weight: 600;
-  font-size: 15px;
+  font-size: 15.5px;
+  line-height: 1.2;
 }
-.activity__note {
+.todo p {
+  margin: 4px 0 0;
+}
+.todo__meta {
+  font-weight: 800;
   font-size: 12.5px;
   color: var(--ink-soft);
 }
-.prices {
-  display: grid;
-  gap: 8px;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  font-size: 14px;
-}
-.prices li {
-  display: grid;
-  grid-template-columns: 1fr auto;
-  gap: 2px 12px;
-}
-.prices b {
+.tag {
+  flex: none;
+  padding: 1px 8px;
+  border: 2px solid var(--ink);
+  border-radius: 999px;
   font-family: var(--font-display);
-  font-weight: 600;
+  font-weight: 500;
+  font-size: 11.5px;
   white-space: nowrap;
 }
-.prices small {
-  grid-column: 1 / -1;
+.tag--culture { background: #ffd9a8; }
+.tag--nature { background: #c8f0b8; }
+.tag--mer { background: #b6ecf7; }
+.tag--rando { background: #e6d5b8; }
+.tag--ville { background: #e0dcf5; }
+.tag--cuisine { background: #ffd0d6; }
+.tag--faune { background: #ffe58f; }
+.tag--detente { background: #f7d4ef; }
+.credits p {
+  margin: 0 0 6px;
   font-size: 12.5px;
-  color: var(--ink-soft);
 }
-.hint,
-.review {
-  margin: 12px 0 0;
-  font-size: 12.5px;
-  color: var(--ink-soft);
-}
-.review {
-  margin-top: 18px;
-  padding: 10px 12px;
-  border-radius: 12px;
-  background: var(--paper-2);
-  font-size: 13px;
-  color: var(--ink);
-}
-.draft {
-  margin: 0 0 14px;
-  padding: 9px 12px;
-  border: 2.5px dashed var(--ink);
-  border-radius: 12px;
-  background: #fff3c4;
-  font-size: 13.5px;
-  font-weight: 700;
+.credits a {
+  color: inherit;
 }
 
 /* Itinéraire */
@@ -652,6 +678,16 @@ body:not(.started) .topbar {
 .help.is-open {
   opacity: 1;
   transform: none;
+  pointer-events: auto !important;
+}
+.help__credits {
+  margin-top: 6px;
+  padding: 0;
+  border: 0;
+  background: none;
+  font-weight: 800;
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 .help p {
   margin: 0;
@@ -878,8 +914,12 @@ kbd {
   .card__scroll {
     padding: 12px 14px 18px;
   }
-  .photo img {
-    height: 150px;
+  .gallery {
+    margin: 0 -14px 12px;
+    padding: 0 14px 4px;
+  }
+  .gallery img {
+    height: 160px;
   }
   .zoom {
     top: 64px;

@@ -1,7 +1,10 @@
 // Scène 3D : carte low-poly, caméra, modèles animés des étapes et des villes, textes de la carte.
 import * as THREE from 'three';
 import { MapControls } from 'three/addons/controls/MapControls.js';
-import { CITIES, PLACES, PLACE_BY_ID, REGION_BY_ID } from '../data/places.js';
+import { LineMaterial } from 'three/addons/lines/LineMaterial.js';
+import { LineSegments2 } from 'three/addons/lines/LineSegments2.js';
+import { LineSegmentsGeometry } from 'three/addons/lines/LineSegmentsGeometry.js';
+import { CITIES, PLACES, PLACE_BY_ID, REGIONS, REGION_BY_ID } from '../data/places.js';
 import { createKeys } from './keys.js';
 import { createLabels } from './labels.js';
 import { createModel } from './models.js';
@@ -140,7 +143,46 @@ export function createWorld({ canvas, labelLayer, onRegion, onPlace }) {
   }
 
   // ---------- Étapes et villes : un modèle animé par lieu ----------
-  const labels = createLabels(labelLayer, { onRegion, onPlace });
+  let hoverRegion = null;
+  const setHoverRegion = (id) => {
+    hoverRegion = id;
+    labels.setHoverRegion(id);
+  };
+  const labels = createLabels(labelLayer, { onRegion, onPlace, onRegionHover: setHoverRegion });
+
+  // ---------- Contour des régions : un trait à la couleur de la région le long des côtes de ses îles ----------
+  const outlines = {};
+  for (const region of REGIONS) {
+    const positions = [];
+    for (const island of terrain.islands) {
+      if (island.region !== region.id) continue;
+      const ring = island.ring;
+      for (let i = 0; i < ring.length; i++) {
+        const a = ring[i];
+        const b = ring[(i + 1) % ring.length];
+        positions.push(a[0], 0.03, a[1], b[0], 0.03, b[1]);
+      }
+    }
+    if (!positions.length) continue;
+    const material = new LineMaterial({ color: region.color, linewidth: 2, transparent: true, opacity: 0.5, depthWrite: false });
+    const line = new LineSegments2(new LineSegmentsGeometry().setPositions(positions), material);
+    line.renderOrder = 3;
+    scene.add(line);
+    outlines[region.id] = { material, width: 2, opacity: 0.5 };
+  }
+  function updateOutlines(dt) {
+    for (const [id, o] of Object.entries(outlines)) {
+      // Survolée : trait épais ; région ouverte : trait net ; au repos : liseré discret.
+      const hot = id === hoverRegion && !state.itinerary;
+      const open = id === state.region;
+      const width = hot ? 6 : open ? 4 : 2;
+      const opacity = hot || open ? 1 : 0.5;
+      o.width += (width - o.width) * Math.min(1, dt * 12);
+      o.opacity += (opacity - o.opacity) * Math.min(1, dt * 12);
+      o.material.linewidth = o.width;
+      o.material.opacity = o.opacity;
+    }
+  }
   const modelGroup = new THREE.Group();
   scene.add(modelGroup);
   const ringGeometry = new THREE.RingGeometry(0.72, 1, 24).rotateX(-Math.PI / 2);
@@ -203,27 +245,19 @@ export function createWorld({ canvas, labelLayer, onRegion, onPlace }) {
     pointer.set(((event.clientX - rect.left) / rect.width) * 2 - 1, -((event.clientY - rect.top) / rect.height) * 2 + 1);
     raycaster.setFromCamera(pointer, camera);
   };
+  // Une étape n'est cliquable qu'une fois sa région ouverte (ou dans l'itinéraire).
   const pickPlace = (event) => {
     aim(event);
-    const hit = raycaster.intersectObjects(hitMeshes, false).find((h) => placeSpots[h.object.userData.id].show > 0.5);
+    const hit = raycaster.intersectObjects(hitMeshes, false).find((h) => placeSpots[h.object.userData.id].active);
     return hit ? hit.object.userData.id : null;
   };
-  // Clic sur une terre : on retrouve la région par l'étape la plus proche.
+  // N'importe quel point d'une île désigne sa région. Un modèle posé en mer compte pour la région de son étape.
   const pickRegion = (event) => {
     aim(event);
-    const hit = raycaster.intersectObject(terrain.landMesh, false)[0];
-    if (!hit) return null;
-    let best = null;
-    let bestDist = 2.2;
-    for (const p of PLACES) {
-      const s = placeSpots[p.id];
-      const d = Math.hypot(s.x - hit.point.x, s.z - hit.point.z);
-      if (d < bestDist) {
-        best = p.region;
-        bestDist = d;
-      }
-    }
-    return best;
+    const land = raycaster.intersectObject(terrain.landMesh, false)[0];
+    if (land) return terrain.regionOfFace(land.faceIndex);
+    const model = raycaster.intersectObjects(hitMeshes, false)[0];
+    return model ? placeSpots[model.object.userData.id].region : null;
   };
   let down = null;
   canvas.addEventListener('pointerdown', (e) => {
@@ -236,17 +270,29 @@ export function createWorld({ canvas, labelLayer, onRegion, onPlace }) {
     if (moved > 6) return;
     const id = pickPlace(e);
     if (id) return onPlace(id);
-    if (!state.region && !state.itinerary) {
-      const region = pickRegion(e);
-      if (region) onRegion(region);
-    }
+    if (state.itinerary) return;
+    const region = pickRegion(e);
+    if (region && region !== state.region) onRegion(region);
   });
+  // Survol : on mémorise la position et on la traite une fois par image.
+  let hoverEvent = null;
   canvas.addEventListener('pointermove', (e) => {
-    if (e.pointerType !== 'mouse' || down) return;
-    const id = pickPlace(e);
-    canvas.style.cursor = id ? 'pointer' : '';
-    for (const p of PLACES) placeSpots[p.id].tag.hovered = p.id === id;
+    if (e.pointerType === 'mouse' && !down) hoverEvent = e;
   });
+  canvas.addEventListener('pointerleave', () => {
+    hoverEvent = null;
+    setHoverRegion(null);
+  });
+  function updateHover() {
+    if (!hoverEvent) return;
+    const e = hoverEvent;
+    hoverEvent = null;
+    const id = pickPlace(e);
+    for (const p of PLACES) placeSpots[p.id].tag.hovered = p.id === id;
+    const region = id || state.itinerary ? null : pickRegion(e);
+    setHoverRegion(region && region !== state.region ? region : null);
+    canvas.style.cursor = id || hoverRegion ? 'pointer' : '';
+  }
 
   // ---------- Décalage de la vue (pour centrer la carte dans la zone non couverte par le panneau) ----------
   const viewShift = { x: 0, y: 0, tx: 0, ty: 0 };
@@ -261,6 +307,7 @@ export function createWorld({ canvas, labelLayer, onRegion, onPlace }) {
     width = canvas.clientWidth;
     height = canvas.clientHeight;
     renderer.setSize(width, height, false);
+    for (const o of Object.values(outlines)) o.material.resolution.set(width, height);
     camera.aspect = width / height;
     camera.updateProjectionMatrix();
   }
@@ -273,8 +320,9 @@ export function createWorld({ canvas, labelLayer, onRegion, onPlace }) {
   const projected = new THREE.Vector3();
   const shownSpots = [];
   function updateSpots(dt, camDist, elapsed) {
-    const base = THREE.MathUtils.clamp(camDist * 0.032, 0.04, 1.8);
-    const minGap = Math.max(40, height * 0.058);
+    // Taille constante à l'écran de près, puis les modèles rapetissent quand on dézoome beaucoup.
+    const base = THREE.MathUtils.clamp(camDist * 0.034, 0.04, 0.8);
+    const minGap = Math.max(26, Math.min(height * 0.058, (base / camDist) * height * 2.1));
     for (const s of spots) {
       projected.set(s.x, s.y, s.z).project(camera);
       s.onScreen = projected.z < 1 && Math.abs(projected.x) < 1.15 && Math.abs(projected.y) < 1.2;
@@ -359,6 +407,8 @@ export function createWorld({ canvas, labelLayer, onRegion, onPlace }) {
     boats.update(elapsed, camDist);
     smoke.update(elapsed, camDist);
     route.update(elapsed, camDist);
+    updateHover();
+    updateOutlines(dt);
     updateSpots(dt, camDist, elapsed);
     renderer.render(scene, camera);
     requestAnimationFrame(frame);

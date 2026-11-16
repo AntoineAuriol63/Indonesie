@@ -8,7 +8,7 @@ import './style.css';
 
 import { createWorld } from './world/index.js';
 import { createFlatWorld } from './world/flat.js';
-import { PLACE_BY_ID, REGION_BY_ID, placesOf } from './data/places.js';
+import { PLACES, PLACE_BY_ID, REGION_BY_ID, placesOf } from './data/places.js';
 import { ITINERARY } from './data/itinerary.js';
 import { toast } from './ui/fx.js';
 
@@ -16,10 +16,9 @@ const $ = (id) => document.getElementById(id);
 const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
 const isMobile = () => matchMedia('(max-width: 860px)').matches;
 const days = (min, max) => (min === max ? `${min} jour${min > 1 ? 's' : ''}` : `${min} à ${max} jours`);
-const lower = (s) => s.charAt(0).toLowerCase() + s.slice(1);
 
 // Où l'on se trouve : vue d'ensemble, dans une région, sur une étape, ou dans l'exemple d'itinéraire.
-const ui = { region: null, place: null, itinerary: false, started: false };
+const ui = { region: null, place: null, itinerary: false, credits: false, started: false };
 const itineraryIds = ITINERARY.stops.map((s) => s.place);
 
 const worldOptions = {
@@ -41,26 +40,33 @@ try {
 
 // ---------------------------------------------------------------- Fiches
 
-function photo(p, small = false) {
-  if (!p) return '';
-  const license = p.license.split(',')[0];
-  const licenseText = license.startsWith('CC') ? license : lower(license);
+// Tous les prix sont affichés en euros. Les montants en roupies sont convertis à un taux arrondi.
+const IDR_PER_EUR = 19000;
+function euros(price) {
+  if (price.currency === 'EUR') return `${price.amount.toLocaleString('fr-FR')} €`;
+  const value = price.amount / IDR_PER_EUR;
+  return `environ ${value < 10 ? Math.max(1, Math.round(value)) : Math.round(value)} €`;
+}
+
+// Bande de photos qu'on fait défiler ; un clic ouvre la page de la photo sur Wikimedia Commons (auteur, licence).
+function gallery(photos) {
+  if (!photos.length) return '';
   return `
-    <figure class="photo ${small ? 'photo--small' : ''}">
-      <img src="${esc(p.src)}?width=${small ? 480 : 960}" alt="${esc(p.alt)}" loading="lazy" onerror="this.closest('figure').remove()" />
-      <figcaption>${esc(p.alt)}. Photo : <a href="${esc(p.page)}" target="_blank" rel="noopener">${esc(p.author)}</a>, <a href="${esc(p.licenseUrl)}" target="_blank" rel="noopener">${esc(licenseText)}</a>, Wikimedia Commons.</figcaption>
-    </figure>`;
+    <div class="gallery ${photos.length === 1 ? 'gallery--single' : ''}">
+      ${photos
+        .map(
+          (p) => `
+        <figure>
+          <a href="${esc(p.page)}" target="_blank" rel="noopener"><img src="${esc(p.src)}?width=960" alt="${esc(p.caption)}" loading="lazy" onerror="this.closest('figure').remove()" /></a>
+          <figcaption>${esc(p.caption)}</figcaption>
+        </figure>`,
+        )
+        .join('')}
+    </div>`;
 }
 
 const fact = (label, value) => (value ? `<div class="fact"><dt>${label}</dt><dd>${esc(value)}</dd></div>` : '');
-
-function price(p) {
-  const amount = p.amount.toLocaleString('fr-FR');
-  const money = p.currency === 'EUR' ? `${amount} €` : `${amount} ${p.currency}`;
-  const unit = p.unit === 'personne' ? ' par personne' : p.unit.startsWith('nuit') ? ` la ${p.unit}` : '';
-  const details = [p.includes && `comprend : ${lower(p.includes)}`, p.excludes && `hors : ${lower(p.excludes)}`].filter(Boolean).join(' ; ');
-  return `<li><span>${esc(p.label)}</span><b>${money}${unit}</b>${details ? `<small>${esc(details)}</small>` : ''}</li>`;
-}
+const TYPE_CLASS = { Culture: 'culture', Nature: 'nature', Mer: 'mer', Randonnée: 'rando', Ville: 'ville', Cuisine: 'cuisine', Faune: 'faune', Détente: 'detente' };
 
 function regionCard(r) {
   const places = placesOf(r.id);
@@ -68,17 +74,14 @@ function regionCard(r) {
     <header class="card__head" style="--c:${r.color}">
       <button class="back" data-action="back">‹ Indonésie</button>
       <h2>${esc(r.name)}</h2>
-      <p class="card__themes">${esc(r.themes)}</p>
     </header>
     <div class="card__scroll">
-      ${photo(r.photo)}
-      <p class="card__text">${esc(r.text)}</p>
+      ${gallery(places.map((p) => p.photos[0]).filter(Boolean))}
+      <p class="card__text">${esc(r.intro || r.text)}</p>
       <dl class="facts">
         ${fact('En août', r.august)}
         ${fact('Durée', days(r.daysMin, r.daysMax))}
         ${fact('Y aller', r.access)}
-        ${fact('Sur place', r.transport)}
-        ${fact('À prévoir', r.limits)}
       </dl>
       <h3>Les étapes</h3>
       <div class="rows">
@@ -86,48 +89,59 @@ function regionCard(r) {
           .map(
             (p) => `
           <button class="row" data-action="place" data-id="${p.id}">
-            <span class="row__name">${esc(p.name)}</span>
-            <span class="row__meta">${esc(p.themes)} · ${days(p.daysMin, p.daysMax)}</span>
+            ${p.photos[0] ? `<img src="${esc(p.photos[0].src)}?width=160" alt="" loading="lazy" onerror="this.remove()" />` : ''}
+            <span class="row__text">
+              <span class="row__name">${esc(p.name)}</span>
+              <span class="row__meta">${esc(p.themes)} · ${days(p.daysMin, p.daysMax)}</span>
+            </span>
           </button>`,
           )
           .join('')}
       </div>
-      ${r.reviews
-        .map((v) => `<p class="review">Retour d'un voyageur (${esc(lower(v.context))}, ${esc(v.zone)}) : ${esc(lower(v.liked))}. Réserve : ${esc(lower(v.caveat))}.</p>`)
-        .join('')}
     </div>`;
+}
+
+function todoList(p) {
+  // Contenu rédigé s'il existe, sinon les activités brutes du tableur.
+  const items = p.content
+    ? p.content.todo
+    : p.activities.map((a) => ({ name: a.name, type: '', text: [a.what, a.conditions].filter(Boolean).join('. '), time: a.duration, price: null }));
+  return items
+    .map(
+      (t) => `
+      <div class="todo">
+        <div class="todo__head">
+          <span class="todo__name">${esc(t.name)}</span>
+          ${t.type ? `<span class="tag tag--${TYPE_CLASS[t.type] || 'ville'}">${esc(t.type)}</span>` : ''}
+        </div>
+        <p>${esc(t.text)}</p>
+        ${t.time || t.price ? `<p class="todo__meta">${[t.time && esc(t.time), t.price && `${euros(t.price)} (${esc(t.price.what)})`].filter(Boolean).join(' · ')}</p>` : ''}
+      </div>`,
+    )
+    .join('');
 }
 
 function placeCard(p) {
   const r = REGION_BY_ID[p.region];
-  const activities = p.activities
-    .map(
-      (a) => `
-      <div class="activity">
-        <span class="activity__name">${esc(a.name)}</span>
-        <span class="activity__what">${esc([a.what, a.duration && lower(a.duration)].filter(Boolean).join(', '))}</span>
-        ${a.conditions ? `<span class="activity__note">${esc(a.conditions)}</span>` : ''}
-      </div>`,
-    )
-    .join('');
+  const c = p.content;
+  const intro = c ? c.intro.map((para) => `<p class="card__text">${esc(para)}</p>`).join('') : `<p class="card__text">${esc(p.text)}</p>`;
+  const tips = c ? c.tips : [p.note].filter(Boolean);
   return `
     <header class="card__head" style="--c:${r.color}">
       <button class="back" data-action="back">‹ ${esc(ui.itinerary ? 'Itinéraire' : r.name)}</button>
       <h2>${esc(p.name)}</h2>
-      <p class="card__themes">${esc(p.themes)}</p>
     </header>
     <div class="card__scroll">
-      ${photo(p.photo)}
-      <p class="card__text">${esc(p.text)}</p>
-      ${activities ? `<h3>À faire</h3><div class="activities">${activities}</div>` : ''}
+      ${gallery(p.photos)}
+      ${intro}
+      <h3>À faire</h3>
+      <div class="todos">${todoList(p)}</div>
       <h3>En pratique</h3>
       <dl class="facts">
         ${fact('Durée', days(p.daysMin, p.daysMax))}
-        ${fact('Y aller', p.access)}
-        ${fact('Effort', p.effort)}
-        ${fact('À savoir', p.note)}
+        ${fact('Y aller', c ? c.access : p.access)}
+        ${tips.length ? `<div class="fact"><dt>À savoir</dt><dd>${tips.map((t) => `<p>${esc(t)}</p>`).join('')}</dd></div>` : ''}
       </dl>
-      ${p.prices.length ? `<h3>Prix relevés</h3><ul class="prices">${p.prices.map(price).join('')}</ul><p class="hint">Prix relevés en novembre 2026, à revérifier pour août 2027.</p>` : ''}
     </div>`;
 }
 
@@ -138,23 +152,21 @@ function itineraryCard() {
       const p = PLACE_BY_ID[s.place];
       const leg = ITINERARY.legs[i];
       const next = ITINERARY.stops[i + 1];
+      const paid = p.content ? p.content.todo.filter((t) => t.price) : [];
       return `
         <button class="stop" data-action="place" data-id="${p.id}" style="--c:${REGION_BY_ID[p.region].color}">
           <span class="stop__n">${i + 1}</span>
           <span class="stop__body">
             <span class="stop__name">${esc(p.name)}</span>
             <span class="stop__meta">${s.days} jour${s.days > 1 ? 's' : ''} · ${esc(p.see)}</span>
-            ${p.prices
-              .filter((x) => !/^Trans/.test(x.kind))
-              .map((x) => `<span class="stop__price">${esc(x.label)} : ${x.amount.toLocaleString('fr-FR')} ${x.currency === 'EUR' ? '€' : x.currency}</span>`).join('')}
+            ${paid.map((t) => `<span class="stop__price">${esc(t.price.what.charAt(0).toUpperCase() + t.price.what.slice(1))} : ${euros(t.price)}</span>`).join('')}
           </span>
         </button>
         ${
           next
             ? `<div class="leg">
                 <span class="leg__mode">${esc(leg.mode)} vers ${esc(PLACE_BY_ID[next.place].short)}</span>
-                <span>Durée : ${leg.duration ? esc(leg.duration) : 'à préciser'}</span>
-                <span>Prix : ${leg.price ? esc(leg.price) : 'à préciser'}</span>
+                <span>${[leg.duration, leg.price && `${euros(leg.price)} ${leg.price.what}`].filter(Boolean).map(esc).join(' · ')}</span>
               </div>`
             : ''
         }`;
@@ -164,20 +176,35 @@ function itineraryCard() {
     <header class="card__head" style="--c:#1d2b53">
       <button class="back" data-action="back">‹ Indonésie</button>
       <h2>${esc(ITINERARY.title)}</h2>
-      <p class="card__themes">${ITINERARY.stops.length} étapes · ${total} jours sur place</p>
+      <p class="card__themes">${ITINERARY.draft ? 'Exemple provisoire · ' : ''}${ITINERARY.stops.length} étapes · ${total} jours sur place</p>
     </header>
     <div class="card__scroll">
-      ${ITINERARY.draft ? '<p class="draft">Exemple provisoire, construit avec les durées et les prix du tableur. Il sera remplacé par le vrai parcours.</p>' : ''}
       <div class="timeline">${steps}</div>
-      <p class="hint">Les prix sont ceux relevés dans le tableur, à revérifier pour août 2027.</p>
+    </div>`;
+}
+
+// Auteurs et licences de toutes les photos (les licences Creative Commons demandent cette mention).
+function creditsCard() {
+  const rows = PLACES.flatMap((p) => p.photos.map((ph) => ({ ...ph, place: p.name })));
+  return `
+    <header class="card__head" style="--c:#1d2b53">
+      <button class="back" data-action="back">‹ Indonésie</button>
+      <h2>Crédits photos</h2>
+    </header>
+    <div class="card__scroll">
+      <p class="card__text">Les photos viennent de Wikimedia Commons. Un clic sur une photo ouvre sa page d'origine.</p>
+      <div class="credits">
+        ${rows.map((ph) => `<p><a href="${esc(ph.page)}" target="_blank" rel="noopener">${esc(ph.caption)}</a> : ${esc(ph.author)}, <a href="${esc(ph.licenseUrl)}" target="_blank" rel="noopener">${esc(ph.license)}</a></p>`).join('')}
+      </div>
     </div>`;
 }
 
 function render() {
   const panel = $('panel');
-  const open = ui.place || ui.region || ui.itinerary;
+  const open = ui.place || ui.region || ui.itinerary || ui.credits;
   panel.classList.toggle('is-open', !!open);
-  if (ui.place) panel.innerHTML = placeCard(PLACE_BY_ID[ui.place]);
+  if (ui.credits) panel.innerHTML = creditsCard();
+  else if (ui.place) panel.innerHTML = placeCard(PLACE_BY_ID[ui.place]);
   else if (ui.itinerary) panel.innerHTML = itineraryCard();
   else if (ui.region) panel.innerHTML = regionCard(REGION_BY_ID[ui.region]);
   panel.scrollTop = 0;
@@ -192,7 +219,7 @@ function render() {
 // ---------------------------------------------------------------- Navigation
 
 function updatePadding() {
-  const open = ui.place || ui.region || ui.itinerary;
+  const open = ui.place || ui.region || ui.itinerary || ui.credits;
   if (isMobile()) world.setViewPadding({ top: 60, bottom: open ? window.innerHeight * 0.55 : 0 });
   else world.setViewPadding({ top: 60, right: open ? 430 : 0 });
 }
@@ -208,6 +235,7 @@ function flyToItinerary() {
 }
 
 function openRegion(id) {
+  ui.credits = false;
   ui.itinerary = false;
   ui.region = id;
   ui.place = null;
@@ -217,6 +245,7 @@ function openRegion(id) {
 }
 
 function openPlace(id) {
+  ui.credits = false;
   ui.place = id;
   if (!ui.itinerary) ui.region = PLACE_BY_ID[id].region;
   render();
@@ -224,6 +253,10 @@ function openPlace(id) {
 }
 
 function back() {
+  if (ui.credits) {
+    ui.credits = false;
+    return render();
+  }
   if (ui.place) {
     ui.place = null;
     render();
@@ -238,6 +271,7 @@ function back() {
 }
 
 function toggleItinerary() {
+  ui.credits = false;
   ui.itinerary = !ui.itinerary;
   ui.region = null;
   ui.place = null;
@@ -258,7 +292,13 @@ function start() {
 
 const handlers = {
   start,
+  credits: () => {
+    ui.credits = true;
+    $('help').classList.remove('is-open');
+    render();
+  },
   home: () => {
+    ui.credits = false;
     ui.region = null;
     ui.place = null;
     ui.itinerary = false;
@@ -285,7 +325,7 @@ document.addEventListener('keydown', (event) => {
     if (event.key === 'Enter' || event.key === ' ') start();
     return;
   }
-  if (event.key === 'Escape' && (ui.place || ui.region || ui.itinerary)) back();
+  if (event.key === 'Escape' && (ui.place || ui.region || ui.itinerary || ui.credits)) back();
 });
 
 window.addEventListener('resize', updatePadding);

@@ -2,7 +2,7 @@
 // Partagé par la carte 3D et la carte en mode compatibilité, qui fournissent seulement la position à l'écran.
 import { CITIES, GEO_LABELS, PLACES, REGIONS, placesOf } from '../data/places.js';
 
-export function createLabels(layer, { onRegion, onPlace }) {
+export function createLabels(layer, { onRegion, onPlace, onRegionHover }) {
   const items = [];
   const add = (type, id, lon, lat, tag, className, html, priority) => {
     const el = document.createElement(tag);
@@ -20,6 +20,8 @@ export function createLabels(layer, { onRegion, onPlace }) {
     const item = add('region', r.id, r.label.lon, r.label.lat, 'button', 'lbl--region', `${r.short}<small>${count} étape${count > 1 ? 's' : ''}</small>`, 50);
     item.el.style.setProperty('--c', r.color);
     item.el.addEventListener('click', () => onRegion(r.id));
+    item.el.addEventListener('pointerenter', () => onRegionHover?.(r.id));
+    item.el.addEventListener('pointerleave', () => onRegionHover?.(null));
   }
   for (const p of PLACES) {
     const item = add('place', p.id, p.lon, p.lat, 'button', 'lbl--place', `<span class="lbl__n"></span>${p.short}`, 70 - p.rank);
@@ -31,6 +33,11 @@ export function createLabels(layer, { onRegion, onPlace }) {
   for (const g of GEO_LABELS) add('geo', g.name, g.lon, g.lat, 'span', `lbl--geo lbl--${g.kind}`, g.name, g.kind === 'sea' ? 5 : 10);
 
   const byId = Object.fromEntries(items.filter((i) => i.type === 'place').map((i) => [i.id, i]));
+  const regionItems = items.filter((i) => i.type === 'region');
+  // Met en avant le nom d'une région quand on survole son île (et inversement).
+  const setHoverRegion = (id) => {
+    for (const item of regionItems) item.el.classList.toggle('is-hot', item.id === id);
+  };
 
   function setState({ region, place, itinerary }) {
     for (const item of items) {
@@ -79,5 +86,5 @@ export function createLabels(layer, { onRegion, onPlace }) {
     }
   }
 
-  return { items, byId, setState, layout };
+  return { items, byId, setState, setHoverRegion, layout };
 }

@@ -3,12 +3,30 @@
 // ce fichier n'ajoute que ce qui concerne l'affichage : couleurs, cadrages, modèles 3D, noms courts.
 import base from './base.json';
 
+// Contenu rédigé des fiches (textes, activités, photos), un fichier par groupe de régions dans src/data/content/.
+const written = { regions: {}, places: {} };
+for (const file of Object.values(import.meta.glob('./content/*.json', { eager: true }))) {
+  Object.assign(written.regions, file.default.regions);
+  Object.assign(written.places, file.default.places);
+}
+
+const commonsPhoto = (ph) => ({
+  src: `https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(ph.file)}`,
+  page: `https://commons.wikimedia.org/wiki/File:${encodeURIComponent(ph.file)}`,
+  caption: ph.caption,
+  author: ph.author,
+  license: ph.license,
+  licenseUrl: ph.licenseUrl,
+});
+// Photo d'origine du tableur, utilisée tant qu'une étape n'a pas de galerie rédigée.
+const sheetPhoto = (ph) => ({ src: ph.src, page: ph.page, caption: ph.alt, author: ph.author, license: ph.license.split(',')[0], licenseUrl: ph.licenseUrl });
+
 // Couleur, cadrage de la caméra (lon, lat, distance) et position du nom sur la carte.
 const REGION_VIEW = {
   sumatra: { color: '#12b5a6', focus: [99.8, 1.2, 10], label: [101.6, -0.9] },
   java: { color: '#ff8a3d', focus: [110, -7.4, 13.5], label: [109.2, -6.2] },
   bali: { color: '#ff4f8b', focus: [115.1, -8.47, 3.7], label: [114.6, -7.45] },
-  'lombok-et-gili': { color: '#ffb703', focus: [116.3, -8.62, 3.3], label: [115.3, -9.95] },
+  'lombok-et-gili': { color: '#ffb703', focus: [116.3, -8.62, 3.3], label: [116.35, -9.4] },
   sumbawa: { color: '#f77f00', focus: [117.8, -8.5, 5], label: [118.2, -7.45] },
   'flores-et-komodo': { color: '#9b5de5', focus: [120.1, -8.65, 5.4], label: [122.6, -7.5] },
   sumba: { color: '#c05299', focus: [119.85, -9.75, 4.2], label: [119.9, -10.75] },
@@ -65,13 +83,15 @@ const PLACE_VIEW = {
 
 export const REGIONS = base.regions.map((r) => {
   const view = REGION_VIEW[r.id];
-  return { ...r, short: view.short || r.name, color: view.color, focus: { lon: view.focus[0], lat: view.focus[1], dist: view.focus[2] }, label: { lon: view.label[0], lat: view.label[1] } };
+  return { ...r, ...written.regions[r.id], short: view.short || r.name, color: view.color, focus: { lon: view.focus[0], lat: view.focus[1], dist: view.focus[2] }, label: { lon: view.label[0], lat: view.label[1] } };
 });
 export const REGION_BY_ID = Object.fromEntries(REGIONS.map((r) => [r.id, r]));
 
 export const PLACES = base.places.map((p) => {
   const [short, model, rank, spot] = PLACE_VIEW[p.id];
-  return { ...p, short, model, rank, lon: spot ? spot[0] : p.lon, lat: spot ? spot[1] : p.lat };
+  const content = written.places[p.id];
+  const photos = content?.photos?.length ? content.photos.map(commonsPhoto) : p.photo ? [sheetPhoto(p.photo)] : [];
+  return { ...p, content, photos, short, model, rank, lon: spot ? spot[0] : p.lon, lat: spot ? spot[1] : p.lat };
 });
 export const PLACE_BY_ID = Object.fromEntries(PLACES.map((p) => [p.id, p]));
 export const placesOf = (regionId) => PLACES.filter((p) => p.region === regionId);

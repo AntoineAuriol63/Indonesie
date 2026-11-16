@@ -1,7 +1,7 @@
 // Petits modèles 3D low-poly animés posés sur la carte (un par lieu ou par ville).
 // createModel(kind) renvoie { object, update(t) } : object est un THREE.Group à l'échelle 1
 // (emprise au sol d'environ 1 × 1, origine au niveau du sol, +y vers le haut), update(t) l'anime (t en secondes).
-// Chaque modèle est un petit diorama posé sur un socle : une partie statique fusionnée en un seul mesh,
+// Chaque modèle est un petit diorama posé à même la carte : une partie statique fusionnée en un seul mesh,
 // plus quelques parties mobiles (4 au maximum). Tout partage un unique matériau à couleurs par sommet.
 import * as THREE from 'three';
 import { mergeGeometries } from 'three/addons/utils/BufferGeometryUtils.js';
@@ -114,6 +114,8 @@ class Builder {
   }
 
   mesh(x = 0, y = 0, z = 0) {
+    // Sans socle, certains décors n'ont plus de partie fixe : on renvoie alors un mesh vide.
+    if (!this.parts.length) return new THREE.Mesh(new THREE.BufferGeometry(), MATERIAL);
     const geometry = mergeGeometries(this.parts, false);
     geometry.computeVertexNormals();
     for (const g of this.parts) g.dispose();
@@ -131,10 +133,9 @@ const WOOD = '#8d5a2b';
 const THATCH = '#c49a4a';
 const SKIN = '#f2b98a';
 
-// Socle commun : un liseré clair qui détache le diorama du relief, puis le sol coloré.
-function plate(b, top) {
-  b.cyl('#fff6dc', 0.6, 0.63, 0.04, 8, 0, 0.02, 0);
-  b.cyl(top, 0.54, 0.57, 0.05, 8, 0, 0.065, 0);
+// Les modèles sont posés directement sur la carte, sans socle : le relief ou la mer leur sert de sol.
+// (Le paramètre « top » décrivait la couleur de l'ancien socle ; il est conservé pour ne pas toucher aux fabriques.)
+function plate(b) {
   return b;
 }
 
@@ -1159,7 +1160,11 @@ export function createModel(kind) {
   const factory = Object.prototype.hasOwnProperty.call(FACTORIES, kind) ? FACTORIES[kind] : pennant;
   const { parts, update } = factory(phase);
   const object = new THREE.Group();
-  object.add(...parts);
+  const body = new THREE.Group();
+  body.add(...parts);
+  // Les fabriques posent leur décor à la hauteur G (dessus de l'ancien socle) : on redescend le tout au niveau du sol.
+  body.position.y = -G;
+  object.add(body);
   object.userData.kind = kind;
   update(0);
   return { object, update };
