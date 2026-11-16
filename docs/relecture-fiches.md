@@ -114,6 +114,7 @@ Tenir un journal des vérifications (affirmation, source, verdict) hors du dép�
 - Morotai : Dodola, Zum Zum, musées de Daruba, Air Kaca, accès par avion ou par Tobelo.
 - Raja Ampat : 374 espèces à Cape Kri, nombre de marches à Piaynemo, Waisai-Piaynemo (1 h 30 à 2 h), saison des mantas, où se trouvent Junior Homestay et Raja Ampat Sunrise.
 - Kupang : Lasiana, grotte de Kristal, plage de Tedis.
+- Bali, temple de Pulaki : la fiche dit « une dizaine de kilomètres à l'est de Pemuteran », OpenStreetMap le place à 3 km de l'étape. À vérifier.
 - Raja Ampat, Manta Sandy : la fiche le situe « au nord-ouest d'Arborek », OpenStreetMap le place à 3 km au sud-est. À trancher.
 - Alor : La P'tite Kepa (toujours ouvert, toujours seul hébergement ?), Takpala, vol Kupang-Alor.
 - Photos manquantes : vestiges de guerre et banc de sable de Dodola à Morotai, marché de nuit de Kupang, îlot de Kepa, fonds marins de Banda.

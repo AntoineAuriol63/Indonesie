@@ -4,6 +4,10 @@
       -8.9103,
       116.3206
     ],
+    "Coucher de soleil sur la colline de Merese": [
+      -8.9142,
+      116.3191
+    ],
     "Premier cours de surf à Selong Belanak": [
       -8.8701,
       116.1607
@@ -11,10 +15,6 @@
     "Plage de Mawun": [
       -8.9022,
       116.2323
-    ],
-    "Coucher de soleil sur la colline de Merese": [
-      -8.9142,
-      116.3191
     ],
     "Village sasak de Sade ou d'Ende": [
       -8.8394,
@@ -26,13 +26,13 @@
       -8.5175,
       116.4255
     ],
-    "Cascades de Benang Stokel et Benang Kelambu": [
-      -8.533,
-      116.3414
-    ],
     "Villages d'artisans de Pringgasela et Loyok": [
       -8.5857,
       116.4802
+    ],
+    "Cascades de Benang Stokel et Benang Kelambu": [
+      -8.533,
+      116.3414
     ]
   },
   "nord-de-lombok": {
@@ -60,6 +60,14 @@
     ]
   },
   "labuan-bajo-komodo": {
+    "Dragons de Komodo ou de Rinca": [
+      -8.5683,
+      119.5069
+    ],
+    "Lever de soleil sur Padar": [
+      -8.6574,
+      119.5694
+    ],
     "Pink Beach": [
       -8.6014,
       119.5205
@@ -76,20 +84,16 @@
       -8.4331,
       119.9641
     ],
-    "Lever de soleil sur Padar": [
-      -8.6574,
-      119.5694
-    ],
     "Coucher de soleil à Labuan Bajo": [
       -8.4921,
       119.8751
-    ],
-    "Dragons de Komodo ou de Rinca": [
-      -8.5683,
-      119.5069
     ]
   },
   "ruteng-et-manggarai": {
+    "Rizières en toile d'araignée de Cancar": [
+      -8.5887,
+      120.3789
+    ],
     "Grotte de Liang Bua": [
       -8.5308,
       120.4435
@@ -105,34 +109,50 @@
     "Lac Ranamese": [
       -8.6388,
       120.5614
-    ],
-    "Rizières en toile d'araignée de Cancar": [
-      -8.5887,
-      120.3789
     ]
   },
   "wae-rebo": {
     "Montée à pied depuis Denge": [
       -8.8069,
       120.3026
+    ],
+    "Cérémonie d'accueil": [
+      -8.7693,
+      120.284
+    ],
+    "Nuit dans une maison conique": [
+      -8.7693,
+      120.284
+    ],
+    "Café de Wae Rebo": [
+      -8.7693,
+      120.284
+    ],
+    "Lever du jour sur le village": [
+      -8.7693,
+      120.284
     ]
   },
   "sumbawa-besar-moyo": {
-    "Île de Kenawa": [
-      -8.4986,
-      116.8329
+    "Cascade de Mata Jitu": [
+      -8.2118,
+      117.5199
+    ],
+    "Cascade de Diwu Mba'i": [
+      -8.2065,
+      117.4846
+    ],
+    "Palais Dalam Loka": [
+      -8.5043,
+      117.4273
     ],
     "Requins-baleines de la baie de Saleh": [
       -8.5104,
       117.8957
     ],
-    "Cascade de Mata Jitu": [
-      -8.2118,
-      117.5199
-    ],
-    "Palais Dalam Loka": [
-      -8.5043,
-      117.4273
+    "Île de Kenawa": [
+      -8.4986,
+      116.8329
     ]
   },
   "sud-ouest-waikabubak": {
@@ -148,9 +168,35 @@
       -9.6323,
       119.4075
     ],
+    "Cascade de Lapopu": [
+      -9.6783,
+      119.493
+    ],
     "Marché de Waikabubak": [
       -9.6355,
       119.4075
+    ]
+  },
+  "waingapu-et-est": {
+    "Collines de Wairinding": [
+      -9.6795,
+      120.1001
+    ],
+    "Ateliers d'ikat à Prailiu et Rende": [
+      -9.6591,
+      120.2767
+    ],
+    "Arbres dansants de Walakiri": [
+      -9.6286,
+      120.4275
+    ],
+    "Cascade de Waimarang": [
+      -9.9688,
+      120.6029
+    ],
+    "Savane de Puru Kambera": [
+      -9.5443,
+      120.1143
     ]
   }
 }
