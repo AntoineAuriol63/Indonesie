@@ -10,16 +10,14 @@ for (const file of Object.values(import.meta.glob('./content/*.json', { eager: t
   Object.assign(written.places, file.default.places);
 }
 
-const commonsPhoto = (ph) => ({
-  src: `https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(ph.file)}`,
-  page: `https://commons.wikimedia.org/wiki/File:${encodeURIComponent(ph.file)}`,
-  caption: ph.caption,
-  author: ph.author,
-  license: ph.license,
-  licenseUrl: ph.licenseUrl,
-});
+// Une photo vient de Wikimedia Commons (champ « file », redimensionnée à la demande) ou d'une autre source (champ « url »).
+const commons = (path) => (width) => `${path}?width=${width}`;
+const photoOf = (ph) =>
+  ph.url
+    ? { caption: ph.caption, at: () => ph.url }
+    : { caption: ph.caption, at: commons(`https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(ph.file)}`) };
 // Photo d'origine du tableur, utilisée tant qu'une étape n'a pas de galerie rédigée.
-const sheetPhoto = (ph) => ({ src: ph.src, page: ph.page, caption: ph.alt, author: ph.author, license: ph.license.split(',')[0], licenseUrl: ph.licenseUrl });
+const sheetPhoto = (ph) => ({ caption: ph.alt, at: commons(ph.src) });
 
 // Couleur, cadrage de la caméra (lon, lat, distance) et position du nom sur la carte.
 const REGION_VIEW = {
@@ -97,8 +95,8 @@ export const PLACES = [...base.places, ...EXTRA_PLACES].map((p) => {
   const [short, model, rank, spot] = PLACE_VIEW[p.id];
   const content = written.places[p.id];
   // Une galerie n'est utilisée que si elle est complète (fichier et vraie légende pour chaque photo).
-  const gallery = (content?.photos || []).filter((ph) => ph.file && ph.caption?.length > 3);
-  const photos = gallery.length ? gallery.map(commonsPhoto) : p.photo ? [sheetPhoto(p.photo)] : [];
+  const gallery = (content?.photos || []).filter((ph) => (ph.file || ph.url) && ph.caption?.length > 3);
+  const photos = gallery.length ? gallery.map(photoOf) : p.photo ? [sheetPhoto(p.photo)] : [];
   return { ...p, content, photos, short, model, rank, lon: spot ? spot[0] : p.lon, lat: spot ? spot[1] : p.lat };
 });
 export const PLACE_BY_ID = Object.fromEntries(PLACES.map((p) => [p.id, p]));

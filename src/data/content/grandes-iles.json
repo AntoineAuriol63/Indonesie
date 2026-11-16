@@ -7,7 +7,7 @@
     },
     "kalimantan": {
       "intro": "C'est la partie indonésienne de Bornéo. On y a repéré deux séjours qui n'ont rien à voir. À Tanjung Puting, on passe trois jours sur un bateau en bois à remonter une rivière dans la forêt pour voir les orangs-outans. À Derawan et Maratua, de l'autre côté de l'île, on nage avec les tortues, les raies manta et les méduses de Kakaban. Aucune route ne relie les deux : c'est l'un ou l'autre, ou alors des vols en plus.",
-      "august": "Août est le mois le plus sec, mais il fait chaud et humide quand même. Certaines années, la fumée des feux de forêt gêne la vue et peut retarder les vols.",
+      "august": "Août est un des mois les plus secs, mais il fait chaud et humide quand même. Certaines années, la fumée des feux de forêt gêne la vue et peut retarder les vols.",
       "access": "Pour Tanjung Puting, on atterrit à Pangkalan Bun et on embarque à Kumai. Pour Derawan, on atterrit à Berau, puis c'est la route et le hors-bord. Le bateau de Tanjung Puting se loue en entier, qu'on soit deux ou six."
     },
     "sulawesi": {
@@ -49,7 +49,7 @@
           "name": "Retour en bouée sur la Bohorok",
           "type": "Nature",
           "text": "À la fin du trek, les guides attachent de grosses chambres à air ensemble et on redescend la rivière jusqu'au village, assis dedans, les sacs emballés dans du plastique. Quelques petits rapides, rien de méchant. On peut aussi louer une bouée au village sans faire le trek.",
-          "time": "30 min",
+          "time": "30 à 45 min",
           "price": null
         },
         {
@@ -62,7 +62,7 @@
         {
           "name": "Baignade devant les guesthouses",
           "type": "Détente",
-          "text": "Les guesthouses sont alignées le long de la Bohorok, reliées par des passerelles suspendues. On se baigne juste devant : l'eau est fraîche et le courant fort par endroits. En fin de journée, on voit souvent des singes sur la rive d'en face.",
+          "text": "Les guesthouses sont alignées sur les deux rives de la Bohorok, avec des passerelles suspendues pour traverser. On se baigne juste devant : l'eau est fraîche et le courant fort par endroits. En fin de journée, on voit souvent des singes sur la rive d'en face.",
           "time": "",
           "price": null
         },
@@ -76,7 +76,7 @@
         {
           "name": "Palais Maimun, à Medan",
           "type": "Culture",
-          "text": "Le palais jaune des sultans de Deli, à quelques minutes à pied de la mosquée. On ne visite que la salle du trône, où l'on peut se faire photographier en costume malais. Dehors, la pelouse sert de lieu de promenade aux familles.",
+          "text": "Le palais jaune des sultans de Deli, à quelques minutes à pied de la mosquée. On ne visite que la salle du trône, où l'on peut se faire photographier en costume malais. Le jaune est la couleur des sultans malais.",
           "time": "45 min",
           "price": null
         },
@@ -104,8 +104,43 @@
       "photos": [
         {
           "file": "Yuli Seperi Orangutan TNGL-1.jpg",
-          "caption": "x",
+          "caption": "Orang-outan de Sumatra et son petit",
           "author": "Yuliseperi2020",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Bukit Lawang, Langkat Regency, North Sumatra, Indonesia.jpg",
+          "caption": "Bukit Lawang et la rivière Bohorok",
+          "author": "Madeleine Holland",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "file": "Gunung Leuser & Orang Utans (35322365933).jpg",
+          "caption": "Orang-outan mâle dans le Gunung Leuser",
+          "author": "Dennis Keller",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "file": "Indonesia - Bukit Lawang (25950029113).jpg",
+          "caption": "Semnopithèque de Thomas à Bukit Lawang",
+          "author": "Visions of Domino",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "file": "Masjid Raya Al Mashun Medan.jpg",
+          "caption": "Grande mosquée Al-Mashun, Medan",
+          "author": "Herusutimbul",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Maimun Palace Medan Indonesia.jpg",
+          "caption": "Palais Maimun, Medan",
+          "author": "Mimihitam",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
         }
@@ -120,7 +155,7 @@
         {
           "name": "Tuk Tuk et baignade dans le lac",
           "type": "Détente",
-          "text": "La presqu'île où tout le monde loge. Presque chaque guesthouse a son ponton : on plonge directement dans le lac, l'eau est douce, calme, fraîche sans être froide. Le tour de Tuk Tuk à pied prend une petite heure.",
+          "text": "La presqu'île où tout le monde loge. Presque chaque guesthouse a son ponton : on plonge directement dans le lac, l'eau est calme, fraîche sans être froide. Le tour de Tuk Tuk à pied prend une petite heure.",
           "time": "",
           "price": null
         },
@@ -155,7 +190,7 @@
         {
           "name": "Cascade de Sipiso-piso",
           "type": "Nature",
-          "text": "À l'extrémité nord du lac, près de Tongging : une chute de 120 m qui sort de la falaise d'un seul jet. On la regarde d'en haut, avec le lac derrière, ou on descend les centaines de marches jusqu'en bas. Elle est sur la route entre Berastagi et le lac.",
+          "text": "À l'extrémité nord du lac, près de Tongging : une chute de 120 m qui sort de la falaise d'un seul jet. On la regarde d'en haut, avec le lac derrière, ou on descend les centaines de marches jusqu'en bas. C'est sur la route de Berastagi.",
           "time": "1 à 2 h",
           "price": null
         },
@@ -172,7 +207,50 @@
         "Il n'y a plus de ferry pour Tuk Tuk le soir : ne pas arriver trop tard à Parapat.",
         "Les soirées sont fraîches à 900 m, un pull suffit."
       ],
-      "photos": []
+      "photos": [
+        {
+          "file": "Danau Toba dari Samosir.jpg",
+          "caption": "Le lac Toba vu depuis Samosir",
+          "author": "PL 05 SIGIT",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Sipiso-piso Waterfalls.jpg",
+          "caption": "Cascade de Sipiso-piso",
+          "author": "Hendypernando",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Rumah Bolon, Rumah Adat Suku Batak di Sumatera Utara.jpg",
+          "caption": "Danseurs devant une maison batak",
+          "author": "Pratechno",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Batu Persidangan Huta Siallagan Januari 2026.jpg",
+          "caption": "Chaises de pierre de Huta Siallagan, Ambarita",
+          "author": "Nafisathallah",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Rumah Bolon.jpg",
+          "caption": "Maisons batak à Huta Siallagan",
+          "author": "Nurul Ichlasiah",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Toba Lake, seen from Tuk Tuk, Samosir Island, 2014-12-27.jpg",
+          "caption": "Le lac vu depuis Tuk Tuk",
+          "author": "Kenrick95",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
     },
     "bukittinggi-et-hauts-plateaux": {
       "intro": [
@@ -183,7 +261,7 @@
         {
           "name": "Jam Gadang et le marché Pasar Atas",
           "type": "Ville",
-          "text": "La tour de l'horloge de 1926, coiffée d'un toit minangkabau, au milieu de la place centrale. Le soir, toute la ville vient s'y promener. Juste à côté, le marché Pasar Atas vend des chips de manioc pimentées, des tissus brodés et du nasi kapau.",
+          "text": "La tour de l'horloge de 1926, coiffée d'un toit minangkabau, au milieu de la place où toute la ville se promène le soir. Juste à côté, le marché Pasar Atas vend des chips de manioc pimentées. Pour le nasi kapau, on descend aux étals de Los Lambuang.",
           "time": "1 h",
           "price": null
         },
@@ -250,12 +328,55 @@
         "Le Marapi est un volcan actif, on le regarde d'en bas.",
         "La région est très pratiquante : épaules et genoux couverts en ville."
       ],
-      "photos": []
+      "photos": [
+        {
+          "file": "Danau Maninjau dari Lawang.jpg",
+          "caption": "Lac Maninjau vu depuis Puncak Lawang",
+          "author": "seven red",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        },
+        {
+          "file": "Jam Gadang Okt 2020 1.jpg",
+          "caption": "Jam Gadang, place centrale de Bukittinggi",
+          "author": "Rhmtdns",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Ngarai Sianok nan Hijau.jpg",
+          "caption": "Canyon de Sianok",
+          "author": "Adhmi",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        },
+        {
+          "file": "Istano Rajo Basa Pagaruyung.jpg",
+          "caption": "Palais de Pagaruyung",
+          "author": "Herusutimbul",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Harau Valley ^Manifestone - panoramio.jpg",
+          "caption": "Rizière et falaise, vallée de Harau",
+          "author": "patargogo",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+        },
+        {
+          "file": "Nasi Padang dishes at Simpang Raya Jam Gadang Restaurant - Guguk Panjang, Bukit Tinggi, West Sumatra.jpg",
+          "caption": "Assiettes de cuisine padang, Bukittinggi",
+          "author": "Firzafp",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
     },
     "tanjung-puting": {
       "intro": [
         "Trois jours sur un klotok, un bateau en bois à deux étages, à remonter la rivière Sekonyer dans la forêt de Bornéo. On dort sur le pont sous une moustiquaire, le cuisinier prépare les repas à bord et on s'arrête trois fois pour marcher jusqu'aux plateformes où les orangs-outans viennent manger.",
-        "Le parc abrite la plus grande population d'orangs-outans sauvages au monde. Depuis le bateau, on voit aussi des singes nasiques, des calaos, parfois un crocodile. Ce n'est pas un trek : on marche une vingtaine de minutes à chaque arrêt."
+        "Le parc abrite la plus grande population d'orangs-outans sauvages au monde. Depuis le bateau, on voit aussi des singes nasiques, des calaos, parfois un crocodile. Ce n'est pas un trek : on marche entre un quart d'heure et une demi-heure à chaque arrêt."
       ],
       "todo": [
         {
@@ -307,7 +428,50 @@
         "Août est la haute saison : réserver le klotok plusieurs mois avant et s'attendre à d'autres bateaux à chaque plateforme.",
         "On ne se baigne pas dans la rivière, il y a des crocodiles."
       ],
-      "photos": []
+      "photos": [
+        {
+          "file": "Bornean orangutan (Pongo pygmaeus), Tanjung Putting National Park 01.jpg",
+          "caption": "Orang-outan de Bornéo et son petit",
+          "author": "Thomas Fuhrmann",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Tanjung Puting National Park - 49813439933.jpg",
+          "caption": "Klotok sur la rivière, Tanjung Puting",
+          "author": "Jorge Franganillo",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "file": "Proboscis Monkey Taman Nasional Tanjung Puting, Kalimatan Tengah.jpg",
+          "caption": "Singes nasiques dans un arbre",
+          "author": "Liliaini",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Bornean orangutan (2).jpg",
+          "caption": "Orangs-outans sur une plateforme de nourrissage",
+          "author": "Raflinoer32",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Orang Utan in Tanjung Puting National Park, Kalimantan.jpg",
+          "caption": "Orang-outan mâle à Tanjung Puting",
+          "author": "George Arif Kurniawan",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Tanjung Puting National Park.jpg",
+          "caption": "Klotoks amarrés à Tanjung Puting",
+          "author": "Jorge Franganillo",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        }
+      ]
     },
     "derawan-maratua": {
       "intro": [
@@ -371,7 +535,50 @@
         "Ni les mantas ni les requins-baleines ne sont là tous les jours.",
         "Il faut être à l'aise dans l'eau : il y a du courant le long des tombants."
       ],
-      "photos": []
+      "photos": [
+        {
+          "file": "Aerial of Derawan 2017-09-16.jpg",
+          "caption": "L'île de Derawan vue du ciel",
+          "author": "consigliere ivan",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "file": "Penyu Hijau Dari Pulau Derawan.jpg",
+          "caption": "Tortue verte à Derawan",
+          "author": "Fikry Agara",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        },
+        {
+          "file": "Maratua Paradise Resort.jpg",
+          "caption": "Bungalows sur pilotis à Maratua",
+          "author": "Deffy Kuswanto",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Maratua Manta birostris (36).jpg",
+          "caption": "Raie manta près de Maratua",
+          "author": "Nanosanchez",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Tukik.jpg",
+          "caption": "Bébé tortue verte à Derawan",
+          "author": "Fikry Agara",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        },
+        {
+          "file": "Side view of Maratua Island.jpg",
+          "caption": "Plage et cocotiers à Maratua",
+          "author": "Deffy Kuswanto",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
     },
     "pays-toraja": {
       "intro": [
@@ -431,7 +638,7 @@
         {
           "name": "Assister à des funérailles",
           "type": "Culture",
-          "text": "Si une cérémonie a lieu pendant le séjour, on y va avec un guide local. On apporte un cadeau à la famille, des cigarettes ou du sucre, on s'habille en sombre et on s'assoit là où l'on nous place. Les buffles sont sacrifiés devant tout le monde : c'est dur à regarder.",
+          "text": "Si une cérémonie a lieu, on y va avec un guide local. On apporte des cigarettes ou du sucre à la famille, on s'habille en sombre et on s'assoit là où l'on nous place. Les buffles sont sacrifiés devant tout le monde : c'est dur à regarder.",
           "time": "demi-journée",
           "price": null
         },
@@ -443,13 +650,56 @@
           "price": null
         }
       ],
-      "access": "Depuis Makassar, 8 à 9 heures de route jusqu'à Rantepao. Les bus de nuit ont des sièges qui s'allongent presque à plat. Il existe aussi quelques vols en petit avion entre Makassar et l'aéroport de Toraja.",
+      "access": "Depuis Makassar, 8 à 9 heures de route jusqu'à Rantepao. Les bus de nuit ont des sièges qui s'allongent presque à plat. Il existe aussi quelques vols entre Makassar et le petit aéroport de Toraja.",
       "tips": [
         "Une cérémonie ne se réserve pas et ne se garantit pas : demander à la guesthouse ou à un guide dès l'arrivée.",
         "Chaque site a son petit droit d'entrée, à payer en liquide.",
         "Les nuits sont fraîches en altitude."
       ],
-      "photos": []
+      "photos": [
+        {
+          "file": "Kete' Kesu' Toraja.jpg",
+          "caption": "Maisons tongkonan de Ke'te Kesu",
+          "author": "Ansensius",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Tana Toraja, Lemo, tau taus (6969212585).jpg",
+          "caption": "Tau-tau dans la falaise de Lemo",
+          "author": "Arian Zwegers",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "file": "Limbong (46440966984).jpg",
+          "caption": "Rizières en terrasses du pays Toraja",
+          "author": "Jorge Franganillo",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "file": "Rantepao Pasar Bolu (32105047077).jpg",
+          "caption": "Marché aux buffles de Bolu, Rantepao",
+          "author": "Jorge Franganillo",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "file": "LONDA. Tana Toraja.jpg",
+          "caption": "Cercueils suspendus à Londa",
+          "author": "LonerWolf14",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Tana Toraja, Lemo (6969213671).jpg",
+          "caption": "Falaise aux tombes de Lemo",
+          "author": "Arian Zwegers",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        }
+      ]
     },
     "manado-bunaken": {
       "intro": [
@@ -510,10 +760,53 @@
       "access": "Vol jusqu'à Manado, puis environ 45 minutes de bateau depuis le port. La plupart des resorts de Bunaken viennent chercher leurs clients.",
       "tips": [
         "Il y a parfois du courant le long des murs : rester près du bateau et du guide.",
-        "L'entrée du parc marin se paie en plus, une fois pour tout le séjour.",
-        "La plongée bouteille est partout proposée ici, mais tout ce qui est décrit se fait en snorkeling."
+        "L'entrée du parc marin se paie en plus de l'hébergement.",
+        "Les clubs vivent surtout de la plongée bouteille : préciser dès la réservation qu'on vient pour le snorkeling."
       ],
-      "photos": []
+      "photos": [
+        {
+          "file": "Bunaken Marine Park.JPG",
+          "caption": "Coraux et poissons à Bunaken",
+          "author": "Sakurai Midori",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+        },
+        {
+          "file": "Bunaken Marine Park (2).JPG",
+          "caption": "Tombant corallien de Bunaken",
+          "author": "Sakurai Midori",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+        },
+        {
+          "file": "Loggerhead Sea Turtle in blue water near Alung Banua Reef.jpg",
+          "caption": "Tortue marine dans le bleu, Bunaken",
+          "author": "Matt Kieffer",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+        },
+        {
+          "file": "Sunset at Bunaken Island, Sulawesi, 2016.jpg",
+          "caption": "Bateau devant le volcan Manado Tua",
+          "author": "Niek van Son",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "file": "Mahawu.JPG",
+          "caption": "Cratère du Mahawu, Tomohon",
+          "author": "Voigt-rv",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Lake Linow 2020.jpg",
+          "caption": "Lac Linow, près de Tomohon",
+          "author": "Juxlos",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
     },
     "tangkoko": {
       "intro": [
@@ -556,7 +849,50 @@
         "Le guide est obligatoire, on le trouve au village ou par la guesthouse.",
         "Tarsiers et macaques se voient à presque toutes les sorties, les calaos et les couscous moins souvent."
       ],
-      "photos": []
+      "photos": [
+        {
+          "file": "Sulawesi trsr DSCN0523 v1.JPG",
+          "caption": "Tarsier dans la forêt de Tangkoko",
+          "author": "T. R. Shankar Raman",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        },
+        {
+          "file": "Sulawesi trsr DSCN0568 v1.JPG",
+          "caption": "Macaques à crête au pied d'un arbre",
+          "author": "T. R. Shankar Raman",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        },
+        {
+          "file": "Sulawesi trsr DSCN0307 v1.JPG",
+          "caption": "Couple de calaos à cimier",
+          "author": "T. R. Shankar Raman",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        },
+        {
+          "file": "Hutan Tangkoko Rumah Bagi MACACA NIGRA (Yaki).jpg",
+          "caption": "Groupe de macaques à crête",
+          "author": "Hermondo Kasiadi",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Beach at Tangkoko National Park, N.Sulawesi (8374903297).jpg",
+          "caption": "Plage de sable noir de Tangkoko",
+          "author": "Pavel Kirillov",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+        },
+        {
+          "file": "Sulawesi trsr DSCN0272 v1.JPG",
+          "caption": "Deux tarsiers dans leur arbre creux",
+          "author": "T. R. Shankar Raman",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        }
+      ]
     }
   }
 }

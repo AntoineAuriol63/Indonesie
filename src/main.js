@@ -58,7 +58,7 @@ function gallery(photos) {
         .map(
           (p) => `
         <figure>
-          <img src="${esc(p.src)}?width=960" alt="${esc(p.caption)}" loading="lazy" onerror="this.closest('figure').remove()" />
+          <img src="${esc(p.at(960))}" alt="${esc(p.caption)}" loading="lazy" onerror="this.closest('figure').remove()" />
           <figcaption>${esc(p.caption)}</figcaption>
         </figure>`,
         )
@@ -90,7 +90,7 @@ function regionCard(r) {
           .map(
             (p) => `
           <button class="row" data-action="place" data-id="${p.id}">
-            ${p.photos[0] ? `<img src="${esc(p.photos[0].src)}?width=160" alt="" loading="lazy" onerror="this.remove()" />` : ''}
+            ${p.photos[0] ? `<img src="${esc(p.photos[0].at(160))}" alt="" loading="lazy" onerror="this.remove()" />` : ''}
             <span class="row__text">
               <span class="row__name">${esc(p.name)}</span>
               <span class="row__meta">${esc(p.themes)} · ${days(p.daysMin, p.daysMax)}</span>

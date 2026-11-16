@@ -34,6 +34,8 @@ Le script réécrit `src/data/base.json` et applique les règles de style (apost
 | --- | --- |
 | Données du tableur (durées, repères, prix) | `src/data/base.json` |
 | Textes, activités et photos des fiches | `src/data/content/*.json` |
+| Consignes de relecture des fiches | `docs/relecture-fiches.md` |
+| Contrôle d'un fichier de contenu | `scripts/check-content.py` |
 | Couleurs, cadrages, noms courts, modèles 3D, villes | `src/data/places.js` |
 | Exemple d'itinéraire | `src/data/itinerary.js` |
 | Carte 3D (relief, mer, nuages, caméra, clavier) | `src/world/` |
