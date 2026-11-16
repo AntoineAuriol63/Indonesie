@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#25c4dd" />
+    <meta name="description" content="Notre voyage en Indonésie : explorer les îles, choisir les étapes, construire l'itinéraire." />
+    <title>Indonésie — Notre aventure</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🌴%3C/text%3E%3C/svg%3E"
+    />
+  </head>
+  <body>
+    <canvas id="scene" aria-label="Carte 3D de l'Indonésie"></canvas>
+    <div id="labels"></div>
+
+    <div id="app">
+      <header class="topbar">
+        <button class="brand" data-action="home" title="Revenir à la vue d'ensemble">
+          <span class="brand__logo">🌴</span>
+          <span class="brand__text"><strong>Indonésie</strong><small>Notre aventure</small></span>
+        </button>
+        <nav class="phases" aria-label="Étapes du projet">
+          <button class="phase is-active" data-action="phase" data-phase="1"><b>1</b> Rêver</button>
+          <button class="phase is-locked" data-action="phase" data-phase="2"><b>2</b> Planifier 🔒</button>
+          <button class="phase is-locked" data-action="phase" data-phase="3"><b>3</b> Partager 🔒</button>
+        </nav>
+        <button class="btn btn--sun topbar__menu" data-action="toggle-list">☰ Destinations</button>
+      </header>
+
+      <aside id="list" class="panel list"></aside>
+      <aside id="detail" class="panel detail" aria-live="polite"></aside>
+      <div id="tourbar" class="tourbar"></div>
+      <div class="zoom" role="group" aria-label="Zoom">
+        <button data-action="zoom" data-factor="0.6" aria-label="Zoomer">+</button>
+        <button data-action="zoom" data-factor="1.65" aria-label="Dézoomer">−</button>
+        <button data-action="home" aria-label="Vue d'ensemble" title="Vue d'ensemble">🌏</button>
+      </div>
+      <footer id="dock" class="dock"></footer>
+      <div id="modal" class="modal" hidden></div>
+    </div>
+
+    <div id="intro" class="intro">
+      <div class="intro__card">
+        <p class="intro__kicker">17 000 îles · 1 voyage · 2 joueurs</p>
+        <h1 class="intro__title" aria-label="Indonésie">
+          <span>I</span><span>n</span><span>d</span><span>o</span><span>n</span><span>é</span><span>s</span><span>i</span><span>e</span>
+        </h1>
+        <p class="intro__sub">Explorez la carte, votez pour vos coups de cœur<br />et construisez l'itinéraire ensemble.</p>
+        <button class="btn btn--start" data-action="start">▶ Commencer l'aventure</button>
+        <p class="intro__hint">ou appuyez sur <kbd>Entrée</kbd></p>
+      </div>
+    </div>
+
+    <div id="fx"></div>
+    <div id="toasts"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
