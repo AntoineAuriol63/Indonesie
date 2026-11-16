@@ -540,6 +540,16 @@ body:not(.started) .topbar {
   0%, 35% { background: var(--sun); }
   100% { background: #fff; }
 }
+.todo__photo {
+  display: block;
+  width: calc(100% + 24px);
+  height: 140px;
+  margin: -9px -12px 9px;
+  object-fit: cover;
+  border-bottom: 2.5px solid var(--ink);
+  border-radius: 11px 11px 0 0;
+  background: var(--paper-2);
+}
 .todo__head {
   display: flex;
   align-items: flex-start;

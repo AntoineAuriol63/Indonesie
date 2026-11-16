@@ -1,27 +1,5 @@
-// Scènes détaillées : quand une étape est sélectionnée, son petit modèle laisse place à plusieurs
-// monuments et activités animés, posés sur la carte autour du lieu.
-//
-// Une scène est une liste d'éléments : { name, match, dx, dz, size, height, build }.
-//   name   : texte de l'étiquette sur la carte
-//   match  : début du nom de l'activité correspondante dans la fiche (un clic sur l'étiquette y amène)
-//   dx, dz : décalage en degrés par rapport au repère de l'étape (dx vers l'est, dz vers le sud)
-//   size   : taille en degrés d'une unité du modèle ; height : hauteur du modèle, pour placer l'étiquette
-//   build  : fabrique, renvoie { parts, update(t) } comme les modèles de models.js (origine au sol)
-import * as THREE from 'three';
-import { Builder, createModel, flag, person, puff, rise } from './models.js';
-
-const PI = Math.PI;
-
-// Vélo de location avec son cycliste, origine au sol, tourné vers +x.
-function bike(color) {
-  const b = new Builder();
-  b.cyl('#343a40', 0.05, 0.05, 0.016, 8, -0.07, 0.05, 0, PI / 2, 0, 0);
-  b.cyl('#343a40', 0.05, 0.05, 0.016, 8, 0.07, 0.05, 0, PI / 2, 0, 0);
-  b.box(color, 0.15, 0.022, 0.022, 0, 0.09, 0);
-  b.box(color, 0.022, 0.07, 0.022, 0.06, 0.12, 0);
-  person(b, color, color, -0.01, 0.09, 0, 0.75);
-  return b.mesh();
-}
+// Scène détaillée de Jakarta.
+import { Builder, PI, bike, createModel, flag, person, puff, rise } from './kit.js';
 
 const JAKARTA = [
   {
@@ -278,26 +256,4 @@ const JAKARTA = [
   },
 ];
 
-const SCENES = { jakarta: JAKARTA };
-
-// Renvoie la scène d'une étape (ou null), avec son centre, pour y amener la caméra.
-export function sceneOf(placeId) {
-  const items = SCENES[placeId];
-  if (!items) return null;
-  const xs = items.map((i) => i.dx);
-  const zs = items.map((i) => i.dz);
-  return {
-    items,
-    center: { dx: (Math.min(...xs) + Math.max(...xs)) / 2, dz: (Math.min(...zs) + Math.max(...zs)) / 2 },
-    span: Math.max(Math.max(...xs) - Math.min(...xs), Math.max(...zs) - Math.min(...zs)),
-  };
-}
-
-// Construit un élément : un groupe à l'échelle 1, à placer et à animer par la scène 3D.
-export function buildItem(item) {
-  const { parts, update } = item.build();
-  const object = new THREE.Group();
-  object.add(...parts);
-  update(0);
-  return { object, update };
-}
+export default { jakarta: JAKARTA };

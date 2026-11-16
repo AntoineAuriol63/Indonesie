@@ -119,8 +119,9 @@ function todoList(p) {
     : p.activities.map((a) => ({ name: a.name, type: '', text: [a.what, a.conditions].filter(Boolean).join('. '), time: a.duration, price: null }));
   return items
     .map(
-      (t) => `
+      (t, i) => `
       <div class="todo">
+        ${p.todoImages[i] ? `<img class="todo__photo" src="${esc(p.todoImages[i].at(640))}" alt="${esc(p.todoImages[i].caption)}" loading="lazy" onerror="this.remove()" />` : ''}
         <div class="todo__head">
           <span class="todo__name">${esc(t.name)}</span>
           ${t.type ? `<span class="tag tag--${TYPE_CLASS[t.type] || 'ville'}">${esc(t.type)}</span>` : ''}
@@ -250,13 +251,13 @@ function openRegion(id) {
   world.flyTo(f.lon, f.lat, f.dist);
 }
 
-function openPlace(id) {
+function openPlace(id, options) {
   // On retient où l'on en était dans le programme pour y revenir au même endroit.
   if (ui.itinerary && !ui.place) itineraryScroll = document.querySelector('#panel .card__scroll')?.scrollTop || 0;
   ui.place = id;
   if (!ui.itinerary) ui.region = PLACE_BY_ID[id].region;
   render();
-  world.focusPlace(id);
+  world.focusPlace(id, options);
 }
 
 function back() {
@@ -330,6 +331,13 @@ document.addEventListener('keydown', (event) => {
 
 window.addEventListener('resize', updatePadding);
 render();
+
+// Lien direct vers une fiche : https://…/?etape=jakarta ouvre la carte sur cette étape.
+const direct = new URLSearchParams(location.search).get('etape');
+if (direct && PLACE_BY_ID[direct]) {
+  start();
+  openPlace(direct, { instant: true });
+}
 
 // Tout est prêt : on active le bouton de l'écran titre.
 document.body.classList.add('ready');

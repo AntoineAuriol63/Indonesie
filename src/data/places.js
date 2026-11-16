@@ -86,6 +86,39 @@ export const REGIONS = base.regions.map((r) => {
 });
 export const REGION_BY_ID = Object.fromEntries(REGIONS.map((r) => [r.id, r]));
 
+// Photo de chaque activité. Une activité peut désigner la sienne (champ « photo », même format que la galerie) ;
+// sinon on lui attribue la photo de la galerie dont la légende parle du même sujet, quand il y en a une.
+const STOP_WORDS = new Set(['dans', 'pour', 'avec', 'vers', 'depuis', 'sous', 'entre', 'leur', 'leurs', 'cette', 'tout', 'tous', 'plus']);
+const words = (text) =>
+  new Set(
+    text
+      .toLowerCase()
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .match(/[a-z0-9]{4,}/g)
+      ?.filter((w) => !STOP_WORDS.has(w)) || [],
+  );
+const shared = (a, b) => [...a].filter((w) => b.has(w)).length;
+function todoPhotos(todo, gallery) {
+  const names = todo.map((t) => words(t.name));
+  const texts = todo.map((t) => words(t.text));
+  const result = todo.map((t) => (t.photo ? photoOf(t.photo) : null));
+  gallery.forEach((ph, index) => {
+    const caption = words(ph.caption);
+    let best = -1;
+    let bestScore = 0;
+    todo.forEach((t, i) => {
+      const score = shared(caption, names[i]) * 2 + shared(caption, texts[i]) * 0.5;
+      if (score > bestScore) {
+        best = i;
+        bestScore = score;
+      }
+    });
+    if (best >= 0 && bestScore >= 2 && !result[best]) result[best] = photoOf(ph);
+  });
+  return result;
+}
+
 // Étapes qui ne viennent pas du tableur. « hidden » : visible seulement dans l'exemple d'itinéraire.
 const EXTRA_PLACES = [
   { id: 'sanur', region: 'bali', name: 'Sanur', themes: 'Plage / détente', see: 'Plage, front de mer à vélo', daysMin: 2, daysMax: 3, lat: -8.688, lon: 115.262, hidden: true, activities: [], prices: [] },
@@ -97,7 +130,8 @@ export const PLACES = [...base.places, ...EXTRA_PLACES].map((p) => {
   // Une galerie n'est utilisée que si elle est complète (fichier et vraie légende pour chaque photo).
   const gallery = (content?.photos || []).filter((ph) => (ph.file || ph.url) && ph.caption?.length > 3);
   const photos = gallery.length ? gallery.map(photoOf) : p.photo ? [sheetPhoto(p.photo)] : [];
-  return { ...p, content, photos, short, model, rank, lon: spot ? spot[0] : p.lon, lat: spot ? spot[1] : p.lat };
+  const todoImages = content ? todoPhotos(content.todo, gallery) : [];
+  return { ...p, content, photos, todoImages, short, model, rank, lon: spot ? spot[0] : p.lon, lat: spot ? spot[1] : p.lat };
 });
 export const PLACE_BY_ID = Object.fromEntries(PLACES.map((p) => [p.id, p]));
 export const placesOf = (regionId) => PLACES.filter((p) => p.region === regionId && !p.hidden);
