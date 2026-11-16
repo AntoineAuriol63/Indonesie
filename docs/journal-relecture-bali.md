@@ -67,3 +67,30 @@ Photos : les six ont été regardées et leurs descriptions Commons relues, tout
 | Ubud-Munduk : un peu plus de 2 h | BHS Munduk (60 km, 2 h ; aéroport 3 h à 3 h 30) ; theworldtravelguy (2 h) ; rech. (1 h 30 à 1 h 45) | corrigée : 1 h 30 à 2 h ; temps depuis l'aéroport ajouté |
 
 Photos : les six ont été regardées et leurs descriptions Commons relues, toutes conformes (Banyumala, Ulun Danu Beratan, lac Buyan, pirogues et temple de Tamblingan, rizières de Munduk, cascade de Munduk dite Red Coral). Aucun changement.
+
+## Sidemen
+
+Source principale des prix : la liste « Pick Up / Transfer - Area Sidemen, Price List Sidemen Tour & Trekking », mise à jour en novembre 2025, publiée par l'hôtel Uma Dewi Sri : https://umadewisri.com/exchange/Transport%20Prices.pdf (liée depuis https://umadewisri.com/faq/). Les deux prix du tableur viennent de cette même liste.
+
+| Affirmation | Source (URL) | Verdict |
+|---|---|---|
+| Transfert Sidemen-Ubud 400 000, « publié par Uma Dewi Sri » | liste ci-dessus : « Sidemen ↔ Ubud 400.000 IDR » | confirmée ; attribution corrigée (Sidemen Tour & Trekking, novembre 2025). La liste donne un prix par trajet, sans préciser « par véhicule » ; c'est un transfert privé avec chauffeur |
+| Transfert Sidemen-Padang Bai 350 000, « publié par Sidemen Tour » | même liste : « Sidemen ↔ Padang Bai 350.000 IDR » | confirmée, même remarque |
+| Guide pour les rizières | même liste : « trekking around the rice fields 150.000 IDR / hour (min. 2 hours) » | prix ajouté : 150 000 par heure |
+| Mont Agung, plus haut volcan de Bali | WV Mount Agung (https://en.wikivoyage.org/wiki/Sidemen y redirige) | confirmée |
+| Sentiers le long des canaux, rivière Unda | https://umadewisri.com/ (marche le long de l'irrigation, rivière) ; Commons, « SIDEMEN RIVER UNDA EAST BALI.jpg » (Tukad Unda et son pont jaune, catégorie Sidemen, Karangasem) | confirmée ; pont jaune ajouté |
+| Tissage : endek et songket, ateliers du village | rech. : Frommer's, Pelangi Workshop (jusqu'à 40 personnes sur des métiers à pédales pour l'endek ; ikat et songket), Lonely Planet (Pelangi Traditional Weaving) ; https://bali.com/bali/travel-guide/culture/balinese-textiles/ (Sidemen « cœur du tissage » de Bali ; songket aux fils d'or ou d'argent porté aux cérémonies et mariages) | confirmée ; atelier Pelangi nommé |
+| Tirta Gangga : dernier raja de Karangasem, 1946 | https://en.wikipedia.org/wiki/Tirta_Gangga (1946, détruit presque entièrement en 1963, 7 km au nord d'Amlapura) ; https://www.baliholidaysecrets.com/tirta-gangga-water-palace/ (maj 9 novembre 2026 : carpes koï, dalles sur l'eau, fontaine à étages, Lempuyang à 30 min) | confirmée |
+| « Fontaine à onze étages » | nombre d'étages non retrouvé | corrigée : « haute fontaine à étages » |
+| Tirta Gangga « à une heure de route » de Sidemen | temps depuis Sidemen non retrouvé | retirée |
+| Tirta Gangga : prix | BHS (90 000) ; rech. : plusieurs guides 2026 (90 000 adulte étranger) | prix ajouté : 90 000 |
+| Lempuyang : miroir, queue de deux heures, « à plus d'une heure de Sidemen » | https://www.baliholidaysecrets.com/lempuyang-temple/ (mars 2026 : miroir sous l'objectif, numéro d'ordre remis avec le billet, 2 à 4 h d'attente, première navette vers 5 h 30, 100 000 + navette obligatoire 50 000, espèces) | corrigée : attente de 2 à 4 h ; temps depuis Sidemen retiré (non retrouvé) ; prix ajouté : 150 000 |
+| Besakih : plus grand temple, « à 45 minutes au nord », « tout le monde est en blanc » | https://www.baliholidaysecrets.com/besakih-temple/ (maj janvier 2026 : 23 temples, environ 1 000 m, 150 000 avec guide imposé, sarong et navette aller) ; rech. (« a short drive away from Sidemen ») | confirmée pour l'essentiel ; « 45 minutes » remplacé par « à courte distance », phrase sur les cérémonies retirée ; prix ajouté : 150 000 |
+| Rafting : à une vingtaine de minutes, environ deux heures, barrage qu'on saute | rech. : https://travjoy.com/blog/white-water-rafting-in-bali-telaga-waja-vs-ayung-river-compared (Sidemen à 20-30 min, barrage de 4 m), annonces d'opérateurs (2 h 30 de rafting, barrage de 5 m) | corrigée : 20 à 30 min, 2 h 30, barrage de 4 à 5 m ; prix non retenu (350 000 à 600 000 selon les opérateurs) |
+| Ubud à 1 h 15 | rech. : https://www.baliholidaysecrets.com/how-to-get-to-ubud/ (1 h 30, 33 km), https://www.anywhere.com/indonesia/destinations/sidemen/transfers (1 h) | corrigée : 1 h à 1 h 30 |
+| Kerta Gosa, pavillon de justice au plafond peint | https://en.wikipedia.org/wiki/Klungkung_Palace (cour de justice, plafond de style wayang de Kamasan : châtiments de l'au-delà) | confirmée, sujet des peintures ajouté |
+| Padang Bai à 45 minutes, bateaux rapides pour les Gili et Lombok | rech. : annonce de transfert privé Padang Bai-Sidemen (40 minutes) ; https://en.wikivoyage.org/wiki/Padang_Bai (bateaux rapides pour les Gili et Lombok) | corrigée : 40 minutes environ |
+| Aéroport à 2 h | https://umadewisri.com/faq/ (« around 2 hours ») | confirmée ; ajout : Grab et Gojek peu fiables à Sidemen, réserver un chauffeur (même page) |
+| Chemins des rizières pas tous publics | note du tableur de départ (`base.json`), non recoupée sur le web | conservée |
+
+Photos : les six ont été regardées. « Sidemen scenes (Unsplash) » (sacs d'engrais au bord d'une route, faible) est remplacée par une vue du mont Agung depuis Sidemen (Flickr, Paul Arps, CC BY 2.0, https://www.flickr.com/photos/21160385@N02/30219647192, licence lue sur la page), placée en deuxième position. Tissage à Sidemen : aucune photo libre trouvée (Commons, Openverse), sujet toujours sans image.

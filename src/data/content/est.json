@@ -126,64 +126,66 @@
   },
   "ternate-tidore": {
    "intro": [
-    "Ternate, c'est un volcan de 1 715 m, le Gamalama, avec une ville accrochée à son flanc. L'île est toute petite : on en fait le tour par la route côtière en une demi-journée. C'était la capitale du clou de girofle. Les sultans, les Portugais et les Hollandais y ont laissé un palais et une série de forts.",
-    "En face, Tidore, l'île rivale, est à une dizaine de minutes de bateau. Plus calme, elle a son propre sultanat, ses forts espagnols et des girofliers partout sur les pentes."
+    "Ternate, c'est un volcan de 1 715 m, le Gamalama, avec une ville accrochée à son flanc. L'île est toute petite : la route côtière en fait le tour en une heure et demie sans arrêt. Avec Tidore, c'était le seul endroit au monde où poussait le giroflier. Les sultans, les Portugais et les Hollandais y ont laissé un palais et une série de forts.",
+    "En face, Tidore, l'île rivale, est à un quart d'heure de bateau. Elle a son propre sultanat, ses forts espagnols et des girofliers sur les pentes. La récolte tombe en été : en août, les clous sèchent sur des bâches au bord des routes."
    ],
    "todo": [
     {
      "name": "Tournée des forts",
      "type": "Culture",
-     "text": "Trois forts se visitent facilement. Tolukko, petit fort portugais sur une butte au nord de la ville. Oranje, le grand fort hollandais de 1607, en plein centre. Kalamata, au sud, posé au ras de l'eau face à Tidore.",
+     "text": "Trois forts se visitent facilement. Tolukko, petit fort portugais au nord de la ville, avec le Gamalama en fond depuis le toit. Oranje, le plus grand, bâti par les Hollandais en 1607, en plein centre. Kalamata, fort portugais en étoile de 1540, au sud, posé au ras de l'eau face à Tidore.",
      "time": "demi-journée",
      "price": null
     },
     {
      "name": "Palais du sultan",
      "type": "Culture",
-     "text": "Le kedaton est une grande maison jaune sur une butte face à la mer. Une partie se visite comme un musée, avec surtout des armes et des armures portugaises. Juste à côté, la mosquée du sultanat et son toit à étages.",
+     "text": "Le kedaton, de 1813, est une grande maison jaune pâle en haut d'un escalier. Le musée ouvre du mardi au dimanche, de 8 h à 14 h, contre un don : portraits des sultans, cartes anciennes, armures portugaises. On entre déchaussé et sans short. Non loin, la mosquée du sultanat, de 1606, est réservée aux hommes.",
      "time": "1 h",
      "price": null
     },
     {
      "name": "Lac Tolire",
      "type": "Nature",
-     "text": "Un lac de cratère vert au pied du Gamalama, au nord-ouest de l'île, entouré de falaises. La légende dit qu'aucune pierre lancée du bord n'atteint l'eau, et des gamins en vendent pour essayer. On s'y arrête pendant le tour de l'île.",
+     "text": "Un lac de cratère vert au pied du Gamalama, au nord-ouest de l'île, à une dizaine de kilomètres de la ville, entouré de falaises. La légende dit qu'aucune pierre lancée du bord n'atteint l'eau, et que des crocodiles blancs gardent le lac. On s'y arrête pendant le tour de l'île.",
      "time": "1 h",
      "price": null
     },
     {
      "name": "Tour de l'île par la côte",
      "type": "Nature",
-     "text": "En voiture ou en scooter : la coulée de lave noire de Batu Angus, la plage de Sulamadaha et sa crique claire où l'on nage avec un masque, puis le lac Ngade, d'où l'on voit Maitara et Tidore comme sur l'ancien billet de 1 000 roupies.",
+     "text": "En voiture ou en scooter : les blocs de lave noire de Batu Angus, la plage de sable noir de Sulamadaha et sa crique turquoise, à 300 m par un sentier, où l'on nage avec un masque, puis le lac Ngade, par une route raide, face au volcan de Tidore, celui de l'ancien billet de 1 000 roupies.",
      "time": "demi-journée",
      "price": null
     },
     {
      "name": "Girofliers du Gamalama",
      "type": "Nature",
-     "text": "Sur les pentes au-dessus de la ville, on monte voir Cengkeh Afo, les plus vieux girofliers de l'île, au milieu des plantations de girofle et de muscade. À la récolte, les clous sèchent sur des bâches au bord des routes et toute l'île sent le girofle.",
+     "text": "Sur les pentes au-dessus de la ville, au village de Tongole, on monte voir les Cengkeh Afo, les plus vieux girofliers de l'île, plus de deux siècles pour les doyens encore debout. Tout autour, des plantations. À la récolte, les clous sèchent sur des bâches au bord des routes.",
      "time": "2 h",
      "price": null
     },
     {
      "name": "Journée à Tidore",
      "type": "Culture",
-     "text": "Bateau rapide du port de Bastiong jusqu'à Rum, puis route jusqu'à Soasio, de l'autre côté de l'île, pour le palais du sultan de Tidore et le fort Tahula, en haut de ses marches. Les navires de l'expédition de Magellan y ont chargé du girofle en 1521.",
+     "text": "Bateau rapide du port de Bastiong jusqu'à Rum, où un monument rappelle le passage de l'expédition de Magellan, venue charger des épices en 1521. Puis route jusqu'à Soasio, sur la côte est, pour le palais reconstruit du sultan et le fort Tahula, bâti par les Espagnols vers 1610, en haut d'un long escalier.",
      "time": "la journée",
      "price": null
     },
     {
      "name": "Thon cru et sagou",
      "type": "Cuisine",
-     "text": "À goûter : le gohu ikan, du thon cru mariné au citron, au basilic et aux cacahuètes, et le papeda, une pâte de sagou qu'on avale avec un bouillon de poisson jaune. Le soir, on boit un air guraka, du gingembre chaud aux noix de kenari.",
+     "text": "À goûter : le gohu ikan, du thon cru mariné au citron vert, au basilic et au piment, souvent avec des cacahuètes, et le papeda, une pâte de sagou qu'on avale avec un bouillon de poisson jaune. En fin de journée, on boit un air guraka, du gingembre chaud au sucre de palme, avec des éclats de noix de kenari.",
      "time": "",
      "price": null
     }
    ],
-   "access": "Vols directs pour Ternate depuis Jakarta, Makassar ou Manado, et l'aéroport est à un quart d'heure du centre. Pour Tidore, des bateaux partent toute la journée du port de Bastiong.",
+   "access": "Vols directs pour Ternate depuis Jakarta, Surabaya, Makassar, Manado ou Ambon ; l'aéroport est à 5 km du centre. Pour Tidore, des bateaux rapides partent du port de Bastiong toute la journée, dès qu'ils sont pleins.",
    "tips": [
-    "Le Gamalama est actif, son sommet est parfois fermé et la montée est longue et raide : on se contente des pentes.",
-    "Ville très musulmane et peu touristique : tenue couverte en dehors de la plage, peu d'alcool."
+    "Août et septembre sont les mois les moins pluvieux, mais il pleut toute l'année.",
+    "Le Gamalama est actif (son éruption de 2011 a fermé l'aéroport) et la montée prend plusieurs heures : on se contente des pentes.",
+    "Ville musulmane à 97 % et peu touristique : tenue couverte en dehors de la plage.",
+    "Peu d'hôtels et de restaurants prennent la carte : on garde du liquide."
    ],
    "photos": [
     {

@@ -31,3 +31,38 @@ Moluques, Raja Ampat, Timor occidental et Alor. Vérifications faites en novembr
 | Retirer son liquide à Ambon | Wikivoyage, eyeinthemiddle (un seul distributeur BRI, peu fiable) | Confirmée, précisée |
 
 Photos : les six photos existantes ont été regardées et correspondent à leur légende (descriptions Commons lues). Fonds marins de Banda : rien d'exploitable sur Commons (catégories Banda Islands, Banda Api, Pulau Ai et recherches « underwater », « coral », « snorkeling ») ni de photo libre au lieu certain trouvée ailleurs ; galerie inchangée.
+
+## ternate-tidore
+
+| Affirmation | Source (URL) | Verdict |
+| --- | --- | --- |
+| Gamalama, 1 715 m | https://en.wikipedia.org/wiki/Ternate | Confirmée |
+| Tour de l'île « en une demi-journée » | https://theworldtravelguy.com/ternate-indonesia-island/ (mis à jour mai 2026) : boucle goudronnée, 1 h 30 en voiture | Précisée : 1 h 30 sans arrêt |
+| « Capitale du clou de girofle » | https://en.wikivoyage.org/wiki/Tidore : Ternate et Tidore, seuls endroits où poussait le giroflier | Reformulée |
+| Tidore « à une dizaine de minutes de bateau » | worldtravelguy (15 min), https://ambon.antaranews.com/berita/209130/ (15 min), Wikivoyage (20 min) | Corrigée : dix minutes -> un quart d'heure |
+| Tidore « plus calme » | aucune | Retirée |
+| Récolte du girofle, clous qui sèchent au bord des routes | Wikivoyage Tidore (récolte pendant l'été boréal) ; photo Commons prise le 21 août 2014 | Confirmée, « en été » ajouté ; « toute l'île sent le girofle » retiré |
+| Tolukko, fort portugais sur une butte au nord | https://en.wikivoyage.org/wiki/Ternate, worldtravelguy (dates divergentes : 1512 ou 1540) | Confirmée sans date ; « sur une butte » remplacé par la vue depuis le toit |
+| Oranje, fort hollandais de 1607, au centre | Wikivoyage, https://jalurrempah.kemdikbud.go.id/en/photo/fort-oranje-in-ternate-and-its-role-in-history-2557 | Confirmée (le plus grand fort de l'île) |
+| Kalamata, au sud, au ras de l'eau face à Tidore | Wikivoyage, worldtravelguy (fort portugais en étoile, 1540) ; photo regardée | Confirmée, date ajoutée |
+| Kedaton : maison jaune, musée d'armes et d'armures portugaises | Wikivoyage (bâti en 1813, mardi-dimanche 8 h-14 h, don, pas de short, on se déchausse) ; récit cité par la recherche (portraits, cartes, armures portugaises du XVIe) ; photo regardée | Confirmée, complétée ; « face à la mer » retiré |
+| Mosquée du sultanat « juste à côté », toit à étages | https://en.wikipedia.org/wiki/Sultan_of_Ternate_Mosque (toit pyramidal, 1606, hommes seulement), https://www.cnnindonesia.com/gaya-hidup/20180521163701-269-300038/tiga-aturan-masuk-masjid-kesultanan-ternate | Corrigée : « non loin », réservée aux hommes |
+| Lac Tolire : cratère vert, nord-ouest, falaises, légende de la pierre | Wikipedia Ternate, https://www.goodnewsfromindonesia.id/2026/03/16/danau-tolire-di-ternate-keindahan-danau-vulkanik-dengan-mitos-buaya-putih, étude citée (10 km du centre) | Confirmée |
+| « Des gamins vendent des pierres » | aucune | Retirée, remplacée par la légende des crocodiles blancs (sourcée) |
+| Batu Angus, coulée de lave noire | https://rri.co.id/en/tourism/1948476/ (dates d'éruption divergentes : 1673 ou 1907) | Confirmée sans date |
+| Sulamadaha : crique claire, masque | Wikivoyage (sable noir, eau claire), worldtravelguy (crique à 300 m par un sentier) | Confirmée, précisée |
+| Lac Ngade : vue sur Maitara et Tidore « comme sur le billet de 1 000 roupies » | worldtravelguy (vue sur le volcan de Tidore, celui du billet), Wikivoyage ; catalogues numismatiques (Maitara et Tidore au dos du billet de 2000) | Confirmée, route raide ajoutée |
+| Cengkeh Afo, plus vieux girofliers de l'île | https://mongabay.co.id/2021/06/06/mengunjungi-tongole-kampung-bambu-dengan-situs-cengkih-tertua/, https://news.republika.co.id/berita/msddf4/cengkeh-tertua-di-dunia-ada-di-ternate | Confirmée, village de Tongole ajouté ; âges divergents (Afo II environ 260 ans, Afo III environ 200) -> « plus de deux siècles » ; « plantations de muscade » retiré |
+| Tidore : Bastiong -> Rum, Soasio de l'autre côté, palais, fort Tahula et ses marches | https://en.wikipedia.org/wiki/Fort_Tahula (espagnol, 1609-1615, escalier), https://en.wikivoyage.org/wiki/Tidore (palais reconstruit, monument de Magellan à Rum), indonesia.travel (Bastiong-Rum) | Confirmée, complétée |
+| Expédition de Magellan, girofle chargé en 1521 | Wikivoyage Tidore | Confirmée |
+| Gohu ikan, papeda, air guraka | https://www.indonesia.travel/gb/en/travel-ideas/gastronomy/gohu-ikan, https://www.liputan6.com/regional/read/5398472/ | Confirmée ; gohu : citron vert, basilic, piment, cacahuètes selon les recettes ; air guraka : sucre de palme et kenari |
+| Vols directs depuis Jakarta, Makassar, Manado | worldtravelguy (Jakarta, Surabaya, Makassar, Manado, Ambon) | Confirmée, complétée |
+| Aéroport « à un quart d'heure » | agrégateurs de vols (4 à 5 km du centre) | Reformulée : 5 km |
+| Bateaux pour Tidore toute la journée | Wikivoyage Ternate (toute la journée, départ à 8 passagers) | Confirmée |
+| Gamalama actif, montée longue | Wikivoyage (éruption de 2011), worldtravelguy (plusieurs heures depuis Moya) | Confirmée ; « sommet parfois fermé » retiré (non sourcé) |
+| Ville très musulmane, « peu d'alcool » | Wikipedia (97 % de musulmans) | Confirmée ; « peu d'alcool » retiré (non sourcé) |
+| Août plutôt sec | Wikipedia Ternate (septembre puis août, mois les moins pluvieux, pluie toute l'année) | Confirmée, nuancée |
+
+Prix : traversée Ternate-Tidore à 15 000 IDR relevée dans une seule source de 2024 (Antara) : non retenue.
+
+Photos : les six photos existantes regardées, toutes conformes à leur légende (descriptions Commons lues). Galerie inchangée.

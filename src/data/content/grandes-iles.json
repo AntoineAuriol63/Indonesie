@@ -151,64 +151,65 @@
     },
     "lac-toba": {
       "intro": [
-        "Le lac Toba remplit le cratère d'un ancien volcan géant : 100 km de long, 35 de large, à 905 m d'altitude, donc il y fait bon. Au milieu, la grande île de Samosir est le pays des Batak Toba, avec leurs maisons aux toits en forme de selle et leurs tombeaux de pierre.",
-        "On dort à Tuk Tuk, une petite presqu'île de Samosir couverte de guesthouses au bord de l'eau. Le programme est simple : scooter le long du lac, villages batak, baignade depuis le ponton, poisson grillé le soir."
+        "Le lac Toba remplit le cratère d'un ancien volcan géant : 100 km de long, 30 de large, à 905 m d'altitude, donc il y fait bon. Au milieu, Samosir est le pays des Batak Toba, avec leurs maisons aux toits en forme de selle et leurs tombeaux de pierre. C'était une presqu'île ; un canal creusé en 1906 à Pangururan en a fait une île, reliée à la rive par un pont.",
+        "On dort à Tuk Tuk, une petite presqu'île de Samosir couverte de guesthouses au bord de l'eau. Le programme est simple : scooter le long du lac, villages batak, baignade devant la chambre, poisson grillé le soir."
       ],
       "todo": [
         {
           "name": "Tuk Tuk et baignade dans le lac",
           "type": "Détente",
-          "text": "La presqu'île où tout le monde loge. Presque chaque guesthouse a son ponton : on plonge directement dans le lac, l'eau est calme, fraîche sans être froide. Le tour de Tuk Tuk à pied prend une petite heure.",
+          "text": "La presqu'île où tout le monde loge. La plupart des guesthouses donnent directement sur le lac : on descend dans l'eau depuis le jardin, sans plonger, car le bord est rocheux. L'eau est moins propre près des élevages de poissons : demander à la guesthouse où nager.",
           "time": "",
           "price": null
         },
         {
           "name": "Tour de Samosir en scooter",
           "type": "Nature",
-          "text": "On loue un scooter à Tuk Tuk et on suit la route du bord du lac vers le nord : Ambarita, Simanindo, puis Pangururan et ses sources chaudes. Des rizières, des églises et des tombes batak tout le long. On rentre par le même chemin.",
+          "text": "On loue un scooter à Tuk Tuk et on suit la route du bord du lac vers le nord : Ambarita, Simanindo, puis Pangururan et ses sources chaudes. L'île est grande, le tour complet fait une centaine de kilomètres avec des côtes : on part tôt et on rentre par le même chemin avant la nuit.",
           "time": "la journée",
           "price": null
         },
         {
           "name": "Tombeau du roi Sidabutar, à Tomok",
           "type": "Culture",
-          "text": "À quelques kilomètres au sud de Tuk Tuk. Des sarcophages de pierre sculptés, dont celui du roi Sidabutar, au bout d'une allée de stands de souvenirs. On y voit aussi danser le Sigale-gale, une marionnette en bois de la taille d'un homme.",
+          "text": "À 5 km au sud de Tuk Tuk. Des sarcophages de pierre sculptés, dont celui du roi Sidabutar, au bout d'une allée de stands de souvenirs. À l'entrée, on passe un ulos, l'écharpe tissée des Batak. Le Sigale-gale, une marionnette en bois de la taille d'un homme, danse quand un groupe paie le spectacle.",
           "time": "1 h",
           "price": null
         },
         {
           "name": "Chaises de pierre d'Ambarita",
           "type": "Culture",
-          "text": "Dans le village de Huta Siallagan, entouré d'un mur de pierre, un cercle de sièges où le roi et les anciens jugeaient les accusés. Le guide raconte la suite devant la pierre d'exécution, un peu plus loin. Autour, une rangée de maisons batak.",
+          "text": "Dans le village de Huta Siallagan, entouré d'un mur de pierre, un cercle de sièges où le roi et les anciens jugeaient les accusés. Un second cercle, un peu plus loin, entoure la table de pierre où l'on exécutait les condamnés. Autour, une rangée de maisons batak.",
           "time": "1 h",
           "price": null
         },
         {
           "name": "Danses batak à Simanindo",
           "type": "Culture",
-          "text": "À la pointe nord de Samosir, l'ancienne maison d'un roi batak est devenue un petit musée, Huta Bolon. En fin de matinée, on y donne un spectacle de danses tor-tor en costume, devant les maisons.",
+          "text": "À la pointe nord de Samosir, l'ancienne maison d'un roi batak est devenue un petit musée, Huta Bolon. Tous les jours à 10 h 30, on y donne un spectacle de danses tor-tor en costume devant les maisons, et les spectateurs sont invités à danser à la fin.",
           "time": "1 h 30",
           "price": null
         },
         {
           "name": "Cascade de Sipiso-piso",
           "type": "Nature",
-          "text": "À l'extrémité nord du lac, près de Tongging : une chute de 120 m qui sort de la falaise d'un seul jet. On la regarde d'en haut, avec le lac derrière, ou on descend les centaines de marches jusqu'en bas. C'est sur la route de Berastagi.",
+          "text": "À l'extrémité nord du lac, près de Tongging : une rivière souterraine sort de la falaise et tombe de 120 m d'un seul jet. On la regarde d'en haut, avec le lac derrière, ou on descend les 651 marches jusqu'en bas. C'est sur la route entre le lac et Berastagi.",
           "time": "1 à 2 h",
           "price": null
         },
         {
           "name": "Carpe du lac et soirées à la guitare",
           "type": "Cuisine",
-          "text": "On mange de la carpe grillée ou en arsik, une sauce jaune au poivre andaliman qui picote la langue. Les Batak sont chrétiens : il y a du porc grillé et du vin de palme. Le soir, des groupes chantent à la guitare dans les bars de Tuk Tuk.",
+          "text": "On mange de la carpe grillée ou en arsik, une sauce épicée au poivre andaliman qui engourdit la langue. Les Batak cuisinent aussi le porc et boivent du tuak, un vin de palme. Le soir, on chante à la guitare dans les bars de Tuk Tuk.",
           "time": "",
           "price": null
         }
       ],
-      "access": "Depuis Medan, 4 à 5 heures de route jusqu'à Parapat, puis 30 à 45 minutes de ferry jusqu'à Tuk Tuk, où le bateau dépose devant les guesthouses. Depuis Bukit Lawang, compter la journée entière, en général par Berastagi.",
+      "access": "Depuis Medan, 4 à 5 heures de route jusqu'à Parapat, puis 30 à 45 minutes de bateau jusqu'à Tuk Tuk : un départ par heure du port de Tiga Raja, de 8 h 30 à 18 h environ, et le bateau dépose devant les guesthouses. On peut aussi atterrir à Silangit, au sud du lac, à 2 heures de Parapat, avec des vols depuis Jakarta. Depuis Bukit Lawang, compter la journée entière en minibus.",
       "tips": [
-        "Il n'y a plus de ferry pour Tuk Tuk le soir : ne pas arriver trop tard à Parapat.",
-        "Les soirées sont fraîches à 900 m, un pull suffit."
+        "Le dernier bateau pour Tuk Tuk quitte Parapat vers 18 h : ne pas arriver trop tard.",
+        "Les nuits descendent vers 19 °C en août, un pull suffit.",
+        "Par gros temps, on attend le bateau suivant : les petits bateaux du lac n'ont pas tous des gilets."
       ],
       "photos": [
         {
@@ -227,7 +228,7 @@
         },
         {
           "file": "Rumah Bolon, Rumah Adat Suku Batak di Sumatera Utara.jpg",
-          "caption": "Danseurs devant une maison batak",
+          "caption": "Danseurs au musée Huta Bolon, Simanindo",
           "author": "Pratechno",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
@@ -240,16 +241,16 @@
           "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
         },
         {
-          "file": "Rumah Bolon.jpg",
-          "caption": "Maisons batak à Huta Siallagan",
-          "author": "Nurul Ichlasiah",
+          "file": "Area dalam Makam Raja Sidabutar 2.jpg",
+          "caption": "Sarcophages du roi Sidabutar, Tomok",
+          "author": "Really Rin",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
         },
         {
-          "file": "Toba Lake, seen from Tuk Tuk, Samosir Island, 2014-12-27.jpg",
-          "caption": "Le lac vu depuis Tuk Tuk",
-          "author": "Kenrick95",
+          "file": "Rumah Bolon.jpg",
+          "caption": "Maisons batak à Huta Siallagan",
+          "author": "Nurul Ichlasiah",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
         }

@@ -272,69 +272,85 @@
         {
           "name": "Balade dans les rizières",
           "type": "Randonnée",
-          "text": "Des sentiers partent des hôtels, longent les canaux d'irrigation, traversent la rivière Unda et passent par les hameaux. Avec un guide du coin on fait une boucle de deux ou trois heures, et lui sait par où on a le droit de passer.",
-          "time": "demi-journée",
-          "price": null
+          "text": "Des sentiers partent des hôtels, longent les canaux d'irrigation, passent par les hameaux et descendent vers la rivière Unda et son pont jaune. Avec un guide du coin on fait une boucle de deux ou trois heures, et lui sait par où on a le droit de passer.",
+          "time": "2 à 3 h",
+          "price": {
+            "amount": 150000,
+            "currency": "IDR",
+            "what": "guide pour la marche dans les rizières, par heure, deux heures au minimum (liste de Sidemen Tour & Trekking, novembre 2025)"
+          }
         },
         {
           "name": "Ateliers de tissage",
           "type": "Culture",
-          "text": "Sidemen est connu dans tout Bali pour ses tisserandes. Dans les ateliers du village, on les regarde travailler sur des métiers en bois l'endek, un ikat, et le songket, broché de fils d'or ou d'argent, que l'on porte aux cérémonies.",
+          "text": "Sidemen est le grand village de tisserands de Bali. À l'atelier Pelangi, une quarantaine de personnes travaillent l'endek, un ikat aux motifs vifs, sur des métiers à pédales. On y tisse aussi le songket, broché de fils d'or ou d'argent, que l'on porte aux mariages et aux cérémonies.",
           "time": "1 h",
           "price": null
         },
         {
           "name": "Tirta Gangga",
           "type": "Culture",
-          "text": "Le palais d'eau du dernier raja de Karangasem, construit en 1946 : des bassins, une fontaine à onze étages, de grosses carpes et des dalles posées sur l'eau pour traverser au milieu des statues. À une heure de route, avec de belles rizières autour.",
+          "text": "Le palais d'eau du dernier raja de Karangasem, construit en 1946 près d'Amlapura et relevé après l'éruption de 1963 : des bassins, une haute fontaine à étages, de grosses carpes koï et des dalles posées sur l'eau pour traverser au milieu des statues. Le temple de Lempuyang est à une demi-heure de là.",
           "time": "1 h 30 sur place",
-          "price": null
+          "price": {
+            "amount": 90000,
+            "currency": "IDR",
+            "what": "entrée, par adulte"
+          }
         },
         {
           "name": "Temple de Lempuyang",
           "type": "Culture",
-          "text": "Le temple de la « porte du ciel », un portail fendu qui encadre le mont Agung. Le reflet des photos est un trucage, un miroir tenu sous l'objectif, et la queue pour poser dure parfois deux heures. Y aller au lever du jour, à plus d'une heure de Sidemen.",
+          "text": "Le temple de la « porte du ciel », un portail fendu qui encadre le mont Agung. Le reflet des photos est un trucage : un miroir tenu sous l'objectif. On reçoit un numéro avec le billet et l'attente pour poser dure deux à quatre heures. Y être vers 6 h, par la première navette depuis le parking.",
           "time": "demi-journée",
-          "price": null
+          "price": {
+            "amount": 150000,
+            "currency": "IDR",
+            "what": "entrée (100 000) et navette obligatoire aller-retour (50 000), par personne, en espèces"
+          }
         },
         {
           "name": "Temple de Besakih",
           "type": "Culture",
-          "text": "Le plus grand temple de Bali, sur les pentes du mont Agung, à 45 minutes au nord de Sidemen. Des dizaines de sanctuaires aux toits noirs étagés, reliés par de grands escaliers. Les jours de cérémonie, tout le monde est en blanc.",
+          "text": "Le plus grand temple de Bali, à 1 000 m d'altitude sur les pentes du mont Agung, à courte distance de Sidemen. Vingt-trois temples aux toits noirs étagés, reliés par de grands escaliers. Le billet comprend le sarong, la navette pour monter et un guide, qui est imposé.",
           "time": "2 h sur place",
-          "price": null
+          "price": {
+            "amount": 150000,
+            "currency": "IDR",
+            "what": "entrée, par adulte étranger, sarong, navette aller et guide compris"
+          }
         },
         {
           "name": "Rafting sur la Telaga Waja",
           "type": "Nature",
-          "text": "La rivière coule à une vingtaine de minutes de Sidemen. Environ deux heures de descente en raft entre rizières et gorges, avec des rapides réguliers et un barrage qu'on saute dans le bateau.",
+          "text": "La rivière coule à 20 ou 30 minutes de Sidemen. Environ deux heures et demie de descente en raft, avec des rapides réguliers et, pour finir, un barrage de 4 à 5 m qu'on dévale dans le bateau.",
           "time": "demi-journée",
           "price": null
         },
         {
           "name": "Route d'Ubud par Klungkung",
           "type": "Ville",
-          "text": "Ubud est à 1 h 15 environ. Les hôtels organisent le trajet avec un chauffeur. En le demandant, il s'arrête à Klungkung voir le Kerta Gosa, l'ancien pavillon de justice des rois, dont le plafond est couvert de peintures.",
-          "time": "1 h 15",
+          "text": "Ubud est à 33 km, soit 1 h à 1 h 30. En le demandant, le chauffeur s'arrête à Klungkung voir le Kerta Gosa, l'ancien pavillon de justice des rois, dont le plafond est couvert de peintures de style wayang : les châtiments qui attendent les coupables dans l'au-delà.",
+          "time": "1 h à 1 h 30",
           "price": {
             "amount": 400000,
             "currency": "IDR",
-            "what": "transfert en voiture de Sidemen à Ubud, prix du trajet publié par Uma Dewi Sri"
+            "what": "transfert en voiture avec chauffeur entre Sidemen et Ubud, prix du trajet (liste de Sidemen Tour & Trekking, novembre 2025)"
           }
         },
         {
           "name": "Route de Padang Bai",
           "type": "Ville",
-          "text": "Padang Bai est le port d'où partent les bateaux rapides pour les Gili et Lombok, à 45 minutes de Sidemen. Pratique si on enchaîne sur les Gili : on quitte l'hôtel le matin et on embarque dans la foulée.",
-          "time": "45 min",
+          "text": "Padang Bai est le port d'où partent les bateaux rapides pour les Gili et Lombok, à 40 minutes environ de Sidemen. Pratique si on enchaîne sur les Gili : on quitte l'hôtel le matin et on embarque dans la foulée.",
+          "time": "40 min",
           "price": {
             "amount": 350000,
             "currency": "IDR",
-            "what": "transfert en voiture de Sidemen à Padang Bai, prix du trajet publié par Sidemen Tour"
+            "what": "transfert en voiture avec chauffeur entre Sidemen et Padang Bai, prix du trajet (liste de Sidemen Tour & Trekking, novembre 2025)"
           }
         }
       ],
-      "access": "Depuis Ubud, 1 h 15 de route vers l'est en passant par Klungkung. Depuis l'aéroport, compter 2 h.",
+      "access": "Depuis Ubud, 33 km et 1 h à 1 h 30 de route vers l'est en passant par Klungkung. Depuis l'aéroport, compter 2 h. Grab et Gojek ne viennent presque jamais jusqu'à Sidemen : pour repartir, on réserve un chauffeur quelques jours avant.",
       "tips": [
         "Tous les chemins des rizières ne sont pas publics, on traverse souvent des parcelles privées : prendre un guide pour la première balade.",
         "Le mont Agung se voit surtout tôt le matin, avant que les nuages ne montent."
@@ -346,6 +362,11 @@
           "author": "Paul Arps",
           "license": "CC BY 2.0",
           "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+        },
+        {
+          "url": "https://live.staticflickr.com/5546/30219647192_921304d2ed_h.jpg",
+          "caption": "Le mont Agung vu de Sidemen",
+          "source": "Flickr, Paul Arps, CC BY 2.0"
         },
         {
           "file": "Panen padi di sidemen, karangasem.jpg",
@@ -374,13 +395,6 @@
           "author": "Vyacheslav Argenberg",
           "license": "CC BY 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
-        },
-        {
-          "file": "Sidemen scenes (Unsplash).jpg",
-          "caption": "Rizière en eau à Sidemen, le soir",
-          "author": "Levi Morsy",
-          "license": "CC0",
-          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
         }
       ]
     },
