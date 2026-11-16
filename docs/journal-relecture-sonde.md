@@ -45,3 +45,21 @@ Photos : les six regardées, toutes justes. Légende corrigée : « Surfeur entr
 | Soirées fraîches en saison sèche | slowertravels | ajoutée |
 
 Photos : retirées « Memanfaatkan Tenaga Hewan Ternak.jpg » (Mareje, ouest de Lombok) et « LombokPaddyField.JPG » (Masbagik), qui ne montrent pas Tetebatu. Ajoutées trois photos Flickr de Franklin Heijnen (CC BY-SA 2.0, étiquetées « tetebatu » par l'auteur, janvier 2016) : travail dans une rizière, parcelles en terrasses, marche dans une gorge. Commons n'a rien d'autre d'exploitable sur Tetebatu (vignettes de 482 px, clichés de 1934 et 1979).
+
+## nord-de-lombok
+
+| Affirmation | Source (URL) | Verdict |
+| --- | --- | --- |
+| Bangsal-Senaru 1 h 30 à 2 h | https://en.wikivoyage.org/wiki/Senaru (1 h 15, nouvelle route Tanjung-Bayan ouverte en 2023) ; https://wtp.travel/travel-guides/indonesia/senaru/ (1 h 30) ; annonce de transfert (58 min) | corrigée : 1 h 30 à 2 h -> 1 h à 1 h 30 |
+| Aéroport-Senaru environ 3 h | wtp.travel (2 h 30 à 3 h) | confirmée, précisée |
+| Sendang Gile : escalier, 20 min, deux paliers | Wikivoyage (20 min, chemin pavé et marches) ; https://www.weseektravel.com/sendang-gile-tiu-kelep-waterfall-lombok/ (màj déc. 2025 : 30 m en deux paliers) ; annonce (200 marches, 25 min depuis le guichet) | confirmée ; hauteur et nombre de marches ajoutés |
+| Tiu Kelep : canal, gué « jusqu'aux genoux », vasque où l'on se baigne | weseektravel (45 m, 25 min, on marche sur le canal en béton, le séisme de 2018 a vidé la vasque profonde) ; Wikivoyage (30 à 60 min, eau aux chevilles) | corrigée : genoux -> pieds dans l'eau ; baignade -> vasque peu profonde depuis 2018 ; hauteur et durée ajoutées |
+| Billet des cascades | Wikivoyage (20 000 IDR pour les deux, juin 2024) ; weseektravel (30 000 IDR, déc. 2025) | ajouté dans les conseils, pas en `price` (deux valeurs) |
+| Guide | weseektravel (présenté comme obligatoire, 250 000 IDR par groupe, mais le chemin se suit seul) ; Wikivoyage (contradictoire) | conseil réécrit |
+| Hameau traditionnel près de l'entrée du parc, bambou et chaume, don | Wikivoyage (à côté du bureau du parc) ; https://lomboknetwork.net/lombok/north-lombok/senaru ; description Commons de « Rumah adat desa Senaru Lombok.jpg » | confirmée ; « alignées autour d'une cour de terre battue » et « montrent l'intérieur » retirés |
+| Bayan Beleq : plus ancienne mosquée de Lombok, bambou tressé, galets, toit de chaume, quelques cérémonies | https://id.wikipedia.org/wiki/Masjid_Bayan_Beleq (XVIe-XVIIe s., 9 x 9 m, murs de bambou tressé, sol d'argile, socle de pierres de rivière, toit en lattes de bambou, plus de prière quotidienne, fêtes du Maulid) ; https://en.wikipedia.org/wiki/Bayan_Beleq_Mosque | corrigée : « toit de chaume » retiré (lattes de bambou selon Wikipédia), date et dimensions ajoutées |
+| Bayan à « quelques kilomètres » de Senaru | Wikivoyage (8 km) | précisée |
+| Balade dans les rizières, café et cacao, vue sur la mer | https://lomboknetwork.net/lombok/soft-trekking-programs/waterfall-panorama-walk (Senaru Panorama Walk, guides femmes, bambous, jardins, rizières, canaux) | réécrite ; « plantations de café et de cacao » et « on voit la mer » retirés (introuvables) |
+| Pas de distributeur à Senaru | wtp.travel (le plus proche à Tanjung, 1 h) | ajoutée |
+
+Photos : « Air Terjun Sendhang Gile.JPG » (cascade à peine visible derrière les arbres) remplacée par une photo Flickr de ralexander Photos (CC BY 2.0, titrée « Sendang Gile Waterfall », petit filigrane en bas à droite) qui montre les deux paliers. Les quatre autres regardées et gardées. « Senaru Waterfall (16737156290).jpg » écartée : c'est Tiu Kelep, déjà illustrée.

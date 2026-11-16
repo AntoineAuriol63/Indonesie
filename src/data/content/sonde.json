@@ -241,43 +241,44 @@
     {
      "name": "Cascade de Sendang Gile",
      "type": "Nature",
-     "text": "La plus facile des deux : un long escalier en béton descend depuis l'entrée du site, une vingtaine de minutes de marche. L'eau tombe en deux paliers d'une falaise couverte de mousse et de fougères. On peut se mettre dessous, elle est froide.",
+     "text": "La plus facile des deux : un escalier d'environ 200 marches descend depuis le guichet, un quart d'heure de marche. L'eau tombe en deux paliers, une trentaine de mètres en tout, d'une falaise couverte de mousse et de fougères. On peut se mettre dessous, elle est froide.",
      "time": "1 h",
      "price": null
     },
     {
      "name": "Cascade de Tiu Kelep",
      "type": "Randonnée",
-     "text": "On continue après Sendang Gile par un sentier en forêt : on longe un canal d'irrigation, puis on traverse la rivière à gué, de l'eau jusqu'aux genoux. Au bout, un mur d'eau bien plus large tombe dans une vasque où l'on se baigne.",
+     "text": "On continue après Sendang Gile par un sentier en forêt, une demi-heure à trois quarts d'heure : on marche sur le rebord d'un canal d'irrigation, puis on traverse la rivière à gué, les pieds dans l'eau. Au bout, un mur d'eau de 45 m. Depuis le séisme de 2018, la vasque est peu profonde.",
      "time": "2 à 3 h avec Sendang Gile",
      "price": null
     },
     {
      "name": "Hameau traditionnel de Senaru",
      "type": "Culture",
-     "text": "Tout en haut du village, près de l'entrée du parc du Rinjani : des maisons sasak en bambou tressé et toit de chaume, alignées autour d'une cour de terre battue. Les habitants font visiter contre un don et montrent l'intérieur d'une maison.",
+     "text": "Tout en haut du village, à côté du bureau du parc du Rinjani : des maisons sasak aux murs de bambou et au toit de chaume, où l'on vit encore. On en fait le tour avec un habitant, contre un don.",
      "time": "30 min",
      "price": null
     },
     {
      "name": "Vieille mosquée de Bayan Beleq",
      "type": "Culture",
-     "text": "À Bayan, quelques kilomètres avant Senaru, la plus ancienne mosquée de Lombok : une petite bâtisse carrée en bambou tressé, sur un socle de galets, sous un toit de chaume. Elle ne sert plus que pour quelques cérémonies du wetu telu, l'islam local mêlé de rites plus anciens.",
+     "text": "À Bayan, 8 km avant Senaru, la plus ancienne mosquée de Lombok, bâtie au XVIe ou au XVIIe siècle : une bâtisse carrée de 9 m de côté, murs bas en bambou tressé, sol de terre, socle de galets. On n'y prie plus au quotidien : elle sert pour les fêtes du wetu telu, l'islam local mêlé de coutumes sasak.",
      "time": "30 min",
      "price": null
     },
     {
-     "name": "Balade dans les rizières de Senaru",
+     "name": "Senaru Panorama Walk",
      "type": "Randonnée",
-     "text": "Les guesthouses proposent un tour à pied d'une ou deux heures dans les rizières en terrasses et les plantations de café et de cacao autour du village. Par temps clair, on voit la mer d'un côté et le sommet du Rinjani de l'autre, surtout tôt le matin.",
-     "time": "1 à 2 h",
+     "text": "Un tour à pied facile autour du village, souvent mené par des guides femmes : bosquets de bambou, jardins, rizières en terrasses, le long des canaux d'irrigation. Par temps clair, le Rinjani sort au-dessus des rizières et de la forêt. Les versions longues ajoutent les cascades et le hameau.",
+     "time": "demi-journée",
      "price": null
     }
    ],
-   "access": "Senaru est à 1 h 30 ou 2 h de route de Bangsal, le port des Gili, par la côte nord, et à environ 3 h de l'aéroport de Lombok. On y va en voiture avec chauffeur.",
+   "access": "Senaru est à 1 h ou 1 h 30 de route de Bangsal, le port des Gili, par la côte nord, et à 2 h 30 ou 3 h de l'aéroport de Lombok. On y va en voiture avec chauffeur. Pas de distributeur à Senaru : le plus proche est à Tanjung, à une heure.",
    "tips": [
     "Sandales qui tiennent au pied et maillot de bain : pour Tiu Kelep on marche dans l'eau et on finit trempé.",
-    "Pas besoin de guide pour Sendang Gile. Pour Tiu Kelep, il aide aux passages à gué.",
+    "Un seul billet pour les deux cascades, 20 000 à 30 000 roupies par personne, à payer au guichet officiel, en haut de l'escalier.",
+    "À l'entrée, on vous dira que le guide est obligatoire, à 250 000 roupies par groupe fin 2025. Le chemin de Sendang Gile se suit seul ; pour Tiu Kelep, le guide aide aux passages à gué.",
     "Cette étape ne comprend pas l'ascension du Rinjani, qui est un trek de plusieurs jours."
    ],
    "photos": [
@@ -289,11 +290,9 @@
      "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
     },
     {
-     "file": "Air Terjun Sendhang Gile.JPG",
-     "caption": "Cascade de Sendang Gile",
-     "author": "JV06Nofi Andari",
-     "license": "CC BY-SA 3.0",
-     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+     "url": "https://live.staticflickr.com/65535/49587592658_381f9210cc_k.jpg",
+     "caption": "Les deux paliers de Sendang Gile",
+     "source": "Flickr, ralexander Photos, CC BY 2.0"
     },
     {
      "file": "Rumah adat desa Senaru Lombok.jpg",
