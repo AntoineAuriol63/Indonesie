@@ -105,3 +105,47 @@ Photos :
 | Août à Banda : pluie, vent, bateaux « souvent annulés » | voir banda-neira | Corrigée : le bateau rapide ne navigue pas |
 | Ternate et Tidore plutôt secs, Morotai « pluie toute l'année » | Wikipedia Ternate et Morotai | Corrigée : période la moins pluvieuse pour les trois |
 | Accès par Ambon (Banda) et Ternate (nord), bateaux et petits avions peu fréquents | voir fiches | Confirmée |
+
+## Région raja-ampat, kri-gam-arborek, waigeo-secteur-de-piaynemo
+
+Le quota de recherches web de la session (partagé entre agents) s'est épuisé avant ces fiches : la vérification s'est faite par lecture directe de pages connues (Stay Raja Ampat, site de l'association des homestays, pages mises à jour entre août et octobre 2026 ; Wikipédia ; Wikivoyage). Ce qui n'a pas pu être retrouvé ainsi a été retiré.
+
+Abréviation : SRA = https://www.stayrajaampat.com/ultimate-raja-ampat-guide/
+
+| Affirmation | Source (URL) | Verdict |
+| --- | --- | --- |
+| « Des centaines d'îlots » | https://en.wikipedia.org/wiki/Raja_Ampat_Islands, https://fr.wikipedia.org/wiki/Raja_Ampat | Corrigée : plus de 1 500 îles et îlots |
+| Récifs parmi les plus riches du monde | Wikipedia (épicentre mondial de la biodiversité marine tropicale) | Confirmée |
+| Homestay : repas compris, douche au seau, courant coupé la nuit | SRA information/raja-ampat-homestays/ | Confirmée ; générateur du coucher du soleil à minuit environ |
+| Vent du sud de juin à septembre, traversée de Piaynemo annulée | SRA information/raja-ampat-weather/ | Précisée : saison ventée de mi-juin à mi-septembre, vent de sud-est, petits bateaux limités certains jours, côtes nord abritées ; Piaynemo « en général accessible en août », c'est Wayag qui devient difficile |
+| Vol pour Sorong, ferry de 2 h pour Waisai | SRA information/how-to-get-to-raja-ampat/ (mise à jour 27 août 2026) | Confirmée ; départs 9 h et 14 h, 200 000 IDR (étranger), 300 000 en VIP |
+| Carte d'entrée du parc marin payée à Waisai | SRA information/raja-ampat-marine-park-entry-permit/ (29 sept. 2026) et information/raja-ampat-tourist-entry-pass-2/ (3 oct. 2026) | Corrigée : deux taxes distinctes, 1 000 000 IDR chacune pour un étranger (permis du parc marin, valable 12 mois, nouveau tarif au 3 août 2026, vendu en ligne, au port de Sorong ou au bureau de Waisai ; pass touristique du département, valable un an, payé en ligne ou au port de Waisai) |
+| Îles « dans le détroit de Dampier, là où il y a le plus de poissons » | Wikipedia ; SRA | Détroit confirmé ; « le plus de poissons » retiré |
+| Tortues et requins à pointe noire devant les homestays | https://www.stayrajaampat.com/accommodation/junior-homestay/ (requins à pointe noire courants sur la côte nord de Kri), SRA see-and-do/snorkeling-in-raja-ampat/ (tortues et petits requins au ponton de Yenbuba) | Confirmée |
+| Junior Homestay, 63 EUR la nuit pour deux | page du Junior Homestay | Confirmée ; localisé : côte nord de Kri, six cabanes sur l'eau, salle d'eau commune au seau, transfert de Waisai 800 000 IDR par bateau |
+| Yenbuba Homestay « au village de Yenbuba, sur Mansuar », 69 EUR | https://www.stayrajaampat.com/accommodation/yenbuba-homestay/ | Corrigée : le homestay est à la pointe ouest de Kri, le village est en face sur Mansuar ; 69 EUR confirmé (cabane sur l'eau) ; marche à marée basse vers le village confirmée |
+| « Bénitiers géants » sous le ponton de Yenbuba | aucune | Retirée |
+| 374 espèces de poissons en une plongée à Cape Kri | introuvable sur les pages consultées (Wikipédia en/fr/id, Wikivoyage, SRA) ; recherche web impossible | Retirée, entrée réécrite sur le snorkeling de la côte nord de Kri (page du Junior Homestay, SRA snorkeling) |
+| Arborek : traversée à pied en dix minutes, deux cents habitants | SRA raja-ampat-islands/arborek/ | Corrigée : tour de l'île en une demi-heure, un seul village ; population retirée |
+| Ponton d'Arborek, poissons, « bénitiers » | SRA Arborek (bancs de poissons, piliers couverts de coraux mous) | Corrigée, bénitiers retirés |
+| Chapeaux et sacs en pandanus | SRA Arborek (sacs noken, paniers, chapeaux en forme de manta) | Confirmée |
+| Manta Sandy : station de nettoyage, gardes, saison d'octobre à avril | SRA Arborek, weather, dive-sites (nord-ouest d'Arborek, mantas visibles en surface, saison de mi-octobre à mi-mai, départ du détroit en juin-juillet) | Saison corrigée ; « station de nettoyage » et « gardes » retirés (non retrouvés) |
+| Paradisiers rouges à Sawinggrai ou Yenbeser, départ 5 h, demi-heure de montée | SRA raja-ampat-islands/gam/ et see-and-do/birding-in-raja-ampat/ | Corrigée : site derrière Sawinggrai, à 20 min de marche facile, parades au lever du jour et en fin d'après-midi ; horaire de 5 h et Yenbeser retirés du texte |
+| Baie de Kabui : îlots « en forme de champignon », chenal, « coraux mous orange », mangrove | SRA Gam, Waigeo, Friwen | Confirmé : îlots karstiques et mangroves au nord de la baie, chenal étroit comme une rivière, courants de marée très forts dans les passes ; « champignon » et « coraux mous orange » retirés |
+| Bateau du homestay : 30 min à 1 h | SRA Kri, Gam, Arborek (moyennes : 1 h, 1 h 30, 1 h 30 ; 700 000 à 1 000 000 IDR l'aller) | Corrigée |
+| Ni distributeur ni boutique sur les îles | SRA information/money-and-payments-in-raja-ampat/ | Confirmée (distributeurs à Sorong et Waisai) ; « boutique » retiré ; ajout : paiement en liquide, peu de location de masques |
+| Piaynemo dans les îles Fam, à l'ouest | SRA raja-ampat-islands/pam-islands/, https://en.wikipedia.org/wiki/Fam_Islands | Confirmée |
+| Escalier d'un peu plus de 300 marches, vingt minutes, deux plateformes, noix de coco | SRA Pam Islands (ponton dans un lagon de la côte est, escalier en bois, vendeurs de boissons, huile et savon de coco, crabes de cocotier) | Nombre de marches, durée et plateformes retirés (non retrouvés) ; vendeurs corrigés |
+| Telaga Bintang : à quelques minutes de Piaynemo, 5 à 10 min de grimpe sur calcaire coupant | description Commons de la photo (lagon en étoile vu d'une butte) | Détails retirés (non retrouvés), entrée réduite à ce qui est sourcé |
+| Sortie classique Piaynemo, Telaga Bintang, Arborek, Pasir Timbul | page du Junior Homestay (sorties à Pasir Timbul et Arborek), SRA information/raja-ampat-boat-hire/ (prix par bateau) | Reformulée ; ajout du poncho (SRA Pam Islands) |
+| Saporkren : paradisier rouge et paradisier de Wilson, départ avant l'aube | SRA guides/benny-mambrasar/, birding, raja-ampat-islands/waigeo/ | Confirmée ; rendez-vous vers 4 h 30, une heure de montée raide |
+| Friwen : balançoire, récif facile, Friwen Wall « juste en face » | SRA raja-ampat-islands/friwen/ | Corrigée : Friwen Wall est sur l'îlot de Friwenbonda, à 500 m ; courant très fort dans le chenal ; balançoire retirée |
+| Raja Ampat Sunrise « autour de Waigeo », 58 EUR | https://www.stayrajaampat.com/accommodation/raja-ampat-sunrise-homestay/ | Corrigée : le homestay est aux îles Fam, près du village de Saukabu et de Piaynemo ; bungalows à terre avec salle d'eau privée, courant de 18 h à 6 h ; 58 EUR confirmé |
+| Waisai-Piaynemo : 1 h 30 à 2 h | https://en.wikivoyage.org/wiki/Raja_Ampat (1 h 30 à 2 h en bateau rapide), SRA Pam Islands (2 h 30 en moyenne, 2 000 000 IDR l'aller) | Confirmée, complétée |
+| « Mer plus calme le matin », « pas d'ombre sur les plateformes » | aucune | Retirées |
+
+Prix ajouté : droit d'accès au belvédère de Piaynemo, 300 000 IDR par bateau (SRA information/raja-ampat-entry-fees/, mise à jour 25 août 2026).
+
+Ajout : pas de sorties en bateau le dimanche dans la plupart des homestays (SRA homestays).
+
+Photos : les douze photos existantes regardées, toutes conformes (descriptions Commons lues). Légende de `Piaynemo Island, Raja Ampat, West Papua, Indonesia.jpg` corrigée (« Les îlots vus de la plateforme » : l'escalier n'y figure pas).

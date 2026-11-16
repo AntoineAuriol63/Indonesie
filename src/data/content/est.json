@@ -6,9 +6,9 @@
    "access": "On arrive en avion à Ambon pour Banda, à Ternate pour le nord. Ensuite ce sont des bateaux et de petits avions qui ne partent pas tous les jours : on cale ses dates sur leurs horaires."
   },
   "raja-ampat": {
-   "intro": "Des centaines d'îlots calcaires couverts de jungle, au bout de la Papouasie, et sous la surface des récifs parmi les plus riches du monde. Ici on ne fait pas de circuit. On choisit un homestay sur pilotis à Kri, Gam ou Arborek, on y reste plusieurs nuits et on nage devant la cabane, masque sur le nez. Les repas sont compris. La douche se prend au seau et le courant s'arrête la nuit. Pour le reste, on sort en bateau à la journée.",
-   "august": "De juin à septembre, le vent du sud lève de la houle : les longues traversées, comme celle de Piaynemo, peuvent être annulées. On prend un homestay sur une côte abritée et on garde des jours de marge.",
-   "access": "Vol jusqu'à Sorong, puis ferry rapide pour Waisai en 2 h environ, où le homestay vient nous chercher en bateau. Tous les déplacements entre les îles se font en bateau et se paient à part."
+   "intro": "Plus de 1 500 îles et îlots calcaires couverts de jungle, au bout de la Papouasie, et sous la surface des récifs parmi les plus riches du monde. Ici on ne fait pas de circuit. On choisit un homestay sur pilotis à Kri, Gam ou Arborek, on y reste plusieurs nuits et on nage devant la cabane, masque sur le nez. Les repas sont compris. On se lave au seau et le courant s'arrête vers minuit. Pour le reste, on sort en bateau à la journée.",
+   "august": "De mi-juin à mi-septembre, le vent du sud-est se lève : certains jours, les petits bateaux ne sortent pas. On loge sur une côte nord, à l'abri, et on garde des jours de marge. Les raies manta ont quitté le détroit.",
+   "access": "Vol jusqu'à Sorong, puis ferry rapide pour Waisai en 2 h environ (départs à 9 h et 14 h), où le homestay vient nous chercher en bateau. Tous les déplacements entre les îles se font en bateau et se paient à part."
   },
   "timor-occidental-et-alor": {
    "intro": "Kupang, à l'ouest de Timor, est la grande ville du coin : on y atterrit, on y passe une soirée devant un poisson grillé, puis on reprend un petit avion pour Alor. Là-bas, c'est une île volcanique et sèche, avec des villages perchés et un détroit plein de coraux où l'eau est fraîche et le courant fort. On pose ses sacs sur l'îlot de Kepa et on nage. Très peu de voyageurs font le détour.",
@@ -320,73 +320,75 @@
   },
   "kri-gam-arborek": {
    "intro": [
-    "Trois îles voisines au cœur de Raja Ampat, dans le détroit de Dampier, là où il y a le plus de poissons. On dort dans une cabane en feuilles de palmier sur pilotis, tenue par une famille papoue, et le récif commence au pied de l'escalier : on y croise des tortues et des requins à pointe noire sans prendre de bateau.",
-    "Kri a les plus beaux tombants, Gam la jungle et les oiseaux de paradis, Arborek son village minuscule et ses raies manta. On en choisit une et on visite les autres à la journée."
+    "Trois îles voisines au cœur de Raja Ampat, dans le détroit de Dampier. On dort dans une cabane en palme sur pilotis, tenue par une famille papoue, et le récif commence au pied de l'escalier : on y croise des tortues et des requins à pointe noire sans prendre de bateau.",
+    "Kri a ses récifs réputés et sa côte nord abritée du vent, Gam la jungle et les oiseaux de paradis, Arborek son village minuscule. On en choisit une et on visite les autres à la journée."
    ],
    "todo": [
     {
      "name": "Dormir en homestay sur pilotis",
      "type": "Détente",
-     "text": "Une cabane sur l'eau ou sur la plage, un matelas sous moustiquaire, une salle d'eau commune le plus souvent, de l'électricité le soir seulement. Les trois repas sont compris, à base de poisson et de riz. On réserve directement auprès des familles sur le site Stay Raja Ampat.",
+     "text": "Au Junior Homestay, sur la côte nord de Kri : six cabanes sur l'eau, un matelas sous moustiquaire, une salle d'eau commune où l'on se lave au seau, du courant du coucher du soleil à minuit. Trois repas compris, et des requins à pointe noire devant la plage. On réserve sur le site Stay Raja Ampat.",
      "time": "",
      "price": {
       "amount": 63,
       "currency": "EUR",
-      "what": "nuit pour deux au Junior Homestay, trois repas par jour compris, transferts et excursions en plus"
+      "what": "nuit pour deux au Junior Homestay (Kri), trois repas par jour compris, transferts et excursions en plus"
      }
     },
     {
-     "name": "Dormir à Yenbuba, face à Kri",
+     "name": "Dormir à la pointe ouest de Kri",
      "type": "Détente",
-     "text": "Autre adresse, le homestay du village de Yenbuba, sur Mansuar, juste en face de Kri. Sous le ponton tournent des tortues et des bénitiers géants. À marée basse, on rejoint Kri à pied par le banc de sable.",
+     "text": "Autre adresse, le Yenbuba Homestay, au bout de Kri, face au village de Yenbuba, sur Mansuar. À marée basse, on rejoint le village à pied par les bancs de sable, en surveillant l'heure du retour de l'eau. Sous son ponton, on nage au milieu des poissons, de petits requins et de tortues.",
      "time": "",
      "price": {
       "amount": 69,
       "currency": "EUR",
-      "what": "nuit pour deux au Yenbuba Homestay, trois repas par jour compris, transferts et excursions en plus"
+      "what": "nuit pour deux en cabane sur l'eau au Yenbuba Homestay (Kri), trois repas par jour compris, transferts et excursions en plus"
      }
     },
     {
-     "name": "Snorkeling à Cape Kri",
+     "name": "Snorkeling sur le récif de Kri",
      "type": "Mer",
-     "text": "La pointe de Kri détient un record : 374 espèces de poissons comptées en une seule plongée. En surface, on se laisse porter par le courant le long du tombant, avec le bateau qui suit. On y va avec un guide du homestay, jamais seul.",
+     "text": "La côte nord de Kri est connue pour ses récifs : devant certains homestays, le corail commence à la limite de la marée haute. Le courant devient fort quand la marée tourne. On met des palmes, on garde un œil sur le rivage et on dit au homestay où l'on va, ou on part avec un guide.",
      "time": "2 h",
      "price": null
     },
     {
      "name": "Arborek et son ponton",
      "type": "Mer",
-     "text": "Une île qu'on traverse à pied en dix minutes, avec un village fleuri de quelque deux cents habitants. Sous le ponton, des nuages de petits poissons et des bénitiers. Les femmes tressent des chapeaux et des sacs en pandanus. On y passe une demi-journée ou on y dort.",
+     "text": "Une île dont on fait le tour à pied en une demi-heure, avec un seul village. Sous le ponton, des bancs de poissons entre des piliers couverts de coraux mous. Les femmes tressent en pandanus des sacs, des paniers et des chapeaux en forme de raie manta. On y passe une demi-journée ou on y dort.",
      "time": "demi-journée",
      "price": null
     },
     {
      "name": "Raies manta à Manta Sandy",
      "type": "Faune",
-     "text": "Près d'Arborek, les mantas viennent se faire nettoyer par de petits poissons au-dessus d'un fond de sable. On reste en surface, à distance, sous l'œil des gardes. La bonne saison va d'octobre à avril : en août, on en voit moins souvent.",
+     "text": "Au nord-ouest d'Arborek, un site où les raies manta passent à faible profondeur : on les voit en restant en surface. Mais la saison va de mi-octobre à mi-mai. En juin et juillet, elles quittent le détroit de Dampier : en août, on ne compte pas dessus.",
      "time": "demi-journée",
      "price": null
     },
     {
-     "name": "Oiseaux de paradis à l'aube sur Gam",
+     "name": "Oiseaux de paradis sur Gam",
      "type": "Faune",
-     "text": "Départ à la frontale vers 5 h depuis Sawinggrai ou Yenbeser, une demi-heure de montée en forêt, puis on attend sous l'arbre. Au lever du jour, les paradisiers rouges mâles viennent danser et crier sur les branches hautes. Jumelles utiles.",
-     "time": "3 h",
+     "text": "Derrière le village de Sawinggrai, à vingt minutes de marche facile, les paradisiers rouges mâles viennent parader et crier sur les branches hautes d'un arbre, au lever du jour et en fin d'après-midi. On y va avec un guide du village. Jumelles utiles.",
+     "time": "2 h",
      "price": null
     },
     {
      "name": "Baie de Kabui et le passage",
      "type": "Nature",
-     "text": "Entre Gam et Waigeo, la baie de Kabui est semée d'îlots calcaires en forme de champignon. Au fond, un chenal étroit comme une rivière sépare les deux îles : on y nage au-dessus de coraux mous orange, le long de la mangrove.",
+     "text": "Entre Gam et Waigeo, le nord de la baie de Kabui est semé d'îlots calcaires, au milieu des mangroves. Au fond, un chenal étroit comme une rivière sépare les deux îles. On y nage au masque, avec un guide : dans ces passes, le courant de marée peut être très fort.",
      "time": "demi-journée",
      "price": null
     }
    ],
-   "access": "Vol pour Sorong, ferry rapide jusqu'à Waisai (environ 2 h), puis bateau du homestay, entre 30 minutes et 1 h selon l'île. À Waisai, on paie la carte d'entrée du parc marin.",
+   "access": "Vol pour Sorong, ferry rapide jusqu'à Waisai (environ 2 h, 200 000 roupies), puis bateau du homestay : une heure pour Kri, une heure et demie pour Gam ou Arborek, 700 000 à 1 000 000 de roupies l'aller, par bateau et non par personne. Le permis du parc marin s'achète en ligne ou au port de Sorong.",
    "tips": [
+    "Deux taxes par personne, valables un an : le permis du parc marin et le pass touristique du département, 1 000 000 de roupies chacun pour un étranger depuis août 2026.",
     "Le courant peut être fort devant certains homestays : demander où et à quelle heure nager.",
-    "En août, le vent vient du sud : les homestays de la côte nord de Kri et de Gam sont à l'abri.",
-    "Ni distributeur ni boutique sur les îles : le liquide et la crème solaire se prévoient avant d'embarquer à Sorong."
+    "En août, le vent vient du sud-est : les côtes nord de Kri, de Mansuar et d'Arborek sont à l'abri, la côte sud de Gam est exposée.",
+    "Le dimanche, la plupart des homestays ne font ni sorties en bateau ni plongées.",
+    "Aucun distributeur sur les îles, les derniers sont à Sorong et à Waisai. Les homestays se paient en roupies, en liquide, et louent rarement masque et palmes."
    ],
    "photos": [
     {
@@ -435,62 +437,66 @@
   },
   "waigeo-secteur-de-piaynemo": {
    "intro": [
-    "Piaynemo, c'est la photo qu'on a tous vue de Raja Ampat : des dizaines d'îlots calcaires en pain de sucre posés sur un lagon turquoise, vus d'en haut. Le belvédère est dans les îles Fam, à l'ouest, et on y va en bateau rapide à la journée depuis Waisai, Kri ou Arborek.",
+    "Piaynemo, c'est la photo qu'on a tous vue de Raja Ampat : des dizaines d'îlots calcaires en pain de sucre posés sur un lagon turquoise, vus d'en haut. Le belvédère est dans les îles Fam, tout à l'ouest du détroit de Dampier, et on y va en bateau à la journée depuis Waisai, Kri ou Arborek.",
     "Waigeo, la grande île, sert surtout à arriver : le ferry de Sorong accoste à Waisai. On peut aussi y dormir en homestay, voir les oiseaux de paradis en forêt et nager à Friwen."
    ],
    "todo": [
     {
      "name": "Belvédère de Piaynemo",
      "type": "Nature",
-     "text": "Un escalier en bois d'un peu plus de 300 marches monte dans la forêt jusqu'à deux plateformes. Une vingtaine de minutes de montée, à l'ombre, avec des paliers pour souffler. Sur le ponton du bas, des habitants vendent des noix de coco fraîches.",
+     "text": "Le bateau accoste à un petit ponton, dans un lagon de la côte est. Un escalier en bois monte dans la forêt jusqu'au belvédère, sur un piton calcaire. Sur le ponton, on vend des boissons, de l'huile et du savon de coco, mais aussi des crabes de cocotier vivants, espèce protégée : on n'achète pas.",
      "time": "1 h",
-     "price": null
+     "price": {
+      "amount": 300000,
+      "currency": "IDR",
+      "what": "droit d'accès au belvédère de Piaynemo, par bateau et non par personne"
+     }
     },
     {
      "name": "Telaga Bintang, le lagon en étoile",
      "type": "Nature",
-     "text": "À quelques minutes de bateau de Piaynemo. Ici, pas d'escalier : on grimpe cinq à dix minutes sur du calcaire coupant, en chaussures fermées. D'en haut, le lagon dessine une étoile à cinq branches.",
-     "time": "30 min",
+     "text": "Les habitants l'appellent le lagon de l'étoile à cause de sa forme, qu'on ne voit que du haut d'une butte calcaire.",
+     "time": "",
      "price": null
     },
     {
      "name": "La journée en bateau",
      "type": "Mer",
-     "text": "La sortie classique enchaîne Piaynemo, Telaga Bintang, un arrêt snorkeling à Arborek et Pasir Timbul, un banc de sable qui sort de l'eau à marée basse. Le bateau se loue à la journée et se partage entre passagers : mieux vaut se grouper avec d'autres voyageurs.",
+     "text": "Les homestays organisent la sortie à Piaynemo. D'autres vont à Arborek ou à Pasir Timbul, un banc de sable qui sort de l'eau à marée basse. Le bateau se paie à la sortie et non à la place : mieux vaut se grouper. On prend un poncho, les embruns trempent même par mer calme.",
      "time": "la journée",
      "price": null
     },
     {
      "name": "Oiseaux de paradis près de Waisai",
      "type": "Faune",
-     "text": "Dans la forêt de Saporkren, près de Waisai, des guides du village emmènent avant l'aube jusqu'à des affûts. On y voit le paradisier rouge et le paradisier républicain, ou de Wilson, tout petit, avec sa calotte bleue et sa queue en spirale.",
-     "time": "3 h",
+     "text": "À Saporkren, près de Waisai, des guides du village emmènent jusqu'à des affûts en forêt. Rendez-vous vers 4 h 30, puis une heure de montée raide dans le noir. On y voit le paradisier rouge et le paradisier républicain, ou de Wilson, tout petit et farouche, avec sa calotte bleue et sa queue en spirale.",
+     "time": "la matinée",
      "price": null
     },
     {
      "name": "Friwen",
      "type": "Mer",
-     "text": "Une petite île entre Waisai et Gam. Devant le village, une balançoire au-dessus de l'eau et un récif facile. Juste en face, Friwen Wall, une paroi couverte de coraux mous qu'on longe au masque quand le courant est faible.",
+     "text": "Une île minuscule à un kilomètre de Gam. On nage devant ses plages et sous le ponton du village, au milieu des bancs de poissons. En face, les falaises de l'îlot de Friwenbonda plongent dans la mer : c'est Friwen Wall, qu'on longe au masque. Attention au courant, très fort dans le chenal entre les deux.",
      "time": "2 h",
      "price": null
     },
     {
-     "name": "Dormir en homestay",
+     "name": "Dormir aux îles Fam, près de Piaynemo",
      "type": "Détente",
-     "text": "Autour de Waigeo aussi, des familles louent des cabanes sur pilotis, repas compris. Même confort simple qu'à Kri : douche au seau et électricité le soir seulement.",
+     "text": "Pour éviter l'aller-retour dans la journée, on peut dormir sur place. Le homestay Raja Ampat Sunrise, à côté du village de Saukabu, a dix bungalows à terre avec salle d'eau privée et du courant de 18 h à 6 h. Le récif devant la plage est quelconque : on nage au ponton ou on sort en bateau.",
      "time": "",
      "price": {
       "amount": 58,
       "currency": "EUR",
-      "what": "nuit pour deux au homestay Raja Ampat Sunrise, trois repas par jour compris, transferts et excursions en plus"
+      "what": "nuit pour deux au homestay Raja Ampat Sunrise (îles Fam), trois repas par jour compris, transferts et excursions en plus"
      }
     }
    ],
-   "access": "Vol pour Sorong, puis ferry rapide jusqu'à Waisai, sur Waigeo, en 2 h environ. De Waisai, Piaynemo est à 1 h 30 ou 2 h de bateau rapide, un peu moins depuis Arborek.",
+   "access": "Vol pour Sorong, puis ferry rapide jusqu'à Waisai, sur Waigeo, en 2 h environ. De Waisai, les îles Fam sont à 1 h 30 ou 2 h en bateau rapide, 2 h 30 avec le bateau d'un homestay, pour 2 000 000 de roupies l'aller en moyenne, par bateau.",
    "tips": [
-    "En août, le vent du sud peut rendre la traversée vers Piaynemo très secouée ou l'annuler : on la prévoit en début de séjour pour pouvoir la décaler.",
-    "Partir tôt : la mer est plus calme le matin.",
-    "Chapeau et eau : il n'y a pas d'ombre sur les plateformes."
+    "En août, Piaynemo reste en général accessible, mais certains jours les petits bateaux ne sortent pas : on prévoit la sortie en début de séjour pour pouvoir la décaler.",
+    "Pas de sortie le dimanche dans la plupart des homestays.",
+    "Mêmes taxes d'entrée qu'à Kri : permis du parc marin et pass touristique, à régler avant d'embarquer pour les îles."
    ],
    "photos": [
     {
@@ -509,7 +515,7 @@
     },
     {
      "file": "Piaynemo Island, Raja Ampat, West Papua, Indonesia.jpg",
-     "caption": "Escalier et plateforme de Piaynemo",
+     "caption": "Les îlots vus de la plateforme",
      "author": "Irma Ade",
      "license": "CC BY-SA 4.0",
      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
