@@ -157,56 +157,65 @@
     },
     "munduk": {
       "intro": [
-        "Munduk est un village de montagne du nord de Bali, étiré sur une crête au milieu des plantations de girofliers et de caféiers. Il y fait frais, on se réveille dans la brume et, par temps clair, on voit la mer au loin.",
-        "On y vient pour marcher de cascade en cascade dans la forêt et pour les deux lacs voisins, Buyan et Tamblingan, à vingt minutes de route. Deux nuits suffisent, trois si on veut une journée sans rien faire."
+        "Munduk est un village de montagne du nord de Bali, à 800 m d'altitude environ, au milieu des plantations de girofliers et de caféiers. Il y fait frais : 22 à 26 °C le jour, 15 à 18 °C la nuit.",
+        "On y vient pour marcher de cascade en cascade dans la forêt et pour les deux lacs voisins, Buyan et Tamblingan, à un quart d'heure de route. Deux nuits suffisent, trois si on veut une journée sans rien faire."
       ],
       "todo": [
         {
           "name": "Sentier des cascades de Munduk",
           "type": "Randonnée",
-          "text": "Un sentier relie plusieurs cascades au départ du village, entre girofliers, caféiers et cacaoyers. La cascade de Munduk est à dix minutes de la route, celle de Melanting demande beaucoup plus de marches. Le circuit complet prend environ trois heures, avec des passages glissants.",
-          "time": "3 h",
+          "text": "Un sentier relie quatre cascades autour du village : Golden Valley, Munduk (ou Red Coral), Labuhan Kebo et Melanting. Celle de Munduk est à dix ou vingt minutes du parking, celle de Melanting demande quelques centaines de marches raides. Chaque cascade a son droit d'entrée, de 20 000 à 45 000 roupies, en espèces.",
+          "time": "3 à 4 h",
           "price": null
         },
         {
           "name": "Cascade de Banyumala",
           "type": "Nature",
-          "text": "Deux chutes jumelles glissent sur une paroi couverte de végétation et tombent dans un bassin où l'on se baigne. C'est à Wanagiri, au-dessus du lac Buyan : une piste cabossée puis une vingtaine de minutes de descente à pied.",
+          "text": "Deux chutes jumelles de 36 m glissent sur une paroi couverte de végétation et tombent dans un bassin où l'on se baigne, de l'eau très froide jusqu'à la taille. C'est à Wanagiri, au-dessus du lac Buyan, à une demi-heure de Munduk, puis un quart d'heure de descente à pied par des marches.",
           "time": "2 h",
-          "price": null
+          "price": {
+            "amount": 50000,
+            "currency": "IDR",
+            "what": "entrée, par personne, en espèces"
+          }
         },
         {
           "name": "Lacs Buyan et Tamblingan",
           "type": "Nature",
-          "text": "Deux lacs de cratère côte à côte, entourés de forêt. La route de crête de Wanagiri les domine tous les deux. En bas, à Tamblingan, on marche dans la forêt avec un guide puis on traverse le lac en pirogue jusqu'à un vieux temple au bord de l'eau.",
+          "text": "Deux lacs côte à côte, entourés de forêt. La route de crête de Wanagiri les domine tous les deux, avec une plateforme d'où la vue est gratuite. En bas, à Tamblingan, on marche trois heures dans la forêt avec un guide, entre banians géants et vieux temples, puis on traverse le lac en pirogue, une demi-heure.",
           "time": "demi-journée",
           "price": null
         },
         {
           "name": "Temple Ulun Danu Beratan",
           "type": "Culture",
-          "text": "Le temple aux toits de chaume étagés qui paraît flotter sur le lac Beratan, à Bedugul. Fondé en 1633, il est dédié à la déesse du lac, celle qui donne l'eau aux rizières. À 45 minutes de Munduk. Y aller tôt, avant les cars et la brume de midi.",
+          "text": "Le temple aux toits étagés qui paraît flotter sur le lac Beratan, à Bedugul. Bâti en 1633, il est dédié à Dewi Danu, la déesse du lac, dont l'eau irrigue les rizières du centre de Bali. À une demi-heure de Munduk, ouvert de 7 h à 19 h. Y aller tôt, avant les cars.",
           "time": "1 h 30",
-          "price": null
+          "price": {
+            "amount": 100000,
+            "currency": "IDR",
+            "what": "entrée, par adulte étranger (tarif depuis juillet 2026)"
+          }
         },
         {
           "name": "Plantations de café et de girofle",
           "type": "Cuisine",
-          "text": "Autour du village poussent des caféiers, des girofliers et des cacaoyers. On voit les clous de girofle sécher sur des bâches au bord de la route, et plusieurs petites exploitations font goûter le café qu'elles torréfient sur place.",
+          "text": "Autour du village poussent des caféiers, des girofliers, des cacaoyers et de la vanille. On voit les clous de girofle sécher au bord de la route. La plantation Munduk Moding fait visiter ses caféiers et goûter son café.",
           "time": "1 h",
           "price": null
         },
         {
           "name": "Rizières et banian de Gesing",
           "type": "Randonnée",
-          "text": "Sous le village, des sentiers descendent dans les rizières en terrasses jusqu'au hameau de Gesing et son banian géant, un arbre sacré dont on fait le tour en passant entre les racines. Plus simple avec un guide de l'hôtel.",
-          "time": "demi-journée",
+          "text": "Les rizières en terrasses sont à la sortie ouest du village, bien plus calmes que celles d'Ubud. À 5 km par la route, le village de Gesing a un banian géant, un arbre sacré qu'on dit vieux de 700 ans et dont on explore l'entrelacs de racines. Dans Gesing, on suit les panneaux.",
+          "time": "2 à 3 h",
           "price": null
         }
       ],
-      "access": "Depuis Ubud, un peu plus de 2 h de route par Bedugul et les lacs, ce qui laisse le temps de s'arrêter au temple Ulun Danu Beratan en chemin.",
+      "access": "Depuis Ubud, une soixantaine de kilomètres et 1 h 30 à 2 h de route par Bedugul et les lacs, ce qui laisse le temps de s'arrêter au temple Ulun Danu Beratan en chemin. Depuis l'aéroport, compter 3 h à 3 h 30.",
       "tips": [
         "Les sentiers des cascades sont raides et glissants, avec beaucoup de marches : de vraies chaussures, pas des tongs.",
+        "Les entrées des cascades se paient en espèces : prévoir des petits billets.",
         "Les soirées sont fraîches, prévoir un pull."
       ],
       "photos": [

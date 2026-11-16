@@ -46,3 +46,24 @@ Sources abrégées :
 | Sarong prêté à l'entrée des temples | WV Ubud (Tirta Empul, Gunung Kawi : sarong compris) | confirmée |
 
 Photos : les six ont été regardées et leurs descriptions Commons relues, toutes conformes (Tegallalang, Tirta Empul, pont aux dragons, Gunung Kawi, Batur vu de Pinggan, Campuhan). Cours de cuisine : rien de bon sous licence libre (Commons et Openverse n'ont qu'un atelier de chef au restaurant Mozaic), galerie laissée telle quelle.
+
+## Munduk
+
+| Affirmation | Source (URL) | Verdict |
+|---|---|---|
+| Village de montagne, girofliers et caféiers, frais | WV Bedugul (https://en.wikivoyage.org/wiki/Munduk redirige vers la région de Bedugul : 700 m et plus, clous de girofle qui sèchent au bord de la route à Munduk, café, cacao, vanille) ; https://www.baliholidaysecrets.com/munduk-bali-guide/ (maj 4 novembre 2026 : 22-26 °C le jour, 15-18 °C la nuit, deux nuits conseillées) ; rech. : https://www.holidify.com/places/bali/munduk-village-sightseeing-1254688.html (800 m) | confirmée ; altitude et températures ajoutées |
+| « Étiré sur une crête », « on voit la mer au loin », « on se réveille dans la brume » | non retrouvé dans les sources consultées | retirées |
+| Lacs à vingt minutes de route | https://baliuntold.com/destinations/munduk/things-to-do/ (maj novembre 2025 : 15 min) | corrigée : un quart d'heure |
+| Sentier des cascades : circuit d'environ trois heures | https://baliuntold.com/destinations/munduk/things-to-do/ (quatre cascades, 3 à 4 h, marches raides, Melanting « quelques centaines de marches », Red Coral 45 000, Labuhan Kebo et Melanting 20 000 chacune, Golden Valley sur don, espèces) ; https://theworldtravelguy.com/munduk-waterfall-hike-in-north-bali/ (maj juillet 2025 : cascade de Munduk à 10 min du parking, 20 000) | corrigée : 3 à 4 h ; noms des cascades et droits d'entrée ajoutés ; « girofliers, caféiers et cacaoyers » le long du sentier retiré |
+| Banyumala : chutes jumelles, Wanagiri, baignade, vingt minutes de descente, « piste cabossée » | https://www.baliholidaysecrets.com/banyumala-waterfall/ (maj février 2026 : 36 m, 50 000 en espèces, 10 à 15 min de descente par des marches, eau très froide jusqu'à la taille, 8 h-18 h) ; baliuntold (30 min de Munduk) | corrigée : un quart d'heure de descente ; « piste cabossée » retirée (non retrouvée) ; hauteur et prix ajoutés : 50 000 |
+| Tamblingan : marche en forêt avec guide puis pirogue jusqu'à un temple | baliuntold (3 h de marche guidée, banians géants et temples anciens, puis 30 min de pirogue) ; rech. : annonces de randonnées (Pura Dalem Tamblingan, traversée en pirogue) | précisée (durées) ; la pirogue termine la marche |
+| Route de crête de Wanagiri au-dessus des deux lacs | baliuntold (plateforme gratuite « Twin Lakes Viewpoint ») | confirmée |
+| « Lacs de cratère » | non vérifié pendant la session | retirée |
+| Ulun Danu Beratan : fondé en 1633, déesse du lac | https://en.wikipedia.org/wiki/Pura_Ulun_Danu_Bratan (1633, Dewi Danu, irrigation du centre de Bali) ; WV Bedugul (7 h-19 h) | confirmée ; horaires ajoutés |
+| Beratan à 45 minutes de Munduk | baliuntold (30 min) | corrigée : une demi-heure |
+| Beratan : prix | rech. : https://heybali.info/news/ulun-danu-beratan-entrance-fee-to-increase-from-july-1-what-travelers-need-to-know/ , https://bali.live/p/pura-ulun-danu-beratan-raises-prices-but-adds-dance-shows (75 000 puis 100 000 au 1er juillet 2026) ; BHS (100 000) | prix ajouté : 100 000 |
+| Clous de girofle qui sèchent « sur des bâches », dégustations de café | WV Bedugul ; baliuntold (Munduk Moding Plantation : visite et dégustation) | confirmée, « sur des bâches » retiré, plantation nommée |
+| Banian géant de Gesing, sentiers depuis le village, guide de l'hôtel | https://thrillophilia.com/attractions/giant-banyan-tree (Gesing à 5 km par la route, environ 700 ans, arbre sacré, entrelacs de racines, panneaux dans le village) ; BHS Munduk (rizières à la sortie ouest du village) | corrigée : accès par la route (5 km) ; « sentiers jusqu'à Gesing » et « guide de l'hôtel » retirés ; âge donné comme un on-dit (une seule source) |
+| Ubud-Munduk : un peu plus de 2 h | BHS Munduk (60 km, 2 h ; aéroport 3 h à 3 h 30) ; theworldtravelguy (2 h) ; rech. (1 h 30 à 1 h 45) | corrigée : 1 h 30 à 2 h ; temps depuis l'aéroport ajouté |
+
+Photos : les six ont été regardées et leurs descriptions Commons relues, toutes conformes (Banyumala, Ulun Danu Beratan, lac Buyan, pirogues et temple de Tamblingan, rizières de Munduk, cascade de Munduk dite Red Coral). Aucun changement.
