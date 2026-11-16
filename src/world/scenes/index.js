@@ -16,9 +16,9 @@ export const SCENE_SCALE = 0.5;
 const SCENES = {};
 for (const file of Object.values(import.meta.glob('./*.scene.js', { eager: true }))) Object.assign(SCENES, file.default);
 // En développement, on charge aussi les scènes en cours d'écriture (dossier wip/, absent du site publié).
-if (import.meta.env.DEV) import('./wip-loader.js').then((wip) => Object.assign(SCENES, wip.default));
+if (import.meta.env.DEV) import('./wip-loader.js').then((wip) => wip.loadWipScenes((scenes) => Object.assign(SCENES, scenes)));
 
-// Renvoie la scène d'une étape (ou null), avec son centre et son étendue en degrés, pour y amener la caméra.
+// Renvoie la scène d'une étape (ou null), avec son centre et son étendue en degrés (est-ouest, nord-sud), pour y amener la caméra.
 export function sceneOf(placeId) {
   const def = SCENES[placeId];
   if (!def) return null;
@@ -30,7 +30,8 @@ export function sceneOf(placeId) {
     items,
     scale,
     center: { dx: (Math.min(...xs) + Math.max(...xs)) / 2, dz: (Math.min(...zs) + Math.max(...zs)) / 2 },
-    span: Math.max(Math.max(...xs) - Math.min(...xs), Math.max(...zs) - Math.min(...zs)),
+    spanX: Math.max(...xs) - Math.min(...xs),
+    spanZ: Math.max(...zs) - Math.min(...zs),
   };
 }
 

@@ -81,14 +81,14 @@ export function createWorld({ canvas, labelLayer, onRegion, onPlace, onDetail })
   canvas.addEventListener('pointerdown', cancelFlight, { capture: true });
   canvas.addEventListener('wheel', cancelFlight, { capture: true, passive: true });
 
-  function flyTo(lon, lat, dist, { duration = 1.6, theta = 0, phi = DEFAULT_POLAR, instant = false } = {}) {
+  function flyTo(lon, lat, dist, { duration = 1.6, theta = 0, phi = DEFAULT_POLAR, instant = false, exact = false } = {}) {
     const [x, z] = toWorld(lon, lat);
     if (instant) {
       // Arrivée directe, sans vol (lien direct vers une étape).
       flight = null;
       controls.enabled = true;
       controls.autoRotate = false;
-      place(new THREE.Vector3(x, 0, z), Math.min(dist * fit(), controls.maxDistance), phi, theta);
+      place(new THREE.Vector3(x, 0, z), Math.min(exact ? dist : dist * fit(), controls.maxDistance), phi, theta);
       return;
     }
     spherical.setFromVector3(camera.position.clone().sub(controls.target));
@@ -96,7 +96,7 @@ export function createWorld({ canvas, labelLayer, onRegion, onPlace, onDetail })
     let fromTheta = spherical.theta;
     while (fromTheta - theta > Math.PI) fromTheta -= Math.PI * 2;
     while (fromTheta - theta < -Math.PI) fromTheta += Math.PI * 2;
-    const toRadius = Math.min(dist * fit(), controls.maxDistance);
+    const toRadius = Math.min(exact ? dist : dist * fit(), controls.maxDistance);
     const travel = controls.target.distanceTo(to);
     flight = {
       t: 0,
@@ -237,7 +237,7 @@ export function createWorld({ canvas, labelLayer, onRegion, onPlace, onDetail })
   function sceneFor(id) {
     if (id in scenes) return scenes[id];
     const def = sceneOf(id);
-    if (!def) return (scenes[id] = null);
+    if (!def) return null; // pas mis en cache : en développement, les scènes en cours d'écriture arrivent après coup
     const origin = placeSpots[id];
     const items = def.items.map((item) => {
       const x = origin.x + item.dx * def.scale;
@@ -262,7 +262,12 @@ export function createWorld({ canvas, labelLayer, onRegion, onPlace, onDetail })
     return (scenes[id] = { items, detail: 0 });
   }
   function updateScenes(dt, elapsed) {
-    if (state.place && !state.itinerary) sceneFor(state.place);
+    if (state.place && !state.itinerary) {
+      const known = state.place in scenes;
+      const built = sceneFor(state.place);
+      // En développement, une scène en cours d'écriture peut arriver après l'ouverture de la fiche : on recadre alors dessus.
+      if (import.meta.env.DEV && built && !known && elapsed > 1) api.focusPlace(state.place, { instant: true });
+    }
     for (const [id, sc] of Object.entries(scenes)) {
       if (!sc) continue;
       const target = id === state.place ? 1 : 0;
@@ -359,7 +364,9 @@ export function createWorld({ canvas, labelLayer, onRegion, onPlace, onDetail })
 
   // ---------- Décalage de la vue (pour centrer la carte dans la zone non couverte par le panneau) ----------
   const viewShift = { x: 0, y: 0, tx: 0, ty: 0 };
+  let padding = { left: 0, right: 0, top: 0, bottom: 0 };
   function setViewPadding({ left = 0, right = 0, top = 0, bottom = 0 }) {
+    padding = { left, right, top, bottom };
     viewShift.tx = (right - left) / 2;
     viewShift.ty = (bottom - top) / 2;
   }
@@ -483,7 +490,7 @@ export function createWorld({ canvas, labelLayer, onRegion, onPlace, onDetail })
   }
   requestAnimationFrame(frame);
 
-  return {
+  const api = {
     mode: '3d',
     flyTo,
     setState,
@@ -492,7 +499,24 @@ export function createWorld({ canvas, labelLayer, onRegion, onPlace, onDetail })
       const p = PLACE_BY_ID[id];
       const detailed = sceneOf(id);
       // Avec une scène détaillée, on cadre l'ensemble de ses éléments, d'un peu plus près.
-      if (detailed) return flyTo(p.lon + detailed.center.dx, p.lat - detailed.center.dz, THREE.MathUtils.clamp(detailed.span * 1.95, 0.55, 3), { duration: 1.3, instant });
+      if (detailed) {
+        const lon = p.lon + detailed.center.dx;
+        const lat = p.lat - detailed.center.dz;
+        // La caméra vise le niveau de la mer : pour une scène en altitude, on vise un peu plus au nord,
+        // là où le regard qui passe par la scène touche le sol.
+        const [cx, cz] = toWorld(lon, lat);
+        const altitude = Math.max(0, terrain.groundAt(cx, cz));
+        // Distance pour que toute la scène tienne dans la zone laissée libre par la fiche, en largeur comme en hauteur
+        // (0,69 = 2·tan(19°), l'ouverture verticale de la caméra ; 0,77 = écrasement de la profondeur à 40° d'inclinaison).
+        const freeW = Math.max(200, width - padding.left - padding.right);
+        const freeH = Math.max(200, height - padding.top - padding.bottom);
+        const margin = detailed.scale * 0.5;
+        const forWidth = ((detailed.spanX + margin) * height) / (0.69 * 0.92 * freeW);
+        const forHeight = ((detailed.spanZ + margin) * 0.77 * height) / (0.69 * 0.9 * freeH);
+        // Une scène en altitude est plus près de la caméra que le sol visé : on recule d'autant.
+        const dist = THREE.MathUtils.clamp(Math.max(forWidth, forHeight) + altitude / Math.cos(DEFAULT_POLAR), 0.5, 3.4);
+        return flyTo(lon, lat + altitude * Math.tan(DEFAULT_POLAR), dist, { duration: 1.3, instant, exact: true });
+      }
       flyTo(p.lon, p.lat, THREE.MathUtils.clamp(REGION_BY_ID[p.region].focus.dist * 0.55, 2.4, 4.6), { duration: 1.3, instant });
     },
     zoom(factor) {
@@ -516,4 +540,5 @@ export function createWorld({ canvas, labelLayer, onRegion, onPlace, onDetail })
       controls.autoRotate = false;
     },
   };
+  return api;
 }
