@@ -9,7 +9,7 @@
   "places": {
     "jakarta": {
       "intro": [
-        "Jakarta fait peur avec ses bouchons et ses plus de 10 millions d'habitants, mais deux ou trois jours suffisent pour voir le meilleur. Au nord, Kota Tua, le vieux Batavia des Hollandais, avec sa place pavée, ses musées et le port des voiliers en bois. Au centre, l'immense place Merdeka avec le Monas, la grande mosquée et le musée national.",
+        "Jakarta fait peur avec ses bouchons et ses 11 millions d'habitants, mais deux ou trois jours suffisent pour voir le meilleur. Au nord, Kota Tua, le vieux Batavia des Hollandais, avec sa place pavée, ses musées et le port des voiliers en bois. Au centre, l'immense place Merdeka avec le Monas, la grande mosquée et le musée national.",
         "Le plus simple est de faire un quartier par jour : d'abord le nord (Kota Tua, Sunda Kelapa, Glodok), ensuite le centre. Le soir, on mange dans la rue."
       ],
       "todo": [
@@ -23,7 +23,7 @@
         {
           "name": "Musée d'histoire de Jakarta",
           "type": "Culture",
-          "text": "Dans l'ancien hôtel de ville de Batavia, terminé en 1710, sur la place Fatahillah. Meubles coloniaux, cartes anciennes et, au sous-sol, les cachots où la Compagnie des Indes enfermait ses prisonniers. À côté, le musée Wayang montre les marionnettes du théâtre d'ombres.",
+          "text": "Dans l'ancien hôtel de ville de Batavia, terminé en 1710, sur la place Fatahillah. Meubles coloniaux, cartes anciennes et, sous le perron, les cachots qui ont servi jusqu'en 1846. À côté, le musée Wayang montre les marionnettes du théâtre d'ombres. Les deux ferment à 15 h.",
           "time": "1 h",
           "price": {
             "amount": 50000,
@@ -34,63 +34,67 @@
         {
           "name": "Port de Sunda Kelapa",
           "type": "Ville",
-          "text": "À vingt minutes à pied au nord de la place, le vieux port où s'alignent les pinisi, de grands voiliers de charge en bois construits à Sulawesi. Sur le quai, les dockers chargent les cales à dos d'homme, en équilibre sur des planches. Y aller tôt le matin, avant la chaleur.",
+          "text": "À vingt bonnes minutes à pied au nord de la place, le vieux port où s'alignent les pinisi, les grands voiliers de charge en bois des Bugis de Sulawesi. Ils transportent encore des marchandises d'île en île, et une partie du chargement se fait à la main. Y aller tôt le matin, avant la chaleur.",
           "time": "1 h",
           "price": null
         },
         {
           "name": "Glodok, le quartier chinois",
           "type": "Ville",
-          "text": "Juste au sud de Kota Tua. On se perd dans les allées du marché de Petak Sembilan, entre les étals de fruits, de grenouilles et d'herbes médicinales, jusqu'au temple Jin De Yuan, le plus ancien temple chinois de la ville, rempli de bougies rouges et d'encens.",
+          "text": "Juste au sud de Kota Tua. On se perd dans les allées du marché de Petak Sembilan, entre les étals de fruits, de grenouilles et d'herbes médicinales, jusqu'au temple Jin De Yuan, le plus ancien temple chinois de la ville (1650). Un incendie l'a ravagé en 2015, mais on y brûle toujours l'encens.",
           "time": "2 h",
           "price": null
         },
         {
           "name": "Monas et place Merdeka",
           "type": "Ville",
-          "text": "L'obélisque de l'indépendance, coiffé d'une flamme recouverte d'or, au milieu d'une place d'environ un kilomètre de côté. Un ascenseur monte à la plateforme d'observation, au-dessus de toute la ville. Longue file le week-end, mieux vaut venir à l'ouverture.",
+          "text": "L'obélisque de l'indépendance, coiffé d'une flamme recouverte d'or, au milieu d'une place d'environ un kilomètre de côté. Un petit ascenseur monte à la plateforme d'observation, à 115 m, et le nombre de billets par jour est limité : venir à l'ouverture, à 8 h. Fermé le lundi.",
           "time": "1 h 30",
           "price": null
         },
         {
           "name": "Mosquée Istiqlal et cathédrale",
           "type": "Culture",
-          "text": "La plus grande mosquée d'Asie du Sud-Est, tout en marbre et en acier, sous une coupole de 45 m de diamètre. Visite avec un guide en dehors des prières, tunique prêtée à l'entrée. Juste en face, la cathédrale néogothique de 1901.",
+          "text": "La plus grande mosquée d'Asie du Sud-Est, en marbre et en acier, sous une coupole de 45 m de diamètre. On s'inscrit à l'accueil pour une visite guidée gratuite, en dehors des prières : tunique prêtée, et la salle de prière se regarde depuis les galeries. Juste en face, la cathédrale néogothique de 1901.",
           "time": "1 h 30",
           "price": null
         },
         {
           "name": "Musée national",
           "type": "Culture",
-          "text": "Le grand musée du pays, surnommé « maison de l'éléphant » à cause de la statue en bronze devant l'entrée, cadeau du roi de Siam. Statues hindoues et bouddhiques de Java, bijoux en or des anciens royaumes, tissus et objets de toutes les îles. À voir avant Borobudur.",
+          "text": "Le grand musée du pays, surnommé « maison de l'éléphant » à cause de la statue en bronze devant l'entrée, cadeau du roi de Siam en 1871. Statues hindoues et bouddhiques de Java, bijoux en or des anciens royaumes, tissus et objets de toutes les îles. À voir avant Borobudur. Fermé le lundi.",
           "time": "2 h",
-          "price": null
+          "price": {
+            "amount": 150000,
+            "currency": "IDR",
+            "what": "entrée du musée national, tarif étranger en vigueur depuis janvier 2026, par personne"
+          }
         },
         {
           "name": "Cuisine de rue",
           "type": "Cuisine",
-          "text": "Le soir, les chariots envahissent les trottoirs : sate grillé au charbon, nasi goreng, soto betawi (une soupe de bœuf au lait de coco), martabak. À Kota Tua on goûte le kerak telor, une galette de riz gluant et d'œuf. Jalan Sabang, près du Monas, est une bonne rue pour commencer.",
+          "text": "Le soir, les chariots envahissent les trottoirs : sate grillé au charbon, nasi goreng, soto betawi (une soupe de bœuf au lait de coco), martabak. À Kota Tua on goûte le kerak telor, une galette de riz gluant et d'œuf cuite sur la braise. Jalan Sabang, près du Monas, est une bonne rue pour commencer.",
           "time": "",
           "price": null
         },
         {
           "name": "Brocante de Jalan Surabaya",
           "type": "Ville",
-          "text": "Dans le quartier résidentiel de Menteng, une rue entière de petites échoppes : vieilles valises, lampes de bateau, vinyles, porcelaine, marionnettes. Il y a beaucoup de copies, on marchande et on flâne.",
+          "text": "Dans le quartier résidentiel de Menteng, une rue entière de petites échoppes : vieilles valises, vinyles, lampes, porcelaine, compas et barres de navire. Tout n'est pas ancien, loin de là. On marchande et on flâne.",
           "time": "1 h",
           "price": null
         },
         {
           "name": "Dimanche matin sans voitures",
           "type": "Ville",
-          "text": "Tôt le dimanche matin, les avenues Sudirman et Thamrin sont fermées aux voitures. Tout Jakarta vient courir, pédaler et prendre son petit-déjeuner autour du rond-point de l'hôtel Indonesia, au pied des tours.",
+          "text": "Le dimanche matin, jusqu'à 10 h, les avenues Sudirman et Thamrin sont fermées aux voitures. Tout Jakarta vient courir, pédaler et prendre son petit-déjeuner autour du rond-point de l'hôtel Indonesia, au pied des tours. Certains dimanches, une course ou une fête l'annule.",
           "time": "1 h",
           "price": null
         }
       ],
-      "access": "Vol jusqu'à l'aéroport Soekarno-Hatta, au nord-ouest de la ville. Ensuite le train de l'aéroport (environ 50 minutes jusqu'à la gare BNI City, dans le centre) ou un taxi, entre 45 minutes et 1 h 30 suivant les bouchons.",
+      "access": "Vol jusqu'à l'aéroport Soekarno-Hatta, au nord-ouest de la ville. Ensuite le train de l'aéroport (environ 40 minutes jusqu'à la gare BNI City, dans le centre) ou un taxi, entre 45 minutes et 1 h 30 suivant les bouchons.",
       "tips": [
-        "Les musées sont fermés le lundi.",
+        "Les musées et le Monas sont fermés le lundi.",
         "Regrouper les visites par quartier : la ville est immense et on perd vite une heure dans les bouchons.",
         "Pour se déplacer : Grab ou Gojek, en voiture ou à moto, et le bus TransJakarta de la ligne 1 qui descend de Kota vers le centre sur sa propre voie."
       ],
@@ -103,25 +107,11 @@
           "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
         },
         {
-          "file": "Jakarta Indonesia Bicycles-at-Fatahillah-Square-01.jpg",
-          "caption": "Vélos de location, place Fatahillah",
-          "author": "Uwe Aranas (CEphoto)",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
-        },
-        {
           "file": "Kapal Pinisi Sunda Kelapa.jpg",
           "caption": "Voiliers pinisi au port de Sunda Kelapa",
           "author": "Herusutimbul",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-        },
-        {
-          "file": "Chinese temple, Petak Sembilan Market, Glodok, West Jakarta, Indonesia (16 02 07)(140145359).jpg",
-          "caption": "Temple chinois du quartier de Glodok",
-          "author": "Seika N",
-          "license": "CC BY 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
         },
         {
           "file": "Monumen Nasional, Jakarta, Indonesia.jpg",
@@ -131,11 +121,25 @@
           "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
         },
         {
+          "file": "Chinese temple, Petak Sembilan Market, Glodok, West Jakarta, Indonesia (16 02 07)(140145359).jpg",
+          "caption": "Cierges rouges dans un temple de Glodok",
+          "author": "Seika N",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+        },
+        {
           "file": "Jakarta - Istiqlal Mosque, interior.jpg",
           "caption": "Salle de prière de la mosquée Istiqlal",
           "author": "P. Hughes",
           "license": "CC BY 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        },
+        {
+          "file": "Kerak Telor Betawi Vendor.jpg",
+          "caption": "Vendeur de kerak telor à Jakarta",
+          "author": "Gunawan Kartapranata",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
         }
       ]
     },
