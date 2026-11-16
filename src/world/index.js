@@ -504,18 +504,23 @@ export function createWorld({ canvas, labelLayer, onRegion, onPlace, onDetail })
         const lat = p.lat - detailed.center.dz;
         // La caméra vise le niveau de la mer : pour une scène en altitude, on vise un peu plus au nord,
         // là où le regard qui passe par la scène touche le sol.
-        const [cx, cz] = toWorld(lon, lat);
-        const altitude = Math.max(0, terrain.groundAt(cx, cz));
+        // On prend l'altitude moyenne des éléments : le centre peut tomber sur un sommet où rien n'est posé.
+        const [ox, oz] = toWorld(p.lon, p.lat);
+        const altitude =
+          detailed.items.reduce((sum, i) => sum + Math.max(0, terrain.groundAt(ox + i.dx * detailed.scale, oz + i.dz * detailed.scale)), 0) /
+          detailed.items.length;
         // Distance pour que toute la scène tienne dans la zone laissée libre par la fiche, en largeur comme en hauteur
         // (0,69 = 2·tan(19°), l'ouverture verticale de la caméra ; 0,77 = écrasement de la profondeur à 40° d'inclinaison).
         const freeW = Math.max(200, width - padding.left - padding.right);
         const freeH = Math.max(200, height - padding.top - padding.bottom);
         const margin = detailed.margin;
         const forWidth = ((detailed.spanX + margin) * height) / (0.69 * 0.92 * freeW);
-        const forHeight = ((detailed.spanZ + margin) * 0.77 * height) / (0.69 * 0.9 * freeH);
+        // Un élément haut dépasse vers le haut de l'écran comme s'il s'étendait vers le nord (hauteur × tan 40°).
+        const rise = detailed.rise * Math.tan(DEFAULT_POLAR);
+        const forHeight = ((detailed.spanZ + rise + margin * 0.8) * 0.77 * height) / (0.69 * 0.9 * freeH);
         // Une scène en altitude est plus près de la caméra que le sol visé : on recule d'autant.
         const dist = THREE.MathUtils.clamp(Math.max(forWidth, forHeight) + altitude / Math.cos(DEFAULT_POLAR), 0.5, 3.4);
-        return flyTo(lon, lat + altitude * Math.tan(DEFAULT_POLAR), dist, { duration: 1.3, instant, exact: true });
+        return flyTo(lon, lat + altitude * Math.tan(DEFAULT_POLAR) + rise / 2, dist, { duration: 1.3, instant, exact: true });
       }
       flyTo(p.lon, p.lat, THREE.MathUtils.clamp(REGION_BY_ID[p.region].focus.dist * 0.55, 2.4, 4.6), { duration: 1.3, instant });
     },
