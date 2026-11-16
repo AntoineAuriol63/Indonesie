@@ -19,87 +19,92 @@
   "places": {
     "medan-bukit-lawang": {
       "intro": [
-        "Bukit Lawang est un village étiré le long de la rivière Bohorok, à l'entrée du parc national du Gunung Leuser. C'est un des rares endroits où l'on voit des orangs-outans de Sumatra en liberté, et pas besoin de dormir en forêt pour ça : un trek d'une journée, ou même de 4 heures, suffit le plus souvent.",
-        "On part à pied du village avec un guide, on grimpe dans la jungle et on rentre en fin d'après-midi, à pied ou en bouée sur la rivière. Medan, où l'on atterrit, se visite en une demi-journée avant de prendre la route."
+        "Bukit Lawang est un village étiré le long de la rivière Bohorok, à l'entrée du parc national du Gunung Leuser. C'est un des rares endroits où l'on voit des orangs-outans de Sumatra en liberté. Beaucoup descendent d'animaux relâchés par l'ancien centre de réhabilitation et restent près du village : un trek d'une journée, ou même de 4 heures, suffit le plus souvent pour en croiser.",
+        "On part à pied du village avec un guide, obligatoire pour entrer dans le parc, on grimpe dans la jungle et on rentre dans l'après-midi, à pied ou en bouée sur la rivière. Medan, où l'on atterrit, se visite en une demi-journée avant de prendre la route."
       ],
       "todo": [
         {
           "name": "Trek d'une journée dans le Gunung Leuser",
           "type": "Randonnée",
-          "text": "Départ vers 9 h du village avec un guide. On monte et on descend toute la journée sur des sentiers de racines et de boue, on cherche les orangs-outans dans les arbres et on déjeune au bord d'un ruisseau. Pas de nuit en forêt.",
+          "text": "Départ vers 9 h du village avec un guide. On marche 5 à 6 heures sur des sentiers raides, pleins de racines et de boue, on cherche les orangs-outans dans les arbres et on déjeune d'un riz frit en forêt. Pas de nuit sous la tente.",
           "time": "la journée",
           "price": {
             "amount": 70,
             "currency": "EUR",
-            "what": "trek d'une journée avec guide, permis, fruits, eau et déjeuner, par personne (retour en bouée en supplément)"
+            "what": "trek d'une journée avec guide, permis d'entrée du parc, fruits et déjeuner, par personne ; le retour en bouée est compris ou en supplément selon le guide"
           }
         },
         {
           "name": "Trek court de 4 heures",
           "type": "Randonnée",
-          "text": "Même forêt, mais on reste sur les premières collines derrière le village. On a déjà de bonnes chances de croiser un orang-outan, et presque toujours des semnopithèques de Thomas, des singes gris avec une crête sur la tête. Ça grimpe quand même.",
+          "text": "Même forêt, mais on reste sur les premières collines derrière le village, autour de l'ancienne plateforme de nourrissage, fermée en 2016. Les orangs-outans traînent souvent par là, et l'on croise aussi des semnopithèques de Thomas, des singes gris avec une crête sur la tête. Ça grimpe quand même.",
           "time": "4 h",
           "price": {
             "amount": 55,
             "currency": "EUR",
-            "what": "trek de 4 heures avec guide et permis, par personne"
+            "what": "trek de 4 heures avec guide, permis d'entrée du parc et fruits, par personne"
           }
         },
         {
           "name": "Retour en bouée sur la Bohorok",
           "type": "Nature",
-          "text": "À la fin du trek, les guides attachent de grosses chambres à air ensemble et on redescend la rivière jusqu'au village, assis dedans, les sacs emballés dans du plastique. Quelques petits rapides, rien de méchant. On peut aussi louer une bouée au village sans faire le trek.",
-          "time": "30 à 45 min",
+          "text": "À la fin du trek, les guides attachent de grosses chambres à air ensemble et on redescend la rivière jusqu'au village, assis dedans, avec quelques petits rapides. On peut aussi louer une bouée au village sans faire le trek : le courant est fort, on demande où s'arrêter.",
+          "time": "une demi-heure environ",
           "price": null
         },
         {
           "name": "Grotte aux chauves-souris",
           "type": "Nature",
-          "text": "À une demi-heure de marche du village, en traversant des plantations d'hévéas. On entre avec une lampe frontale, on escalade quelques rochers et on voit les chauves-souris accrochées au plafond. Prévoir des chaussures fermées.",
-          "time": "2 h",
+          "text": "Une demi-heure à une heure de marche à plat depuis le village, entre les hévéas et les durians. On entre avec une lampe, on escalade des rochers et on voit des milliers de chauves-souris accrochées au plafond. On y va en général avec un guide du village.",
+          "time": "2 à 3 h",
           "price": null
         },
         {
           "name": "Baignade devant les guesthouses",
           "type": "Détente",
-          "text": "Les guesthouses sont alignées sur les deux rives de la Bohorok, avec des passerelles suspendues pour traverser. On se baigne juste devant : l'eau est fraîche et le courant fort par endroits. En fin de journée, on voit souvent des singes sur la rive d'en face.",
+          "text": "Les guesthouses sont alignées sur les deux rives de la Bohorok, avec des passerelles suspendues pour traverser. On se baigne juste devant : l'eau est claire et le courant fort par endroits. Le week-end, il y a foule au bord de l'eau.",
           "time": "",
           "price": null
         },
         {
           "name": "Grande mosquée Al-Mashun, à Medan",
           "type": "Culture",
-          "text": "La grande mosquée de Medan, construite en 1906 par le sultan de Deli : plan octogonal, dômes noirs, murs blancs et verts. On entre en dehors des heures de prière, pieds nus, épaules et jambes couvertes.",
+          "text": "La grande mosquée de Medan, construite de 1906 à 1909 par le sultan de Deli : plan octogonal, dômes noirs, murs blancs à panneaux verts, marbre d'Italie et vitraux venus de France. L'entrée est gratuite, en dehors des prières et en tenue couverte.",
           "time": "30 min",
           "price": null
         },
         {
           "name": "Palais Maimun, à Medan",
           "type": "Culture",
-          "text": "Le palais jaune des sultans de Deli, à quelques minutes à pied de la mosquée. On ne visite que la salle du trône, où l'on peut se faire photographier en costume malais. Le jaune est la couleur des sultans malais.",
+          "text": "Le palais jaune des sultans de Deli, terminé en 1891, à cinq minutes à pied de la mosquée. Sur trente pièces, on ne visite que la salle du trône et quelques salons, où l'on peut louer un costume malais pour la photo. Le jaune est la couleur des Malais.",
           "time": "45 min",
-          "price": null
+          "price": {
+            "amount": 10000,
+            "currency": "IDR",
+            "what": "entrée du palais, par personne (location de costume en plus)"
+          }
         },
         {
           "name": "Maison de Tjong A Fie et quartier de Kesawan",
           "type": "Ville",
-          "text": "La maison d'un riche marchand chinois du début du XXe siècle, dans la rue Ahmad Yani : cour intérieure, meubles d'époque, photos de famille. Autour, les vieilles façades coloniales de Kesawan et le restaurant Tip Top, où l'on mange des glaces depuis les années 1930.",
+          "text": "La maison d'un riche marchand chinois, terminée en 1900, dans la rue Ahmad Yani : 35 pièces sur deux étages, où se mêlent les styles chinois, malais et Art déco. En face, le restaurant Tip Top sert des glaces et des gâteaux depuis 1934, sous une véranda qui donne sur la rue.",
           "time": "1 h 30",
           "price": null
         },
         {
           "name": "Soto Medan et durian",
           "type": "Cuisine",
-          "text": "Medan est une ville où l'on mange bien : soto Medan au lait de coco, nouilles chinoises, bika ambon (un gâteau jaune plein d'alvéoles). Chez Ucok Durian, on s'attable pour manger du durian frais à n'importe quelle heure de la soirée.",
+          "text": "Medan est une ville où l'on mange bien : soto Medan, un bouillon jaune au lait de coco avec du poulet ou du bœuf, et bika ambon, un gâteau spongieux plein d'alvéoles. Chez Ucok Durian, ouvert jour et nuit, on s'attable pour manger du durian frais.",
           "time": "",
           "price": null
         }
       ],
-      "access": "Vol jusqu'à l'aéroport de Medan (Kualanamu), puis 3 à 4 heures de route jusqu'à Bukit Lawang, en voiture avec chauffeur ou en minibus. Le village est piéton : on finit à pied le long de la rivière.",
+      "access": "Vol jusqu'à l'aéroport de Medan (Kualanamu), puis 3 à 4 heures de route jusqu'à Bukit Lawang, parfois 5 avec les embouteillages, en voiture avec chauffeur ou en minibus touristique. On finit à pied le long de la rivière, 10 à 15 minutes jusqu'aux guesthouses.",
       "tips": [
-        "Les pentes sont raides et glissantes après la pluie : chaussures qui accrochent, pantalon long et chaussettes hautes contre les sangsues.",
+        "Les pentes sont raides et glissantes après la pluie : chaussures fermées qui accrochent, pantalon long et chaussettes hautes contre les sangsues.",
         "On ne touche pas et on ne nourrit pas les orangs-outans. Choisir un guide qui garde ses distances avec eux.",
-        "Aucun guide ne peut garantir un orang-outan, mais sur une journée entière on en voit presque toujours."
+        "Aucun guide ne peut garantir un orang-outan, mais sur une journée entière on en voit le plus souvent.",
+        "Il n'y a qu'un distributeur au village et il ne marche pas toujours : retirer des roupies à Medan."
       ],
       "photos": [
         {
@@ -117,6 +122,11 @@
           "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
         },
         {
+          "url": "https://live.staticflickr.com/5682/20874087772_75c7c4912a_b.jpg",
+          "caption": "Descente de la Bohorok en bouées",
+          "source": "Flickr, Andrew H, CC BY 2.0"
+        },
+        {
           "file": "Gunung Leuser & Orang Utans (35322365933).jpg",
           "caption": "Orang-outan mâle dans le Gunung Leuser",
           "author": "Dennis Keller",
@@ -129,13 +139,6 @@
           "author": "Visions of Domino",
           "license": "CC BY 2.0",
           "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
-        },
-        {
-          "file": "Masjid Raya Al Mashun Medan.jpg",
-          "caption": "Grande mosquée Al-Mashun, Medan",
-          "author": "Herusutimbul",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
         },
         {
           "file": "Maimun Palace Medan Indonesia.jpg",
