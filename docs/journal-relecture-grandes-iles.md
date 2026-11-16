@@ -156,3 +156,61 @@ Vérifié sans moteur de recherche (quota épuisé), sur des pages consultées d
 | Nuits fraîches | Wikivoyage (16 à 28 °C, pluie fréquente l'après-midi même en saison sèche) | confirmée, pluie ajoutée |
 
 Photos : les six regardées, toutes justes. « Rizières en terrasses du pays Toraja » (Limbong, lieu absent de la fiche) remplacée par les rizières de Batutumonga (Commons, Romain Pontida, CC BY-SA 2.0).
+
+Correction de la fiche Toraja dans le commit suivant : « presque tous [les buffles] finiront sacrifiés » (déduction sans source) remplacé par « ce sont eux qu'on sacrifie aux funérailles » (Wikipedia Toraja).
+
+## Manado / Bunaken (vérification partielle)
+
+Sans moteur de recherche (quota épuisé) : Wikivoyage, Wikipédia et un guide daté de juillet 2026.
+
+| Affirmation | Source (URL) | Verdict |
+|---|---|---|
+| Bunaken en face de Manado, dans un parc marin | https://en.wikipedia.org/wiki/Bunaken_National_Park (cinq îles : Bunaken, Manado Tua, Mantehage, Nain, Siladen) | confirmée |
+| Récif qui s'arrête « à quelques dizaines de mètres », mur vertical | https://en.wikivoyage.org/wiki/Bunaken (récif à environ 40 m du rivage) ; Wikipedia (mur de corail vertical de 25 à 50 m) | confirmée, précisée -> une quarantaine de mètres |
+| Resorts des plages de Liang et de Pangalisang | Wikivoyage | confirmée |
+| Sites de Lekuan et Fukui, napoléons, bateau qui suit les nageurs | aucune page consultée | non vérifié, laissé |
+| Tortues vertes, nombreuses | Wikivoyage (cinq espèces de tortues) ; description Commons de la photo (tortue verte près d'Alung Banua) | confirmée en partie ; « dorment dans les creux du mur », « à Lekuan » : non vérifié, laissé |
+| Snorkeling depuis la plage, marée basse sans eau sur le corail | Wikivoyage | confirmée |
+| Siladen : « un quart d'heure de bateau », plage de sable blanc | Wikivoyage et Wikipedia disent seulement que l'île fait partie du parc | non vérifié, laissé |
+| Tomohon à une heure de Manado, entre deux volcans | https://en.wikivoyage.org/wiki/Tomohon ; https://www.backindo.com/north-sulawesi-travel-guide/ (juillet 2026) | confirmée |
+| Mahawu : route puis escalier, « vingt minutes » | Wikivoyage (escalier glissant quand il est mouillé) ; https://en.wikipedia.org/wiki/Mount_Mahawu (cratère de 180 m de large, à l'est du Lokon) | « vingt minutes » retiré ; largeur du cratère et mise en garde ajoutées |
+| Lac Linow : « du vert au turquoise », soufre, fumerolles, café au bord | https://en.wikipedia.org/wiki/Lake_Linow (rouge, vert foncé, bleu foncé ; 3 km de Tomohon ; baignade déconseillée ; on en fait le tour à pied) | corrigée ; café retiré |
+| Cuisine minahasa pimentée, rica-rica, tinutuan | backindo ; Wikivoyage Tomohon | confirmée ; dabu-dabu : non vérifié, laissé |
+| Marché de Tomohon : chauves-souris, rats, serpents | Wikivoyage Tomohon (chiens, chauves-souris, serpents ; avant 8 h) ; backindo (vente de chien, chat et singe interdite depuis 2023) | corrigée -> chauves-souris et serpents, tôt le matin |
+| Manado-Bunaken : environ 45 min de bateau, resorts qui viennent chercher | Wikivoyage (30 à 60 min ; bateau public vers 14-15 h sauf dimanche) | confirmée, précisée |
+| Courant le long des murs | Wikivoyage (courant fort, qui change vite ; garder ses palmes) | confirmée |
+| Entrée du parc en plus | Wikivoyage (50 000 IDR par jour, tarif de 2008) ; backindo (150 000 IDR par jour pour un étranger, juillet 2026) | confirmée ; montant non repris (une seule source récente) |
+| Saison | Wikivoyage (saison sèche de mai à octobre, visibilité jusqu'à 35 m) | ajoutée |
+
+Photos : les six regardées, toutes justes. Légende corrigée : la tortue est une tortue verte (description Commons, malgré le nom du fichier).
+
+## Tangkoko (vérification partielle)
+
+| Affirmation | Source (URL) | Verdict |
+|---|---|---|
+| Réserve au bord de la mer, pointe nord-est de Sulawesi | https://en.wikipedia.org/wiki/Tangkoko_Batuangus_Nature_Reserve (8 718 ha, près de Bitung) ; https://theworldtravelguy.com/tangkoko-nature-reserve/ (avril 2025 : 60 km de Manado) | confirmée, distance ajoutée |
+| Tarsier et macaque à crête, propres à l'île | Wikipedia ; backindo | confirmée |
+| On dort à Batuputih, visites guidées | Wikipedia (visites autorisées seulement dans la zone de Batuputih) ; theworldtravelguy (guide obligatoire, marche d'environ 4 h) | confirmée |
+| Terrain facile, presque plat | theworldtravelguy (sentier plat, d'abord pavé puis en terre) | confirmée |
+| Tarsiers : arbres creux, « gros ficus », sortie « vers 17 h 30 », « sans flash » | descriptions Commons des photos (figuier étrangleur) ; theworldtravelguy (le soir, quand ils se réveillent pour chasser) | heure et flash retirés -> à la tombée du jour |
+| Macaques : « départ vers 5 h 30 », « plusieurs dizaines », « passent à un mètre » | theworldtravelguy (sortie du matin, groupes d'environ 25, deux groupes dont un habitué aux gens) | corrigée |
+| Calao à cimier, couscous ours | Wikipedia ; theworldtravelguy | confirmée |
+| Plage de sable noir, macaques | theworldtravelguy (5 à 10 min à pied de l'entrée) | confirmée ; « barques des pêcheurs », « on s'y baigne » retirés |
+| Manado-Batuputih : 1 h 30 à 2 h | theworldtravelguy | confirmée |
+| « Minuscules acariens » dans l'herbe | theworldtravelguy (piqûres d'insectes qui démangent, jambes couvertes et répulsif) | reformulée |
+| Entrée et guide | theworldtravelguy (100 000 IDR par jour pour un étranger ; guide 200 000 le matin, 100 000 le soir) | non repris en prix (source unique) ; conseil ajouté |
+| Pas de wifi, peu de réseau | theworldtravelguy | ajoutée |
+
+Photos : les six regardées, toutes prises à Tangkoko (descriptions Commons), bien légendées ; aucune changée.
+
+## Régions
+
+| Affirmation | Source (URL) | Verdict |
+|---|---|---|
+| Sumatra, août : plutôt sec, fumées certaines années | https://www.backindo.com/sumatra-orangutan-guide/ (saison sèche de mai à septembre) ; https://en.wikipedia.org/wiki/Southeast_Asian_haze (pire de juillet à octobre et les années El Niño) | précisée |
+| Sumatra, accès : vol intérieur entre Medan et Padang | https://en.wikipedia.org/wiki/Minangkabau_International_Airport (Super Air Jet, Medan-Padang direct) | confirmée |
+| Kalimantan : « aucune route ne relie » Tanjung Puting et Derawan | https://en.wikivoyage.org/wiki/Derawan (route Balikpapan-Tanjung Batu, 16 à 24 h) | corrigée : il y a des routes, mais toute la largeur de l'île |
+| Kalimantan, août : sec, fumées, vols retardés | Wikivoyage Tanjung Puting (saison sèche de mai à septembre) ; Wikipedia Southeast Asian haze | confirmée, précisée |
+| Kalimantan, accès ; bateau loué en entier | sources des fiches Tanjung Puting et Derawan | confirmée |
+| Sulawesi, août : sec au sud, saison des funérailles, averses à Manado | Wikivoyage Tana Toraja (pic en juillet-août, pluie fréquente l'après-midi) ; Wikivoyage Bunaken (saison sèche de mai à octobre) | corrigée |
+| Sulawesi, accès : vol direct Makassar-Manado | backindo (vols réguliers de Makassar vers Manado) | confirmée |

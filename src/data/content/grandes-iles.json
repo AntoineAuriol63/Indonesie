@@ -1,18 +1,18 @@
 {
   "regions": {
     "sumatra": {
-      "intro": "Sumatra est une île énorme et on n'en voit qu'un morceau à la fois. Dans le nord, on va à Bukit Lawang chercher les orangs-outans dans la jungle, puis au lac Toba, sur l'île de Samosir, chez les Batak. Dans l'ouest, on dort à Bukittinggi pour le canyon de Sianok, le lac Maninjau et les maisons minangkabau aux toits en cornes de buffle. Chaque moitié demande une petite semaine, avec de longues journées de route.",
-      "august": "Août est plutôt sec, mais il pleut encore de temps en temps dans le nord. Certaines années, la fumée des feux de forêt voile le paysage.",
-      "access": "On arrive à Medan pour le nord et à Padang pour l'ouest ; entre les deux, il faut un vol intérieur. Sur place tout se fait par la route, en voiture avec chauffeur ou en minibus."
+      "intro": "Sumatra est une île énorme et on n'en voit qu'un morceau à la fois. Dans le nord, on va à Bukit Lawang chercher les orangs-outans dans la jungle, puis au lac Toba, sur l'île de Samosir, chez les Batak Toba. Dans l'ouest, on dort à Bukittinggi pour le canyon de Sianok, le lac Maninjau et les maisons minangkabau aux toits en cornes de buffle. Chaque moitié demande une petite semaine, avec de longues journées de route.",
+      "august": "Août est en saison sèche, mais il pleut encore de temps en temps, surtout autour du lac Toba. De juillet à octobre, la fumée des feux de forêt et de tourbe peut voiler le paysage, surtout les années El Niño.",
+      "access": "On arrive à Medan pour le nord et à Padang pour l'ouest ; entre les deux, il faut un vol intérieur, direct. Sur place tout se fait par la route, en voiture avec chauffeur ou en minibus."
     },
     "kalimantan": {
-      "intro": "C'est la partie indonésienne de Bornéo. On y a repéré deux séjours qui n'ont rien à voir. À Tanjung Puting, on passe trois jours sur un bateau en bois à remonter une rivière dans la forêt pour voir les orangs-outans. À Derawan et Maratua, de l'autre côté de l'île, on nage avec les tortues, les raies manta et les méduses de Kakaban. Aucune route ne relie les deux : c'est l'un ou l'autre, ou alors des vols en plus.",
-      "august": "Août est un des mois les plus secs, mais il fait chaud et humide quand même. Certaines années, la fumée des feux de forêt gêne la vue et peut retarder les vols.",
+      "intro": "C'est la partie indonésienne de Bornéo. On y a repéré deux séjours qui n'ont rien à voir. À Tanjung Puting, on passe trois jours sur un bateau en bois à remonter une rivière dans la forêt pour voir les orangs-outans. À Derawan et Maratua, de l'autre côté de l'île, on nage avec les tortues, les raies manta et les méduses de Kakaban. Entre les deux, il y a toute la largeur de l'île : c'est l'un ou l'autre, ou alors des vols en plus.",
+      "august": "Août est un des mois les plus secs, mais il fait chaud et humide quand même. De juillet à octobre, surtout les années El Niño, la fumée des feux de tourbe gêne la vue et peut retarder les vols.",
       "access": "Pour Tanjung Puting, on atterrit à Pangkalan Bun et on embarque à Kumai. Pour Derawan, on atterrit à Berau, puis c'est la route et le hors-bord. Le bateau de Tanjung Puting se loue en entier, qu'on soit deux ou six."
     },
     "sulawesi": {
       "intro": "Une grande île à quatre bras, avec deux bouts très différents. Au sud, dans les montagnes, le pays Toraja : des maisons aux toits en coque de bateau, des tombes creusées dans les falaises et des funérailles où l'on sacrifie des buffles. Tout au nord, autour de Manado, on nage le long des tombants de Bunaken et on va voir les tarsiers dans la forêt de Tangkoko. Faire les deux dans le même voyage demande un vol entre Makassar et Manado.",
-      "august": "Août est sec dans le sud et en pays Toraja, et c'est la saison des funérailles. Autour de Manado, quelques averses restent possibles.",
+      "august": "Août est en saison sèche partout. En pays Toraja, c'est le pic des funérailles, mais il pleut encore souvent l'après-midi. Autour de Manado, c'est la bonne période pour la mer.",
       "access": "On arrive à Makassar pour le pays Toraja et à Manado pour Bunaken et Tangkoko. Un vol direct relie les deux villes ; par la route, ce serait plusieurs jours."
     }
   },
@@ -627,7 +627,7 @@
         {
           "name": "Marché aux buffles de Bolu",
           "type": "Culture",
-          "text": "À 2 km au nord-est du centre de Rantepao, le marché aux bestiaux se tient le mardi et le samedi matin. Les buffles y attendent un acheteur par dizaines : presque tous finiront sacrifiés à des funérailles. On y vend aussi des cochons. L'entrée est libre.",
+          "text": "À 2 km au nord-est du centre de Rantepao, le marché aux bestiaux se tient le mardi et le samedi matin. Les buffles y attendent un acheteur par dizaines : ce sont eux qu'on sacrifie aux funérailles. On y vend aussi des cochons. L'entrée est libre.",
           "time": "2 h",
           "price": null
         },
@@ -721,7 +721,7 @@
     },
     "manado-bunaken": {
       "intro": [
-        "Bunaken est une petite île en face de Manado, au milieu d'un parc marin. Le récif s'arrête net à quelques dizaines de mètres de la plage et tombe à la verticale dans le bleu. En nageant le long de ce mur avec un masque, on voit les coraux, les bancs de poissons et beaucoup de tortues, sans bouteille.",
+        "Bunaken est une petite île en face de Manado, au milieu d'un parc marin de cinq îles. Le récif s'arrête net à une quarantaine de mètres du rivage et tombe à la verticale dans le bleu. En nageant le long de ce mur avec un masque, on voit les coraux, les bancs de poissons et beaucoup de tortues, sans bouteille.",
         "On dort sur l'île, dans un des petits resorts des plages de Liang ou de Pangalisang, et on sort en bateau une ou deux fois par jour. Tomohon et ses volcans, dans les montagnes derrière Manado, font une bonne journée à terre."
       ],
       "todo": [
@@ -742,7 +742,7 @@
         {
           "name": "Snorkeling depuis la plage",
           "type": "Mer",
-          "text": "Devant les resorts, à marée haute, on traverse le platier à la nage jusqu'au bord du tombant. À marée basse, il ne reste presque plus d'eau au-dessus du corail : on attend qu'elle remonte pour ne rien casser.",
+          "text": "Devant les resorts, à marée haute, on traverse le platier à la nage jusqu'au bord du tombant, à une quarantaine de mètres. À marée basse, il ne reste presque plus d'eau au-dessus du corail : on attend qu'elle remonte pour ne rien casser.",
           "time": "1 à 2 h",
           "price": null
         },
@@ -756,30 +756,31 @@
         {
           "name": "Tomohon et le cratère du Mahawu",
           "type": "Nature",
-          "text": "Une petite ville d'altitude à une heure de Manado, entre deux volcans. Au Mahawu, une route puis un escalier mènent en vingt minutes au bord du cratère, avec le cône du Lokon en face.",
+          "text": "Une petite ville d'altitude à une heure de Manado, entre deux volcans. Au Mahawu, une route puis un escalier, glissant quand il a plu, mènent au bord d'un cratère de 180 m de large, avec le cône du Lokon en face.",
           "time": "la journée, avec le lac Linow",
           "price": null
         },
         {
           "name": "Lac Linow",
           "type": "Nature",
-          "text": "Un petit lac volcanique près de Tomohon dont l'eau passe du vert au turquoise suivant la lumière. Ça sent le soufre, des fumerolles sortent sur la rive, et on boit un café au bord.",
+          "text": "Un petit lac volcanique à 3 km de Tomohon, dont l'eau passe du vert au bleu, parfois au rouge, suivant sa composition. Ça sent fort le soufre, des fumerolles sortent sur la rive, et on en fait le tour à pied. On ne s'y baigne pas.",
           "time": "1 h",
           "price": null
         },
         {
           "name": "Cuisine minahasa",
           "type": "Cuisine",
-          "text": "Une des cuisines les plus pimentées du pays : poisson grillé au dabu-dabu, poulet rica-rica et, le matin, le tinutuan, une bouillie de riz aux légumes. Le marché de Tomohon vend aussi des chauves-souris, des rats et des serpents, mieux vaut le savoir avant d'entrer.",
+          "text": "Une des cuisines les plus pimentées du pays : poisson grillé au dabu-dabu, poulet rica-rica et, le matin, le tinutuan, une bouillie de riz aux légumes. Le marché de Tomohon vend aussi des chauves-souris et des serpents, tôt le matin : mieux vaut le savoir avant d'entrer.",
           "time": "",
           "price": null
         }
       ],
-      "access": "Vol jusqu'à Manado, puis environ 45 minutes de bateau depuis le port. La plupart des resorts de Bunaken viennent chercher leurs clients.",
+      "access": "Vol jusqu'à Manado, puis 30 minutes à une heure de bateau depuis le port. La plupart des resorts de Bunaken viennent chercher leurs clients ; sinon, un bateau public part en début d'après-midi, sauf le dimanche.",
       "tips": [
-        "Il y a parfois du courant le long des murs : rester près du bateau et du guide.",
+        "Le courant le long des murs peut être fort et tourner vite : garder ses palmes, rester près du bateau et du guide.",
         "L'entrée du parc marin se paie en plus de l'hébergement.",
-        "Les clubs vivent surtout de la plongée bouteille : préciser dès la réservation qu'on vient pour le snorkeling."
+        "Les clubs vivent surtout de la plongée bouteille : préciser dès la réservation qu'on vient pour le snorkeling.",
+        "La mer est la plus claire de mai à octobre, en saison sèche."
       ],
       "photos": [
         {
@@ -798,7 +799,7 @@
         },
         {
           "file": "Loggerhead Sea Turtle in blue water near Alung Banua Reef.jpg",
-          "caption": "Tortue marine dans le bleu, Bunaken",
+          "caption": "Tortue verte dans le bleu, Bunaken",
           "author": "Matt Kieffer",
           "license": "CC BY-SA 2.0",
           "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
@@ -828,22 +829,22 @@
     },
     "tangkoko": {
       "intro": [
-        "Une réserve de forêt au bord de la mer, à la pointe nord-est de Sulawesi. On y vient pour deux animaux propres à l'île : le tarsier, un primate qui tient dans la main, avec des yeux énormes, et le macaque à crête, tout noir avec une houppe sur la tête.",
-        "On dort au village de Batuputih, à l'entrée de la réserve, et on fait deux marches avec un guide : une en fin d'après-midi pour les tarsiers, une à l'aube pour les macaques et les calaos. Le terrain est facile, presque plat."
+        "Une réserve de forêt au bord de la mer, à la pointe nord-est de Sulawesi, à 60 km de Manado. On y vient pour deux animaux propres à l'île : le tarsier, un primate qui tient dans la main, avec des yeux énormes, et le macaque à crête, tout noir avec une houppe sur la tête.",
+        "On dort au village de Batuputih, à l'entrée de la réserve, et on fait deux marches avec un guide : une en fin d'après-midi pour les tarsiers, une tôt le matin pour les macaques et les calaos. Le terrain est facile, à plat, sur un sentier de terre."
       ],
       "todo": [
         {
           "name": "Tarsiers au crépuscule",
           "type": "Faune",
-          "text": "Les guides connaissent les arbres creux, souvent de gros ficus, où dorment les familles de tarsiers. Vers 17 h 30, ils sortent un par un, à hauteur d'yeux, puis bondissent d'un tronc à l'autre pour chasser les insectes. On les regarde sans flash.",
-          "time": "3 h",
+          "text": "Les guides connaissent les arbres creux, de gros figuiers étrangleurs, où dorment les familles de tarsiers. À la tombée du jour, ils se réveillent et sortent à hauteur d'yeux, puis bondissent d'un tronc à l'autre pour chasser les insectes.",
+          "time": "3 à 4 h",
           "price": null
         },
         {
           "name": "Macaques à crête à l'aube",
           "type": "Faune",
-          "text": "Départ vers 5 h 30. Les groupes de macaques noirs, plusieurs dizaines d'individus, descendent des arbres au lever du jour et fouillent le sol. Ils sont habitués aux gens et passent à un mètre sans s'occuper de nous.",
-          "time": "3 à 4 h",
+          "text": "On part tôt le matin. Les macaques noirs vivent en groupes d'environ vingt-cinq et fouillent le sol de la forêt. Un des deux groupes de la réserve est habitué aux gens et passe tout près sans s'occuper de nous.",
+          "time": "4 h",
           "price": null
         },
         {
@@ -856,16 +857,17 @@
         {
           "name": "Plage de sable noir de Batuputih",
           "type": "Détente",
-          "text": "Le village donne sur une longue plage de sable volcanique noir, avec les barques des pêcheurs tirées au sec. On s'y baigne entre les deux marches. Les macaques descendent parfois jusque-là.",
+          "text": "À cinq ou dix minutes à pied de l'entrée de la réserve, une longue plage de sable volcanique noir. On y va entre les deux marches. Les macaques descendent parfois jusque-là.",
           "time": "",
           "price": null
         }
       ],
       "access": "Depuis Manado, 1 h 30 à 2 heures de route jusqu'à Batuputih, en passant près de Bitung. Depuis Bunaken, il faut d'abord reprendre le bateau jusqu'à Manado.",
       "tips": [
-        "Pantalon long rentré dans les chaussettes et répulsif : il y a dans l'herbe de minuscules acariens dont les piqûres démangent pendant des jours.",
-        "Le guide est obligatoire, on le trouve au village ou par la guesthouse.",
-        "Tarsiers et macaques se voient à presque toutes les sorties, les calaos et les couscous moins souvent."
+        "Pantalon long et répulsif : des visiteurs repartent avec des piqûres d'insectes qui démangent pendant des jours.",
+        "Le guide est obligatoire, on le trouve au village ou par la guesthouse. L'entrée de la réserve se paie à chaque jour de visite.",
+        "On voit presque toujours les tarsiers et les macaques, moins souvent les calaos et les couscous.",
+        "Pas de wifi et très peu de réseau à Batuputih."
       ],
       "photos": [
         {
