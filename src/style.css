@@ -180,6 +180,24 @@ h3 {
   color: #fff;
 }
 
+/* Nom d'un élément de la scène détaillée d'une étape */
+.lbl--detail {
+  padding: 1px 9px 2px;
+  border: 2px solid var(--ink);
+  border-radius: 999px;
+  background: var(--sun);
+  box-shadow: 0 2px 0 var(--ink);
+  font-weight: 600;
+  font-size: 12.5px;
+  pointer-events: auto;
+  transform-origin: 50% 100%;
+  animation: rise 0.3s both;
+}
+.lbl--detail:hover {
+  scale: 1.1;
+  background: #fff;
+}
+
 /* Villes et repères géographiques : simple lettrage de carte */
 .lbl--city {
   font-weight: 600;
@@ -514,6 +532,13 @@ body:not(.started) .topbar {
   border-radius: 14px;
   background: #fff;
   font-size: 14px;
+}
+.todo.is-flash {
+  animation: flash 1.4s ease-out;
+}
+@keyframes flash {
+  0%, 35% { background: var(--sun); }
+  100% { background: #fff; }
 }
 .todo__head {
   display: flex;
