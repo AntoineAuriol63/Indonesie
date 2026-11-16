@@ -19,65 +19,65 @@
  "places": {
   "banda-neira": {
    "intro": [
-    "Dix petites îles volcaniques perdues en mer de Banda, à près de 200 km d'Ambon. Jusqu'au XIXe siècle, toute la muscade du monde venait d'ici, et les Hollandais ont massacré presque toute la population en 1621 pour en garder le monopole. Banda Neira, le bourg principal, a encore ses deux forts et ses maisons coloniales à colonnades, un peu décaties.",
-    "En face, à quelques minutes de barque, le cône du Gunung Api sort de l'eau. On visite à pied, on traverse vers les plantations de Banda Besar et on nage sur des récifs en très bon état."
+    "Dix petites îles volcaniques perdues en mer de Banda, à près de 200 km d'Ambon. Jusqu'au milieu du XIXe siècle, toute la muscade du monde venait d'ici. Pour en garder le monopole, les Hollandais ont tué, déporté ou réduit en esclavage presque toute la population en 1621. Banda Neira, le bourg principal, a encore ses deux forts et ses maisons coloniales à colonnades, un peu décaties.",
+    "En face, à cinq minutes de barque, le cône du Gunung Api sort de l'eau. On visite à pied et on nage sur des récifs en très bon état. Seul problème, et de taille : août est la mauvaise saison et le bateau rapide d'Ambon ne navigue pas."
    ],
    "todo": [
     {
      "name": "Fort Belgica",
      "type": "Culture",
-     "text": "Bâti par les Hollandais en 1611 au-dessus du bourg, reconstruit en pentagone vers 1672 et restauré en 1991. On monte sur les remparts et dans les tours, avec la baie et le Gunung Api en face. Plus beau en fin d'après-midi.",
+     "text": "Bâti par les Hollandais en 1611 sur la colline au-dessus du bourg, reconstruit en pentagone en 1672 et 1673, restauré en 1991. On monte sur les remparts et dans les cinq tours, avec la baie et le Gunung Api en face. Il n'ouvre pas à heures fixes.",
      "time": "1 h",
      "price": null
     },
     {
      "name": "Fort Nassau et les maisons coloniales",
      "type": "Ville",
-     "text": "En contrebas de Belgica, le fort Nassau, le premier des Hollandais, est à moitié en ruine. Autour, on longe les maisons à colonnades : l'Istana Mini, ancienne résidence du gouverneur, et celles où Hatta et Sjahrir ont vécu en exil avant l'indépendance.",
+     "text": "En contrebas de Belgica, le fort Nassau, le premier des Hollandais (1609), est à moitié en ruine. Autour, on longe les maisons à colonnades : l'Istana Mini, ancienne résidence du gouverneur, et les maisons devenues petits musées où Hatta et Sjahrir ont vécu en exil de 1936 à 1942.",
      "time": "2 h",
      "price": null
     },
     {
      "name": "Plantations de muscade de Banda Besar",
      "type": "Nature",
-     "text": "On traverse en barque jusqu'à Lonthoir, sur Banda Besar. Les muscadiers poussent à l'ombre d'immenses kenaris. Sur place, on nous ouvre le fruit : la noix brune, le macis rouge qui l'entoure, puis le séchage au soleil.",
+     "text": "On traverse en barque jusqu'à Lonthoir, sur Banda Besar, où un long escalier monte au village. Les muscadiers poussent à l'ombre de kenaris géants, vieux de plusieurs siècles. Sur place, on nous ouvre le fruit : la noix brune et le macis rouge qui l'entoure.",
      "time": "demi-journée",
      "price": null
     },
     {
      "name": "Montée au Gunung Api",
      "type": "Randonnée",
-     "text": "Le volcan d'en face culmine à 640 m et sa dernière éruption date de 1988. La montée est courte mais très raide, sur des cailloux qui roulent. On part au lever du jour avec un guide et de bonnes chaussures. D'en haut, on voit tout l'archipel.",
+     "text": "Le volcan d'en face culmine à 640 m et sa dernière éruption date de 1988. Deux heures de montée très raide, sur des cailloux qui roulent. On part vers 5 h 30 avec un guide, de bonnes chaussures et de l'eau. À éviter quand le sentier est mouillé, ce qui arrive souvent en août.",
      "time": "3 à 4 h aller-retour",
      "price": null
     },
     {
      "name": "Snorkeling sur la coulée de lave",
      "type": "Mer",
-     "text": "Au pied du Gunung Api, la coulée de 1988 est entrée dans la mer et le corail a repoussé dessus étonnamment vite. On y va en barque depuis Banda Neira, en quelques minutes. L'eau est claire et le récif commence tout près du bord.",
-     "time": "2 h",
+     "text": "Sur la côte nord du Gunung Api, la coulée de 1988 est entrée dans la mer et le corail a repoussé dessus à une vitesse qui a surpris les biologistes : des coraux-tables de 3 à 4 m de large. On y va en barque louée à Banda Neira.",
+     "time": "demi-journée",
      "price": null
     },
     {
      "name": "Journée à Pulau Hatta ou Pulau Ai",
      "type": "Mer",
-     "text": "Les plus beaux récifs sont sur les îles extérieures. À Pulau Hatta, le tombant démarre à quelques mètres de la plage du village. Pulau Ai a aussi ses muscadiers et les ruines d'un fort. Environ une heure de bateau à l'aller, par mer calme seulement.",
+     "text": "Les plus beaux récifs sont sur les îles extérieures. À Pulau Hatta, à une heure de bateau, le tombant démarre tout près de la plage du vieux village. Pulau Ai a aussi ses muscadiers et le fort Revenge, de 1616. Les barques publiques ne font pas l'aller-retour dans la journée : on loue un bateau, par mer calme seulement.",
      "time": "la journée",
      "price": null
     },
     {
      "name": "Confiture de muscade et sauce kenari",
      "type": "Cuisine",
-     "text": "Dans les pensions, on goûte la confiture et le sirop faits avec la chair du fruit de la muscade. Le poisson grillé et l'aubergine arrivent avec une sauce aux noix de kenari, une sorte d'amande locale.",
+     "text": "Dans les pensions, on goûte la confiture et le sirop faits avec la chair du fruit de la muscade, par exemple sur une crêpe. L'aubergine frite arrive nappée d'une sauce aux noix de kenari, une sorte d'amande locale, à côté du poisson grillé.",
      "time": "",
      "price": null
     }
    ],
-   "access": "Depuis Ambon : bateau rapide au départ de Tulehu (environ 6 h, quelques départs par semaine), gros ferry Pelni ou petit avion, tous peu fréquents. On rejoint Ambon par un vol depuis Jakarta ou Makassar.",
+   "access": "Depuis Ambon, un bateau rapide part de Tulehu le jeudi à 9 h et revient le dimanche (environ 5 h, à partir de 550 000 roupies). Il s'arrête à la mauvaise saison : en 2025, aucun départ entre début mai et fin août. Restent alors les gros ferries Pelni (8 à 16 h selon le navire, quelques départs par mois) et un avion Smart Air de 12 places, une fois par semaine. On rejoint Ambon par un vol depuis Jakarta, Surabaya ou Makassar.",
    "tips": [
-    "En août, c'est la mauvaise saison ici : pluie, mer agitée, bateau rapide souvent arrêté, donc plusieurs jours de marge à garder avant le vol retour.",
-    "Sur place tout se fait à pied, les barques se négocient au port.",
-    "On retire son liquide à Ambon avant de partir."
+    "En août, c'est la saison de pluie et de vent (mai à septembre) : mer agitée, pas de bateau rapide, vols souvent annulés. On garde plusieurs jours de marge avant le vol retour, ou on choisit une autre période.",
+    "Sur place tout se fait à pied, les barques se négocient au débarcadère, près du marché.",
+    "Un seul distributeur à Banda Neira, peu fiable : on retire son liquide à Ambon avant de partir."
    ],
    "photos": [
     {
