@@ -31,35 +31,43 @@
     {
      "name": "Plage de Tanjung Aan",
      "type": "Mer",
-     "text": "Deux baies en croissant à un quart d'heure à l'est de Kuta, à l'eau turquoise peu profonde. D'un côté le sable est fin comme de la farine, de l'autre en petits grains comme du poivre. C'est la plage la plus facile pour se baigner.",
+     "text": "Deux baies à un quart d'heure à l'est de Kuta, à l'eau turquoise peu profonde. D'un côté le sable est très fin, de l'autre en grains ronds comme du poivre. Les warungs ont été rasés en juillet 2025 pour un projet d'hôtel : on apporte son eau.",
      "time": "demi-journée",
-     "price": null
+     "price": {
+      "amount": 10000,
+      "currency": "IDR",
+      "what": "parking à l'entrée de la plage, par scooter"
+     }
     },
     {
      "name": "Coucher de soleil sur la colline de Merese",
      "type": "Randonnée",
-     "text": "Une colline d'herbe rase au bout de Tanjung Aan. Dix à quinze minutes de montée depuis le parking, et on voit les baies des deux côtés. Tout le monde y vient pour le coucher du soleil : monter vers 17 h avec de l'eau.",
+     "text": "Une colline d'herbe rase au bout de Tanjung Aan. Une vingtaine de minutes de montée depuis le parking, et on voit les baies des deux côtés. Tout le monde y vient pour le coucher du soleil : monter vers 17 h avec de l'eau.",
      "time": "1 h 30",
      "price": null
     },
     {
      "name": "Premier cours de surf à Selong Belanak",
      "type": "Mer",
-     "text": "Une longue baie à 40 minutes à l'ouest de Kuta, avec un fond de sable et des vagues douces : c'est là que les écoles emmènent les débutants. On loue planche et moniteur directement sur la plage. En fin d'après-midi, des troupeaux de buffles traversent le sable.",
+     "text": "Une longue baie à une demi-heure à l'ouest de Kuta, avec un fond de sable et des vagues douces : c'est là que les écoles emmènent les débutants. On loue planche et moniteur aux warungs de la plage. En fin d'après-midi, des troupeaux de buffles traversent le sable.",
      "time": "demi-journée",
      "price": null
     },
     {
      "name": "Plage de Mawun",
      "type": "Mer",
-     "text": "Une baie presque fermée entre deux collines, à 20 minutes à l'ouest de Kuta. Peu de monde, quelques warungs sous les arbres pour une noix de coco ou du poisson grillé. L'eau devient vite profonde, on reste près du bord.",
+     "text": "Une baie presque fermée entre deux collines, à 20 minutes à l'ouest de Kuta. Peu de monde, quelques warungs et des transats à louer. Presque pas de récif ni d'algues, mais l'eau devient vite profonde : on reste près du bord.",
      "time": "2 à 3 h",
-     "price": null
+     "price": {
+      "amount": 10000,
+      "currency": "IDR",
+      "what": "entrée et parking, par scooter"
+     }
     },
     {
      "name": "Village sasak de Sade ou d'Ende",
      "type": "Culture",
-     "text": "Sur la route de l'aéroport, deux villages où les Sasak vivent encore dans des maisons de bambou à toit de chaume. Un habitant fait la visite contre un don. Le sol des maisons est lissé à la bouse de buffle et les femmes tissent devant les portes.",
+     "text": "Sur la route de l'aéroport, à un quart d'heure de Kuta, deux villages de maisons sasak à toit de chaume. Un habitant fait la visite contre un don, 20 000 à 50 000 roupies. Le sol est lissé à la bouse de buffle et les femmes tissent. Ende est le plus calme.",
      "time": "1 h",
      "price": null
     },
@@ -71,7 +79,7 @@
      "price": null
     }
    ],
-   "access": "Kuta est à 30 minutes de route de l'aéroport de Lombok, en taxi ou avec un chauffeur. Depuis les Gili, compter environ 3 h entre le bateau jusqu'à Bangsal et la route.",
+   "access": "Kuta est à 30 minutes de route de l'aéroport de Lombok, en taxi ou avec un chauffeur. Depuis les Gili, compter 3 à 4 h entre le bateau jusqu'à Bangsal et la route. Grab et Gojek ne prennent pas de course à Kuta : on passe par l'hôtel ou un chauffeur local.",
    "tips": [
     "Une plage bonne pour le surf ne l'est pas forcément pour la baignade : pour nager, Tanjung Aan ; pour apprendre le surf, Selong Belanak.",
     "Les routes vers les plages n'ont pas d'éclairage : en scooter, on rentre avant la nuit.",
@@ -115,7 +123,7 @@
     },
     {
      "file": "Indonesian postcard (Lombok) (37378310672).jpg",
-     "caption": "Surfeur entrant dans l'eau à Lombok",
+     "caption": "Surfeur sortant de l'eau à Lombok",
      "author": "madras91",
      "license": "CC BY 2.0",
      "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
