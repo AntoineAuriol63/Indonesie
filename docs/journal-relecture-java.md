@@ -92,3 +92,24 @@ Photos : les six photos existantes ont été regardées. La plaque de rue de Jal
 | Punthuk Setumbu au lever du soleil | https://www.backindo.com/?p=2664 (10 à 15 min de montée sur des marches) | confirmée, durée ajoutée |
 
 Photos : les six photos existantes ont été regardées, toutes justes et de bonne qualité ; aucune remplacée. Légende de la photo de batik précisée (Imogiri).
+
+## Dieng
+
+| Affirmation | Source (URL) | Verdict |
+| --- | --- | --- |
+| Plateau à 2 000 m, « demeure des dieux » | https://en.wikivoyage.org/wiki/Dieng_Plateau (2 000 à 2 100 m) ; https://en.wikipedia.org/wiki/Dieng_Plateau (2 100 m) | confirmée, « à plus de 2 000 m » |
+| Temples « parmi les plus anciens de l'île », champs de pommes de terre | https://en.wikipedia.org/wiki/Dieng_Plateau (plus anciennes constructions en pierre connues de Java ; premier producteur de pommes de terre du pays) | confirmée, formulation précisée |
+| Sikunir : départ vers 4 h pour Sembungan, demi-heure de marches, Sindoro, volcans jusqu'au Merapi | https://www.backindo.com/sikunir-dieng-sunrise/ (nov. 2025 : départ 3 h 30 de Dieng, 30 à 45 min, surtout des escaliers, Merapi, Merbabu, Sindoro, Sumbing, Slamet ; Sembungan, plus haut village de Java) | corrigée : départ 3 h 30, 30 à 45 min |
+| Temples d'Arjuna : cinq temples des VIIe et VIIIe siècles, noms du Mahabharata | https://en.wikipedia.org/wiki/Dieng_temples ; https://id.wikipedia.org/wiki/Kompleks_Percandian_Arjuna (Arjuna, Semar, Srikandi, Puntadewa, Sembadra) | confirmée |
+| Temple de Bima, isolé, le plus grand | https://en.wikipedia.org/wiki/Dieng_temples (le plus grand et le plus haut, sur une colline à part) | confirmée |
+| Sikidang : passerelle en bois, mare de boue, masques | https://visitjawatengah.jatengprov.go.id/en/destinations/sikidang-crater (passerelle en bois de 1 150 m) ; https://www.backindo.com/guide-sikidang-crater-dieng/ ; Lonely Planet | confirmée ; longueur ajoutée ; « masques vendus à l'entrée » -> « mieux vaut un masque » |
+| Telaga Warna, Batu Ratapan Angin, lac de Pengilon ; « sentier en forêt », « lac sombre » | https://www.detik.com/jateng/wisata/d-6918902/tiket-batu-ratapan-angin-rute-dan-aktivitas-seru-di-sana/amp ; https://en.wikivoyage.org/wiki/Dieng_Plateau | confirmée ; « sentier en forêt » et « sombre » retirés (non sourcés) |
+| Mont Prau : 2 565 m, 2 à 3 h depuis Patak Banteng, Sindoro et Sumbing | https://www.backindo.com/hiking-mount-prau/ (2 565 m, 2 h 30 à 3 h, faisable de jour, fermeture du 19 janvier au 20 mars 2026) | confirmée ; « point le plus haut du plateau » reformulé ; fermeture de début d'année ajoutée |
+| Carica, mie ongklok avec brochettes de bœuf | https://en.wikivoyage.org/wiki/Dieng_Plateau ; https://www.goodnewsfromindonesia.id/2023/05/04/mie-ongklok-khas-wonosobo | confirmée, chou ajouté |
+| Yogyakarta-Dieng : 3 h 30 à 4 h par Wonosobo | https://www.indonesia.travel/fr/en/travel-ideas/heritage/dieng-plateau (3 à 4 h par Magelang et Wonosobo) ; excursions (3 h 20 à 3 h 30) | précisée : 3 à 4 h |
+| Bus avec changement à Magelang, minibus d'une heure | https://en.wikivoyage.org/wiki/Dieng_Plateau (Magelang-Wonosobo 2 h, minibus 1 h) ; unchartedlens (bus direct 2 h 30 à 3 h 30, minibus 45 à 60 min) ; discoveryourindonesia (5 à 7 h en bus) | confirmée et complétée : bus direct possible, cinq heures au moins |
+| Gel nocturne en juillet et août | https://en.wikipedia.org/wiki/Dieng_Plateau (gel la plupart des années, juillet-août, environ une semaine) | confirmée, « certaines nuits » |
+| Cratères fermés quand les gaz augmentent | https://rmol.id/nusantara/read/2025/07/14/672949/berstatus-waspada-masyarakat-di-sekitar-dieng-diminta-tak-dekati-kawah-aktif ; https://www.merdeka.com/peristiwa/read/7834762/gunung-dieng-berstatus-waspada-kawah-sileri-ditutup-untuk-wisatawan | confirmée, Sileri et Timbang nommés |
+| Festival de Dieng en août | https://rri.co.id/purwokerto/regional/2465253/dieng-culture-festival-2026-merawat-harmoni-alam-budaya-dan-kehidupan (28-30 août 2026) ; merdeka.com (tarifs des homestays) | confirmée, dates 2026 ajoutées |
+
+Photos : les cinq photos existantes ont été regardées et sont justes. Ajout de « Gunung Prau, Dieng, Wonosobo, 05062017.jpg » (Eko Raharjo, CC BY-SA 4.0) : le Sindoro et le Sumbing vus du mont Prau.

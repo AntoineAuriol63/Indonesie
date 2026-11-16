@@ -416,58 +416,58 @@
     },
     "dieng": {
       "intro": [
-        "Dieng est un plateau volcanique à 2 000 m d'altitude, au centre de Java. Le nom veut dire « demeure des dieux » : on y trouve de petits temples hindous, parmi les plus anciens de l'île, posés dans la brume au milieu des champs de pommes de terre. Autour, des cratères qui fument, des mares de boue qui bouillonnent et un lac vert et turquoise.",
+        "Dieng est un plateau volcanique à plus de 2 000 m d'altitude, au centre de Java. Le nom veut dire « demeure des dieux » : on y trouve de petits temples hindous, les plus anciens monuments de pierre de l'île, posés dans la brume au milieu des champs de pommes de terre. Autour, des cratères qui fument, des mares de boue qui bouillonnent et un lac vert et turquoise.",
         "Tout tient dans quelques kilomètres. On dort une ou deux nuits en homestay au village de Dieng et on fait le tour à scooter ou avec un chauffeur. Il fait froid, surtout à l'aube."
       ],
       "todo": [
         {
           "name": "Lever de soleil au Sikunir",
           "type": "Randonnée",
-          "text": "Départ vers 4 h pour le village de Sembungan, puis une demi-heure de montée à la frontale sur des marches. En haut, le soleil se lève derrière le Sindoro et, par temps clair, on voit une file de volcans jusqu'au Merapi. Il fait très froid en haut.",
+          "text": "Départ vers 3 h 30 pour Sembungan, le plus haut village de Java, puis 30 à 45 minutes de montée à la frontale sur des marches. En haut, le soleil se lève à côté du Sindoro et, par temps clair, on voit une file de volcans jusqu'au Merapi. Il fait très froid avant le lever du jour.",
           "time": "2 h aller-retour",
           "price": null
         },
         {
           "name": "Temples d'Arjuna",
           "type": "Culture",
-          "text": "Cinq petits temples hindous des VIIe et VIIIe siècles, alignés sur une pelouse au centre du plateau. Ils portent des noms de héros du Mahabharata. On y va tôt, quand la brume traîne encore, puis on continue à pied jusqu'au temple isolé de Bima, le plus grand.",
+          "text": "Cinq petits temples hindous des VIIe et VIIIe siècles, alignés sur une pelouse au centre du plateau. Ils portent des noms de héros du Mahabharata. On y va tôt, quand la brume traîne encore, puis on continue jusqu'au temple de Bima, seul sur sa colline, le plus grand de Dieng.",
           "time": "1 h 30",
           "price": null
         },
         {
           "name": "Cratère de Sikidang",
           "type": "Nature",
-          "text": "Un cratère à ciel ouvert : on avance sur une passerelle en bois entre les fumerolles jusqu'à une grande mare de boue grise qui bout. L'odeur de soufre est forte, des masques sont vendus à l'entrée.",
+          "text": "Un cratère à ciel ouvert : on avance sur une passerelle en bois de plus d'un kilomètre, entre les fumerolles, jusqu'à une grande mare de boue grise qui bout. L'odeur de soufre est forte, mieux vaut un masque. Moins de monde en semaine.",
           "time": "45 min",
           "price": null
         },
         {
           "name": "Telaga Warna et Batu Ratapan Angin",
           "type": "Nature",
-          "text": "Le « lac des couleurs » passe du vert au turquoise suivant le soufre et la lumière. On le longe par un sentier en forêt, puis on monte aux rochers de Batu Ratapan Angin pour le voir d'en haut, à côté du lac sombre de Pengilon.",
+          "text": "Le « lac des couleurs » passe du vert au turquoise suivant le soufre et la lumière. On le regarde d'abord depuis la rive, puis on monte aux deux gros rochers de Batu Ratapan Angin pour le voir d'en haut, à côté du lac de Pengilon.",
           "time": "1 h 30",
           "price": null
         },
         {
           "name": "Mont Prau",
           "type": "Randonnée",
-          "text": "Le point le plus haut du plateau, à 2 565 m. Montée raide de 2 à 3 h depuis le village de Patak Banteng, jusqu'à une longue crête herbeuse face au Sindoro et au Sumbing. Plus sportif que le Sikunir, et faisable de jour si on ne veut pas partir en pleine nuit.",
+          "text": "Le sommet qui domine le plateau, à 2 565 m. Montée raide de 2 à 3 h depuis le village de Patak Banteng, jusqu'à une longue crête herbeuse face au Sindoro et au Sumbing. Plus sportif que le Sikunir, et faisable de jour si on ne veut pas partir en pleine nuit. Sentier fermé de janvier à mars.",
           "time": "5 à 6 h aller-retour",
           "price": null
         },
         {
           "name": "Carica et mie ongklok",
           "type": "Cuisine",
-          "text": "Deux spécialités du coin : le carica, une petite papaye de montagne vendue en sirop dans tous les villages, et le mie ongklok de Wonosobo, des nouilles dans une sauce épaisse servies avec des brochettes de bœuf.",
+          "text": "Deux spécialités du coin : le carica, une petite papaye de montagne vendue en sirop dans tous les villages, et le mie ongklok de Wonosobo, des nouilles au chou dans une sauce épaisse, servies avec des brochettes de bœuf.",
           "time": "",
           "price": null
         }
       ],
-      "access": "Depuis Yogyakarta, 3 h 30 à 4 h de route en voiture avec chauffeur, par Wonosobo. En transport public, bus jusqu'à Wonosobo avec un changement à Magelang, puis minibus pour Dieng, une heure de montée en lacets.",
+      "access": "Depuis Yogyakarta, 3 à 4 h de route en voiture avec chauffeur, par Magelang et Wonosobo. En transport public, bus jusqu'à Wonosobo, direct ou avec un changement à Magelang, puis minibus pour Dieng, 45 minutes à une heure de montée. Compter au moins cinq heures en tout.",
       "tips": [
-        "Juillet et août sont les mois les plus froids, il peut geler la nuit : bonnet, gants et doudoune.",
-        "Certains cratères ferment quand les émissions de gaz augmentent : demander au homestay la veille.",
-        "Le festival de Dieng a lieu en août : ces jours-là, tous les hébergements sont pris."
+        "Juillet et août sont les mois les plus froids, il gèle certaines nuits : bonnet, gants et doudoune.",
+        "Certains cratères, comme Sileri et Timbang, sont interdits quand l'activité ou les gaz augmentent : demander au homestay la veille.",
+        "Le festival de Dieng a lieu en août (du 28 au 30 en 2026) : ces jours-là, les homestays sont pleins et plus chers."
       ],
       "photos": [
         {
@@ -495,6 +495,13 @@
           "file": "Area Kawah Sikidang, Dieng Plateau.jpg",
           "caption": "Fumerolles du cratère de Sikidang",
           "author": "AdeRiska",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Gunung Prau, Dieng, Wonosobo, 05062017.jpg",
+          "caption": "Sindoro et Sumbing vus du mont Prau",
+          "author": "Eko Raharjo",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
         },
