@@ -7,7 +7,7 @@
   },
   "flores-et-komodo": {
    "intro": "Tout commence à Labuan Bajo, un petit port à la pointe ouest de Flores. De là partent les bateaux pour le parc de Komodo : les dragons de Komodo et de Rinca, le belvédère de Padar, les raies manta. Ensuite on peut s'enfoncer dans l'île par la route, jusqu'à Ruteng et ses rizières en toile d'araignée, puis jusqu'au village de Wae Rebo, dans la montagne. Compter trois ou quatre jours pour la mer et autant pour l'intérieur.",
-   "august": "Saison sèche : les îles du parc sont jaunes et pelées, la mer est en général calme. C'est aussi le mois le plus chargé, les bateaux se réservent à l'avance, et un coup de vent peut encore faire modifier une sortie.",
+   "august": "Saison sèche : les îles du parc sont jaunes et pelées, la mer est en général calme. C'est aussi le mois le plus chargé : le parc de Komodo est limité à 1 000 visiteurs par jour depuis 2026, on réserve le bateau tôt.",
    "access": "Vol direct pour Labuan Bajo depuis Bali ou Jakarta. Les îles se visitent en bateau, l'intérieur de Flores en voiture avec chauffeur par la route transflorésienne, lente et pleine de virages."
   },
   "sumbawa": {
@@ -558,57 +558,58 @@
   },
   "ruteng-et-manggarai": {
    "intro": [
-    "Ruteng est une petite ville de montagne à quatre heures de route de Labuan Bajo, à plus de 1 000 m d'altitude : il y fait frais, souvent brumeux, on ressort le pull. C'est le pays des Manggarai, avec ses rizières découpées en toile d'araignée, ses maisons coniques et ses duels au fouet les jours de fête.",
+    "Ruteng est une petite ville de montagne à trois ou quatre heures de route de Labuan Bajo, à 1 100 m d'altitude : il y fait frais, souvent brumeux, on ressort le pull. C'est le pays des Manggarai, avec ses rizières découpées en toile d'araignée, ses maisons coniques et ses duels au fouet les jours de fête.",
     "On y dort une ou deux nuits, sur la route de Wae Rebo ou en aller-retour depuis Labuan Bajo. Les sites sont dispersés autour de la ville, on les enchaîne avec le chauffeur."
    ],
    "todo": [
     {
      "name": "Rizières en toile d'araignée de Cancar",
      "type": "Nature",
-     "text": "À Cancar, une demi-heure à l'ouest de Ruteng, on monte dix minutes sur une colline et on voit les rizières découpées en parts de gâteau. C'est le lingko, le partage des terres chez les Manggarai : chaque famille reçoit une part qui s'élargit vers l'extérieur.",
+     "text": "À Cancar, vingt minutes à l'ouest de Ruteng, une courte montée sur une colline et on voit les rizières découpées en parts de gâteau. C'est le lingko, le partage des terres chez les Manggarai : depuis un point central, le lodok, des lignes en rayons délimitent la part de chaque famille.",
      "time": "1 h",
      "price": null
     },
     {
      "name": "Grotte de Liang Bua",
      "type": "Culture",
-     "text": "La grotte où l'on a découvert en 2003 l'homme de Florès, un petit humain d'un mètre de haut surnommé le hobbit. C'est une grande salle ouverte, avec des stalactites et les carrés de fouille au sol. À une dizaine de kilomètres au nord de Ruteng.",
+     "text": "La grotte où l'on a découvert en 2003 l'homme de Florès, un petit humain d'un mètre de haut surnommé le hobbit. C'est une grande salle ouverte, longue de 50 m, avec des stalactites et les carrés de fouille au sol. À une dizaine de kilomètres au nord de Ruteng.",
      "time": "1 h 30 avec la route",
      "price": null
     },
     {
      "name": "Village de Ruteng Pu'u",
      "type": "Culture",
-     "text": "Le vieux village, à la sortie de la ville : deux maisons traditionnelles au toit conique, et devant, une cour ronde pavée de pierres avec le compang, la plateforme qui sert d'autel aux ancêtres. On signe le livre d'or et on laisse un don.",
+     "text": "Le vieux village, à la sortie de la ville : des maisons traditionnelles au toit conique autour d'une cour, avec le compang, la plateforme de pierre où l'on appelle l'esprit gardien du village. On signe le livre d'or et on paie un droit de visite.",
      "time": "30 min",
      "price": null
     },
     {
      "name": "Marché de Ruteng",
      "type": "Ville",
-     "text": "Le matin, au marché central : légumes de montagne, café de Manggarai, tabac, poisson séché, et les songke, les sarongs noirs à motifs colorés que portent les gens d'ici. Bon endroit pour acheter du café à rapporter.",
+     "text": "Le matin, au marché couvert : étals de poisson séché, d'épicerie et de légumes, et les songke, les sarongs noirs à motifs colorés que portent les gens d'ici.",
      "time": "1 h",
      "price": null
     },
     {
      "name": "Lac Ranamese",
      "type": "Nature",
-     "text": "Un petit lac de cratère entouré de forêt, au bord de la route transflorésienne, à une vingtaine de kilomètres à l'est de Ruteng. Un sentier descend jusqu'à la rive. Le matin, des pêcheurs y lancent leur ligne depuis un radeau de bambou.",
+     "text": "Un petit lac volcanique entouré de forêt, à 1 200 m d'altitude, au bord de la route transflorésienne, à une vingtaine de kilomètres à l'est de Ruteng. On en fait le tour à pied en trois quarts d'heure. Des pêcheurs y lancent leur ligne depuis un radeau de bambou.",
      "time": "1 h",
      "price": null
     },
     {
      "name": "Combat de caci",
      "type": "Culture",
-     "text": "Un duel au fouet : l'un frappe, l'autre pare avec un bouclier rond, au son des gongs. Il a lieu pour les fêtes de récolte, les mariages et autour du 17 août, la fête nationale. Demander à l'hôtel s'il y en a un ces jours-là.",
+     "text": "Un duel au fouet : l'un frappe, l'autre pare avec un bouclier rond en peau de buffle, au son des gongs et des tambours. Il a lieu pour les fêtes de récolte, comme le Penti, et de plus en plus souvent pour les visiteurs. Demander à l'hôtel s'il y en a un ces jours-là.",
      "time": "",
      "price": null
     }
    ],
-   "access": "Par la route transflorésienne depuis Labuan Bajo : environ 4 h de virages, en voiture avec chauffeur. On s'arrête à Cancar juste avant d'arriver à Ruteng.",
+   "access": "Par la route transflorésienne depuis Labuan Bajo : 110 km de virages, 3 à 4 h en voiture avec chauffeur. On s'arrête à Cancar juste avant d'arriver à Ruteng.",
    "tips": [
     "La route tourne sans arrêt : prévoir de quoi lutter contre le mal des transports.",
-    "Ruteng est en altitude, les soirées sont fraîches même en août."
+    "Ruteng est en altitude : en août, les nuits descendent vers 12 °C.",
+    "Chaque site a son droit d'entrée, en liquide : autour de 25 000 roupies à Cancar, 45 000 à 80 000 à Ruteng Pu'u et à Liang Bua, 100 000 pour un étranger au lac Ranamese."
    ],
    "photos": [
     {
@@ -626,13 +627,6 @@
      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
     },
     {
-     "file": "RUT - Paddy fields near Ruteng, Flores, Indonesia, 2019.jpg",
-     "caption": "Rizières en terrasses près de Ruteng",
-     "author": "Josep M. Gracia",
-     "license": "CC BY-SA 4.0",
-     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-    },
-    {
      "file": "Tari Caci.jpg",
      "caption": "Duel de caci, fouet contre bouclier",
      "author": "Fakhri Anindita",
@@ -647,6 +641,11 @@
      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
     },
     {
+     "url": "https://live.staticflickr.com/2265/1509499508_4803d66343_k.jpg",
+     "caption": "Maison conique à Ruteng Pu'u",
+     "source": "Flickr, Rosino, CC BY-SA 2.0"
+    },
+    {
      "file": "RUT - Interior of a market in Ruteng, Flores, Indonesia, 2019.jpg",
      "caption": "Allée du marché de Ruteng",
      "author": "Josep M. Gracia",
@@ -657,51 +656,52 @@
   },
   "wae-rebo": {
    "intro": [
-    "Wae Rebo est un hameau manggarai isolé dans une cuvette de montagne, au sud-ouest de Ruteng : sept grandes maisons coniques, couvertes de chaume presque jusqu'au sol, disposées en arc de cercle autour d'un autel de pierre. Aucune route n'y monte.",
-    "On laisse la voiture à Denge, le dernier village, et on grimpe à pied par un sentier de forêt. En haut, les anciens nous reçoivent dans la maison principale, puis on dîne et on dort tous ensemble sur des nattes dans une des maisons. On redescend le lendemain matin."
+    "Wae Rebo est un hameau manggarai isolé dans une cuvette de montagne, à 1 200 m d'altitude, au sud-ouest de Ruteng : sept grandes maisons coniques, couvertes de chaume presque jusqu'au sol, disposées en arc de cercle autour d'un autel de pierre. Aucune route n'y monte.",
+    "On laisse la voiture à Denge, le dernier village, et on grimpe à pied, 2 h 30 à 3 h. En haut, les anciens nous reçoivent dans la maison principale, puis on dîne et on dort tous ensemble sur des nattes dans une des deux maisons d'hôtes. On redescend le lendemain matin."
    ],
    "todo": [
     {
      "name": "Montée à pied depuis Denge",
      "type": "Randonnée",
-     "text": "Le sentier part au-dessus de Denge et grimpe dans la forêt humide jusqu'à un col, d'où on voit les toits. Ça monte presque tout le temps, sur un chemin bien tracé, glissant après la pluie. Au dernier abri, on frappe un tambour de bambou pour s'annoncer.",
-     "time": "",
+     "text": "Le sentier part de Denge, vers 500 m d'altitude, et grimpe jusqu'au village, à 1 200 m : environ 700 m de dénivelé. Le premier tiers suit une piste sans ombre, la suite un sentier de forêt de 4,5 km, glissant après la pluie. On part tôt, avec beaucoup d'eau.",
+     "time": "2 h 30 à 3 h la montée",
      "price": null
     },
     {
      "name": "Cérémonie d'accueil",
      "type": "Culture",
-     "text": "Avant de sortir l'appareil photo, on entre dans la plus grande maison, celle des tambours. Un ancien nous présente aux ancêtres en quelques phrases, on remet un don, et on devient des invités du village. Après seulement, on peut se promener et photographier.",
-     "time": "20 min",
+     "text": "Avant de sortir l'appareil photo, on entre dans la maison principale, le Niang Gendang. Un ancien nous présente aux ancêtres en quelques phrases, on remet un don, environ 50 000 roupies pour un petit groupe, et on devient des invités du village. Après seulement, on peut entrer dans les maisons et photographier.",
+     "time": "10 min",
      "price": null
     },
     {
      "name": "Nuit dans une maison conique",
      "type": "Culture",
-     "text": "Les visiteurs dorment en cercle sur des nattes tressées, avec oreiller et couverture, dans une maison réservée aux hôtes. Le dîner et le petit déjeuner sont préparés par les familles : riz, légumes, poulet, café du village. Les toilettes sont dehors, l'eau est froide.",
+     "text": "Les visiteurs dorment côte à côte sur des nattes, dans l'une des deux maisons réservées aux hôtes, une cinquantaine de places chacune. Les repas, végétariens, sont préparés par les familles et servis avec le café du village.",
      "time": "la nuit",
      "price": null
     },
     {
      "name": "Café de Wae Rebo",
      "type": "Cuisine",
-     "text": "Le village vit du café, cultivé sur les pentes autour. On voit les cerises sécher sur des bâches devant les maisons et les femmes trier les grains à la main. On en boit en arrivant et on peut en acheter un sachet à rapporter.",
+     "text": "Le village vit du café, arabica et robusta, cultivé sur les pentes autour. On voit les cerises sécher sur des bâches devant les maisons et les femmes trier les grains à la main. On en boit sur place et on peut en acheter un sachet à rapporter.",
      "time": "",
      "price": null
     },
     {
      "name": "Lever du jour sur le village",
      "type": "Nature",
-     "text": "Le meilleur moment. Vers 6 h, la brume remplit la vallée et les toits en sortent un par un, pendant que la fumée des cuisines passe à travers le chaume. On grimpe sur la butte au-dessus des maisons pour la vue d'ensemble.",
+     "text": "Le meilleur moment. Tôt le matin, la brume remplit souvent la vallée et les toits en sortent un par un. On grimpe sur la butte au-dessus des maisons pour la vue d'ensemble, celle de toutes les photos.",
      "time": "30 min",
      "price": null
     }
    ],
-   "access": "Depuis Ruteng, compter environ 3 h de petite route jusqu'à Denge, et presque le double depuis Labuan Bajo. La fin se fait à pied.",
+   "access": "Depuis Ruteng, vingt minutes de grand-route puis 2 à 3 h de mauvaise route jusqu'à Denge. Depuis Labuan Bajo, la route de la côte sud, plus directe mais cahoteuse : environ 3 h 30 jusqu'à Dintor, 6 km avant Denge. La fin se fait à pied.",
    "tips": [
-    "Avant de réserver, demander au guide la durée et le dénivelé de la montée : c'est une marche de montagne, pas une promenade.",
+    "Environ 700 m de dénivelé en moins de trois heures : c'est une marche de montagne, pas une promenade. Rien d'un trek pour autant, on monte un matin et on redescend le lendemain.",
     "Confort minimal : on dort par terre, à plusieurs dizaines dans la même pièce, et il fait froid la nuit. Prendre une polaire, une lampe frontale et des bouchons d'oreilles.",
-    "Ne monter que le nécessaire pour une nuit. On peut payer un porteur à Denge."
+    "Compter environ 325 000 roupies par personne pour la nuit, repas compris, et 200 000 pour un guide, en liquide. Pas de réseau téléphonique là-haut.",
+    "Ne monter que le nécessaire pour une nuit, et une tenue qui couvre les épaules et les genoux."
    ],
    "photos": [
     {
@@ -733,11 +733,11 @@
      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
     },
     {
-     "file": "Distant view of Wae Rebo village, Flores Island, Indonesia, 20250824 0824 3037.jpg",
-     "caption": "Un toit du village dans la forêt",
-     "author": "Jakub Hałun",
-     "license": "CC BY 4.0",
-     "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+     "file": "WAE - Forest trail to Wae Rebo, Flores, Indonesia, 2019.jpg",
+     "caption": "Sentier de forêt vers Wae Rebo",
+     "author": "Josep M. Gracia",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
     },
     {
      "file": "WAE - Wae Rebo village in fog, Flores, Indonesia, 2019.jpg",

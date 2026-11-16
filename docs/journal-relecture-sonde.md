@@ -115,3 +115,39 @@ Le quota de recherches web de la session a été épuisé pendant cette fiche : 
 | Août très chaud et sec, haute saison | https://en.wikivoyage.org/wiki/Komodo_National_Park ; jonnymelon ; komodoluxury | ajouté aux conseils |
 
 Photos : « Manta .jpg » (eau trouble) remplacée par « A Flying Manta ray.jpg » (Siharaditia, Manta Point). « Labuan Bajo pier at sunset » remplacée par « Gua Rangko.jpg » (Pravda V. Wardhana), seule photo libre de la grotte : 855 px de large, d'où un avertissement du script. Les quatre autres regardées et gardées. Rien sur Flickr pour Rangko.
+
+## ruteng-et-manggarai
+
+| Affirmation | Source (URL) | Verdict |
+| --- | --- | --- |
+| Ruteng à 4 h de Labuan Bajo, plus de 1 000 m | https://en.wikivoyage.org/wiki/Ruteng (110 km, environ 3 h, 1 100 m) ; https://fr.wikivoyage.org/wiki/Labuan_Bajo (environ 4 h) ; https://en.wikipedia.org/wiki/Ruteng (1 188 m, minimales de 12,5 °C en août) | corrigée : 4 h -> 3 à 4 h ; altitude et fraîcheur précisées |
+| Cancar à une demi-heure, dix minutes de montée, lingko | Wikivoyage Ruteng (20 min à l'ouest, courte marche, 25 000 IDR) ; https://id.wikipedia.org/wiki/Lingko (lodok au centre, lignes en rayons, partage entre clans) | corrigée : demi-heure -> vingt minutes ; « dix minutes » -> courte montée |
+| Liang Bua : 2003, 1 m, à une dizaine de km au nord | https://en.wikipedia.org/wiki/Liang_Bua (2003, 106 cm, 50 m de long) ; Wikipédia Ruteng (10 km au nord) ; photo Commons (stalactites, carrés de fouille) | confirmée |
+| Ruteng Pu'u : deux maisons, cour ronde pavée, compang autel des ancêtres, livre d'or, don | Wikivoyage Ruteng (droit de 45 000 à 65 000 IDR) ; https://en.wikipedia.org/wiki/Manggarai_people (maisons à toit conique, rite du compang pour l'esprit gardien) ; photo Flickr de Rosino | reformulée : « deux maisons », « cour ronde pavée » et « autel aux ancêtres » non retrouvés tels quels ; don -> droit de visite |
+| Marché : légumes, café, tabac, poisson séché, songke | photo Commons du marché (poisson séché, épicerie) ; photo « Tari Caci.jpg » (sarongs noirs à motifs colorés) | « café de Manggarai », « tabac » et le conseil d'achat retirés (introuvables) |
+| Lac Ranamese : lac de cratère, à une vingtaine de km à l'est, sentier, pêcheurs le matin | https://id.wikipedia.org/wiki/Danau_Ranamese (lac volcanique, 1 200 m, 16 km) ; Wikivoyage (30 km, tour du lac en 45 min, 100 000 IDR pour un étranger) ; photo Commons (pêcheur sur radeau de bambou, prise à 15 h) | corrigée : cratère -> volcanique ; tour du lac en 45 min ; « le matin » retiré ; distance laissée à « une vingtaine de km » (16 à 30 selon la source) |
+| Caci : fouet, bouclier rond, gongs ; récoltes, mariages, 17 août | https://en.wikipedia.org/wiki/Caci_(fighting) (fouet, bouclier rond en peau de buffle, gongs et tambours, fête du Penti, de plus en plus pour les visiteurs) | corrigée : « mariages » et « 17 août » retirés (introuvables) |
+| Droits d'entrée des sites | Wikivoyage Ruteng (fiches datées d'août 2026) | ajoutés dans les conseils, source unique : pas de `price` |
+
+Photos : « RUT - Paddy fields near Ruteng » remplacée par une photo Flickr de Rosino (CC BY-SA 2.0, légendée « Ruteng Pu'u, Flores, Indonesia [2007] », format portrait) : maison conique du vieux village. Rien sur Commons pour Ruteng Pu'u. Les cinq autres regardées et gardées.
+
+## wae-rebo
+
+| Affirmation | Source (URL) | Verdict |
+| --- | --- | --- |
+| Sept maisons coniques en arc autour d'un autel de pierre, pas de route | https://en.wikipedia.org/wiki/Wae_Rebo (sept mbaru niang en cercle ouvert autour du compang, 1 200 m) | confirmée, altitude ajoutée |
+| Durée et dénivelé de la marche (à compléter) | Wikipédia (sentier de forêt de 4,5 km, 2 h 30 à 3 h, état 2022) ; https://en.wikivoyage.org/wiki/Wae_Rebo (environ 3 h, premier tiers sur une piste sans ombre, départ aux coordonnées -8.80697, 120.303034) ; altitudes SRTM de ces coordonnées et du village via https://api.opentopodata.org (499 m et 1 120 m) | complétée : 2 h 30 à 3 h, environ 700 m de dénivelé (de 500 m à près de 1 200 m) |
+| Tambour de bambou au dernier abri | aucune des pages consultées | retirée |
+| Cérémonie d'accueil avant toute photo, don | Wikipédia (rite du wailu'u, 5 à 7 min, rien n'est permis avant) ; Wikivoyage (don de 50 000 IDR pour quatre) | confirmée ; durée ramenée à 10 min ; montant ajouté |
+| Nuit sur des nattes, repas, « poulet », toilettes dehors, eau froide | Wikipédia (deux maisons d'hôtes d'environ 50 places) ; Wikivoyage (325 000 IDR par personne, trois repas végétariens) | corrigée : repas végétariens ; « oreiller et couverture », « toilettes dehors, eau froide » retirés (introuvables) |
+| Café | Wikipédia (arabica et robusta, principale culture de rente) ; Wikivoyage (en vente au village) ; photos Commons (cerises sur bâches, tri des grains) | confirmée |
+| Lever du jour, fumée à travers le chaume | photos Commons (brume, vue depuis la butte) | « fumée des cuisines » et « vers 6 h » retirés |
+| Ruteng-Denge 3 h, « presque le double » depuis Labuan Bajo | Wikivoyage (20 min de grand-route puis 2 à 3 h de mauvaise route ; la route côtière depuis Labuan Bajo est plus courte en temps) ; Wikipédia (Labuan Bajo-Dintor environ 3 h 30 depuis la réfection ; Dintor à 6 km de Denge) | corrigée : Labuan Bajo n'est pas deux fois plus loin, environ 3 h 30 jusqu'à Dintor |
+| Porteur à Denge | aucune des pages consultées | retirée |
+| Prix de la nuit, guide, pas de réseau, tenue couvrante | Wikivoyage | ajoutés dans les conseils (source unique : pas de `price`) |
+
+Photos : « Distant view of Wae Rebo village » (un toit minuscule dans la forêt) remplacée par « WAE - Forest trail to Wae Rebo » (Josep M. Gracia, format portrait, avertissement du script) pour montrer le sentier. Les cinq autres regardées et gardées.
+
+## Région flores-et-komodo
+
+Relue après les trois fiches. `august` : ajout du quota de 1 000 visiteurs par jour (voir labuan-bajo-komodo), la phrase sur le coup de vent retirée pour tenir en 45 mots. `intro` et `access` confirmés (vols depuis Bali et Jakarta : Wikivoyage Labuan Bajo).
