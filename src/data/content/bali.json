@@ -507,57 +507,62 @@
     },
     "pemuteran-menjangan": {
       "intro": [
-        "Pemuteran est un village calme du nord-ouest de Bali, entre la mer et des collines sèches, loin de tout : il faut près de quatre heures de route depuis le sud. Une longue plage de sable gris, peu de monde, et le récif juste devant.",
-        "On y vient pour Menjangan, une petite île inhabitée du parc national de Bali Barat, à une demi-heure de bateau. Ses tombants de corail commencent à quelques brasses du bord, l'eau est claire et les courants sont faibles. On y passe la journée, le masque sur le nez."
+        "Pemuteran est un village de pêcheurs calme du nord-ouest de Bali, entre la mer et les collines, loin de tout : il faut environ quatre heures de route depuis le sud. Une longue plage de sable noir, peu de monde, et le récif juste devant.",
+        "On y vient pour Menjangan, une petite île du parc national de Bali Barat, à 8 km environ de la côte. Pas de village : des temples et des cerfs. Son récif est un des mieux conservés de Bali, l'eau est claire et la mer calme. On y passe la journée, le masque sur le nez."
       ],
       "todo": [
         {
           "name": "Snorkeling à Menjangan",
           "type": "Mer",
-          "text": "Une sortie en bateau avec deux arrêts le long des tombants de l'île et un déjeuner sur la plage ou à bord. Coraux mous, gorgones, bancs de poissons, souvent des tortues. On se laisse flotter le long du mur, qui plonge dans le bleu.",
+          "text": "Les bateaux partent de la plage de Labuhan Lalang, à un quart d'heure de route de Pemuteran. On en affrète un le jour même ou on le partage le matin avec d'autres. Guide et permis du parc sont obligatoires. Sous l'eau, plus de cent espèces de coraux. Rien à boire ni à manger sur place.",
           "time": "la journée",
-          "price": null
+          "price": {
+            "amount": 200000,
+            "currency": "IDR",
+            "what": "droit d'entrée du parc national de Bali Barat, par personne, en semaine (300 000 le dimanche et les jours fériés)"
+          }
         },
         {
           "name": "Cerfs et temples de l'île",
           "type": "Faune",
-          "text": "Menjangan veut dire « cerf ». Ceux de l'île viennent jusque sur la plage et entrent parfois dans la mer. À terre, on marche jusqu'aux temples, dont l'un a une grande statue blanche de Ganesh tournée vers le large.",
-          "time": "1 h",
+          "text": "Menjangan veut dire « cerf ». Ceux de l'île sont des cerfs rusa, capables de traverser à la nage depuis Bali. À terre, il y a trois temples et, sur une pointe, une grande statue blanche de Ganesh tournée vers le large. Le tour de l'île à pied prend 1 h 15.",
+          "time": "1 h 15",
           "price": null
         },
         {
           "name": "Récif restauré de Pemuteran",
           "type": "Mer",
-          "text": "Devant la plage, des dizaines de structures métalliques immergées sur lesquelles le corail repousse : un projet lancé par le village en 2000. On y nage directement depuis le bord, par quelques mètres de fond.",
+          "text": "Devant la plage, des structures métalliques immergées sur lesquelles le corail repousse, avec des statues au milieu : un projet lancé au village en 2000, le plus grand du monde de ce type. On y nage directement depuis le bord, à l'ouest du village.",
           "time": "1 h 30",
           "price": null
         },
         {
           "name": "Marche dans le parc de Bali Barat",
           "type": "Faune",
-          "text": "Deux à trois heures de marche avec un garde dans la forêt sèche et la mangrove. On croise des cerfs, des singes noirs et des calaos. Le parc protège aussi l'étourneau de Bali, un oiseau tout blanc au tour de l'œil bleu qui n'existe que sur cette île.",
-          "time": "demi-journée",
+          "text": "On marche avec un guide officiel du parc, c'est obligatoire. Le sentier de Tegal Blunder, facile, deux heures, est celui des oiseaux. On croise des cerfs et des langurs noirs. Le parc est le dernier refuge de l'étourneau de Bali, tout blanc, le tour de l'œil bleu : moins de cent vivent en liberté.",
+          "time": "2 h de marche",
           "price": null
         },
         {
           "name": "Temple de Pulaki",
           "type": "Culture",
-          "text": "Un temple adossé à la falaise au bord de la route côtière, à dix minutes de Pemuteran, face à la mer. Il est occupé par une colonie de macaques, donc on garde son sac fermé.",
+          "text": "Un temple de la mer au bord de la route côtière, adossé à des rochers, face à la plage, à une dizaine de kilomètres à l'est de Pemuteran. La légende dit que des macaques y ont guidé le prêtre Nirartha, venu de Java, qui l'a fondé.",
           "time": "45 min",
           "price": null
         },
         {
           "name": "Fin de journée sur la plage",
           "type": "Détente",
-          "text": "La baie est abritée et la mer souvent plate comme un lac. En fin de journée les pêcheurs rentrent, le soleil descend du côté des volcans de Java et il n'y a presque personne sur le sable.",
+          "text": "La mer est calme, souvent plate comme un lac. En fin de journée le soleil descend du côté des volcans de Java et il n'y a presque personne sur le sable noir. À marée basse, le récif affleure à l'est de la plage.",
           "time": "",
           "price": null
         }
       ],
-      "access": "Depuis Munduk, environ 2 h de route en redescendant vers la côte nord par Seririt. Depuis l'aéroport, compter près de 4 h.",
+      "access": "Depuis Munduk, une soixantaine de kilomètres, soit une bonne heure de route en redescendant vers la côte nord. Depuis Lovina, 1 h 15. Depuis l'aéroport, compter environ 4 h.",
       "tips": [
         "Pour Menjangan, demander ce que comprend le tarif : bateau, guide, masque, déjeuner. Le droit d'entrée du parc national est souvent compté à part.",
-        "Les bateaux partent de Pemuteran ou de Labuhan Lalang, l'embarcadère du parc, plus proche de l'île."
+        "Le permis s'achète au bureau du parc, derrière le parking de Labuhan Lalang, où l'on trouve aussi un guide.",
+        "Des oursins sur le récif devant Pemuteran à marée basse : chaussons d'eau."
       ],
       "photos": [
         {
@@ -582,6 +587,13 @@
           "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
         },
         {
+          "file": "Manjangan.jpg",
+          "caption": "Statue de Ganesh, île de Menjangan",
+          "author": "Oogstweg",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+        },
+        {
           "file": "Rusa dengan hiasan.jpg",
           "caption": "Cerf dans le parc national de Bali Barat",
           "author": "Wiaskara",
@@ -589,18 +601,11 @@
           "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
         },
         {
-          "file": "Paradise Found.jpg",
-          "caption": "Palétuviers à l'aube, parc de Bali Barat",
-          "author": "Surya Edy Gautama",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
-        },
-        {
-          "file": "Damai.jpg",
-          "caption": "Palétuvier au coucher du soleil, Pemuteran",
-          "author": "Paco Paulus Pater",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+          "file": "Snorkeling Pemuteran Bali 2.jpg",
+          "caption": "Corail sur une structure immergée, Pemuteran",
+          "author": "Ennio morricone",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
         }
       ]
     },
