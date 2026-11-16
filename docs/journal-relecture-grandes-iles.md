@@ -56,3 +56,27 @@ Photos : les six photos existantes ont été regardées, toutes justes. La mosqu
 | Sécurité des bateaux | Wikivoyage (accidents de juin 2018) | ajoutée |
 
 Photos : les six regardées, toutes justes. « Le lac vu depuis Tuk Tuk » (grise, peu lisible) remplacée par les sarcophages de Tomok (Commons, Really Rin). Légende de la photo des danseurs précisée (musée Huta Bolon, d'après la catégorie Commons).
+
+## Bukittinggi et hauts plateaux
+
+| Affirmation | Source (URL) | Verdict |
+|---|---|---|
+| 930 m, entre Marapi et Singgalang ; 16 à 25 °C | https://en.wikivoyage.org/wiki/Bukittinggi | confirmée ; températures ajoutées |
+| Jam Gadang de 1926, place animée le soir, Pasar Atas à côté | Wikivoyage ; https://www.backindo.com/bukittinggi-sumatra-guide/ (juillet 2025) | confirmée |
+| Nasi kapau « aux étals de Los Lambuang » | https://www.jawapos.com/kuliner/2512050218/ ; https://www.merdeka.com/peristiwa/read/7883064/ (7 à 10 min à pied de Jam Gadang, Pasar Lereng) | confirmée, distance ajoutée |
+| Parc Panorama « à dix minutes à pied », falaises d'une centaine de mètres, macaques | https://www.detik.com/sumut/wisata/d-7108995/ (100 m de profondeur, 15 km de long, 200 m de large) ; backindo | confirmée ; « avant la brume » corrigé -> tôt, quand la brume remplit le fond |
+| Tunnels japonais sous le parc Panorama, long escalier, guide | https://www.indonesia.travel/au-en/destination/sumatra/west-sumatra/lobang-jepang ; https://marinews.mahkamahagung.go.id/serba-serbi/lubang-jepang-bukittinggi-sejarah-kelam-jadi-tempat-wisata-0uJ (1942-1944, environ 1,4 km) ; backindo | confirmée ; dates et longueur ajoutées ; « on ressort plus bas, côté canyon » retiré |
+| Prix : parc Panorama et tunnels 25 000 IDR, tarif étranger | backindo (juillet 2025) ; Wikivoyage | ajoutée |
+| Marche jusqu'à Koto Gadang, escalier crénelé, argent | https://www.goodnewsfromindonesia.id/2026/04/13/janjang-koto-gadang-bukittinggi-menelusuri-tembok-raksasa-di-balik-ngarai-sianok ; Lonely Planet (une heure de marche depuis le parc) ; backindo | confirmée ; longueur (780 m à 1,5 km selon les sources -> environ un kilomètre) |
+| Maninjau : 16 km de long, Puncak Lawang, Kelok 44 | https://en.wikipedia.org/wiki/Lake_Maninjau ; backindo (1 h de route) | confirmée ; palai rinuak ajouté |
+| « Singes assis sur les bas-côtés » du Kelok 44 | aucune | retirée |
+| Harau : après Payakumbuh, falaises « de plus de 100 m », cascades, homestays | https://www.indonesia.travel/gb/en/travel-ideas/adventure/jalan-jalan-ke-sumatera-barat-siap-siap-terpukau-dengan-pesona-lembah-harau ; https://journeybeyondhorizon.com/harau-valley-indonesia-guide/ | précisée -> 100 à 200 m, cinq cascades, 1 h 30 à 2 h de route ; « à vélo » retiré |
+| Pagaruyung : copie, incendie de 2007 dû à la foudre, trois étages, costume | https://en.wikipedia.org/wiki/Pagaruyung_Palace ; https://www.thejakartapost.com/news/2013/11/23/istano-basa-pagaruyung-restored-glory.html ; backindo | confirmée ; réouverture en 2013 et 1 h 30 de route ajoutées |
+| Pandai Sikek « au pied du Singgalang, sur la route de Padang Panjang » | https://kompas.id/baca/english/2018/02/08/preserving-minangkabaus-classic-songket/ (15 km au sud, 848 maisons sur 1 031 ont un métier) | corrigée -> à une quinzaine de kilomètres au sud |
+| Restaurant padang : assiettes posées d'office, on paie ce qu'on entame ; rendang | https://en.wikipedia.org/wiki/Padang_cuisine | confirmée ; « une quinzaine » d'assiettes retiré |
+| Padang-Bukittinggi : 2 à 3 h par la vallée d'Anai | Wikivoyage (2 h, plus long le week-end) ; backindo (2 à 3 h) | confirmée |
+| État de la route de la vallée d'Anai et du Kelok 44 | https://sumbarkita.id/jalur-padang-bukittinggi-via-lembah-anai-dibuka-normal-24-jam-mulai-1-april-2026/ ; https://www.cnnindonesia.com/nasional/20260624163610-20-1372803/ ; https://rri.co.id/en/archipelago/2278654/ | ajoutée (crues de fin 2025, réouverture 2026, éboulement de juin 2026) |
+| Marapi actif | https://news.republika.co.id/berita/sqslr3409/jalur-pendakian-gunung-marapi-ditutup-permanen (ascension fermée depuis janvier 2025) | confirmée, précisée |
+| Épaules et genoux couverts | backindo | confirmée |
+
+Photos : les six regardées, toutes justes et bien légendées ; aucune changée. Candidates vues et non retenues faute de place : Janjang Koto Gadang, nasi kapau de Los Lambuang, métier à tisser de Pandai Sikek (Commons).

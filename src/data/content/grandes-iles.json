@@ -258,78 +258,83 @@
     },
     "bukittinggi-et-hauts-plateaux": {
       "intro": [
-        "Bukittinggi est une ville de montagne à 930 m d'altitude, au pied des volcans Marapi et Singgalang, en plein pays minangkabau. On y vient pour la fraîcheur, pour le canyon de Sianok qui commence au bout de la rue et pour les maisons aux toits en cornes de buffle.",
+        "Bukittinggi est une ville de montagne à 930 m d'altitude, entre les volcans Marapi et Singgalang, en plein pays minangkabau. Il y fait entre 16 et 25 °C. On y vient pour la fraîcheur, pour le canyon de Sianok qui commence au bout de la rue et pour les maisons aux toits en cornes de buffle.",
         "Le reste se fait en excursions d'une journée avec un chauffeur : le lac Maninjau, la vallée de Harau, le palais de Pagaruyung. Et c'est ici qu'on mange la cuisine padang, dans la région où elle est née."
       ],
       "todo": [
         {
           "name": "Jam Gadang et le marché Pasar Atas",
           "type": "Ville",
-          "text": "La tour de l'horloge de 1926, coiffée d'un toit minangkabau, au milieu de la place où toute la ville se promène le soir. Juste à côté, le marché Pasar Atas vend des chips de manioc pimentées. Pour le nasi kapau, on descend aux étals de Los Lambuang.",
+          "text": "La tour de l'horloge de 1926, coiffée d'un toit minangkabau, au milieu de la place où les familles se promènent le soir entre les vendeurs de brochettes. Juste à côté, le marché Pasar Atas vend tissus, souvenirs et chips de manioc. Pour le nasi kapau, on descend à Los Lambuang, à dix minutes à pied.",
           "time": "1 h",
           "price": null
         },
         {
           "name": "Canyon de Sianok depuis le parc Panorama",
           "type": "Nature",
-          "text": "Le parc Panorama, à dix minutes à pied du centre, donne sur le canyon : des falaises d'une centaine de mètres, une rivière et des rizières tout au fond. Des macaques traînent près des rambardes. Venir tôt, avant la brume.",
+          "text": "Le parc Panorama, à quelques minutes à pied de la tour de l'horloge, donne sur le canyon : 15 km de long, des falaises d'une centaine de mètres, une rivière et des rizières tout au fond. Des macaques traînent parfois près des rambardes. Venir tôt, quand la brume remplit encore le fond.",
           "time": "1 h",
           "price": null
         },
         {
           "name": "Tunnels japonais (Lobang Jepang)",
           "type": "Culture",
-          "text": "Sous le parc Panorama, un réseau de galeries creusé pendant l'occupation japonaise. On descend un long escalier, on suit les couloirs avec un guide et on ressort plus bas, côté canyon.",
+          "text": "Sous le parc Panorama, près d'un kilomètre et demi de galeries creusées de 1942 à 1944 par des travailleurs forcés, pendant l'occupation japonaise. On descend un long escalier et on suit les couloirs, seul ou avec un guide. Certains passages sont sombres et étroits.",
           "time": "45 min",
-          "price": null
+          "price": {
+            "amount": 25000,
+            "currency": "IDR",
+            "what": "entrée du parc Panorama et des tunnels, tarif étranger, par personne (guide en supplément)"
+          }
         },
         {
           "name": "Marche jusqu'à Koto Gadang",
           "type": "Randonnée",
-          "text": "On descend au fond du canyon, on traverse la rivière et on remonte par l'escalier de Koto Gadang, crénelé comme une petite muraille de Chine. En haut, le village est connu pour ses bijoutiers qui travaillent l'argent.",
+          "text": "Du parc Panorama, on descend au fond du canyon et on remonte en face par le Janjang Koto Gadang, un escalier de pierre d'environ un kilomètre, crénelé comme une petite muraille de Chine. En haut, le village est connu pour ses bijoutiers qui travaillent l'argent. Compter une heure dans chaque sens.",
           "time": "2 à 3 h aller-retour",
           "price": null
         },
         {
           "name": "Lac Maninjau et la route aux 44 virages",
           "type": "Nature",
-          "text": "Un lac de cratère de 16 km de long. On le voit d'abord d'en haut, depuis Puncak Lawang, puis on descend par le Kelok 44 : 44 épingles numérotées, avec des singes assis sur les bas-côtés. En bas, on déjeune de poisson du lac.",
+          "text": "Un lac de cratère de 16 km de long, à une heure de route. On le voit d'abord d'en haut, depuis Puncak Lawang, puis on descend par le Kelok 44 : 44 épingles numérotées, étroites et chargées. En bas, on goûte le palai rinuak, de tout petits poissons du lac grillés dans une feuille de bananier.",
           "time": "la journée",
           "price": null
         },
         {
           "name": "Vallée de Harau",
           "type": "Nature",
-          "text": "Après Payakumbuh, une vallée de rizières fermée par des falaises verticales de plus de 100 m, avec des cascades qui tombent du plateau. On s'y promène à pied ou à vélo entre les villages. Il y a quelques homestays pour y passer la nuit.",
+          "text": "Après Payakumbuh, à 1 h 30 ou 2 heures de route : une vallée de rizières fermée par des falaises verticales de 100 à 200 m, avec cinq cascades qui tombent du plateau. On s'y promène à pied entre les villages. Il y a des homestays pour y passer la nuit.",
           "time": "la journée",
           "price": null
         },
         {
           "name": "Palais de Pagaruyung",
           "type": "Culture",
-          "text": "Près de Batusangkar, la copie du palais des rois minangkabau : trois étages de bois sculpté et peint, sous une rangée de toits pointus. L'ancien a brûlé en 2007, frappé par la foudre. À l'intérieur, on loue un costume minangkabau pour la photo.",
+          "text": "Près de Batusangkar, à 1 h 30 de route, la copie du palais des rois minangkabau : trois étages de bois sculpté et peint, sous une rangée de toits pointus. L'ancien a brûlé en 2007, frappé par la foudre ; celui-ci date de 2013. À l'intérieur, on loue un costume minangkabau pour la photo.",
           "time": "demi-journée",
           "price": null
         },
         {
           "name": "Tissages de Pandai Sikek",
           "type": "Culture",
-          "text": "Un village au pied du Singgalang, sur la route de Padang Panjang, où l'on tisse le songket à la main avec des fils dorés. On entre dans les ateliers, souvent une pièce de la maison, et on regarde les femmes travailler.",
+          "text": "Un village à une quinzaine de kilomètres au sud de Bukittinggi où l'on tisse le songket à la main, avec des fils dorés. Quatre maisons sur cinq ont un métier à tisser, et ce sont surtout les femmes qui travaillent. On s'arrête dans une boutique-atelier pour les regarder faire.",
           "time": "1 h",
           "price": null
         },
         {
           "name": "Cuisine padang et nasi kapau",
           "type": "Cuisine",
-          "text": "Au restaurant, on ne commande pas : le serveur pose une quinzaine de petites assiettes sur la table et on ne paie que celles qu'on a entamées. Goûter le rendang, du bœuf mijoté des heures dans le lait de coco, et le nasi kapau du marché.",
+          "text": "Au restaurant, on ne commande pas : le serveur couvre la table de petites assiettes et on ne paie que celles qu'on a entamées. Goûter le rendang, du bœuf mijoté dans le lait de coco jusqu'à ce que la sauce ait réduit. Pour le nasi kapau, on montre les plats et la vendeuse les sert sur le riz.",
           "time": "",
           "price": null
         }
       ],
-      "access": "On atterrit à Padang, puis 2 à 3 heures de route qui montent par la vallée d'Anai, avec sa cascade au bord de la chaussée. Depuis Medan ou le lac Toba, il faut reprendre un avion jusqu'à Padang.",
+      "access": "On atterrit à Padang, puis 2 à 3 heures de route qui montent par la vallée d'Anai, avec sa cascade au bord de la chaussée ; c'est plus long le week-end. Depuis Medan ou le lac Toba, il faut reprendre un avion jusqu'à Padang.",
       "tips": [
         "Maninjau, Harau et Pagaruyung sont dans trois directions différentes : compter une journée et un chauffeur pour chacun.",
-        "Le Marapi est un volcan actif, on le regarde d'en bas.",
+        "Les crues de fin 2025 ont coupé la route de la vallée d'Anai et abîmé le Kelok 44. Les deux ont rouvert en 2026, mais un éboulement peut encore les fermer quelques heures après de fortes pluies.",
+        "Le Marapi est en éruption régulière et son ascension est interdite depuis 2025 : on le regarde d'en bas.",
         "La région est très pratiquante : épaules et genoux couverts en ville."
       ],
       "photos": [
