@@ -11,6 +11,11 @@ for (const file of Object.values(import.meta.glob('./content/*.json', { eager: t
 }
 
 // Une photo vient de Wikimedia Commons (champ « file », redimensionnée à la demande) ou d'une autre source (champ « url »).
+// Position des activités, pour la vraie carte en bas de fiche : src/data/coords/*.json,
+// sous la forme { 'id-etape': { "nom exact de l'activité": [lat, lon] } }.
+const coords = {};
+for (const file of Object.values(import.meta.glob('./coords/*.json', { eager: true }))) Object.assign(coords, file.default);
+
 const commons = (path) => (width) => `${path}?width=${width}`;
 const photoOf = (ph) =>
   ph.url
@@ -131,8 +136,10 @@ export const PLACES = [...base.places, ...EXTRA_PLACES].map((p) => {
   const gallery = (content?.photos || []).filter((ph) => (ph.file || ph.url) && ph.caption?.length > 3);
   const photos = gallery.length ? gallery.map(photoOf) : p.photo ? [sheetPhoto(p.photo)] : [];
   const todoImages = content ? todoPhotos(content.todo, gallery) : [];
+  // Une activité localisée l'est soit dans sa fiche (lat, lon), soit dans src/data/coords/.
+  const todoCoords = (content ? content.todo : []).map((t) => (Number.isFinite(t.lat) && Number.isFinite(t.lon) ? [t.lat, t.lon] : coords[p.id]?.[t.name] || null));
   // « real » garde la vraie position de l'étape, même quand son modèle est déplacé en mer pour la carte 3D.
-  return { ...p, content, photos, todoImages, short, model, rank, real: { lat: p.lat, lon: p.lon }, lon: spot ? spot[0] : p.lon, lat: spot ? spot[1] : p.lat };
+  return { ...p, content, photos, todoImages, todoCoords, short, model, rank, real: { lat: p.lat, lon: p.lon }, lon: spot ? spot[0] : p.lon, lat: spot ? spot[1] : p.lat };
 });
 export const PLACE_BY_ID = Object.fromEntries(PLACES.map((p) => [p.id, p]));
 export const placesOf = (regionId) => PLACES.filter((p) => p.region === regionId && !p.hidden);

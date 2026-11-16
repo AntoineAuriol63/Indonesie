@@ -166,7 +166,7 @@ function flashTodo(todo) {
 
 function placeMap(p) {
   const todo = p.content ? p.content.todo : [];
-  const points = todo.map((t, i) => ({ n: i + 1, name: t.name, lat: t.lat, lon: t.lon })).filter((t) => Number.isFinite(t.lat) && Number.isFinite(t.lon));
+  const points = todo.map((t, i) => ({ n: i + 1, name: t.name, at: p.todoCoords[i] })).filter((t) => t.at).map((t) => ({ ...t, lat: t.at[0], lon: t.at[1] }));
   showMinimap($('minimap'), {
     center: p.real,
     points,
