@@ -8,7 +8,7 @@ import { CITIES, PLACES, PLACE_BY_ID, REGIONS, REGION_BY_ID } from '../data/plac
 import { createKeys } from './keys.js';
 import { createLabels } from './labels.js';
 import { createModel } from './models.js';
-import { buildItem, sceneOf } from './scenes.js';
+import { buildItem, sceneOf } from './scenes/index.js';
 import { buildTerrain, toWorld } from './terrain.js';
 import { createBoats, createClouds, createSmoke, createWater } from './props.js';
 import { createRoute } from './route.js';
@@ -49,7 +49,7 @@ export function createWorld({ canvas, labelLayer, onRegion, onPlace, onDetail })
   const controls = new MapControls(camera, canvas);
   controls.enableDamping = true;
   controls.dampingFactor = 0.08;
-  controls.minDistance = 1.6;
+  controls.minDistance = 0.5;
   controls.maxDistance = 125;
   controls.minPolarAngle = THREE.MathUtils.degToRad(8);
   controls.maxPolarAngle = THREE.MathUtils.degToRad(62);
@@ -81,8 +81,16 @@ export function createWorld({ canvas, labelLayer, onRegion, onPlace, onDetail })
   canvas.addEventListener('pointerdown', cancelFlight, { capture: true });
   canvas.addEventListener('wheel', cancelFlight, { capture: true, passive: true });
 
-  function flyTo(lon, lat, dist, { duration = 1.6, theta = 0, phi = DEFAULT_POLAR } = {}) {
+  function flyTo(lon, lat, dist, { duration = 1.6, theta = 0, phi = DEFAULT_POLAR, instant = false } = {}) {
     const [x, z] = toWorld(lon, lat);
+    if (instant) {
+      // Arrivée directe, sans vol (lien direct vers une étape).
+      flight = null;
+      controls.enabled = true;
+      controls.autoRotate = false;
+      place(new THREE.Vector3(x, 0, z), Math.min(dist * fit(), controls.maxDistance), phi, theta);
+      return;
+    }
     spherical.setFromVector3(camera.position.clone().sub(controls.target));
     const to = new THREE.Vector3(x, 0, z);
     let fromTheta = spherical.theta;
@@ -232,8 +240,8 @@ export function createWorld({ canvas, labelLayer, onRegion, onPlace, onDetail })
     if (!def) return (scenes[id] = null);
     const origin = placeSpots[id];
     const items = def.items.map((item) => {
-      const x = origin.x + item.dx;
-      const z = origin.z + item.dz;
+      const x = origin.x + item.dx * def.scale;
+      const z = origin.z + item.dz * def.scale;
       const y = Math.max(0, terrain.groundAt(x, z));
       const built = buildItem(item);
       const root = new THREE.Group();
@@ -248,7 +256,8 @@ export function createWorld({ canvas, labelLayer, onRegion, onPlace, onDetail })
       label.style.display = 'none';
       label.addEventListener('click', () => onDetail?.(id, item.match));
       labelLayer.appendChild(label);
-      return { item, root, update: built.update, label, top: new THREE.Vector3(x, y + item.height * item.size, z) };
+      const size = item.size * def.scale;
+      return { item, size, root, update: built.update, label, top: new THREE.Vector3(x, y + item.height * size, z) };
     });
     return (scenes[id] = { items, detail: 0 });
   }
@@ -266,7 +275,7 @@ export function createWorld({ canvas, labelLayer, onRegion, onPlace, onDetail })
         it.root.visible = k > 0.01;
         it.label.style.display = k > 0.85 ? '' : 'none';
         if (!it.root.visible) return;
-        it.root.scale.setScalar(it.item.size * easeOutBack(k));
+        it.root.scale.setScalar(it.size * easeOutBack(k));
         it.update(elapsed);
         projected.copy(it.top).project(camera);
         const sx = (projected.x * 0.5 + 0.5) * width;
@@ -388,8 +397,11 @@ export function createWorld({ canvas, labelLayer, onRegion, onPlace, onDetail })
       s.order = s.id === state.place ? 0 : s.active ? 1 : 1 + s.rank;
     }
     shownSpots.length = 0;
+    // Quand une scène détaillée est affichée, les autres modèles s'effacent pour lui laisser la place.
+    const solo = state.place && !state.itinerary && scenes[state.place] ? state.place : null;
     for (const s of [...spots].sort((a, b) => a.order - b.order)) {
       if (state.itinerary) s.wanted = s.active;
+      else if (solo) s.wanted = s.id === solo;
       else if (s.active || s.id === state.place) s.wanted = true;
       else s.wanted = !s.hidden && !shownSpots.some((o) => Math.hypot(o.sx - s.sx, o.sy - s.sy) < minGap);
       if (s.wanted && s.onScreen) shownSpots.push(s);
@@ -476,12 +488,12 @@ export function createWorld({ canvas, labelLayer, onRegion, onPlace, onDetail })
     flyTo,
     setState,
     setViewPadding,
-    focusPlace(id) {
+    focusPlace(id, { instant = false } = {}) {
       const p = PLACE_BY_ID[id];
       const detailed = sceneOf(id);
       // Avec une scène détaillée, on cadre l'ensemble de ses éléments, d'un peu plus près.
-      if (detailed) return flyTo(p.lon + detailed.center.dx, p.lat - detailed.center.dz, Math.max(2.6, detailed.span * 2.6), { duration: 1.3 });
-      flyTo(p.lon, p.lat, THREE.MathUtils.clamp(REGION_BY_ID[p.region].focus.dist * 0.55, 2.4, 4.6), { duration: 1.3 });
+      if (detailed) return flyTo(p.lon + detailed.center.dx, p.lat - detailed.center.dz, THREE.MathUtils.clamp(detailed.span * 1.95, 0.55, 3), { duration: 1.3, instant });
+      flyTo(p.lon, p.lat, THREE.MathUtils.clamp(REGION_BY_ID[p.region].focus.dist * 0.55, 2.4, 4.6), { duration: 1.3, instant });
     },
     zoom(factor) {
       spherical.setFromVector3(camera.position.clone().sub(controls.target));
