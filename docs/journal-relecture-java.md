@@ -113,3 +113,26 @@ Photos : les six photos existantes ont été regardées, toutes justes et de bon
 | Festival de Dieng en août | https://rri.co.id/purwokerto/regional/2465253/dieng-culture-festival-2026-merawat-harmoni-alam-budaya-dan-kehidupan (28-30 août 2026) ; merdeka.com (tarifs des homestays) | confirmée, dates 2026 ajoutées |
 
 Photos : les cinq photos existantes ont été regardées et sont justes. Ajout de « Gunung Prau, Dieng, Wonosobo, 05062017.jpg » (Eko Raharjo, CC BY-SA 4.0) : le Sindoro et le Sumbing vus du mont Prau.
+
+## Malang et Bromo
+
+| Affirmation | Source (URL) | Verdict |
+| --- | --- | --- |
+| Départ de Malang en jeep vers minuit, retour vers 11 h | fiches d'excursions (lokalee.app, expedia : prise en charge entre minuit et 1 h, 2 h 30 de route, Penanjakan vers 3 h 30, retour vers 11 h) | confirmée |
+| Penanjakan à 2 770 m, King Kong Hill moins bondé | https://en.wikivoyage.org/wiki/Bromo-Tengger-Semeru_National_Park ; https://en.wikipedia.org/wiki/Mount_Bromo | confirmée ; ajouté : foule vers 5 h, King Kong Hill un kilomètre avant |
+| Prix d'entrée du parc | Wikivoyage (255 000 IDR pour un étranger, oct. 2024) ; https://www.metrotvnews.com/read/bJECaXgq-tarif-baru-wisata-bromo-wisman-dipatok-rp255-ribu ; https://www.cna.id/indonesia/gunung-bromo-dibuka-kembali-karhutla-49946 (billets sur bromotenggersemeru.id, août 2026) | ajoutée : 255 000 IDR, achat en ligne |
+| Temple de Luhur Poten, « environ 250 marches », chevaux | Wikivoyage (escalier de 250 marches, chevaux depuis Cemoro Lawang) ; Wikipédia | confirmée |
+| Pasir Berbisik et colline des Teletubbies ; « contourne le Bromo par le sud », « cendre noire » | https://www.thejakartapost.com/travel/2018/07/28/jakpost-explores-mount-bromo ; https://bromoeastjava.com/?p=1222 | lieux confirmés ; direction et « cendre noire » retirées (non sourcées) |
+| Train Yogyakarta-Malang en 6 à 7 h, 400 000 IDR en exécutive | https://keretaapikita.com/jadwal-kereta-api-malioboro-ekspres/ (6 h 05 à 6 h 40 ; 380 000 à 450 000 IDR) ; https://en.wikivoyage.org/wiki/Malang (par Solo) | confirmée et précisée ; « rizières et canne à sucre », « repas à bord » retirés (non sourcés) |
+| Kampung Warna-Warni, Brantas, passerelle vitrée vers Tridi, « à dix minutes à pied de la gare » | https://en.wikivoyage.org/wiki/Malang ; https://www.detik.com/jatim/wisata/d-7481918/wisata-kampung-warna-warni-jodipan-lokasi-jam-buka-dan-harga-tiket (à 2 minutes de la gare) | confirmée ; « tout près de la gare » |
+| Jalan Ijen, palmiers et villas ; place du Tugu devant la mairie ; Kayutangan ; « ville de repos des planteurs » | https://www.backindo.com/?p=9046 (villégiature des Européens, Ijen 1924-1935, Tugu devant la mairie, Kayutangan ouvert en 2018) | confirmée ; « planteurs » -> « Européens », dates d'Ijen ajoutées |
+| Toko Oen ouvert depuis 1930 | https://surabaya.tribunnews.com/2018/02/01/a-nostalgia-in-oen-in-malang-east-java ; Lonely Planet | confirmée |
+| Bakso de Malang : boulettes, tofu farci, raviolis frits, nouilles ; pommes « en jus ou en chips » | https://en.wikipedia.org/wiki/Bakso (nouilles, tofu, siomay, wonton frit ; bakso bakar) ; Wikivoyage Malang (première région de pommes du pays) | confirmée et ajustée ; « jus ou chips » retiré |
+| Batu « à 20 km au nord-ouest », pommes, Coban Rondo, grande roue | https://en.wikivoyage.org/wiki/Batu (45 min de route, 800 à 1 100 m, cueillette à Punten, grande roue de la place, foule le week-end) | corrigée : distance remplacée par le temps de route ; « en forêt », « le soir » retirés |
+| Singosari : 10 km au nord, fin du XIIIe siècle, gardiens « de près de 4 m » | https://en.wikipedia.org/wiki/Singhasari_temple (temple funéraire de Kertanagara, mort en 1292) ; https://www.goodnewsfromindonesia.id/2023/05/10/arca-dwarapala-patung-raksasa-yang-menjaga-kedaton-singosarai (3,5 m, à 200 m) ; quipper (3,7 m, 300 m) | corrigée : « plus de 3 m », « à 200 ou 300 m » |
+| Surabaya-Malang en train : 2 à 3 h ; aéroport de Surabaya à 2 h de route | Wikivoyage Malang (2 à 3 h en train ; 95 km, 2 à 3 h et plus par la route) | train confirmé ; route corrigée : 2 ou 3 h |
+| Quelques degrés au lever du soleil | Wikivoyage (nuits proches de 0 °C en saison sèche) | confirmée |
+| Cemoro Lawang : « départ vers 3 h 30 » | pas de source pour l'heure ; Wikipédia (cratère à 45 min à pied de Cemoro Lawang) | heure retirée, reformulée |
+| Incendie d'août 2026 | https://www.viva.co.id/bisnis/1920826-bromo-ditutup-total-2056-wisatawan-ajukan-refund ; https://www.cna.id/indonesia/gunung-bromo-dibuka-kembali-karhutla-49946 (fermé du 8 au 20 août 2026) | ajoutée dans les conseils |
+
+Photos : les six photos existantes ont été regardées et sont justes. La savane verte sous la brume (janvier, trompeuse pour un voyage en août) est remplacée par « Alun-Alun Batu, East Java.jpg » (consigliere ivan, CC BY 2.0) : Batu n'avait pas d'image. Jalan Ijen et Singosari : photos vues sur Commons (« Idjen Street, Malang, 2019.jpg », « Singosari Temple 03.jpg »), correctes mais non retenues faute de place (six photos au plus).
