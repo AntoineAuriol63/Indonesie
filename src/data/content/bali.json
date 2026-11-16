@@ -400,64 +400,65 @@
     },
     "amed": {
       "intro": [
-        "Amed, c'est une suite de villages de pêcheurs sur la côte nord-est de Bali, le long d'une route d'une dizaine de kilomètres : Amed, Jemeluk, Bunutan, Lipah. Des plages de sable noir et de galets, des pirogues à balancier alignées, et le mont Agung juste derrière.",
-        "On vient ici pour le snorkeling. Le corail commence à quelques mètres du bord : on entre dans l'eau depuis la plage, sans bateau, avec un masque loué sur place. À Tulamben, à 20 minutes, une épave de cargo repose tout près du rivage."
+        "Amed, c'est une suite de sept villages de pêcheurs sur la côte nord-est de Bali, le long de 14 km de route : Amed, Jemeluk, Bunutan, Lipah, puis Selang, Banyuning et Aas. Des plages de galets noirs et de sable gris, des pirogues à balancier alignées, et le mont Agung juste derrière.",
+        "On vient ici pour le snorkeling. Le corail commence à quelques mètres du bord : on entre dans l'eau depuis la plage, sans bateau, avec un masque loué sur place, 50 000 à 100 000 roupies la journée. À Tulamben, à 20 minutes, une épave de cargo repose tout près du rivage."
       ],
       "todo": [
         {
           "name": "Snorkeling dans la baie de Jemeluk",
           "type": "Mer",
-          "text": "La baie la plus connue d'Amed. On part de la plage et on trouve tout de suite des coraux, des poissons-perroquets, parfois une tortue. Sous l'eau, par quelques mètres de fond, un petit temple immergé sert de récif artificiel.",
+          "text": "La baie la plus connue d'Amed, abritée, presque sans courant. On part de la plage et on trouve tout de suite du corail et des poissons, parfois une tortue tôt le matin. À droite, à vingt mètres du bord, une bouée signale un petit temple immergé et des statues, par 3 à 5 m de fond.",
           "time": "2 h",
           "price": null
         },
         {
           "name": "Épave du Liberty à Tulamben",
           "type": "Mer",
-          "text": "Un cargo américain torpillé par un sous-marin japonais en 1942 et échoué sur la plage. L'éruption de l'Agung l'a fait glisser dans l'eau en 1963. Il repose à une trentaine de mètres du bord et ses parties hautes se voient très bien avec un masque et un tuba.",
+          "text": "Un cargo américain de 125 m torpillé par un sous-marin japonais en 1942 et échoué sur la plage. L'éruption de l'Agung l'a fait glisser dans l'eau en 1963. Il repose à une trentaine de mètres du bord et sa partie haute, à 4 ou 5 m sous la surface, se voit bien avec un masque.",
           "time": "demi-journée",
           "price": null
         },
         {
           "name": "Lipah et l'épave de Banyuning",
           "type": "Mer",
-          "text": "Plus au sud, la plage de Lipah a un beau récif juste devant. Un peu plus loin, à Banyuning, une petite épave couverte de coraux est posée à quelques mètres de la plage, par très peu de fond. On y va en scooter ou avec un chauffeur.",
+          "text": "Plus au sud, la plage de Lipah, en sable gris fin, a un récif juste devant, avec des tortues et des poissons-perroquets. Plus loin, à Banyuning, une épave japonaise couverte de coraux commence à 15 ou 20 m de la plage, le haut à 2 m sous l'eau. Éviter la marée basse.",
           "time": "demi-journée",
           "price": null
         },
         {
           "name": "Sortie en pirogue au lever du soleil",
           "type": "Mer",
-          "text": "Les pêcheurs partent à l'aube sur leurs jukung, des pirogues à balancier. Certains emmènent deux passagers : on voit le soleil sortir de la mer du côté de Lombok pendant que le mont Agung s'éclaire côté terre.",
-          "time": "2 h",
+          "text": "Les pêcheurs partent à l'aube sur leurs jukung, des pirogues à balancier, pêcher le maquereau à la traîne. Certains emmènent des passagers, départ vers 5 h : on voit le soleil se lever du côté du Rinjani, le volcan de Lombok, pendant que le mont Agung s'éclaire côté terre.",
+          "time": "2 à 3 h",
           "price": null
         },
         {
           "name": "Coucher de soleil à Jemeluk",
           "type": "Nature",
-          "text": "Depuis le point de vue au-dessus de la baie de Jemeluk, le soleil descend à côté du cône de l'Agung, avec les pirogues en contrebas. Quelques cafés ont installé leurs terrasses exactement là.",
+          "text": "Depuis les hauteurs de la baie de Jemeluk, le soleil descend à côté du cône de l'Agung, avec les pirogues en contrebas. Plusieurs cafés ont leurs terrasses exactement là, dont Sunset Point. Arriver vers 17 h, les places partent vite.",
           "time": "1 h",
           "price": null
         },
         {
           "name": "Salines d'Amed",
           "type": "Culture",
-          "text": "Sur la plage d'Amed, on fabrique encore le sel à la main. L'eau de mer est filtrée dans du sable puis s'évapore au soleil dans des troncs de palmier creusés. Ça se passe en saison sèche, donc en août.",
+          "text": "Sur la plage d'Amed, environ vingt-cinq familles fabriquent encore le sel à la main. L'eau de mer est filtrée dans du bambou tressé puis s'évapore au soleil dans des troncs de cocotier fendus en deux. Ça se passe en saison sèche, donc en août. Le sel se vend à l'Amed Salt Center.",
           "time": "30 min",
           "price": null
         },
         {
           "name": "Tirta Gangga et Lempuyang",
           "type": "Culture",
-          "text": "Les deux sont plus près d'Amed que de Sidemen : le palais d'eau de Tirta Gangga est à une demi-heure, le temple de Lempuyang à 45 minutes. On fait les deux dans la matinée en partant tôt, avant la queue à la « porte du ciel ».",
+          "text": "Les deux sont plus près d'Amed que de Sidemen : le temple de Lempuyang est à une quinzaine de kilomètres, le palais d'eau de Tirta Gangga à moins d'une heure, avec une demi-heure de route entre les deux. On commence par Lempuyang, le plus tôt possible, avant la queue à la « porte du ciel ».",
           "time": "demi-journée",
           "price": null
         }
       ],
-      "access": "Depuis Sidemen, environ 1 h 30 de route par Amlapura. Depuis Ubud ou l'aéroport, compter 2 h 30 à 3 h.",
+      "access": "Depuis Sidemen, environ 1 h 30 de route. Depuis Ubud ou l'aéroport, compter 2 h 30 à 3 h.",
       "tips": [
-        "Il faut savoir nager. Demander à l'hôtel où se mettre à l'eau selon la mer du jour, certains matins il y a du courant.",
-        "Les plages sont en galets : des chaussons d'eau changent la vie."
+        "Il faut savoir nager. Demander à l'hôtel où se mettre à l'eau selon la mer du jour : à Bunutan et à Selang, le courant peut être fort.",
+        "Les plages sont en galets : des chaussons d'eau à semelle dure changent la vie.",
+        "Des bateaux passent dans la baie de Jemeluk : on reste près du récif."
       ],
       "photos": [
         {
@@ -473,6 +474,13 @@
           "author": "Whatsinaname (Wikivoyage)",
           "license": "Domaine public",
           "licenseUrl": "https://commons.wikimedia.org/wiki/File:Amed_Beach_during_sunset.JPG"
+        },
+        {
+          "file": "Mulloidichthys vanicolensis, Jemeluk Wall, Amed, Bali, Indonesia imported from iNaturalist photo 429994681.jpg",
+          "caption": "Poisson-chèvre sur le récif de Jemeluk",
+          "author": "Bernard Dupont",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
         },
         {
           "file": "Amed Traditional Salt Maker.jpg",
@@ -491,13 +499,6 @@
         {
           "file": "Liberty-wreck2.JPG",
           "caption": "Grue de l'épave du Liberty, Tulamben",
-          "author": "Pb1791",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
-        },
-        {
-          "file": "Liberty-wreck3.JPG",
-          "caption": "Cale de l'épave du Liberty, Tulamben",
           "author": "Pb1791",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"

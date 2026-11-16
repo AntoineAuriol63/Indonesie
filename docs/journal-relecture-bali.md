@@ -94,3 +94,24 @@ Source principale des prix : la liste « Pick Up / Transfer - Area Sidemen, Pric
 | Chemins des rizières pas tous publics | note du tableur de départ (`base.json`), non recoupée sur le web | conservée |
 
 Photos : les six ont été regardées. « Sidemen scenes (Unsplash) » (sacs d'engrais au bord d'une route, faible) est remplacée par une vue du mont Agung depuis Sidemen (Flickr, Paul Arps, CC BY 2.0, https://www.flickr.com/photos/21160385@N02/30219647192, licence lue sur la page), placée en deuxième position. Tissage à Sidemen : aucune photo libre trouvée (Commons, Openverse), sujet toujours sans image.
+
+## Amed
+
+| Affirmation | Source (URL) | Verdict |
+|---|---|---|
+| Villages le long d'une dizaine de kilomètres : Amed, Jemeluk, Bunutan, Lipah | https://en.wikivoyage.org/wiki/Amed (bande côtière d'environ 14 km depuis Culik, sept villages : Amed, Jemeluk, Bunutan, Lipah, Selang, Banyuning, Aas) | corrigée : sept villages, 14 km |
+| Sable noir et galets | WV Amed (galets noirs à Amed) ; https://www.baliholidaysecrets.com/jemeluk-bay-amed/ (maj avril 2026 : gros galets à Jemeluk, sable gris fin à Lipah) | confirmée, précisée |
+| Snorkeling depuis la plage, masque loué | https://www.baliholidaysecrets.com/best-snorkelling-spots-in-amed/ (maj août 2026 : pas de bateau à Jemeluk, Lipah, Banyuning ; masque et tuba 50 000 à 100 000 par jour) | confirmée, tarif de location ajouté |
+| Tulamben à 20 minutes | WV Amed (20 à 30 min) ; BHS snorkeling (15 à 20 min) | confirmée |
+| Jemeluk : temple immergé par quelques mètres de fond, poissons-perroquets, tortues | BHS Jemeluk (petit temple, statues et boîte aux lettres à 20-30 m du bord, bouée, 3 à 5 m de fond ; tortues possibles tôt le matin ; baie abritée, courant faible ; pas de droit d'entrée) | confirmée, précisée ; poissons-perroquets déplacés à Lipah (c'est là que la source les cite) |
+| Liberty : cargo américain torpillé par un sous-marin japonais en 1942, glissé à l'eau en 1963, à une trentaine de mètres du bord | https://en.wikipedia.org/wiki/USAT_Liberty (11 janvier 1942, sous-marin I-66, échoué à Tulamben, secousses de 1963, 125 m de long, poupe à 5 m de fond, environ 40 m de la plage) ; WV Amed (30 m) ; BHS snorkeling (30 m, snorkeling entre 4 et 8 m) | confirmée ; longueur et profondeur ajoutées |
+| Lipah : récif devant la plage ; Banyuning : petite épave à quelques mètres de la plage, par très peu de fond | WV Amed (épave japonaise à environ 20 m de la plage) ; BHS snorkeling (proue à 15-20 m, sommet à 2 m, fonds de 2 à 12 m, éviter la marée basse) | confirmée, précisée |
+| Sorties en jukung à l'aube, « deux passagers » | WV Amed (pêche au maquereau à la traîne tôt le matin) ; rech. : annonces de sorties (départ entre 4 h 45 et 5 h 40, 2 à 3 h, lever du soleil côté Rinjani) | confirmée ; « deux passagers » retiré (non retrouvé) ; pas de prix (annonces très dispersées) |
+| Coucher de soleil depuis le point de vue de Jemeluk, cafés | BHS Jemeluk (Sunset Point Amed avec vue sur l'Agung, autres cafés, arriver vers 17 h) | confirmée |
+| Sel : eau filtrée dans du sable, troncs de palmier creusés, saison sèche | rech. : https://mongabay.co.id/2019/10/17/ladang-garam-laut-makin-terdesak-koperasi-petani-buka-amed-salt-center/ (production en saison sèche, filtre de bambou tressé, troncs de cocotier fendus, Amed Salt Center ouvert en 2019) ; https://www.nowjakarta.co.id/a-humble-ingredient-called-amed-sea-salt/ (environ 25 familles) | corrigée : filtre de bambou tressé (et non sable), troncs de cocotier fendus ; saison sèche confirmée |
+| Tirta Gangga à une demi-heure, Lempuyang à 45 minutes | https://www.baliholidaysecrets.com/lempuyang-temple/ (Amed à environ 15 km) ; https://www.baliholidaysecrets.com/tirta-gangga-water-palace/ (Amed « à environ une heure », Lempuyang à 30 min de Tirta Gangga) | corrigée : Lempuyang à une quinzaine de kilomètres, Tirta Gangga à moins d'une heure |
+| Sidemen-Amed : environ 1 h 30 par Amlapura | rech. : page Kiwitaxi Amed-Sidemen (environ 1 h 30) | confirmée (une seule source, estimation d'un site de réservation) ; « par Amlapura » retiré |
+| Ubud ou aéroport : 2 h 30 à 3 h | BHS Jemeluk (Ubud 2 h 30 à 3 h) ; WV Amed (aéroport : un peu plus de 2 h) ; rech. : 12go (aéroport environ 3 h) | confirmée |
+| Courant certains matins | BHS snorkeling (courant modéré à fort à Bunutan et Selang) | précisée |
+
+Photos : les six ont été regardées. « Liberty-wreck3.JPG » (cale de l'épave en plongée, sombre) est remplacée par un poisson-chèvre sur le récif de Jemeluk (Commons, Bernard Dupont, CC BY-SA 4.0), en troisième position : c'est la photo de snorkeling à Amed qui manquait. Les photos Flickr « Snorkeling plage de Jemeluk » (Globetrotteur17, CC BY-SA) ont été écartées : cadre noir et signature incrustés.
