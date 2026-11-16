@@ -136,3 +136,26 @@ Photos : les cinq photos existantes ont été regardées et sont justes. Ajout d
 | Incendie d'août 2026 | https://www.viva.co.id/bisnis/1920826-bromo-ditutup-total-2056-wisatawan-ajukan-refund ; https://www.cna.id/indonesia/gunung-bromo-dibuka-kembali-karhutla-49946 (fermé du 8 au 20 août 2026) | ajoutée dans les conseils |
 
 Photos : les six photos existantes ont été regardées et sont justes. La savane verte sous la brume (janvier, trompeuse pour un voyage en août) est remplacée par « Alun-Alun Batu, East Java.jpg » (consigliere ivan, CC BY 2.0) : Batu n'avait pas d'image. Jalan Ijen et Singosari : photos vues sur Commons (« Idjen Street, Malang, 2019.jpg », « Singosari Temple 03.jpg »), correctes mais non retenues faute de place (six photos au plus).
+
+## Tumpak Sewu
+
+Le quota de recherches web de la session étant épuisé à ce stade, les vérifications reposent sur des pages consultées directement (Wikipédia et trois guides spécialisés mis à jour en 2026).
+
+| Affirmation | Source (URL) | Verdict |
+| --- | --- | --- |
+| « Mille cascades », environ 120 m, Semeru | https://en.wikipedia.org/wiki/Tumpak_Sewu_Waterfalls (120 m, rivière Glidik descendue du Semeru, districts de Pronojiwo et d'Ampelgading) | confirmée |
+| Deux heures de route « au sud-est » de Malang | https://theworldtravelguy.com/tumpak-sewu-waterfall-east-java-indonesia/ (2 h, janv. 2026) ; https://www.jonnymelon.com/tumpak-sewu-waterfall/ (2 h, fév. 2026) ; https://www.backindo.com/tumpak-sewu/ (70 km, 2 à 3 h, avril 2026) | corrigée : « 70 km, deux à trois heures » ; direction retirée |
+| Point de vue à dix minutes du parking, « entre les plantations de salak » | backindo (10 minutes, vue la plus dégagée entre 7 h et 9 h) | confirmée ; salak retiré (non sourcé) ; heures ajoutées |
+| Semeru visible derrière | backindo (pas garanti, par matin clair) ; theworldtravelguy (visible surtout en vue aérienne) | conservée avec la réserve « par matin clair » |
+| Prix du point de vue | theworldtravelguy (20 000 IDR), jonnymelon (20 000), backindo (20 000 à 30 000) | ajoutée : 20 000 IDR |
+| Descente : escaliers métalliques, échelles de bambou, torrent avec corde, 45 min | jonnymelon (ponts de bambou, rampes, cordes fixées à la paroi, ruisseau à traverser sur la roche ; échelles côté ouest) ; theworldtravelguy (marches et rampes de bambou, 20 min) ; backindo (30 à 45 min de descente, 45 à 60 min de remontée, fermée par temps de pluie) | corrigée selon ces descriptions |
+| « Avec un guide du village » | backindo (guide facultatif mais conseillé, 100 000 à 200 000 IDR par groupe) | corrigée : conseillé, pas obligatoire |
+| Prix de la descente | theworldtravelguy (50 000 IDR) ; backindo (50 000) | ajoutée : 50 000 IDR |
+| Goa Tetes : terrasses devant une grotte, remontée possible par ce côté | theworldtravelguy (paroi orangée, grottes, roche très glissante, sentier de bambou qui remonte et ramène au parking) ; backindo (boucle possible) | confirmée ; « de vasque en vasque » retiré |
+| Kapas Biru : à quelques kilomètres, 45 min par escaliers et échelles, rizières en terrasses, moins de monde | https://theworldtravelguy.com/kapas-biru-waterfall-east-java-indonesia/ (30 min, une échelle, rizières avant l'arrivée, retour raide) ; backindo (plus petite et plus calme) ; Commons (Pronojiwo) | corrigée : une demi-heure, une échelle |
+| Homestays à Pronojiwo, « certains avec vue sur le Semeru », point de vue à 6 h | backindo (pensions et cottages simples à Pronojiwo ; site ouvert de 7 h à 15 h) ; jonnymelon (un homestay près des chutes) | corrigée : « vue sur le Semeru » retirée, ouverture à 7 h |
+| « Beaucoup d'agences combinent Tumpak Sewu et le Bromo » | non vérifiée | retirée ; bus depuis Gadang ajouté (backindo : 4 à 5 h, puis moto-taxi) |
+| « En août, moins d'eau mais claire, sentier moins glissant » | non vérifiée | retirée ; remplacée par : saison sèche de mai à novembre (jonnymelon), horaires, paiement en liquide (backindo) |
+| Foule le week-end | Wikipédia | ajoutée |
+
+Photos : les cinq photos existantes ont été regardées. « DSF9076.jpg » (description Commons vague : « Waterfall, Bromo national park ») montre bien l'amphithéâtre de Tumpak Sewu, elle est gardée avec une légende ajustée. Ajout de « Goa Tetes cascades, September 2026.jpg » (Mcbobgorge, CC0), seule bonne photo de Goa Tetes sur Commons, en format portrait (avertissement toléré).

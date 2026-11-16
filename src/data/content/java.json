@@ -646,51 +646,60 @@
     },
     "tumpak-sewu": {
       "intro": [
-        "Tumpak Sewu veut dire « mille cascades » en javanais : un rideau d'eau en demi-cercle qui tombe d'une falaise couverte de jungle, haute d'environ 120 m, avec le volcan Semeru en fond quand le ciel est dégagé. C'est à deux heures de route au sud-est de Malang.",
+        "Tumpak Sewu veut dire « mille cascades » en javanais : un rideau d'eau en demi-cercle qui tombe d'une falaise couverte de jungle, haute d'environ 120 m, au pied du volcan Semeru, qu'on aperçoit derrière par matin clair. C'est à 70 km de Malang, deux à trois heures de route.",
         "On peut se contenter du point de vue d'en haut, à dix minutes à pied du parking : c'est déjà la plus belle vue. La descente au pied de la cascade est une autre affaire, raide, mouillée et glissante, à garder pour ceux qui ont le pied sûr."
       ],
       "todo": [
         {
           "name": "Point de vue panoramique",
           "type": "Nature",
-          "text": "Depuis le parking, dix minutes de sentier entre les plantations de salak jusqu'à une plateforme. Toute la cascade est là, en arc de cercle, avec le Semeru derrière si on arrive tôt, avant que les nuages montent.",
+          "text": "Depuis le parking, dix minutes de sentier jusqu'à une plateforme. Toute la cascade est là, en arc de cercle, avec le Semeru derrière si on arrive tôt, entre 7 h et 9 h, avant que les nuages montent.",
           "time": "45 min",
-          "price": null
+          "price": {
+            "amount": 20000,
+            "currency": "IDR",
+            "what": "entrée du point de vue de Tumpak Sewu, par personne, en liquide"
+          }
         },
         {
           "name": "Descente au pied de la cascade",
           "type": "Randonnée",
-          "text": "Un sentier raide avec des escaliers métalliques, des échelles de bambou et un passage où l'on descend dans le courant d'un torrent en se tenant à une corde. En bas, on marche dans la rivière jusqu'au cirque, sous les embruns. Compter 45 minutes de descente, plus pour remonter, avec un guide du village.",
+          "text": "Un sentier raide et glissant : marches et rampes de bambou, cordes fixées à la paroi, et un passage où l'on traverse un ruisseau qui coule sur la roche. En bas, on marche dans la rivière jusqu'au cirque, sous les embruns. Compter 30 à 45 minutes de descente, jusqu'à une heure pour remonter.",
           "time": "2 à 3 h aller-retour",
-          "price": null
+          "price": {
+            "amount": 50000,
+            "currency": "IDR",
+            "what": "accès au pied de la cascade, par personne, en liquide ; guide en plus"
+          }
         },
         {
           "name": "Goa Tetes",
           "type": "Nature",
-          "text": "Au fond du canyon, un peu en aval de la cascade, une paroi où l'eau ruisselle en terrasses devant une grotte. On grimpe de vasque en vasque, les pieds dans l'eau. On peut remonter par ce côté au lieu de reprendre le même chemin.",
+          "text": "Dans le même canyon, un peu en aval, une paroi orangée où l'eau ruisselle devant de petites grottes. La roche est très glissante. De là, un sentier de bambou remonte jusqu'en haut du ravin : on rejoint le parking sans reprendre le même chemin.",
           "time": "1 h",
           "price": null
         },
         {
           "name": "Cascade de Kapas Biru",
           "type": "Randonnée",
-          "text": "À quelques kilomètres, une autre grande cascade, haute et fine, au fond d'une vallée de rizières en terrasses. On y descend en 45 minutes par des escaliers et des échelles, et il y a bien moins de monde qu'à Tumpak Sewu.",
-          "time": "2 h aller-retour",
+          "text": "Dans la même commune de Pronojiwo, une autre grande cascade, haute et fine, contre une paroi orangée. Une demi-heure de sentier, avec une échelle et des rizières juste avant l'arrivée ; le retour monte raide. Il y a bien moins de monde qu'à Tumpak Sewu.",
+          "time": "1 h 30 à 2 h aller-retour",
           "price": null
         },
         {
           "name": "Dormir à Pronojiwo",
           "type": "Détente",
-          "text": "Le village à côté de la cascade a plusieurs homestays, certains avec vue sur le Semeru. En dormant sur place, on est au point de vue à 6 h, avec la meilleure lumière et avant les excursions venues de Malang.",
+          "text": "Le bourg le plus proche de la cascade a quelques pensions et homestays, simples. En dormant sur place, on est au point de vue à l'ouverture, à 7 h, avec la meilleure lumière et avant les voitures venues de Malang.",
           "time": "une nuit",
           "price": null
         }
       ],
-      "access": "Depuis Malang, environ 2 h de route sinueuse vers le sud-est, en voiture avec chauffeur ou en excursion. Beaucoup d'agences combinent Tumpak Sewu et le Bromo sur deux jours.",
+      "access": "Depuis Malang, 2 à 3 h de route sinueuse, en voiture avec chauffeur ou en excursion. En bus, c'est 4 à 5 h depuis le terminal de Gadang, puis une moto-taxi : peu pratique.",
       "tips": [
-        "Pour la descente : des chaussures qui accrochent et qu'on peut mouiller, pas de tongs, et une pochette étanche pour le téléphone.",
-        "Si le terrain fait peur ou s'il a plu la veille, le point de vue d'en haut suffit largement.",
-        "En août, il y a moins d'eau qu'en saison des pluies, mais elle est claire et le sentier est moins glissant."
+        "Pour la descente : des chaussures qui accrochent et qu'on peut mouiller, pas de tongs, des vêtements de rechange et une pochette étanche pour le téléphone.",
+        "Quand il pleut, la descente est fermée et seul le point de vue reste ouvert. Si le terrain fait peur, il suffit largement. Pour descendre, un guide du village aide bien, surtout vers Goa Tetes.",
+        "Le site ouvre de 7 h à 15 h et tout se paie en liquide. La saison sèche, de mai à novembre, est la bonne période.",
+        "Éviter le week-end, il y a beaucoup de monde."
       ],
       "photos": [
         {
@@ -709,7 +718,7 @@
         },
         {
           "file": "DSF9076.jpg",
-          "caption": "Arc-en-ciel au pied de la cascade",
+          "caption": "Arc-en-ciel devant le rideau d'eau",
           "author": "Syselpunk",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
@@ -727,6 +736,13 @@
           "author": "Thank You (25 Millions) views",
           "license": "CC BY 2.0",
           "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "file": "Goa Tetes cascades, September 2026.jpg",
+          "caption": "Ruissellements de Goa Tetes",
+          "author": "Mcbobgorge",
+          "license": "CC0 1.0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
         }
       ]
     },
