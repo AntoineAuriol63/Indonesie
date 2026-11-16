@@ -3,92 +3,112 @@
     "bali": {
       "intro": "À Bali, deux heures de route suffisent pour passer des rizières en terrasses à une plage de sable noir. Au centre, Ubud et ses temples. Au nord, les lacs et les cascades de Munduk. À l'est, la vallée de Sidemen puis Amed pour le snorkeling, et tout à l'ouest l'île de Menjangan. On finit au sud par les falaises d'Uluwatu, ou en bateau sur les Nusa. On change d'hôtel tous les deux ou trois jours, avec un chauffeur entre chaque étape.",
       "august": "Août tombe en pleine saison sèche : il fait beau presque tous les jours, avec de temps en temps une averse en montagne. C'est aussi la haute saison touristique, donc on réserve les hôtels tôt.",
-      "access": "On atterrit à l'aéroport de Denpasar (DPS), dans le sud de l'île. Ensuite tout se fait par la route, avec un chauffeur ou des navettes, et en bateau rapide depuis Sanur pour les Nusa."
+      "access": "On atterrit à l'aéroport de Denpasar (DPS), dans le sud de l'île. Ensuite tout se fait par la route, avec un chauffeur, et en bateau rapide depuis Sanur pour les Nusa. Chaque visiteur étranger paie une taxe de 150 000 roupies, en ligne sur Love Bali."
     }
   },
   "places": {
     "ubud": {
       "intro": [
-        "Ubud est la petite ville des collines du centre de Bali, à 1 h 30 de l'aéroport. On y dort trois ou quatre nuits parce que tout ce qu'on imagine de Bali est à moins d'une heure : des rizières en terrasses, des temples avec leurs bassins, des cascades, des singes.",
+        "Ubud est la petite ville des collines du centre de Bali, à 1 h 30 environ de l'aéroport. On y dort trois ou quatre nuits parce que tout ce qu'on imagine de Bali est à moins d'une heure : des rizières en terrasses, des temples avec leurs bassins, des cascades, des singes.",
         "Le centre se fait à pied, entre le palais, le marché et la forêt des singes. Pour le reste on prend un chauffeur à la journée ou un scooter, et on part tôt : à partir de 10 h, les routes et les sites se remplissent."
       ],
       "todo": [
         {
           "name": "Rizières de Tegallalang",
           "type": "Nature",
-          "text": "À une vingtaine de minutes au nord d'Ubud, des rizières en terrasses taillées dans un vallon étroit, avec des cocotiers partout. On descend par les petits sentiers et on remonte sur l'autre versant. Y être avant 8 h, pour la lumière et pour le calme.",
+          "text": "À une vingtaine de minutes au nord d'Ubud, des rizières en terrasses taillées dans un vallon étroit, avec des cocotiers partout. On descend par les petits sentiers et on remonte sur l'autre versant. Y être avant 8 h, pour la lumière et pour le calme. Les balançoires se paient en plus.",
           "time": "1 h 30",
-          "price": null
+          "price": {
+            "amount": 25000,
+            "currency": "IDR",
+            "what": "entrée des rizières par l'accès de Ceking, par personne"
+          }
         },
         {
           "name": "Forêt des singes",
           "type": "Faune",
-          "text": "Une forêt sacrée au bout de la rue Monkey Forest, avec des temples couverts de mousse, un pont gardé par des dragons de pierre et plus de 1 200 macaques en liberté. On range lunettes, bouteilles et tout ce qui dépasse du sac : ils se servent.",
+          "text": "Une forêt sacrée au bout de la rue Monkey Forest, avec trois temples du XIVe siècle couverts de mousse, un pont gardé par des dragons de pierre et plus de mille macaques en liberté. Ouverte de 9 h à 18 h. On range lunettes, bouteilles et tout ce qui dépasse du sac : ils se servent.",
           "time": "1 h 30",
-          "price": null
+          "price": {
+            "amount": 130000,
+            "currency": "IDR",
+            "what": "entrée, par adulte étranger"
+          }
         },
         {
           "name": "Tirta Empul",
           "type": "Culture",
-          "text": "À Tampaksiring, un temple bâti autour d'une source sacrée. Les Balinais viennent s'y purifier en passant la tête sous chaque fontaine du grand bassin. On peut le faire aussi, en sarong, en suivant la file et en regardant comment font les autres.",
+          "text": "À Tampaksiring, à une bonne demi-heure d'Ubud, un temple fondé en 962 autour d'une source sacrée. Les Balinais viennent s'y purifier en passant la tête sous chacune des trente fontaines des bassins. On peut le faire aussi, en sarong, en suivant la file et en regardant comment font les autres.",
           "time": "1 h 30",
-          "price": null
+          "price": {
+            "amount": 75000,
+            "currency": "IDR",
+            "what": "entrée, par adulte étranger"
+          }
         },
         {
           "name": "Gunung Kawi",
           "type": "Culture",
-          "text": "À cinq minutes de route de Tirta Empul : dix sanctuaires de 7 m de haut taillés dans la falaise au XIe siècle, au bord de la rivière Pakerisan. On y descend par un escalier de plus de 250 marches entre les rizières, qu'il faut ensuite remonter.",
+          "text": "À cinq minutes de route de Tirta Empul : dix sanctuaires de 7 m de haut taillés dans la falaise au XIe siècle, de part et d'autre de la rivière Pakerisan. On y descend par un escalier de 300 à 400 marches entre les rizières, qu'il faut ensuite remonter.",
           "time": "1 h 30",
           "price": null
         },
         {
           "name": "Lever de soleil au mont Batur",
           "type": "Randonnée",
-          "text": "Le volcan culmine à 1 717 m. Un chauffeur passe vers 2 h du matin, on monte deux heures de nuit avec un guide et une lampe frontale, et on est en haut quand le soleil se lève sur le lac Batur et le mont Agung. Retour à Ubud en fin de matinée.",
-          "time": "la matinée, départ vers 2 h",
+          "text": "Le volcan culmine à 1 717 m. Un chauffeur passe entre 1 h et 2 h du matin, il y a une heure de route, puis on monte deux heures de nuit, 500 m de dénivelé, avec un guide local obligatoire. En haut, le soleil se lève sur le lac Batur, le mont Abang et le mont Agung.",
+          "time": "la matinée, départ entre 1 h et 2 h",
           "price": null
         },
         {
           "name": "Palais royal et marché",
           "type": "Ville",
-          "text": "Le palais Puri Saren est au carrefour central, on entre dans ses cours en passant. En face, le marché : fruits et offrandes très tôt le matin, puis sarongs, paniers et bois sculpté. À deux rues, le temple Saraswati et son bassin de lotus.",
+          "text": "Le palais Puri Saren est au carrefour central. L'entrée est gratuite, on traverse ses cours en passant. En face, le marché : fruits et légumes avant l'aube, puis sarongs, paniers et bois sculpté à partir de 8 h. À deux pas, le temple Saraswati et son bassin de lotus, dont l'entrée est payante.",
           "time": "2 h",
           "price": null
         },
         {
           "name": "Danse balinaise au palais",
           "type": "Culture",
-          "text": "Chaque soir vers 19 h 30, une troupe danse dans la cour du palais, devant le portail éclairé, avec un orchestre de gamelan. Legong, barong ou Ramayana selon le jour. Les billets se prennent sur place dans l'après-midi.",
+          "text": "Chaque soir à 19 h 30, une troupe danse dans la cour du palais, devant le portail éclairé, avec un orchestre de gamelan. Du legong le plus souvent, du barong certains soirs. Billets à l'entrée, ou auprès des vendeurs de la rue à partir de 17 h. Arriver 45 minutes avant pour être bien placé.",
           "time": "1 h 30",
-          "price": null
+          "price": {
+            "amount": 100000,
+            "currency": "IDR",
+            "what": "billet du spectacle, par personne"
+          }
         },
         {
           "name": "Crête de Campuhan",
           "type": "Randonnée",
-          "text": "Un chemin pavé suit une crête couverte de hautes herbes entre deux rivières, au départ du temple Gunung Lebah, à un quart d'heure à pied du palais. Deux kilomètres faciles. À faire tôt le matin ou en fin de journée, il n'y a pas d'ombre.",
+          "text": "Un chemin pavé suit une crête couverte de hautes herbes, au départ du temple Gunung Lebah, à un quart d'heure à pied du palais. Environ deux kilomètres faciles, et c'est gratuit. À faire tôt le matin ou en fin de journée, il n'y a pas d'ombre.",
           "time": "1 h 30 aller-retour",
           "price": null
         },
         {
           "name": "Cascade de Tegenungan",
           "type": "Nature",
-          "text": "La cascade la plus proche d'Ubud, à une demi-heure au sud. Large et puissante, elle tombe dans un grand bassin au fond d'une gorge. On descend par un long escalier et on se baigne au pied quand le courant est calme.",
+          "text": "La cascade la plus proche d'Ubud, à 20 ou 30 minutes au sud. Large, haute d'environ 25 m, elle tombe dans un grand bassin au fond d'une gorge. On descend par un escalier et on se baigne au pied quand le courant est calme. Y aller tôt, il y a vite du monde.",
           "time": "1 h 30",
-          "price": null
+          "price": {
+            "amount": 30000,
+            "currency": "IDR",
+            "what": "entrée, par adulte"
+          }
         },
         {
           "name": "Cours de cuisine balinaise",
           "type": "Cuisine",
-          "text": "Une matinée dans une famille ou une école de cuisine. On commence par le marché, puis on pile soi-même la pâte d'épices, le bumbu, et on prépare des brochettes de satay, du lawar ou un curry avant de tout manger ensemble.",
-          "time": "demi-journée",
+          "text": "Une demi-journée dans une famille, par exemple chez Paon Bali, au village de Laplapan. Le cours du matin commence au marché d'Ubud, puis on pile soi-même la pâte d'épices, le base gede, et on prépare un curry de poulet ou un gado-gado avant de tout manger ensemble.",
+          "time": "demi-journée, le matin ou l'après-midi",
           "price": null
         }
       ],
-      "access": "Depuis l'aéroport de Denpasar, compter 1 h 30 de voiture, davantage en fin d'après-midi quand ça bouchonne. Le plus simple est de réserver un chauffeur par l'hôtel.",
+      "access": "Depuis l'aéroport de Denpasar, une quarantaine de kilomètres : compter 1 h 30 de voiture, jusqu'à 2 h en fin d'après-midi quand ça bouchonne. Le plus simple est de réserver un chauffeur par l'hôtel.",
       "tips": [
         "Tegallalang, Tirta Empul et Gunung Kawi sont sur la même route au nord d'Ubud : on les fait dans la même journée avec un chauffeur.",
-        "Sarong obligatoire dans les temples, on en prête à l'entrée.",
-        "Il fait froid au sommet du Batur avant le lever du soleil : prendre une polaire."
+        "Sarong obligatoire dans les temples : il est prêté avec le billet à Tirta Empul et à Gunung Kawi.",
+        "Il fait moins de 10 °C au sommet du Batur avant le lever du soleil, avec du vent : prendre une polaire."
       ],
       "photos": [
         {
