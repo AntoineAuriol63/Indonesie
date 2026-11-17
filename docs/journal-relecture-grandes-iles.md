@@ -214,3 +214,46 @@ Photos : les six regardées, toutes prises à Tangkoko (descriptions Commons), b
 | Kalimantan, accès ; bateau loué en entier | sources des fiches Tanjung Puting et Derawan | confirmée |
 | Sulawesi, août : sec au sud, saison des funérailles, averses à Manado | Wikivoyage Tana Toraja (pic en juillet-août, pluie fréquente l'après-midi) ; Wikivoyage Bunaken (saison sèche de mai à octobre) | corrigée |
 | Sulawesi, accès : vol direct Makassar-Manado | backindo (vols réguliers de Makassar vers Manado) | confirmée |
+
+## Seconde passe (17 novembre 2026) : points restés non vérifiés et prix d'entrée
+
+Aucune activité renommée ni supprimée : `src/data/coords/grandes-iles.json` n'a pas de clé orpheline et n'est pas modifié.
+
+### Derawan / Maratua
+
+| Affirmation | Source (URL) | Verdict |
+|---|---|---|
+| Fermetures du lac de Kakaban | https://koran-jakarta.com/2025-07-04/mengapa-ubur-ubur-di-danau-kakaban-tidak-menyengat-ini-penjelasannya/amp (fermé le 23 décembre 2023, rouvert début 2025) ; http://www.merdeka.com/jatim/read/8226632/ (fermé depuis le 28 décembre 2023) | confirmée, remise dans la fiche avec les dates |
+| Kakaban : baignade, sans palmes ni crème solaire | https://www.goodnewsfromindonesia.id/2026/05/10/danau-kakaban-berau-satu-dari-dua-danau-ubur-ubur-langka-di-dunia (mai 2026 : baignade permise, palmes et crème solaire interdites, passerelle en bois) ; https://wisata.viva.co.id/wisata/27677-review-jujur-wisata-pulau-kakaban-2026-benarkah-berenang-dengan-ubur-ubur-tanpa-sengat-masih-aman (avril 2026 : baignade interdite, on regarde du ponton) ; koran-jakarta (2025 : vingt nageurs à la fois) | règles confirmées ; les sources de 2026 se contredisent sur la baignade -> « tantôt permise, tantôt interdite », conseil de demander avant de payer |
+| Requins-baleines de Talisayan, plateformes de pêche, départ de nuit | https://wwf.id/en/blog/get-know-right-whale-shark-interaction-tour (bagans, individus de 5 à 7 m, le matin, six nageurs par groupe, quinze minutes, sans toucher) ; https://wwf.id/en/blog/examining-lives-whale-sharks-berau-waters-east-kalimantan ; https://indonesiaexpat.biz/travel/the-derawan-islands-made-easy/ (environ 75 km, moins de deux heures de hors-bord, arriver avant 5 h) | confirmée, précisée ; « petits poissons qui tombent des filets » -> lampes des bagans |
+| Grotte Haji Mangku à Maratua | https://www.detik.com/kalimantan/wisata/d-8017634/pulau-maratua-berau-aktivitas-menarik-dan-cara-ke-sana (appelée aujourd'hui Halo Tabung) ; https://www.goodnewsfromindonesia.id/indonesiana/wisata/gua-haji-mangku-maratua-yang-menyimpan-keindahan-tersembunyi-di-kaltim (on saute du haut ; eau salée reliée à la mer ; dix minutes de marche) | confirmée, second nom ajouté |
+| Maratua : « lagon d'un côté, récif qui tombe à pic de l'autre » | https://www.tropicalsnorkeling.com/?p=525536 (2026 : baie de sable peu profonde avec de grosses tortues vertes) | remplacée par ce qui est attesté |
+| Tortues sous les pontons de Derawan, « surtout tôt le matin et en fin d'après-midi », ponte la nuit | https://www.underwaterphotography.com/dive-sites/Dive-Site.aspx?ID=1286 (herbier sous les pontons, 20 à 30 cm d'eau à marée basse) ; https://www.liveaboard.com/diving/indonesia/derawan (plages la nuit en saison de ponte) | confirmée ; heures retirées |
+| Mantas de Sangalaki « près de la surface » | tropicalsnorkeling (dans peu d'eau, 10 à 20 m) | reformulée |
+| « On cherche d'autres voyageurs sur le ponton » | aucune | retirée |
+
+### Manado / Bunaken
+
+| Affirmation | Source (URL) | Verdict |
+|---|---|---|
+| Sites de Lekuan et Fukui | https://www.backindo.com/bunaken-national-park-guide/ (juillet 2026 : Lekuan, mur ; Fukui, pente de corail, bénitiers géants, tortues) ; https://twofishdivers.com/diving/bunaken-island-manado/ (napoléons à Lekuan, courant parfois fort) | confirmée ; Fukui corrigé : c'est une pente, pas un mur |
+| Tortues qui « dorment dans les creux du mur », à Lekuan | https://www.bluewaterdivetravel.com/article/diving-in-north-sulawesi-a-complete-guide-to-bunaken-bangka-and-lembeh (tortues vertes et imbriquées sur les corniches de Lekuan) | confirmée ; « certaines très grosses » retiré |
+| Siladen : un quart d'heure de bateau, sable blanc, récif devant | https://www.snorkeling-report.com/?p=1582 (tombant devant la plage, près du ponton) ; https://www.thejakartapost.com/travel/2017/11/09/siladen-island-a-hidden-paradise-in-bunaken.html (sable blanc et cocotiers) ; avis de voyageur (15 à 20 min depuis l'est de Bunaken) | confirmée -> un quart d'heure ou vingt minutes |
+| Dabu-dabu | https://en.wikipedia.org/wiki/Dabu-dabu | confirmée |
+| Prix : entrée du parc de Bunaken 150 000 IDR, tarif étranger | backindo (juillet 2026) ; https://www.bunakenoasis.com/pricing-reservations et sa grille 2026 ; https://rajalaut-bunaken.com/rates/ | ajoutée |
+
+### Tangkoko
+
+| Affirmation | Source (URL) | Verdict |
+|---|---|---|
+| Heures de sortie | https://sites.google.com/view/rennystangkokosafetystop/tangkoko-tour (matin 6 h, après-midi 16 h 30) ; https://brunetteatsunset.com/azie/indonesie/tangkoko-national-park-jungle-encounters-in-sulawesi/ (16 h 30) ; https://celebesecotours.com/guides/tangkoko-wildlife-guide.html (tarsiers actifs de 17 h 45 à 18 h 45) | corrigée : 16 h 30 et 6 h (la fiche d'origine disait 17 h 30 et 5 h 30) |
+| Pas de flash | https://www.backindo.com/tangkoko-nature-reserve-guide/ (juillet 2026) | confirmée, remise |
+| « On entend les ailes [du calao] de loin », couscous « lent, qui dort en haut des arbres » | aucune | retirées |
+| Prix : entrée 100 000 IDR par étranger et par jour | https://theworldtravelguy.com/tangkoko-nature-reserve/ (avril 2025) ; backindo (juillet 2026 : 100 000 à 150 000 selon le jour) ; brunetteatsunset | ajoutée ; guide 100 000 à 200 000 IDR par sortie, dans les conseils |
+
+### Tanjung Puting et pays Toraja
+
+| Affirmation | Source (URL) | Verdict |
+|---|---|---|
+| Prix : entrée du parc de Tanjung Puting 250 000 IDR par étranger et par jour | https://tanjungputingtourism.com/en/kenaikan-tarif-masuk-taman-nasional-tanjung-puting-berlaku-30-oktober-2024/ (tarif en vigueur depuis le 30 octobre 2024) ; https://tanjungputingklotoktour.com/ (2026) ; https://www.goersapp.com/blog/ticket-price-the-most-popular-national-parks-in-indonesia/ | ajoutée |
+| Droit d'entrée des sites toraja | https://theworldtravelguy.com/tana-toraja-indonesia-things-to-do-in-sulawesi-funeral-land/ (30 000 IDR) ; https://indo-voyages.com/destinations/sulawesi/toraja/kete-kesu/ (2026 : 30 000 à 50 000) ; https://maiandchristravel.com/tana-toraja-sightseeing-highlights-1-visiting-traditional-funeral-and-cliff-cemetery/ (20 000 à 30 000) | sources discordantes : pas de champ prix, fourchette de 20 000 à 50 000 IDR dans les conseils |

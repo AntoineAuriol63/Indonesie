@@ -404,7 +404,11 @@
           "type": "Faune",
           "text": "Premier arrêt, l'après-midi du premier jour. On marche un kilomètre jusqu'à la plateforme où les rangers déposent des bananes à 15 h, et on regarde de derrière une barrière. Les orangs-outans arrivent par les arbres, les mères avec leur petit accroché au ventre.",
           "time": "2 h",
-          "price": null
+          "price": {
+            "amount": 250000,
+            "currency": "IDR",
+            "what": "droit d'entrée du parc national, tarif étranger, par personne et par jour, souvent compris dans le prix de la croisière"
+          }
         },
         {
           "name": "Pondok Tanggui",
@@ -441,7 +445,7 @@
         "Août est la haute saison : jusqu'à une centaine de bateaux dans le parc, donc du monde à chaque plateforme. Réserver le klotok plusieurs semaines avant, au moins.",
         "On ne se baigne pas dans la rivière : des crocodiles y ont déjà tué des gens.",
         "L'électricité vient d'un groupe électrogène, allumé le soir seulement : prendre une batterie externe.",
-        "Demander si le droit d'entrée du parc est compris dans le prix."
+        "Demander si le droit d'entrée du parc, à payer pour chacun des trois jours, est compris dans le prix."
       ],
       "photos": [
         {
@@ -497,7 +501,7 @@
         {
           "name": "Tortues vertes de Derawan",
           "type": "Faune",
-          "text": "Pas besoin de bateau : on met le masque au pied du ponton et les tortues broutent l'herbier juste en dessous, surtout tôt le matin et en fin d'après-midi. La nuit, certaines montent pondre sur la plage.",
+          "text": "Pas besoin de bateau : on met le masque au pied du ponton et les tortues vertes broutent l'herbier juste en dessous, parfois dans trente centimètres d'eau à marée basse. En saison de ponte, certaines montent la nuit sur la plage.",
           "time": "",
           "price": null
         },
@@ -511,42 +515,42 @@
         {
           "name": "Lac aux méduses de Kakaban",
           "type": "Mer",
-          "text": "Un lac d'eau saumâtre enfermé au milieu de l'île, à dix minutes de marche de la plage, où vivent quatre espèces de méduses qui ne piquent pas. On nage au milieu d'elles, sans palmes et sans crème solaire pour ne pas les abîmer.",
+          "text": "Un lac d'eau saumâtre au milieu de l'île, à dix minutes de marche par une passerelle en bois, où vivent quatre espèces de méduses qui ne piquent pas. Il a fermé de fin 2023 à début 2025, quand elles avaient presque disparu. Depuis, la baignade est tantôt permise, sans palmes ni crème solaire, tantôt interdite.",
           "time": "1 à 2 h sur place",
           "price": null
         },
         {
           "name": "Raies manta de Sangalaki",
           "type": "Mer",
-          "text": "Autour de cette petite île, les raies manta viennent se nourrir près de la surface. Le bateau tourne pour les trouver et on saute à l'eau dès qu'il en voit une. Personne n'habite l'île, à part l'équipe qui protège les nids de tortues vertes.",
+          "text": "Autour de cette petite île, les raies manta se rassemblent dans peu d'eau. Le bateau tourne pour les trouver et on se met à l'eau dès qu'il en voit une. Personne n'habite l'île, à part l'équipe qui protège le plus grand site de ponte de tortues vertes de la région.",
           "time": "2 h",
           "price": null
         },
         {
           "name": "Lagon et tombants de Maratua",
           "type": "Mer",
-          "text": "D'un côté de l'atoll, le lagon peu profond ; de l'autre, le récif qui tombe à pic. On nage au-dessus du tombant avec des tortues et des bancs de poissons. À terre, on saute dans la grotte Haji Mangku, un bassin d'eau bleu vif.",
+          "text": "Dans une baie de sable peu profonde, de grosses tortues vertes se laissent approcher au masque. À terre, dix minutes de marche mènent à la grotte Haji Mangku, appelée aussi Halo Tabung : un bassin d'eau salée bleu vif, relié à la mer, où l'on saute du haut de la roche.",
           "time": "la journée",
           "price": null
         },
         {
           "name": "Journée en hors-bord entre les îles",
           "type": "Mer",
-          "text": "L'excursion classique depuis Derawan : départ le matin, arrêts à Kakaban, Sangalaki et Maratua, retour avant la nuit. On emporte son déjeuner : il n'y a aucun restaurant à Kakaban ni à Sangalaki. Le bateau se loue en entier, donc on cherche d'autres voyageurs sur le ponton pour partager.",
+          "text": "L'excursion classique depuis Derawan : départ le matin, arrêts à Kakaban, Sangalaki et Maratua, retour avant la nuit. On emporte son déjeuner : il n'y a aucun restaurant à Kakaban ni à Sangalaki. Le bateau se loue en entier, donc on a intérêt à le partager.",
           "time": "la journée",
           "price": null
         },
         {
           "name": "Requins-baleines de Talisayan",
           "type": "Mer",
-          "text": "Devant Talisayan, sur la côte, des requins-baleines viennent au lever du jour sous les plateformes des pêcheurs, attirés par les petits poissons qui tombent des filets. On part de Derawan en pleine nuit et on nage à côté d'eux.",
+          "text": "Devant Talisayan, sur la côte, des requins-baleines de 5 à 7 m viennent le matin sous les bagans, les plateformes des pêcheurs dont les lampes attirent le plancton. C'est à 75 km de Derawan : on part en pleine nuit pour y être avant 5 h. On nage par groupes de six, sans les toucher.",
           "time": "demi-journée",
           "price": null
         }
       ],
       "access": "Vol jusqu'à Berau, avec une escale à Balikpapan ou en direct de Jakarta et de Surabaya selon les compagnies, puis 2 heures de route au moins jusqu'à Tanjung Batu et 30 minutes de hors-bord jusqu'à Derawan. Maratua est une heure ou une heure et demie de bateau plus loin.",
       "tips": [
-        "Avant de payer l'excursion, demander si le lac de Kakaban est ouvert aux nageurs ce jour-là.",
+        "Les règles du lac de Kakaban changent souvent : avant de payer l'excursion, demander si on a le droit de se mettre à l'eau ou seulement de regarder depuis le ponton.",
         "Ni les mantas ni les requins-baleines ne sont là tous les jours.",
         "Il faut être à l'aise dans l'eau : il y a du courant le long des tombants.",
         "Le seul distributeur de Derawan ne prend que les cartes indonésiennes : arriver avec assez de roupies pour tout le séjour.",
@@ -670,7 +674,7 @@
       "access": "Depuis Makassar, 9 à 10 heures de route jusqu'à Rantepao. Les bus de nuit partent vers 21 h et arrivent au petit matin, avec des sièges qui s'allongent presque à plat. Certains jours, Wings Air relie Makassar au petit aéroport de Toraja en 55 minutes ; il reste 45 minutes à une heure de voiture jusqu'à Rantepao.",
       "tips": [
         "Une cérémonie ne se réserve pas et ne se garantit pas : demander à la guesthouse ou à un guide dès l'arrivée.",
-        "Chaque site a son petit droit d'entrée, à payer en liquide.",
+        "Chaque site a son droit d'entrée, de 20 000 à 50 000 roupies par personne, à payer en liquide.",
         "La ligne aérienne a été interrompue plusieurs mois en 2025 : se faire confirmer le vol avant de construire le voyage dessus.",
         "Il pleut souvent l'après-midi, même en saison sèche, et les nuits sont fraîches : prendre un pull et une veste de pluie."
       ],
@@ -728,14 +732,18 @@
         {
           "name": "Snorkeling sur les tombants de Bunaken",
           "type": "Mer",
-          "text": "Le bateau du resort dépose les nageurs au bord du mur, sur des sites comme Lekuan ou Fukui, et les suit pendant qu'ils dérivent avec le courant. Des coraux, des éponges, des poissons-papillons, des napoléons, et le vide bleu juste à côté.",
+          "text": "Le bateau du resort dépose les nageurs au bord du récif et les suit pendant qu'ils dérivent avec le courant. Lekuan est un mur vertical, avec des napoléons et le vide bleu juste à côté ; Fukui, une pente de corail avec des bénitiers géants et des bancs de poissons.",
           "time": "demi-journée",
-          "price": null
+          "price": {
+            "amount": 150000,
+            "currency": "IDR",
+            "what": "droit d'entrée du parc marin, tarif étranger, par personne, payé en général par l'intermédiaire du resort"
+          }
         },
         {
           "name": "Nager avec les tortues",
           "type": "Faune",
-          "text": "Les tortues vertes dorment dans les creux du mur et remontent respirer à côté des nageurs. À Lekuan, on en voit souvent plusieurs dans la même sortie, dont certaines très grosses.",
+          "text": "Les tortues vertes et les tortues imbriquées se reposent sur les corniches du mur et nagent en pleine eau à côté des nageurs. Lekuan est le site où l'on en voit le plus, et on en croise aussi à Fukui.",
           "time": "",
           "price": null
         },
@@ -749,7 +757,7 @@
         {
           "name": "Île de Siladen",
           "type": "Détente",
-          "text": "Une toute petite île du parc, à un quart d'heure de bateau de Bunaken. Elle a ce qui manque à Bunaken, une plage de sable blanc, avec un récif juste devant. Bien pour une demi-journée tranquille.",
+          "text": "Une toute petite île du parc, à un quart d'heure ou vingt minutes de bateau de Bunaken. Elle a ce qui manque à Bunaken, une plage de sable blanc bordée de cocotiers. Le tombant commence devant la plage, près du ponton.",
           "time": "demi-journée",
           "price": null
         },
@@ -778,7 +786,7 @@
       "access": "Vol jusqu'à Manado, puis 30 minutes à une heure de bateau depuis le port. La plupart des resorts de Bunaken viennent chercher leurs clients ; sinon, un bateau public part en début d'après-midi, sauf le dimanche.",
       "tips": [
         "Le courant le long des murs peut être fort et tourner vite : garder ses palmes, rester près du bateau et du guide.",
-        "L'entrée du parc marin se paie en plus de l'hébergement.",
+        "L'entrée du parc marin se paie en plus de l'hébergement : demander si elle est comprise dans les sorties en bateau.",
         "Les clubs vivent surtout de la plongée bouteille : préciser dès la réservation qu'on vient pour le snorkeling.",
         "La mer est la plus claire de mai à octobre, en saison sèche."
       ],
@@ -836,21 +844,25 @@
         {
           "name": "Tarsiers au crépuscule",
           "type": "Faune",
-          "text": "Les guides connaissent les arbres creux, de gros figuiers étrangleurs, où dorment les familles de tarsiers. À la tombée du jour, ils se réveillent et sortent à hauteur d'yeux, puis bondissent d'un tronc à l'autre pour chasser les insectes.",
+          "text": "On part vers 16 h 30. Les guides connaissent les arbres creux, de gros figuiers étrangleurs, où dorment les familles de tarsiers. Entre 17 h 45 et 18 h 45, ils se réveillent et sortent à hauteur d'yeux, puis bondissent d'un tronc à l'autre pour chasser les insectes. On les regarde sans flash.",
           "time": "3 à 4 h",
-          "price": null
+          "price": {
+            "amount": 100000,
+            "currency": "IDR",
+            "what": "entrée de la réserve, tarif étranger, par personne et par jour, parfois plus cher le week-end (guide en supplément)"
+          }
         },
         {
           "name": "Macaques à crête à l'aube",
           "type": "Faune",
-          "text": "On part tôt le matin. Les macaques noirs vivent en groupes d'environ vingt-cinq et fouillent le sol de la forêt. Un des deux groupes de la réserve est habitué aux gens et passe tout près sans s'occuper de nous.",
-          "time": "4 h",
+          "text": "Départ à 6 h pour trois ou quatre heures de marche. Les macaques noirs vivent en groupes d'environ vingt-cinq et fouillent le sol de la forêt. Un des deux groupes de la réserve est habitué aux gens et passe tout près sans s'occuper de nous.",
+          "time": "3 à 4 h",
           "price": null
         },
         {
           "name": "Calaos et couscous des Célèbes",
           "type": "Faune",
-          "text": "En marchant, le guide cherche aussi le calao à cimier, un gros oiseau au bec jaune et au casque rouge dont on entend les ailes de loin, et le couscous ours, un marsupial lent qui dort en haut des arbres.",
+          "text": "En marchant, le guide cherche aussi le calao à cimier, un gros oiseau au bec jaune et au casque rouge, et le couscous ours, un marsupial des arbres qu'on ne voit pas à chaque sortie.",
           "time": "",
           "price": null
         },
@@ -865,7 +877,7 @@
       "access": "Depuis Manado, 1 h 30 à 2 heures de route jusqu'à Batuputih, en passant près de Bitung. Depuis Bunaken, il faut d'abord reprendre le bateau jusqu'à Manado.",
       "tips": [
         "Pantalon long et répulsif : des visiteurs repartent avec des piqûres d'insectes qui démangent pendant des jours.",
-        "Le guide est obligatoire, on le trouve au village ou par la guesthouse. L'entrée de la réserve se paie à chaque jour de visite.",
+        "Le guide est obligatoire, on le trouve au village ou par la guesthouse. Il se paie à chaque sortie, 100 000 à 200 000 roupies.",
         "On voit presque toujours les tarsiers et les macaques, moins souvent les calaos et les couscous.",
         "Pas de wifi et très peu de réseau à Batuputih."
       ],
