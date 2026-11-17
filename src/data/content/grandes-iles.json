@@ -1,32 +1,76 @@
 {
   "regions": {
     "sumatra": {
-      "intro": "Sumatra est une île énorme et on n'en voit qu'un morceau à la fois. Dans le nord, on va à Bukit Lawang chercher les orangs-outans dans la jungle, puis au lac Toba, sur l'île de Samosir, chez les Batak Toba. Dans l'ouest, on dort à Bukittinggi pour le canyon de Sianok, le lac Maninjau et les maisons minangkabau aux toits en cornes de buffle. Chaque moitié demande une petite semaine, avec de longues journées de route.",
-      "august": "Août est en saison sèche, mais il pleut encore de temps en temps, surtout autour du lac Toba. De juillet à octobre, la fumée des feux de forêt et de tourbe peut voiler le paysage, surtout les années El Niño.",
-      "access": "On arrive à Medan pour le nord et à Padang pour l'ouest ; entre les deux, il faut un vol intérieur, direct. Sur place tout se fait par la route, en voiture avec chauffeur ou en minibus."
+      "intro": "Deux voyages possibles ici : le nord, avec Medan, Bukit Lawang et le lac Toba ; l'ouest, autour de Bukittinggi et des paysages minangkabau. Les routes prennent du temps. Pour un séjour court, choisir une zone plutôt que vouloir tout relier.",
+      "august": "Ne pas résumer toute Sumatra à une saison sèche. En forêt, prévoir des chemins humides et un programme qui peut changer avec la pluie.",
+      "access": "Medan pour le nord, Padang pour l'ouest. Vérifier la liaison aérienne disponible entre les deux ; le vol direct n'est pas à considérer comme acquis.",
+      "sources": [
+        {
+          "name": "Bukit Lawang Jungle Trekking règles du parc",
+          "url": "https://www.bukitlawang-jungletrekking.com/about-us-more/national-park-guidelines/"
+        },
+        {
+          "name": "Indonesia Travel lac Toba",
+          "url": "https://www.indonesia.travel/id/id/destination/sumatra/north-sumatra/lake-toba"
+        },
+        {
+          "name": "Indonesia Travel Bukittinggi",
+          "url": "https://www.indonesia.travel/id/id/destination/sumatra/west-sumatra/bukittinggi"
+        }
+      ],
+      "checked": "17 novembre 2026"
     },
     "kalimantan": {
-      "intro": "C'est la partie indonésienne de Bornéo. On y a repéré deux séjours qui n'ont rien à voir. À Tanjung Puting, on passe trois jours sur un bateau en bois à remonter une rivière dans la forêt pour voir les orangs-outans. À Derawan et Maratua, de l'autre côté de l'île, on nage avec les tortues, les raies manta et les méduses de Kakaban. Entre les deux, il y a toute la largeur de l'île : c'est l'un ou l'autre, ou alors des vols en plus.",
-      "august": "Août est un des mois les plus secs, mais il fait chaud et humide quand même. De juillet à octobre, surtout les années El Niño, la fumée des feux de tourbe gêne la vue et peut retarder les vols.",
-      "access": "Pour Tanjung Puting, on atterrit à Pangkalan Bun et on embarque à Kumai. Pour Derawan, on atterrit à Berau, puis c'est la route et le hors-bord. Le bateau de Tanjung Puting se loue en entier, qu'on soit deux ou six."
+      "intro": "Deux secteurs repérés : Tanjung Puting pour la forêt et les orangs-outans, Derawan et Maratua pour la mer. Ils sont loin l'un de l'autre. Le klotok avec nuits à bord et le séjour sur une île demandent deux organisations différentes.",
+      "august": "Ne pas promettre un mois sec ou des observations garanties. Vérifier les accès du parc et les traversées à l'approche du départ.",
+      "access": "Pangkalan Bun puis Kumai pour Tanjung Puting. Pour Derawan, organiser l'arrivée à Berau, la route puis le bateau avec l'hébergement.",
+      "sources": [
+        {
+          "name": "Tourisme du Kalimantan central Tanjung Puting",
+          "url": "https://visit.kalteng.go.id/taman-nasional-tanjung-puting/"
+        },
+        {
+          "name": "Detik restrictions après les feux octobre 2026",
+          "url": "https://travel.detik.com/travel-news/d-8717677/karhutla-terus-membara-4-pintu-tn-tanjung-puting-ditutup-buat-wisata/amp"
+        },
+        {
+          "name": "Indonesia Travel archipel de Derawan",
+          "url": "https://www.indonesia.travel/id/id/destination/kalimantan/east-kalimantan/derawan-archipelago---eksotisme-kepulauan-derawan-surga-tersembunyi-yang-menawan"
+        }
+      ],
+      "checked": "17 novembre 2026"
     },
     "sulawesi": {
-      "intro": "Une grande île à quatre bras, avec deux bouts très différents. Au sud, dans les montagnes, le pays Toraja : des maisons aux toits en coque de bateau, des tombes creusées dans les falaises et des funérailles où l'on sacrifie des buffles. Tout au nord, autour de Manado, on nage le long des tombants de Bunaken et on va voir les tarsiers dans la forêt de Tangkoko. Faire les deux dans le même voyage demande un vol entre Makassar et Manado.",
-      "august": "Août est en saison sèche partout. En pays Toraja, c'est le pic des funérailles, mais il pleut encore souvent l'après-midi. Autour de Manado, c'est la bonne période pour la mer.",
-      "access": "On arrive à Makassar pour le pays Toraja et à Manado pour Bunaken et Tangkoko. Un vol direct relie les deux villes ; par la route, ce serait plusieurs jours."
+      "intro": "Au sud, le pays Toraja pour les villages, les maisons et les sites funéraires. Au nord, Manado, Bunaken et Tangkoko pour la mer et la forêt. Pour faire les deux, il faut réserver du temps aux transports.",
+      "august": "Ne pas écrire « saison sèche partout ». Une cérémonie toraja dépend des familles et de leur calendrier ; août ne donne pas un programme garanti.",
+      "access": "Makassar pour rejoindre le pays Toraja ; Manado pour le nord. Vérifier les vols disponibles si on veut combiner les deux secteurs.",
+      "sources": [
+        {
+          "name": "Indonesia Travel pays Toraja",
+          "url": "https://www.indonesia.travel/id/id/travel-ideas/adventure/tana-toraja/"
+        },
+        {
+          "name": "Indonesia Travel snorkeling à Bunaken",
+          "url": "https://www.indonesia.travel/id/en/destination/sulawesi/north-sulawesi/snorkeling-bunaken-national-park"
+        },
+        {
+          "name": "Indonesia Travel Tangkoko",
+          "url": "https://www.indonesia.travel/id/en/destination/sulawesi/north-sulawesi/bitung---the-tangkoko-nature-reserve"
+        }
+      ],
+      "checked": "17 novembre 2026"
     }
   },
   "places": {
     "medan-bukit-lawang": {
       "intro": [
-        "Bukit Lawang est un village étiré le long de la rivière Bohorok, à l'entrée du parc national du Gunung Leuser. C'est un des rares endroits où l'on voit des orangs-outans de Sumatra en liberté. Beaucoup descendent d'animaux relâchés par l'ancien centre de réhabilitation et restent près du village : un trek d'une journée, ou même de 4 heures, suffit le plus souvent pour en croiser.",
-        "On part à pied du village avec un guide, obligatoire pour entrer dans le parc, on grimpe dans la jungle et on rentre dans l'après-midi, à pied ou en bouée sur la rivière. Medan, où l'on atterrit, se visite en une demi-journée avant de prendre la route."
+        "Bukit Lawang pour une marche en forêt à la recherche des orangs-outans. Même la sortie courte peut être raide et humide. Medan peut se visiter à l'arrivée ou au retour, mais ce n'est pas à côté : séparer la ville et la forêt dans le planning."
       ],
       "todo": [
         {
           "name": "Trek d'une journée dans le Gunung Leuser",
           "type": "Randonnée",
-          "text": "Départ vers 9 h du village avec un guide. On marche 5 à 6 heures sur des sentiers raides, pleins de racines et de boue, on cherche les orangs-outans dans les arbres et on déjeune d'un riz frit en forêt. Pas de nuit sous la tente.",
+          "text": "Une journée avec un guide dans la forêt du Gunung Leuser. Ça peut monter et glisser. Choisir un organisateur qui garde ses distances avec les animaux et ne les nourrit pas.",
           "time": "la journée",
           "price": {
             "amount": 70,
@@ -37,7 +81,7 @@
         {
           "name": "Trek court de 4 heures",
           "type": "Randonnée",
-          "text": "Même forêt, mais on reste sur les premières collines derrière le village, autour de l'ancienne plateforme de nourrissage, fermée en 2016. Les orangs-outans traînent souvent par là, et l'on croise aussi des semnopithèques de Thomas, des singes gris avec une crête sur la tête. Ça grimpe quand même.",
+          "text": "Une version plus courte de la marche en forêt. Demander le dénivelé et le parcours avant de choisir, surtout si on veut éviter les passages raides. Les observations restent aléatoires.",
           "time": "4 h",
           "price": {
             "amount": 55,
@@ -48,35 +92,35 @@
         {
           "name": "Retour en bouée sur la Bohorok",
           "type": "Nature",
-          "text": "À la fin du trek, les guides attachent de grosses chambres à air ensemble et on redescend la rivière jusqu'au village, assis dedans, avec quelques petits rapides. On peut aussi louer une bouée au village sans faire le trek : le courant est fort, on demande où s'arrêter.",
+          "text": "Le retour en bouée sur la Bohorok est une option chez certains guides. Vérifier le débit, l'équipement et la possibilité de rentrer à pied. À enlever si on ne veut pas d'activité en rivière.",
           "time": "une demi-heure environ",
           "price": null
         },
         {
           "name": "Grotte aux chauves-souris",
           "type": "Nature",
-          "text": "Une demi-heure à une heure de marche à plat depuis le village, entre les hévéas et les durians. On entre avec une lampe, on escalade des rochers et on voit des milliers de chauves-souris accrochées au plafond. On y va en général avec un guide du village.",
+          "text": "La grotte aux chauves-souris peut faire une visite séparée. Demander les conditions d'accès et l'équipement nécessaire. Ne pas toucher ni éclairer directement les animaux.",
           "time": "2 à 3 h",
           "price": null
         },
         {
           "name": "Baignade devant les guesthouses",
           "type": "Détente",
-          "text": "Les guesthouses sont alignées sur les deux rives de la Bohorok, avec des passerelles suspendues pour traverser. On se baigne juste devant : l'eau est claire et le courant fort par endroits. Le week-end, il y a foule au bord de l'eau.",
+          "text": "On peut rester au bord de la Bohorok pour se reposer. Pour se baigner, demander un avis local sur le débit et les zones autorisées ; ne pas se fier au seul fait que l'hôtel donne sur la rivière.",
           "time": "",
           "price": null
         },
         {
           "name": "Grande mosquée Al-Mashun, à Medan",
           "type": "Culture",
-          "text": "La grande mosquée de Medan, construite de 1906 à 1909 par le sultan de Deli : plan octogonal, dômes noirs, murs blancs à panneaux verts, marbre d'Italie et vitraux venus de France. L'entrée est gratuite, en dehors des prières et en tenue couverte.",
+          "text": "La grande mosquée Al-Mashun fait partie des visites de Medan. Prévoir une tenue adaptée et se présenter à l'accueil pour savoir où les visiteurs peuvent entrer.",
           "time": "30 min",
           "price": null
         },
         {
           "name": "Palais Maimun, à Medan",
           "type": "Culture",
-          "text": "Le palais jaune des sultans de Deli, terminé en 1891, à cinq minutes à pied de la mosquée. Sur trente pièces, on ne visite que la salle du trône et quelques salons, où l'on peut louer un costume malais pour la photo. Le jaune est la couleur des Malais.",
+          "text": "Le palais Maimun pour une étape sur l'histoire du sultanat de Deli. Vérifier les salles ouvertes et le billet avant la visite.",
           "time": "45 min",
           "price": {
             "amount": 10000,
@@ -87,24 +131,26 @@
         {
           "name": "Maison de Tjong A Fie et quartier de Kesawan",
           "type": "Ville",
-          "text": "La maison d'un riche marchand chinois, terminée en 1900, dans la rue Ahmad Yani : 35 pièces sur deux étages, où se mêlent les styles chinois, malais et Art déco. En face, le restaurant Tip Top sert des glaces et des gâteaux depuis 1934, sous une véranda qui donne sur la rue.",
+          "text": "La maison de Tjong A Fie et les rues de Kesawan pour voir une autre partie de Medan. On peut faire la maison musée puis marcher dans le quartier.",
           "time": "1 h 30",
           "price": null
         },
         {
           "name": "Soto Medan et durian",
           "type": "Cuisine",
-          "text": "Medan est une ville où l'on mange bien : soto Medan, un bouillon jaune au lait de coco avec du poulet ou du bœuf, et bika ambon, un gâteau spongieux plein d'alvéoles. Chez Ucok Durian, ouvert jour et nuit, on s'attable pour manger du durian frais.",
+          "text": "À tester à Medan : le soto local et, si on est curieux, le durian. À choisir sur place selon les envies, sans en faire une visite à heure fixe.",
           "time": "",
-          "price": null
+          "price": null,
+          "hidden": true
         }
       ],
-      "access": "Vol jusqu'à l'aéroport de Medan (Kualanamu), puis 3 à 4 heures de route jusqu'à Bukit Lawang, parfois 5 avec les embouteillages, en voiture avec chauffeur ou en minibus touristique. On finit à pied le long de la rivière, 10 à 15 minutes jusqu'aux guesthouses.",
+      "access": "Vol jusqu'à l'aéroport de Medan (Kualanamu), puis route jusqu'à Bukit Lawang en voiture avec chauffeur ou en minibus touristique. Compter environ 3 à 5 heures selon la circulation, une estimation à faire confirmer pour le transfert réservé. La fin du trajet peut se faire à pied le long de la rivière : demander au logement comment y accéder avec les bagages.",
       "tips": [
         "Les pentes sont raides et glissantes après la pluie : chaussures fermées qui accrochent, pantalon long et chaussettes hautes contre les sangsues.",
+        "Le trek court n'est pas facile par défaut : demander le parcours et le dénivelé avant de choisir.",
         "On ne touche pas et on ne nourrit pas les orangs-outans. Choisir un guide qui garde ses distances avec eux.",
-        "Aucun guide ne peut garantir un orang-outan, mais sur une journée entière on en voit le plus souvent.",
-        "Il n'y a qu'un distributeur au village et il ne marche pas toujours : retirer des roupies à Medan."
+        "Aucun guide ne peut garantir une rencontre avec un orang-outan, même sur une journée entière.",
+        "Retirer assez de roupies à Medan : ne pas compter sur un distributeur au village."
       ],
       "photos": [
         {
@@ -147,69 +193,88 @@
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
         }
-      ]
+      ],
+      "sources": [
+        {
+          "name": "Bukit Lawang Jungle Trekking règles du parc",
+          "url": "https://www.bukitlawang-jungletrekking.com/about-us-more/national-park-guidelines/"
+        },
+        {
+          "name": "BukitLawang com règles en forêt",
+          "url": "https://www.bukitlawang.com/rules"
+        },
+        {
+          "name": "Wikivoyage Bukit Lawang",
+          "url": "https://en.wikivoyage.org/wiki/Bukit_Lawang"
+        },
+        {
+          "name": "Wikivoyage Medan",
+          "url": "https://en.wikivoyage.org/wiki/Medan"
+        }
+      ],
+      "checked": "17 novembre 2026"
     },
     "lac-toba": {
       "intro": [
-        "Le lac Toba remplit le cratère d'un ancien volcan géant : 100 km de long, 30 de large, à 905 m d'altitude, donc il y fait bon. Au milieu, Samosir est le pays des Batak Toba, avec leurs maisons aux toits en forme de selle et leurs tombeaux de pierre. C'était une presqu'île ; un canal creusé en 1906 à Pangururan en a fait une île, reliée à la rive par un pont.",
-        "On dort à Tuk Tuk, une petite presqu'île de Samosir couverte de guesthouses au bord de l'eau. Le programme est simple : scooter le long du lac, villages batak, baignade devant la chambre, poisson grillé le soir."
+        "Samosir pour quelques jours au bord du lac et les villages batak. Tuk Tuk peut servir de base. Les distances autour du lac sont grandes : Sipiso Piso, les villages de Samosir et les points de vue ne se regroupent pas tous en une seule petite boucle."
       ],
       "todo": [
         {
           "name": "Tuk Tuk et baignade dans le lac",
           "type": "Détente",
-          "text": "La presqu'île où tout le monde loge. La plupart des guesthouses donnent directement sur le lac : on descend dans l'eau depuis le jardin, sans plonger, car le bord est rocheux. L'eau est moins propre près des élevages de poissons : demander à la guesthouse où nager.",
+          "text": "Tuk Tuk comme base au bord du lac. Pour nager, choisir un accès adapté et demander les conditions sur place. On peut aussi simplement marcher et se poser près de l'eau.",
           "time": "",
           "price": null
         },
         {
           "name": "Tour de Samosir en scooter",
           "type": "Nature",
-          "text": "On loue un scooter à Tuk Tuk et on suit la route du bord du lac vers le nord : Ambarita, Simanindo, puis Pangururan et ses sources chaudes. L'île est grande, le tour complet fait une centaine de kilomètres avec des côtes : on part tôt et on rentre par le même chemin avant la nuit.",
+          "text": "Choisir une partie de Samosir à visiter plutôt que vouloir tout boucler. Scooter seulement si on est à l'aise et correctement autorisé ; sinon, organiser la journée avec un chauffeur.",
           "time": "la journée",
           "price": null
         },
         {
           "name": "Tombeau du roi Sidabutar, à Tomok",
           "type": "Culture",
-          "text": "À 5 km au sud de Tuk Tuk. Des sarcophages de pierre sculptés, dont celui du roi Sidabutar, au bout d'une allée de stands de souvenirs. À l'entrée, on passe un ulos, l'écharpe tissée des Batak. Le Sigale-gale, une marionnette en bois de la taille d'un homme, danse quand un groupe paie le spectacle.",
+          "text": "À Tomok, visite des tombeaux et du village. Un guide permet de comprendre les récits associés au roi Sidabutar et aux traditions batak.",
           "time": "1 h",
           "price": null
         },
         {
           "name": "Chaises de pierre d'Ambarita",
           "type": "Culture",
-          "text": "Dans le village de Huta Siallagan, entouré d'un mur de pierre, un cercle de sièges où le roi et les anciens jugeaient les accusés. Un second cercle, un peu plus loin, entoure la table de pierre où l'on exécutait les condamnés. Autour, une rangée de maisons batak.",
+          "text": "Les chaises de pierre d'Ambarita et les maisons du village. À voir avec les explications sur les assemblées et les traditions locales, en distinguant histoire et récits transmis.",
           "time": "1 h",
           "price": null
         },
         {
           "name": "Danses batak à Simanindo",
           "type": "Culture",
-          "text": "À la pointe nord de Samosir, l'ancienne maison d'un roi batak est devenue un petit musée, Huta Bolon. Tous les jours à 10 h 30, on y donne un spectacle de danses tor-tor en costume devant les maisons, et les spectateurs sont invités à danser à la fin.",
+          "text": "Le musée de Simanindo pour la culture batak. S'il y a une représentation de danse annoncée pendant le séjour, on peut l'ajouter ; vérifier le programme avant de venir.",
           "time": "1 h 30",
           "price": null
         },
         {
           "name": "Cascade de Sipiso-piso",
           "type": "Nature",
-          "text": "À l'extrémité nord du lac, près de Tongging : une rivière souterraine sort de la falaise et tombe de 120 m d'un seul jet. On la regarde d'en haut, avec le lac derrière, ou on descend les 651 marches jusqu'en bas. C'est sur la route entre le lac et Berastagi.",
+          "text": "Sipiso Piso se trouve au nord du lac, hors de Samosir. On peut voir la cascade depuis le haut ; la descente vers le bas est une sortie plus physique à prévoir séparément.",
           "time": "1 à 2 h",
           "price": null
         },
         {
           "name": "Carpe du lac et soirées à la guitare",
           "type": "Cuisine",
-          "text": "On mange de la carpe grillée ou en arsik, une sauce épicée au poivre andaliman qui engourdit la langue. Les Batak cuisinent aussi le porc et boivent du tuak, un vin de palme. Le soir, on chante à la guitare dans les bars de Tuk Tuk.",
+          "text": "Chercher les spécialités de poisson du lac. Pour la musique le soir, regarder ce qui est réellement proposé à Tuk Tuk pendant le séjour.",
           "time": "",
-          "price": null
+          "price": null,
+          "hidden": true
         }
       ],
-      "access": "Depuis Medan, 4 à 5 heures de route jusqu'à Parapat, puis 30 à 45 minutes de bateau jusqu'à Tuk Tuk : un départ par heure du port de Tiga Raja, de 8 h 30 à 18 h environ, et le bateau dépose devant les guesthouses. On peut aussi atterrir à Silangit, au sud du lac, à 2 heures de Parapat, avec des vols depuis Jakarta. Depuis Bukit Lawang, compter la journée entière en minibus.",
+      "access": "Depuis Medan, compter environ 4 à 5 heures de route jusqu'à Parapat, un repère plutôt qu'une garantie, puis 30 à 45 minutes de bateau depuis le port de Tiga Raja jusqu'à Tuk Tuk ; le bateau dépose devant les guesthouses. On peut aussi atterrir à Silangit, au sud du lac, à 2 heures de Parapat, avec des vols depuis Jakarta. Depuis Bukit Lawang, compter la journée entière en minibus.",
       "tips": [
-        "Le dernier bateau pour Tuk Tuk quitte Parapat vers 18 h : ne pas arriver trop tard.",
-        "Les nuits descendent vers 19 °C en août, un pull suffit.",
-        "Par gros temps, on attend le bateau suivant : les petits bateaux du lac n'ont pas tous des gilets."
+        "Vérifier l'heure du dernier bateau pour Tuk Tuk le jour de l'arrivée, et ne pas arriver trop tard à Parapat.",
+        "Prendre un bateau équipé de gilets adaptés. Si les conditions sont mauvaises, renoncer à la traversée plutôt que d'attendre le bateau suivant.",
+        "Prévoir un pull pour les soirées au bord du lac."
       ],
       "photos": [
         {
@@ -254,32 +319,42 @@
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
         }
-      ]
+      ],
+      "sources": [
+        {
+          "name": "Indonesia Travel lac Toba",
+          "url": "https://www.indonesia.travel/id/id/destination/sumatra/north-sumatra/lake-toba"
+        },
+        {
+          "name": "Indonesia Travel Sipiso Piso",
+          "url": "https://www.indonesia.travel/id/id/destination/sumatra/north-sumatra/sipiso-piso-waterfall0"
+        }
+      ],
+      "checked": "17 novembre 2026"
     },
     "bukittinggi-et-hauts-plateaux": {
       "intro": [
-        "Bukittinggi est une ville de montagne à 930 m d'altitude, entre les volcans Marapi et Singgalang, en plein pays minangkabau. Il y fait entre 16 et 25 °C. On y vient pour la fraîcheur, pour le canyon de Sianok qui commence au bout de la rue et pour les maisons aux toits en cornes de buffle.",
-        "Le reste se fait en excursions d'une journée avec un chauffeur : le lac Maninjau, la vallée de Harau, le palais de Pagaruyung. Et c'est ici qu'on mange la cuisine padang, dans la région où elle est née."
+        "Bukittinggi pour le canyon de Sianok, les marchés et la culture minangkabau. Harau, Maninjau et Pagaruyung sont des sorties dans des directions différentes. On peut choisir ce qui nous attire sans multiplier les journées de voiture."
       ],
       "todo": [
         {
           "name": "Jam Gadang et le marché Pasar Atas",
           "type": "Ville",
-          "text": "La tour de l'horloge de 1926, coiffée d'un toit minangkabau, au milieu de la place où les familles se promènent le soir entre les vendeurs de brochettes. Juste à côté, le marché Pasar Atas vend tissus, souvenirs et chips de manioc. Pour le nasi kapau, on descend à Los Lambuang, à dix minutes à pied.",
+          "text": "Jam Gadang et Pasar Atas pour commencer par le centre de Bukittinggi. Une balade à glisser entre les excursions, avec les horaires du marché à vérifier.",
           "time": "1 h",
           "price": null
         },
         {
           "name": "Canyon de Sianok depuis le parc Panorama",
           "type": "Nature",
-          "text": "Le parc Panorama, à quelques minutes à pied de la tour de l'horloge, donne sur le canyon : 15 km de long, des falaises d'une centaine de mètres, une rivière et des rizières tout au fond. Des macaques traînent parfois près des rambardes. Venir tôt, quand la brume remplit encore le fond.",
+          "text": "Le parc Panorama permet de voir le canyon de Sianok depuis le haut. Une option sans longue randonnée, qui se combine avec les tunnels japonais.",
           "time": "1 h",
           "price": null
         },
         {
           "name": "Tunnels japonais (Lobang Jepang)",
           "type": "Culture",
-          "text": "Sous le parc Panorama, près d'un kilomètre et demi de galeries creusées de 1942 à 1944 par des travailleurs forcés, pendant l'occupation japonaise. On descend un long escalier et on suit les couloirs, seul ou avec un guide. Certains passages sont sombres et étroits.",
+          "text": "Les tunnels japonais se visitent près du parc Panorama. Demander quelle partie est ouverte et combien de temps dure la visite ; ce n'est pas un parcours à faire si on supporte mal les espaces fermés.",
           "time": "45 min",
           "price": {
             "amount": 25000,
@@ -290,51 +365,54 @@
         {
           "name": "Marche jusqu'à Koto Gadang",
           "type": "Randonnée",
-          "text": "Du parc Panorama, on descend au fond du canyon et on remonte en face par le Janjang Koto Gadang, un escalier de pierre d'environ un kilomètre, crénelé comme une petite muraille de Chine. En haut, le village est connu pour ses bijoutiers qui travaillent l'argent. Compter une heure dans chaque sens.",
+          "text": "Une marche vers Koto Gadang, à organiser avec un parcours précis. Demander l'état des chemins et l'effort avant de partir, plutôt que compter une durée fixe.",
           "time": "2 à 3 h aller-retour",
           "price": null
         },
         {
           "name": "Lac Maninjau et la route aux 44 virages",
           "type": "Nature",
-          "text": "Un lac de cratère de 16 km de long, à une heure de route. On le voit d'abord d'en haut, depuis Puncak Lawang, puis on descend par le Kelok 44 : 44 épingles numérotées, étroites et chargées. En bas, on goûte le palai rinuak, de tout petits poissons du lac grillés dans une feuille de bananier.",
+          "text": "Le lac Maninjau et la route en lacets peuvent faire une sortie à part. Vérifier l'état de la route après de fortes pluies et garder du temps pour les arrêts.",
           "time": "la journée",
           "price": null
         },
         {
           "name": "Vallée de Harau",
           "type": "Nature",
-          "text": "Après Payakumbuh, à 1 h 30 ou 2 heures de route : une vallée de rizières fermée par des falaises verticales de 100 à 200 m, avec cinq cascades qui tombent du plateau. On s'y promène à pied entre les villages. Il y a des homestays pour y passer la nuit.",
+          "text": "Harau pour les falaises, les paysages et, selon les accès ouverts, des cascades. Choisir les arrêts avec le chauffeur plutôt que prévoir toutes les chutes dans la même journée.",
           "time": "la journée",
           "price": null
         },
         {
           "name": "Palais de Pagaruyung",
           "type": "Culture",
-          "text": "Près de Batusangkar, à 1 h 30 de route, la copie du palais des rois minangkabau : trois étages de bois sculpté et peint, sous une rangée de toits pointus. L'ancien a brûlé en 2007, frappé par la foudre ; celui-ci date de 2013. À l'intérieur, on loue un costume minangkabau pour la photo.",
+          "text": "Pagaruyung pour voir l'architecture minangkabau. Le palais actuel est une reconstruction : à présenter comme telle, pas comme un édifice ancien intact.",
           "time": "demi-journée",
-          "price": null
+          "price": null,
+          "hidden": true
         },
         {
           "name": "Tissages de Pandai Sikek",
           "type": "Culture",
-          "text": "Un village à une quinzaine de kilomètres au sud de Bukittinggi où l'on tisse le songket à la main, avec des fils dorés. Quatre maisons sur cinq ont un métier à tisser, et ce sont surtout les femmes qui travaillent. Le village est aussi connu pour ses sculpteurs sur bois.",
+          "text": "Pandai Sikek pour le tissage. Faire organiser une visite d'atelier si on veut voir le travail, plutôt que tomber seulement sur une boutique.",
           "time": "1 h",
-          "price": null
+          "price": null,
+          "hidden": true
         },
         {
           "name": "Cuisine padang et nasi kapau",
           "type": "Cuisine",
-          "text": "Au restaurant, on ne commande pas : le serveur couvre la table de petites assiettes et on ne paie que celles qu'on a entamées. Goûter le rendang, du bœuf mijoté dans le lait de coco jusqu'à ce que la sauce ait réduit. Pour le nasi kapau, on montre les plats et la vendeuse les sert sur le riz.",
+          "text": "À goûter : cuisine padang et nasi kapau. Selon le restaurant, on choisit au comptoir ou parmi les plats servis ; demander comment fonctionne la commande avant de commencer.",
           "time": "",
-          "price": null
+          "price": null,
+          "hidden": true
         }
       ],
-      "access": "On atterrit à Padang, puis 2 à 3 heures de route qui montent par la vallée d'Anai, avec sa cascade au bord de la chaussée ; c'est plus long le week-end. Depuis Medan ou le lac Toba, il faut reprendre un avion jusqu'à Padang.",
+      "access": "On atterrit à Padang, puis 2 à 3 heures de route qui montent par la vallée d'Anai, avec sa cascade au bord de la chaussée ; c'est plus long le week-end. Depuis Medan ou le lac Toba, vérifier la liaison aérienne disponible jusqu'à Padang, éventuellement avec escale.",
       "tips": [
         "Maninjau, Harau et Pagaruyung sont dans trois directions différentes : compter une journée et un chauffeur pour chacun.",
-        "Les crues de fin 2025 ont coupé la route de la vallée d'Anai et abîmé le Kelok 44. Les deux ont rouvert en 2026, mais un éboulement peut encore les fermer quelques heures après de fortes pluies.",
-        "Le Marapi est en éruption régulière et son ascension est interdite depuis 2025 : on le regarde d'en bas.",
+        "Les crues de fin 2025 ont coupé la route de la vallée d'Anai et abîmé le Kelok 44. Les deux ont rouvert en 2026, sans garantie pour 2027 : vérifier l'état des routes avant le départ, de fortes pluies pouvant encore les fermer.",
+        "Le Marapi se regarde à distance. Consulter son état et les restrictions en cours auprès des autorités avant le séjour.",
         "La région est très pratiquante : épaules et genoux couverts en ville."
       ],
       "photos": [
@@ -380,18 +458,32 @@
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
         }
-      ]
+      ],
+      "sources": [
+        {
+          "name": "Tourisme de Bukittinggi Panorama et tunnels",
+          "url": "https://visit.bukittinggikota.go.id/wisata/11/TAMAN%20PANORAMA%20%26%20LUBANG%20JAPANG"
+        },
+        {
+          "name": "Indonesia Travel Bukittinggi",
+          "url": "https://www.indonesia.travel/id/id/destination/sumatra/west-sumatra/bukittinggi"
+        },
+        {
+          "name": "Badan Geologi recommandations du PVMBG",
+          "url": "https://geologi.esdm.go.id/media-center/badan-geologi-minta-semua-pihak-patuhi-rekomendasi-pvmbg"
+        }
+      ],
+      "checked": "17 novembre 2026"
     },
     "tanjung-puting": {
       "intro": [
-        "Trois jours sur un klotok, un bateau en bois à deux étages, à remonter la rivière Sekonyer dans la forêt de Bornéo. On dort sur le pont sous une moustiquaire, le cuisinier prépare les repas à bord et on s'arrête trois fois pour marcher jusqu'aux plateformes où les orangs-outans viennent manger.",
-        "Le parc abrite plusieurs milliers d'orangs-outans, sauvages ou relâchés après réhabilitation. Depuis le bateau, on voit aussi des singes nasiques, des macaques, parfois un crocodile. Ce n'est pas un trek : à chaque arrêt, on marche un ou deux kilomètres à plat, en partie sur des passerelles en bois."
+        "Une croisière en klotok pour remonter la rivière et visiter les sites d'observation des orangs-outans. Le bateau sert aussi d'hébergement : regarder le couchage, la douche et les toilettes avant de choisir. L'expérience ne ressemble pas à une chambre d'hôtel."
       ],
       "todo": [
         {
           "name": "Croisière en klotok sur la Sekonyer",
           "type": "Nature",
-          "text": "On embarque à Kumai avec un capitaine, un matelot, un cuisinier et un guide. L'équipage vit en bas, on passe la journée sur le pont du haut à guetter les singes dans les arbres. Le bateau avance doucement : deux heures jusqu'à la première station, puis une heure et demie à deux heures entre les suivantes.",
+          "text": "Une croisière de plusieurs jours sur la Sekonyer, avec nuits à bord. Comparer bateau privé et départ partagé, puis vérifier couchage, repas, guide et droits du parc dans le devis.",
           "time": "3 jours, 2 nuits",
           "price": {
             "amount": 415,
@@ -402,7 +494,7 @@
         {
           "name": "Orangs-outans de Tanjung Harapan",
           "type": "Faune",
-          "text": "Premier arrêt, l'après-midi du premier jour. On marche un kilomètre jusqu'à la plateforme où les rangers déposent des bananes à 15 h, et on regarde de derrière une barrière. Les orangs-outans arrivent par les arbres, les mères avec leur petit accroché au ventre.",
+          "text": "Tanjung Harapan fait partie des arrêts possibles du parc. L'ouverture et l'horaire se confirment avec l'organisateur. Les animaux viennent librement : il peut ne pas y avoir d'observation.",
           "time": "2 h",
           "price": {
             "amount": 250000,
@@ -413,39 +505,40 @@
         {
           "name": "Pondok Tanggui",
           "type": "Faune",
-          "text": "Deuxième station, le matin du deuxième jour : le bateau repart vers 7 h pour le nourrissage de 9 h. Un à deux kilomètres de marche dans la forêt. Arriver un peu avant l'heure aide à trouver une bonne place.",
+          "text": "Pondok Tanggui est un autre site de visite du parc. Le programme dépend de l'ouverture et des consignes des gardes. Rester à distance des orangs-outans.",
           "time": "2 h",
           "price": null
         },
         {
           "name": "Camp Leakey",
           "type": "Faune",
-          "text": "Le camp de recherche fondé en 1971 par la primatologue Biruté Galdikas, au bout d'un affluent à l'eau noire où la forêt se reflète comme dans un miroir. Nourrissage à 14 h, à deux kilomètres du ponton, dont 500 m sur une passerelle. On y croise aussi des macaques et des varans.",
+          "text": "Camp Leakey pour l'histoire de l'étude et de la protection des orangs-outans. La visite suit les règles du parc ; ce n'est pas une rencontre rapprochée à réserver avec un animal.",
           "time": "demi-journée",
           "price": null
         },
         {
           "name": "Singes nasiques au coucher du soleil",
           "type": "Faune",
-          "text": "À l'aube et en fin d'après-midi, des groupes de nasiques s'installent dans les arbres du bord de l'eau, surtout près de Tanjung Harapan. Depuis le pont, on les regarde sauter de branche en branche, les mâles avec leur gros nez qui pend.",
+          "text": "Depuis le bateau, chercher les nasiques et les autres animaux le long de la rivière. Le guide aide à les repérer, sans garantie d'en voir à un arrêt précis.",
           "time": "1 h",
           "price": null
         },
         {
           "name": "Lucioles et nuit sur le pont",
           "type": "Nature",
-          "text": "Le klotok s'amarre au bord de la rivière pour la nuit. Après le dîner, les lucioles s'allument dans les palmiers. On dort dehors sur un matelas, sous une moustiquaire, avec les bruits de la forêt. Le premier soir, le guide propose souvent une heure de marche de nuit.",
+          "text": "La nuit sur le klotok fait partie du séjour si elle est prévue au devis. Les lucioles sont une observation possible, pas une animation garantie chaque soir.",
           "time": "",
           "price": null
         }
       ],
       "access": "Vol jusqu'à Pangkalan Bun, avec des directs tous les jours depuis Jakarta, Semarang et Surabaya, puis 15 à 30 minutes de voiture jusqu'au port de Kumai, où le klotok attend. L'organisateur vient en général chercher ses clients à l'aéroport.",
       "tips": [
-        "Avant de réserver, demander des photos du couchage, des toilettes et de la douche, et se faire confirmer que le bateau est pour nous deux seulement.",
-        "Août est la haute saison : jusqu'à une centaine de bateaux dans le parc, donc du monde à chaque plateforme. Réserver le klotok plusieurs semaines avant, au moins.",
+        "Avant de réserver, préciser si le bateau est privé ou partagé, et demander des photos du couchage, des toilettes et de la douche.",
+        "Août est la haute saison : jusqu'à une centaine de bateaux dans le parc, donc du monde aux plateformes. Réserver le klotok plusieurs semaines avant, au moins.",
+        "Des accès aux plateformes ont été fermés en octobre 2026 après des feux : se faire confirmer les plateformes ouvertes pour nos dates, sans compter sur les trois.",
         "On ne se baigne pas dans la rivière : des crocodiles y ont déjà tué des gens.",
         "L'électricité vient d'un groupe électrogène, allumé le soir seulement : prendre une batterie externe.",
-        "Demander si le droit d'entrée du parc, à payer pour chacun des trois jours, est compris dans le prix."
+        "Demander un devis détaillé : droit d'entrée du parc pour chaque jour, taxes et éventuels suppléments."
       ],
       "photos": [
         {
@@ -490,70 +583,89 @@
           "license": "CC BY 2.0",
           "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
         }
-      ]
+      ],
+      "sources": [
+        {
+          "name": "Tourisme du Kalimantan central Tanjung Puting",
+          "url": "https://visit.kalteng.go.id/taman-nasional-tanjung-puting/"
+        },
+        {
+          "name": "Ministère des Finances Camp Leakey",
+          "url": "https://www.djkn.kemenkeu.go.id/kpknl-pangkalanbun/baca-artikel/16686/Menilik-Fakta-Camp-Leakey-Taman-Nasional-Tanjung-Puting.html"
+        },
+        {
+          "name": "Detik restrictions après les feux octobre 2026",
+          "url": "https://travel.detik.com/travel-news/d-8717677/karhutla-terus-membara-4-pintu-tn-tanjung-puting-ditutup-buat-wisata/amp"
+        },
+        {
+          "name": "Bukit Lawang Jungle Trekking règles du parc",
+          "url": "https://www.bukitlawang-jungletrekking.com/about-us-more/national-park-guidelines/"
+        }
+      ],
+      "checked": "17 novembre 2026"
     },
     "derawan-maratua": {
       "intro": [
-        "Un archipel au large de la côte est de Bornéo, dans la mer de Célèbes. Derawan est une toute petite île de sable avec un village de 1 200 habitants et des chambres sur pilotis ; les tortues vertes nagent sous les pontons. Maratua, à une heure ou une heure et demie de bateau, est une grande île recourbée autour d'un lagon turquoise.",
-        "On passe ses journées en bateau et dans l'eau : le lac aux méduses de Kakaban, les raies manta de Sangalaki, les tombants de Maratua. Tout se voit avec un masque et un tuba."
+        "Derawan et Maratua pour un séjour en mer, avec des sorties possibles vers Sangalaki et Kakaban. Les distances et l'état de la mer comptent dans le programme. Ne pas choisir cette région uniquement sur la promesse des méduses ou des mantas."
       ],
       "todo": [
         {
           "name": "Tortues vertes de Derawan",
           "type": "Faune",
-          "text": "Pas besoin de bateau : on met le masque au pied du ponton et les tortues vertes broutent l'herbier juste en dessous, parfois dans trente centimètres d'eau à marée basse. En saison de ponte, certaines montent la nuit sur la plage.",
+          "text": "On peut chercher les tortues autour de Derawan, avec un guide ou dans une zone indiquée. Les laisser venir et remonter respirer sans les suivre ni se mettre devant elles.",
           "time": "",
           "price": null
         },
         {
           "name": "Tour de Derawan à pied",
           "type": "Détente",
-          "text": "L'île fait 45 hectares : on en fait le tour par la plage en moins d'une heure. Un seul village, des ruelles de sable, des pontons en bois où l'on regarde le coucher du soleil. On peut aussi louer un vélo dans la rue principale.",
+          "text": "Une balade dans le village et le long de la côte de Derawan. Une activité simple à garder entre deux sorties en bateau.",
           "time": "1 h",
           "price": null
         },
         {
           "name": "Lac aux méduses de Kakaban",
           "type": "Mer",
-          "text": "Un lac d'eau saumâtre au milieu de l'île, à dix minutes de marche par une passerelle en bois, où vivent quatre espèces de méduses qui ne piquent pas. Il a fermé de fin 2023 à début 2025, quand elles avaient presque disparu. Depuis, la baignade est tantôt permise, sans palmes ni crème solaire, tantôt interdite.",
+          "text": "Kakaban est connu pour son lac aux méduses. Avant de réserver, faire confirmer si la visite et la mise à l'eau sont autorisées. Ne pas construire tout le séjour autour de cet arrêt.",
           "time": "1 à 2 h sur place",
           "price": null
         },
         {
           "name": "Raies manta de Sangalaki",
           "type": "Mer",
-          "text": "Autour de cette petite île, les raies manta se rassemblent dans peu d'eau. Le bateau tourne pour les trouver et on se met à l'eau dès qu'il en voit une. Personne n'habite l'île, à part l'équipe qui protège le plus grand site de ponte de tortues vertes de la région.",
+          "text": "Sangalaki est une sortie possible pour chercher les mantas. L'équipage décide si une mise à l'eau est adaptée. Entrer calmement et laisser passer les animaux sans les poursuivre.",
           "time": "2 h",
           "price": null
         },
         {
           "name": "Lagon et tombants de Maratua",
           "type": "Mer",
-          "text": "Dans une baie de sable peu profonde, de grosses tortues vertes se laissent approcher au masque. À terre, dix minutes de marche mènent à la grotte Haji Mangku, appelée aussi Halo Tabung : un bassin d'eau salée bleu vif, relié à la mer, où l'on saute du haut de la roche.",
+          "text": "Maratua offre plusieurs sorties, en mer ou vers des bassins comme Halo Tabung. Faire préciser l'accès et l'activité prévue. Ne pas présenter un saut dans l'eau comme une étape normale de la visite.",
           "time": "la journée",
           "price": null
         },
         {
           "name": "Journée en hors-bord entre les îles",
           "type": "Mer",
-          "text": "L'excursion classique depuis Derawan : départ le matin, arrêts à Kakaban, Sangalaki et Maratua, retour avant la nuit. On emporte son déjeuner : il n'y a aucun restaurant à Kakaban ni à Sangalaki. Le bateau se loue en entier, donc on a intérêt à le partager.",
+          "text": "Une journée en bateau peut relier plusieurs îles, mais le circuit dépend du point de départ et de la mer. Faire confirmer les arrêts et le temps de navigation avant de réserver.",
           "time": "la journée",
           "price": null
         },
         {
           "name": "Requins-baleines de Talisayan",
           "type": "Mer",
-          "text": "Devant Talisayan, sur la côte, des requins-baleines de 5 à 7 m viennent le matin sous les bagans, les plateformes des pêcheurs dont les lampes attirent le plancton. C'est à 75 km de Derawan : on part en pleine nuit pour y être avant 5 h. On nage par groupes de six, sans les toucher.",
+          "text": "Talisayan est une sortie distincte pour chercher les requins-baleines près des installations de pêche. Avant de choisir, demander comment les animaux sont attirés et quelles règles d'observation sont appliquées.",
           "time": "demi-journée",
-          "price": null
+          "price": null,
+          "hidden": true
         }
       ],
-      "access": "Vol jusqu'à Berau, avec une escale à Balikpapan ou en direct de Jakarta et de Surabaya selon les compagnies, puis 2 heures de route au moins jusqu'à Tanjung Batu et 30 minutes de hors-bord jusqu'à Derawan. Maratua est une heure ou une heure et demie de bateau plus loin.",
+      "access": "Vol jusqu'à Berau, avec escale ou en direct selon les compagnies : vérifier les liaisons réellement proposées pour nos dates. Ensuite, route jusqu'à Tanjung Batu, au moins 2 heures, et hors-bord jusqu'à Derawan, environ 30 minutes. Maratua est plus loin, à une heure ou une heure et demie de bateau à titre indicatif : faire confirmer les temps de trajet par le logement.",
       "tips": [
         "Les règles du lac de Kakaban changent souvent : avant de payer l'excursion, demander si on a le droit de se mettre à l'eau ou seulement de regarder depuis le ponton.",
-        "Ni les mantas ni les requins-baleines ne sont là tous les jours.",
-        "Il faut être à l'aise dans l'eau : il y a du courant le long des tombants.",
-        "Le seul distributeur de Derawan ne prend que les cartes indonésiennes : arriver avec assez de roupies pour tout le séjour.",
+        "Ni les tortues, ni les mantas, ni les requins-baleines ne sont là à coup sûr.",
+        "Tombants, grottes et sortie aux requins-baleines ont chacun leurs contraintes : se renseigner sortie par sortie. Le long des tombants, il y a du courant, il faut être à l'aise dans l'eau.",
+        "Arriver avec assez de roupies en liquide pour tout le séjour : ne pas compter sur un distributeur sur place.",
         "Pendant les longs week-ends indonésiens, les chambres de Derawan sont toutes prises : réserver avant."
       ],
       "photos": [
@@ -599,83 +711,104 @@
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
         }
-      ]
+      ],
+      "sources": [
+        {
+          "name": "Indonesia Travel archipel de Derawan",
+          "url": "https://www.indonesia.travel/id/id/destination/kalimantan/east-kalimantan/derawan-archipelago---eksotisme-kepulauan-derawan-surga-tersembunyi-yang-menawan"
+        },
+        {
+          "name": "Green Fins bonnes pratiques en snorkeling",
+          "url": "https://greenfins.net/material/gf_all_eng_bestpracticesnorkeller_a4/"
+        },
+        {
+          "name": "Manta Trust Swim with Mantas",
+          "url": "https://swimwithmantas.org/"
+        },
+        {
+          "name": "Evventure Maratua et Halo Tabung",
+          "url": "https://evventure.com/maratua-goa-halo-tabung/"
+        }
+      ],
+      "checked": "17 novembre 2026"
     },
     "pays-toraja": {
       "intro": [
-        "Dans les montagnes du sud de Sulawesi, les Toraja vivent dans des villages de maisons tongkonan, aux toits recourbés comme des coques de bateau, et enterrent leurs morts dans les falaises. Les funérailles sont le grand événement d'une famille : plusieurs jours, des centaines d'invités, des buffles sacrifiés.",
-        "On loge à Rantepao et on circule en scooter ou avec un chauffeur entre les villages, les tombes et les rizières. Les funérailles ont lieu surtout en juillet et en août, presque tous les jours : on tombe bien, mais on ne sait qu'une fois sur place où et quand."
+        "Le pays Toraja pour les maisons tongkonan, les villages, les rizières et les sites funéraires. Les cérémonies sont des événements familiaux : on peut y être accueilli, mais on ne peut pas les promettre dans un itinéraire."
       ],
       "todo": [
         {
           "name": "Village de Ke'te Kesu",
           "type": "Culture",
-          "text": "À 6 km au sud de Rantepao. Une rangée de tongkonan face à leurs greniers à riz, avec une aire de cérémonie au milieu. Derrière le village, un sentier mène à la falaise et à la grotte où sont déposés les cercueils, gardés par des tau-tau.",
+          "text": "Ke'te Kesu pour les maisons tongkonan, les greniers et le site funéraire. Prendre le temps des explications plutôt que faire seulement un arrêt photo.",
           "time": "1 h 30",
           "price": null
         },
         {
           "name": "Tombes de Lemo",
           "type": "Culture",
-          "text": "Une falaise percée de caveaux creusés à la main, avec des balcons où sont alignés les tau-tau, des statues de bois à l'effigie des morts, les bras tendus. C'est tout près de la route principale, au sud de Rantepao, sur le chemin de l'aéroport.",
+          "text": "Lemo pour les tombes dans la falaise et les effigies tau-tau. Rester dans les espaces ouverts et respecter les demandes concernant les photos.",
           "time": "1 h",
           "price": null
         },
         {
           "name": "Grottes de Londa",
           "type": "Culture",
-          "text": "Deux grottes funéraires au pied d'une falaise, reliées par un boyau. À l'entrée, on loue une lanterne ou on suit un guide avec sa lampe à pétrole, puis on avance entre les cercueils et les ossements. Dehors, d'autres cercueils sont accrochés à la paroi.",
+          "text": "Londa pour un autre site funéraire, avec des grottes. La visite intérieure se fait selon les consignes locales et demande un éclairage adapté.",
           "time": "1 h",
           "price": null
         },
         {
           "name": "Marché aux buffles de Bolu",
           "type": "Culture",
-          "text": "À 2 km au nord-est du centre de Rantepao, le marché aux bestiaux se tient le mardi et le samedi matin. Les buffles y attendent un acheteur par dizaines : ce sont eux qu'on sacrifie aux funérailles. On y vend aussi des cochons. L'entrée est libre.",
+          "text": "Le grand marché aux buffles de Bolu suit un cycle de six jours. Demander la date exacte à l'hébergement avant de caler notre visite ; ce n'est pas toujours le même jour de semaine.",
           "time": "2 h",
           "price": null
         },
         {
           "name": "Rizières de Batutumonga",
           "type": "Randonnée",
-          "text": "Un village perché sur les pentes du mont Sesean, au nord de Rantepao. On monte en scooter par une route de rizières en terrasses, on boit un café face à la vallée, souvent dans la brume le matin. Au bord de la route, le rocher de Lo'ko Mata est percé de dizaines de tombes.",
+          "text": "Batutumonga pour les hauteurs et les rizières. On peut choisir une balade courte ou une marche plus longue avec un guide, selon la météo et le temps disponible.",
           "time": "demi-journée ou journée",
           "price": null
         },
         {
           "name": "Menhirs de Bori Kalimbuang",
           "type": "Culture",
-          "text": "Un champ de pierres dressées de toutes les tailles, chacune plantée pour les funérailles d'un notable. À côté, un gros rocher creusé de plus d'une dizaine de tombes et un arbre aux bébés. C'est au nord de Rantepao, sur la route de Batutumonga.",
+          "text": "Bori Kalimbuang pour les pierres dressées liées aux traditions funéraires. Une visite à faire avec des explications sur le site et les familles auxquelles il est lié.",
           "time": "45 min",
-          "price": null
+          "price": null,
+          "hidden": true
         },
         {
           "name": "Arbre aux bébés de Kambira",
           "type": "Culture",
-          "text": "Un gros arbre au milieu des bambous. Les bébés morts avant leurs premières dents étaient déposés dans des niches creusées dans le tronc vivant, fermées par un petit volet. On ne le fait plus, mais les volets se voient encore.",
+          "text": "Kambira pour comprendre l'ancienne tradition des sépultures d'enfants dans les arbres. Un lieu funéraire à visiter avec discrétion.",
           "time": "30 min",
           "price": null
         },
         {
           "name": "Assister à des funérailles",
           "type": "Culture",
-          "text": "Si une cérémonie a lieu, on y va avec un guide local. On apporte des cigarettes ou du sucre à la famille, on s'habille en sombre et on s'assoit là où l'on nous place. Des dizaines de buffles et de cochons peuvent être sacrifiés devant tout le monde : c'est dur à regarder.",
+          "text": "Si une famille accepte des visiteurs, un guide peut nous accompagner à des funérailles. Demander ce qui est attendu et quand les photos sont permises. Il peut y avoir des sacrifices d'animaux.",
           "time": "demi-journée",
           "price": null
         },
         {
           "name": "Pa'piong et café toraja",
           "type": "Cuisine",
-          "text": "Les Toraja sont en grande majorité chrétiens et cuisinent le porc. Le pa'piong est une viande cuite avec des légumes dans un tube de bambou, à commander au restaurant deux heures avant. L'arabica du pays se boit partout, servi avec son marc.",
+          "text": "À goûter si c'est proposé : le pa'piong, cuit dans du bambou, et le café toraja. Demander à l'avance pour le plat, qui n'est pas forcément prêt à la commande.",
           "time": "",
-          "price": null
+          "price": null,
+          "hidden": true
         }
       ],
-      "access": "Depuis Makassar, 9 à 10 heures de route jusqu'à Rantepao. Les bus de nuit partent vers 21 h et arrivent au petit matin, avec des sièges qui s'allongent presque à plat. Certains jours, Wings Air relie Makassar au petit aéroport de Toraja en 55 minutes ; il reste 45 minutes à une heure de voiture jusqu'à Rantepao.",
+      "access": "Depuis Makassar, 9 à 10 heures de route jusqu'à Rantepao. Des bus de nuit partent en soirée et arrivent au petit matin ; les sièges et le confort dépendent de la compagnie. Wings Air a relié certains jours Makassar au petit aéroport de Toraja en 55 minutes, avec ensuite 45 minutes à une heure de voiture jusqu'à Rantepao : vérifier que le vol existe pour nos dates avant de bâtir le parcours dessus.",
       "tips": [
-        "Une cérémonie ne se réserve pas et ne se garantit pas : demander à la guesthouse ou à un guide dès l'arrivée.",
-        "Chaque site a son droit d'entrée, de 20 000 à 50 000 roupies par personne, à payer en liquide.",
-        "La ligne aérienne a été interrompue plusieurs mois en 2025 : se faire confirmer le vol avant de construire le voyage dessus.",
+        "Une cérémonie ne se réserve pas et ne se garantit pas : demander à la guesthouse ou à un guide dès l'arrivée. Un éventuel cadeau se convient avec les hôtes.",
+        "Marché aux buffles de Bolu : le grand marché suit un cycle traditionnel de six jours. Faire confirmer la date pendant notre séjour.",
+        "Chaque site a son droit d'entrée, à payer en liquide. Montants, guide et dons se précisent sur place.",
+        "La ligne aérienne a été interrompue plusieurs mois en 2025 : ne pas construire le voyage sur un vol non confirmé.",
         "Il pleut souvent l'après-midi, même en saison sèche, et les nuits sont fraîches : prendre un pull et une veste de pluie."
       ],
       "photos": [
@@ -721,18 +854,32 @@
           "license": "CC BY 2.0",
           "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
         }
-      ]
+      ],
+      "sources": [
+        {
+          "name": "Indonesia Travel pays Toraja",
+          "url": "https://www.indonesia.travel/id/id/travel-ideas/adventure/tana-toraja/"
+        },
+        {
+          "name": "Visit Toraja marchés locaux",
+          "url": "https://www.visittoraja.com/local-market/"
+        },
+        {
+          "name": "Swisscontact guide Toraja",
+          "url": "https://www.swisscontact.org/_Resources/Persistent/5/f/0/d/5f0db7a4ece5d210dc6c75c479011070c5414fa3/Toraja_-_Guide_Catalogue.pdf"
+        }
+      ],
+      "checked": "17 novembre 2026"
     },
     "manado-bunaken": {
       "intro": [
-        "Bunaken est une petite île en face de Manado, au milieu d'un parc marin de cinq îles. Le récif s'arrête net à une quarantaine de mètres du rivage et tombe à la verticale dans le bleu. En nageant le long de ce mur avec un masque, on voit les coraux, les bancs de poissons et beaucoup de tortues, sans bouteille.",
-        "On dort sur l'île, dans un des petits resorts des plages de Liang ou de Pangalisang, et on sort en bateau une ou deux fois par jour. Tomohon et ses volcans, dans les montagnes derrière Manado, font une bonne journée à terre."
+        "Bunaken pour les récifs et les tombants, avec un hébergement qui organise vraiment du snorkeling. Manado et les hauts plateaux autour de Tomohon sont une autre partie du séjour, sur la terre ferme."
       ],
       "todo": [
         {
           "name": "Snorkeling sur les tombants de Bunaken",
           "type": "Mer",
-          "text": "Le bateau du resort dépose les nageurs au bord du récif et les suit pendant qu'ils dérivent avec le courant. Lekuan est un mur vertical, avec des napoléons et le vide bleu juste à côté ; Fukui, une pente de corail avec des bénitiers géants et des bancs de poissons.",
+          "text": "Une sortie guidée le long des récifs de Bunaken. Choisir un opérateur qui prévoit un accompagnement pour les snorkeleurs, pas seulement une place sur un bateau de plongeurs.",
           "time": "demi-journée",
           "price": {
             "amount": 150000,
@@ -743,52 +890,54 @@
         {
           "name": "Nager avec les tortues",
           "type": "Faune",
-          "text": "Les tortues vertes et les tortues imbriquées se reposent sur les corniches du mur et nagent en pleine eau à côté des nageurs. Lekuan est le site où l'on en voit le plus, et on en croise aussi à Fukui.",
+          "text": "Les tortues font partie des animaux qu'on peut observer. Rester à distance et leur laisser un passage libre pour remonter respirer.",
           "time": "",
           "price": null
         },
         {
           "name": "Snorkeling depuis la plage",
           "type": "Mer",
-          "text": "Devant les resorts, à marée haute, on traverse le platier à la nage jusqu'au bord du tombant, à une quarantaine de mètres. À marée basse, il ne reste presque plus d'eau au-dessus du corail : on attend qu'elle remonte pour ne rien casser.",
+          "text": "Le snorkeling depuis le bord dépend du logement, de la marée et du courant. Demander une description précise de l'accès avant de réserver si c'est un critère important.",
           "time": "1 à 2 h",
           "price": null
         },
         {
           "name": "Île de Siladen",
           "type": "Détente",
-          "text": "Une toute petite île du parc, à un quart d'heure ou vingt minutes de bateau de Bunaken. Elle a ce qui manque à Bunaken, une plage de sable blanc bordée de cocotiers. Le tombant commence devant la plage, près du ponton.",
+          "text": "Siladen peut faire une sortie pour la plage et le récif. Comparer le temps de bateau et ce qui est prévu sur place, plutôt que l'ajouter automatiquement.",
           "time": "demi-journée",
           "price": null
         },
         {
           "name": "Tomohon et le cratère du Mahawu",
           "type": "Nature",
-          "text": "Une petite ville d'altitude à une heure de Manado, entre deux volcans. Au Mahawu, une route puis un escalier, glissant quand il a plu, mènent au bord d'un cratère de 180 m de large, avec le cône du Lokon en face.",
+          "text": "Tomohon et le Mahawu demandent une sortie sur la terre ferme. Faire confirmer l'accès au cratère et l'effort, puis ajouter le bateau et la route au temps de visite.",
           "time": "la journée, avec le lac Linow",
           "price": null
         },
         {
           "name": "Lac Linow",
           "type": "Nature",
-          "text": "Un petit lac volcanique à 3 km de Tomohon, dont l'eau passe du vert au bleu, parfois au rouge, suivant sa composition. Ça sent fort le soufre, des fumerolles sortent sur la rive, et on en fait le tour à pied. On ne s'y baigne pas.",
+          "text": "Le lac Linow peut compléter une journée dans les hauts plateaux. Vérifier le parcours accessible autour du lac et les conditions d'ouverture.",
           "time": "1 h",
-          "price": null
+          "price": null,
+          "hidden": true
         },
         {
           "name": "Cuisine minahasa",
           "type": "Cuisine",
-          "text": "Une des cuisines les plus pimentées du pays : poisson grillé au dabu-dabu, poulet rica-rica et, le matin, le tinutuan, une bouillie de riz aux légumes. Le marché de Tomohon vend aussi des chauves-souris et des serpents, tôt le matin : mieux vaut le savoir avant d'entrer.",
+          "text": "À Manado, chercher les plats minahasa comme le tinutuan ou les préparations de poisson. Demander les ingrédients et le niveau de piment avant de commander.",
           "time": "",
-          "price": null
+          "price": null,
+          "hidden": true
         }
       ],
-      "access": "Vol jusqu'à Manado, puis 30 minutes à une heure de bateau depuis le port. La plupart des resorts de Bunaken viennent chercher leurs clients ; sinon, un bateau public part en début d'après-midi, sauf le dimanche.",
+      "access": "Vol jusqu'à Manado, puis 30 minutes à une heure de bateau depuis le port. La plupart des resorts de Bunaken viennent chercher leurs clients. Il existe aussi un bateau public : faire confirmer au port son horaire et ses jours de départ, dimanche compris.",
       "tips": [
         "Le courant le long des murs peut être fort et tourner vite : garder ses palmes, rester près du bateau et du guide.",
-        "L'entrée du parc marin se paie en plus de l'hébergement : demander si elle est comprise dans les sorties en bateau.",
+        "L'entrée du parc marin se paie en plus de l'hébergement : demander le détail du permis et ce que comprend chaque sortie en bateau.",
         "Les clubs vivent surtout de la plongée bouteille : préciser dès la réservation qu'on vient pour le snorkeling.",
-        "La mer est la plus claire de mai à octobre, en saison sèche."
+        "L'accès au récif depuis la chambre dépend de l'adresse et de la marée : le demander avant de réserver."
       ],
       "photos": [
         {
@@ -833,18 +982,32 @@
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
         }
-      ]
+      ],
+      "sources": [
+        {
+          "name": "Indonesia Travel snorkeling à Bunaken",
+          "url": "https://www.indonesia.travel/id/en/destination/sulawesi/north-sulawesi/snorkeling-bunaken-national-park"
+        },
+        {
+          "name": "Green Fins bonnes pratiques en snorkeling",
+          "url": "https://greenfins.net/material/gf_all_eng_bestpracticesnorkeller_a4/"
+        },
+        {
+          "name": "Badan Geologi recommandations du PVMBG",
+          "url": "https://geologi.esdm.go.id/media-center/badan-geologi-minta-semua-pihak-patuhi-rekomendasi-pvmbg"
+        }
+      ],
+      "checked": "17 novembre 2026"
     },
     "tangkoko": {
       "intro": [
-        "Une réserve de forêt au bord de la mer, à la pointe nord-est de Sulawesi, à 60 km de Manado. On y vient pour deux animaux propres à l'île : le tarsier, un primate qui tient dans la main, avec des yeux énormes, et le macaque à crête, tout noir avec une houppe sur la tête.",
-        "On dort au village de Batuputih, à l'entrée de la réserve, et on fait deux marches avec un guide : une en fin d'après-midi pour les tarsiers, une tôt le matin pour les macaques et les calaos. Le terrain est facile, à plat, sur un sentier de terre."
+        "Tangkoko pour des marches guidées à la recherche des tarsiers, macaques et oiseaux. Dormir à Batuputih peut permettre une sortie en fin de journée et une autre tôt le matin. Les animaux restent libres, même sur les parcours habituels."
       ],
       "todo": [
         {
           "name": "Tarsiers au crépuscule",
           "type": "Faune",
-          "text": "On part vers 16 h 30. Les guides connaissent les arbres creux, de gros figuiers étrangleurs, où dorment les familles de tarsiers. Entre 17 h 45 et 18 h 45, ils se réveillent et sortent à hauteur d'yeux, puis bondissent d'un tronc à l'autre pour chasser les insectes. On les regarde sans flash.",
+          "text": "Une sortie guidée en fin de journée pour chercher les tarsiers. Rester discret et suivre les consignes d'observation, sans flash ni tentative d'attirer les animaux.",
           "time": "3 à 4 h",
           "price": {
             "amount": 100000,
@@ -855,31 +1018,32 @@
         {
           "name": "Macaques à crête à l'aube",
           "type": "Faune",
-          "text": "Départ à 6 h pour trois ou quatre heures de marche. Les macaques noirs vivent en groupes d'environ vingt-cinq et fouillent le sol de la forêt. Un des deux groupes de la réserve est habitué aux gens et passe tout près sans s'occuper de nous.",
+          "text": "Une marche matinale pour chercher les macaques à crête. On observe à distance, sans nourrir ni toucher les animaux, même s'ils paraissent habitués aux visiteurs.",
           "time": "3 à 4 h",
           "price": null
         },
         {
           "name": "Calaos et couscous des Célèbes",
           "type": "Faune",
-          "text": "En marchant, le guide cherche aussi le calao à cimier, un gros oiseau au bec jaune et au casque rouge, et le couscous ours, un marsupial des arbres qu'on ne voit pas à chaque sortie.",
+          "text": "Pendant les marches, on peut aussi chercher les calaos et les couscous. Les jumelles sont utiles ; ces observations restent un bonus, pas une garantie.",
           "time": "",
           "price": null
         },
         {
           "name": "Plage de sable noir de Batuputih",
           "type": "Détente",
-          "text": "À cinq ou dix minutes à pied de l'entrée de la réserve, une longue plage de sable volcanique noir. On y va entre les deux marches. Les macaques descendent parfois jusque-là.",
+          "text": "La plage de Batuputih pour marcher et se poser entre les sorties en forêt. Si on veut se baigner, demander les conditions et les zones adaptées sur place.",
           "time": "",
-          "price": null
+          "price": null,
+          "hidden": true
         }
       ],
       "access": "Depuis Manado, 1 h 30 à 2 heures de route jusqu'à Batuputih, en passant près de Bitung. Depuis Bunaken, il faut d'abord reprendre le bateau jusqu'à Manado.",
       "tips": [
         "Pantalon long et répulsif : des visiteurs repartent avec des piqûres d'insectes qui démangent pendant des jours.",
-        "Le guide est obligatoire, on le trouve au village ou par la guesthouse. Il se paie à chaque sortie, 100 000 à 200 000 roupies.",
-        "On voit presque toujours les tarsiers et les macaques, moins souvent les calaos et les couscous.",
-        "Pas de wifi et très peu de réseau à Batuputih."
+        "Le guide est obligatoire, on le trouve au village ou par la guesthouse. Tarif sur devis : faire préciser la taille du groupe, la durée, le droit d'entrée compris ou non et la date du tarif.",
+        "Aucune observation n'est garantie, ni pour les tarsiers et les macaques, ni pour les calaos et les couscous.",
+        "Très peu de réseau mobile à Batuputih ; connexion à vérifier auprès du logement."
       ],
       "photos": [
         {
@@ -924,7 +1088,18 @@
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
         }
-      ]
+      ],
+      "sources": [
+        {
+          "name": "Indonesia Travel Tangkoko",
+          "url": "https://www.indonesia.travel/id/en/destination/sulawesi/north-sulawesi/bitung---the-tangkoko-nature-reserve"
+        },
+        {
+          "name": "Booking Renny s Tangkoko Safety Stop",
+          "url": "https://www.booking.com/hotel/id/renny-39-s-tangkoko-safety-stop.html"
+        }
+      ],
+      "checked": "17 novembre 2026"
     }
   }
 }
