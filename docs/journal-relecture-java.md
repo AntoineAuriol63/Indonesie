@@ -180,7 +180,7 @@ Photos : les cinq photos existantes ont été regardées. « DSF9076.jpg » (des
 | Aéroport Juanda « à 45 minutes au sud », vols vers Bali, Lombok, Florès, Sulawesi | https://en.wikipedia.org/wiki/Juanda_International_Airport (12 km du centre ; Denpasar, Lombok, Labuan Bajo, Makassar, Manado) | corrigée : « à 12 km du centre » ; vols confirmés |
 | Très chaud et humide | Wikivoyage (32 à 34 °C le jour) | confirmée, chiffres ajoutés |
 
-Photos : les six photos existantes ont été regardées et sont justes (la mosquée d'Ampel avec ses échoppes couvre le quartier d'Ampel). Mosquée Cheng Hoo : rien d'utilisable sur Commons (une photo de 697 px, une photo de groupe officielle, et « Masjid Cheng Ho.jpg » dont le lieu n'est pas sûr, probablement Pandaan). Une photo Unsplash intitulée « Masjid Cheng Hoo Surabaya » (Zaskia Auryn, 2021) existe, mais le site a refusé les requêtes pendant la session : non regardée, donc non retenue.
+Photos : les six photos existantes ont été regardées et sont justes (la mosquée d'Ampel avec ses échoppes couvre le quartier d'Ampel). Mosquée Cheng Hoo : rien d'utilisable sur Commons (une photo de 697 px, une photo de groupe officielle, et « Masjid Cheng Ho.jpg » dont le lieu n'est pas sûr, probablement Pandaan). Elle vient donc d'Unsplash : photo de Zaskia Auryn (2021, licence Unsplash, lieu indiqué sur la page : Masjid Muhammad Cheng Hoo, Ketabang, Surabaya, https://unsplash.com/photos/a-large-building-with-a-clock-on-the-top-of-it-noDLUHFDMBg), regardée, adresse directe contrôlée (200). Format portrait. Elle remplace le gros plan du bol de rawon, la photo la plus faible de la galerie.
 
 ## Région Java
 
