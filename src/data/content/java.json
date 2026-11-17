@@ -1,29 +1,51 @@
 {
   "regions": {
     "java": {
-      "intro": "Java, c'est l'île des volcans et des grandes villes, et on la traverse d'ouest en est en train. On commence par Jakarta, on monte au frais à Bandung, puis on s'installe à Yogyakarta pour le palais du sultan, Borobudur et Prambanan. Ensuite viennent les hauts plateaux de Dieng et, tout à l'est, le lever de soleil sur le Bromo et la cascade de Tumpak Sewu. Les trains se réservent en ligne, sur l'application de la compagnie KAI.",
-      "august": "Août tombe en pleine saison sèche : c'est le mois le moins arrosé, même si une averse reste possible. C'est aussi la haute saison au Bromo et à Borobudur, les nuits sont froides en altitude et la savane du Bromo peut brûler.",
-      "access": "On arrive par l'aéroport de Jakarta, ou par ceux de Yogyakarta et de Surabaya. Entre les villes on prend le train ; pour les temples et les volcans, une voiture avec chauffeur ou une excursion."
+      "intro": "Java pour les villes, les temples et les volcans. Jakarta, Bandung, Jogja et l'est de l'île ne se visitent pas depuis une seule base. Pour deux semaines, je choisirais quelques étapes reliées en train, avec les excursions autour.",
+      "august": "Prévoir des journées chaudes et une couche chaude pour les départs de nuit en altitude. La visibilité et l'accès aux volcans se vérifient au moment du voyage.",
+      "access": "Choisir les trains sur KAI pour les dates retenues. Les gares ne sont pas toujours près des temples ou des départs d'excursion.",
+      "sources": [
+        {
+          "name": "Indonesia Travel vieux Jakarta",
+          "url": "https://www.indonesia.travel/id/id/travel-ideas/heritage/cruise-around-kota-tua-old-batavia-of-dutch-east-india-company-heydays"
+        },
+        {
+          "name": "Indonesia Travel patrimoine de Yogyakarta",
+          "url": "https://www.indonesia.travel/id/id/travel-ideas/heritage/tempat-bersejarah-di-yogyakarta"
+        },
+        {
+          "name": "Indonesia Travel plateau de Dieng",
+          "url": "https://www.indonesia.travel/id/id/destination/java/central-java/dataran-tinggi-dieng"
+        },
+        {
+          "name": "Parc Bromo Tengger Semeru règles de visite",
+          "url": "https://bromotenggersemeru.id/peraturan/bromo"
+        },
+        {
+          "name": "KAI réservation officielle",
+          "url": "https://booking.kai.id/"
+        }
+      ],
+      "checked": "17 novembre 2026"
     }
   },
   "places": {
     "jakarta": {
       "intro": [
-        "Jakarta fait peur avec ses bouchons et ses 11 millions d'habitants, mais deux ou trois jours suffisent pour voir le meilleur. Au nord, Kota Tua, le vieux Batavia des Hollandais, avec sa place pavée, ses musées et le port des voiliers en bois. Au centre, l'immense place Merdeka avec le Monas, la grande mosquée et le musée national.",
-        "Le plus simple est de faire un quartier par jour : d'abord le nord (Kota Tua, Sunda Kelapa, Glodok), ensuite le centre. Le soir, on mange dans la rue."
+        "Jakarta pour les quartiers, les musées et la cuisine. Kota Tua, Glodok et Sunda Kelapa se regroupent au nord ; le Monas, Istiqlal et le Musée national sont dans le centre. Mieux vaut faire un secteur à la fois, les trajets peuvent être longs."
       ],
       "todo": [
         {
           "name": "Place Fatahillah et Kota Tua",
           "type": "Ville",
-          "text": "Le vieux Batavia hollandais, autour d'une grande place pavée. On y loue des vélos colorés avec le chapeau assorti, on regarde les artistes de rue et on boit un verre à l'étage du Café Batavia, face à la place. Plus animé en fin d'après-midi.",
+          "text": "Kota Tua, l'ancien Batavia. La place Fatahillah, les façades coloniales et les musées autour se visitent à pied. Ça se combine avec Glodok.",
           "time": "2 h",
           "price": null
         },
         {
           "name": "Musée d'histoire de Jakarta",
           "type": "Culture",
-          "text": "Dans l'ancien hôtel de ville de Batavia, terminé en 1710, sur la place Fatahillah. Meubles coloniaux, cartes anciennes et, sous le perron, les cachots qui ont servi jusqu'en 1846. À côté, le musée Wayang montre les marionnettes du théâtre d'ombres. Les deux ferment à 15 h.",
+          "text": "Le musée d'histoire occupe l'ancien hôtel de ville, sur la place Fatahillah. Le musée Wayang est juste à côté, pour les marionnettes. Vérifier leurs horaires séparément.",
           "time": "1 h",
           "price": {
             "amount": 50000,
@@ -34,21 +56,21 @@
         {
           "name": "Port de Sunda Kelapa",
           "type": "Ville",
-          "text": "À vingt bonnes minutes à pied au nord de la place, le vieux port où s'alignent les pinisi, les grands voiliers de charge en bois des Bugis de Sulawesi. Ils transportent encore des marchandises d'île en île, et une partie du chargement se fait à la main. Y aller tôt le matin, avant la chaleur.",
+          "text": "Un port de travail avec de grands bateaux de commerce en bois. À voir depuis les espaces autorisés, plutôt le matin pour éviter la chaleur. Ne pas compter sur une visite des bateaux.",
           "time": "1 h",
           "price": null
         },
         {
           "name": "Glodok, le quartier chinois",
           "type": "Ville",
-          "text": "Juste au sud de Kota Tua. On se perd dans les allées du marché de Petak Sembilan, entre les étals de fruits, de grenouilles et d'herbes médicinales, jusqu'au temple Jin De Yuan, le plus ancien temple chinois de la ville (1650). Un incendie l'a ravagé en 2015, mais on y brûle toujours l'encens.",
+          "text": "Glodok, le quartier chinois : marché de Petak Sembilan, petites rues commerçantes et temple Jin De Yuan. Une balade à faire avec Kota Tua.",
           "time": "2 h",
           "price": null
         },
         {
           "name": "Monas et place Merdeka",
           "type": "Ville",
-          "text": "L'obélisque de l'indépendance, coiffé d'une flamme recouverte d'or, au milieu d'une place d'environ un kilomètre de côté. Un petit ascenseur monte à la plateforme d'observation, à 115 m, et le nombre de billets par jour est limité : venir à l'ouverture, à 8 h. Fermé le lundi.",
+          "text": "Le Monas est le monument de l'indépendance, au milieu de Merdeka. On peut prévoir le parc ; pour monter dans la tour, vérifier l'ouverture et les billets avant d'y aller.",
           "time": "1 h 30",
           "price": null,
           "lat": -6.1754,
@@ -57,7 +79,7 @@
         {
           "name": "Mosquée Istiqlal et cathédrale",
           "type": "Culture",
-          "text": "La plus grande mosquée d'Asie du Sud-Est, en marbre et en acier, sous une coupole de 45 m de diamètre. On s'inscrit à l'accueil pour une visite guidée gratuite, en dehors des prières : tunique prêtée, et la salle de prière se regarde depuis les galeries. Juste en face, la cathédrale néogothique de 1901.",
+          "text": "Istiqlal et la cathédrale se font dans le même secteur. Pour entrer dans la mosquée, passer par l'accueil et suivre les règles de visite et de tenue du moment.",
           "time": "1 h 30",
           "price": null,
           "lat": -6.1698,
@@ -66,12 +88,13 @@
         {
           "name": "Musée national",
           "type": "Culture",
-          "text": "Le grand musée du pays, surnommé « maison de l'éléphant » à cause de la statue en bronze devant l'entrée, cadeau du roi de Siam en 1871. Statues hindoues et bouddhiques de Java, bijoux en or des anciens royaumes, tissus et objets de toutes les îles. À voir avant Borobudur. Fermé le lundi.",
+          "text": "Statues, objets et arts de plusieurs régions d'Indonésie. Une bonne visite pour avoir du contexte avant Java et Bali. Le musée ferme le lundi. Entrée adulte étranger relevée à 150 000 IDR le 17 novembre 2026.",
           "time": "2 h",
           "price": {
             "amount": 150000,
             "currency": "IDR",
-            "what": "entrée du musée national, tarif étranger en vigueur depuis janvier 2026, par personne"
+            "what": "par adulte étranger",
+            "checked": "17 novembre 2026"
           },
           "lat": -6.1761,
           "lon": 106.8217
@@ -79,30 +102,32 @@
         {
           "name": "Cuisine de rue",
           "type": "Cuisine",
-          "text": "Le soir, les chariots envahissent les trottoirs : sate grillé au charbon, nasi goreng, soto betawi (une soupe de bœuf au lait de coco), martabak. À Kota Tua on goûte le kerak telor, une galette de riz gluant et d'œuf cuite sur la braise. Jalan Sabang, près du Monas, est une bonne rue pour commencer.",
+          "text": "À goûter à Jakarta : soto betawi, nasi uduk et kerak telor, une préparation de riz gluant et d'œuf. Les stands et les horaires se repèrent sur place.",
           "time": "",
           "price": null
         },
         {
           "name": "Brocante de Jalan Surabaya",
           "type": "Ville",
-          "text": "Dans le quartier résidentiel de Menteng, une rue entière de petites échoppes : vieilles valises, vinyles, lampes, porcelaine, compas et barres de navire. Tout n'est pas ancien, loin de là. On marchande et on flâne.",
+          "text": "Jalan Surabaya : une rue de boutiques d'antiquités et de brocante à Menteng. Pour flâner ; si on achète, ne pas prendre l'ancienneté annoncée pour acquise.",
           "time": "1 h",
-          "price": null
+          "price": null,
+          "hidden": true
         },
         {
           "name": "Dimanche matin sans voitures",
           "type": "Ville",
-          "text": "Le dimanche matin, jusqu'à 10 h, les avenues Sudirman et Thamrin sont fermées aux voitures. Tout Jakarta vient courir, pédaler et prendre son petit-déjeuner autour du rond-point de l'hôtel Indonesia, au pied des tours. Certains dimanches, une course ou une fête l'annule.",
+          "text": "Le dimanche matin, Sudirman et Thamrin accueillent le Car Free Day : marche, vélo et petit-déjeuner. Vérifier le programme du dimanche choisi, il peut être modifié.",
           "time": "1 h",
           "price": null
         }
       ],
-      "access": "Vol jusqu'à l'aéroport Soekarno-Hatta, au nord-ouest de la ville. Ensuite le train de l'aéroport (environ 40 minutes jusqu'à la gare BNI City, dans le centre) ou un taxi, entre 45 minutes et 1 h 30 suivant les bouchons.",
+      "access": "Vol jusqu'à l'aéroport Soekarno-Hatta, au nord-ouest de la ville. Ensuite le train de l'aéroport jusqu'à la gare BNI City, dans le centre, ou un taxi. En train, compter l'attente, le trajet et le dernier trajet jusqu'à l'hôtel ; en taxi, la durée dépend des bouchons.",
       "tips": [
-        "Les musées et le Monas sont fermés le lundi.",
+        "Vérifier chaque musée ; le Musée national ferme le lundi.",
         "Regrouper les visites par quartier : la ville est immense et on perd vite une heure dans les bouchons.",
-        "Pour se déplacer : Grab ou Gojek, en voiture ou à moto, et le bus TransJakarta de la ligne 1 qui descend de Kota vers le centre sur sa propre voie."
+        "Pour se déplacer : Grab ou Gojek, en voiture ou à moto, et le bus TransJakarta de la ligne 1 qui descend de Kota vers le centre sur sa propre voie.",
+        "Les temps de visite sont des estimations personnelles, hors transport et attente."
       ],
       "photos": [
         {
@@ -147,88 +172,120 @@
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
         }
-      ]
+      ],
+      "sources": [
+        {
+          "name": "Indonesia Travel vieux Jakarta",
+          "url": "https://www.indonesia.travel/id/id/travel-ideas/heritage/cruise-around-kota-tua-old-batavia-of-dutch-east-india-company-heydays"
+        },
+        {
+          "name": "Ministère de la Culture musée Wayang",
+          "url": "https://museum.kemenbud.go.id/museum/profile/museum%2Bwayang"
+        },
+        {
+          "name": "Musée national services et tarifs",
+          "url": "https://www.museumnasional.or.id/layanan-blu/"
+        },
+        {
+          "name": "Jakarta Smart City Car Free Day 2026",
+          "url": "https://smartcity.jakarta.go.id/blog/06-2026-car-free-day-jakarta-2026-jam-operasional-rute-dan-tips/"
+        },
+        {
+          "name": "Indonesia Travel Istiqlal",
+          "url": "https://www.indonesia.travel/id/id/travel-ideas/pilgrimage/masjid-istiqlal"
+        },
+        {
+          "name": "Detik accès au Monas septembre 2026",
+          "url": "https://news.detik.com/berita/d-8658736/masih-ditutup-sementara-ini-penyesuaian-jam-operasional-monas/amp"
+        },
+        {
+          "name": "Indonesia Travel spécialités de Jakarta",
+          "url": "https://www.indonesia.travel/id/id/travel-ideas/gastronomy/mau-wisata-kuliner-7-makanan-legendaris-jakarta-ini-bisa-dipesan-pakai-ojek-online"
+        }
+      ],
+      "checked": "17 novembre 2026"
     },
     "bandung-et-rancabali": {
       "intro": [
-        "Bandung est à plus de 700 m d'altitude, entourée de volcans : il y fait plus frais qu'à Jakarta. En ville, on regarde les immeubles Art déco laissés par les Hollandais et on mange sundanais. Mais on vient surtout pour le sud : à 50 km, après Ciwidey, la route grimpe vers le lac de cratère du Kawah Putih, puis traverse les plantations de thé de Rancabali, des collines entières taillées au cordeau.",
-        "Il faut une journée complète avec voiture et chauffeur pour le sud, et une demi-journée pour la ville."
+        "Deux parties assez différentes : Bandung pour les bâtiments, les cafés et la cuisine sundanaise ; le sud pour Kawah Putih et les plantations de thé. Pour Rancabali, prévoir une vraie journée avec les trajets."
       ],
       "todo": [
         {
           "name": "Kawah Putih",
           "type": "Nature",
-          "text": "Un lac de cratère laiteux, turquoise ou presque blanc suivant la lumière, à 2 430 m sur le volcan Patuha. Arbres morts, sable clair, odeur de soufre : on reste une demi-heure au bord, pas plus, avec un masque. Du parking du bas, des minibus ouverts montent les cinq derniers kilomètres.",
+          "text": "Un lac de cratère aux couleurs très claires. Il y a des gaz volcaniques : respecter les zones ouvertes et les consignes sur place. Un masque ordinaire ne protège pas de ces gaz.",
           "time": "1 h 30",
           "price": null
         },
         {
           "name": "Plantations de thé de Rancabali",
           "type": "Nature",
-          "text": "Après le Kawah Putih, la route continue au milieu du thé, vers 1 600 m d'altitude : des collines vert vif à perte de vue, avec quelques gros rochers et des arbres isolés. On s'arrête où on veut pour marcher entre les rangs. Il y fait une vingtaine de degrés.",
+          "text": "La route traverse les plantations de thé de Rancabali. Pour marcher entre les théiers, demander où l'accès est autorisé. Ça se combine avec Kawah Putih.",
           "time": "1 à 2 h",
           "price": null
         },
         {
           "name": "Lac de Situ Patenggang",
           "type": "Nature",
-          "text": "Un lac calme entouré de thé et de forêt, à 7 km du Kawah Putih. On le traverse en barque jusqu'à l'île d'Asmara et au Batu Cinta, le « rocher de l'amour », où se retrouvent les deux amants d'une légende sundanaise. Brume fréquente le matin.",
+          "text": "Un lac entouré de plantations et de forêt. On peut en faire une pause pendant la journée autour de Rancabali ; vérifier les sorties en barque sur place.",
           "time": "1 h",
           "price": null
         },
         {
           "name": "Fraises et sources chaudes de Ciwidey",
           "type": "Détente",
-          "text": "Sur la route du retour, on cueille soi-même ses fraises dans les fermes de Ciwidey, puis on se baigne dans les bassins d'eau chaude de Ciwalini, au milieu des théiers de la plantation Walini.",
+          "text": "Option sur la route de Ciwidey : une ferme de fraises ou les bains de Ciwalini. À confirmer avant le détour, selon l'ouverture et la saison de récolte.",
           "time": "1 à 2 h",
           "price": null
         },
         {
           "name": "Jalan Braga et le Bandung Art déco",
           "type": "Ville",
-          "text": "La rue chic de l'époque coloniale, celle qui a valu à Bandung son surnom de « Paris de Java » : façades Art déco, cafés, peintres qui exposent leurs toiles sur le trottoir. Au bout, la rue Asia-Afrika et l'hôtel Savoy Homann de 1939, tout en courbes. À faire à pied en fin de journée.",
+          "text": "Jalan Braga et Asia Afrika pour marcher entre les bâtiments de l'époque coloniale. À garder pour la partie ville, séparément de la journée dans les plantations.",
           "time": "2 h",
           "price": null
         },
         {
           "name": "Gedung Merdeka, la conférence de 1955",
           "type": "Culture",
-          "text": "Le bâtiment où 29 pays d'Asie et d'Afrique se sont réunis en avril 1955 pour la conférence de Bandung. Le musée montre une reconstitution de la séance d'ouverture, des photos, des documents et un film d'époque. Gratuit, ouvert du mercredi au samedi de 9 h à 15 h, sur inscription en ligne.",
+          "text": "Le musée revient sur la conférence de Bandung de 1955. L'inscription passe par son site officiel ; choisir un créneau disponible avant d'organiser la journée.",
           "time": "45 min",
           "price": null
         },
         {
           "name": "Gedung Sate",
           "type": "Culture",
-          "text": "Le grand bâtiment blanc construit de 1920 à 1924, où siège le gouverneur de Java occidental. Sur le toit, une tige ornée de six boules qui ressemble à une brochette de sate : c'est de là que vient son nom. Il se regarde surtout de l'extérieur.",
+          "text": "Gedung Sate, le bâtiment du gouvernement de Java occidental. On peut déjà voir l'architecture de l'extérieur ; vérifier à part les possibilités de visite intérieure.",
           "time": "30 min",
           "price": null
         },
         {
           "name": "Spectacle d'angklung chez Udjo",
           "type": "Culture",
-          "text": "Tous les jours à 15 h 30, l'école Saung Angklung Udjo donne un spectacle d'angklung, l'instrument sundanais en tubes de bambou qu'on secoue. Des enfants jouent et dansent, il y a des marionnettes wayang golek, puis chaque spectateur reçoit un angklung et apprend un morceau avec eux.",
+          "text": "Spectacle d'angklung, avec ces instruments en bambou qu'on secoue. Le public participe à une partie du programme. Séance quotidienne annoncée à 15 h 30 et entrée adulte étranger à 120 000 IDR au relevé de novembre 2026.",
           "time": "1 h 30",
           "price": {
             "amount": 120000,
             "currency": "IDR",
-            "what": "spectacle de Saung Angklung Udjo, adulte étranger, par personne"
+            "what": "par adulte étranger",
+            "checked": "novembre 2026"
           }
         },
         {
           "name": "Cuisine sundanaise",
           "type": "Cuisine",
-          "text": "Les Indonésiens viennent à Bandung pour manger. À goûter : le batagor (tofu et boulettes de poisson frits, sauce cacahuète), le nasi timbel, du riz roulé dans une feuille de bananier avec légumes crus et sambal, et les surabi, de petites crêpes de riz cuites sur la braise.",
+          "text": "Pour les repas, chercher les spécialités sundanaises : batagor, nasi timbel et surabi. Une activité facile à glisser entre deux visites en ville.",
           "time": "",
-          "price": null
+          "price": null,
+          "hidden": true
         }
       ],
-      "access": "Depuis Jakarta, le train à grande vitesse Whoosh part de la gare de Halim et rejoint Padalarang, en banlieue de Bandung, en 30 minutes ; une navette ferroviaire comprise dans le billet mène ensuite au centre en 20 minutes. Le train classique met environ 3 h depuis la gare de Gambir. Pour le Kawah Putih et Rancabali, compter 2 h de route depuis Bandung.",
+      "access": "Depuis Jakarta, le train à grande vitesse Whoosh part de la gare de Halim et arrive à Padalarang, en banlieue de Bandung ; une navette ferroviaire comprise dans le billet mène ensuite au centre. Ce n'est pas un trajet de centre à centre : compter aussi l'accès à Halim et la navette. Le train classique met environ 3 h depuis la gare de Gambir. Pour le Kawah Putih et Rancabali, compter de l'ordre de 2 h de route depuis Bandung.",
       "tips": [
-        "Le Kawah Putih ouvre à 8 h : partir de Bandung vers 6 h pour y être à l'ouverture, avant les nuages et les cars.",
+        "Le Kawah Putih ouvre à 8 h : partir tôt de Bandung pour y être à l'ouverture.",
         "Éviter le dimanche et les jours fériés, la route de Ciwidey est bouchée et les parkings sont pleins.",
-        "Prendre une polaire : il fait une dizaine de degrés au bord du cratère.",
-        "Au Kawah Putih, les étrangers paient un tarif à part, autour de 100 000 roupies, et la navette est en plus."
+        "Prendre une couche chaude pour le bord du cratère.",
+        "Au Kawah Putih, l'entrée et la navette se paient à part : vérifier les deux tarifs avant de partir."
       ],
       "photos": [
         {
@@ -273,18 +330,40 @@
           "license": "CC BY 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
         }
-      ]
+      ],
+      "sources": [
+        {
+          "name": "Office du tourisme du kabupaten de Bandung",
+          "url": "https://simbarraya.bandungkab.go.id/v3/landing"
+        },
+        {
+          "name": "Musée de la conférence Asie Afrique réservation",
+          "url": "https://mkaa.kemlu.go.id/halaman/registrasi-simkuring"
+        },
+        {
+          "name": "Saung Angklung Udjo spectacles",
+          "url": "https://angklung-udjo.co.id/pertunjukan"
+        },
+        {
+          "name": "IVHHN effets des gaz volcaniques",
+          "url": "https://ivhhn.org/information/health-impacts-volcanic-gases"
+        },
+        {
+          "name": "Wikivoyage Bandung",
+          "url": "https://en.wikivoyage.org/wiki/Bandung"
+        }
+      ],
+      "checked": "17 novembre 2026"
     },
     "yogyakarta-et-temples": {
       "intro": [
-        "Yogyakarta, « Jogja » pour tout le monde, est la ville de Java où l'on reste le plus longtemps : un sultan qui habite encore son palais, des ateliers de batik, des becak, des étudiants partout et de la musique le soir dans la rue Malioboro. C'est aussi là qu'on dort pour voir Borobudur, le plus grand temple bouddhique du monde, et Prambanan, son pendant hindou.",
-        "La ville se fait en deux jours, à pied et en becak. Les temples prennent chacun une demi-journée avec le trajet : Borobudur est à 40 km au nord-ouest, Prambanan à 17 km à l'est."
+        "Jogja pour le palais, les marchés et le batik. Borobudur et Prambanan demandent chacun une sortie à part avec le trajet. Pour notre planning, trois nuits donnent une base ; une nuit de plus pour moins courir."
       ],
       "todo": [
         {
           "name": "Borobudur, montée sur le temple",
           "type": "Culture",
-          "text": "Une pyramide de pierre de plus de mille ans : des galeries couvertes de bas-reliefs sur la vie du Bouddha et, en haut, 72 stupas en forme de cloche face aux volcans. On monte en petit groupe avec un guide, pour une heure environ, chaussé des sandales fournies. 1 200 places par jour, à réserver en ligne.",
+          "text": "Pour monter sur Borobudur, prendre le billet qui inclut bien l'accès au monument. Ce n'est pas le même que l'entrée dans le parc. Réserver le créneau sur la billetterie officielle.",
           "time": "demi-journée avec le trajet",
           "price": {
             "amount": 455000,
@@ -295,7 +374,7 @@
         {
           "name": "Borobudur, enceinte seule",
           "type": "Culture",
-          "text": "Le billet de base donne accès au parc et au pied du monument, sans monter dessus. On en fait le tour par les jardins et on visite les deux petits musées du site. C'est la solution quand les créneaux de montée sont complets, ou le lundi, jour où la montée est le plus souvent fermée.",
+          "text": "L'autre billet donne accès au parc, pour voir Borobudur, sans monter. À choisir si on préfère rester au sol ou si la formule avec montée n'est plus disponible.",
           "time": "demi-journée avec le trajet",
           "price": {
             "amount": 400000,
@@ -306,7 +385,7 @@
         {
           "name": "Prambanan",
           "type": "Culture",
-          "text": "Le grand ensemble hindou du IXe siècle : des tours pointues dédiées à Shiva, Vishnu et Brahma, dont la plus haute dépasse 45 m, sculptées de scènes du Ramayana. On y va vers 15 h et on reste jusqu'à la fermeture, à 17 h. Dans le même parc, à un kilomètre au nord, le temple bouddhique de Sewu.",
+          "text": "Les grands temples hindous de Prambanan, avec leurs sculptures. Le temple bouddhique de Sewu est dans le même ensemble de visite : prévoir du temps pour aller le voir aussi.",
           "time": "demi-journée avec le trajet",
           "price": {
             "amount": 400000,
@@ -317,7 +396,7 @@
         {
           "name": "Ballet du Ramayana à Prambanan",
           "type": "Culture",
-          "text": "De mai à octobre, le Ramayana est dansé sur la scène en plein air, avec les temples éclairés en fond et un orchestre de gamelan. Représentations le mardi, le jeudi et le samedi à 19 h 30. Le billet est distinct de celui du temple et se réserve en ligne ; les places les moins chères sont sur les côtés.",
+          "text": "Le Ramayana est joué près des temples. Une bonne option après Prambanan si une représentation tombe le bon soir. Billet séparé ; vérifier la salle, l'horaire et la catégorie de place.",
           "time": "1 h 30",
           "price": {
             "amount": 150000,
@@ -328,51 +407,53 @@
         {
           "name": "Kraton, le palais du sultan",
           "type": "Culture",
-          "text": "Le sultan Hamengkubuwono X y habite toujours. On visite les pavillons et les cours avec un guide du palais. Ouvert du mardi au dimanche, et tout ferme vers 14 h. De 9 h à 11 h, il y a chaque jour un spectacle : gamelan et danse le mardi, marionnettes le mercredi et le jeudi, danse le week-end.",
+          "text": "Les cours et pavillons du palais du sultan. À prévoir le matin, après avoir vérifié les espaces ouverts. S'il y a une représentation ce jour-là, on peut l'ajouter.",
           "time": "2 h",
           "price": null
         },
         {
           "name": "Taman Sari, le château d'eau",
           "type": "Culture",
-          "text": "L'ancien jardin de plaisance des sultans, construit vers 1760 : des bassins où se baignaient les filles et les concubines du sultan, la tour d'où il les regardait et, dans les ruelles voisines, la mosquée souterraine de Sumur Gumuling, avec ses escaliers qui se rejoignent au centre. Ferme à 15 h.",
+          "text": "Les anciens bassins de Taman Sari et les ruelles autour. La mosquée souterraine de Sumur Gumuling a été signalée fermée en 2026 : ne pas la compter dans le programme sans confirmation de réouverture.",
           "time": "1 h 30",
           "price": null
         },
         {
           "name": "Rue Malioboro et marché Beringharjo",
           "type": "Ville",
-          "text": "La grande rue commerçante de Jogja : batik au mètre et chemises au marché Beringharjo, becak, calèches, musiciens de rue le soir. Au bout de la rue, le fort hollandais de Vredeburg.",
+          "text": "Malioboro pour la promenade et Beringharjo pour le marché. Mieux vaut garder le marché en journée, puis revenir dans le quartier le soir si on en a envie.",
           "time": "2 h",
           "price": null
         },
         {
           "name": "Atelier de batik",
           "type": "Culture",
-          "text": "Jogja est la ville du batik. Dans un atelier, on apprend à dessiner à la cire chaude avec le canting, un petit stylet en cuivre, puis à teindre son tissu, et on repart avec. Se méfier des rabatteurs de Malioboro qui emmènent dans de fausses « expositions d'étudiants ».",
+          "text": "Un atelier pour essayer le batik à la cire et repartir avec son tissu. Choisir un vrai cours annoncé, avec durée, matériel et prix précisés avant de réserver.",
           "time": "demi-journée",
-          "price": null
+          "price": null,
+          "hidden": true
         },
         {
           "name": "Merapi en jeep",
           "type": "Nature",
-          "text": "Sur les pentes du volcan qui domine la ville, de vieilles jeeps roulent dans les zones ravagées par l'éruption de 2010 : la maison du gardien du volcan, mort ce jour-là, un bunker, un petit musée du souvenir. Départ à 27 km au nord, une heure de route. Il existe une sortie au lever du jour.",
+          "text": "Sortie en jeep sur les pentes du Merapi, autour des traces de l'éruption de 2010. Le parcours dépend des zones autorisées. À vérifier avec les consignes du PVMBG avant de réserver.",
           "time": "2 à 3 h sur place",
           "price": null
         },
         {
           "name": "Gudeg et kopi joss",
           "type": "Cuisine",
-          "text": "Le plat de la ville est le gudeg : du jacquier vert mijoté des heures dans le lait de coco et le sucre de palme. La rue Wijilan en est pleine. Le soir, juste au nord de la gare Tugu, on boit un kopi joss, un café où l'on plonge un charbon ardent.",
+          "text": "À tester à Jogja : le gudeg, à base de jeune jacquier, et le kopi joss, le café servi avec un morceau de charbon incandescent.",
           "time": "",
-          "price": null
+          "price": null,
+          "hidden": true
         }
       ],
-      "access": "Train depuis Jakarta en 6 à 8 h, ou vol jusqu'à l'aéroport YIA, à 45 km, relié à la gare Tugu par un train en 40 minutes environ. Pour Borobudur, voiture avec chauffeur, 1 h à 1 h 30 de route. Prambanan se rejoint aussi par le train de banlieue vers Solo, en une demi-heure jusqu'à la gare de Brambanan.",
+      "access": "Train depuis Jakarta, environ 6 à 8 h selon le train, ou vol jusqu'à l'aéroport YIA, à 45 km, relié à la gare Tugu par un train en 40 minutes environ. Pour Borobudur, voiture avec chauffeur, 1 h à 1 h 30 de route. Prambanan se rejoint aussi par le train de banlieue vers Solo jusqu'à la gare de Brambanan ; il reste ensuite un trajet jusqu'au temple.",
       "tips": [
-        "À Borobudur, le billet pour monter sur le temple n'est pas le même que le billet d'enceinte. La vente en ligne ouvre environ une semaine avant la visite et les places partent vite en août : réserver dès l'ouverture.",
-        "Le lundi, le Kraton est fermé et la montée à Borobudur l'est le plus souvent aussi : garder ce jour-là pour Prambanan ou le Merapi.",
-        "Pour voir Borobudur au lever du soleil, on monte à la frontale, en un quart d'heure, sur la colline de Punthuk Setumbu, à quelques kilomètres du temple.",
+        "À Borobudur, le billet pour monter sur le temple n'est pas le même que le billet d'enceinte. Regarder sur la billetterie officielle quand la vente ouvre et réserver tôt pour août.",
+        "Vérifier séparément les jours d'ouverture du Kraton, de la montée à Borobudur et du ballet avant de placer chaque visite dans la semaine.",
+        "Pour l'aube, la colline de Punthuk Setumbu, à quelques kilomètres du temple, est une option : on y monte à la frontale. La billetterie officielle affiche aussi une formule lever du soleil à Borobudur.",
         "Escaliers raides et aucune ombre sur les temples : chapeau et eau."
       ],
       "photos": [
@@ -418,62 +499,85 @@
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
         }
-      ]
+      ],
+      "sources": [
+        {
+          "name": "InJourney Destination billetterie officielle",
+          "url": "https://ticket.injourneydestination.id/id/"
+        },
+        {
+          "name": "Kraton questions pratiques",
+          "url": "https://tourism.kratonjogja.id/id-ID/faq/"
+        },
+        {
+          "name": "Indonesia Travel patrimoine de Yogyakarta",
+          "url": "https://www.indonesia.travel/id/id/travel-ideas/heritage/tempat-bersejarah-di-yogyakarta"
+        },
+        {
+          "name": "RRI Sumur Gumuling toujours fermé début 2026",
+          "url": "https://rri.co.id/yogyakarta/regional/2081667/masih-ditutup-kapan-sumur-gumuling-taman-sari-dibuka"
+        },
+        {
+          "name": "Badan Geologi recommandations du PVMBG",
+          "url": "https://geologi.esdm.go.id/media-center/badan-geologi-minta-semua-pihak-patuhi-rekomendasi-pvmbg"
+        }
+      ],
+      "checked": "17 novembre 2026"
     },
     "dieng": {
       "intro": [
-        "Dieng est un plateau volcanique à plus de 2 000 m d'altitude, au centre de Java. Le nom veut dire « demeure des dieux » : on y trouve de petits temples hindous, les plus anciens monuments de pierre de l'île, posés dans la brume au milieu des champs de pommes de terre. Autour, des cratères qui fument, des mares de boue qui bouillonnent et un lac vert et turquoise.",
-        "Tout tient dans quelques kilomètres. On dort une ou deux nuits en homestay au village de Dieng et on fait le tour à scooter ou avec un chauffeur. Il fait froid, surtout à l'aube."
+        "Dieng est un plateau d'altitude avec des temples, des lacs et des zones volcaniques. On peut dormir sur place pour une sortie à l'aube. Sikunir et Prau sont deux randonnées différentes, à choisir selon l'effort qu'on veut faire."
       ],
       "todo": [
         {
           "name": "Lever de soleil au Sikunir",
           "type": "Randonnée",
-          "text": "Départ vers 3 h 30 pour Sembungan, le plus haut village de Java, puis 30 à 45 minutes de montée à la frontale sur des marches. En haut, le soleil se lève à côté du Sindoro et, par temps clair, on voit une file de volcans jusqu'au Merapi. Il fait très froid avant le lever du jour.",
+          "text": "Une montée avant l'aube depuis Sembungan pour voir les volcans, si le ciel est dégagé. Il fait froid en attendant le soleil : lampe et vêtements chauds à prévoir.",
           "time": "2 h aller-retour",
           "price": null
         },
         {
           "name": "Temples d'Arjuna",
           "type": "Culture",
-          "text": "Cinq petits temples hindous des VIIe et VIIIe siècles, alignés sur une pelouse au centre du plateau. Ils portent des noms de héros du Mahabharata. On y va tôt, quand la brume traîne encore, puis on continue jusqu'au temple de Bima, seul sur sa colline, le plus grand de Dieng.",
+          "text": "Le groupe d'Arjuna réunit de petits temples hindous sur le plateau. Une visite assez courte, facile à combiner avec les autres sites de Dieng.",
           "time": "1 h 30",
           "price": null
         },
         {
           "name": "Cratère de Sikidang",
           "type": "Nature",
-          "text": "Un cratère à ciel ouvert : on avance sur une passerelle en bois de plus d'un kilomètre, entre les fumerolles, jusqu'à une grande mare de boue grise qui bout. L'odeur de soufre est forte, mieux vaut un masque. Moins de monde en semaine.",
+          "text": "Une zone de fumerolles et de boue bouillonnante, visible depuis le parcours aménagé. Rester dans les espaces ouverts. Un masque ordinaire ne protège pas des gaz volcaniques.",
           "time": "45 min",
           "price": null
         },
         {
           "name": "Telaga Warna et Batu Ratapan Angin",
           "type": "Nature",
-          "text": "Le « lac des couleurs » passe du vert au turquoise suivant le soufre et la lumière. On le regarde d'abord depuis la rive, puis on monte aux deux gros rochers de Batu Ratapan Angin pour le voir d'en haut, à côté du lac de Pengilon.",
+          "text": "Telaga Warna depuis les abords du lac ou le point de vue de Batu Ratapan Angin. La vue et les couleurs changent avec la lumière et la météo.",
           "time": "1 h 30",
           "price": null
         },
         {
           "name": "Mont Prau",
           "type": "Randonnée",
-          "text": "Le sommet qui domine le plateau, à 2 565 m. Montée raide de 2 à 3 h depuis le village de Patak Banteng, jusqu'à une longue crête herbeuse face au Sindoro et au Sumbing. Plus sportif que le Sikunir, et faisable de jour si on ne veut pas partir en pleine nuit. Sentier fermé de janvier à mars.",
+          "text": "Prau est l'option plus sportive : montée soutenue, puis descente dans la journée. Faire confirmer le sentier ouvert et la durée par un guide avant de l'intégrer au voyage.",
           "time": "5 à 6 h aller-retour",
           "price": null
         },
         {
           "name": "Carica et mie ongklok",
           "type": "Cuisine",
-          "text": "Deux spécialités du coin : le carica, une petite papaye de montagne vendue en sirop dans tous les villages, et le mie ongklok de Wonosobo, des nouilles au chou dans une sauce épaisse, servies avec des brochettes de bœuf.",
+          "text": "À chercher sur place : le carica et les mie ongklok de Wonosobo. Une pause repas à prévoir en passant par la ville.",
           "time": "",
-          "price": null
+          "price": null,
+          "hidden": true
         }
       ],
-      "access": "Depuis Yogyakarta, 3 à 4 h de route en voiture avec chauffeur, par Magelang et Wonosobo. En transport public, bus jusqu'à Wonosobo, direct ou avec un changement à Magelang, puis minibus pour Dieng, 45 minutes à une heure de montée. Compter au moins cinq heures en tout.",
+      "access": "Depuis Yogyakarta, compter environ 3 à 4 h de route en voiture avec chauffeur, par Magelang et Wonosobo. En transport public, bus jusqu'à Wonosobo, direct ou avec un changement à Magelang, puis minibus pour Dieng, environ 45 minutes à une heure de montée, soit au moins cinq heures en tout. Ces temps restent indicatifs.",
       "tips": [
         "Juillet et août sont les mois les plus froids, il gèle certaines nuits : bonnet, gants et doudoune.",
-        "Certains cratères, comme Sileri et Timbang, sont interdits quand l'activité ou les gaz augmentent : demander au homestay la veille.",
-        "Le festival de Dieng a lieu en août (du 28 au 30 en 2026) : ces jours-là, les homestays sont pleins et plus chers."
+        "Certains cratères, comme Sileri et Timbang, sont fermés par les autorités quand l'activité ou les gaz augmentent : regarder les consignes en vigueur la veille et respecter les zones fermées.",
+        "Le festival de Dieng a lieu en août, dates 2027 à demander à l'organisateur : ces jours-là, les homestays sont pleins et plus chers."
       ],
       "photos": [
         {
@@ -518,18 +622,32 @@
           "license": "CC BY 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
         }
-      ]
+      ],
+      "sources": [
+        {
+          "name": "Indonesia Travel plateau de Dieng",
+          "url": "https://www.indonesia.travel/id/id/destination/java/central-java/dataran-tinggi-dieng"
+        },
+        {
+          "name": "IVHHN effets des gaz volcaniques",
+          "url": "https://ivhhn.org/information/health-impacts-volcanic-gases"
+        },
+        {
+          "name": "Badan Geologi recommandations du PVMBG",
+          "url": "https://geologi.esdm.go.id/media-center/badan-geologi-minta-semua-pihak-patuhi-rekomendasi-pvmbg"
+        }
+      ],
+      "checked": "17 novembre 2026"
     },
     "malang-bromo": {
       "intro": [
-        "Pour voir le Bromo, on dort à Malang ou, plus près, à Cemoro Lawang, au bord de la caldeira. De Malang, départ en jeep vers minuit pour être au point de vue de Penanjakan avant le lever du soleil : le Bromo qui fume au milieu d'une mer de sable, le cône strié du Batok à côté, le Semeru derrière. Retour vers 11 h, lessivé.",
-        "Malang mérite plus qu'une nuit entre deux trains : il y fait bon, il y a des avenues hollandaises, un quartier repeint de toutes les couleurs et le bakso le plus connu du pays. Un jour pour la ville, un pour le Bromo, un pour s'en remettre."
+        "Malang comme base pour voir la ville et partir au Bromo. L'excursion depuis Malang commence souvent dans la nuit : garder du repos au retour. Dormir plus près de la caldeira est une autre option si on veut réduire la route nocturne."
       ],
       "todo": [
         {
           "name": "Lever de soleil sur le Bromo",
           "type": "Nature",
-          "text": "Au point de vue de Penanjakan, à 2 770 m, on attend dans le froid que le jour se lève sur la caldeira : le Bromo fume, le Semeru lâche un panache derrière. Il y a foule vers 5 h en août. King Kong Hill, un kilomètre avant, a presque la même vue avec moins de monde.",
+          "text": "Départ de nuit pour voir la caldeira au lever du jour. Penanjakan et les autres belvédères peuvent être très fréquentés. Il faut de quoi attendre dans le froid, et rien ne garantit un ciel dégagé.",
           "time": "de minuit à 11 h depuis Malang",
           "price": {
             "amount": 255000,
@@ -540,70 +658,61 @@
         {
           "name": "Mer de sable et cratère du Bromo",
           "type": "Randonnée",
-          "text": "La jeep descend dans la caldeira et s'arrête au milieu du sable gris. On finit à pied ou à cheval, en passant devant le temple hindou de Luhur Poten, puis on monte environ 250 marches jusqu'au bord du cratère, qui gronde et crache une fumée de soufre.",
+          "text": "Après le point de vue, passage dans la mer de sable. La montée au cratère se fait seulement si elle est autorisée le jour de la visite. Sinon, on garde les paysages de la caldeira.",
           "time": "1 h 30 aller-retour",
           "price": null
         },
         {
           "name": "Pasir Berbisik et la savane",
           "type": "Nature",
-          "text": "Au retour, la jeep traverse Pasir Berbisik, les « sables qui murmurent », une grande étendue de sable volcanique, puis la savane et ses collines herbeuses, que tout le monde appelle la colline des Teletubbies. En août l'herbe est sèche.",
+          "text": "Pasir Berbisik et la savane font partie des arrêts possibles autour du Bromo. Demander le circuit prévu et les secteurs ouverts, surtout après un incendie.",
           "time": "1 h",
           "price": null
         },
         {
-          "name": "Arriver en train depuis Yogyakarta",
-          "type": "Détente",
-          "text": "Le Malioboro Ekspres relie directement les deux villes en 6 h à 6 h 40, en passant par Solo. En classe exécutive, le billet coûte de 380 000 à 450 000 roupies suivant le jour. À réserver quelques jours avant sur l'application de la compagnie KAI.",
-          "time": "6 h à 6 h 40",
-          "price": {
-            "amount": 400000,
-            "currency": "IDR",
-            "what": "billet de train Yogyakarta-Malang en classe exécutive, par personne"
-          }
-        },
-        {
           "name": "Kampung Warna-Warni de Jodipan",
           "type": "Ville",
-          "text": "Un quartier populaire au bord de la rivière Brantas, entièrement repeint en couleurs vives : toits, murs, escaliers, ruelles. Une passerelle au sol vitré mène au Kampung Tridi et à ses fresques en trompe-l'œil. Vue d'ensemble depuis le pont routier, tout près de la gare.",
+          "text": "Jodipan, un quartier habité aux maisons peintes. On se promène dans les ruelles ouvertes aux visiteurs, en respectant les habitants et les accès privés.",
           "time": "1 h 30",
           "price": null
         },
         {
           "name": "Jalan Ijen et le Malang hollandais",
           "type": "Ville",
-          "text": "Les Européens venaient à Malang chercher la fraîcheur. Il en reste le boulevard Ijen, bordé de palmiers et de villas des années 1920 et 1930, la place ronde du Tugu avec son bassin de lotus devant la mairie, et les ruelles du quartier de Kayutangan. Pause glace chez Toko Oen, ouvert depuis 1930.",
+          "text": "Une balade par Jalan Ijen, la place du Tugu et Kayutangan pour voir une autre partie de Malang. À garder pour une journée sans grosse excursion.",
           "time": "demi-journée",
           "price": null
         },
         {
           "name": "Bakso de Malang",
           "type": "Cuisine",
-          "text": "Le bakso de Malang est connu dans tout le pays : un bol de bouillon avec des boulettes de bœuf, du tofu, des raviolis vapeur et frits et des nouilles. Il existe aussi en brochettes grillées, le bakso bakar. Les hauteurs autour de Malang sont aussi la grande région des pommes du pays.",
+          "text": "À goûter à Malang : le bakso, une soupe de boulettes avec plusieurs accompagnements. On trouve aussi du bakso bakar, en brochettes grillées.",
           "time": "",
-          "price": null
+          "price": null,
+          "hidden": true
         },
         {
           "name": "Batu, la ville des pommes",
           "type": "Nature",
-          "text": "À 45 minutes de route de Malang, entre 800 et 1 100 m, donc plus frais. On cueille des pommes dans les vergers du village de Punten, on va voir la cascade de Coban Rondo, et la place centrale a sa grande roue. Bien pour le lendemain du Bromo, mais à éviter le week-end.",
+          "text": "Batu pour une sortie dans les hauteurs, avec vergers et cascades selon l'envie. Vérifier la cueillette avant de faire le détour. Option à garder si on a une journée de plus.",
           "time": "demi-journée ou journée",
-          "price": null
+          "price": null,
+          "hidden": true
         },
         {
           "name": "Temple de Singosari",
           "type": "Culture",
-          "text": "À une dizaine de kilomètres au nord de Malang, le temple funéraire du roi Kertanagara, de la fin du XIIIe siècle, au cœur de l'ancien royaume de Singhasari. À 200 ou 300 m, deux énormes gardiens de pierre assis, hauts de plus de 3 m. Un arrêt d'une demi-heure sur la route de Surabaya.",
-          "time": "30 min",
+          "text": "Le temple de Singosari peut faire un arrêt au nord de Malang. À voir si le chauffeur peut l'intégrer au trajet, sans prévoir une correspondance serrée derrière.",
+          "time": "30 min sur place",
           "price": null
         }
       ],
-      "access": "Train direct depuis Yogyakarta (6 à 7 h) ou depuis Surabaya (2 à 3 h). En avion, on passe plutôt par l'aéroport de Surabaya, à 2 ou 3 h de route. Pour le Bromo, la jeep avec chauffeur se réserve à Malang ; le billet du parc s'achète en ligne.",
+      "access": "Train direct depuis Yogyakarta, environ 6 à 7 h, ou depuis Surabaya, environ 2 à 3 h : regarder les départs et les classes sur KAI pour la date choisie et garder une bonne partie de la journée pour ce transfert. Pour août, ne pas attendre les derniers jours pour réserver. En avion, on passe plutôt par l'aéroport de Surabaya, à 2 ou 3 h de route. Pour le Bromo, la jeep avec chauffeur se réserve à Malang ; le billet du parc s'achète en ligne sur le site du parc national.",
       "tips": [
         "Au lever du soleil il fait à peine quelques degrés à Penanjakan : doudoune, bonnet, gants, et un foulard pour la poussière de la mer de sable.",
-        "Garder le reste de la journée libre : on rentre à Malang vers 11 h sans avoir dormi.",
-        "Pour éviter la nuit blanche, dormir à Cemoro Lawang, au bord de la caldeira : on part bien plus tard, et le cratère est à 45 minutes à pied.",
-        "En saison sèche la savane peut brûler : en août 2026, un incendie a fermé tous les accès du Bromo pendant onze jours. Regarder les nouvelles avant de partir."
+        "Depuis Malang, compter séparément la route de nuit en jeep, l'attente à l'aube au point de vue, la marche dans la mer de sable et le repos au retour. Garder le reste de la journée libre.",
+        "Pour réduire la route de nuit, dormir à Cemoro Lawang, au bord de la caldeira : le départ se fait plus tard.",
+        "L'accès au cratère et aux secteurs du parc dépend des restrictions du moment, incendies de savane compris en saison sèche : regarder les annonces du parc avant de partir."
       ],
       "photos": [
         {
@@ -648,18 +757,36 @@
           "license": "CC BY 2.0",
           "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
         }
-      ]
+      ],
+      "sources": [
+        {
+          "name": "Parc Bromo Tengger Semeru règles de visite",
+          "url": "https://bromotenggersemeru.id/peraturan/bromo"
+        },
+        {
+          "name": "Indonesia Travel activités du Bromo",
+          "url": "https://www.indonesia.travel/id/id/travel-ideas/adventure/ide-aktivitas-bromo-tengger-semeru"
+        },
+        {
+          "name": "KAI réservation officielle",
+          "url": "https://booking.kai.id/"
+        },
+        {
+          "name": "Wikivoyage Malang",
+          "url": "https://en.wikivoyage.org/wiki/Malang"
+        }
+      ],
+      "checked": "17 novembre 2026"
     },
     "tumpak-sewu": {
       "intro": [
-        "Tumpak Sewu veut dire « mille cascades » en javanais : un rideau d'eau en demi-cercle qui tombe d'une falaise couverte de jungle, haute d'environ 120 m, au pied du volcan Semeru, qu'on aperçoit derrière par matin clair. C'est à 70 km de Malang, deux à trois heures de route.",
-        "On peut se contenter du point de vue d'en haut, à dix minutes à pied du parking : c'est déjà la plus belle vue. La descente au pied de la cascade est une autre affaire, raide, mouillée et glissante, à garder pour ceux qui ont le pied sûr."
+        "La cascade se voit depuis le haut ou après une descente dans le canyon. Ce sont deux visites avec des efforts très différents. Le point de vue suffit si on ne veut pas emprunter les passages mouillés et raides."
       ],
       "todo": [
         {
           "name": "Point de vue panoramique",
           "type": "Nature",
-          "text": "Depuis le parking, dix minutes de sentier jusqu'à une plateforme. Toute la cascade est là, en arc de cercle, avec le Semeru derrière si on arrive tôt, entre 7 h et 9 h, avant que les nuages montent.",
+          "text": "Depuis le point de vue d'en haut, on voit le cirque de la cascade sans descendre dans le canyon. À privilégier si on veut une visite courte ou éviter le terrain glissant.",
           "time": "45 min",
           "price": {
             "amount": 20000,
@@ -670,7 +797,7 @@
         {
           "name": "Descente au pied de la cascade",
           "type": "Randonnée",
-          "text": "Un sentier raide et glissant : marches et rampes de bambou, cordes fixées à la paroi, et un passage où l'on traverse un ruisseau qui coule sur la roche. En bas, on marche dans la rivière jusqu'au cirque, sous les embruns. Compter 30 à 45 minutes de descente, jusqu'à une heure pour remonter.",
+          "text": "La descente est raide et mouillée, avec des passages où il faut bien se tenir. À faire avec un guide et seulement si le parcours est ouvert. Garder des affaires sèches pour le retour.",
           "time": "2 à 3 h aller-retour",
           "price": {
             "amount": 50000,
@@ -680,31 +807,26 @@
         },
         {
           "name": "Goa Tetes",
-          "type": "Nature",
-          "text": "Dans le même canyon, un peu en aval, une paroi orangée où l'eau ruisselle devant de petites grottes. La roche est très glissante. De là, un sentier de bambou remonte jusqu'en haut du ravin : on rejoint le parking sans reprendre le même chemin.",
+          "type": "Randonnée",
+          "text": "Goa Tetes peut compléter la descente, avec des rochers ruisselants et glissants. Le guide doit confirmer si le passage est praticable. Ce n'est pas un détour à ajouter automatiquement.",
           "time": "1 h",
           "price": null
         },
         {
           "name": "Cascade de Kapas Biru",
           "type": "Randonnée",
-          "text": "Dans la même commune de Pronojiwo, une autre grande cascade, haute et fine, contre une paroi orangée. Une demi-heure de sentier, avec une échelle et des rizières juste avant l'arrivée ; le retour monte raide. Il y a bien moins de monde qu'à Tumpak Sewu.",
+          "text": "Kapas Biru est une autre cascade près de Pronojiwo. À garder comme option séparée, après confirmation du sentier et du temps nécessaire. Éviter de charger la même journée si on descend déjà à Tumpak Sewu.",
           "time": "1 h 30 à 2 h aller-retour",
-          "price": null
-        },
-        {
-          "name": "Dormir à Pronojiwo",
-          "type": "Détente",
-          "text": "Le bourg le plus proche de la cascade a quelques pensions et homestays, simples. En dormant sur place, on est au point de vue à l'ouverture, à 7 h, avec la meilleure lumière et avant les voitures venues de Malang.",
-          "time": "une nuit",
-          "price": null
+          "price": null,
+          "hidden": true
         }
       ],
-      "access": "Depuis Malang, 2 à 3 h de route sinueuse, en voiture avec chauffeur ou en excursion. En bus, c'est 4 à 5 h depuis le terminal de Gadang, puis une moto-taxi : peu pratique.",
+      "access": "Depuis Malang, environ 2 à 3 h de route sinueuse, en voiture avec chauffeur ou en excursion. En bus, environ 4 à 5 h depuis le terminal de Gadang, puis une moto-taxi : peu pratique. Dormir près de Pronojiwo évite le trajet depuis Malang le matin de la visite ; vérifier le confort de la chambre et l'heure d'ouverture du site avant de réserver.",
       "tips": [
-        "Pour la descente : des chaussures qui accrochent et qu'on peut mouiller, pas de tongs, des vêtements de rechange et une pochette étanche pour le téléphone.",
-        "Quand il pleut, la descente est fermée et seul le point de vue reste ouvert. Si le terrain fait peur, il suffit largement. Pour descendre, un guide du village aide bien, surtout vers Goa Tetes.",
-        "Le site ouvre de 7 h à 15 h et tout se paie en liquide. La saison sèche, de mai à novembre, est la bonne période.",
+        "La descente au pied de la cascade est exigeante : passages raides, glissants et mouillés. Elle ferme quand il pleut ; demander sur place si le point de vue reste ouvert.",
+        "Pour la descente : des chaussures qui accrochent et qu'on peut mouiller, pas de tongs, des vêtements de rechange et une pochette étanche pour le téléphone. Un guide du village aide, surtout vers Goa Tetes.",
+        "Le retour par Goa Tetes n'est pas toujours possible : demander au guide le circuit du jour.",
+        "Vérifier les horaires d'ouverture et les tarifs avant de partir, et prévoir du liquide. La saison sèche, de mai à novembre, est la bonne période.",
         "Éviter le week-end, il y a beaucoup de monde."
       ],
       "photos": [
@@ -750,87 +872,91 @@
           "license": "CC0 1.0",
           "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
         }
-      ]
+      ],
+      "sources": [
+        {
+          "name": "Tourisme de Lumajang Tumpak Sewu",
+          "url": "https://visitlumajang.com/pesona-coban-sewu-air-terjun-megah-di-pronojiwo-lumajang/5175/0"
+        },
+        {
+          "name": "Backindo visite de Tumpak Sewu",
+          "url": "https://www.backindo.com/tumpak-sewu-guide/"
+        }
+      ],
+      "checked": "17 novembre 2026"
     },
     "surabaya": {
       "intro": [
-        "Surabaya est la deuxième ville du pays, un grand port chaud et bruyant où peu de touristes s'arrêtent. On y passe pourtant souvent, pour un train, un vol ou la route du Bromo, et une journée suffit pour voir le plus intéressant : le quartier arabe d'Ampel, le quartier chinois, les façades hollandaises autour du Pont rouge et la rue Tunjungan le soir.",
-        "On y vient aussi pour manger. Le rawon, une soupe de bœuf noire comme de l'encre, est le plat de la ville."
+        "Surabaya peut être une étape de ville avant un vol : Ampel, les anciens quartiers autour du Pont rouge et Tunjungan le soir. À garder si on veut voir la ville ; pour un simple transit, inutile de compter une journée de visites complète."
       ],
       "todo": [
         {
           "name": "Quartier arabe d'Ampel",
           "type": "Culture",
-          "text": "Un dédale de ruelles autour de la mosquée fondée en 1421 par Sunan Ampel, l'un des neuf saints qui ont islamisé Java, et de sa tombe. Dattes, parfums, châles, chapelets et corans dans les échoppes, pèlerins par milliers chaque jour. Bras et jambes couverts, et un foulard pour les femmes.",
+          "text": "Les ruelles commerçantes autour de la mosquée et du tombeau de Sunan Ampel. C'est un lieu de pèlerinage : tenue couvrante et respect des espaces réservés à la prière.",
           "time": "1 h 30",
           "price": null
         },
         {
           "name": "Pont rouge et quartier chinois",
           "type": "Ville",
-          "text": "Le Jembatan Merah, le « Pont rouge », relie deux mondes. D'un côté, les grands bâtiments coloniaux de Jalan Rajawali, l'ancien quartier européen. De l'autre, la porte aux dragons de Kembang Jepun, le quartier chinois, avec ses stands de cuisine les soirs de fin de semaine, et le marché de Pabean, vaste et sombre.",
+          "text": "Une balade autour de Jembatan Merah, Jalan Rajawali et Kembang Jepun. On peut y voir les anciens quartiers commerçants et le marché de Pabean.",
           "time": "2 h",
-          "price": null
+          "price": null,
+          "hidden": true
         },
         {
           "name": "Monument des héros",
           "type": "Culture",
-          "text": "Une colonne blanche de 41 m sur une grande pelouse, en souvenir de la bataille de Surabaya contre les Britanniques, en novembre 1945. Le musée du 10 Novembre, enterré sous la place, raconte la bataille avec des dioramas, des photos et l'enregistrement d'un discours de Bung Tomo. Fermé le lundi, ferme à 15 h.",
+          "text": "Le monument et le musée du 10 Novembre pour comprendre la bataille de Surabaya de 1945. Vérifier les horaires du musée avant de faire le déplacement.",
           "time": "1 h",
-          "price": null
+          "price": null,
+          "hidden": true
         },
         {
           "name": "Hôtel Majapahit",
           "type": "Culture",
-          "text": "Le palace colonial de la ville, ouvert en 1911 sous le nom d'hôtel Oranje. Le 19 septembre 1945, de jeunes Indonésiens ont arraché la bande bleue du drapeau néerlandais qui flottait dessus pour en faire le drapeau rouge et blanc. Il est au 65 de Jalan Tunjungan, et on y dort toujours.",
+          "text": "L'hôtel Majapahit, sur Jalan Tunjungan, pour son architecture et son histoire liée à l'indépendance. Pour entrer ou faire une visite, demander les conditions à l'hôtel.",
           "time": "45 min",
           "price": null
         },
         {
           "name": "Jalan Tunjungan le soir",
           "type": "Ville",
-          "text": "La grande rue commerçante du début du XXe siècle, relancée en 2021 pour la promenade du soir : façades éclairées, cafés sur les trottoirs, stands de cuisine et musiciens de rue. C'est là que les habitants viennent marcher à la fraîche, devant l'hôtel Majapahit.",
+          "text": "Tunjungan le soir pour marcher et trouver où manger. Ça se combine avec le quartier de l'hôtel Majapahit.",
           "time": "1 à 2 h",
-          "price": null
+          "price": null,
+          "hidden": true
         },
         {
           "name": "Rawon et cuisine de Surabaya",
           "type": "Cuisine",
-          "text": "Le rawon : du bœuf dans un bouillon noirci par le keluak, une noix, servi avec riz, pousses de soja et œuf salé. Pour les curieux, le rujak cingur, une salade en sauce avec du museau de bœuf, et le lontong balap, du riz pressé avec tofu, pousses de soja et sauce à la pâte de crevette.",
+          "text": "À chercher dans les menus : rawon, rujak cingur et lontong balap. Le rawon est le bouillon de bœuf très sombre associé à Java oriental.",
           "time": "",
-          "price": null
+          "price": null,
+          "hidden": true
         },
         {
           "name": "Mosquée Cheng Hoo",
           "type": "Culture",
-          "text": "Une petite mosquée rouge, verte et jaune aux allures de pagode, construite en 2002 par les musulmans chinois de la ville en hommage à l'amiral Zheng He. Elle accueille 200 fidèles, à un kilomètre au nord de la mairie. La visite prend dix minutes, et on n'en voit pas deux comme elle.",
+          "text": "Une mosquée à l'architecture d'inspiration chinoise. Un arrêt court si on est dans le secteur, en respectant les horaires de prière et les consignes de visite.",
           "time": "30 min",
           "price": null
         },
         {
           "name": "Pont Suramadu",
           "type": "Ville",
-          "text": "Plus de 5 km au-dessus du détroit, jusqu'à l'île de Madura : le plus long pont d'Indonésie, ouvert en 2009. On le traverse en voiture, sans péage depuis 2018. Le soir, il est illuminé.",
-          "time": "1 h",
-          "price": null
-        },
-        {
-          "name": "Arriver de Malang en minibus",
-          "type": "Ville",
-          "text": "Des navettes porte-à-porte relient Malang à Surabaya et à l'aéroport Juanda en 2 h à 3 h 30 suivant les bouchons, ce qui est commode pour enchaîner sur un vol vers Bali, Florès ou Sulawesi. Sinon, le train Arjuno Ekspres met 2 h jusqu'à la gare de Gubeng, pour 65 000 à 95 000 roupies.",
-          "time": "2 h à 3 h 30",
-          "price": {
-            "amount": 150000,
-            "currency": "IDR",
-            "what": "navette porte-à-porte de Malang à l'aéroport Juanda, par personne, tarif d'un opérateur relevé en août 2025"
-          }
+          "text": "Le pont relie Surabaya à Madura. À prévoir surtout si on veut poursuivre sur Madura ; pour le pont seul, regarder le détour nécessaire depuis l'hôtel.",
+          "time": "1 h, selon le point de départ",
+          "price": null,
+          "hidden": true
         }
       ],
-      "access": "Train depuis Malang (2 h à 2 h 30) ou Yogyakarta (4 à 5 h), arrivée à la gare de Gubeng. L'aéroport Juanda, à 12 km du centre, a des vols directs vers Bali, Lombok, Florès et Sulawesi.",
+      "access": "Train depuis Malang, environ 2 h à 2 h 30, ou depuis Yogyakarta, environ 4 à 5 h ; vérifier la gare d'arrivée, tous les trains n'arrivent pas forcément à Gubeng. Depuis Malang, des navettes relient aussi Surabaya et l'aéroport Juanda : demander le prix, les arrêts et la marge prévue avant le vol. L'aéroport Juanda est au sud de l'agglomération ; trajet à calculer depuis l'hôtel. Les vols directs vers Bali, Lombok, Florès ou Sulawesi se vérifient pour les dates du voyage.",
       "tips": [
-        "Il fait très chaud et humide, 32 à 34 °C dans la journée : visiter le matin et en fin de journée, rester au frais entre midi et 15 h.",
-        "Une journée suffit, deux si on veut souffler entre le Bromo et un vol.",
-        "Le musée du 10 Novembre est fermé le lundi."
+        "Chaleur à prévoir : visiter le matin et en fin de journée, rester au frais en milieu de journée.",
+        "Je compterais une journée, deux si on veut souffler entre le Bromo et un vol.",
+        "Vérifier les jours et horaires d'ouverture du musée du 10 Novembre avant d'y aller."
       ],
       "photos": [
         {
@@ -873,7 +999,22 @@
           "caption": "Mosquée Cheng Hoo de Surabaya",
           "source": "Unsplash, Zaskia Auryn, licence Unsplash"
         }
-      ]
+      ],
+      "sources": [
+        {
+          "name": "Ministère des Affaires religieuses mosquée Ampel",
+          "url": "https://simas.kemenag.go.id/profil/masjid/01.5.16.37.16.000059"
+        },
+        {
+          "name": "KAI réservation officielle",
+          "url": "https://booking.kai.id/"
+        },
+        {
+          "name": "Wikivoyage Surabaya",
+          "url": "https://en.wikivoyage.org/wiki/Surabaya"
+        }
+      ],
+      "checked": "17 novembre 2026"
     }
   }
 }

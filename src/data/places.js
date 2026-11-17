@@ -17,24 +17,34 @@ const coords = {};
 for (const file of Object.values(import.meta.glob('./coords/*.json', { eager: true }))) Object.assign(coords, file.default);
 
 const commons = (path) => (width) => `${path}?width=${width}`;
+// On garde l'auteur, la licence et la page d'origine jusqu'à l'affichage, pour créditer chaque photo.
+const commonsPage = (file) => `https://commons.wikimedia.org/wiki/File:${encodeURIComponent(file.replace(/ /g, '_'))}`;
 const photoOf = (ph) =>
   ph.url
-    ? { caption: ph.caption, at: () => ph.url }
-    : { caption: ph.caption, at: commons(`https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(ph.file)}`) };
+    ? { caption: ph.caption, at: () => ph.url, author: ph.author, license: ph.license || ph.source, licenseUrl: ph.licenseUrl, page: ph.page }
+    : {
+        caption: ph.caption,
+        at: commons(`https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(ph.file)}`),
+        author: ph.author,
+        license: ph.license,
+        licenseUrl: ph.licenseUrl,
+        page: commonsPage(ph.file),
+      };
 // Photo d'origine du tableur, utilisée tant qu'une étape n'a pas de galerie rédigée.
-const sheetPhoto = (ph) => ({ caption: ph.alt, at: commons(ph.src) });
+const sheetPhoto = (ph) => ({ caption: ph.alt, at: commons(ph.src), author: ph.author, license: ph.license, licenseUrl: ph.licenseUrl, page: ph.page });
 
 // Couleur, cadrage de la caméra (lon, lat, distance) et position du nom sur la carte.
+// « partial » : les fiches ne couvrent que quelques secteurs de l'île, la fiche de région les nomme (« Secteurs étudiés »).
 const REGION_VIEW = {
   sumatra: { color: '#12b5a6', focus: [99.8, 1.2, 10], label: [101.6, -0.9] },
   java: { color: '#ff8a3d', focus: [110, -7.4, 13.5], label: [109.2, -6.2] },
   bali: { color: '#ff4f8b', focus: [115.1, -8.47, 3.7], label: [114.6, -7.45] },
   'lombok-et-gili': { color: '#ffb703', focus: [116.3, -8.62, 3.3], label: [116.35, -9.4] },
-  sumbawa: { color: '#f77f00', focus: [117.8, -8.5, 5], label: [118.2, -7.45] },
-  'flores-et-komodo': { color: '#9b5de5', focus: [120.1, -8.65, 5.4], label: [122.6, -7.5] },
+  sumbawa: { color: '#f77f00', focus: [117.8, -8.5, 5], label: [118.2, -7.45], partial: true },
+  'flores-et-komodo': { color: '#9b5de5', focus: [120.1, -8.65, 5.4], label: [122.6, -7.5], partial: true },
   sumba: { color: '#c05299', focus: [119.85, -9.75, 4.2], label: [119.9, -10.75] },
   'timor-occidental-et-alor': { color: '#577590', focus: [124.0, -9.3, 5.6], label: [125.6, -10.9], short: 'Timor et Alor' },
-  kalimantan: { color: '#43a047', focus: [114.6, -0.4, 13], label: [113.8, -0.3] },
+  kalimantan: { color: '#43a047', focus: [114.6, -0.4, 13], label: [113.8, -0.3], partial: true },
   sulawesi: { color: '#0096c7', focus: [121.9, -1.0, 12], label: [121.0, -2.4] },
   moluques: { color: '#e63946', focus: [128.4, -1.3, 11.5], label: [128.5, -1.6] },
   'raja-ampat': { color: '#f15bb5', focus: [130.5, -0.6, 4.2], label: [131.2, 1.0] },
@@ -87,55 +97,27 @@ const PLACE_VIEW = {
 
 export const REGIONS = base.regions.map((r) => {
   const view = REGION_VIEW[r.id];
-  return { ...r, ...written.regions[r.id], short: view.short || r.name, color: view.color, focus: { lon: view.focus[0], lat: view.focus[1], dist: view.focus[2] }, label: { lon: view.label[0], lat: view.label[1] } };
+  return { ...r, ...written.regions[r.id], short: view.short || r.name, partial: !!view.partial, color: view.color, focus: { lon: view.focus[0], lat: view.focus[1], dist: view.focus[2] }, label: { lon: view.label[0], lat: view.label[1] } };
 });
 export const REGION_BY_ID = Object.fromEntries(REGIONS.map((r) => [r.id, r]));
 
-// Photo de chaque activité. Une activité peut désigner la sienne (champ « photo », même format que la galerie) ;
-// sinon on lui attribue la photo de la galerie dont la légende parle du même sujet, quand il y en a une.
-const STOP_WORDS = new Set(['dans', 'pour', 'avec', 'vers', 'depuis', 'sous', 'entre', 'leur', 'leurs', 'cette', 'tout', 'tous', 'plus']);
-const words = (text) =>
-  new Set(
-    text
-      .toLowerCase()
-      .normalize('NFD')
-      .replace(/[\u0300-\u036f]/g, '')
-      .match(/[a-z0-9]{4,}/g)
-      ?.filter((w) => !STOP_WORDS.has(w)) || [],
-  );
-const shared = (a, b) => [...a].filter((w) => b.has(w)).length;
-function todoPhotos(todo, gallery) {
-  const names = todo.map((t) => words(t.name));
-  const texts = todo.map((t) => words(t.text));
-  const result = todo.map((t) => (t.photo ? photoOf(t.photo) : null));
-  gallery.forEach((ph, index) => {
-    const caption = words(ph.caption);
-    let best = -1;
-    let bestScore = 0;
-    todo.forEach((t, i) => {
-      const score = shared(caption, names[i]) * 2 + shared(caption, texts[i]) * 0.5;
-      if (score > bestScore) {
-        best = i;
-        bestScore = score;
-      }
-    });
-    if (best >= 0 && bestScore >= 2 && !result[best]) result[best] = photoOf(ph);
-  });
-  return result;
-}
+// Photo de chaque activité : seulement celle que l'activité désigne elle-même (champ « photo », même format que la galerie).
+// On n'attribue plus de photo d'après une ressemblance de mots entre légende et activité.
 
-// Étapes qui ne viennent pas du tableur. « hidden » : visible seulement dans l'exemple d'itinéraire.
+// Étapes qui ne viennent pas du tableur (« hidden: true » : visible seulement dans l'exemple d'itinéraire).
 const EXTRA_PLACES = [
-  { id: 'sanur', region: 'bali', name: 'Sanur', themes: 'Plage / détente', see: 'Plage, front de mer à vélo', daysMin: 2, daysMax: 3, lat: -8.688, lon: 115.262, hidden: true, activities: [], prices: [] },
+  { id: 'sanur', region: 'bali', name: 'Sanur', themes: 'Plage / détente', see: 'Plage, front de mer à vélo', daysMin: 2, daysMax: 3, lat: -8.688, lon: 115.262, activities: [], prices: [] },
 ];
 
 export const PLACES = [...base.places, ...EXTRA_PLACES].map((p) => {
   const [short, model, rank, spot] = PLACE_VIEW[p.id];
-  const content = written.places[p.id];
+  const raw = written.places[p.id];
+  // Une activité « hidden » (texte de travail à documenter) reste dans les données mais n'est pas affichée.
+  const content = raw && { ...raw, todo: raw.todo.filter((t) => !t.hidden) };
   // Une galerie n'est utilisée que si elle est complète (fichier et vraie légende pour chaque photo).
   const gallery = (content?.photos || []).filter((ph) => (ph.file || ph.url) && ph.caption?.length > 3);
   const photos = gallery.length ? gallery.map(photoOf) : p.photo ? [sheetPhoto(p.photo)] : [];
-  const todoImages = content ? todoPhotos(content.todo, gallery) : [];
+  const todoImages = content ? content.todo.map((t) => (t.photo ? photoOf(t.photo) : null)) : [];
   // Une activité localisée l'est soit dans sa fiche (lat, lon), soit dans src/data/coords/.
   const todoCoords = (content ? content.todo : []).map((t) => (Number.isFinite(t.lat) && Number.isFinite(t.lon) ? [t.lat, t.lon] : coords[p.id]?.[t.name] || null));
   // « real » garde la vraie position de l'étape, même quand son modèle est déplacé en mer pour la carte 3D.

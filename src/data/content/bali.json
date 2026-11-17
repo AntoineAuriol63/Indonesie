@@ -1,22 +1,48 @@
 {
   "regions": {
     "bali": {
-      "intro": "À Bali, deux à trois heures de route suffisent pour passer des rizières en terrasses à une plage de sable noir. Au centre, Ubud et ses temples. Au nord, les lacs et les cascades de Munduk. À l'est, la vallée de Sidemen puis Amed pour le snorkeling, et tout à l'ouest l'île de Menjangan. On finit au sud par les falaises d'Uluwatu, ou en bateau sur les Nusa. On change d'hôtel tous les deux ou trois jours, avec un chauffeur entre chaque étape.",
-      "august": "Août tombe en pleine saison sèche : il fait beau presque tous les jours, avec de temps en temps une averse en montagne. Au sud, la houle est forte. C'est aussi la haute saison touristique, donc on réserve les hôtels tôt.",
-      "access": "On atterrit à l'aéroport de Denpasar (DPS), dans le sud de l'île. Ensuite tout se fait par la route, avec un chauffeur, et en bateau rapide depuis Sanur pour les Nusa. Chaque visiteur étranger paie une taxe de 150 000 roupies, en ligne sur Love Bali."
+      "intro": "Bali pour combiner temples, rizières et mer. Ubud, Munduk et Sidemen pour la partie terrestre ; Amed, Pemuteran ou le sud pour la côte. Les Nusa demandent une traversée en plus. Je choisirais les bases avant de remplir les journées.",
+      "august": "Août ne garantit ni ciel bleu tous les jours ni mer calme. Garder de la marge pour les trajets et vérifier les conditions des sorties en mer.",
+      "access": "Arrivée à Denpasar puis route. Pour les Nusa, choisir le port de départ et organiser aussi le trajet après le débarquement.",
+      "sources": [
+        {
+          "name": "Indonesia Travel Campuhan et sites autour d Ubud",
+          "url": "https://www.indonesia.travel/id/id/travel-ideas/adventure/15-destinasi-instagrammable-di-bali-yang-harus-sobat-pesona-kunjungi"
+        },
+        {
+          "name": "NOW Bali Munduk",
+          "url": "https://www.nowbali.co.id/into-the-mist-in-munduk/"
+        },
+        {
+          "name": "Discover Bali Sidemen",
+          "url": "https://www.discoverbali.org/areas/sidemen/"
+        },
+        {
+          "name": "Discover Bali Amed",
+          "url": "https://www.discoverbali.org/areas/amed/"
+        },
+        {
+          "name": "Indonesia Travel Pemuteran",
+          "url": "https://www.indonesia.travel/id/id/travel-ideas/adventure/bak-surga-tersembunyi-ini-5-aktivitas-seru-di-desa-wisata-pemuteran-bali"
+        },
+        {
+          "name": "BMKG Maritim prévisions et marées",
+          "url": "https://maritim.bmkg.go.id/cuaca/pasut"
+        }
+      ],
+      "checked": "17 novembre 2026"
     }
   },
   "places": {
     "ubud": {
       "intro": [
-        "Ubud est la petite ville des collines du centre de Bali, à 1 h 30 environ de l'aéroport. On y dort trois ou quatre nuits parce que tout ce qu'on imagine de Bali est à moins d'une heure : des rizières en terrasses, des temples avec leurs bassins, des cascades, des singes.",
-        "Le centre se fait à pied, entre le palais, le marché et la forêt des singes. Pour le reste on prend un chauffeur à la journée ou un scooter, et on part tôt : à partir de 10 h, les routes et les sites se remplissent."
+        "Ubud comme base pour les temples, les rizières et les sorties dans les environs. Le centre se visite à pied, mais les excursions demandent de la route. On peut choisir quelques visites et garder du temps pour se promener, sans toutes les empiler."
       ],
       "todo": [
         {
           "name": "Rizières de Tegallalang",
           "type": "Nature",
-          "text": "À une vingtaine de minutes au nord d'Ubud, des rizières en terrasses taillées dans un vallon étroit, avec des cocotiers partout. On descend par les petits sentiers et on remonte sur l'autre versant. Y être avant 8 h, pour la lumière et pour le calme. Les balançoires se paient en plus.",
+          "text": "Les rizières de Tegallalang se voient depuis plusieurs accès. Certains parcours descendent dans le vallon, avec des marches. Demander ce que comprend le billet ; les balançoires sont une activité à part.",
           "time": "1 h 30",
           "price": {
             "amount": 25000,
@@ -27,18 +53,19 @@
         {
           "name": "Forêt des singes",
           "type": "Faune",
-          "text": "Une forêt sacrée au bout de la rue Monkey Forest, avec trois temples du XIVe siècle couverts de mousse, un pont gardé par des dragons de pierre et plus de mille macaques en liberté. Ouverte de 9 h à 18 h. On range lunettes, bouteilles et tout ce qui dépasse du sac : ils se servent.",
+          "text": "Forêt, temples et macaques en liberté. Garder ses affaires rangées et suivre les consignes du personnel, sans nourrir les animaux. Au relevé de novembre 2026 : de 9 h à 18 h, dernière entrée à 17 h, adulte 130 000 IDR.",
           "time": "1 h 30",
           "price": {
             "amount": 130000,
             "currency": "IDR",
-            "what": "entrée, par adulte étranger"
+            "what": "par adulte étranger, tarif du jour choisi à confirmer",
+            "checked": "novembre 2026"
           }
         },
         {
           "name": "Tirta Empul",
           "type": "Culture",
-          "text": "À Tampaksiring, à une bonne demi-heure d'Ubud, un temple fondé en 962 autour d'une source sacrée. Les Balinais viennent s'y purifier en passant la tête sous chacune des trente fontaines des bassins. On peut le faire aussi, en sarong, en suivant la file et en regardant comment font les autres.",
+          "text": "Le temple et ses bassins de purification. On peut visiter sans participer au rituel. Si on veut le faire, demander les consignes sur place : toutes les fontaines ne s'utilisent pas de la même manière.",
           "time": "1 h 30",
           "price": {
             "amount": 75000,
@@ -49,28 +76,28 @@
         {
           "name": "Gunung Kawi",
           "type": "Culture",
-          "text": "À cinq minutes de route de Tirta Empul : dix sanctuaires de 7 m de haut taillés dans la falaise au XIe siècle, de part et d'autre de la rivière Pakerisan. On y descend par un escalier de 300 à 400 marches entre les rizières, qu'il faut ensuite remonter.",
+          "text": "Des sanctuaires taillés dans la roche, dans la vallée de la Pakerisan. Il faut descendre un long escalier puis le remonter. À combiner avec Tirta Empul si on veut une journée de temples.",
           "time": "1 h 30",
           "price": null
         },
         {
           "name": "Lever de soleil au mont Batur",
           "type": "Randonnée",
-          "text": "Le volcan culmine à 1 717 m. Un chauffeur passe entre 1 h et 2 h du matin, il y a une heure de route, puis on monte deux heures de nuit, 500 m de dénivelé, avec un guide local obligatoire. En haut, le soleil se lève sur le lac Batur, le mont Abang et le mont Agung.",
+          "text": "Une randonnée avant l'aube pour le panorama depuis le Batur. Départ très tôt, montée soutenue et froid à l'arrivée : à garder si on a envie de marcher, avec un guide et un départ autorisé.",
           "time": "la matinée, départ entre 1 h et 2 h",
           "price": null
         },
         {
           "name": "Palais royal et marché",
           "type": "Ville",
-          "text": "Le palais Puri Saren est au carrefour central. L'entrée est gratuite, on traverse ses cours en passant. En face, le marché : fruits et légumes avant l'aube, puis sarongs, paniers et bois sculpté à partir de 8 h. À deux pas, le temple Saraswati et son bassin de lotus, dont l'entrée est payante.",
+          "text": "Le palais et le marché sont au centre d'Ubud. Une balade facile à placer entre deux excursions ; les espaces du palais ouverts au public peuvent varier.",
           "time": "2 h",
           "price": null
         },
         {
           "name": "Danse balinaise au palais",
           "type": "Culture",
-          "text": "Chaque soir à 19 h 30, une troupe danse dans la cour du palais, devant le portail éclairé, avec un orchestre de gamelan. Du legong le plus souvent, du barong certains soirs. Billets à l'entrée, ou auprès des vendeurs de la rue à partir de 17 h. Arriver 45 minutes avant pour être bien placé.",
+          "text": "Un spectacle de danse au palais peut faire une soirée à Ubud. Vérifier le programme du jour et acheter le billet correspondant, sans supposer que tous les soirs proposent le même spectacle.",
           "time": "1 h 30",
           "price": {
             "amount": 100000,
@@ -81,34 +108,36 @@
         {
           "name": "Crête de Campuhan",
           "type": "Randonnée",
-          "text": "Un chemin pavé suit une crête couverte de hautes herbes, au départ du temple Gunung Lebah, à un quart d'heure à pied du palais. Environ deux kilomètres faciles, et c'est gratuit. À faire tôt le matin ou en fin de journée, il n'y a pas d'ombre.",
+          "text": "Une promenade sur la crête de Campuhan, avec peu d'ombre sur les portions dégagées. Choisir jusqu'où on marche avant de faire demi-tour. Plutôt tôt ou en fin de journée.",
           "time": "1 h 30 aller-retour",
           "price": null
         },
         {
           "name": "Cascade de Tegenungan",
           "type": "Nature",
-          "text": "La cascade la plus proche d'Ubud, à 20 ou 30 minutes au sud. Large, haute d'environ 25 m, elle tombe dans un grand bassin au fond d'une gorge. On descend par un escalier et on se baigne au pied quand le courant est calme. Y aller tôt, il y a vite du monde.",
+          "text": "Une cascade accessible par des escaliers au sud d'Ubud. La visite peut se faire sans se baigner. Pour entrer dans l'eau, suivre les zones et consignes autorisées sur place.",
           "time": "1 h 30",
           "price": {
             "amount": 30000,
             "currency": "IDR",
             "what": "entrée, par adulte"
-          }
+          },
+          "hidden": true
         },
         {
           "name": "Cours de cuisine balinaise",
           "type": "Cuisine",
-          "text": "Une demi-journée dans une famille, par exemple chez Paon Bali, au village de Laplapan. Le cours du matin commence au marché d'Ubud, puis on pile soi-même la pâte d'épices, le base gede, et on prépare un curry de poulet ou un gado-gado avant de tout manger ensemble.",
+          "text": "Un cours pour préparer quelques plats balinais et manger ce qu'on a cuisiné. Comparer le menu, la taille du groupe et la présence ou non d'une visite au marché avant de choisir.",
           "time": "demi-journée, le matin ou l'après-midi",
-          "price": null
+          "price": null,
+          "hidden": true
         }
       ],
-      "access": "Depuis l'aéroport de Denpasar, une quarantaine de kilomètres : compter 1 h 30 de voiture, jusqu'à 2 h en fin d'après-midi quand ça bouchonne. Le plus simple est de réserver un chauffeur par l'hôtel.",
+      "access": "Depuis l'aéroport de Denpasar, une quarantaine de kilomètres : durée très variable selon la circulation. Le plus simple est de réserver un chauffeur par l'hôtel.",
       "tips": [
-        "Tegallalang, Tirta Empul et Gunung Kawi sont sur la même route au nord d'Ubud : on les fait dans la même journée avec un chauffeur.",
-        "Sarong obligatoire dans les temples : il est prêté avec le billet à Tirta Empul et à Gunung Kawi.",
-        "Il fait moins de 10 °C au sommet du Batur avant le lever du soleil, avec du vent : prendre une polaire."
+        "Tegallalang, Tirta Empul et Gunung Kawi sont dans le même secteur, au nord d'Ubud, mais pas sur une seule route : prévoir les trajets entre les sites et les escaliers, avec un chauffeur pour la journée.",
+        "Sarong obligatoire dans les temples : il est prêté avec le billet à Tirta Empul et à Gunung Kawi. Pour le bain rituel, demander ce qui est fourni, la tenue n'est pas forcément comprise.",
+        "La randonnée du Batur est une sortie à part : vérifier qu'elle est ouverte avant de réserver. Il fait moins de 10 °C au sommet avant le lever du soleil, avec du vent : prendre une polaire."
       ],
       "photos": [
         {
@@ -153,25 +182,51 @@
           "license": "CC BY 2.0",
           "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
         }
-      ]
+      ],
+      "sources": [
+        {
+          "name": "Indonesia Travel Campuhan et sites autour d Ubud",
+          "url": "https://www.indonesia.travel/id/id/travel-ideas/adventure/15-destinasi-instagrammable-di-bali-yang-harus-sobat-pesona-kunjungi"
+        },
+        {
+          "name": "Sacred Monkey Forest Sanctuary visite",
+          "url": "https://monkeyforestubud.com/visit/"
+        },
+        {
+          "name": "Indonesia Travel sources de Tirta Empul",
+          "url": "https://www.indonesia.travel/id/id/destination/bali-nusa-tenggara/bali/bali---the-holy-springs-of-tirta-empul"
+        },
+        {
+          "name": "Indonesia Travel Gunung Kawi",
+          "url": "https://www.indonesia.travel/id/id/travel-ideas/pilgrimage/gunung-kawi"
+        },
+        {
+          "name": "Badan Geologi recommandations du PVMBG",
+          "url": "https://geologi.esdm.go.id/media-center/badan-geologi-minta-semua-pihak-patuhi-rekomendasi-pvmbg"
+        },
+        {
+          "name": "Wikivoyage Ubud",
+          "url": "https://en.wikivoyage.org/wiki/Ubud"
+        }
+      ],
+      "checked": "17 novembre 2026"
     },
     "munduk": {
       "intro": [
-        "Munduk est un village de montagne du nord de Bali, à 800 m d'altitude environ, au milieu des plantations de girofliers et de caféiers. Il y fait frais : 22 à 26 °C le jour, 15 à 18 °C la nuit.",
-        "On y vient pour marcher de cascade en cascade dans la forêt et pour les deux lacs voisins, Buyan et Tamblingan, à un quart d'heure de route. Deux nuits suffisent, trois si on veut une journée sans rien faire."
+        "Munduk pour les cascades, les plantations et les lacs du nord. Les balades peuvent avoir beaucoup de marches. Une étape à garder si on veut marcher dans un coin plus frais, plutôt qu'enchaîner seulement les plages."
       ],
       "todo": [
         {
           "name": "Sentier des cascades de Munduk",
           "type": "Randonnée",
-          "text": "Un sentier relie quatre cascades autour du village : Golden Valley, Munduk (ou Red Coral), Labuhan Kebo et Melanting. Celle de Munduk est à dix ou vingt minutes du parking, celle de Melanting demande quelques centaines de marches raides. Chaque cascade a son droit d'entrée, de 20 000 à 45 000 roupies, en espèces.",
+          "text": "Golden Valley, Red Coral, Labuhan Kebo et Melanting sont plusieurs cascades autour de Munduk. Choisir un parcours adapté : certaines liaisons et marches sont raides. Les entrées peuvent se payer séparément.",
           "time": "3 à 4 h",
           "price": null
         },
         {
           "name": "Cascade de Banyumala",
           "type": "Nature",
-          "text": "Deux chutes jumelles de 36 m glissent sur une paroi couverte de végétation et tombent dans un bassin où l'on se baigne, de l'eau très froide jusqu'à la taille. C'est à Wanagiri, au-dessus du lac Buyan, à une demi-heure de Munduk, puis un quart d'heure de descente à pied par des marches.",
+          "text": "Banyumala se rejoint à pied après la route vers Wanagiri. La descente peut glisser. Pour la baignade, voir les conditions et consignes du jour, sans se fier aux photos du bassin.",
           "time": "2 h",
           "price": {
             "amount": 50000,
@@ -182,40 +237,42 @@
         {
           "name": "Lacs Buyan et Tamblingan",
           "type": "Nature",
-          "text": "Deux lacs côte à côte, entourés de forêt. La route de crête de Wanagiri les domine tous les deux, avec une plateforme d'où la vue est gratuite. En bas, à Tamblingan, on marche trois heures dans la forêt avec un guide, entre banians géants et vieux temples, puis on traverse le lac en pirogue, une demi-heure.",
+          "text": "Buyan et Tamblingan se voient depuis la route des hauteurs. Pour marcher en forêt ou traverser Tamblingan en pirogue, choisir une sortie locale avec parcours et prix précisés.",
           "time": "demi-journée",
           "price": null
         },
         {
           "name": "Temple Ulun Danu Beratan",
           "type": "Culture",
-          "text": "Le temple aux toits étagés qui paraît flotter sur le lac Beratan, à Bedugul. Bâti en 1633, il est dédié à Dewi Danu, la déesse du lac, dont l'eau irrigue les rizières du centre de Bali. À une demi-heure de Munduk, ouvert de 7 h à 19 h. Y aller tôt, avant les cars.",
+          "text": "Le temple au bord du lac Beratan, dans le secteur de Bedugul. Il peut faire un arrêt sur la route de Munduk, en ajoutant le temps de visite au trajet.",
           "time": "1 h 30",
           "price": {
             "amount": 100000,
             "currency": "IDR",
             "what": "entrée, par adulte étranger (tarif depuis juillet 2026)"
-          }
+          },
+          "hidden": true
         },
         {
           "name": "Plantations de café et de girofle",
           "type": "Cuisine",
-          "text": "Autour du village poussent des caféiers, des girofliers, des cacaoyers et de la vanille. On voit les clous de girofle sécher au bord de la route. La plantation Munduk Moding fait visiter ses caféiers et goûter son café.",
+          "text": "Autour de Munduk, on peut voir des cultures de café et de girofle. Si on veut une visite expliquée et une dégustation, la réserver auprès d'un atelier ou d'un hébergement qui la propose.",
           "time": "1 h",
           "price": null
         },
         {
           "name": "Rizières et banian de Gesing",
           "type": "Randonnée",
-          "text": "Les rizières en terrasses sont à la sortie ouest du village, bien plus calmes que celles d'Ubud. À 5 km par la route, le village de Gesing a un banian géant, un arbre sacré qu'on dit vieux de 700 ans et dont on explore l'entrelacs de racines. Dans Gesing, on suit les panneaux.",
+          "text": "Une sortie vers les rizières et le grand banian de Gesing. Pour les champs, demander par où passer ; l'arbre est un lieu sacré à respecter.",
           "time": "2 à 3 h",
           "price": null
         }
       ],
-      "access": "Depuis Ubud, une soixantaine de kilomètres et 1 h 30 à 2 h de route par Bedugul et les lacs, ce qui laisse le temps de s'arrêter au temple Ulun Danu Beratan en chemin. Depuis l'aéroport, compter 3 h à 3 h 30.",
+      "access": "Depuis Ubud, une soixantaine de kilomètres par Bedugul et les lacs, de l'ordre de 1 h 30 à 2 h de route ; depuis l'aéroport, de l'ordre de 3 h à 3 h 30. Ce sont des estimations : recalculer le trajet depuis l'adresse de l'hôtel. On peut s'arrêter au temple Ulun Danu Beratan en chemin, mais la visite s'ajoute au temps de route.",
       "tips": [
         "Les sentiers des cascades sont raides et glissants, avec beaucoup de marches : de vraies chaussures, pas des tongs.",
         "Les entrées des cascades se paient en espèces : prévoir des petits billets.",
+        "Gesing, Wanagiri et le village de Munduk ne forment pas un seul parcours à pied : prévoir les trajets entre les secteurs.",
         "Les soirées sont fraîches, prévoir un pull."
       ],
       "photos": [
@@ -261,18 +318,28 @@
           "license": "CC BY 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/by/3.0/"
         }
-      ]
+      ],
+      "sources": [
+        {
+          "name": "Jadesta village touristique de Munduk",
+          "url": "https://jadesta.kemenpar.go.id/desa/munduk"
+        },
+        {
+          "name": "NOW Bali Munduk",
+          "url": "https://www.nowbali.co.id/into-the-mist-in-munduk/"
+        }
+      ],
+      "checked": "17 novembre 2026"
     },
     "sidemen": {
       "intro": [
-        "Sidemen est une vallée de rizières dans l'est de Bali, au pied du mont Agung, le plus haut volcan de l'île. Pas de ville : quelques villages le long d'une route et des petits hôtels qui donnent sur les terrasses et le volcan.",
-        "On y vient pour ralentir : on marche dans les rizières le matin, quand le volcan est dégagé, et on ne fait pas grand-chose l'après-midi. C'est aussi un bon endroit d'où partir à la journée vers le palais d'eau de Tirta Gangga, le temple de Lempuyang ou celui de Besakih."
+        "Sidemen pour marcher dans les rizières et voir le tissage. Les grands temples de l'est sont des excursions en voiture, pas des visites au bout du village. On peut y rester sans remplir chaque journée de longs trajets."
       ],
       "todo": [
         {
           "name": "Balade dans les rizières",
           "type": "Randonnée",
-          "text": "Des sentiers partent des hôtels, longent les canaux d'irrigation, passent par les hameaux et descendent vers la rivière Unda et son pont jaune. Avec un guide du coin on fait une boucle de deux ou trois heures, et lui sait par où on a le droit de passer.",
+          "text": "Une marche entre les rizières, les canaux et les hameaux. Avec un guide local, on choisit la durée et on passe par les chemins autorisés, sans traverser n'importe quelle parcelle.",
           "time": "2 à 3 h",
           "price": {
             "amount": 150000,
@@ -283,14 +350,15 @@
         {
           "name": "Ateliers de tissage",
           "type": "Culture",
-          "text": "Sidemen est le grand village de tisserands de Bali. À l'atelier Pelangi, une quarantaine de personnes travaillent l'endek, un ikat aux motifs vifs, sur des métiers à pédales. On y tisse aussi le songket, broché de fils d'or ou d'argent, que l'on porte aux mariages et aux cérémonies.",
+          "text": "Voir un atelier de tissage, notamment pour l'endek ou le songket. Faire confirmer une démonstration avant d'y aller : une boutique ouverte ne veut pas forcément dire que quelqu'un tisse ce jour-là.",
           "time": "1 h",
-          "price": null
+          "price": null,
+          "hidden": true
         },
         {
           "name": "Tirta Gangga",
           "type": "Culture",
-          "text": "Le palais d'eau du dernier raja de Karangasem, construit en 1946 près d'Amlapura et relevé après l'éruption de 1963 : des bassins, une haute fontaine à étages, de grosses carpes koï et des dalles posées sur l'eau pour traverser au milieu des statues. Le temple de Lempuyang est à une demi-heure de là.",
+          "text": "Les jardins d'eau de Tirta Gangga : bassins, fontaines et allées entre les statues. Une visite à prévoir en voiture depuis Sidemen, éventuellement avec une autre étape dans l'est.",
           "time": "1 h 30 sur place",
           "price": {
             "amount": 90000,
@@ -301,18 +369,19 @@
         {
           "name": "Temple de Lempuyang",
           "type": "Culture",
-          "text": "Le temple de la « porte du ciel », un portail fendu qui encadre le mont Agung. Le reflet des photos est un trucage : un miroir tenu sous l'objectif. On reçoit un numéro avec le billet et l'attente pour poser dure deux à quatre heures. Y être vers 6 h, par la première navette depuis le parking.",
+          "text": "La porte connue pour sa vue vers l'Agung. Le reflet sur les photos est souvent créé avec un miroir. À choisir si la visite du temple nous intéresse, en acceptant une possible attente pour la photo.",
           "time": "demi-journée",
           "price": {
             "amount": 150000,
             "currency": "IDR",
             "what": "entrée (100 000) et navette obligatoire aller-retour (50 000), par personne, en espèces"
-          }
+          },
+          "hidden": true
         },
         {
           "name": "Temple de Besakih",
           "type": "Culture",
-          "text": "Le plus grand temple de Bali, à 1 000 m d'altitude sur les pentes du mont Agung, à courte distance de Sidemen. Vingt-trois temples aux toits noirs étagés, reliés par de grands escaliers. Le billet comprend le sarong, la navette pour monter et un guide, qui est imposé.",
+          "text": "Le grand ensemble de temples sur les pentes de l'Agung. Il y a des escaliers. Avant de payer, demander ce que comprend le billet et quels espaces sont ouverts aux visiteurs.",
           "time": "2 h sur place",
           "price": {
             "amount": 150000,
@@ -323,37 +392,17 @@
         {
           "name": "Rafting sur la Telaga Waja",
           "type": "Nature",
-          "text": "La rivière coule à 20 ou 30 minutes de Sidemen. Environ deux heures et demie de descente en raft, avec des rapides réguliers et, pour finir, un barrage de 4 à 5 m qu'on dévale dans le bateau.",
+          "text": "Option rafting, à réserver séparément. Demander le parcours exact, le niveau demandé et les passages prévus avant de décider. À retirer du programme si on veut uniquement des activités tranquilles.",
           "time": "demi-journée",
-          "price": null
-        },
-        {
-          "name": "Route d'Ubud par Klungkung",
-          "type": "Ville",
-          "text": "Ubud est à 33 km, soit 1 h à 1 h 30. En le demandant, le chauffeur s'arrête à Klungkung voir le Kerta Gosa, l'ancien pavillon de justice des rois, dont le plafond est couvert de peintures de style wayang : les châtiments qui attendent les coupables dans l'au-delà.",
-          "time": "1 h à 1 h 30",
-          "price": {
-            "amount": 400000,
-            "currency": "IDR",
-            "what": "transfert en voiture avec chauffeur entre Sidemen et Ubud, prix du trajet (liste de Sidemen Tour & Trekking, novembre 2025)"
-          }
-        },
-        {
-          "name": "Route de Padang Bai",
-          "type": "Ville",
-          "text": "Padang Bai est le port d'où partent les bateaux rapides pour les Gili et Lombok, à 40 minutes environ de Sidemen. Pratique si on enchaîne sur les Gili : on quitte l'hôtel le matin et on embarque dans la foulée.",
-          "time": "40 min",
-          "price": {
-            "amount": 350000,
-            "currency": "IDR",
-            "what": "transfert en voiture avec chauffeur entre Sidemen et Padang Bai, prix du trajet (liste de Sidemen Tour & Trekking, novembre 2025)"
-          }
+          "price": null,
+          "hidden": true
         }
       ],
-      "access": "Depuis Ubud, 33 km et 1 h à 1 h 30 de route vers l'est en passant par Klungkung. Depuis l'aéroport, compter 2 h. Grab et Gojek ne viennent presque jamais jusqu'à Sidemen : pour repartir, on réserve un chauffeur quelques jours avant.",
+      "access": "Depuis Ubud, 33 km et environ 1 h à 1 h 30 de route vers l'est en passant par Klungkung ; on peut demander au chauffeur un arrêt au Kerta Gosa, en faisant chiffrer le détour et l'attente. Depuis l'aéroport, compter environ 2 h. Padang Bai, pour poursuivre vers les Gili ou Lombok, est à environ 40 minutes de route : prévoir le trajet, l'enregistrement et une marge avant le bateau. Organiser le transfert avec l'hébergement ou un chauffeur.",
       "tips": [
         "Tous les chemins des rizières ne sont pas publics, on traverse souvent des parcelles privées : prendre un guide pour la première balade.",
-        "Le mont Agung se voit surtout tôt le matin, avant que les nuages ne montent."
+        "Le mont Agung se voit surtout tôt le matin, avant que les nuages ne montent.",
+        "Ancien exemple de prix, pas un devis pour 2027 : en novembre 2025, la liste de Sidemen Tour & Trekking indiquait 400 000 IDR le transfert vers Ubud et 350 000 IDR vers Padang Bai, prix du trajet."
       ],
       "photos": [
         {
@@ -396,69 +445,81 @@
           "license": "CC BY 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
         }
-      ]
+      ],
+      "sources": [
+        {
+          "name": "Discover Bali Sidemen",
+          "url": "https://www.discoverbali.org/areas/sidemen/"
+        },
+        {
+          "name": "Indonesia Travel Tirta Gangga",
+          "url": "https://www.indonesia.travel/id/id/destination/bali-nusa-tenggara/bali/tirta-gangga"
+        }
+      ],
+      "checked": "17 novembre 2026"
     },
     "amed": {
       "intro": [
-        "Amed, c'est une suite de sept villages de pêcheurs sur la côte nord-est de Bali, le long de 14 km de route : Amed, Jemeluk, Bunutan, Lipah, puis Selang, Banyuning et Aas. Des plages de galets noirs et de sable gris, des pirogues à balancier alignées, et le mont Agung juste derrière.",
-        "On vient ici pour le snorkeling. Le corail commence à quelques mètres du bord : on entre dans l'eau depuis la plage, sans bateau, avec un masque loué sur place, 50 000 à 100 000 roupies la journée. À Tulamben, à 20 minutes, une épave de cargo repose tout près du rivage."
+        "Amed pour quelques jours près de la mer, avec du snorkeling à Jemeluk ou Lipah et une sortie vers Tulamben. Les sites sont dispersés le long de la côte : choisir l'hébergement en fonction de ce qu'on veut faire."
       ],
       "todo": [
         {
           "name": "Snorkeling dans la baie de Jemeluk",
           "type": "Mer",
-          "text": "La baie la plus connue d'Amed, abritée, presque sans courant. On part de la plage et on trouve tout de suite du corail et des poissons, parfois une tortue tôt le matin. À droite, à vingt mètres du bord, une bouée signale un petit temple immergé et des statues, par 3 à 5 m de fond.",
+          "text": "À Jemeluk, on peut partir du bord pour voir le récif quand les conditions sont bonnes. Demander le point d'entrée et les limites de la zone avant de nager ; attention aux bateaux.",
           "time": "2 h",
           "price": null
         },
         {
           "name": "Épave du Liberty à Tulamben",
           "type": "Mer",
-          "text": "Un cargo américain de 125 m torpillé par un sous-marin japonais en 1942 et échoué sur la plage. L'éruption de l'Agung l'a fait glisser dans l'eau en 1963. Il repose à une trentaine de mètres du bord et sa partie haute, à 4 ou 5 m sous la surface, se voit bien avec un masque.",
+          "text": "L'épave du Liberty est près du rivage à Tulamben. On peut en voir une partie en snorkeling selon la visibilité ; pour descendre sur l'épave, c'est une activité de plongée distincte.",
           "time": "demi-journée",
           "price": null
         },
         {
           "name": "Lipah et l'épave de Banyuning",
           "type": "Mer",
-          "text": "Plus au sud, la plage de Lipah, en sable gris fin, a un récif juste devant, avec des tortues et des poissons-perroquets. Plus loin, à Banyuning, une épave japonaise couverte de coraux commence à 15 ou 20 m de la plage, le haut à 2 m sous l'eau. Éviter la marée basse.",
+          "text": "Lipah pour le récif depuis la plage ; Banyuning pour une petite épave près du bord. Ce sont deux arrêts différents. Choisir selon l'état de la mer et les conseils du jour.",
           "time": "demi-journée",
           "price": null
         },
         {
           "name": "Sortie en pirogue au lever du soleil",
           "type": "Mer",
-          "text": "Les pêcheurs partent à l'aube sur leurs jukung, des pirogues à balancier, pêcher le maquereau à la traîne. Certains emmènent des passagers, départ vers 5 h : on voit le soleil se lever du côté du Rinjani, le volcan de Lombok, pendant que le mont Agung s'éclaire côté terre.",
+          "text": "Une sortie à l'aube en jukung, la pirogue à balancier locale. À organiser avec un pêcheur ou l'hébergement, en précisant le programme, le prix et la présence de gilets.",
           "time": "2 à 3 h",
-          "price": null
+          "price": null,
+          "hidden": true
         },
         {
           "name": "Coucher de soleil à Jemeluk",
           "type": "Nature",
-          "text": "Depuis les hauteurs de la baie de Jemeluk, le soleil descend à côté du cône de l'Agung, avec les pirogues en contrebas. Plusieurs cafés ont leurs terrasses exactement là, dont Sunset Point. Arriver vers 17 h, les places partent vite.",
+          "text": "Les hauteurs de Jemeluk donnent une vue sur la baie et l'Agung quand il est dégagé. Un arrêt en fin de journée, sans avoir besoin de réserver toute une excursion.",
           "time": "1 h",
           "price": null
         },
         {
           "name": "Salines d'Amed",
           "type": "Culture",
-          "text": "Sur la plage d'Amed, environ vingt-cinq familles fabriquent encore le sel à la main. L'eau de mer est filtrée dans du bambou tressé puis s'évapore au soleil dans des troncs de cocotier fendus en deux. Ça se passe en saison sèche, donc en août. Le sel se vend à l'Amed Salt Center.",
+          "text": "Amed a une production artisanale de sel. Si on veut voir le travail, demander où une visite est possible pendant le séjour ; la vente de sel seule ne garantit pas une démonstration.",
           "time": "30 min",
-          "price": null
+          "price": null,
+          "hidden": true
         },
         {
           "name": "Tirta Gangga et Lempuyang",
           "type": "Culture",
-          "text": "Les deux sont plus près d'Amed que de Sidemen : le temple de Lempuyang est à une quinzaine de kilomètres, le palais d'eau de Tirta Gangga à moins d'une heure, avec une demi-heure de route entre les deux. On commence par Lempuyang, le plus tôt possible, avant la queue à la « porte du ciel ».",
+          "text": "Tirta Gangga et Lempuyang peuvent se visiter depuis Amed. Calculer les trajets séparément et choisir si on veut faire les deux ou garder davantage de temps à la mer.",
           "time": "demi-journée",
           "price": null
         }
       ],
-      "access": "Depuis Sidemen, environ 1 h 30 de route. Depuis Ubud ou l'aéroport, compter 2 h 30 à 3 h.",
+      "access": "Depuis Sidemen, environ 1 h 30 de route. Depuis Ubud ou l'aéroport, compter 2 h 30 à 3 h, parfois plus selon la circulation.",
       "tips": [
         "Il faut savoir nager. Demander à l'hôtel où se mettre à l'eau selon la mer du jour : à Bunutan et à Selang, le courant peut être fort.",
-        "Les plages sont en galets : des chaussons d'eau à semelle dure changent la vie.",
-        "Des bateaux passent dans la baie de Jemeluk : on reste près du récif."
+        "Les plages sont en galets : des chaussons d'eau à semelle dure pour les galets, sans marcher sur les coraux.",
+        "Des bateaux passent dans la baie de Jemeluk : rester dans la zone indiquée par le guide, sans toucher le récif et en surveillant les bateaux."
       ],
       "photos": [
         {
@@ -503,18 +564,36 @@
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
         }
-      ]
+      ],
+      "sources": [
+        {
+          "name": "Discover Bali Amed",
+          "url": "https://www.discoverbali.org/areas/amed/"
+        },
+        {
+          "name": "Gouvernement de Karangasem Jemeluk",
+          "url": "https://v2.karangasemkab.go.id/index.php/baca-pariwisata/159/JEMELUK-"
+        },
+        {
+          "name": "Green Fins bonnes pratiques en snorkeling",
+          "url": "https://greenfins.net/material/gf_all_eng_bestpracticesnorkeller_a4/"
+        },
+        {
+          "name": "Indonesia Travel Tirta Gangga",
+          "url": "https://www.indonesia.travel/id/id/destination/bali-nusa-tenggara/bali/tirta-gangga"
+        }
+      ],
+      "checked": "17 novembre 2026"
     },
     "pemuteran-menjangan": {
       "intro": [
-        "Pemuteran est un village de pêcheurs calme du nord-ouest de Bali, entre la mer et les collines, loin de tout : il faut environ quatre heures de route depuis le sud. Une longue plage de sable noir, peu de monde, et le récif juste devant.",
-        "On y vient pour Menjangan, une petite île du parc national de Bali Barat, à 20 ou 45 minutes de bateau selon l'embarcadère. Pas de village : des temples et des cerfs. Son récif est un des mieux conservés de Bali, l'eau est claire et la mer calme. On y passe la journée, le masque sur le nez."
+        "Pemuteran pour le récif près de la plage et les sorties vers Menjangan. Bali Barat ajoute une possibilité de marche guidée. Il faut choisir entre une journée en mer et une sortie terrestre, plutôt que tout compter comme une seule excursion."
       ],
       "todo": [
         {
           "name": "Snorkeling à Menjangan",
           "type": "Mer",
-          "text": "Une sortie en bateau depuis la plage de Pemuteran ou depuis Labuhan Lalang, l'embarcadère du parc, à un quart d'heure de route. En général deux mises à l'eau le long du tombant, parmi plus de cent espèces de coraux. Guide et permis du parc sont obligatoires. Rien à boire ni à manger sur l'île.",
+          "text": "Une sortie en bateau vers les récifs de Menjangan. Demander le nombre d'arrêts, l'encadrement et ce qui est inclus, surtout le droit du parc. Les sites se choisissent selon la mer.",
           "time": "la journée",
           "price": {
             "amount": 200000,
@@ -525,44 +604,45 @@
         {
           "name": "Cerfs et temples de l'île",
           "type": "Faune",
-          "text": "Menjangan veut dire « cerf ». Ceux de l'île sont des cerfs rusa, capables de traverser à la nage depuis Bali. À terre, il y a trois temples et, sur une pointe, une grande statue blanche de Ganesh tournée vers le large. Le tour de l'île à pied prend 1 h 15.",
+          "text": "Il peut y avoir un arrêt à terre pour les temples et les paysages de Menjangan. Demander si c'est prévu dans la sortie. La présence des cerfs ne se programme pas.",
           "time": "1 h 15",
           "price": null
         },
         {
           "name": "Récif restauré de Pemuteran",
           "type": "Mer",
-          "text": "Devant la plage, plus de 70 structures métalliques immergées, sur un demi-kilomètre, où le corail repousse, avec des statues au milieu : le projet Karang Lestari, lancé au village en 2000. On y nage directement depuis le bord, à l'ouest du village.",
+          "text": "Le projet Biorock de Pemuteran utilise des structures immergées pour la restauration du récif. Certaines se voient en snorkeling depuis le bord, en respectant les zones d'accès.",
           "time": "1 h 30",
           "price": null
         },
         {
           "name": "Marche dans le parc de Bali Barat",
           "type": "Faune",
-          "text": "On marche avec un guide officiel du parc, c'est obligatoire. Le sentier de Tegal Blunder, facile, deux heures, est celui des oiseaux. On croise des cerfs et des langurs noirs. Le parc est le dernier refuge de l'étourneau de Bali, tout blanc, le tour de l'œil bleu : moins de cent vivent en liberté.",
+          "text": "Une marche avec un guide du parc pour la forêt et les oiseaux. L'étourneau de Bali fait partie des espèces recherchées, sans garantie d'en voir. Choisir le parcours selon la chaleur et le temps disponible.",
           "time": "2 h de marche",
           "price": null
         },
         {
           "name": "Temple de Pulaki",
           "type": "Culture",
-          "text": "Un temple de la mer au bord de la route côtière, adossé à des rochers, face à la plage, à 3 km à l'est de Pemuteran. La légende dit que des macaques y ont guidé le prêtre Nirartha, venu de Java. Ils y vivent toujours et attrapent ce qui traîne : on garde son sac fermé.",
+          "text": "Pulaki, un temple au bord de la route côtière. Un arrêt possible près de Pemuteran ; garder ses affaires rangées en présence des macaques et suivre les règles du temple.",
           "time": "45 min",
-          "price": null
+          "price": null,
+          "hidden": true
         },
         {
           "name": "Fin de journée sur la plage",
           "type": "Détente",
-          "text": "La mer est calme, souvent plate comme un lac. En fin de journée le soleil descend du côté des volcans de Java et il n'y a presque personne sur le sable noir. À marée basse, le récif affleure à l'est de la plage.",
+          "text": "Une fin de journée sur la plage de Pemuteran. À marée basse, certaines zones sont trop peu profondes pour nager : ne pas marcher sur le récif.",
           "time": "",
           "price": null
         }
       ],
-      "access": "Depuis Munduk, une soixantaine de kilomètres, soit une bonne heure de route en redescendant vers la côte nord. Depuis Lovina, 1 h 15. Depuis l'aéroport, compter environ 4 h.",
+      "access": "Depuis Munduk, une soixantaine de kilomètres en redescendant vers la côte nord : calculer le temps de route pour le trajet prévu. Depuis Lovina, environ 1 h 15. Depuis l'aéroport, compter environ 4 h.",
       "tips": [
-        "Pour Menjangan, demander ce que comprend le tarif : bateau, guide, masque, déjeuner. Le droit d'entrée du parc national est souvent compté à part.",
+        "Pour Menjangan, demander un devis qui sépare bateau, guide, masque, repas et droit d'entrée du parc national, souvent compté à part.",
         "Si on part de Labuhan Lalang sans agence, le permis s'achète au bureau du parc, derrière le parking, où l'on trouve aussi un guide.",
-        "Des oursins sur le récif devant Pemuteran à marée basse : chaussons d'eau."
+        "Des oursins sur le récif devant Pemuteran à marée basse : ne pas marcher sur les coraux ; attendre une hauteur d'eau suffisante et suivre le point d'entrée indiqué."
       ],
       "photos": [
         {
@@ -607,80 +687,103 @@
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
         }
-      ]
+      ],
+      "sources": [
+        {
+          "name": "Indonesia Travel Pemuteran",
+          "url": "https://www.indonesia.travel/id/id/travel-ideas/adventure/bak-surga-tersembunyi-ini-5-aktivitas-seru-di-desa-wisata-pemuteran-bali"
+        },
+        {
+          "name": "Green Fins bonnes pratiques en snorkeling",
+          "url": "https://greenfins.net/material/gf_all_eng_bestpracticesnorkeller_a4/"
+        },
+        {
+          "name": "Tirto lâcher d étourneaux de Bali à Tabanan",
+          "url": "https://tirto.id/upaya-pelestarian-satwa-15-jalak-bali-dilepas-di-tabanan-hDYR"
+        },
+        {
+          "name": "BMKG Maritim prévisions et marées",
+          "url": "https://maritim.bmkg.go.id/cuaca/pasut"
+        }
+      ],
+      "checked": "17 novembre 2026"
     },
     "sud-de-bali-uluwatu": {
       "intro": [
-        "La presqu'île de Bukit, tout au sud de Bali, est un plateau calcaire qui tombe dans l'océan Indien par de hautes falaises. Au bout, le temple d'Uluwatu. En dessous, des plages qu'on atteint par des escaliers et les vagues de récif qui ont fait la réputation d'Uluwatu chez les surfeurs.",
-        "C'est à 40 minutes de l'aéroport quand ça roule, donc pratique pour finir le voyage : deux ou trois jours de plage, un coucher de soleil avec la danse kecak, un dîner de poisson grillé à Jimbaran."
+        "Le sud autour d'Uluwatu pour les falaises, le temple, le kecak et les plages. Beaucoup de criques se rejoignent par des escaliers. Pour se baigner ou apprendre le surf, choisir un endroit adapté aux conditions du jour, pas à sa seule réputation."
       ],
       "todo": [
         {
           "name": "Temple d'Uluwatu",
           "type": "Culture",
-          "text": "Un petit temple au bord d'une falaise de 70 m au-dessus de l'océan, agrandi au XIe siècle. On longe le vide par un chemin bordé d'un muret. Les macaques volent lunettes et tongs et ne les rendent que contre de la nourriture : on range tout. Ouvert de 7 h à 19 h.",
+          "text": "Le temple et le chemin au-dessus des falaises. Rester sur le parcours et ranger lunettes et objets faciles à saisir. Si un macaque prend quelque chose, appeler le personnel plutôt que le nourrir.",
           "time": "1 h 30",
-          "price": null
+          "price": null,
+          "hidden": true
         },
         {
           "name": "Danse kecak au coucher du soleil",
           "type": "Culture",
-          "text": "Tous les soirs à 18 h, puis à 19 h, dans l'amphithéâtre à côté du temple. Pas d'instruments : une cinquantaine d'hommes assis en cercle scandent « tchak » pendant que des danseurs jouent le Ramayana, et ça finit dans le feu. Réserver quelques jours avant. L'entrée du temple se paie en plus.",
+          "text": "Le kecak, avec son chœur d'hommes et les scènes du Ramayana. À réserver selon le programme du jour. Vérifier si l'entrée du temple est comprise ou à payer séparément.",
           "time": "1 h",
           "price": {
             "amount": 150000,
             "currency": "IDR",
             "what": "billet du spectacle, par personne (entrée du temple en plus)"
-          }
+          },
+          "hidden": true
         },
         {
           "name": "Plage de Padang Padang",
           "type": "Mer",
-          "text": "Une crique de sable clair qu'on rejoint par un escalier de 120 marches coincé dans une faille entre deux rochers. À marée basse l'eau est calme, c'est une des rares plages du coin où l'on se baigne facilement. À marée haute le sable disparaît presque. Entrée payante, singes près du parking.",
+          "text": "Une petite crique accessible par un escalier entre les rochers. Il peut y avoir du monde et de la houle. Pour la baignade, suivre les consignes locales du jour.",
           "time": "2 h",
           "price": null
         },
         {
           "name": "Plage de Suluban",
           "type": "Mer",
-          "text": "Sous les cafés de Blue Point : on descend des escaliers raides, on passe dans une grotte et on débouche sur le sable et les rochers, à marée basse seulement. Les surfeurs partent de là vers la vague d'Uluwatu, on les regarde depuis les terrasses. Pas une plage pour se baigner.",
+          "text": "Suluban pour les rochers, les passages sous la falaise et les surfeurs au large. Vérifier l'accès avec la marée et garder cette visite comme un point de vue, pas comme une baignade.",
           "time": "1 h 30",
           "price": null
         },
         {
           "name": "Bingin et Dreamland",
           "type": "Mer",
-          "text": "Bingin est une petite plage de surf en bas d'un escalier raide. En 2025, les autorités ont fait démolir des constructions sans permis sur la falaise : l'accès et les commerces ont changé, on se renseigne sur place. À marée basse on rejoint à pied Dreamland, une grande plage aux vagues puissantes, bonne pour le bodyboard.",
+          "text": "Bingin et Dreamland sont deux plages de surf. Les accès et commerces de Bingin ont changé : se renseigner avant de descendre. Ne pas compter sur une liaison à pied par la plage.",
           "time": "demi-journée",
           "price": null
         },
         {
           "name": "Cours de surf pour débutants",
           "type": "Mer",
-          "text": "Les grosses vagues d'Uluwatu cassent sur le récif et sont pour les surfeurs confirmés. Pour un premier cours, on va sur la petite vague du bord à Padang Padang ou à Thomas Beach, où les vagues sont plus douces et où des stands louent des planches et donnent des leçons.",
+          "text": "Pour un premier cours, laisser une école choisir le spot selon la houle et le niveau. Les vagues connues d'Uluwatu demandent de l'expérience ; ce n'est pas le point de départ par défaut.",
           "time": "2 h",
-          "price": null
+          "price": null,
+          "hidden": true
         },
         {
           "name": "Plage de Melasti",
           "type": "Mer",
-          "text": "Sur la côte sud de la presqu'île. La route descend en lacets entre des murs de calcaire jusqu'à une longue plage blanche protégée par le récif. À marée haute il y a assez d'eau pour nager, à marée basse le récif affleure. On arrive en voiture au niveau du sable. Transats, douches et clubs de plage.",
+          "text": "Melasti a un accès en voiture jusqu'au bas des falaises. Pour nager, vérifier la hauteur d'eau, la houle et les zones surveillées ; la plage ne sera pas la même à marée basse et haute.",
           "time": "demi-journée",
           "price": null
         },
         {
           "name": "Poisson grillé à Jimbaran",
           "type": "Cuisine",
-          "text": "À Jimbaran, à 10 ou 15 minutes au sud de l'aéroport, une cinquantaine de restaurants installent leurs tables dans le sable. On choisit son poisson et ses crevettes au poids, ils sont grillés sur place, et on dîne pieds nus pendant que le soleil se couche. Arriver vers 17 h.",
+          "text": "Un dîner de poisson grillé sur la plage de Jimbaran. Demander le prix au poids et le total avant de commander, surtout pour les fruits de mer.",
           "time": "la soirée",
-          "price": null
+          "price": null,
+          "hidden": true
         }
       ],
-      "access": "Depuis l'aéroport, 20 à 25 km : 40 minutes quand ça roule, jusqu'à 1 h 30 en fin d'après-midi. Sur place les plages sont loin les unes des autres et les routes ne communiquent pas toujours : il faut un scooter ou un chauffeur.",
+      "access": "Depuis l'aéroport, 20 à 25 km : environ 40 minutes quand ça roule, jusqu'à 1 h 30 en fin d'après-midi. Sur place les plages sont loin les unes des autres et les routes ne communiquent pas toujours : il faut un scooter ou un chauffeur.",
       "tips": [
-        "Les plages sont au pied des falaises : escaliers raides partout, et plusieurs disparaissent à marée haute. Regarder l'horaire des marées avant de descendre.",
-        "L'océan est puissant de ce côté, surtout en saison sèche, la saison du surf. On se baigne à Melasti ou à Padang Padang à marée basse, pas n'importe où.",
-        "Sarong obligatoire au temple d'Uluwatu, prêté à l'entrée. Pour le kecak sans réservation, être au guichet vers 16 h 30."
+        "Beaucoup de plages sont au pied des falaises, avec des escaliers raides ; Melasti a un accès par la route. Plusieurs disparaissent à marée haute : regarder l'horaire des marées avant de descendre.",
+        "L'océan est puissant de ce côté, surtout en saison sèche, la saison du surf. La marée seule ne dit pas si la baignade est sûre : se renseigner sur place avant d'entrer dans l'eau.",
+        "Sarong obligatoire au temple d'Uluwatu, prêté à l'entrée. Le temple et le kecak ont des billets distincts : vérifier les deux. Pour le kecak sans réservation, se présenter au guichet en avance.",
+        "Si un singe prend un objet, ne pas le nourrir : demander l'aide du personnel du temple."
       ],
       "photos": [
         {
@@ -725,18 +828,32 @@
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
         }
-      ]
+      ],
+      "sources": [
+        {
+          "name": "Indonesia Travel plages de Bali",
+          "url": "https://www.indonesia.travel/id/id/travel-ideas/marine/a-day-for-exploring-bali-s-finest-beaches"
+        },
+        {
+          "name": "BMKG Maritim prévisions et marées",
+          "url": "https://maritim.bmkg.go.id/cuaca/pasut"
+        },
+        {
+          "name": "Green Fins bonnes pratiques en snorkeling",
+          "url": "https://greenfins.net/material/gf_all_eng_bestpracticesnorkeller_a4/"
+        }
+      ],
+      "checked": "17 novembre 2026"
     },
     "nusa-penida-lembongan": {
       "intro": [
-        "Trois îles au sud-est de Bali, à 30 ou 45 minutes de bateau rapide depuis Sanur. Nusa Penida, la grande, est un bloc de calcaire aux falaises de près de 200 m : c'est là que sont Kelingking, Broken Beach et Diamond Beach. Lembongan et Ceningan, toutes petites et reliées par un pont jaune, sont plus douces, avec des plages, de la mangrove et des champs d'algues.",
-        "On dort sur l'une ou l'autre et on visite Penida en deux jours, l'ouest puis l'est, avec un chauffeur. Les points de vue sont en haut des falaises. Descendre jusqu'aux plages, c'est une autre affaire."
+        "Penida pour les falaises et les grands points de vue. Lembongan et Ceningan pour une étape plus compacte, avec mangrove et sorties en mer. Ce sont plusieurs îles : choisir où dormir et compter les traversées dans le programme."
       ],
       "todo": [
         {
           "name": "Kelingking",
           "type": "Nature",
-          "text": "La falaise en forme de tête de tyrannosaure, haute de 180 m, avec une plage blanche tout en bas. La descente suit l'arête : 156 marches, puis un sentier très raide, vingt minutes pour descendre, une bonne demi-heure pour remonter. La baignade est interdite depuis 2023 : la vue d'en haut suffit. Un escalier en dur est en construction.",
+          "text": "Le point de vue sur la falaise de Kelingking. On peut rester en haut. La descente vers la plage est beaucoup plus exigeante et ne doit pas être traitée comme une promenade rapide.",
           "time": "1 h, ou 2 h avec la descente",
           "price": {
             "amount": 25000,
@@ -747,7 +864,7 @@
         {
           "name": "Broken Beach et Angel's Billabong",
           "type": "Nature",
-          "text": "Deux sites à quelques minutes à pied l'un de l'autre, à 40 minutes de route de Toyapakeh. Broken Beach est une crique ronde fermée par une arche sous laquelle la mer entre, on la regarde d'en haut. Angel's Billabong est une piscine naturelle dans la roche : baignade interdite, les vagues y ont emporté des gens.",
+          "text": "Broken Beach et Angel's Billabong se visitent à pied dans le même secteur. On les regarde depuis les zones autorisées, sans descendre dans le bassin exposé aux vagues.",
           "time": "1 h 30",
           "price": {
             "amount": 25000,
@@ -758,7 +875,7 @@
         {
           "name": "Crystal Bay",
           "type": "Mer",
-          "text": "Une baie de sable blanc et d'eau claire sur la côte ouest de Penida. On y fait du snorkeling depuis le bord, sans s'éloigner : la baie est abritée mais il y a du courant plus loin. Bien pour le coucher du soleil.",
+          "text": "Crystal Bay pour la plage et le paysage. Pour le snorkeling, demander les conditions et la zone adaptée ce jour-là ; le courant peut compter même si la baie paraît abritée.",
           "time": "2 h",
           "price": {
             "amount": 25000,
@@ -769,51 +886,55 @@
         {
           "name": "Diamond Beach et Atuh",
           "type": "Nature",
-          "text": "À la pointe est de Penida, à l'opposé des ports. Un escalier étroit taillé dans la falaise blanche descend en dix minutes vers Diamond Beach et ses rochers pointus dans l'eau turquoise. Les vagues y sont fortes et le sable disparaît à marée haute. Juste à côté, à pied, la plage d'Atuh et ses warungs. Entrée payante.",
+          "text": "Deux plages de l'est de Penida, avec des accès par les falaises. Prévoir les escaliers et la remontée. On peut aussi choisir les points de vue sans descendre sur le sable.",
           "time": "demi-journée",
           "price": null
         },
         {
           "name": "Raies manta en snorkeling",
           "type": "Faune",
-          "text": "Une sortie en bateau le matin, en trois arrêts. Les raies manta sont là toute l'année et on nage au-dessus d'elles. Manta Point, exposé à la houle, remue beaucoup ; si la mer est trop forte, le bateau va à Manta Bay, plus abritée. Ensuite, arrêt sur le corail de Crystal Bay ou de Gamat Bay.",
+          "text": "Une sortie pour chercher les mantas si la mer permet d'atteindre les sites. Aucune rencontre garantie. Entrer calmement dans l'eau, garder ses distances et ne pas suivre les animaux en les poursuivant.",
           "time": "demi-journée",
           "price": null
         },
         {
           "name": "Pont jaune et Nusa Ceningan",
           "type": "Nature",
-          "text": "Lembongan et Ceningan sont reliées par un pont suspendu jaune, refait en 2017, où ne passent que les piétons et les scooters. Dans le chenal, des champs d'algues. Côté Ceningan, on va voir le Blue Lagoon, une anse d'un bleu laiteux entre les falaises. Pas de barrière : on reste loin du bord.",
+          "text": "Le pont jaune relie Lembongan et Ceningan. De l'autre côté, Blue Lagoon se regarde depuis la terre. Rester en retrait des bords de falaise.",
           "time": "demi-journée",
-          "price": null
+          "price": null,
+          "hidden": true
         },
         {
           "name": "Devil's Tear et Dream Beach",
           "type": "Nature",
-          "text": "Au sud-ouest de Lembongan. À Devil's Tear, la houle s'engouffre sous la roche et ressort en gerbes : on reste derrière les cordes, des visiteurs y sont morts. Dream Beach, une plage de sable blanc, est juste à côté. Les courants y sont violents, on ne s'y baigne pas.",
+          "text": "Devil's Tear pour voir la houle frapper les rochers, depuis les zones prévues. Dream Beach est à côté. Garder cette sortie pour les paysages, sans prévoir une baignade.",
           "time": "1 h 30",
           "price": null
         },
         {
           "name": "Mangrove de Lembongan",
           "type": "Nature",
-          "text": "Tout le nord de l'île est une mangrove. On la parcourt en pirogue avec un batelier, en kayak ou en paddle, par des couloirs étroits entre les palétuviers.",
+          "text": "Une sortie en barque ou en kayak dans la mangrove de Lembongan. Voir avec le prestataire le bon créneau de marée, la durée et ce qui est compris.",
           "time": "1 h",
           "price": null
         },
         {
           "name": "Grotte-temple de Goa Giri Putri",
           "type": "Culture",
-          "text": "Sur la côte nord-est de Penida. On se glisse par une fente étroite dans la roche, et derrière s'ouvre une grande grotte avec plusieurs autels. Pas de billet : on laisse un don, 20 000 roupies environ, et on loue un sarong sur place. Ouvert de 7 h à 17 h.",
+          "text": "Un temple dans une grande grotte, avec une entrée étroite. À choisir si ce passage nous convient. Tenue et conditions de visite à demander sur place avant d'entrer.",
           "time": "1 h",
-          "price": null
+          "price": null,
+          "hidden": true
         }
       ],
-      "access": "Bateau rapide depuis le port de Sanur, 30 à 45 minutes jusqu'à Lembongan ou Penida. Entre les deux îles, un bateau public part toutes les heures du pont jaune pour Toyapakeh, 10 à 15 minutes de traversée.",
+      "access": "Bateau rapide depuis le port de Sanur, environ 30 à 45 minutes de traversée jusqu'à Lembongan ou Penida, hors attente et transferts. Entre les deux îles, des bateaux publics relient le pont jaune à Toyapakeh, 10 à 15 minutes de traversée : demander les horaires à l'opérateur.",
       "tips": [
-        "Voir une plage d'en haut ne veut pas dire qu'on peut y descendre : à Kelingking et à Diamond Beach, les sentiers sont raides et sans ombre.",
+        "Voir une plage d'en haut ne veut pas dire qu'on peut y descendre : à Kelingking et à Diamond Beach, les sentiers sont raides et sans ombre. Ces descentes sont des sorties exigeantes, à séparer des points de vue.",
         "Les routes de Penida sont étroites et cabossées. Prendre un chauffeur si on n'a pas l'habitude du scooter.",
-        "Depuis 2026, chaque étranger paie 25 000 roupies en arrivant sur les îles, puis 25 000 à l'entrée de chaque grand site de Penida. Tout se règle sans espèces."
+        "Le Klungkung applique une redevance touristique depuis le 1er septembre 2026 : 25 000 roupies par étranger à l'arrivée sur les îles, plus des droits d'entrée sur certains sites de Penida. Vérifier la grille et la liste des sites avant le départ.",
+        "Prévoir aussi des espèces : le paiement sans espèces n'est pas possible partout.",
+        "Une journée depuis Bali ne suffit pas pour toute la liste : choisir quelques sites."
       ],
       "photos": [
         {
@@ -858,7 +979,30 @@
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
         }
-      ]
+      ],
+      "sources": [
+        {
+          "name": "Indonesia Travel plages de Bali",
+          "url": "https://www.indonesia.travel/id/id/travel-ideas/marine/a-day-for-exploring-bali-s-finest-beaches"
+        },
+        {
+          "name": "Klungkung redevances touristiques septembre 2026",
+          "url": "https://ppid.klungkungkab.go.id/pemerintah-kabupaten-klungkung-resmi-memberlakukan-retribusi-pariwisata-mulai-1-september-2026/"
+        },
+        {
+          "name": "Manta Trust Swim with Mantas",
+          "url": "https://swimwithmantas.org/"
+        },
+        {
+          "name": "BMKG Maritim prévisions et marées",
+          "url": "https://maritim.bmkg.go.id/cuaca/pasut"
+        },
+        {
+          "name": "Green Fins bonnes pratiques en snorkeling",
+          "url": "https://greenfins.net/material/gf_all_eng_bestpracticesnorkeller_a4/"
+        }
+      ],
+      "checked": "17 novembre 2026"
     }
   }
 }

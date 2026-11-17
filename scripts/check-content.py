@@ -1,6 +1,6 @@
 """Contrôle d'un fichier de contenu des fiches : format, longueurs, tics d'écriture, photos.
 
-Usage : python3 scripts/check-content.py src/data/content/java.json
+Usage : python3 scripts/check-content.py src/data/content/java.json [--sans-photos]
 """
 import json
 import re
@@ -15,8 +15,8 @@ TYPES = {"Culture", "Nature", "Mer", "Randonnée", "Ville", "Cuisine", "Faune", 
 BANNED = [
     "permet de", "permettent de", "offre ", "offrent ", "se découvre", "se prête", "constitue", "incontournable", "niché", "joyau",
     "véritable", "authentique", "immersion", "dépaysement", "couper le souffle", "riche patrimoine", "tradition et modernité",
-    "invite à", "ravira", "que vous soyez", "pas seulement", "ne pas manquer", "base urbaine", "point de chute", "à vérifier",
-    "à confirmer", "à qualifier", "selon les sources", "source consultée", "il convient", "il est important", "en somme", "en conclusion",
+    "invite à", "ravira", "que vous soyez", "pas seulement", "ne pas manquer", "base urbaine", "point de chute",
+    "à qualifier", "selon les sources", "source consultée", "il convient", "il est important", "en somme", "en conclusion",
 ]
 BAD_CHARS = {"’": "apostrophe courbe", "‘": "apostrophe courbe", "—": "tiret long", "–": "tiret demi-cadratin", "**": "gras", "“": "guillemets anglais", "”": "guillemets anglais", "!": "point d'exclamation"}
 EMOJI = re.compile("[\U0001F300-\U0001FAFF☀-➿]")
@@ -43,6 +43,14 @@ def check_text(where, text):
             errors.append(f"{where} : {name}")
     if EMOJI.search(text):
         errors.append(f"{where} : emoji")
+
+
+def check_sources(where, item):
+    for i, s in enumerate(item.get("sources") or []):
+        if not s.get("name") or not str(s.get("url", "")).startswith("https://"):
+            errors.append(f"{where}.sources[{i}] : « name » et « url » en https attendus")
+    if item.get("sources") and not item.get("checked"):
+        errors.append(f"{where}.checked : date de vérification des sources manquante")
 
 
 def commons_info(files):
@@ -82,11 +90,12 @@ def main(path):
     for rid, r in data.get("regions", {}).items():
         if rid not in region_ids:
             errors.append(f"région inconnue : {rid}")
-        for key, lo, hi in (("intro", 45, 100), ("august", 6, 45), ("access", 6, 50)):
+        for key, lo, hi in (("intro", 20, 100), ("august", 6, 50), ("access", 6, 50)):
             check_text(f"région {rid}.{key}", r.get(key))
             n = words(r.get(key) or "")
             if not lo <= n <= hi:
                 errors.append(f"région {rid}.{key} : {n} mots (attendu {lo} à {hi})")
+        check_sources(f"région {rid}", r)
 
     files = []
     for pid, p in data.get("places", {}).items():
@@ -99,8 +108,8 @@ def main(path):
         for i, para in enumerate(intro):
             check_text(f"{pid}.intro[{i}]", para)
         n = sum(words(x) for x in intro)
-        if not 55 <= n <= 125:
-            errors.append(f"{pid}.intro : {n} mots (attendu 60 à 110)")
+        if not 25 <= n <= 125:
+            errors.append(f"{pid}.intro : {n} mots (attendu 25 à 125)")
         todo = p.get("todo") or []
         if len(todo) < 4:
             errors.append(f"{pid}.todo : {len(todo)} entrées (au moins 4)")
@@ -110,8 +119,10 @@ def main(path):
             check_text(where + ".text", t.get("text"))
             if t.get("type") not in TYPES:
                 errors.append(f"{where}.type : « {t.get('type')} » non autorisé")
-            if not 14 <= words(t.get("text") or "") <= 60:
-                errors.append(f"{where}.text : {words(t.get('text') or '')} mots (attendu 20 à 50)")
+            if not 10 <= words(t.get("text") or "") <= 60:
+                errors.append(f"{where}.text : {words(t.get('text') or '')} mots (attendu 10 à 60)")
+            if "hidden" in t and t["hidden"] is not True:
+                errors.append(f"{where}.hidden : true ou absent")
             if t.get("time"):
                 check_text(where + ".time", t["time"])
             price = t.get("price")
@@ -120,9 +131,13 @@ def main(path):
                     errors.append(f"{where}.price : format attendu {{amount, currency, what}}")
                 else:
                     check_text(where + ".price.what", price["what"])
+                    # Sans date de relevé (« checked »), le site affiche « Tarif à confirmer » au lieu du montant.
+                    if "checked" in price and not re.match(r"^(\d{1,2} )?[a-zéû]+ \d{4}$", price["checked"]):
+                        errors.append(f"{where}.price.checked : date attendue, par exemple « 17 novembre 2026 »")
         check_text(f"{pid}.access", p.get("access"))
         for i, tip in enumerate(p.get("tips") or []):
             check_text(f"{pid}.tips[{i}]", tip)
+        check_sources(pid, p)
         photos = p.get("photos") or []
         if not 4 <= len(photos) <= 6:
             errors.append(f"{pid}.photos : {len(photos)} photos (attendu 4 à 6)")
@@ -148,8 +163,9 @@ def main(path):
             if not ph.get("url"):
                 files.append((where, ph.get("file", "")))
 
-    info = commons_info(sorted({f for _, f in files if f}))
-    for where, f in files:
+    # « --sans-photos » : contrôle des textes seulement, sans interroger Commons.
+    info = {} if NO_PHOTOS else commons_info(sorted({f for _, f in files if f}))
+    for where, f in [] if NO_PHOTOS else files:
         page = info.get(f) or info.get(f.replace("_", " "))
         if not page or "imageinfo" not in page:
             errors.append(f"{where} : fichier introuvable sur Commons (« {f} »)")
@@ -172,4 +188,5 @@ def main(path):
 
 
 if __name__ == "__main__":
-    main(sys.argv[1])
+    NO_PHOTOS = "--sans-photos" in sys.argv
+    main([a for a in sys.argv[1:] if not a.startswith("--")][0])

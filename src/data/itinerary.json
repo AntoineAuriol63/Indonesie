@@ -3,7 +3,7 @@
   "facts": "15 jours · 12 nuits sur place · août, au départ de Paris",
   "summary": [
     "On arrive à Jakarta, on traverse Java en train jusqu'au Bromo, puis on s'envole pour Bali : Ubud d'abord, la plage de Sanur pour finir. On dort dans des petits hôtels confortables, en chambre double avec salle de bain privée.",
-    "Borobudur et Prambanan sont répartis sur deux jours. L'arrivée par Jakarta reste à comparer avec une arrivée à Yogyakarta avec correspondance, selon les prix et les horaires des vols."
+    "Borobudur et Prambanan sont répartis sur deux jours. C'est un exemple de compromis, pas le meilleur itinéraire possible pour toute l'Indonésie. Le départ le jour 1 et le retour à Paris le jour 15 ne fonctionnent qu'avec les horaires de vols correspondants. L'arrivée par Jakarta reste à comparer avec une arrivée à Yogyakarta avec correspondance."
   ],
   "stops": [
     {
@@ -45,28 +45,28 @@
       "n": 3,
       "title": "Jakarta → Yogyakarta",
       "place": "yogyakarta-et-temples",
-      "text": "Train de jour jusqu'à Yogyakarta : 6 à 8 heures selon le train, plus les transferts, donc l'essentiel de la journée. On pose les sacs à l'hôtel, puis balade et dîner autour de Malioboro.",
+      "text": "Train de jour jusqu'à Yogyakarta : 6 à 8 heures de train selon les estimations, sans compter le trajet jusqu'aux gares, donc l'essentiel de la journée. On pose les sacs à l'hôtel, puis balade et dîner autour de Malioboro.",
       "night": "Nuit à Yogyakarta"
     },
     {
       "n": 4,
       "title": "Yogyakarta et Prambanan",
       "place": "yogyakarta-et-temples",
-      "text": "Le matin, visite du Kraton et balade dans les quartiers voisins. L'après-midi, excursion à Prambanan pour voir les temples hindous, et retour à Yogyakarta en soirée.",
+      "text": "Le matin, visite du Kraton, en vérifiant avant ses jours d'ouverture, et balade dans les quartiers voisins. L'après-midi, excursion à Prambanan pour voir les temples hindous, et retour à Yogyakarta en soirée.",
       "night": "Nuit à Yogyakarta"
     },
     {
       "n": 5,
       "title": "Borobudur et Yogyakarta",
       "place": "yogyakarta-et-temples",
-      "text": "Départ le matin pour Borobudur. Pour monter sur le monument, il faut réserver le billet qui le prévoit : tous ne donnent pas le même accès. Au retour, s'il reste du temps et de l'énergie, Taman Sari ou une balade dans un quartier de la ville.",
+      "text": "Départ le matin pour Borobudur. Pour monter sur le monument, il faut réserver le billet et le créneau qui le prévoient : tous ne donnent pas le même accès. Au retour, s'il reste du temps et de l'énergie, Taman Sari ou une balade dans un quartier de la ville.",
       "night": "Nuit à Yogyakarta"
     },
     {
       "n": 6,
       "title": "Yogyakarta → Malang",
       "place": "malang-bromo",
-      "text": "Train jusqu'à Malang, ce qui prend une grosse demi-journée selon le train choisi. Installation à l'hôtel et dîner tranquille.",
+      "text": "Train jusqu'à Malang, ce qui prend une grosse demi-journée selon le train choisi, plus le trajet jusqu'aux gares. Installation à l'hôtel et dîner tranquille.",
       "night": "Nuit à Malang"
     },
     {
@@ -87,7 +87,7 @@
       "n": 9,
       "title": "Malang → Surabaya → Ubud",
       "place": "ubud",
-      "text": "Route jusqu'à l'aéroport de Surabaya, vol pour Denpasar, puis voiture jusqu'à Ubud. On garde une bonne marge entre le départ de Malang et le vol. La journée passe dans les transports.",
+      "text": "Transfert de Malang à l'aéroport de Surabaya, puis vol vers Bali et route jusqu'à Ubud. À réserver comme une journée de transport, avec une marge suffisante avant le vol. Pas de visite prévue ce jour-là.",
       "night": "Nuit à Ubud"
     },
     {
@@ -115,7 +115,7 @@
       "n": 13,
       "title": "Sanur",
       "place": "sanur",
-      "text": "Plage, promenade ou vélo sur le front de mer. On profite de la côte après les visites et les trajets des jours précédents.",
+      "text": "Journée à Sanur : promenade ou vélo sur le front de mer, puis plage selon la marée et les conditions. On garde cette journée souple après les trajets.",
       "night": "Nuit à Sanur"
     },
     {
@@ -133,7 +133,7 @@
   ],
   "transports": [
     "Un billet d'avion multidestinations : Paris-Jakarta à l'aller, Denpasar-Paris au retour.",
-    "Deux trains : Jakarta-Yogyakarta, puis Yogyakarta-Malang.",
+    "Deux trains : Jakarta-Yogyakarta, puis Yogyakarta-Malang. Consulter les horaires pour la date choisie et compter aussi le trajet jusqu'à la gare. La durée affichée concerne le train ; elle ne représente pas toute la journée porte à porte.",
     "Une excursion partagée pour le Bromo.",
     "Un transfert par la route de Malang à l'aéroport de Surabaya.",
     "Un vol intérieur Surabaya-Bali.",
@@ -143,15 +143,38 @@
     "lines": [
       {
         "label": "Dépenses sur place et vol Surabaya-Bali",
-        "amount": "environ 1 000 €"
+        "amount": "1 000 €, répartition de départ"
       },
       {
         "label": "Billet d'avion international",
-        "amount": "1 000 € au maximum"
+        "amount": "1 000 €, répartition de départ"
       }
     ],
     "totalLabel": "Objectif par personne",
     "total": "2 000 €",
-    "note": "Soit 4 000 € à deux. Rien n'est encore réservé : les hôtels, les chauffeurs et les vols restent à chiffrer pour nos dates."
-  }
+    "note": "Soit 4 000 € à deux. Les 1 000 € sur place et les 1 000 € de vols internationaux sont une répartition de départ, pas des prix trouvés pour nos dates. À valider avec les billets, les 12 nuits, les trains, les chauffeurs, le vol Surabaya-Bali et les entrées. Ajouter les frais d'entrée dans le pays et à Bali applicables au voyage, les bagages et les dépenses personnelles avant de vérifier le total."
+  },
+  "sources": [
+    {
+      "name": "KAI réservation officielle",
+      "url": "https://booking.kai.id/"
+    },
+    {
+      "name": "InJourney Destination billetterie officielle",
+      "url": "https://ticket.injourneydestination.id/id/"
+    },
+    {
+      "name": "Kraton questions pratiques",
+      "url": "https://tourism.kratonjogja.id/id-ID/faq/"
+    },
+    {
+      "name": "Parc Bromo Tengger Semeru règles de visite",
+      "url": "https://bromotenggersemeru.id/peraturan/bromo"
+    },
+    {
+      "name": "BMKG Maritim prévisions et marées",
+      "url": "https://maritim.bmkg.go.id/cuaca/pasut"
+    }
+  ],
+  "checked": "17 novembre 2026"
 }

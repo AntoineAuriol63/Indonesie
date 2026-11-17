@@ -3,61 +3,64 @@
  "places": {
   "sanur": {
    "intro": [
-    "Sanur, c'est la plage tranquille du sud de Bali : pas de grosses vagues, pas de foule, une promenade de 5 km au bord de l'eau. On y finit le voyage pour se reposer avant l'avion, l'aéroport est à une demi-heure.",
-    "La plage fait face à l'est, donc le spectacle est le matin, vers 6 h, quand le soleil sort de la mer derrière les bateaux de pêche."
+    "Sanur pour finir avec la plage, le front de mer et des repas faciles à organiser. On peut y ralentir le rythme avant le retour. Une sortie vers Lembongan reste possible, mais elle ajoute une traversée et une journée complète."
    ],
    "todo": [
     {
      "name": "Lever de soleil sur la plage",
      "type": "Détente",
-     "text": "Sanur regarde vers l'est : le soleil se lève sur la mer, derrière les jukung, les pirogues à balancier des pêcheurs. Par temps clair, on voit le mont Agung au fond.",
+     "text": "Sanur regarde vers l'est. On peut aller sur la plage à l'aube ; l'heure du lever du soleil se vérifie pour la date choisie. L'Agung se voit si le ciel est dégagé.",
      "time": "tôt le matin",
-     "price": null
+     "price": null,
+     "hidden": true
     },
     {
      "name": "Front de mer à vélo",
      "type": "Détente",
-     "text": "Une promenade pavée longe la plage sur environ 5 km, de Matahari Terbit au nord à Mertasari au sud, sans voitures. On loue un vélo et on s'arrête dans les warungs, les pieds dans le sable.",
+     "text": "Une balade à vélo sur le front de mer, avec des arrêts dans les cafés et warungs. Rouler doucement : la promenade est aussi utilisée par les piétons.",
      "time": "2 h",
-     "price": null
+     "price": null,
+     "hidden": true
     },
     {
      "name": "Baignade dans le lagon",
      "type": "Mer",
-     "text": "La barrière de corail casse les vagues au large : l'eau est calme et peu profonde. À marée basse, la mer se retire très loin et il reste quelques centimètres d'eau : on se baigne à marée haute, plutôt le matin.",
+     "text": "La baignade dépend de la marée. À marée basse, certains secteurs deviennent très peu profonds. Regarder les horaires la veille et demander à l'hébergement quel coin convient.",
      "time": "",
      "price": null
     },
     {
      "name": "Musée Le Mayeur",
      "type": "Culture",
-     "text": "La maison du peintre belge Adrien-Jean Le Mayeur, arrivé à Bali en 1932 et marié en 1935 à la danseuse balinaise Ni Pollok. Ses toiles sont accrochées dans les pièces où il vivait, au bord de la plage. Le musée ferme en milieu d'après-midi, plus tôt le vendredi.",
+     "text": "La maison du peintre Le Mayeur, avec ses tableaux, près de la plage. Une petite visite culturelle possible à Sanur, en vérifiant les jours et horaires avant d'y aller.",
      "time": "1 h",
      "price": null
     },
     {
      "name": "Marché de nuit de Sindhu",
      "type": "Cuisine",
-     "text": "Les stands s'installent vers 17 h au marché de Sindhu, Jalan Pungutan, et le meilleur moment est entre 18 h et 19 h : brochettes de satay, nasi campur, soupe bakso aux boulettes. On s'assoit sur un tabouret en plastique et on paie en liquide.",
+     "text": "Le marché de Sindhu pour dîner à plusieurs stands. On choisit ce qui nous tente, on vérifie le prix et on prévoit des espèces.",
      "time": "le soir",
-     "price": null
+     "price": null,
+     "hidden": true
     },
     {
      "name": "Journée à Nusa Lembongan",
      "type": "Mer",
-     "text": "Les bateaux rapides partent du nouveau port de Sanur, au bout de Jalan Matahari Terbit, et mettent environ une demi-heure. Sur place : plages, snorkeling, mangrove en pirogue et le pont jaune vers Nusa Ceningan.",
+     "text": "Une journée à Lembongan depuis Sanur. Réserver les deux traversées et regarder l'horaire du dernier retour avant de prévoir les visites. À garder loin d'un vol international le même jour.",
      "time": "la journée",
      "price": {
       "amount": 150000,
       "currency": "IDR",
       "what": "aller simple en bateau rapide, par personne, premier prix au guichet"
-     }
+     },
+     "hidden": true
     }
    ],
-   "access": "Depuis Ubud, 1 h à 1 h 30 de voiture en journée, 45 minutes tôt le matin. L'aéroport de Denpasar est à 20 ou 30 minutes en taxi.",
+   "access": "Depuis Ubud, environ 1 h à 1 h 30 de voiture en journée, 45 minutes tôt le matin. Pour l'aéroport de Denpasar, vérifier le trajet depuis l'hôtel ; garder une marge de circulation.",
    "tips": [
-    "La marée commande la baignade : regarder les horaires de marée haute la veille.",
-    "Les VTC comme Grab ne peuvent pas prendre de clients dans la rue du port : on les commande depuis la route principale."
+    "Les marées déterminent les créneaux de baignade, pas l'heure de la journée : regarder les horaires de marée la veille.",
+    "Pour un VTC au départ du port, demander sur place où la prise en charge est possible."
    ],
    "photos": [
     {
@@ -95,7 +98,18 @@
      "license": "CC BY-SA 4.0",
      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
     }
-   ]
+   ],
+   "sources": [
+    {
+     "name": "Ministère de la Culture musée Le Mayeur",
+     "url": "https://museum.kemenbud.go.id/museum/profile/museum%2Ble%2Bmayeur"
+    },
+    {
+     "name": "BMKG Maritim prévisions et marées",
+     "url": "https://maritim.bmkg.go.id/cuaca/pasut"
+    }
+   ],
+   "checked": "17 novembre 2026"
   }
  }
 }

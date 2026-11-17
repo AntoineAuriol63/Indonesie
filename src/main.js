@@ -47,12 +47,30 @@ try {
 
 // ---------------------------------------------------------------- Fiches
 
-// Tous les prix sont affichés en euros. Les montants en roupies sont convertis à un taux arrondi.
-const IDR_PER_EUR = 20100;
-function euros(price) {
-  if (price.currency === 'EUR') return `${price.amount.toLocaleString('fr-FR')} €`;
-  const value = price.amount / IDR_PER_EUR;
-  return `environ ${value < 10 ? Math.max(1, Math.round(value)) : Math.round(value)} €`;
+// Un prix n'est affiché en chiffres que s'il a été relevé et daté (champ « checked ») ; sinon « Tarif à confirmer ».
+// Les montants restent dans leur devise d'origine, roupies comprises, sans conversion à un taux figé.
+function priceText(price) {
+  if (!price.checked) return 'Tarif à confirmer';
+  const amount = price.currency === 'EUR' ? `${price.amount.toLocaleString('fr-FR')} €` : `${price.amount.toLocaleString('fr-FR')} ${price.currency}`;
+  const when = /^\d/.test(price.checked) ? `le ${price.checked}` : `en ${price.checked}`;
+  return `${amount} ${price.what}, relevé ${when}, à revérifier avant réservation`;
+}
+const TIME_LABEL = 'Temps à prévoir, indicatif';
+
+// Crédit d'une photo : auteur, licence et lien vers sa page d'origine.
+function credit(p) {
+  const parts = [p.author, p.license].filter(Boolean).map(esc).join(', ');
+  if (!parts) return '';
+  return p.page ? `<a href="${esc(p.page)}" target="_blank" rel="noopener">${parts}</a>` : parts;
+}
+
+// Liens utilisés pour une fiche et date de vérification.
+function sourceList(sources, checked) {
+  if (!sources?.length) return '';
+  return `
+      <h3>Sources</h3>
+      <ul class="sources">${sources.map((s) => `<li><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)}</a></li>`).join('')}</ul>
+      ${checked ? `<p class="sources__date">Vérifié le ${esc(checked)}. Horaires, ouvertures et prix restent à revoir avant le départ.</p>` : ''}`;
 }
 
 // Bande de photos qu'on fait défiler.
@@ -65,7 +83,7 @@ function gallery(photos) {
           (p) => `
         <figure>
           <img src="${esc(p.at(960))}" alt="${esc(p.caption)}" loading="lazy" onerror="this.closest('figure').remove()" />
-          <figcaption>${esc(p.caption)}</figcaption>
+          <figcaption>${esc(p.caption)}${credit(p) ? `<small class="credit">${credit(p)}</small>` : ''}</figcaption>
         </figure>`,
         )
         .join('')}
@@ -87,10 +105,11 @@ function regionCard(r) {
       <p class="card__text">${esc(r.intro || r.text)}</p>
       <dl class="facts">
         ${fact('En août', r.august)}
-        ${fact('Durée', days(r.daysMin, r.daysMax))}
+        ${fact(TIME_LABEL, days(r.daysMin, r.daysMax))}
         ${fact('Y aller', r.access)}
+        ${r.partial ? fact('Secteurs étudiés', places.map((p) => p.name).join(', ')) : ''}
       </dl>
-      <h3>Les activités</h3>
+      <h3>Les étapes</h3>
       <div class="rows">
         ${places
           .map(
@@ -105,6 +124,7 @@ function regionCard(r) {
           )
           .join('')}
       </div>
+      ${sourceList(r.sources, r.checked)}
     </div>`;
 }
 
@@ -117,13 +137,13 @@ function todoList(p) {
     .map(
       (t, i) => `
       <div class="todo" data-n="${i + 1}">
-        ${p.todoImages[i] ? `<img class="todo__photo" src="${esc(p.todoImages[i].at(640))}" alt="${esc(p.todoImages[i].caption)}" loading="lazy" onerror="this.remove()" />` : ''}
+        ${p.todoImages[i] ? `<img class="todo__photo" src="${esc(p.todoImages[i].at(640))}" alt="${esc(p.todoImages[i].caption)}" loading="lazy" onerror="this.remove()" />${credit(p.todoImages[i]) ? `<small class="credit todo__credit">${credit(p.todoImages[i])}</small>` : ''}` : ''}
         <div class="todo__head">
           <span class="todo__name"><span class="todo__n">${i + 1}</span>${esc(t.name)}</span>
           ${t.type ? `<span class="tag tag--${TYPE_CLASS[t.type] || 'ville'}">${esc(t.type)}</span>` : ''}
         </div>
         <p>${esc(t.text)}</p>
-        ${t.time || t.price ? `<p class="todo__meta">${[t.time && esc(t.time), t.price && `${euros(t.price)} (${esc(t.price.what)})`].filter(Boolean).join(' · ')}</p>` : ''}
+        ${t.time || t.price ? `<p class="todo__meta">${[t.time && `${TIME_LABEL} : ${esc(t.time)}`, t.price && esc(priceText(t.price))].filter(Boolean).join(' · ')}</p>` : ''}
       </div>`,
     )
     .join('');
@@ -146,12 +166,13 @@ function placeCard(p) {
       <div class="todos">${todoList(p)}</div>
       <h3>En pratique</h3>
       <dl class="facts">
-        ${fact('Durée', days(p.daysMin, p.daysMax))}
+        ${fact(TIME_LABEL, days(p.daysMin, p.daysMax))}
         ${fact('Y aller', c ? c.access : p.access)}
         ${tips.length ? `<div class="fact"><dt>À savoir</dt><dd>${tips.map((t) => `<p>${esc(t)}</p>`).join('')}</dd></div>` : ''}
       </dl>
       <h3>Sur la carte</h3>
       <div class="minimap" id="minimap"></div>
+      ${c ? sourceList(c.sources, c.checked) : ''}
     </div>`;
 }
 
@@ -235,6 +256,7 @@ function itineraryCard() {
         <div class="budget__line budget__line--total"><span>${esc(b.totalLabel)}</span><b>${esc(b.total)}</b></div>
       </div>
       <p class="card__text">${esc(b.note)}</p>
+      ${sourceList(ITINERARY.sources, ITINERARY.checked)}
     </div>`;
 }
 

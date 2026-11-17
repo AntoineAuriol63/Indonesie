@@ -6,7 +6,9 @@ Site de préparation du voyage : une carte 3D low-poly de l'Indonésie pour parc
 
 - La vue d'ensemble montre l'archipel, le nom des régions, les grandes villes et un petit modèle 3D animé pour chaque étape.
 - Un clic n'importe où sur une île (son contour s'épaissit au survol) fait entrer dans la région : ses étapes s'affichent avec leur nom, et une fiche présente la région.
-- Une fois dans la région, un clic sur une étape ouvre sa fiche : photos, présentation, liste de ce qu'il y a à faire, durée, accès, prix en euros.
+- Une fois dans la région, un clic sur une étape ouvre sa fiche : photos, présentation, liste de ce qu'il y a à faire, temps à prévoir (indicatif), accès, prix et sources.
+- Un prix ne s'affiche en chiffres que s'il est daté (champ `checked` du prix), dans sa devise d'origine ; sinon la fiche indique « Tarif à confirmer ». Une activité marquée `hidden: true` est un texte de travail, gardé dans les données mais masqué sur le site tant qu'il n'a pas de source.
+- Chaque fiche se termine par ses sources (`sources`) et leur date de vérification (`checked`). Une photo d'activité n'apparaît que si l'activité la désigne (champ `photo`) ; chaque photo affiche son auteur et sa licence.
 - Le bouton « Exemple d'itinéraire » n'affiche que les étapes d'un parcours, trace le trajet et en donne le détail.
 
 Se déplacer : glisser, molette, clic droit pour tourner, ou au clavier les flèches et ZQSD (A et E pour tourner, + et - pour zoomer).

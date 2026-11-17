@@ -114,6 +114,15 @@ const RENDER = {
     };
     return field(schema.label, input);
   },
+  // Case à cocher pour un champ oui / non (activité masquée sur le site) ; décochée, le champ disparaît du fichier.
+  flag(schema, get, set) {
+    const input = el('input', { type: 'checkbox', checked: !!get() });
+    input.onchange = () => {
+      set(input.checked ? true : null);
+      touch();
+    };
+    return el('label', { className: 'check' }, input, schema.label);
+  },
   number(schema, get, set) {
     const input = el('input', { type: 'number', value: get() ?? 0 });
     input.oninput = () => {
@@ -164,10 +173,12 @@ const RENDER = {
     draw();
     return box;
   },
-  list(schema, get) {
+  list(schema, get, set) {
     const box = el('section');
     const draw = (open = -1) => {
-      const items = get();
+      // Liste absente du fichier (sources d'une ancienne fiche) : créée au premier ajout.
+      if (!get() && set) set([]);
+      const items = get() || [];
       const move = (i, step) => {
         items.splice(i + step, 0, ...items.splice(i, 1));
         touch();
@@ -311,6 +322,14 @@ async function upload(file, ph) {
 const text = (label, more) => ({ kind: 'text', label, ...more });
 const PHOTO = { kind: 'photo' };
 const NEW_PHOTO = { file: '', caption: '', author: '', license: '', licenseUrl: '' };
+// Liens utilisés pour une fiche, affichés en bas avec la date de vérification.
+const SOURCES = {
+  kind: 'list',
+  label: 'Sources (liens affichés en bas de la fiche)',
+  empty: { name: '', url: '' },
+  item: { kind: 'object', fields: { name: text('Nom de la source'), url: text('Adresse (https://…)') } },
+};
+const CHECKED = text('Date de vérification des sources (ex. 17 novembre 2026)', { optional: true });
 let placeOptions = [];
 
 const PLACE = {
@@ -326,9 +345,10 @@ const PLACE = {
         kind: 'object',
         fields: {
           name: text('Nom'),
+          hidden: { kind: 'flag', optional: true, label: 'Masquer sur le site (texte de travail, source à ajouter avant publication)' },
           type: { kind: 'select', label: 'Type', options: () => TYPES.map((t) => [t, t]) },
           text: text('Texte', { long: true }),
-          time: text('Durée ou moment'),
+          time: text('Temps à prévoir, indicatif'),
           price: {
             kind: 'optional',
             label: 'Indiquer un prix',
@@ -337,8 +357,9 @@ const PLACE = {
               kind: 'object',
               fields: {
                 amount: { kind: 'number', label: 'Montant' },
-                currency: { kind: 'select', label: 'Devise (le site convertit les roupies en euros)', options: () => [['IDR', 'Roupies (IDR)'], ['EUR', 'Euros (EUR)']] },
-                what: text('Ce que couvre ce prix'),
+                currency: { kind: 'select', label: 'Devise (affichée telle quelle, sans conversion)', options: () => [['IDR', 'Roupies (IDR)'], ['EUR', 'Euros (EUR)']] },
+                what: text('Ce que couvre ce prix (par personne ou par groupe, inclusions)'),
+                checked: text('Relevé le (ex. 17 novembre 2026). Vide : le site affiche « Tarif à confirmer »', { optional: true }),
               },
             },
           },
@@ -349,9 +370,14 @@ const PLACE = {
     access: text('Accès', { long: true }),
     tips: { kind: 'list', label: 'Conseils', item: text('', { long: true }), empty: '' },
     photos: { kind: 'list', label: 'Galerie, la plus belle en premier', item: PHOTO, empty: NEW_PHOTO },
+    sources: SOURCES,
+    checked: CHECKED,
   },
 };
-const REGION = { kind: 'object', fields: { intro: text('Présentation', { long: true }), august: text('En août', { long: true }), access: text('Y aller', { long: true }) } };
+const REGION = {
+  kind: 'object',
+  fields: { intro: text('Présentation', { long: true }), august: text('En août', { long: true }), access: text('Y aller', { long: true }), sources: SOURCES, checked: CHECKED },
+};
 const ITINERARY = {
   kind: 'object',
   fields: {
@@ -391,6 +417,8 @@ const ITINERARY = {
         note: text('Note', { long: true }),
       },
     },
+    sources: SOURCES,
+    checked: CHECKED,
   },
 };
 
