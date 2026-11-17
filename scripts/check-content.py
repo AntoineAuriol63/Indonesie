@@ -130,8 +130,9 @@ def main(path):
             where = f"{pid}.photos[{i}]"
             # Une photo vient soit de Wikimedia Commons (« file »), soit d'une autre source libre (« url » directe + « source »).
             if ph.get("url"):
-                if not ph["url"].startswith("https://") or not ph.get("source"):
-                    errors.append(f"{where} : une photo hors Commons demande une « url » en https et une « source » (site et licence)")
+                # « photos/… » : fichier envoyé depuis le back office, rangé dans public/photos/.
+                if not ph["url"].startswith(("https://", "photos/")) or not ph.get("source"):
+                    errors.append(f"{where} : une photo hors Commons demande une « url » en https (ou un fichier de public/photos/) et une « source » (site et licence)")
             else:
                 for key in ("file", "author", "license", "licenseUrl"):
                     if not ph.get(key):

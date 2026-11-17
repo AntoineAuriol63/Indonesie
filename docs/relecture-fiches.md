@@ -12,7 +12,8 @@ Le voyage : août 2027, en couple, petits hôtels confortables. Pas de plongée 
 
 - `src/data/content/*.json` : un fichier par groupe de régions (`java`, `bali`, `sonde`, `grandes-iles`, `est`, `sanur`). C'est là qu'on écrit.
 - `src/data/base.json` : données du tableur de départ (durées, repères, prix). Ne pas modifier.
-- `src/data/itinerary.js` : l'exemple d'itinéraire.
+- `src/data/itinerary.json` : l'exemple d'itinéraire.
+- Tout cela se modifie aussi à la main depuis le back office (`/admin/` sur le site publié). Une photo envoyée par ce biais a une `url` de la forme `photos/nom.jpg` (fichier de `public/photos/`).
 
 Format d'une étape :
 

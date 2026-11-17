@@ -20,6 +20,15 @@ npm run dev
 
 `npm run build` génère le site statique dans `dist/`. Chaque push sur la branche le publie sur GitHub Pages (`.github/workflows/deploy.yml`).
 
+## Back office
+
+La page `/admin/` du site publié (https://antoineauriol63.github.io/Indonesie/admin/) sert à modifier à la main les fiches des étapes (textes, activités, prix, photos), les textes des régions et l'exemple d'itinéraire. Elle lit les fichiers dans le dépôt GitHub ; « Enregistrer » crée un commit sur la branche publiée, et le site est à jour une à deux minutes plus tard.
+
+- Lire ne demande rien. Pour enregistrer, il faut un jeton GitHub limité à ce dépôt, avec le droit « Contents : Read and write » ; la page explique comment le créer et le garde dans le navigateur.
+- Une photo vient de Wikimedia Commons (nom du fichier, auteur et licence remplis d'un clic), d'une adresse web, ou d'un fichier envoyé depuis l'appareil : il est réduit à 1600 px et rangé dans `public/photos/`.
+- Renommer ou supprimer une activité met aussi à jour sa position dans `src/data/coords/`.
+- Le code est dans `public/admin/` (une page et un script, sans dépendance). Le dépôt et la branche sont en tête de `public/admin/admin.js`.
+
 ## Mettre à jour le contenu
 
 Les textes des fiches viennent du tableur de préparation. Après une modification du tableur :
@@ -37,7 +46,9 @@ Le script réécrit `src/data/base.json` et applique les règles de style (apost
 | Consignes de relecture des fiches | `docs/relecture-fiches.md` |
 | Contrôle d'un fichier de contenu | `scripts/check-content.py` |
 | Couleurs, cadrages, noms courts, modèles 3D, villes | `src/data/places.js` |
-| Exemple d'itinéraire | `src/data/itinerary.js` |
+| Exemple d'itinéraire | `src/data/itinerary.json` |
+| Back office | `public/admin/` |
+| Photos envoyées depuis le back office | `public/photos/` |
 | Carte 3D (relief, mer, nuages, caméra, clavier) | `src/world/` |
 | Modèles 3D animés | `src/world/models.js` |
 | Carte en mode compatibilité, sans WebGL | `src/world/flat.js` |
