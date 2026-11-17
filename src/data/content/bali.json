@@ -1,8 +1,8 @@
 {
   "regions": {
     "bali": {
-      "intro": "À Bali, deux heures de route suffisent pour passer des rizières en terrasses à une plage de sable noir. Au centre, Ubud et ses temples. Au nord, les lacs et les cascades de Munduk. À l'est, la vallée de Sidemen puis Amed pour le snorkeling, et tout à l'ouest l'île de Menjangan. On finit au sud par les falaises d'Uluwatu, ou en bateau sur les Nusa. On change d'hôtel tous les deux ou trois jours, avec un chauffeur entre chaque étape.",
-      "august": "Août tombe en pleine saison sèche : il fait beau presque tous les jours, avec de temps en temps une averse en montagne. C'est aussi la haute saison touristique, donc on réserve les hôtels tôt.",
+      "intro": "À Bali, deux à trois heures de route suffisent pour passer des rizières en terrasses à une plage de sable noir. Au centre, Ubud et ses temples. Au nord, les lacs et les cascades de Munduk. À l'est, la vallée de Sidemen puis Amed pour le snorkeling, et tout à l'ouest l'île de Menjangan. On finit au sud par les falaises d'Uluwatu, ou en bateau sur les Nusa. On change d'hôtel tous les deux ou trois jours, avec un chauffeur entre chaque étape.",
+      "august": "Août tombe en pleine saison sèche : il fait beau presque tous les jours, avec de temps en temps une averse en montagne. Au sud, la houle est forte. C'est aussi la haute saison touristique, donc on réserve les hôtels tôt.",
       "access": "On atterrit à l'aéroport de Denpasar (DPS), dans le sud de l'île. Ensuite tout se fait par la route, avec un chauffeur, et en bateau rapide depuis Sanur pour les Nusa. Chaque visiteur étranger paie une taxe de 150 000 roupies, en ligne sur Love Bali."
     }
   },
@@ -546,7 +546,7 @@
         {
           "name": "Temple de Pulaki",
           "type": "Culture",
-          "text": "Un temple de la mer au bord de la route côtière, adossé à des rochers, face à la plage, à une dizaine de kilomètres à l'est de Pemuteran. La légende dit que des macaques y ont guidé le prêtre Nirartha, venu de Java, qui l'a fondé.",
+          "text": "Un temple de la mer au bord de la route côtière, adossé à des rochers, face à la plage, à 3 km à l'est de Pemuteran. La légende dit que des macaques y ont guidé le prêtre Nirartha, venu de Java, qui l'a fondé.",
           "time": "45 min",
           "price": null
         },
@@ -725,79 +725,91 @@
     },
     "nusa-penida-lembongan": {
       "intro": [
-        "Trois îles au sud-est de Bali, à 30 ou 45 minutes de bateau rapide depuis Sanur. Nusa Penida, la grande, est un bloc de calcaire aux falaises de 200 m : c'est là que sont Kelingking, Broken Beach et Diamond Beach. Lembongan et Ceningan, toutes petites et reliées par un pont jaune, sont plus douces, avec des plages et des cabanes au bord de l'eau.",
+        "Trois îles au sud-est de Bali, à 30 ou 45 minutes de bateau rapide depuis Sanur. Nusa Penida, la grande, est un bloc de calcaire aux falaises de près de 200 m : c'est là que sont Kelingking, Broken Beach et Diamond Beach. Lembongan et Ceningan, toutes petites et reliées par un pont jaune, sont plus douces, avec des plages, de la mangrove et des champs d'algues.",
         "On dort sur l'une ou l'autre et on visite Penida en deux jours, l'ouest puis l'est, avec un chauffeur. Les points de vue sont en haut des falaises. Descendre jusqu'aux plages, c'est une autre affaire."
       ],
       "todo": [
         {
           "name": "Kelingking",
           "type": "Nature",
-          "text": "La falaise en forme de tête de tyrannosaure, avec une plage blanche tout en bas. Du parking au point de vue, cinq minutes. La descente suit l'arête par un sentier très raide, 45 minutes dans chaque sens, et la baignade en bas est dangereuse : la vue d'en haut suffit.",
-          "time": "1 h, ou 3 h avec la descente",
-          "price": null
+          "text": "La falaise en forme de tête de tyrannosaure, haute de 180 m, avec une plage blanche tout en bas. La descente suit l'arête : 156 marches, puis un sentier très raide, vingt minutes pour descendre, une bonne demi-heure pour remonter. La baignade est interdite depuis 2023 : la vue d'en haut suffit. Un escalier en dur est en construction.",
+          "time": "1 h, ou 2 h avec la descente",
+          "price": {
+            "amount": 25000,
+            "currency": "IDR",
+            "what": "droit d'entrée du site, par adulte, depuis 2026 (parking en plus)"
+          }
         },
         {
           "name": "Broken Beach et Angel's Billabong",
           "type": "Nature",
-          "text": "Deux sites à cinq minutes à pied l'un de l'autre. Broken Beach est une crique ronde fermée par une arche sous laquelle la mer entre, on en fait le tour par le haut. Angel's Billabong est une piscine naturelle dans la roche, à regarder d'en haut : les vagues y ont déjà emporté des gens.",
+          "text": "Deux sites à quelques minutes à pied l'un de l'autre, à 40 minutes de route de Toyapakeh. Broken Beach est une crique ronde fermée par une arche sous laquelle la mer entre, on la regarde d'en haut. Angel's Billabong est une piscine naturelle dans la roche : baignade interdite, les vagues y ont emporté des gens.",
           "time": "1 h 30",
-          "price": null
+          "price": {
+            "amount": 25000,
+            "currency": "IDR",
+            "what": "droit d'entrée par site, par adulte, depuis août 2026"
+          }
         },
         {
           "name": "Crystal Bay",
           "type": "Mer",
-          "text": "Une baie abritée bordée de cocotiers sur la côte ouest, une des seules plages de Penida faciles d'accès. On y fait du snorkeling depuis le bord sans s'éloigner, car le courant est fort à la sortie de la baie. Bien pour le coucher du soleil.",
+          "text": "Une baie de sable blanc et d'eau claire sur la côte ouest de Penida. On y fait du snorkeling depuis le bord, sans s'éloigner : la baie est abritée mais il y a du courant plus loin. Bien pour le coucher du soleil.",
           "time": "2 h",
-          "price": null
+          "price": {
+            "amount": 25000,
+            "currency": "IDR",
+            "what": "droit d'entrée du site, par adulte, depuis août 2026"
+          }
         },
         {
           "name": "Diamond Beach et Atuh",
           "type": "Nature",
-          "text": "À la pointe est de Penida, à 1 h 30 de route des ports. Un escalier taillé dans la falaise blanche descend vers Diamond Beach et ses rochers pointus dans l'eau turquoise. Juste à côté, la plage d'Atuh et ses warungs, où l'on se baigne par mer calme.",
+          "text": "À la pointe est de Penida, à l'opposé des ports. Un escalier étroit taillé dans la falaise blanche descend en dix minutes vers Diamond Beach et ses rochers pointus dans l'eau turquoise. Les vagues y sont fortes et le sable disparaît à marée haute. Juste à côté, à pied, la plage d'Atuh et ses warungs. Entrée payante.",
           "time": "demi-journée",
           "price": null
         },
         {
           "name": "Raies manta en snorkeling",
           "type": "Faune",
-          "text": "Une sortie en bateau de trois ou quatre heures. Sur la côte sud-ouest de Penida, les raies manta viennent se nourrir toute l'année et on nage au-dessus d'elles. Ensuite, arrêt sur le corail de Crystal Bay ou de Gamat Bay. En août la mer est agitée et l'eau froide.",
+          "text": "Une sortie en bateau le matin, en trois arrêts. Les raies manta sont là toute l'année et on nage au-dessus d'elles. Manta Point, exposé à la houle, remue beaucoup ; si la mer est trop forte, le bateau va à Manta Bay, plus abritée. Ensuite, arrêt sur le corail de Crystal Bay ou de Gamat Bay.",
           "time": "demi-journée",
           "price": null
         },
         {
           "name": "Pont jaune et Nusa Ceningan",
           "type": "Nature",
-          "text": "Lembongan et Ceningan sont reliées par un pont suspendu jaune où ne passent que les piétons et les scooters. Côté Ceningan, on va voir le Blue Lagoon, une anse d'un bleu laiteux entre les falaises, et on boit un verre dans une cabane au-dessus du chenal.",
+          "text": "Lembongan et Ceningan sont reliées par un pont suspendu jaune, refait en 2017, où ne passent que les piétons et les scooters. Dans le chenal, des champs d'algues. Côté Ceningan, on va voir le Blue Lagoon, une anse d'un bleu laiteux entre les falaises. Pas de barrière : on reste loin du bord.",
           "time": "demi-journée",
           "price": null
         },
         {
           "name": "Devil's Tear et Dream Beach",
           "type": "Nature",
-          "text": "Au sud-ouest de Lembongan. À Devil's Tear, la houle s'engouffre sous la roche et ressort en gerbes de plusieurs mètres : on reste loin du bord. Dream Beach, une plage de sable blanc, est à cinq minutes à pied.",
+          "text": "Au sud-ouest de Lembongan. À Devil's Tear, la houle s'engouffre sous la roche et ressort en gerbes : on reste derrière les cordes, des visiteurs y sont morts. Dream Beach, une plage de sable blanc, est juste à côté. Les courants y sont violents, on ne s'y baigne pas.",
           "time": "1 h 30",
           "price": null
         },
         {
           "name": "Mangrove de Lembongan",
           "type": "Nature",
-          "text": "Tout le nord-est de l'île est une mangrove. On la parcourt en barque à perche avec un batelier ou en kayak, par des couloirs étroits entre les palétuviers.",
+          "text": "Tout le nord de l'île est une mangrove. On la parcourt en pirogue avec un batelier, en kayak ou en paddle, par des couloirs étroits entre les palétuviers.",
           "time": "1 h",
           "price": null
         },
         {
           "name": "Grotte-temple de Goa Giri Putri",
           "type": "Culture",
-          "text": "Sur la côte nord-est de Penida. On monte un escalier, on se glisse accroupi par un trou dans la roche, et derrière s'ouvre une grotte immense avec plusieurs autels où des prêtres officient. Sarong obligatoire.",
+          "text": "Sur la côte nord-est de Penida. On se glisse par une fente étroite dans la roche, et derrière s'ouvre une grande grotte avec plusieurs autels. Pas de billet : on laisse un don, 20 000 roupies environ, et on loue un sarong sur place. Ouvert de 7 h à 17 h.",
           "time": "1 h",
           "price": null
         }
       ],
-      "access": "Bateau rapide depuis le port de Sanur, 30 à 45 minutes jusqu'à Lembongan ou Penida. Entre les deux îles, de petites navettes font la traversée en un quart d'heure depuis le pont jaune.",
+      "access": "Bateau rapide depuis le port de Sanur, 30 à 45 minutes jusqu'à Lembongan ou Penida. Entre les deux îles, un bateau public part toutes les heures du pont jaune pour Toyapakeh, 10 à 15 minutes de traversée.",
       "tips": [
         "Voir une plage d'en haut ne veut pas dire qu'on peut y descendre : à Kelingking et à Diamond Beach, les sentiers sont raides et sans ombre.",
         "Les routes de Penida sont étroites et cabossées. Prendre un chauffeur si on n'a pas l'habitude du scooter.",
-        "On débarque parfois les pieds dans l'eau : sandales et sac étanche."
+        "Depuis 2026, chaque étranger paie 25 000 roupies en arrivant sur les îles, puis 25 000 à l'entrée de chaque grand site de Penida. Tout se règle sans espèces."
       ],
       "photos": [
         {
@@ -808,9 +820,9 @@
           "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
         },
         {
-          "file": "DSF6870.jpg",
-          "caption": "Îlots rocheux devant la plage d'Atuh",
-          "author": "Syselpunk",
+          "file": "Diamond Beach in Nusa Penida, Bali.jpg",
+          "caption": "Escalier et plage de Diamond Beach",
+          "author": "Stryn",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
         },
@@ -823,7 +835,7 @@
         },
         {
           "file": "Eye To Eye (219520559).jpeg",
-          "caption": "Raie manta à Nusa Penida",
+          "caption": "Raie manta à Manta Point, Nusa Penida",
           "author": "Tilonaut",
           "license": "CC BY 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/by/3.0/"
