@@ -400,7 +400,7 @@
    ],
    "prices": [
     {
-     "label": "Sidemen–Ubud, Uma Dewi Sri",
+     "label": "Sidemen–Ubud, Sidemen Tour & Trekking",
      "kind": "Transfert",
      "amount": 400000,
      "currency": "IDR",
@@ -409,7 +409,7 @@
      "excludes": "Suppléments et capacité à confirmer"
     },
     {
-     "label": "Sidemen–Padang Bai, Sidemen Tour",
+     "label": "Sidemen–Padang Bai, Sidemen Tour & Trekking",
      "kind": "Transfert",
      "amount": 350000,
      "currency": "IDR",
@@ -796,7 +796,7 @@
     {
      "label": "Borobudur enceinte : adulte étranger",
      "kind": "Entrée",
-     "amount": 375000,
+     "amount": 400000,
      "currency": "IDR",
      "unit": "personne",
      "includes": "Enceinte",
@@ -851,7 +851,7 @@
    "region": "java",
    "name": "Malang / Bromo",
    "themes": "Ville / volcan",
-   "text": "Malang peut servir de base urbaine avant une excursion au Bromo. L'excursion se fait souvent de nuit : départ vers minuit, retour en fin de matinée. Il faut prévoir du repos ensuite.",
+   "text": "Pour faire une excursion sur le volcan Bromo, il faut dormir à Malang. L'excursion se fait souvent de nuit : départ vers minuit, retour en fin de matinée. Il faut prévoir du repos ensuite.",
    "see": "Malang et points de vue du Bromo",
    "access": "Train vers Malang puis route",
    "effort": "Départ nocturne possible",
@@ -969,12 +969,12 @@
    ],
    "prices": [
     {
-     "label": "Minibus Malang–Surabaya",
+     "label": "Navette Malang–aéroport de Surabaya (Juanda)",
      "kind": "Transport",
-     "amount": 72500,
+     "amount": 150000,
      "currency": "IDR",
      "unit": "personne",
-     "includes": "Trajet selon témoignage",
+     "includes": "Trajet porte-à-porte, tarif d'un opérateur relevé en août 2025",
      "excludes": "Autres trajets"
     }
    ]
@@ -990,7 +990,7 @@
    "effort": "Marche ponctuelle",
    "daysMin": 3,
    "daysMax": 5,
-   "note": "Vérifier cabine, sanitaires, groupe et repas",
+   "note": "On dort sur le pont du bateau, sous moustiquaire ; vérifier sanitaires, groupe et repas",
    "lat": -3.055,
    "lon": 111.9184,
    "photo": {
@@ -1007,7 +1007,7 @@
      "what": "Bateau et visites des sites du parc",
      "duration": "Circuit de plusieurs jours à comparer",
      "level": "Conditionnel",
-     "conditions": "Ce n'est pas un trek multi-jours ; cabine / sanitaires à vérifier"
+     "conditions": "Ce n'est pas un trek multi-jours ; nuit sur le pont, sanitaires à vérifier"
     }
    ],
    "prices": []

@@ -22,7 +22,7 @@ PRESENTATIONS = {
     "E09": "Ruteng permet de prolonger la découverte de Flores dans le Manggarai. Les villages et les paysages agricoles complètent les îles autour de Labuan Bajo. Le trajet par la route est long et fait partie du voyage.",
     "E10": "Wae Rebo est un village de montagne connu pour ses maisons coniques. L'accès comprend une approche routière et une marche. Le parcours et les conditions de nuit sur place sont à confirmer : le confort n'est pas celui d'un hôtel.",
     "E11": "À Jakarta, Kota Tua permet d'aborder l'histoire de Batavia et de visiter des musées. Glodok ajoute la découverte d'un autre quartier. Sur un séjour court, mieux vaut regrouper les visites par quartier.",
-    "E15": "Malang peut servir de base urbaine avant une excursion au Bromo. L'excursion se fait souvent de nuit : départ vers minuit, retour en fin de matinée. Il faut prévoir du repos ensuite.",
+    "E15": "Pour faire une excursion sur le volcan Bromo, il faut dormir à Malang. L'excursion se fait souvent de nuit : départ vers minuit, retour en fin de matinée. Il faut prévoir du repos ensuite.",
     "E16": "Tumpak Sewu peut se découvrir depuis un point de vue ou par une descente vers la cascade. Le terrain de la descente est mouillé et glissant : elle n'est pas adaptée à tout le monde.",
     "E17": "Surabaya est une étape urbaine à l'est de Java, desservie par le train et l'avion. On y vient surtout pour la ville et sa cuisine. Les musées et quartiers à visiter restent à choisir.",
     "E18": "Tanjung Puting se rejoint depuis Pangkalan Bun puis Kumai. La navigation sur les rivières et les marches d'observation permettent d'aborder la forêt et ses orangs-outans. Pour une nuit à bord, vérifier les couchages, les sanitaires et les repas.",
