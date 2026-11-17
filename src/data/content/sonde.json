@@ -17,7 +17,7 @@
   },
   "sumba": {
    "intro": "Sumba est une île sèche au sud de Flores, à l'écart des circuits. On y vit encore dans des villages aux toits de chaume très hauts, avec les tombes des ancêtres, d'énormes dalles de pierre, posées devant les maisons, et des chevaux en liberté dans la savane. À l'ouest, autour de Waikabubak, les villages traditionnels et le lagon de Weekuri. À l'est, autour de Waingapu, les collines de Wairinding, des cascades et les ateliers d'ikat.",
-   "august": "Saison sèche. Les collines de Wairinding sont dorées de juillet à octobre, pas vertes comme sur beaucoup de photos. Le Pasola, la joute à cheval de l'ouest, a lieu en février et mars, pas en août.",
+   "august": "Saison sèche. Les collines de Wairinding sont dorées, pas vertes comme sur beaucoup de photos. Le Pasola, la joute à cheval de l'ouest, a lieu en février ou en mars, pas en août.",
    "access": "Deux aéroports reliés à Bali : Tambolaka à l'ouest, Waingapu à l'est. On peut arriver par l'un et repartir par l'autre ; entre les deux, la traversée de l'île en voiture avec chauffeur prend une demi-journée."
   }
  },
@@ -973,51 +973,56 @@
     {
      "name": "Collines de Wairinding",
      "type": "Nature",
-     "text": "À une demi-heure de Waingapu, sur la route de l'ouest. On se gare, on monte cinq minutes et on voit des dizaines de collines rondes couvertes d'herbe, sans arbre. Y aller au lever du soleil ou vers 17 h, quand la lumière rasante creuse les reliefs.",
+     "text": "À 25 km de Waingapu, une demi-heure à trois quarts d'heure sur la route de l'ouest. Du parking, 500 m d'un sentier caillouteux qui monte, et on voit des dizaines de collines rondes couvertes d'herbe, sans arbre. Y aller au lever du soleil ou vers 17 h, quand la lumière rasante creuse les reliefs.",
      "time": "1 h",
      "price": null
     },
     {
      "name": "Ateliers d'ikat à Prailiu et Rende",
      "type": "Culture",
-     "text": "À Prailiu, village royal à la sortie de Waingapu, les femmes tissent sous les maisons et montrent les étapes : nouer les fils, les teindre, tisser. Une grande pièce demande des mois. À Rende, plus loin vers l'est, mêmes tissages au pied de tombes royales sculptées.",
+     "text": "À Prailiu, village royal à 3 km du centre, sur la route de l'aéroport, on tisse l'ikat entre les tombes de pierre et on montre les étapes : nouer les fils, les teindre, tisser. Une grande pièce demande des mois. À Rende, 70 km plus à l'est, de grandes maisons et d'énormes tombes mégalithiques.",
      "time": "demi-journée",
      "price": null
     },
     {
      "name": "Arbres dansants de Walakiri",
      "type": "Nature",
-     "text": "Une plage à une demi-heure à l'est de Waingapu. À marée basse, au coucher du soleil, de petits palétuviers tordus se découpent sur l'eau qui se retire : on les appelle les arbres qui dansent. On marche jusqu'à eux sur le sable mouillé.",
+     "text": "Une plage à 24 km à l'est de Waingapu, une demi-heure. À marée basse, au coucher du soleil, une douzaine de petits palétuviers tordus se découpent sur l'eau qui se retire : on les appelle les arbres qui dansent. Arriver vers 16 h 30 ; à marée haute, on ne les voit pas tous.",
      "time": "1 h 30",
      "price": null
     },
     {
      "name": "Cascade de Waimarang",
      "type": "Nature",
-     "text": "Une vasque turquoise au fond d'une gorge de calcaire, alimentée par une petite chute. Depuis le parking, vingt minutes de descente raide en forêt, et la remontée fait transpirer. On se baigne dans le bassin. Arriver le matin, avant le monde.",
+     "text": "À 60 km de Waingapu, deux heures de route par Melolo, la fin en piste. Une vasque bleu-vert au fond d'une gorge de calcaire, où l'on se baigne. Depuis le parking, 1 km de descente raide, 20 à 30 minutes, et la remontée fait transpirer. Y être entre 9 h et midi, quand le soleil entre.",
      "time": "demi-journée",
      "price": null
     },
     {
      "name": "Cascade de Tanggedu",
      "type": "Randonnée",
-     "text": "Au nord-ouest de Waingapu, un canyon de roche claire, sculptée en strates, où deux rivières se rejoignent en cascades et en bassins bleu-vert. La fin de la route est une piste, puis on marche dans la savane en plein soleil. Partir tôt avec beaucoup d'eau.",
+     "text": "À 46 km au nord-ouest de Waingapu, deux heures de route. Du village, près de 3 km à pied ou à moto-taxi dans la savane, puis un escalier. En bas, un canyon de roche claire sculptée en strates, une chute de 8 m et des bassins bleu-vert où l'on se baigne.",
      "time": "la journée",
-     "price": null
+     "price": {
+      "amount": 5000,
+      "currency": "IDR",
+      "what": "entrée de la cascade, par personne (moto-taxi depuis le village : 50 000 l'aller-retour)"
+     }
     },
     {
      "name": "Savane de Puru Kambera",
      "type": "Nature",
-     "text": "Sur la route côtière qui mène à Tanggedu : une plaine d'herbe jaune piquée de quelques arbres, au bord d'une mer bleu foncé. Des chevaux de Sumba y broutent en liberté. On s'arrête pour marcher un peu et se baigner sur la plage d'en face.",
+     "text": "Sur la route côtière qui mène à Tanggedu : une plaine d'herbe jaune piquée de quelques arbres, au bord d'une longue plage déserte. Des chevaux y broutent en liberté. On s'arrête pour marcher un peu et se baigner. Rien à acheter sur place : prendre de l'eau.",
      "time": "1 h",
      "price": null
     }
    ],
-   "access": "Vol depuis Bali jusqu'à l'aéroport de Waingapu, tout près de la ville. Depuis Waikabubak et l'ouest de l'île, environ 4 h de route, en passant par les collines de Wairinding.",
+   "access": "Vol direct depuis Bali, 1 h 40, jusqu'à l'aéroport de Waingapu, tout près de la ville. Depuis Waikabubak et l'ouest de l'île, 3 à 4 h de route, en passant par les collines de Wairinding.",
    "tips": [
-    "Ne pas s'attendre à des collines vertes en août : elles sont dorées de juillet à octobre.",
+    "Ne pas s'attendre à des collines vertes en août : elles sont dorées pendant toute la saison sèche.",
     "Pour voir une démonstration de teinture ou de tissage, faire prévenir la veille par le chauffeur. Sans rendez-vous, on ne voit parfois que les tissus à vendre.",
-    "Très peu d'ombre partout : chapeau, eau, et les sites exposés tôt le matin ou en fin d'après-midi."
+    "Très peu d'ombre partout : chapeau, eau, et les sites exposés tôt le matin ou en fin d'après-midi.",
+    "Hors de Waingapu, les stations-service sont rares et le réseau téléphonique disparaît vite : on fait le plein et on télécharge les cartes avant de partir."
    ],
    "photos": [
     {

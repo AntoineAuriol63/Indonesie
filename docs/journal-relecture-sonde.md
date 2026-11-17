@@ -191,3 +191,24 @@ Photos : « SumbawaPaddyFields.JPG » (rizières sans rapport avec la fiche) rem
 | Vol Bali-Tambolaka, Waikabubak à environ une heure | Wikivoyage Sumba (une vingtaine de vols par semaine depuis Bali, ni Grab ni Gojek) ; Wikivoyage Waikabubak (1 à 2 h) | corrigée : une à deux heures |
 
 Photos : « Pantai Mbawana, Sumba Barat Daya.jpg » retirée (elle montre l'arche disparue en 2020) ; « Kampung Adat Ratenggaro » (tombes) retirée pour faire place. Ajoutées : « Air Terjun Lapopu, Sumba Barat.jpg » (Zahrasrtn) et « Kampung Tarung-Waitabar.jpg » (monica renata, 2008, 900 px : avertissement du script ; c'est la plus grande photo libre de Tarung, la même sur Flickr). Légende de Mandorak corrigée (la photo montre les falaises, pas la crique). Les trois autres regardées et gardées.
+
+## waingapu-et-est
+
+| Affirmation | Source (URL) | Verdict |
+| --- | --- | --- |
+| Waingapu, plus grande ville de l'île ; vol depuis Bali ; aéroport tout près | https://en.wikivoyage.org/wiki/Sumba ; https://en.wikivoyage.org/wiki/Waingapu (vol direct de Bali, 1 h 40 ; Prailiu à 3 km du centre sur la route de l'aéroport) | confirmée, durée du vol ajoutée |
+| Waikabubak-Waingapu environ 4 h | https://en.wikivoyage.org/wiki/Waikabubak et https://www.backindo.com/?p=5732 (3 à 4 h) | corrigée : 3 à 4 h |
+| Wairinding à une demi-heure, cinq minutes de montée, doré en saison sèche | https://kupang.antaranews.com/berita/14886/perbukitan-wairinding-jadi-wisata-andalan-sumba-timur et https://www.goodnewsfromindonesia.id/2025/02/07/terkagum-melihat-lanskap-bukit-wairinding-permata-sabana-di-sumba-timur (25 à 30 km, 30 à 50 min, 500 m de sentier caillouteux) ; backindo (vert en saison des pluies, doré en saison sèche, lever du soleil ou fin d'après-midi) | précisée ; « de juillet à octobre » -> toute la saison sèche |
+| Prailiu, village royal à la sortie de Waingapu ; Rende et ses tombes royales sculptées | Wikivoyage Waingapu (Prailiu à 3 km, tombes mégalithiques, ikat aux teintures naturelles ; Rende à 70 km à l'est, grandes maisons et tombes mégalithiques) ; backindo (Raja Prailiu) | confirmée ; « sous les maisons » et « sculptées » retirés (introuvables) |
+| Ikat : indigo et racine de morinda, chevaux, coqs, crevettes, des mois de travail | https://en.wikipedia.org/wiki/Textiles_of_Sumba et https://www.backindo.com/?p=9848 (indigo et rouge de morinda ; plusieurs mois) ; notices de pièces de Rende et Kambera (chevaux, coqs, crevettes) : https://ikat.us/ikat_096.php | confirmée |
+| Walakiri à une demi-heure, marée basse, coucher du soleil, « arbres qui dansent » | https://rri.co.id/en/tourism/2115180/exploring-dancing-tree-in-sumba-s-walakiri-beach ; https://www.backindo.com/walakiri-beach/ (arriver vers 16 h 30) ; https://www.thejakartapost.com/travel/2018/06/05/jakpost-explores-sumba ; article Antara (24 km) | confirmée, précisée |
+| Waimarang : vasque dans une gorge, 20 min de descente raide, y aller le matin | description Commons de la photo (20 min de marche) ; https://www.goodnewsfromindonesia.id/indonesiana/wisata/air-terjun-waimarang-laguna-biru-di-balik-tebing-kapur-sumba-timur (60 km, 2 h par Melolo, 1 km, 20 à 30 min, marches raides, 9 h à midi, parking 5 000 à 10 000 IDR) | confirmée, distance et horaire ajoutés |
+| Tanggedu : au nord-ouest, deux rivières, piste puis marche dans la savane | https://www.goodnewsfromindonesia.id/2024/02/07/air-terjun-tanggedu-pesona-alam-kelas-dunia-di-sumba-timur (46 km, 2 h, près de 3 km à pied ou en moto-taxi, pont, savane, escalier, chute de 8 m, entrée 5 000 IDR, moto 50 000 aller-retour) ; https://www.metrotvnews.com/read/K5nCR8pp-air-terjun-tanggedu-surga-di-sumba-timur-tiket-cuma-rp5-ribu | précisée ; « deux rivières se rejoignent » et « la fin de la route est une piste » retirés ; prix ajouté (5 000 IDR) |
+| Puru Kambera : savane, chevaux, plage, sur la route de Tanggedu | backindo (savane et longue plage déserte, animaux en liberté, emporter de l'eau) ; description Commons de la photo (arrêt sur la route de Tanggedu) | confirmée |
+| Stations-service rares, réseau | backindo | ajoutée |
+
+Photos : les six regardées, toutes justes et de bonne qualité, lieux confirmés par les descriptions Commons. Rien à changer.
+
+## Région sumba
+
+`august` : « dorées de juillet à octobre » remplacé par « dorées » (toute la saison sèche) ; Pasola en février ou mars confirmé (Wikivoyage). `intro` et `access` confirmés : deux aéroports reliés à Bali, traversée de l'île en une demi-journée (1 à 2 h de Tambolaka à Waikabubak, 3 à 4 h de Waikabubak à Waingapu).
