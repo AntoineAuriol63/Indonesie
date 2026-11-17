@@ -508,13 +508,13 @@
     "pemuteran-menjangan": {
       "intro": [
         "Pemuteran est un village de pêcheurs calme du nord-ouest de Bali, entre la mer et les collines, loin de tout : il faut environ quatre heures de route depuis le sud. Une longue plage de sable noir, peu de monde, et le récif juste devant.",
-        "On y vient pour Menjangan, une petite île du parc national de Bali Barat, à 8 km environ de la côte. Pas de village : des temples et des cerfs. Son récif est un des mieux conservés de Bali, l'eau est claire et la mer calme. On y passe la journée, le masque sur le nez."
+        "On y vient pour Menjangan, une petite île du parc national de Bali Barat, à 20 ou 45 minutes de bateau selon l'embarcadère. Pas de village : des temples et des cerfs. Son récif est un des mieux conservés de Bali, l'eau est claire et la mer calme. On y passe la journée, le masque sur le nez."
       ],
       "todo": [
         {
           "name": "Snorkeling à Menjangan",
           "type": "Mer",
-          "text": "Les bateaux partent de la plage de Labuhan Lalang, à un quart d'heure de route de Pemuteran. On en affrète un le jour même ou on le partage le matin avec d'autres. Guide et permis du parc sont obligatoires. Sous l'eau, plus de cent espèces de coraux. Rien à boire ni à manger sur place.",
+          "text": "Une sortie en bateau depuis la plage de Pemuteran ou depuis Labuhan Lalang, l'embarcadère du parc, à un quart d'heure de route. En général deux mises à l'eau le long du tombant, parmi plus de cent espèces de coraux. Guide et permis du parc sont obligatoires. Rien à boire ni à manger sur l'île.",
           "time": "la journée",
           "price": {
             "amount": 200000,
@@ -532,7 +532,7 @@
         {
           "name": "Récif restauré de Pemuteran",
           "type": "Mer",
-          "text": "Devant la plage, des structures métalliques immergées sur lesquelles le corail repousse, avec des statues au milieu : un projet lancé au village en 2000, le plus grand du monde de ce type. On y nage directement depuis le bord, à l'ouest du village.",
+          "text": "Devant la plage, plus de 70 structures métalliques immergées, sur un demi-kilomètre, où le corail repousse, avec des statues au milieu : le projet Karang Lestari, lancé au village en 2000. On y nage directement depuis le bord, à l'ouest du village.",
           "time": "1 h 30",
           "price": null
         },
@@ -546,7 +546,7 @@
         {
           "name": "Temple de Pulaki",
           "type": "Culture",
-          "text": "Un temple de la mer au bord de la route côtière, adossé à des rochers, face à la plage, à 3 km à l'est de Pemuteran. La légende dit que des macaques y ont guidé le prêtre Nirartha, venu de Java, qui l'a fondé.",
+          "text": "Un temple de la mer au bord de la route côtière, adossé à des rochers, face à la plage, à 3 km à l'est de Pemuteran. La légende dit que des macaques y ont guidé le prêtre Nirartha, venu de Java. Ils y vivent toujours et attrapent ce qui traîne : on garde son sac fermé.",
           "time": "45 min",
           "price": null
         },
@@ -561,7 +561,7 @@
       "access": "Depuis Munduk, une soixantaine de kilomètres, soit une bonne heure de route en redescendant vers la côte nord. Depuis Lovina, 1 h 15. Depuis l'aéroport, compter environ 4 h.",
       "tips": [
         "Pour Menjangan, demander ce que comprend le tarif : bateau, guide, masque, déjeuner. Le droit d'entrée du parc national est souvent compté à part.",
-        "Le permis s'achète au bureau du parc, derrière le parking de Labuhan Lalang, où l'on trouve aussi un guide.",
+        "Si on part de Labuhan Lalang sans agence, le permis s'achète au bureau du parc, derrière le parking, où l'on trouve aussi un guide.",
         "Des oursins sur le récif devant Pemuteran à marée basse : chaussons d'eau."
       ],
       "photos": [
@@ -627,7 +627,11 @@
           "type": "Culture",
           "text": "Tous les soirs à 18 h, puis à 19 h, dans l'amphithéâtre à côté du temple. Pas d'instruments : une cinquantaine d'hommes assis en cercle scandent « tchak » pendant que des danseurs jouent le Ramayana, et ça finit dans le feu. Réserver quelques jours avant. L'entrée du temple se paie en plus.",
           "time": "1 h",
-          "price": null
+          "price": {
+            "amount": 150000,
+            "currency": "IDR",
+            "what": "billet du spectacle, par personne (entrée du temple en plus)"
+          }
         },
         {
           "name": "Plage de Padang Padang",

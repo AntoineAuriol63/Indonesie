@@ -189,3 +189,13 @@ Photos : les six ont été regardées. « DSF6870.jpg », décrite sur Commons c
 |---|---|---|
 | « Deux heures de route suffisent » des rizières à une plage de sable noir | temps relevés dans les fiches (Ubud-Amed 2 h 30 à 3 h, Sidemen-Amed 1 h 30) | corrigée : deux à trois heures |
 | Août : saison sèche, haute saison | https://www.baliholidaysecrets.com/padang-padang-beach/ (saison sèche de mai à septembre, juillet et août les plus fréquentés) ; BHS Munduk (pluie plus probable en altitude) | confirmée ; houle forte au sud ajoutée |
+
+## Compléments du 17 novembre (recherche web de nouveau disponible)
+
+| Fiche | Affirmation | Source (URL) | Verdict |
+|---|---|---|---|
+| Pemuteran | Durée du bateau pour Menjangan | rech. : https://westbali.net/diving-snorkelling-menjangan , https://wisatabaliku.com/en/cara-menyebrang-ke-pulau-menjangan-liburan-pemula , https://honeymoonbaliku.com/en/2-tempat-penyeberangan-ke-pualau-menjangan-dari-bali-resmi/ (20 minutes pour les uns, 30 à 45 pour les autres, depuis Labuhan Lalang ou Teluk Terima) | rétablie sous la forme « 20 ou 45 minutes selon l'embarcadère » |
+| Pemuteran | Départ direct de la plage de Pemuteran, deux mises à l'eau, tombant | rech. : annonces d'opérateurs de Pemuteran (bateau rapide depuis la plage, « wall diving or snorkeling », deux sessions de snorkeling ; sorties partagées de 400 000 à 600 000 par personne, déjeuner compris seulement dans certaines formules) | rétablie (« en général deux mises à l'eau le long du tombant ») ; pas de prix de sortie retenu |
+| Pemuteran | Récif restauré : nombre de structures | rech. : https://www.globalcoral.org/biorock-coral-reef-marine-habitat-restoration/ et documents de la Global Coral Reef Alliance (projet Karang Lestari lancé en juin 2000, plus de 70 structures sur un demi-kilomètre) | ajoutée |
+| Pemuteran | Macaques du temple de Pulaki | rech. : https://whatsnewindonesia.com/bali/sacred-monkey-and-cosmology-intricate-charm-pura-pulaki , https://lokasibali.com/lokasi/pulaki-temple (les macaques attrapent les objets, garder les sacs fermés) | rétablie |
+| Uluwatu | Prix du kecak | rech. : https://kura2bus.com/blog/uluwatu-kecak-dance-ticket-price/ (150 000 au guichet), annonce Expedia Indonésie (Rp 150.000), BHS (150 000) ; séances de 18 h et 19 h confirmées | prix ajouté : 150 000 |
