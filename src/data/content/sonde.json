@@ -12,8 +12,8 @@
   },
   "sumbawa": {
    "intro": "Sumbawa est la grande île entre Lombok et Komodo, que presque tout le monde survole. Pour l'instant je n'ai regardé que l'ouest : Sumbawa Besar, ancienne capitale d'un sultanat qui a gardé son palais en bois, et l'île de Moyo juste en face, une réserve naturelle où la cascade de Mata Jitu coule dans des bassins vert émeraude. Le reste de l'île, dont le volcan Tambora, reste à creuser.",
-   "august": "Saison sèche, il fait chaud et sec. Les traversées vers Moyo se font en petit bateau en bois, plutôt le matin quand la mer est plate.",
-   "access": "Depuis Lombok, ferry de Labuhan Lombok à Poto Tano puis deux heures de route jusqu'à Sumbawa Besar, qui a aussi un petit aéroport. Pour Moyo, on traverse en bateau depuis Sumbawa Besar."
+   "august": "Saison sèche : il fait chaud et sec, la mer est calme. C'est la bonne période pour Moyo, où le bateau public traverse une fois par jour, vers midi.",
+   "access": "Depuis Lombok, ferry de Kayangan à Poto Tano puis environ 1 h 30 de route jusqu'à Sumbawa Besar, qui a aussi un petit aéroport. Pour Moyo, on traverse en bateau depuis Sumbawa Besar."
   },
   "sumba": {
    "intro": "Sumba est une île sèche au sud de Flores, à l'écart des circuits. On y vit encore dans des villages aux toits de chaume très hauts, avec les tombes des ancêtres, d'énormes dalles de pierre, posées devant les maisons, et des chevaux en liberté dans la savane. À l'ouest, autour de Waikabubak, les villages traditionnels et le lagon de Weekuri. À l'est, autour de Waingapu, les collines de Wairinding, des cascades et les ateliers d'ikat.",
@@ -750,57 +750,59 @@
   },
   "sumbawa-besar-moyo": {
    "intro": [
-    "Moyo est une île-réserve en face de Sumbawa Besar, couverte de forêt, avec un millier d'habitants et presque pas de route. On y va pour la cascade de Mata Jitu, une série de bassins de calcaire vert émeraude en pleine forêt, et pour le snorkeling devant les plages.",
+    "Moyo est une île-réserve en face de Sumbawa Besar, couverte de forêt, avec environ 4 000 habitants et aucune route goudronnée hors du village. On y va pour la cascade de Mata Jitu, une série de bassins de calcaire vert émeraude en pleine forêt, et pour le snorkeling devant les plages.",
     "On part en bateau de Sumbawa Besar jusqu'au village de Labuan Aji, où l'on dort en homestay. Compter deux nuits sur l'île, plus une à Sumbawa Besar pour voir le vieux palais en bois des sultans."
    ],
    "todo": [
     {
      "name": "Cascade de Mata Jitu",
      "type": "Nature",
-     "text": "À cinq kilomètres de Labuan Aji : on monte à l'arrière d'une moto-taxi par une piste en forêt, puis on finit à pied. L'eau descend en escalier dans des vasques de calcaire, d'un vert laiteux. La princesse Diana y est venue en 1993.",
+     "text": "À quatre kilomètres de Labuan Aji : vingt à trente minutes à l'arrière d'une moto par une piste cahoteuse, 100 000 à 150 000 roupies, ou une heure à pied entre rizières et vergers d'anacardiers. L'eau descend en escalier dans des vasques de calcaire, d'un vert laiteux. La princesse Diana y est venue en 1993.",
      "time": "2 à 3 h",
      "price": null
     },
     {
      "name": "Snorkeling devant Labuan Aji",
      "type": "Mer",
-     "text": "Le récif commence à quelques brasses de la plage du village : coraux, poissons-clowns, parfois une tortue. Toute l'île est entourée d'une réserve marine. Apporter son masque et son tuba, on n'en trouve pas toujours à louer sur place.",
+     "text": "Le récif commence à quelques brasses du rivage : étoiles de mer, poissons, parfois une tortue. Devant le village même, les bateaux au mouillage gênent, on se met à l'eau un peu plus loin sur la plage. Tout le littoral de l'île est une réserve marine.",
      "time": "1 à 2 h",
      "price": null
     },
     {
      "name": "Cascade de Diwu Mba'i",
      "type": "Nature",
-     "text": "Plus près du village que Mata Jitu : une vasque profonde au pied d'une petite chute, où les enfants du coin se jettent à l'eau au bout d'une corde accrochée à un arbre. C'est là qu'on se baigne.",
+     "text": "À vingt minutes à pied du village : une vasque profonde au pied d'une petite chute, avec une corde accrochée à cinq mètres de haut pour se jeter à l'eau. C'est là qu'on se baigne.",
      "time": "1 à 2 h",
      "price": null
     },
     {
      "name": "Palais Dalam Loka",
      "type": "Culture",
-     "text": "À Sumbawa Besar, l'ancien palais des sultans, construit en 1885 : deux grandes bâtisses jumelles entièrement en bois, posées sur 99 piliers de teck. On visite l'intérieur, presque vide, et on en fait le tour par le jardin.",
+     "text": "À Sumbawa Besar, l'ancien palais des sultans, construit en 1885 : deux grandes bâtisses jumelles sur pilotis, entièrement en bois, assemblées sans un clou sur 99 piliers de teck, un par nom de Dieu dans l'islam. On en fait le tour par le jardin.",
      "time": "45 min",
      "price": null
     },
     {
      "name": "Requins-baleines de la baie de Saleh",
      "type": "Faune",
-     "text": "Dans la baie de Saleh, à l'est de Sumbawa Besar, des requins-baleines viennent au lever du jour sous les plateformes de pêche, attirés par les petits poissons des filets. On part en bateau avant l'aube et on nage à côté d'eux avec masque et tuba.",
-     "time": "la matinée",
+     "text": "Dans la baie de Saleh, d'avril à novembre, des requins-baleines viennent au lever du jour sous les plateformes de pêche, attirés par les petits poissons des filets. On quitte Sumbawa Besar vers 2 h du matin : 1 h 30 de route jusqu'à Labuan Jambu, puis autant de bateau. On nage à côté d'eux avec masque et tuba.",
+     "time": "la nuit et la matinée",
      "price": null
     },
     {
      "name": "Île de Kenawa",
      "type": "Nature",
-     "text": "Sur la route en venant de Lombok, en face du port de Poto Tano : un îlot désert couvert d'herbe, avec une seule colline. Un pêcheur y dépose depuis le port. On monte en haut de la colline pour la vue, puis on se baigne.",
+     "text": "Sur la route en venant de Lombok, en face du port de Poto Tano : un îlot de quinze hectares sans habitants, couvert d'herbe, avec une seule colline. Une petite barque y dépose depuis le port en un quart d'heure. On monte en haut de la colline pour la vue, puis on se baigne.",
      "time": "2 à 3 h",
      "price": null
     }
    ],
-   "access": "Depuis Lombok, ferry de Labuhan Lombok à Poto Tano (environ 1 h 30), puis deux heures de route jusqu'à Sumbawa Besar. De là, un bateau en bois traverse vers Labuan Aji, sur Moyo.",
+   "access": "Depuis Lombok, ferry de Kayangan à Poto Tano, un départ par heure environ, 1 h 30 à 2 h de traversée, puis 1 h 30 de route en voiture jusqu'à Sumbawa Besar, 4 h en bus. La ville a aussi un petit aéroport, relié à Lombok. Le bateau public pour Labuan Aji part de la jetée de Pantai Goa, à dix minutes du centre, vers midi ou 13 h : environ 2 h de traversée et 100 000 roupies.",
    "tips": [
-    "Pas d'horaire affiché pour Moyo : le bateau public part quand il est plein, sinon on affrète une barque. L'hôtel de Sumbawa Besar ou la homestay de Labuan Aji s'en occupent.",
-    "Sur l'île, on loge chez l'habitant, très simplement. L'autre adresse est l'Amanwana, un camp de tentes de grand luxe."
+    "Le bateau public ne part qu'une fois par jour, quand il est plein. Pour choisir son heure, on affrète un hors-bord, deux fois plus rapide : 1,5 à 2,5 millions de roupies le trajet. La homestay de Labuan Aji peut s'en occuper.",
+    "Sur l'île, on loge à Labuan Aji en bungalow ou en homestay, simplement. L'autre adresse est l'Amanwana, vingt tentes de grand luxe à environ 2 000 dollars la nuit.",
+    "Internet est lent ou absent sur Moyo.",
+    "De juin à septembre, la mer est calme et les sentiers sont secs : août est une bonne période."
    ],
    "photos": [
     {
@@ -832,15 +834,15 @@
      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
     },
     {
-     "file": "MoyoSchiffbau.JPG",
-     "caption": "Maison et bateau en chantier sur Moyo",
-     "author": "Torbenbrinker",
-     "license": "CC BY-SA 3.0",
-     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+     "file": "Pulau kenawa.jpg",
+     "caption": "Île de Kenawa vue du ciel",
+     "author": "Papudaengoyang",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
     },
     {
-     "file": "SumbawaPaddyFields.JPG",
-     "caption": "Rizières près de Sumbawa Besar",
+     "file": "MoyoSchiffbau.JPG",
+     "caption": "Maison et bateau en chantier sur Moyo",
      "author": "Torbenbrinker",
      "license": "CC BY-SA 3.0",
      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"

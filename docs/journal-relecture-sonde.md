@@ -151,3 +151,26 @@ Photos : « Distant view of Wae Rebo village » (un toit minuscule dans la forê
 ## Région flores-et-komodo
 
 Relue après les trois fiches. `august` : ajout du quota de 1 000 visiteurs par jour (voir labuan-bajo-komodo), la phrase sur le coup de vent retirée pour tenir en 45 mots. `intro` et `access` confirmés (vols depuis Bali et Jakarta : Wikivoyage Labuan Bajo).
+
+## sumbawa-besar-moyo
+
+| Affirmation | Source (URL) | Verdict |
+| --- | --- | --- |
+| Moyo : île-réserve, « un millier d'habitants », presque pas de route | https://en.wikipedia.org/wiki/Moyo_Island (349 km², environ 4 200 habitants en 2022, parc de chasse et parc marin depuis 1986) ; https://www.backindo.com/?p=6945 (24 nov. 2025 : pas de route goudronnée hors de Labuan Aji) | corrigée : un millier -> environ 4 000 habitants |
+| Mata Jitu à 5 km, moto-taxi puis marche, Diana en 1993 | Wikipédia (environ 4 km, Diana en 1993, séjour à l'Amanwana) ; backindo (1 h à pied, 20 min à moto) ; https://johnnyafrica.com/sumbawa-moyo-island-travel-guide (mai 2024 : 30 min, 100 000 à 150 000 IDR) ; https://en.wikivoyage.org/wiki/Moyo | corrigée : 5 km -> 4 km ; durées et tarif de la moto ajoutés |
+| Snorkeling devant Labuan Aji, poissons-clowns, réserve marine, matériel rare | backindo (récif accessible de la plage, étoiles de mer, poissons, parfois des tortues ; plage du village encombrée de bateaux) ; Wikipédia (littoral classé) | corrigée : « poissons-clowns » et « on n'en trouve pas toujours à louer » retirés |
+| Diwu Mba'i : corde, enfants du coin | backindo (vasque, corde à environ 5 m, 20 min à pied du village) | confirmée ; « les enfants du coin » retiré |
+| Dalam Loka : 1885, 99 piliers de teck, bâtisses jumelles | https://en.wikivoyage.org/wiki/Sumbawa_Besar (1885, sultan Jalaluddin III, sans clou) ; https://www.goodnewsfromindonesia.id/2019/09/23/rumah-panggung-terbesar-di-dunia (99 piliers pour les 99 noms de Dieu, deux moitiés égales) | confirmée ; « on visite l'intérieur, presque vide » retiré (introuvable) |
+| Requins-baleines de la baie de Saleh, départ avant l'aube | annonces de sorties (départ de l'hôtel à 2 h, 1 h 30 de route jusqu'à Labuan Jambu, 1 h 30 à 2 h de bateau, plateformes de pêche, avril à novembre) : https://mybalitrips.com/sumbawamoyo/ , https://www.oceanearthtravels.com/tour-packages/whale-shark-snorkeling-sumbawa ; johnnyafrica | confirmée, horaires ajoutés ; pas de prix retenu (annonces de 1,9 à 2,5 millions IDR et au-delà) |
+| Kenawa : îlot désert, une colline, pêcheur depuis Poto Tano | https://wanderlog.com/place/details/226026/pulau-kenawa (15 min en petite barque) ; https://mybalitrips.com/en/places/kenawa/ (15 ha, ni hôtel ni habitants) ; photo Commons | confirmée, précisée |
+| Ferry Labuhan Lombok-Poto Tano environ 1 h 30, puis deux heures de route | https://www.rome2rio.com/s/Labuhan-Lombok/Poto-Tano (1 h 40, un départ par heure) ; rome2rio Labuhan Lombok-Sumbawa Besar (2 h 59 en tout, ferry compris) ; johnnyafrica (4 h en bus) ; Wikivoyage (Mataram-Sumbawa Besar 7 h en bus, ferry compris) | corrigée : traversée 1 h 30 à 2 h ; route environ 1 h 30 en voiture, 4 h en bus |
+| Aéroport de Sumbawa Besar | Wikivoyage (vols depuis Lombok) | confirmée |
+| Bateau public pour Moyo : « part quand il est plein, pas d'horaire » | backindo (jetée de Goa, départ quotidien à midi, 1 h à 2 h 30, environ 100 000 IDR) ; johnnyafrica (Pantai Goa, vers 13 h quand il est plein, un peu plus de 2 h, 100 000 IDR ; hors-bord 1,5 à 2,5 millions) | corrigée : un départ par jour vers midi ; jetée, durée et tarifs ajoutés |
+| Amanwana, camp de tentes de luxe | Wikipédia (20 tentes, environ 2 000 dollars la nuit) | confirmée |
+| Bonne saison | backindo (juin à septembre) | ajoutée |
+
+Photos : « SumbawaPaddyFields.JPG » (rizières sans rapport avec la fiche) remplacée par « Pulau kenawa.jpg » (Papudaengoyang, vue aérienne de l'île). Les cinq autres regardées et gardées.
+
+## Région sumbawa
+
+`august` corrigé : le bateau public de Moyo part vers midi, pas le matin. `access` : route Poto Tano-Sumbawa Besar ramenée à environ 1 h 30. `intro` confirmé.
