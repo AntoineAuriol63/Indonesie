@@ -851,72 +851,73 @@
   },
   "sud-ouest-waikabubak": {
    "intro": [
-    "L'ouest de Sumba est la partie la plus traditionnelle de l'île. Les villages sont bâtis sur des buttes : de hautes maisons au toit de chaume en chapeau pointu et, devant, les tombes des ancêtres, d'énormes dalles de pierre. Beaucoup d'habitants suivent encore le marapu, la religion des ancêtres.",
+    "L'ouest de Sumba est la partie la plus traditionnelle de l'île. Les villages sont bâtis sur des buttes : de hautes maisons au toit de chaume en chapeau pointu et, devant, les tombes des ancêtres, d'énormes dalles de pierre. Près d'un tiers des Sumbanais suivent encore le marapu, la religion des ancêtres.",
     "On dort à Waikabubak ou près de Tambolaka et on fait deux boucles en voiture : les villages autour de Waikabubak, puis la côte de Kodi, tout à l'ouest, avec Ratenggaro, le lagon de Weekuri et la plage de Mandorak."
    ],
    "todo": [
     {
      "name": "Village de Ratenggaro",
      "type": "Culture",
-     "text": "Sur la côte de Kodi : des toits de chaume d'une quinzaine de mètres, parmi les plus hauts de Sumba, au bord d'une plage où se jette une rivière. Des tombes en pierre font face au large. Les enfants proposent un tour à cheval sur le sable.",
+     "text": "Sur la côte de Kodi, à 1 h 30 ou 2 h de Tambolaka : quatorze maisons aux toits de chaume d'une quinzaine de mètres, parmi les plus hauts de Sumba, au bord d'une plage où se jette une rivière. Des centaines de tombes de pierre l'entourent. Tour à cheval ou photo en costume : fixer le prix avant.",
      "time": "1 h",
      "price": null
     },
     {
      "name": "Lagon de Weekuri",
      "type": "Mer",
-     "text": "Un bassin d'eau de mer turquoise fermé par une barrière de rochers : les vagues passent par des trous dans la roche et renouvellent l'eau. On s'y baigne sans vague ni courant, et on saute d'une plateforme en bois. Plus d'eau à marée haute.",
+     "text": "Un bassin d'eau de mer turquoise de 150 m de long, fermé par des rochers : la mer entre par les fentes du corail. On s'y baigne sans vague ni courant et on saute d'une plateforme de 5 m. La profondeur suit la marée : 2,50 m au plus à marée basse, le double à marée haute.",
      "time": "2 h",
      "price": null
     },
     {
      "name": "Plage de Mandorak",
      "type": "Mer",
-     "text": "À quelques minutes de Weekuri, une petite crique de sable blanc serrée entre deux avancées de rocher, avec une ouverture étroite sur le large. On y vient pour le décor et pour se tremper au bord : la houle entre fort, on ne s'éloigne pas.",
+     "text": "Tout près de Weekuri, une petite crique de sable blanc d'une cinquantaine de mètres, serrée entre deux falaises de corail, avec une ouverture de trois mètres sur le large. On y vient pour le décor et pour se tremper au bord, sans s'éloigner.",
      "time": "45 min",
      "price": null
     },
     {
      "name": "Villages de Tarung et Waitabar",
      "type": "Culture",
-     "text": "En pleine ville de Waikabubak, sur une colline : deux villages collés l'un à l'autre, avec les tombes au milieu et, sur les façades, les cornes de buffle et les mâchoires de cochon des sacrifices passés. Tarung a brûlé en 2017 et a été reconstruit à l'identique.",
+     "text": "À pied depuis le centre de Waikabubak : deux villages collés l'un à l'autre, avec les grandes tombes de pierre au milieu des maisons. Tarung a perdu une trentaine de maisons dans un incendie en octobre 2017 ; elles ont été reconstruites. On signe le livre d'or et on laisse un don.",
      "time": "1 h",
      "price": null
     },
     {
      "name": "Village de Praijing",
      "type": "Culture",
-     "text": "À quelques kilomètres de Waikabubak, un village étagé sur une colline. Depuis la plateforme d'observation à l'entrée, on voit des dizaines de toits pointus sortir des arbres. Il est plus aménagé pour les visiteurs que les autres.",
+     "text": "À trois kilomètres de Waikabubak, un village d'une quarantaine de maisons étagé sur une colline. D'en haut, on voit les toits pointus sortir des arbres, avec les tombes au milieu. Il est plus habitué aux visiteurs que les autres : l'entrée se paie au guichet.",
      "time": "45 min",
      "price": null
     },
     {
      "name": "Plage de Bwanna",
      "type": "Mer",
-     "text": "Une plage sauvage au pied d'une falaise, aussi appelée Mbawana, avec une arche de pierre géante plantée dans le sable. On y descend par un sentier raide. À marée basse, on passe sous l'arche à pied.",
+     "text": "Une plage sauvage au pied de hautes falaises, aussi appelée Mbawana, à 1 h 30 de Tambolaka. Son arche de pierre, celle de toutes les anciennes photos, s'est effondrée en novembre 2020. Restent le sable, les falaises et les grosses vagues. On y descend par 300 marches raides et glissantes.",
      "time": "2 h",
      "price": null
     },
     {
      "name": "Cascade de Lapopu",
      "type": "Nature",
-     "text": "Dans le parc national au sud de Waikabubak : une cascade en escalier d'environ 90 m de haut, qui dévale la roche jusqu'à un bassin vert. On y arrive par une courte marche le long de la rivière, et on se baigne en bas.",
+     "text": "Dans le parc national de Manupeu Tanah Daru, à une trentaine de kilomètres de Waikabubak, 40 minutes de route : la plus haute cascade de Sumba, environ 90 m, qui dévale la roche en escalier jusqu'à un bassin vert. On paie l'entrée du parc et un guide.",
      "time": "demi-journée",
      "price": null
     },
     {
      "name": "Marché de Waikabubak",
      "type": "Ville",
-     "text": "Le matin, au marché de la ville : des tas de noix d'arec et de feuilles de bétel, que tout le monde mâche ici (d'où les dents rouges), du tabac, des légumes. Les hommes portent le parang, la machette, glissé dans un tissu noué à la taille.",
+     "text": "Le matin, au Pasar Baru : légumes, poisson séché, poulets vivants, et des tas de noix d'arec et de bétel, que l'on mâche partout ici. En offrir est une marque de respect : on peut en acheter pour les villages qu'on visitera.",
      "time": "45 min",
      "price": null
     }
    ],
-   "access": "Vol depuis Bali jusqu'à Tambolaka, à environ une heure de route de Waikabubak. Sur place, il faut une voiture avec chauffeur : aucun transport ne dessert les plages et les villages.",
+   "access": "Vol depuis Bali jusqu'à Tambolaka, une vingtaine par semaine, puis une à deux heures de route jusqu'à Waikabubak. Sur place, il faut une voiture avec chauffeur : ni Grab ni Gojek sur l'île, et aucun transport ne dessert les plages et les villages.",
    "tips": [
-    "Dans les villages, on signe le livre d'or et on laisse un don : prévoir des petites coupures. Un guide local aide à comprendre les tombes, les maisons et le marapu.",
+    "Dans les villages, on signe le livre d'or et on laisse un don ou on paie un billet : compter 20 000 à 50 000 roupies par personne, en petites coupures. Un guide local aide à comprendre les tombes, les maisons et le marapu.",
+    "Sur la côte de Kodi, on fixe les prix avant et on y va avec un chauffeur du coin : en 2025, des visiteurs de Ratenggaro se sont fait réclamer de l'argent avec insistance.",
     "Demander avant de photographier les gens.",
-    "À Weekuri la baignade est facile. Sur les plages ouvertes, Mandorak et Bwanna, la houle de l'océan Indien est forte."
+    "À Weekuri la baignade est facile ; y aller vers 15 h, et rentrer avant la nuit, la route n'est pas éclairée. Sur les plages ouvertes, la houle de l'océan Indien est forte."
    ],
    "photos": [
     {
@@ -941,22 +942,22 @@
      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
     },
     {
-     "file": "Pantai Mandorak, Sumba Barat Daya.jpg",
-     "caption": "Crique de Mandorak",
+     "file": "Air Terjun Lapopu, Sumba Barat.jpg",
+     "caption": "Cascade de Lapopu et son bassin",
      "author": "Zahrasrtn",
      "license": "CC BY-SA 4.0",
      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
     },
     {
-     "file": "Kampung Adat Ratenggaro - Sumba Barat Daya.jpg",
-     "caption": "Tombes de pierre à Ratenggaro",
-     "author": "Allwyn Wawyn",
-     "license": "CC BY-SA 4.0",
-     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+     "file": "Kampung Tarung-Waitabar.jpg",
+     "caption": "Maisons et tombes de Tarung, en 2008",
+     "author": "monica renata",
+     "license": "CC BY 2.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
     },
     {
-     "file": "Pantai Mbawana, Sumba Barat Daya.jpg",
-     "caption": "Arche de pierre de la plage de Bwanna",
+     "file": "Pantai Mandorak, Sumba Barat Daya.jpg",
+     "caption": "Falaises de corail à Mandorak",
      "author": "Zahrasrtn",
      "license": "CC BY-SA 4.0",
      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
