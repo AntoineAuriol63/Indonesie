@@ -80,21 +80,42 @@
      "type": "Culture",
      "text": "Le fort Belgica domine Banda Neira et la baie. À voir pour l'histoire du commerce des épices et la vue. Faire confirmer l'ouverture avant de monter.",
      "time": "1 h",
-     "price": null
+     "price": null,
+     "photo": {
+      "file": "Fort Belgica Fortifications 2018.jpg",
+      "caption": "Remparts du fort Belgica et la baie",
+      "author": "The13thSchulzter",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+     }
     },
     {
      "name": "Fort Nassau et les maisons coloniales",
      "type": "Ville",
      "text": "Balade entre le fort Nassau et les bâtiments liés à l'époque coloniale et à l'exil de dirigeants indonésiens. Les petites maisons musées peuvent demander de prévenir avant.",
      "time": "2 h",
-     "price": null
+     "price": null,
+     "photo": {
+      "file": "Benteng Nassau 13.jpg",
+      "caption": "Fort Nassau et le Gunung Api",
+      "author": "Zhilal Darma",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+     }
     },
     {
      "name": "Plantations de muscade de Banda Besar",
      "type": "Nature",
      "text": "Traverser vers Banda Besar pour voir les plantations de muscade avec un guide. Demander une visite expliquée : c'est plus intéressant que de simplement passer entre les arbres.",
      "time": "demi-journée",
-     "price": null
+     "price": null,
+     "photo": {
+      "file": "Agrowisata Kebun Pala Lonthoir 06.jpg",
+      "caption": "Noix de muscade ouvertes à Lonthoir",
+      "author": "Zhilal Darma",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+     }
     },
     {
      "name": "Montée au Gunung Api",
@@ -216,14 +237,28 @@
      "type": "Culture",
      "text": "Le palais du sultan pour l'histoire de Ternate. Vérifier les espaces ouverts et les règles de tenue avant d'entrer. La mosquée voisine a ses propres conditions d'accès.",
      "time": "1 h",
-     "price": null
+     "price": null,
+     "photo": {
+      "file": "Ternate, Keraton.jpg",
+      "caption": "Palais du sultan de Ternate",
+      "author": "Kainjock",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+     }
     },
     {
      "name": "Lac Tolire",
      "type": "Nature",
      "text": "Le lac Tolire, au pied du Gamalama, se regarde depuis les points de vue. Les histoires de crocodiles blancs relèvent des récits locaux. Ne rien jeter dans le lac.",
      "time": "1 h",
-     "price": null
+     "price": null,
+     "photo": {
+      "file": "Danau Tolire Besar, Ternate 01.jpg",
+      "caption": "Lac Tolire au pied du Gamalama",
+      "author": "RaymondSutanto",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+     }
     },
     {
      "name": "Tour de l'île par la côte",
@@ -244,7 +279,14 @@
      "type": "Culture",
      "text": "Une journée à Tidore depuis Ternate, avec la traversée puis la route vers Soasio et le fort Tahula. Organiser le retour avant de partir, sans compter sur un dernier bateau improvisé.",
      "time": "la journée",
-     "price": null
+     "price": null,
+     "photo": {
+      "file": "Pulau Maitara e Pulau Tidore from Pulau Ternate, The Moluccas (Maluku) (15012618807).jpg",
+      "caption": "Maitara et Tidore vues de Ternate",
+      "author": "Fabio Achilli",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+     }
     },
     {
      "name": "Thon cru et sagou",
@@ -335,7 +377,14 @@
      "type": "Mer",
      "text": "Dodola Besar et Dodola Kecil sont reliées par un banc de sable visible selon la marée. Prévoir la sortie avec un batelier, en gardant le temps de revenir avant que l'eau remonte.",
      "time": "la journée",
-     "price": null
+     "price": null,
+     "photo": {
+      "file": "A beach on dodola island.jpg",
+      "caption": "Plage sur l'île de Dodola",
+      "author": "M.akbar.raf",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+     }
     },
     {
      "name": "Tournée des îlots en bateau",
@@ -431,31 +480,9 @@
    ],
    "todo": [
     {
-     "name": "Dormir en homestay sur pilotis",
-     "type": "Détente",
-     "text": "Un homestay sur pilotis peut être une option à Kri. Avant de choisir, vérifier la salle d'eau, l'électricité, les repas, l'accès au récif et le prix des transferts. Les photos ne disent pas tout sur le confort.",
-     "time": "",
-     "price": {
-      "amount": 63,
-      "currency": "EUR",
-      "what": "nuit pour deux au Junior Homestay (Kri), trois repas par jour compris, transferts et excursions en plus"
-     }
-    },
-    {
-     "name": "Dormir à la pointe ouest de Kri",
-     "type": "Détente",
-     "text": "On peut aussi dormir vers l'ouest de Kri. Comparer le récif accessible depuis le logement et les transferts. Ne pas partir à pied sur les bancs de sable sans avis local sur la marée et le retour.",
-     "time": "",
-     "price": {
-      "amount": 69,
-      "currency": "EUR",
-      "what": "nuit pour deux en cabane sur l'eau au Yenbuba Homestay (Kri), trois repas par jour compris, transferts et excursions en plus"
-     }
-    },
-    {
      "name": "Snorkeling sur le récif de Kri",
      "type": "Mer",
-     "text": "Le récif de Kri se découvre selon la marée et le courant. Choisir les zones avec le guide ou l'hébergement, et ne pas partir seul vers une pointe ou un chenal.",
+     "text": "Le récif de Kri se visite selon la marée et le courant. Choisir les zones avec le guide ou l'hébergement, et ne pas partir seul vers une pointe ou un chenal.",
      "time": "2 h",
      "price": null
     },
@@ -464,14 +491,28 @@
      "type": "Mer",
      "text": "Arborek pour le village et une sortie sur le récif. Le ponton reste un lieu de passage des bateaux : demander où et quand se mettre à l'eau.",
      "time": "demi-journée",
-     "price": null
+     "price": null,
+     "photo": {
+      "file": "Kampung Arborek.jpg",
+      "caption": "Ponton du village d'Arborek",
+      "author": "Anazlombu",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+     }
     },
     {
      "name": "Raies manta à Manta Sandy",
      "type": "Faune",
      "text": "Manta Sandy est un site où les mantas peuvent venir se faire nettoyer. Les rencontres varient selon la saison et le jour ; ne pas en faire une promesse pour août. Suivre les consignes du guide et des gardes.",
      "time": "demi-journée",
-     "price": null
+     "price": null,
+     "photo": {
+      "file": "Giant Manta AdF.jpg",
+      "caption": "Raie manta à Raja Ampat",
+      "author": "Arturo de Frias Marques",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+     }
     },
     {
      "name": "Oiseaux de paradis sur Gam",
@@ -575,7 +616,27 @@
      "url": "https://swimwithmantas.org/"
     }
    ],
-   "checked": "17 novembre 2026"
+   "checked": "17 novembre 2026",
+   "stay": [
+    {
+     "name": "Homestay sur pilotis à Kri",
+     "text": "Un homestay sur pilotis peut être une option à Kri. Avant de choisir, vérifier la salle d'eau, l'électricité, les repas, l'accès au récif et le prix des transferts. Les photos ne disent pas tout sur le confort.",
+     "price": {
+      "amount": 63,
+      "currency": "EUR",
+      "what": "nuit pour deux au Junior Homestay (Kri), trois repas par jour compris, transferts et excursions en plus"
+     }
+    },
+    {
+     "name": "Pointe ouest de Kri",
+     "text": "On peut aussi dormir vers l'ouest de Kri. Comparer le récif accessible depuis le logement et les transferts. Ne pas partir à pied sur les bancs de sable sans avis local sur la marée et le retour.",
+     "price": {
+      "amount": 69,
+      "currency": "EUR",
+      "what": "nuit pour deux en cabane sur l'eau au Yenbuba Homestay (Kri), trois repas par jour compris, transferts et excursions en plus"
+     }
+    }
+   ]
   },
   "waigeo-secteur-de-piaynemo": {
    "intro": [
@@ -591,6 +652,13 @@
       "amount": 300000,
       "currency": "IDR",
       "what": "droit d'accès au belvédère de Piaynemo, par bateau et non par personne"
+     },
+     "photo": {
+      "file": "Piaynemo, Raja Ampat (39660320633).jpg",
+      "caption": "Îlots de Piaynemo vus du belvédère",
+      "author": "peter harris",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
      }
     },
     {
@@ -599,14 +667,28 @@
      "text": "Un autre point de vue sur le lagon, avec un accès moins aménagé. À décider avec le guide selon le terrain et notre aisance ; on peut rester sur le belvédère principal.",
      "time": "30 min",
      "price": null,
-     "hidden": true
+     "hidden": true,
+     "photo": {
+      "file": "\"Telaga Bintang\" Raja Ampat.jpg",
+      "caption": "Lagon en étoile de Telaga Bintang",
+      "author": "Caka komsary",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+     }
     },
     {
      "name": "La journée en bateau",
      "type": "Mer",
      "text": "Comparer une sortie privée et une sortie partagée. Faire préciser le prix par personne ou par bateau, les arrêts, les repas et les éventuels droits d'entrée avant de réserver.",
      "time": "la journée",
-     "price": null
+     "price": null,
+     "photo": {
+      "file": "Pasir timbul raja ampat.jpg",
+      "caption": "Banc de sable de Pasir Timbul",
+      "author": "GGgord",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+     }
     },
     {
      "name": "Oiseaux de paradis près de Waisai",
@@ -614,24 +696,27 @@
      "text": "Depuis le secteur de Waisai, une sortie guidée en forêt pour chercher les paradisiers. Départ matinal et marche à confirmer avec le guide ; aucune observation garantie.",
      "time": "la matinée",
      "price": null,
-     "hidden": true
+     "hidden": true,
+     "photo": {
+      "file": "Wilson's Bird-of-Paradise 0A2A1913.jpg",
+      "caption": "Paradisier républicain sur son perchoir",
+      "author": "JJ Harrison",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+     }
     },
     {
      "name": "Friwen",
      "type": "Mer",
      "text": "Friwen peut faire un arrêt de snorkeling en bateau. Le guide doit choisir le site et le sens du parcours selon le courant. Ne pas tenter de traverser le chenal à la nage.",
      "time": "2 h",
-     "price": null
-    },
-    {
-     "name": "Dormir aux îles Fam, près de Piaynemo",
-     "type": "Détente",
-     "text": "Dormir dans les îles Fam peut éviter un long aller-retour pour Piaynemo. Comparer le coût du transfert et les sorties depuis le logement, en plus du prix des nuits.",
-     "time": "",
-     "price": {
-      "amount": 58,
-      "currency": "EUR",
-      "what": "nuit pour deux au homestay Raja Ampat Sunrise (îles Fam), trois repas par jour compris, transferts et excursions en plus"
+     "price": null,
+     "photo": {
+      "file": "Corals near Pulau Friwen, Raja Ampat.jpg",
+      "caption": "Coraux près de Friwen",
+      "author": "Fabian Lambeck",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
      }
     }
    ],
@@ -707,7 +792,18 @@
      "url": "https://greenfins.net/material/gf_all_eng_bestpracticesnorkeller_a4/"
     }
    ],
-   "checked": "17 novembre 2026"
+   "checked": "17 novembre 2026",
+   "stay": [
+    {
+     "name": "Îles Fam, près de Piaynemo",
+     "text": "Dormir dans les îles Fam peut éviter un long aller-retour pour Piaynemo. Comparer le coût du transfert et les sorties depuis le logement, en plus du prix des nuits.",
+     "price": {
+      "amount": 58,
+      "currency": "EUR",
+      "what": "nuit pour deux au homestay Raja Ampat Sunrise (îles Fam), trois repas par jour compris, transferts et excursions en plus"
+     }
+    }
+   ]
   },
   "kupang": {
    "intro": [
@@ -735,7 +831,14 @@
      "type": "Détente",
      "text": "Lasiana pour une sortie sur la côte près de Kupang. À envisager pour la plage et la fin de journée ; vérifier les conditions avant de se baigner.",
      "time": "2 h",
-     "price": null
+     "price": null,
+     "photo": {
+      "file": "Unnamed Road, Lasiana, Klp. Lima, Kota Kupang, Nusa Tenggara Tim., Indonesia - panoramio (1).jpg",
+      "caption": "Coucher de soleil sur la plage de Lasiana",
+      "author": "Emus Usboko",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+     }
     },
     {
      "name": "Grotte de Kristal",
@@ -809,7 +912,7 @@
   },
   "alor-kepa": {
    "intro": [
-    "Alor et Kepa pour un séjour tourné vers les récifs, avec des sorties culturelles autour de Kalabahi. Le courant compte beaucoup dans le choix des sites. Le confort et les activités se choisissent avec l'hébergement, pas seulement en regardant une plage sur la carte."
+    "Alor et Kepa pour un séjour tourné vers les récifs, avec des sorties culturelles autour de Kalabahi. Le courant compte beaucoup dans le choix des sites. Le confort et les activités se choisissent avec l'hébergement, sans se fier à une plage vue sur la carte."
    ],
    "todo": [
     {
@@ -822,6 +925,11 @@
       "currency": "EUR",
       "what": "pour deux en bungalow standard avec trois repas, tarif de l'hébergeur",
       "checked": "novembre 2026"
+     },
+     "photo": {
+      "url": "https://live.staticflickr.com/4135/4903824238_2cdb717499_b.jpg",
+      "caption": "Bungalow sur l'îlot de Kepa",
+      "source": "Flickr, prilfish, CC BY 2.0"
      }
     },
     {
@@ -840,6 +948,13 @@
       "amount": 22,
       "currency": "EUR",
       "what": "sortie snorkeling en bateau sur deux sites avec La P'tite Kepa"
+     },
+     "photo": {
+      "file": "Beautiful view from Pura Island - Alor - East Nusa Tenggara.jpg",
+      "caption": "Le détroit vu de l'île de Pura",
+      "author": "Sims8899",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
      }
     },
     {
@@ -847,7 +962,14 @@
      "type": "Culture",
      "text": "Takpala pour découvrir le village et la culture abui. Organiser la visite localement ; une danse se demande et se confirme, elle n'a pas lieu simplement parce qu'on arrive.",
      "time": "2 h",
-     "price": null
+     "price": null,
+     "photo": {
+      "file": "Abui Lego-lego.jpg",
+      "caption": "Danse lego-lego au village de Takpala",
+      "author": "Geo saad",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+     }
     },
     {
      "name": "Musée des mille moko à Kalabahi",

@@ -76,6 +76,13 @@
             "amount": 70,
             "currency": "EUR",
             "what": "trek d'une journée avec guide, permis d'entrée du parc, fruits et déjeuner, par personne ; le retour en bouée est compris ou en supplément selon le guide"
+          },
+          "photo": {
+            "file": "Gunung Leuser & Orang Utans (35322365933).jpg",
+            "caption": "Orang-outan mâle dans le Gunung Leuser",
+            "author": "Dennis Keller",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
           }
         },
         {
@@ -94,7 +101,14 @@
           "type": "Nature",
           "text": "Le retour en bouée sur la Bohorok est une option chez certains guides. Vérifier le débit, l'équipement et la possibilité de rentrer à pied. À enlever si on ne veut pas d'activité en rivière.",
           "time": "une demi-heure environ",
-          "price": null
+          "price": null,
+          "photo": {
+            "file": "Bukit Lawang, Langkat Regency, North Sumatra, Indonesia.jpg",
+            "caption": "Bukit Lawang et la rivière Bohorok",
+            "author": "Madeleine Holland",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+          }
         },
         {
           "name": "Grotte aux chauves-souris",
@@ -126,6 +140,13 @@
             "amount": 10000,
             "currency": "IDR",
             "what": "entrée du palais, par personne (location de costume en plus)"
+          },
+          "photo": {
+            "file": "Maimun Palace Medan Indonesia.jpg",
+            "caption": "Palais Maimun, Medan",
+            "author": "Mimihitam",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
           }
         },
         {
@@ -231,35 +252,70 @@
           "type": "Nature",
           "text": "Choisir une partie de Samosir à visiter plutôt que vouloir tout boucler. Scooter seulement si on est à l'aise et correctement autorisé ; sinon, organiser la journée avec un chauffeur.",
           "time": "la journée",
-          "price": null
+          "price": null,
+          "photo": {
+            "file": "Danau Toba dari Samosir.jpg",
+            "caption": "Le lac Toba vu depuis Samosir",
+            "author": "PL 05 SIGIT",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+          }
         },
         {
           "name": "Tombeau du roi Sidabutar, à Tomok",
           "type": "Culture",
-          "text": "À Tomok, visite des tombeaux et du village. Un guide permet de comprendre les récits associés au roi Sidabutar et aux traditions batak.",
+          "text": "À Tomok, visite des tombeaux et du village. Avec un guide, on comprend mieux les récits associés au roi Sidabutar et aux traditions batak.",
           "time": "1 h",
-          "price": null
+          "price": null,
+          "photo": {
+            "file": "Area dalam Makam Raja Sidabutar 2.jpg",
+            "caption": "Sarcophages du roi Sidabutar, Tomok",
+            "author": "Really Rin",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+          }
         },
         {
           "name": "Chaises de pierre d'Ambarita",
           "type": "Culture",
           "text": "Les chaises de pierre d'Ambarita et les maisons du village. À voir avec les explications sur les assemblées et les traditions locales, en distinguant histoire et récits transmis.",
           "time": "1 h",
-          "price": null
+          "price": null,
+          "photo": {
+            "file": "Batu Persidangan Huta Siallagan Januari 2026.jpg",
+            "caption": "Chaises de pierre de Huta Siallagan, Ambarita",
+            "author": "Nafisathallah",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+          }
         },
         {
           "name": "Danses batak à Simanindo",
           "type": "Culture",
           "text": "Le musée de Simanindo pour la culture batak. S'il y a une représentation de danse annoncée pendant le séjour, on peut l'ajouter ; vérifier le programme avant de venir.",
           "time": "1 h 30",
-          "price": null
+          "price": null,
+          "photo": {
+            "file": "Rumah Bolon, Rumah Adat Suku Batak di Sumatera Utara.jpg",
+            "caption": "Danseurs au musée Huta Bolon, Simanindo",
+            "author": "Pratechno",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+          }
         },
         {
           "name": "Cascade de Sipiso-piso",
           "type": "Nature",
           "text": "Sipiso Piso se trouve au nord du lac, hors de Samosir. On peut voir la cascade depuis le haut ; la descente vers le bas est une sortie plus physique à prévoir séparément.",
           "time": "1 à 2 h",
-          "price": null
+          "price": null,
+          "photo": {
+            "file": "Sipiso-piso Waterfalls.jpg",
+            "caption": "Cascade de Sipiso-piso",
+            "author": "Hendypernando",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+          }
         },
         {
           "name": "Carpe du lac et soirées à la guitare",
@@ -342,14 +398,28 @@
           "type": "Ville",
           "text": "Jam Gadang et Pasar Atas pour commencer par le centre de Bukittinggi. Une balade à glisser entre les excursions, avec les horaires du marché à vérifier.",
           "time": "1 h",
-          "price": null
+          "price": null,
+          "photo": {
+            "file": "Jam Gadang Okt 2020 1.jpg",
+            "caption": "Jam Gadang, place centrale de Bukittinggi",
+            "author": "Rhmtdns",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+          }
         },
         {
           "name": "Canyon de Sianok depuis le parc Panorama",
           "type": "Nature",
-          "text": "Le parc Panorama permet de voir le canyon de Sianok depuis le haut. Une option sans longue randonnée, qui se combine avec les tunnels japonais.",
+          "text": "Depuis le parc Panorama, on voit le canyon de Sianok depuis le haut. Une option sans longue randonnée, qui se combine avec les tunnels japonais.",
           "time": "1 h",
-          "price": null
+          "price": null,
+          "photo": {
+            "file": "Ngarai Sianok nan Hijau.jpg",
+            "caption": "Canyon de Sianok",
+            "author": "Adhmi",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+          }
         },
         {
           "name": "Tunnels japonais (Lobang Jepang)",
@@ -374,14 +444,28 @@
           "type": "Nature",
           "text": "Le lac Maninjau et la route en lacets peuvent faire une sortie à part. Vérifier l'état de la route après de fortes pluies et garder du temps pour les arrêts.",
           "time": "la journée",
-          "price": null
+          "price": null,
+          "photo": {
+            "file": "Danau Maninjau dari Lawang.jpg",
+            "caption": "Lac Maninjau vu depuis Puncak Lawang",
+            "author": "seven red",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+          }
         },
         {
           "name": "Vallée de Harau",
           "type": "Nature",
           "text": "Harau pour les falaises, les paysages et, selon les accès ouverts, des cascades. Choisir les arrêts avec le chauffeur plutôt que prévoir toutes les chutes dans la même journée.",
           "time": "la journée",
-          "price": null
+          "price": null,
+          "photo": {
+            "file": "Harau Valley ^Manifestone - panoramio.jpg",
+            "caption": "Rizière et falaise, vallée de Harau",
+            "author": "patargogo",
+            "license": "CC BY 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+          }
         },
         {
           "name": "Palais de Pagaruyung",
@@ -389,7 +473,14 @@
           "text": "Pagaruyung pour voir l'architecture minangkabau. Le palais actuel est une reconstruction : à présenter comme telle, pas comme un édifice ancien intact.",
           "time": "demi-journée",
           "price": null,
-          "hidden": true
+          "hidden": true,
+          "photo": {
+            "file": "Istano Rajo Basa Pagaruyung.jpg",
+            "caption": "Palais de Pagaruyung",
+            "author": "Herusutimbul",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+          }
         },
         {
           "name": "Tissages de Pandai Sikek",
@@ -405,7 +496,14 @@
           "text": "À goûter : cuisine padang et nasi kapau. Selon le restaurant, on choisit au comptoir ou parmi les plats servis ; demander comment fonctionne la commande avant de commencer.",
           "time": "",
           "price": null,
-          "hidden": true
+          "hidden": true,
+          "photo": {
+            "file": "Nasi Padang dishes at Simpang Raya Jam Gadang Restaurant - Guguk Panjang, Bukit Tinggi, West Sumatra.jpg",
+            "caption": "Assiettes de cuisine padang, Bukittinggi",
+            "author": "Firzafp",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+          }
         }
       ],
       "access": "On atterrit à Padang, puis 2 à 3 heures de route qui montent par la vallée d'Anai, avec sa cascade au bord de la chaussée ; c'est plus long le week-end. Depuis Medan ou le lac Toba, vérifier la liaison aérienne disponible jusqu'à Padang, éventuellement avec escale.",
@@ -489,6 +587,13 @@
             "amount": 415,
             "currency": "EUR",
             "what": "croisière privée de 3 jours et 2 nuits pour deux, par personne, avec bateau, équipage, guide et repas : premier prix relevé en ligne en octobre 2026 (en direct, 12 à 20 millions de roupies pour le bateau)"
+          },
+          "photo": {
+            "file": "Tanjung Puting National Park - 49813439933.jpg",
+            "caption": "Klotok sur la rivière, Tanjung Puting",
+            "author": "Jorge Franganillo",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
           }
         },
         {
@@ -500,6 +605,13 @@
             "amount": 250000,
             "currency": "IDR",
             "what": "droit d'entrée du parc national, tarif étranger, par personne et par jour, souvent compris dans le prix de la croisière"
+          },
+          "photo": {
+            "file": "Bornean orangutan (2).jpg",
+            "caption": "Orangs-outans sur une plateforme de nourrissage",
+            "author": "Raflinoer32",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
           }
         },
         {
@@ -521,7 +633,14 @@
           "type": "Faune",
           "text": "Depuis le bateau, chercher les nasiques et les autres animaux le long de la rivière. Le guide aide à les repérer, sans garantie d'en voir à un arrêt précis.",
           "time": "1 h",
-          "price": null
+          "price": null,
+          "photo": {
+            "file": "Proboscis Monkey Taman Nasional Tanjung Puting, Kalimatan Tengah.jpg",
+            "caption": "Singes nasiques dans un arbre",
+            "author": "Liliaini",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+          }
         },
         {
           "name": "Lucioles et nuit sur le pont",
@@ -614,7 +733,14 @@
           "type": "Faune",
           "text": "On peut chercher les tortues autour de Derawan, avec un guide ou dans une zone indiquée. Les laisser venir et remonter respirer sans les suivre ni se mettre devant elles.",
           "time": "",
-          "price": null
+          "price": null,
+          "photo": {
+            "file": "Aerial of Derawan 2017-09-16.jpg",
+            "caption": "L'île de Derawan vue du ciel",
+            "author": "consigliere ivan",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+          }
         },
         {
           "name": "Tour de Derawan à pied",
@@ -628,21 +754,42 @@
           "type": "Mer",
           "text": "Kakaban est connu pour son lac aux méduses. Avant de réserver, faire confirmer si la visite et la mise à l'eau sont autorisées. Ne pas construire tout le séjour autour de cet arrêt.",
           "time": "1 à 2 h sur place",
-          "price": null
+          "price": null,
+          "photo": {
+            "file": "Stingless jellyfish.jpg",
+            "caption": "Méduse du lac de Kakaban",
+            "author": "Riza Nugraha",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+          }
         },
         {
           "name": "Raies manta de Sangalaki",
           "type": "Mer",
           "text": "Sangalaki est une sortie possible pour chercher les mantas. L'équipage décide si une mise à l'eau est adaptée. Entrer calmement et laisser passer les animaux sans les poursuivre.",
           "time": "2 h",
-          "price": null
+          "price": null,
+          "photo": {
+            "file": "Maratua Manta birostris (36).jpg",
+            "caption": "Raie manta à Sangalaki",
+            "author": "Nanosanchez",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+          }
         },
         {
           "name": "Lagon et tombants de Maratua",
           "type": "Mer",
-          "text": "Maratua offre plusieurs sorties, en mer ou vers des bassins comme Halo Tabung. Faire préciser l'accès et l'activité prévue. Ne pas présenter un saut dans l'eau comme une étape normale de la visite.",
+          "text": "À Maratua, plusieurs sorties sont possibles, en mer ou vers des bassins comme Halo Tabung. Faire préciser l'accès et l'activité prévue. Ne pas présenter un saut dans l'eau comme une étape normale de la visite.",
           "time": "la journée",
-          "price": null
+          "price": null,
+          "photo": {
+            "file": "Maratua Paradise Resort.jpg",
+            "caption": "Bungalows sur pilotis à Maratua",
+            "author": "Deffy Kuswanto",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+          }
         },
         {
           "name": "Journée en hors-bord entre les îles",
@@ -742,35 +889,70 @@
           "type": "Culture",
           "text": "Ke'te Kesu pour les maisons tongkonan, les greniers et le site funéraire. Prendre le temps des explications plutôt que faire seulement un arrêt photo.",
           "time": "1 h 30",
-          "price": null
+          "price": null,
+          "photo": {
+            "file": "Kete' Kesu' Toraja.jpg",
+            "caption": "Maisons tongkonan de Ke'te Kesu",
+            "author": "Ansensius",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+          }
         },
         {
           "name": "Tombes de Lemo",
           "type": "Culture",
           "text": "Lemo pour les tombes dans la falaise et les effigies tau-tau. Rester dans les espaces ouverts et respecter les demandes concernant les photos.",
           "time": "1 h",
-          "price": null
+          "price": null,
+          "photo": {
+            "file": "Tana Toraja, Lemo, tau taus (6969212585).jpg",
+            "caption": "Tau-tau dans la falaise de Lemo",
+            "author": "Arian Zwegers",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+          }
         },
         {
           "name": "Grottes de Londa",
           "type": "Culture",
           "text": "Londa pour un autre site funéraire, avec des grottes. La visite intérieure se fait selon les consignes locales et demande un éclairage adapté.",
           "time": "1 h",
-          "price": null
+          "price": null,
+          "photo": {
+            "file": "LONDA. Tana Toraja.jpg",
+            "caption": "Cercueils suspendus à Londa",
+            "author": "LonerWolf14",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+          }
         },
         {
           "name": "Marché aux buffles de Bolu",
           "type": "Culture",
           "text": "Le grand marché aux buffles de Bolu suit un cycle de six jours. Demander la date exacte à l'hébergement avant de caler notre visite ; ce n'est pas toujours le même jour de semaine.",
           "time": "2 h",
-          "price": null
+          "price": null,
+          "photo": {
+            "file": "Rantepao Pasar Bolu (32105047077).jpg",
+            "caption": "Marché aux buffles de Bolu, Rantepao",
+            "author": "Jorge Franganillo",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+          }
         },
         {
           "name": "Rizières de Batutumonga",
           "type": "Randonnée",
           "text": "Batutumonga pour les hauteurs et les rizières. On peut choisir une balade courte ou une marche plus longue avec un guide, selon la météo et le temps disponible.",
           "time": "demi-journée ou journée",
-          "price": null
+          "price": null,
+          "photo": {
+            "file": "Rice terraces, Batutumonga, South Sulawesi, Indonesia (10226584193).jpg",
+            "caption": "Rizières en terrasses de Batutumonga",
+            "author": "Romain Pontida",
+            "license": "CC BY-SA 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+          }
         },
         {
           "name": "Menhirs de Bori Kalimbuang",
@@ -879,12 +1061,19 @@
         {
           "name": "Snorkeling sur les tombants de Bunaken",
           "type": "Mer",
-          "text": "Une sortie guidée le long des récifs de Bunaken. Choisir un opérateur qui prévoit un accompagnement pour les snorkeleurs, pas seulement une place sur un bateau de plongeurs.",
+          "text": "Une sortie guidée le long des récifs de Bunaken. Choisir un opérateur qui prévoit un accompagnement pour les snorkeleurs, plutôt qu'une simple place sur un bateau de plongeurs.",
           "time": "demi-journée",
           "price": {
             "amount": 150000,
             "currency": "IDR",
             "what": "droit d'entrée du parc marin, tarif étranger, par personne, payé en général par l'intermédiaire du resort"
+          },
+          "photo": {
+            "file": "Bunaken Marine Park.JPG",
+            "caption": "Coraux et poissons à Bunaken",
+            "author": "Sakurai Midori",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
           }
         },
         {
@@ -913,7 +1102,14 @@
           "type": "Nature",
           "text": "Tomohon et le Mahawu demandent une sortie sur la terre ferme. Faire confirmer l'accès au cratère et l'effort, puis ajouter le bateau et la route au temps de visite.",
           "time": "la journée, avec le lac Linow",
-          "price": null
+          "price": null,
+          "photo": {
+            "file": "Mahawu.JPG",
+            "caption": "Cratère du Mahawu, Tomohon",
+            "author": "Voigt-rv",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+          }
         },
         {
           "name": "Lac Linow",
@@ -921,7 +1117,14 @@
           "text": "Le lac Linow peut compléter une journée dans les hauts plateaux. Vérifier le parcours accessible autour du lac et les conditions d'ouverture.",
           "time": "1 h",
           "price": null,
-          "hidden": true
+          "hidden": true,
+          "photo": {
+            "file": "Lake Linow 2020.jpg",
+            "caption": "Lac Linow, près de Tomohon",
+            "author": "Juxlos",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+          }
         },
         {
           "name": "Cuisine minahasa",
@@ -1013,6 +1216,13 @@
             "amount": 100000,
             "currency": "IDR",
             "what": "entrée de la réserve, tarif étranger, par personne et par jour, parfois plus cher le week-end (guide en supplément)"
+          },
+          "photo": {
+            "file": "Sulawesi trsr DSCN0272 v1.JPG",
+            "caption": "Deux tarsiers dans leur arbre creux",
+            "author": "T. R. Shankar Raman",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
           }
         },
         {
@@ -1020,14 +1230,28 @@
           "type": "Faune",
           "text": "Une marche matinale pour chercher les macaques à crête. On observe à distance, sans nourrir ni toucher les animaux, même s'ils paraissent habitués aux visiteurs.",
           "time": "3 à 4 h",
-          "price": null
+          "price": null,
+          "photo": {
+            "file": "Sulawesi trsr DSCN0568 v1.JPG",
+            "caption": "Macaques à crête au pied d'un arbre",
+            "author": "T. R. Shankar Raman",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+          }
         },
         {
           "name": "Calaos et couscous des Célèbes",
           "type": "Faune",
           "text": "Pendant les marches, on peut aussi chercher les calaos et les couscous. Les jumelles sont utiles ; ces observations restent un bonus, pas une garantie.",
           "time": "",
-          "price": null
+          "price": null,
+          "photo": {
+            "file": "Sulawesi trsr DSCN0307 v1.JPG",
+            "caption": "Couple de calaos à cimier",
+            "author": "T. R. Shankar Raman",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+          }
         },
         {
           "name": "Plage de sable noir de Batuputih",
@@ -1035,7 +1259,14 @@
           "text": "La plage de Batuputih pour marcher et se poser entre les sorties en forêt. Si on veut se baigner, demander les conditions et les zones adaptées sur place.",
           "time": "",
           "price": null,
-          "hidden": true
+          "hidden": true,
+          "photo": {
+            "file": "Beach at Tangkoko National Park, N.Sulawesi (8374903297).jpg",
+            "caption": "Plage de sable noir de Tangkoko",
+            "author": "Pavel Kirillov",
+            "license": "CC BY-SA 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+          }
         }
       ],
       "access": "Depuis Manado, 1 h 30 à 2 heures de route jusqu'à Batuputih, en passant près de Bitung. Depuis Bunaken, il faut d'abord reprendre le bateau jusqu'à Manado.",

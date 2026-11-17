@@ -48,6 +48,13 @@
             "amount": 25000,
             "currency": "IDR",
             "what": "entrée des rizières par l'accès de Ceking, par personne"
+          },
+          "photo": {
+            "file": "Rice terraces, Ubud, Bali.jpg",
+            "caption": "Rizières en terrasses de Tegallalang",
+            "author": "Vyacheslav Argenberg",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
           }
         },
         {
@@ -58,8 +65,15 @@
           "price": {
             "amount": 130000,
             "currency": "IDR",
-            "what": "par adulte étranger, tarif du jour choisi à confirmer",
+            "what": "par adulte étranger, selon le jour choisi",
             "checked": "novembre 2026"
+          },
+          "photo": {
+            "file": "Dragon Bridge Ubud Monkey Forest.jpg",
+            "caption": "Pont aux dragons, forêt des singes",
+            "author": "Philip Nalangan",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
           }
         },
         {
@@ -71,6 +85,13 @@
             "amount": 75000,
             "currency": "IDR",
             "what": "entrée, par adulte étranger"
+          },
+          "photo": {
+            "file": "Pura Tirta Empul Bali 20120828b.jpg",
+            "caption": "Fontaines du bassin de Tirta Empul",
+            "author": "Tigerente",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
           }
         },
         {
@@ -78,14 +99,28 @@
           "type": "Culture",
           "text": "Des sanctuaires taillés dans la roche, dans la vallée de la Pakerisan. Il faut descendre un long escalier puis le remonter. À combiner avec Tirta Empul si on veut une journée de temples.",
           "time": "1 h 30",
-          "price": null
+          "price": null,
+          "photo": {
+            "file": "Bali - Gunung Kawi (2025) - img 37.jpg",
+            "caption": "Sanctuaires taillés dans la roche, Gunung Kawi",
+            "author": "Chainwit.",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+          }
         },
         {
           "name": "Lever de soleil au mont Batur",
           "type": "Randonnée",
           "text": "Une randonnée avant l'aube pour le panorama depuis le Batur. Départ très tôt, montée soutenue et froid à l'arrivée : à garder si on a envie de marcher, avec un guide et un départ autorisé.",
           "time": "la matinée, départ entre 1 h et 2 h",
-          "price": null
+          "price": null,
+          "photo": {
+            "file": "Gunung Batur dan Kabut.jpg",
+            "caption": "Mont Batur et brume au lever du jour",
+            "author": "Arthamade",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+          }
         },
         {
           "name": "Palais royal et marché",
@@ -110,7 +145,14 @@
           "type": "Randonnée",
           "text": "Une promenade sur la crête de Campuhan, avec peu d'ombre sur les portions dégagées. Choisir jusqu'où on marche avant de faire demi-tour. Plutôt tôt ou en fin de journée.",
           "time": "1 h 30 aller-retour",
-          "price": null
+          "price": null,
+          "photo": {
+            "file": "Campuhan Ridge Walk, Ubud, Bali (15003625998).jpg",
+            "caption": "Sentier de la crête de Campuhan",
+            "author": "Fabio Achilli",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+          }
         },
         {
           "name": "Cascade de Tegenungan",
@@ -221,7 +263,14 @@
           "type": "Randonnée",
           "text": "Golden Valley, Red Coral, Labuhan Kebo et Melanting sont plusieurs cascades autour de Munduk. Choisir un parcours adapté : certaines liaisons et marches sont raides. Les entrées peuvent se payer séparément.",
           "time": "3 à 4 h",
-          "price": null
+          "price": null,
+          "photo": {
+            "file": "Munduk air terjun 2009.jpg",
+            "caption": "Cascade de Munduk",
+            "author": "Jean-Marie Hullot",
+            "license": "CC BY 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/3.0/"
+          }
         },
         {
           "name": "Cascade de Banyumala",
@@ -232,6 +281,13 @@
             "amount": 50000,
             "currency": "IDR",
             "what": "entrée, par personne, en espèces"
+          },
+          "photo": {
+            "file": "Banyumala Waterfall.jpg",
+            "caption": "Cascade de Banyumala",
+            "author": "Made agus devayana",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
           }
         },
         {
@@ -239,7 +295,14 @@
           "type": "Nature",
           "text": "Buyan et Tamblingan se voient depuis la route des hauteurs. Pour marcher en forêt ou traverser Tamblingan en pirogue, choisir une sortie locale avec parcours et prix précisés.",
           "time": "demi-journée",
-          "price": null
+          "price": null,
+          "photo": {
+            "file": "Danau Buyan.jpg",
+            "caption": "Le lac Buyan",
+            "author": "Suranegara88",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+          }
         },
         {
           "name": "Temple Ulun Danu Beratan",
@@ -251,7 +314,14 @@
             "currency": "IDR",
             "what": "entrée, par adulte étranger (tarif depuis juillet 2026)"
           },
-          "hidden": true
+          "hidden": true,
+          "photo": {
+            "file": "Pura Bratan Bali.jpg",
+            "caption": "Temple Ulun Danu sur le lac Beratan",
+            "author": "Konstantinos Trovas",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+          }
         },
         {
           "name": "Plantations de café et de girofle",
@@ -345,6 +415,13 @@
             "amount": 150000,
             "currency": "IDR",
             "what": "guide pour la marche dans les rizières, par heure, deux heures au minimum (liste de Sidemen Tour & Trekking, novembre 2025)"
+          },
+          "photo": {
+            "file": "Sidemen sawah countryside (Bali, Indonesia 2016) (30039194120).jpg",
+            "caption": "Rizières de Sidemen",
+            "author": "Paul Arps",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
           }
         },
         {
@@ -364,6 +441,13 @@
             "amount": 90000,
             "currency": "IDR",
             "what": "entrée, par adulte"
+          },
+          "photo": {
+            "file": "Tirta Gangga.jpg",
+            "caption": "Fontaine du palais d'eau de Tirta Gangga",
+            "author": "S A B R I N A B A L I",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
           }
         },
         {
@@ -376,7 +460,14 @@
             "currency": "IDR",
             "what": "entrée (100 000) et navette obligatoire aller-retour (50 000), par personne, en espèces"
           },
-          "hidden": true
+          "hidden": true,
+          "photo": {
+            "file": "\"Heaven Gate\" Pura Lempuyang.jpg",
+            "caption": "Portail fendu du temple de Lempuyang",
+            "author": "Chainwit.",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+          }
         },
         {
           "name": "Temple de Besakih",
@@ -468,14 +559,28 @@
           "type": "Mer",
           "text": "À Jemeluk, on peut partir du bord pour voir le récif quand les conditions sont bonnes. Demander le point d'entrée et les limites de la zone avant de nager ; attention aux bateaux.",
           "time": "2 h",
-          "price": null
+          "price": null,
+          "photo": {
+            "file": "Mulloidichthys vanicolensis, Jemeluk Wall, Amed, Bali, Indonesia imported from iNaturalist photo 429994681.jpg",
+            "caption": "Poisson-chèvre sur le récif de Jemeluk",
+            "author": "Bernard Dupont",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+          }
         },
         {
           "name": "Épave du Liberty à Tulamben",
           "type": "Mer",
           "text": "L'épave du Liberty est près du rivage à Tulamben. On peut en voir une partie en snorkeling selon la visibilité ; pour descendre sur l'épave, c'est une activité de plongée distincte.",
           "time": "demi-journée",
-          "price": null
+          "price": null,
+          "photo": {
+            "file": "Liberty-wreck2.JPG",
+            "caption": "Grue de l'épave du Liberty, Tulamben",
+            "author": "Pb1791",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+          }
         },
         {
           "name": "Lipah et l'épave de Banyuning",
@@ -490,14 +595,28 @@
           "text": "Une sortie à l'aube en jukung, la pirogue à balancier locale. À organiser avec un pêcheur ou l'hébergement, en précisant le programme, le prix et la présence de gilets.",
           "time": "2 à 3 h",
           "price": null,
-          "hidden": true
+          "hidden": true,
+          "photo": {
+            "file": "Amed Beach - panoramio (1).jpg",
+            "caption": "Pirogues à balancier sur la plage d'Amed",
+            "author": "Alexey Komarov",
+            "license": "CC BY 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/3.0/"
+          }
         },
         {
           "name": "Coucher de soleil à Jemeluk",
           "type": "Nature",
           "text": "Les hauteurs de Jemeluk donnent une vue sur la baie et l'Agung quand il est dégagé. Un arrêt en fin de journée, sans avoir besoin de réserver toute une excursion.",
           "time": "1 h",
-          "price": null
+          "price": null,
+          "photo": {
+            "file": "Amed Beach during sunset.JPG",
+            "caption": "Plage d'Amed et mont Agung au crépuscule",
+            "author": "Whatsinaname (Wikivoyage)",
+            "license": "Domaine public",
+            "licenseUrl": "https://commons.wikimedia.org/wiki/File:Amed_Beach_during_sunset.JPG"
+          }
         },
         {
           "name": "Salines d'Amed",
@@ -505,7 +624,14 @@
           "text": "Amed a une production artisanale de sel. Si on veut voir le travail, demander où une visite est possible pendant le séjour ; la vente de sel seule ne garantit pas une démonstration.",
           "time": "30 min",
           "price": null,
-          "hidden": true
+          "hidden": true,
+          "photo": {
+            "file": "Amed Traditional Salt Maker.jpg",
+            "caption": "Saunier au lever du soleil, Amed",
+            "author": "Surya Edy Gautama",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+          }
         },
         {
           "name": "Tirta Gangga et Lempuyang",
@@ -599,6 +725,13 @@
             "amount": 200000,
             "currency": "IDR",
             "what": "droit d'entrée du parc national de Bali Barat, par personne, en semaine (300 000 le dimanche et les jours fériés)"
+          },
+          "photo": {
+            "file": "Foto kapal pengangkut turis yang berlabuh sesaat di pulau menjangan.jpg",
+            "caption": "Bateau au mouillage devant l'île de Menjangan",
+            "author": "Noirperspective",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
           }
         },
         {
@@ -613,14 +746,28 @@
           "type": "Mer",
           "text": "Le projet Biorock de Pemuteran utilise des structures immergées pour la restauration du récif. Certaines se voient en snorkeling depuis le bord, en respectant les zones d'accès.",
           "time": "1 h 30",
-          "price": null
+          "price": null,
+          "photo": {
+            "file": "Snorkeling Pemuteran Bali 2.jpg",
+            "caption": "Corail sur une structure immergée, Pemuteran",
+            "author": "Ennio morricone",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+          }
         },
         {
           "name": "Marche dans le parc de Bali Barat",
           "type": "Faune",
           "text": "Une marche avec un guide du parc pour la forêt et les oiseaux. L'étourneau de Bali fait partie des espèces recherchées, sans garantie d'en voir. Choisir le parcours selon la chaleur et le temps disponible.",
           "time": "2 h de marche",
-          "price": null
+          "price": null,
+          "photo": {
+            "file": "Rusa dengan hiasan.jpg",
+            "caption": "Cerf dans le parc national de Bali Barat",
+            "author": "Wiaskara",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+          }
         },
         {
           "name": "Temple de Pulaki",
@@ -719,7 +866,14 @@
           "text": "Le temple et le chemin au-dessus des falaises. Rester sur le parcours et ranger lunettes et objets faciles à saisir. Si un macaque prend quelque chose, appeler le personnel plutôt que le nourrir.",
           "time": "1 h 30",
           "price": null,
-          "hidden": true
+          "hidden": true,
+          "photo": {
+            "file": "Kuta Bali Indonesia Pura-Luhur-Uluwatu-03.jpg",
+            "caption": "Temple d'Uluwatu au bord de la falaise",
+            "author": "CEphoto, Uwe Aranas",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+          }
         },
         {
           "name": "Danse kecak au coucher du soleil",
@@ -731,21 +885,42 @@
             "currency": "IDR",
             "what": "billet du spectacle, par personne (entrée du temple en plus)"
           },
-          "hidden": true
+          "hidden": true,
+          "photo": {
+            "file": "Kecak Pura Luhur Uluwatu Rama Sinta 2011.JPG",
+            "caption": "Danse kecak à Uluwatu",
+            "author": "Midori",
+            "license": "CC BY 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/3.0/"
+          }
         },
         {
           "name": "Plage de Padang Padang",
           "type": "Mer",
           "text": "Une petite crique accessible par un escalier entre les rochers. Il peut y avoir du monde et de la houle. Pour la baignade, suivre les consignes locales du jour.",
           "time": "2 h",
-          "price": null
+          "price": null,
+          "photo": {
+            "file": "Padang Padang Beach Bali.jpg",
+            "caption": "Plage de Padang Padang",
+            "author": "TMFalkner",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+          }
         },
         {
           "name": "Plage de Suluban",
           "type": "Mer",
           "text": "Suluban pour les rochers, les passages sous la falaise et les surfeurs au large. Vérifier l'accès avec la marée et garder cette visite comme un point de vue, pas comme une baignade.",
           "time": "1 h 30",
-          "price": null
+          "price": null,
+          "photo": {
+            "file": "Pantai Suliban.jpg",
+            "caption": "Cafés sur la falaise de Suluban",
+            "author": "Arthamade",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+          }
         },
         {
           "name": "Bingin et Dreamland",
@@ -767,7 +942,14 @@
           "type": "Mer",
           "text": "Melasti a un accès en voiture jusqu'au bas des falaises. Pour nager, vérifier la hauteur d'eau, la houle et les zones surveillées ; la plage ne sera pas la même à marée basse et haute.",
           "time": "demi-journée",
-          "price": null
+          "price": null,
+          "photo": {
+            "file": "Pantai Melasti, Bali.jpg",
+            "caption": "Plage de Melasti à marée basse",
+            "author": "Bayu Stiawan",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+          }
         },
         {
           "name": "Poisson grillé à Jimbaran",
@@ -859,6 +1041,13 @@
             "amount": 25000,
             "currency": "IDR",
             "what": "droit d'entrée du site, par adulte, depuis 2026 (parking en plus)"
+          },
+          "photo": {
+            "file": "Wonderfull Nusa Penida.jpg",
+            "caption": "Falaise et plage de Kelingking",
+            "author": "Dini Rosyadah Tridya",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
           }
         },
         {
@@ -870,6 +1059,13 @@
             "amount": 25000,
             "currency": "IDR",
             "what": "droit d'entrée par site, par adulte, depuis août 2026"
+          },
+          "photo": {
+            "file": "Broken Beach Nusa Penida.jpg",
+            "caption": "Arche de Broken Beach",
+            "author": "I Ketut Arnaya",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
           }
         },
         {
@@ -888,14 +1084,28 @@
           "type": "Nature",
           "text": "Deux plages de l'est de Penida, avec des accès par les falaises. Prévoir les escaliers et la remontée. On peut aussi choisir les points de vue sans descendre sur le sable.",
           "time": "demi-journée",
-          "price": null
+          "price": null,
+          "photo": {
+            "file": "Diamond Beach in Nusa Penida, Bali.jpg",
+            "caption": "Escalier et plage de Diamond Beach",
+            "author": "Stryn",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+          }
         },
         {
           "name": "Raies manta en snorkeling",
           "type": "Faune",
           "text": "Une sortie pour chercher les mantas si la mer permet d'atteindre les sites. Aucune rencontre garantie. Entrer calmement dans l'eau, garder ses distances et ne pas suivre les animaux en les poursuivant.",
           "time": "demi-journée",
-          "price": null
+          "price": null,
+          "photo": {
+            "file": "Eye To Eye (219520559).jpeg",
+            "caption": "Raie manta à Manta Point, Nusa Penida",
+            "author": "Tilonaut",
+            "license": "CC BY 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/3.0/"
+          }
         },
         {
           "name": "Pont jaune et Nusa Ceningan",
@@ -903,7 +1113,14 @@
           "text": "Le pont jaune relie Lembongan et Ceningan. De l'autre côté, Blue Lagoon se regarde depuis la terre. Rester en retrait des bords de falaise.",
           "time": "demi-journée",
           "price": null,
-          "hidden": true
+          "hidden": true,
+          "photo": {
+            "file": "Nusa Lembongan Nusa Ceningan bridge.jpg",
+            "caption": "Pont jaune entre Lembongan et Ceningan",
+            "author": "Juxlos",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+          }
         },
         {
           "name": "Devil's Tear et Dream Beach",

@@ -17,7 +17,7 @@ export function createLabels(layer, { onRegion, onPlace, onRegionHover }) {
 
   for (const r of REGIONS) {
     const count = placesOf(r.id).length;
-    const item = add('region', r.id, r.label.lon, r.label.lat, 'button', 'lbl--region', `${r.short}<small>${count} activité${count > 1 ? 's' : ''}</small>`, 50);
+    const item = add('region', r.id, r.label.lon, r.label.lat, 'button', 'lbl--region', `${r.short}<small>${count} étape${count > 1 ? 's' : ''}</small>`, 50);
     item.el.style.setProperty('--c', r.color);
     item.el.addEventListener('click', () => onRegion(r.id));
     item.el.addEventListener('pointerenter', () => onRegionHover?.(r.id));

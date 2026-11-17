@@ -134,6 +134,9 @@ def main(path):
                     # Sans date de relevé (« checked »), le site affiche « Tarif à confirmer » au lieu du montant.
                     if "checked" in price and not re.match(r"^(\d{1,2} )?[a-zéû]+ \d{4}$", price["checked"]):
                         errors.append(f"{where}.price.checked : date attendue, par exemple « 17 novembre 2026 »")
+        for i, s in enumerate(p.get("stay") or []):
+            check_text(f"{pid}.stay[{i}].name", s.get("name"))
+            check_text(f"{pid}.stay[{i}].text", s.get("text"))
         check_text(f"{pid}.access", p.get("access"))
         for i, tip in enumerate(p.get("tips") or []):
             check_text(f"{pid}.tips[{i}]", tip)

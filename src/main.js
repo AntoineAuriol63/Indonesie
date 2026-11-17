@@ -164,6 +164,7 @@ function placeCard(p) {
       ${intro}
       <h3>À faire</h3>
       <div class="todos">${todoList(p)}</div>
+      ${c?.stay?.length ? `<h3>Où dormir</h3><div class="todos">${c.stay.map((s) => `<div class="todo"><span class="todo__name">${esc(s.name)}</span><p>${esc(s.text)}</p>${s.price ? `<p class="todo__meta">${esc(priceText(s.price))}</p>` : ''}</div>`).join('')}</div>` : ''}
       <h3>En pratique</h3>
       <dl class="facts">
         ${fact(TIME_LABEL, days(p.daysMin, p.daysMax))}

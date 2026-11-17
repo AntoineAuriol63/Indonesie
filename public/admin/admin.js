@@ -367,6 +367,34 @@ const PLACE = {
         },
       },
     },
+    stay: {
+      kind: 'list',
+      label: 'Où dormir (hébergements, hors liste des activités)',
+      title: (s) => s.name || 'Nouvel hébergement',
+      empty: { name: '', text: '' },
+      item: {
+        kind: 'object',
+        fields: {
+          name: text('Nom'),
+          text: text('Texte', { long: true }),
+          price: {
+            kind: 'optional',
+            optional: true,
+            label: 'Indiquer un prix',
+            empty: { amount: 0, currency: 'EUR', what: '' },
+            item: {
+              kind: 'object',
+              fields: {
+                amount: { kind: 'number', label: 'Montant' },
+                currency: { kind: 'select', label: 'Devise', options: () => [['IDR', 'Roupies (IDR)'], ['EUR', 'Euros (EUR)']] },
+                what: text('Ce que couvre ce prix'),
+                checked: text('Relevé le (vide : « Tarif à confirmer »)', { optional: true }),
+              },
+            },
+          },
+        },
+      },
+    },
     access: text('Accès', { long: true }),
     tips: { kind: 'list', label: 'Conseils', item: text('', { long: true }), empty: '' },
     photos: { kind: 'list', label: 'Galerie, la plus belle en premier', item: PHOTO, empty: NEW_PHOTO },

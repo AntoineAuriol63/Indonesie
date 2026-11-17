@@ -51,6 +51,13 @@
             "amount": 50000,
             "currency": "IDR",
             "what": "entrée du musée d'histoire de Jakarta, tarif étranger, par personne"
+          },
+          "photo": {
+            "file": "Batavia City Hall (Jakarta History Museum) Fatahillah Square (2025) - img 17.jpg",
+            "caption": "Musée d'histoire, place Fatahillah",
+            "author": "Chainwit.",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
           }
         },
         {
@@ -58,14 +65,28 @@
           "type": "Ville",
           "text": "Un port de travail avec de grands bateaux de commerce en bois. À voir depuis les espaces autorisés, plutôt le matin pour éviter la chaleur. Ne pas compter sur une visite des bateaux.",
           "time": "1 h",
-          "price": null
+          "price": null,
+          "photo": {
+            "file": "Kapal Pinisi Sunda Kelapa.jpg",
+            "caption": "Voiliers pinisi au port de Sunda Kelapa",
+            "author": "Herusutimbul",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+          }
         },
         {
           "name": "Glodok, le quartier chinois",
           "type": "Ville",
           "text": "Glodok, le quartier chinois : marché de Petak Sembilan, petites rues commerçantes et temple Jin De Yuan. Une balade à faire avec Kota Tua.",
           "time": "2 h",
-          "price": null
+          "price": null,
+          "photo": {
+            "file": "Chinese temple, Petak Sembilan Market, Glodok, West Jakarta, Indonesia (16 02 07)(140145359).jpg",
+            "caption": "Cierges rouges dans un temple de Glodok",
+            "author": "Seika N",
+            "license": "CC BY 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+          }
         },
         {
           "name": "Monas et place Merdeka",
@@ -74,7 +95,14 @@
           "time": "1 h 30",
           "price": null,
           "lat": -6.1754,
-          "lon": 106.8271
+          "lon": 106.8271,
+          "photo": {
+            "file": "Monumen Nasional, Jakarta, Indonesia.jpg",
+            "caption": "Monas et place Merdeka vus du ciel",
+            "author": "Ramayoni",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+          }
         },
         {
           "name": "Mosquée Istiqlal et cathédrale",
@@ -83,7 +111,14 @@
           "time": "1 h 30",
           "price": null,
           "lat": -6.1698,
-          "lon": 106.8309
+          "lon": 106.8309,
+          "photo": {
+            "file": "Jakarta - Istiqlal Mosque, interior.jpg",
+            "caption": "Salle de prière de la mosquée Istiqlal",
+            "author": "P. Hughes",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+          }
         },
         {
           "name": "Musée national",
@@ -215,21 +250,42 @@
           "type": "Nature",
           "text": "Un lac de cratère aux couleurs très claires. Il y a des gaz volcaniques : respecter les zones ouvertes et les consignes sur place. Un masque ordinaire ne protège pas de ces gaz.",
           "time": "1 h 30",
-          "price": null
+          "price": null,
+          "photo": {
+            "file": "Panorama Alam Kawah Putih Ciwidey.jpg",
+            "caption": "Lac de cratère du Kawah Putih vu du ciel",
+            "author": "Galeri ega",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+          }
         },
         {
           "name": "Plantations de thé de Rancabali",
           "type": "Nature",
           "text": "La route traverse les plantations de thé de Rancabali. Pour marcher entre les théiers, demander où l'accès est autorisé. Ça se combine avec Kawah Putih.",
           "time": "1 à 2 h",
-          "price": null
+          "price": null,
+          "photo": {
+            "file": "Perkebunan Teh Rancabali.jpg",
+            "caption": "Plantations de thé de Rancabali au matin",
+            "author": "Kerildoank",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+          }
         },
         {
           "name": "Lac de Situ Patenggang",
           "type": "Nature",
           "text": "Un lac entouré de plantations et de forêt. On peut en faire une pause pendant la journée autour de Rancabali ; vérifier les sorties en barque sur place.",
           "time": "1 h",
-          "price": null
+          "price": null,
+          "photo": {
+            "file": "Kawasan Situ Patenggang.jpg",
+            "caption": "Lac de Situ Patenggang dans la brume",
+            "author": "Duduh Sadarachmat",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+          }
         },
         {
           "name": "Fraises et sources chaudes de Ciwidey",
@@ -243,7 +299,14 @@
           "type": "Ville",
           "text": "Jalan Braga et Asia Afrika pour marcher entre les bâtiments de l'époque coloniale. À garder pour la partie ville, séparément de la journée dans les plantations.",
           "time": "2 h",
-          "price": null
+          "price": null,
+          "photo": {
+            "file": "Braga Street Bandung.JPG",
+            "caption": "Tableaux exposés sur le trottoir, Jalan Braga",
+            "author": "Midori",
+            "license": "CC BY 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+          }
         },
         {
           "name": "Gedung Merdeka, la conférence de 1955",
@@ -257,7 +320,14 @@
           "type": "Culture",
           "text": "Gedung Sate, le bâtiment du gouvernement de Java occidental. On peut déjà voir l'architecture de l'extérieur ; vérifier à part les possibilités de visite intérieure.",
           "time": "30 min",
-          "price": null
+          "price": null,
+          "photo": {
+            "file": "Gedung Sate Bandung Jawa Barat.jpg",
+            "caption": "Gedung Sate à Bandung",
+            "author": "RaiyaniM",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+          }
         },
         {
           "name": "Spectacle d'angklung chez Udjo",
@@ -269,6 +339,13 @@
             "currency": "IDR",
             "what": "par adulte étranger",
             "checked": "novembre 2026"
+          },
+          "photo": {
+            "file": "Saung Angklung Udjo, theatre with traditional music and dances from different parts of Indonesia (Java, Bandung).jpg",
+            "caption": "Spectacle d'angklung chez Udjo",
+            "author": "Ekaterina Kvelidze",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
           }
         },
         {
@@ -369,6 +446,13 @@
             "amount": 455000,
             "currency": "IDR",
             "what": "billet de Borobudur avec montée sur le temple, adulte étranger, par personne"
+          },
+          "photo": {
+            "file": "Borobudur Sunrise 2012-01-05.jpg",
+            "caption": "Stupas de Borobudur au lever du soleil",
+            "author": "Justine Hong",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
           }
         },
         {
@@ -391,6 +475,13 @@
             "amount": 400000,
             "currency": "IDR",
             "what": "billet d'entrée de Prambanan, adulte étranger, par personne"
+          },
+          "photo": {
+            "file": "Widok na świątynię Prambanan na Jawie, 20220818 1315 9157.jpg",
+            "caption": "Temples de Prambanan",
+            "author": "Jakub Hałun",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
           }
         },
         {
@@ -402,6 +493,13 @@
             "amount": 150000,
             "currency": "IDR",
             "what": "place la moins chère au ballet du Ramayana (de 150 000 à 450 000 roupies selon la catégorie), par personne"
+          },
+          "photo": {
+            "file": "Ramayana Prambanan 4.jpg",
+            "caption": "Ballet du Ramayana à Prambanan",
+            "author": "Philip Nalangan",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
           }
         },
         {
@@ -409,14 +507,28 @@
           "type": "Culture",
           "text": "Les cours et pavillons du palais du sultan. À prévoir le matin, après avoir vérifié les espaces ouverts. S'il y a une représentation ce jour-là, on peut l'ajouter.",
           "time": "2 h",
-          "price": null
+          "price": null,
+          "photo": {
+            "file": "Kraton Ngayogyakarta Hadiningrat (49797461187).jpg",
+            "caption": "Pavillon du Kraton de Yogyakarta",
+            "author": "Jorge Franganillo",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+          }
         },
         {
           "name": "Taman Sari, le château d'eau",
           "type": "Culture",
           "text": "Les anciens bassins de Taman Sari et les ruelles autour. La mosquée souterraine de Sumur Gumuling a été signalée fermée en 2026 : ne pas la compter dans le programme sans confirmation de réouverture.",
           "time": "1 h 30",
-          "price": null
+          "price": null,
+          "photo": {
+            "file": "Taman Sari Water Castle, Yogyakarta, 20220818 1048 9000.jpg",
+            "caption": "Bassins du Taman Sari",
+            "author": "Jakub Hałun",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+          }
         },
         {
           "name": "Rue Malioboro et marché Beringharjo",
@@ -431,7 +543,14 @@
           "text": "Un atelier pour essayer le batik à la cire et repartir avec son tissu. Choisir un vrai cours annoncé, avec durée, matériel et prix précisés avant de réserver.",
           "time": "demi-journée",
           "price": null,
-          "hidden": true
+          "hidden": true,
+          "photo": {
+            "file": "Maestro Batik Tulis di Imogiri.jpg",
+            "caption": "Artisane de batik à Imogiri, près de Jogja",
+            "author": "Aconkyeah",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+          }
         },
         {
           "name": "Merapi en jeep",
@@ -534,35 +653,70 @@
           "type": "Randonnée",
           "text": "Une montée avant l'aube depuis Sembungan pour voir les volcans, si le ciel est dégagé. Il fait froid en attendant le soleil : lampe et vêtements chauds à prévoir.",
           "time": "2 h aller-retour",
-          "price": null
+          "price": null,
+          "photo": {
+            "file": "Sunrise di Bukit Sikunir.jpg",
+            "caption": "Lever de soleil depuis le Sikunir",
+            "author": "Hadiwibowo",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+          }
         },
         {
           "name": "Temples d'Arjuna",
           "type": "Culture",
           "text": "Le groupe d'Arjuna réunit de petits temples hindous sur le plateau. Une visite assez courte, facile à combiner avec les autres sites de Dieng.",
           "time": "1 h 30",
-          "price": null
+          "price": null,
+          "photo": {
+            "file": "Pagi Candi Arjuna Dieng.jpg",
+            "caption": "Temples d'Arjuna dans la brume du matin",
+            "author": "Yogaprihananto",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+          }
         },
         {
           "name": "Cratère de Sikidang",
           "type": "Nature",
           "text": "Une zone de fumerolles et de boue bouillonnante, visible depuis le parcours aménagé. Rester dans les espaces ouverts. Un masque ordinaire ne protège pas des gaz volcaniques.",
           "time": "45 min",
-          "price": null
+          "price": null,
+          "photo": {
+            "file": "Area Kawah Sikidang, Dieng Plateau.jpg",
+            "caption": "Fumerolles du cratère de Sikidang",
+            "author": "AdeRiska",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+          }
         },
         {
           "name": "Telaga Warna et Batu Ratapan Angin",
           "type": "Nature",
           "text": "Telaga Warna depuis les abords du lac ou le point de vue de Batu Ratapan Angin. La vue et les couleurs changent avec la lumière et la météo.",
           "time": "1 h 30",
-          "price": null
+          "price": null,
+          "photo": {
+            "file": "Telaga Warna,Dieng, Petualangan menyaksikan air berubah warna dari ketinggian.jpg",
+            "caption": "Lacs Telaga Warna et Pengilon vus d'en haut",
+            "author": "Ganjarmustika1904",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+          }
         },
         {
           "name": "Mont Prau",
           "type": "Randonnée",
           "text": "Prau est l'option plus sportive : montée soutenue, puis descente dans la journée. Faire confirmer le sentier ouvert et la durée par un guide avant de l'intégrer au voyage.",
           "time": "5 à 6 h aller-retour",
-          "price": null
+          "price": null,
+          "photo": {
+            "file": "Gunung Prau, Dieng, Wonosobo, 05062017.jpg",
+            "caption": "Sindoro et Sumbing vus du mont Prau",
+            "author": "Eko Raharjo",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+          }
         },
         {
           "name": "Carica et mie ongklok",
@@ -653,6 +807,13 @@
             "amount": 255000,
             "currency": "IDR",
             "what": "entrée du parc national Bromo Tengger Semeru, tarif étranger, par personne et par jour, à acheter en ligne ; jeep en plus"
+          },
+          "photo": {
+            "file": "Mount Bromo at sunrise, showing its volcanoes and Mount Semeru (background).jpg",
+            "caption": "Bromo, Batok et Semeru au lever du jour",
+            "author": "Thomas Hirsch",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
           }
         },
         {
@@ -660,7 +821,14 @@
           "type": "Randonnée",
           "text": "Après le point de vue, passage dans la mer de sable. La montée au cratère se fait seulement si elle est autorisée le jour de la visite. Sinon, on garde les paysages de la caldeira.",
           "time": "1 h 30 aller-retour",
-          "price": null
+          "price": null,
+          "photo": {
+            "file": "Crater of Mount Bromo, Java, Indonesia, 20220820 0541 9414.jpg",
+            "caption": "Cratère fumant du Bromo",
+            "author": "Jakub Hałun",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+          }
         },
         {
           "name": "Pasir Berbisik et la savane",
@@ -674,7 +842,14 @@
           "type": "Ville",
           "text": "Jodipan, un quartier habité aux maisons peintes. On se promène dans les ruelles ouvertes aux visiteurs, en respectant les habitants et les accès privés.",
           "time": "1 h 30",
-          "price": null
+          "price": null,
+          "photo": {
+            "file": "06 270925 Kampung Warna-Warni Jodipan.jpg",
+            "caption": "Kampung Warna-Warni de Jodipan, Malang",
+            "author": "Ayampagi",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+          }
         },
         {
           "name": "Jalan Ijen et le Malang hollandais",
@@ -697,7 +872,14 @@
           "text": "Batu pour une sortie dans les hauteurs, avec vergers et cascades selon l'envie. Vérifier la cueillette avant de faire le détour. Option à garder si on a une journée de plus.",
           "time": "demi-journée ou journée",
           "price": null,
-          "hidden": true
+          "hidden": true,
+          "photo": {
+            "file": "Alun-Alun Batu, East Java.jpg",
+            "caption": "Grande roue et pommes géantes à Batu",
+            "author": "consigliere ivan",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+          }
         },
         {
           "name": "Temple de Singosari",
@@ -792,6 +974,13 @@
             "amount": 20000,
             "currency": "IDR",
             "what": "entrée du point de vue de Tumpak Sewu, par personne, en liquide"
+          },
+          "photo": {
+            "file": "Tumpak sewu waterfall.jpg",
+            "caption": "Tumpak Sewu depuis le point de vue",
+            "author": "Muhyiddin",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
           }
         },
         {
@@ -810,7 +999,14 @@
           "type": "Randonnée",
           "text": "Goa Tetes peut compléter la descente, avec des rochers ruisselants et glissants. Le guide doit confirmer si le passage est praticable. Ce n'est pas un détour à ajouter automatiquement.",
           "time": "1 h",
-          "price": null
+          "price": null,
+          "photo": {
+            "file": "Goa Tetes cascades, September 2026.jpg",
+            "caption": "Ruissellements de Goa Tetes",
+            "author": "Mcbobgorge",
+            "license": "CC0 1.0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+          }
         },
         {
           "name": "Cascade de Kapas Biru",
@@ -818,10 +1014,17 @@
           "text": "Kapas Biru est une autre cascade près de Pronojiwo. À garder comme option séparée, après confirmation du sentier et du temps nécessaire. Éviter de charger la même journée si on descend déjà à Tumpak Sewu.",
           "time": "1 h 30 à 2 h aller-retour",
           "price": null,
-          "hidden": true
+          "hidden": true,
+          "photo": {
+            "file": "Panorama Kapas Biru (53991163525).jpg",
+            "caption": "Cascade de Kapas Biru",
+            "author": "Thank You (25 Millions) views",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+          }
         }
       ],
-      "access": "Depuis Malang, environ 2 à 3 h de route sinueuse, en voiture avec chauffeur ou en excursion. En bus, environ 4 à 5 h depuis le terminal de Gadang, puis une moto-taxi : peu pratique. Dormir près de Pronojiwo évite le trajet depuis Malang le matin de la visite ; vérifier le confort de la chambre et l'heure d'ouverture du site avant de réserver.",
+      "access": "Depuis Malang, environ 2 à 3 h de route sinueuse, en voiture avec chauffeur ou en excursion. En bus, environ 4 à 5 h depuis le terminal de Gadang, puis une moto-taxi : peu pratique.",
       "tips": [
         "La descente au pied de la cascade est exigeante : passages raides, glissants et mouillés. Elle ferme quand il pleut ; demander sur place si le point de vue reste ouvert.",
         "Pour la descente : des chaussures qui accrochent et qu'on peut mouiller, pas de tongs, des vêtements de rechange et une pochette étanche pour le téléphone. Un guide du village aide, surtout vers Goa Tetes.",
@@ -883,7 +1086,13 @@
           "url": "https://www.backindo.com/tumpak-sewu-guide/"
         }
       ],
-      "checked": "17 novembre 2026"
+      "checked": "17 novembre 2026",
+      "stay": [
+        {
+          "name": "Pronojiwo",
+          "text": "Dormir près de Pronojiwo évite le trajet depuis Malang le matin de la visite. Vérifier le confort de la chambre et l'heure d'ouverture avant de réserver."
+        }
+      ]
     },
     "surabaya": {
       "intro": [
@@ -895,7 +1104,14 @@
           "type": "Culture",
           "text": "Les ruelles commerçantes autour de la mosquée et du tombeau de Sunan Ampel. C'est un lieu de pèlerinage : tenue couvrante et respect des espaces réservés à la prière.",
           "time": "1 h 30",
-          "price": null
+          "price": null,
+          "photo": {
+            "file": "Makam Sunan Ampel di Bulan Ramadhan 2025-17.jpg",
+            "caption": "Mosquée d'Ampel et ses échoppes",
+            "author": "Abdul Hanif Arromy",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+          }
         },
         {
           "name": "Pont rouge et quartier chinois",
@@ -903,7 +1119,14 @@
           "text": "Une balade autour de Jembatan Merah, Jalan Rajawali et Kembang Jepun. On peut y voir les anciens quartiers commerçants et le marché de Pabean.",
           "time": "2 h",
           "price": null,
-          "hidden": true
+          "hidden": true,
+          "photo": {
+            "file": "Kya-Kya gate, Surabaya, 2025 (02).jpg",
+            "caption": "Porte du quartier chinois de Kembang Jepun",
+            "author": "Bahnfrend",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+          }
         },
         {
           "name": "Monument des héros",
@@ -911,14 +1134,28 @@
           "text": "Le monument et le musée du 10 Novembre pour comprendre la bataille de Surabaya de 1945. Vérifier les horaires du musée avant de faire le déplacement.",
           "time": "1 h",
           "price": null,
-          "hidden": true
+          "hidden": true,
+          "photo": {
+            "file": "Surabaya - Heroes Monument, or Tugu Pahlawan.jpg",
+            "caption": "Monument des héros, Surabaya",
+            "author": "P. Hughes",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+          }
         },
         {
           "name": "Hôtel Majapahit",
           "type": "Culture",
           "text": "L'hôtel Majapahit, sur Jalan Tunjungan, pour son architecture et son histoire liée à l'indépendance. Pour entrer ou faire une visite, demander les conditions à l'hôtel.",
           "time": "45 min",
-          "price": null
+          "price": null,
+          "photo": {
+            "file": "Orenje Hotel - Majapahit Hotel - Yamato Hotel, Surabaya Indonesia at dusk.jpg",
+            "caption": "Hôtel Majapahit à la tombée du jour",
+            "author": "Anastasia Purwanto",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+          }
         },
         {
           "name": "Jalan Tunjungan le soir",
@@ -941,7 +1178,12 @@
           "type": "Culture",
           "text": "Une mosquée à l'architecture d'inspiration chinoise. Un arrêt court si on est dans le secteur, en respectant les horaires de prière et les consignes de visite.",
           "time": "30 min",
-          "price": null
+          "price": null,
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1635162500170-c88bcdc44413?fm=jpg&q=80&w=1600",
+            "caption": "Mosquée Cheng Hoo de Surabaya",
+            "source": "Unsplash, Zaskia Auryn, licence Unsplash"
+          }
         },
         {
           "name": "Pont Suramadu",
@@ -949,7 +1191,14 @@
           "text": "Le pont relie Surabaya à Madura. À prévoir surtout si on veut poursuivre sur Madura ; pour le pont seul, regarder le détour nécessaire depuis l'hôtel.",
           "time": "1 h, selon le point de départ",
           "price": null,
-          "hidden": true
+          "hidden": true,
+          "photo": {
+            "file": "Suramadu 3 (cropped).jpg",
+            "caption": "Pont Suramadu illuminé",
+            "author": "Valen Shascaryo",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+          }
         }
       ],
       "access": "Train depuis Malang, environ 2 h à 2 h 30, ou depuis Yogyakarta, environ 4 à 5 h ; vérifier la gare d'arrivée, tous les trains n'arrivent pas forcément à Gubeng. Depuis Malang, des navettes relient aussi Surabaya et l'aéroport Juanda : demander le prix, les arrêts et la marge prévue avant le vol. L'aéroport Juanda est au sud de l'agglomération ; trajet à calculer depuis l'hôtel. Les vols directs vers Bali, Lombok, Florès ou Sulawesi se vérifient pour les dates du voyage.",

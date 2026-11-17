@@ -12,7 +12,14 @@
      "text": "Sanur regarde vers l'est. On peut aller sur la plage à l'aube ; l'heure du lever du soleil se vérifie pour la date choisie. L'Agung se voit si le ciel est dégagé.",
      "time": "tôt le matin",
      "price": null,
-     "hidden": true
+     "hidden": true,
+     "photo": {
+      "file": "Morning in Sanur Beach, Bali.jpg",
+      "caption": "Lever de soleil sur la plage de Sanur",
+      "author": "Danangtrihartanto",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+     }
     },
     {
      "name": "Front de mer à vélo",
@@ -20,7 +27,14 @@
      "text": "Une balade à vélo sur le front de mer, avec des arrêts dans les cafés et warungs. Rouler doucement : la promenade est aussi utilisée par les piétons.",
      "time": "2 h",
      "price": null,
-     "hidden": true
+     "hidden": true,
+     "photo": {
+      "file": "Pantai Sanur 3.jpg",
+      "caption": "Promenade du front de mer",
+      "author": "Fitri Penyalai",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+     }
     },
     {
      "name": "Baignade dans le lagon",
@@ -34,7 +48,14 @@
      "type": "Culture",
      "text": "La maison du peintre Le Mayeur, avec ses tableaux, près de la plage. Une petite visite culturelle possible à Sanur, en vérifiant les jours et horaires avant d'y aller.",
      "time": "1 h",
-     "price": null
+     "price": null,
+     "photo": {
+      "file": "Museum Le Mayeur - 2025-02-17 - Andy Mabbett - 138.jpg",
+      "caption": "Musée Le Mayeur",
+      "author": "Andy Mabbett",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+     }
     },
     {
      "name": "Marché de nuit de Sindhu",

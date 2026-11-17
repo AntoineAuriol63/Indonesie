@@ -100,6 +100,13 @@
       "amount": 10000,
       "currency": "IDR",
       "what": "parking à l'entrée de la plage, par scooter"
+     },
+     "photo": {
+      "file": "BIRUNYA TANJUNG AAN.jpg",
+      "caption": "Plage de Tanjung Aan",
+      "author": "Suryanata budi",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
      }
     },
     {
@@ -107,14 +114,28 @@
      "type": "Randonnée",
      "text": "Une montée sur Merese pour voir les baies. Ça peut faire une fin de journée après la plage. Prévoir de l'eau et le temps de redescendre avant la nuit.",
      "time": "1 h 30",
-     "price": null
+     "price": null,
+     "photo": {
+      "file": "Biru Bening Tanjung Aan.jpg",
+      "caption": "Tanjung Aan vue de la colline de Merese",
+      "author": "Dhika Ayu Agustin Cahyani",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+     }
     },
     {
      "name": "Premier cours de surf à Selong Belanak",
      "type": "Mer",
      "text": "Selong Belanak est une option pour un premier cours de surf. L'école doit confirmer que les conditions conviennent à notre niveau. Ne pas promettre le passage des buffles sur la plage.",
      "time": "demi-journée",
-     "price": null
+     "price": null,
+     "photo": {
+      "file": "Shepherd and herd of buffalo.jpg",
+      "caption": "Buffles sur la plage de Selong Belanak",
+      "author": "Surya Edy Gautama",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+     }
     },
     {
      "name": "Plage de Mawun",
@@ -125,6 +146,13 @@
       "amount": 10000,
       "currency": "IDR",
       "what": "entrée et parking, par scooter"
+     },
+     "photo": {
+      "file": "Kuta Lombok Mawun Beach.JPG",
+      "caption": "Baie de Mawun",
+      "author": "Whatsinaname",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Kuta_Lombok_Mawun_Beach.JPG"
      }
     },
     {
@@ -132,7 +160,14 @@
      "type": "Culture",
      "text": "Sade ou Ende pour une visite de village sasak. Fixer les conditions de la visite avec le guide local et demander avant de photographier les habitants.",
      "time": "1 h",
-     "price": null
+     "price": null,
+     "photo": {
+      "file": "Berugaq Desa Sade Lombok.jpg",
+      "caption": "Toits de chaume au village de Sade",
+      "author": "RaiyaniM",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+     }
     },
     {
      "name": "Dîner à Kuta",
@@ -224,7 +259,14 @@
      "type": "Randonnée",
      "text": "Une marche entre les parcelles et les hameaux, avec un guide qui connaît les passages. Choisir la durée et demander si le parcours inclut une cascade ou la forêt.",
      "time": "3 à 4 h",
-     "price": null
+     "price": null,
+     "photo": {
+      "file": "Near-tetebatu (99516017).jpg",
+      "caption": "Rizières en terrasses près de Tetebatu",
+      "author": "Jon Evans",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+     }
     },
     {
      "name": "Cascade de Sarang Walet",
@@ -267,7 +309,14 @@
      "type": "Nature",
      "text": "Benang Stokel et Benang Kelambu demandent une sortie à part. Faire préciser le circuit, les entrées et les conditions d'accompagnement avant de partir.",
      "time": "demi-journée",
-     "price": null
+     "price": null,
+     "photo": {
+      "file": "Lombok - Benang Stokel Waterfall 1.jpg",
+      "caption": "Cascade de Benang Stokel",
+      "author": "P. Hughes",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+     }
     }
    ],
    "access": "Tetebatu est à environ 1 h 30 de route de l'aéroport de Lombok, autour de 2 h de Kuta et un peu plus du port de Bangsal, en voiture avec chauffeur. Les transports publics sont lents et s'arrêtent avant le village.",
@@ -338,28 +387,54 @@
      "type": "Nature",
      "text": "Sendang Gile se rejoint par des escaliers depuis Senaru. On peut voir la cascade sans se placer sous la chute. Prévoir la remontée après la visite.",
      "time": "1 h",
-     "price": null
+     "price": null,
+     "photo": {
+      "url": "https://live.staticflickr.com/65535/49587592658_381f9210cc_k.jpg",
+      "caption": "Les deux paliers de Sendang Gile",
+      "source": "Flickr, ralexander Photos, CC BY 2.0"
+     }
     },
     {
      "name": "Cascade de Tiu Kelep",
      "type": "Randonnée",
      "text": "Pour Tiu Kelep, le chemin continue en forêt avec des passages dans l'eau. À décider avec un guide selon le débit et l'état du sentier, pas uniquement selon la météo au village.",
      "time": "2 à 3 h avec Sendang Gile",
-     "price": null
+     "price": null,
+     "photo": {
+      "file": "Tiu Kelep.jpg",
+      "caption": "Cascade de Tiu Kelep",
+      "author": "Jordy Meow",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+     }
     },
     {
      "name": "Hameau traditionnel de Senaru",
      "type": "Culture",
      "text": "Le hameau traditionnel de Senaru pour les maisons sasak et les explications d'un habitant. Demander comment se déroule la visite et quels espaces sont accessibles.",
      "time": "30 min",
-     "price": null
+     "price": null,
+     "photo": {
+      "file": "Rumah adat desa Senaru Lombok.jpg",
+      "caption": "Maison traditionnelle du hameau de Senaru",
+      "author": "RaiyaniM",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+     }
     },
     {
      "name": "Vieille mosquée de Bayan Beleq",
      "type": "Culture",
      "text": "Bayan Beleq, une ancienne mosquée liée aux traditions locales. Vérifier les conditions de visite et les espaces accessibles ; ce n'est pas un lieu où entrer librement comme dans un musée.",
      "time": "30 min",
-     "price": null
+     "price": null,
+     "photo": {
+      "file": "DSC 0041-02.jpg",
+      "caption": "Vieille mosquée de Bayan Beleq",
+      "author": "Inspiramdhany",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+     }
     },
     {
      "name": "Senaru Panorama Walk",
@@ -433,7 +508,14 @@
      "type": "Faune",
      "text": "Chercher les tortues avec un guide ou dans une zone conseillée localement. Ne pas les suivre, les toucher ni bloquer leur remontée. Les chenaux entre les îles ne se traversent pas à la nage.",
      "time": "1 à 2 h",
-     "price": null
+     "price": null,
+     "photo": {
+      "file": "Gili trawangan turtle 01.jpg",
+      "caption": "Tortue marine devant Gili Trawangan",
+      "author": "Nuctuslasheca",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+     }
     },
     {
      "name": "Tour des trois îles en bateau",
@@ -455,7 +537,14 @@
      "text": "Pour le coucher du soleil, regarder du côté ouest de l'île. On peut voir les reliefs de Bali si l'horizon est dégagé.",
      "time": "1 h",
      "price": null,
-     "hidden": true
+     "hidden": true,
+     "photo": {
+      "file": "Sunset, Gili Trawangan, Indonesia (932884927).jpg",
+      "caption": "Coucher de soleil depuis Gili Trawangan",
+      "author": "yeowatzup",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+     }
     },
     {
      "name": "Lever de soleil sur le Rinjani",
@@ -463,7 +552,14 @@
      "text": "À l'aube, la côte est regarde vers Lombok et ses montagnes. Vérifier l'heure du soleil pour la date, plutôt que fixer le rendez-vous à 6 h.",
      "time": "30 min",
      "price": null,
-     "hidden": true
+     "hidden": true,
+     "photo": {
+      "file": "Lombok Island and Mount Rinjani from Gili Meno Island, Indonesia.jpg",
+      "caption": "Lombok et le Rinjani vus de Gili Meno",
+      "author": "Vyacheslav Argenberg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+     }
     },
     {
      "name": "Une journée sur l'île voisine",
@@ -565,6 +661,13 @@
       "amount": 250000,
       "currency": "IDR",
       "what": "droit d'entrée du parc, par personne et par jour, tarif étranger (ranger en plus)"
+     },
+     "photo": {
+      "file": "Komodo dragon (Varanus komodoensis) 4.jpg",
+      "caption": "Dragon de Komodo sur l'île de Rinca",
+      "author": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
      }
     },
     {
@@ -572,7 +675,14 @@
      "type": "Randonnée",
      "text": "Padar pour le point de vue sur les baies, après une montée exposée. Si on veut l'aube, faire confirmer que le circuit et le créneau autorisé le permettent.",
      "time": "1 h 30",
-     "price": null
+     "price": null,
+     "photo": {
+      "file": "Pulau Padar 1.jpg",
+      "caption": "Les baies de Padar vues de la crête",
+      "author": "YUS JULIADI",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+     }
     },
     {
      "name": "Pink Beach",
@@ -586,7 +696,14 @@
      "type": "Faune",
      "text": "Un arrêt possible pour chercher les mantas, si les conditions permettent le snorkeling. Les laisser passer sans les poursuivre. Aucune garantie d'en voir ce jour-là.",
      "time": "45 min",
-     "price": null
+     "price": null,
+     "photo": {
+      "file": "A Flying Manta ray.jpg",
+      "caption": "Raie manta à Manta Point",
+      "author": "Siharaditia",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+     }
     },
     {
      "name": "Banc de sable de Taka Makassar",
@@ -601,7 +718,14 @@
      "text": "Kalong pour observer les roussettes à la tombée du jour, depuis le bateau. À vérifier dans le programme : les sorties d'une journée ne restent pas toutes jusque-là.",
      "time": "1 h",
      "price": null,
-     "hidden": true
+     "hidden": true,
+     "photo": {
+      "file": "Large flying foxes (Pteropus vampyrus) in flight from Pulau Kalong Rinca.jpg",
+      "caption": "Envol des roussettes à Kalong",
+      "author": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+     }
     },
     {
      "name": "Île de Kelor",
@@ -617,7 +741,14 @@
      "text": "Rangko est une sortie hors du parc, avec route, bateau et marche jusqu'à une grotte. Faire préciser l'accès et les conditions de baignade avant de réserver.",
      "time": "demi-journée",
      "price": null,
-     "hidden": true
+     "hidden": true,
+     "photo": {
+      "file": "Gua Rangko.jpg",
+      "caption": "Bassin de la grotte de Rangko",
+      "author": "Pravda V. Wardhana",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+     }
     },
     {
      "name": "Coucher de soleil à Labuan Bajo",
@@ -715,42 +846,82 @@
      "type": "Nature",
      "text": "À Cancar, un point de vue montre l'organisation des champs en toile d'araignée. Un arrêt possible sur la route, en prévoyant la marche jusqu'au belvédère.",
      "time": "1 h",
-     "price": null
+     "price": null,
+     "photo": {
+      "file": "Wyspa Flores-Indonezja -pola ryżowe - panoramio.jpg",
+      "caption": "Rizières en toile d'araignée de Cancar",
+      "author": "Jan Markiewicz",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+     }
     },
     {
      "name": "Grotte de Liang Bua",
      "type": "Culture",
      "text": "Liang Bua est le site associé à la découverte d'Homo floresiensis. On visite le lieu et ses explications ; ne pas s'attendre à voir les fossiles originaux sur place.",
      "time": "1 h 30 avec la route",
-     "price": null
+     "price": null,
+     "photo": {
+      "file": "Homo floresiensis cave.jpg",
+      "caption": "Intérieur de la grotte de Liang Bua",
+      "author": "Rosino",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+     }
     },
     {
      "name": "Village de Ruteng Pu'u",
      "type": "Culture",
      "text": "Ruteng Pu'u pour les maisons et l'organisation du village. Une visite à faire avec des explications locales, en respectant les espaces habités.",
      "time": "30 min",
-     "price": null
+     "price": null,
+     "photo": {
+      "url": "https://live.staticflickr.com/2265/1509499508_4803d66343_k.jpg",
+      "caption": "Maison conique à Ruteng Pu'u",
+      "source": "Flickr, Rosino, CC BY-SA 2.0"
+     }
     },
     {
      "name": "Marché de Ruteng",
      "type": "Ville",
      "text": "Le marché de Ruteng pour une balade en ville et voir les produits vendus ce jour-là. Demander avant de photographier les personnes.",
      "time": "1 h",
-     "price": null
+     "price": null,
+     "photo": {
+      "file": "RUT - Interior of a market in Ruteng, Flores, Indonesia, 2019.jpg",
+      "caption": "Allée du marché de Ruteng",
+      "author": "Josep M. Gracia",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+     }
     },
     {
      "name": "Lac Ranamese",
      "type": "Nature",
      "text": "Ranamese pour une sortie autour du lac et de la forêt. Vérifier l'entrée et le sentier ouvert avant le détour.",
      "time": "1 h",
-     "price": null
+     "price": null,
+     "photo": {
+      "file": "Nelayan Ranamese.jpg",
+      "caption": "Pêcheur sur le lac Ranamese",
+      "author": "Benny Agung Muljawan",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+     }
     },
     {
      "name": "Combat de caci",
      "type": "Culture",
      "text": "Le caci est lié à des événements locaux. Demander si une représentation ou cérémonie est annoncée pendant le séjour, sans la compter d'avance dans le programme.",
      "time": "",
-     "price": null
+     "price": null,
+     "photo": {
+      "file": "Tari Caci.jpg",
+      "caption": "Duel de caci, fouet contre bouclier",
+      "author": "Fakhri Anindita",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+     }
     }
    ],
    "access": "Par la route transflorésienne depuis Labuan Bajo : environ 110 km de virages, de l'ordre de 3 à 4 h en voiture avec chauffeur selon la route et les arrêts. On peut s'arrêter à Cancar juste avant d'arriver à Ruteng.",
@@ -838,14 +1009,28 @@
      "type": "Culture",
      "text": "La nuit se passe dans une maison collective, avec un confort simple. À accepter avant de choisir l'étape : ce n'est pas une chambre privée avec salle de bain.",
      "time": "la nuit",
-     "price": null
+     "price": null,
+     "photo": {
+      "file": "Rumah Adat Mbaru Niang.jpg",
+      "caption": "Les maisons coniques de Wae Rebo",
+      "author": "AsdarMunandar",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+     }
     },
     {
      "name": "Café de Wae Rebo",
      "type": "Cuisine",
      "text": "Le café fait partie des activités du village. On peut en goûter si les hôtes en proposent ; pour voir la production, demander ce qui est possible à cette période.",
      "time": "",
-     "price": null
+     "price": null,
+     "photo": {
+      "file": "Wae Rebo village, Flores Island, Indonesia, 20250824 0753 3029.jpg",
+      "caption": "Maison conique et café qui sèche",
+      "author": "Jakub Hałun",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+     }
     },
     {
      "name": "Lever du jour sur le village",
@@ -932,7 +1117,14 @@
      "type": "Nature",
      "text": "Mata Jitu sur Moyo, avec un transfert puis une marche selon le point de départ. Faire préciser le parcours et les conditions d'accès avant de choisir la sortie.",
      "time": "2 à 3 h",
-     "price": null
+     "price": null,
+     "photo": {
+      "file": "Sumbawa Adventour - Moyo Island Mata Jitu Waterfall.jpg",
+      "caption": "Bassins de la cascade de Mata Jitu",
+      "author": "Egaryan Saadi",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+     }
     },
     {
      "name": "Snorkeling devant Labuan Aji",
@@ -953,14 +1145,28 @@
      "type": "Culture",
      "text": "Le palais en bois de Dalam Loka, à Sumbawa Besar. Une visite culturelle à glisser avant ou après le séjour sur Moyo, selon l'ouverture.",
      "time": "45 min",
-     "price": null
+     "price": null,
+     "photo": {
+      "file": "SuBesarPalace.JPG",
+      "caption": "Palais Dalam Loka à Sumbawa Besar",
+      "author": "Torbenbrinker",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+     }
     },
     {
      "name": "Requins-baleines de la baie de Saleh",
      "type": "Faune",
      "text": "Saleh pour une sortie aux requins-baleines, avec un opérateur qui explique ses pratiques et les règles d'observation. Demander comment les animaux sont attirés avant de réserver.",
      "time": "la nuit et la matinée",
-     "price": null
+     "price": null,
+     "photo": {
+      "file": "Hiu paus ( whale shark ).jpg",
+      "caption": "Requin-baleine dans la baie de Saleh",
+      "author": "Muhammad syaran",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+     }
     },
     {
      "name": "Île de Kenawa",
@@ -968,7 +1174,14 @@
      "text": "Kenawa se visite depuis le secteur de Poto Tano. À envisager lors du passage entre Lombok et Sumbawa, avec un bateau et un retour organisés.",
      "time": "2 à 3 h, au passage par Poto Tano",
      "price": null,
-     "hidden": true
+     "hidden": true,
+     "photo": {
+      "file": "Pulau kenawa.jpg",
+      "caption": "Île de Kenawa vue du ciel",
+      "author": "Papudaengoyang",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+     }
     }
    ],
    "access": "Depuis Lombok, ferry de Kayangan à Poto Tano, environ 1 h 30 à 2 h de traversée, puis environ 1 h 30 de route en voiture jusqu'à Sumbawa Besar, plus en bus. La ville a aussi un petit aéroport, relié à Lombok. Pour Moyo, un bateau public part de la jetée de Pantai Goa, à dix minutes du centre : faire confirmer l'heure, la fréquence et le tarif.",
@@ -1053,35 +1266,70 @@
      "type": "Culture",
      "text": "Ratenggaro pour les maisons aux hauts toits et les tombes près de la côte. Fixer les conditions de visite et demander avant de photographier les habitants.",
      "time": "1 h",
-     "price": null
+     "price": null,
+     "photo": {
+      "file": "Rumah Kampung Adat Ratenggaro - Sumba Barat Daya.jpg",
+      "caption": "Maisons à hauts toits de Ratenggaro",
+      "author": "Allwyn Wawyn",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+     }
     },
     {
      "name": "Lagon de Weekuri",
      "type": "Mer",
      "text": "Weekuri est un lagon alimenté par la mer. La hauteur d'eau change avec la marée. Demander le bon créneau et les zones de baignade autorisées avant d'y aller.",
      "time": "2 h",
-     "price": null
+     "price": null,
+     "photo": {
+      "file": "Weekuri Lagoon.jpg",
+      "caption": "Lagon de Weekuri",
+      "author": "Bimantara.prawoto",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+     }
     },
     {
      "name": "Plage de Mandorak",
      "type": "Mer",
      "text": "Mandorak pour la petite crique entre les rochers. À garder comme arrêt de paysage ; la baignade se décide selon les conditions et consignes locales.",
      "time": "45 min",
-     "price": null
+     "price": null,
+     "photo": {
+      "file": "Pantai Mandorak, Sumba Barat Daya.jpg",
+      "caption": "Falaises de corail à Mandorak",
+      "author": "Zahrasrtn",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+     }
     },
     {
      "name": "Villages de Tarung et Waitabar",
      "type": "Culture",
      "text": "Tarung et Waitabar pour les maisons, les tombes et les explications sur les traditions locales. Visiter avec quelqu'un du secteur et respecter les espaces privés.",
      "time": "1 h",
-     "price": null
+     "price": null,
+     "photo": {
+      "file": "Kampung Tarung-Waitabar.jpg",
+      "caption": "Maisons et tombes de Tarung, en 2008",
+      "author": "monica renata",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+     }
     },
     {
      "name": "Village de Praijing",
      "type": "Culture",
      "text": "Praijing peut compléter les visites autour de Waikabubak. Un guide local aide à comprendre l'organisation du village ; les habitants ne sont pas là pour poser pour les photos.",
      "time": "45 min",
-     "price": null
+     "price": null,
+     "photo": {
+      "file": "Kampung Adat Praijing, Sumba Barat.jpg",
+      "caption": "Village de Praijing vu d'en haut",
+      "author": "Zahrasrtn",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+     }
     },
     {
      "name": "Plage de Bwanna",
@@ -1096,7 +1344,14 @@
      "text": "Lapopu demande une sortie à part, avec route puis marche. Faire confirmer l'ouverture, les droits d'entrée et l'état du sentier avant le départ.",
      "time": "demi-journée",
      "price": null,
-     "hidden": true
+     "hidden": true,
+     "photo": {
+      "file": "Air Terjun Lapopu, Sumba Barat.jpg",
+      "caption": "Cascade de Lapopu et son bassin",
+      "author": "Zahrasrtn",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+     }
     },
     {
      "name": "Marché de Waikabubak",
@@ -1188,28 +1443,56 @@
      "type": "Nature",
      "text": "Wairinding pour les collines. En saison sèche, le paysage peut être jaune ou brun, loin des photos de saison verte. Une sortie à placer plutôt quand il fait moins chaud.",
      "time": "1 h",
-     "price": null
+     "price": null,
+     "photo": {
+      "file": "Bukit Wairinding-Sumba Timur.jpg",
+      "caption": "Collines de Wairinding en saison sèche",
+      "author": "Djakartacaver",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+     }
     },
     {
      "name": "Ateliers d'ikat à Prailiu et Rende",
      "type": "Culture",
      "text": "Prailiu et le secteur de Rende pour le tissage ikat. Demander une visite d'atelier si on veut voir les étapes du travail, et se renseigner sur le tissu avant d'acheter.",
      "time": "demi-journée",
-     "price": null
+     "price": null,
+     "photo": {
+      "file": "Tenun Ikat Sumba.jpg",
+      "caption": "Fils d'ikat teints mis à sécher",
+      "author": "06Ivonne",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+     }
     },
     {
      "name": "Arbres dansants de Walakiri",
      "type": "Nature",
      "text": "Walakiri pour les silhouettes de mangroves au bord de l'eau. Regarder la marée et rester sur les accès autorisés, sans grimper sur les arbres.",
      "time": "1 h 30",
-     "price": null
+     "price": null,
+     "photo": {
+      "file": "Bakau di walakiri beach.jpg",
+      "caption": "Palétuviers de Walakiri au coucher du soleil",
+      "author": "Ignaskunda8",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+     }
     },
     {
      "name": "Cascade de Waimarang",
      "type": "Nature",
      "text": "Waimarang pour la cascade et son bassin entre les parois rocheuses. Prévoir la marche et faire confirmer les conditions avant de se baigner.",
      "time": "demi-journée",
-     "price": null
+     "price": null,
+     "photo": {
+      "file": "Surga tersembunyi di Waimarang, Sumba.jpg",
+      "caption": "Vasque de la cascade de Waimarang",
+      "author": "Jordan siva",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+     }
     },
     {
      "name": "Cascade de Tanggedu",
@@ -1220,6 +1503,13 @@
       "amount": 5000,
       "currency": "IDR",
       "what": "entrée de la cascade, par personne (moto-taxi depuis le village : 50 000 l'aller-retour)"
+     },
+     "photo": {
+      "file": "Air Terjun Tanggedu, Sumba Timur.jpg",
+      "caption": "Cascade de Tanggedu",
+      "author": "Zahrasrtn",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
      }
     },
     {
@@ -1227,7 +1517,14 @@
      "type": "Nature",
      "text": "Puru Kambera pour la savane et la côte. Les chevaux peuvent faire partie du paysage, mais ce n'est pas une rencontre garantie ni une activité avec les animaux.",
      "time": "1 h",
-     "price": null
+     "price": null,
+     "photo": {
+      "file": "Liarnya keindahan Sumba.jpg",
+      "caption": "Chevaux dans la savane de Puru Kambera",
+      "author": "Jordan siva",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+     }
     }
    ],
    "access": "Vol depuis Bali jusqu'à l'aéroport de Waingapu, tout près de la ville : vérifier les vols directs et la durée pour les dates retenues. Depuis Waikabubak et l'ouest de l'île, environ 3 à 4 h de route, en passant par les collines de Wairinding.",
