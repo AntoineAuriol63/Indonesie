@@ -149,3 +149,69 @@ Prix ajouté : droit d'accès au belvédère de Piaynemo, 300 000 IDR par bateau
 Ajout : pas de sorties en bateau le dimanche dans la plupart des homestays (SRA homestays).
 
 Photos : les douze photos existantes regardées, toutes conformes (descriptions Commons lues). Légende de `Piaynemo Island, Raja Ampat, West Papua, Indonesia.jpg` corrigée (« Les îlots vus de la plateforme » : l'escalier n'y figure pas).
+
+## Raja Ampat : compléments après retour des recherches web
+
+| Affirmation | Source (URL) | Verdict |
+| --- | --- | --- |
+| 374 espèces de poissons en une plongée à Cape Kri | https://www.scubadiving.com/one-fish-two-fish-374-fish, https://indopacificimages.com/wp-content/uploads/2024/03/ANZ-65_Cape-Kri.pdf (Gerald Allen, 2012, 374 espèces en 90 minutes) | Confirmée, rétablie dans l'entrée « Snorkeling sur le récif de Kri » |
+| Manta Sandy « au nord-ouest d'Arborek » (première relecture) | https://www.duikersgids.nl/en/manta-sandy (chenal de sable entre Arborek et Mansuar, à l'ouest du détroit) ; position OpenStreetMap concordante (sud-est d'Arborek) | Corrigée : « entre Arborek et Mansuar » |
+| Manta Sandy : station de nettoyage, gardes | https://www.rajaampat-seacentre.org/our_project/manta-sandy-ranger-station/ (poste de gardes en service depuis juin 2017, à 50 m de la station de nettoyage), https://birdsheadseascape.com/diving/diving-manta-sandy-heres-need-know-meidiarti-kasmidi-nikka-amandra-gunadharma/ (20 plongeurs et nageurs à la fois au plus) | Confirmée, rétablie, limite de 20 personnes ajoutée |
+| Piaynemo : un peu plus de 300 marches | https://www.thejakartapost.com/travel/2017/06/13/piaynemo-offering-magnificent-karst-islet-scenery.html et guides cités par la recherche (300 à 341 marches, 10 à 20 minutes) | Confirmée, rétablie avec « dix à vingt minutes » |
+| Telaga Bintang : grimpe sans escalier | Jakarta Post (sentier étroit, on s'accroche aux racines et aux rochers), Lonely Planet (seconde montée, un peu plus difficile) | Confirmée, rétablie ; durée exacte et trajet en bateau non retrouvés, non écrits |
+
+## kupang
+
+| Affirmation | Source (URL) | Verdict |
+| --- | --- | --- |
+| Capitale des petites îles de la Sonde orientales, « tout à l'ouest de Timor » | https://en.wikipedia.org/wiki/Kupang | Précisée : pointe sud-ouest de Timor |
+| Ville chaude et sèche en août | Wikipedia Kupang (août : 2 mm de pluie, 32,2 °C de maximale moyenne) | Confirmée |
+| Marché de nuit de Kampung Solor, poisson grillé | https://en.wikivoyage.org/wiki/Kupang (pasar malam de Jalan Kosasih, vers 18 h 30, fruits de mer, jus), https://www.jawapos.com/kuliner/2512040016/8-makanan-legendaris-di-kupang-yang-bikin-susah-move-on (Kampung Solor, Jalan Kosasih : poisson, calamar, crevettes grillés), wanderlog (affluence après 19 h) | Confirmée ; « poisson choisi sur la glace, tables en plastique » retiré |
+| Coucher de soleil sur la plage de Tedis, maïs grillé | Wikivoyage (plage de Koepan, phare au premier plan, street art), https://kupi.com/en-ae/explore/indonesia/kupang/koepan-beach-pantai-koepan (Koepan, vieille ville, coucher de soleil) ; rien trouvé sur Tedis | Corrigée : Tedis et maïs grillé retirés, plage de Koepan |
+| Lasiana : une douzaine de km à l'est, palmiers lontar, paillotes | https://www.goodnewsfromindonesia.id/2025/01/22/3-pantai-cantik-di-kota-kupang-wajib-dikunjungi et indonesia.travel (12 km à l'est, « mille lontars », mer calme, coucher de soleil) ; Wikivoyage (plage sans charme, entrée 6 000 IDR, bar de plage La Cove) | Confirmée, nuancée ; « noix de coco », « toute la ville le week-end » retirés |
+| Grotte de Kristal vers Bolok, bassin où l'on se baigne, fin de matinée | Wikivoyage (lagon dans une grotte sombre, lampe indispensable sinon location à 100 000 IDR, entrée 20 000 IDR), sources citées par la recherche (Bolok, 15 km, 30 min, eau froide ; soleil de 10 h à 14 h d'après trip.com) | Confirmée, complétée ; « à l'ouest » -> sud-ouest (position de la fiche) |
+| Se'i : viande fumée, sambal citronné, feuilles de papaye | https://en.wikipedia.org/wiki/Se%27i (origine Rote, porc surtout, bœuf aussi ; riz, sambal lu'at, jagung bose) | Corrigée : feuilles de papaye retirées, jagung bose ajouté |
+| Sasando, harpe en feuille de lontar de Rote, « dans certains restaurants » | https://en.wikipedia.org/wiki/Sasando (cithare tubulaire en bambou, éventail de feuilles de lontar, Rote) | Confirmée ; « restaurants » retiré |
+| Vols directs depuis Bali, Surabaya, Jakarta | https://en.wikipedia.org/wiki/El_Tari_Airport, Wikivoyage | Confirmée |
+| Centre « à une vingtaine de minutes en taxi » | Wikivoyage (Grab : 100 000 à 200 000 IDR, 2026) | Remplacée par le prix du trajet |
+| Nuit de marge au retour d'Alor | https://alor-diving-kepa.com/practical-information/transportations/ | Confirmée |
+
+Prix : entrées de Lasiana (6 000 IDR) et de la grotte (20 000 IDR) lues sur Wikivoyage sans date précise : non retenues comme prix, signalées dans le texte.
+
+Photos : les cinq photos regardées. Remplacée : coucher de soleil de Lasiana, trop sombre, par `Unnamed Road, Lasiana, Klp. Lima, Kota Kupang, Nusa Tenggara Tim., Indonesia - panoramio (1).jpg` (même auteur, même lieu, soleil sur la plage). Légende précisée pour `Sunset at NTT 4.jpg` (plage de Pasir Panjang d'après Commons). Marché de nuit : aucune photo libre trouvée (Commons, Openverse).
+
+## alor-kepa
+
+| Affirmation | Source (URL) | Verdict |
+| --- | --- | --- |
+| Alor, dernière des petites îles de la Sonde, au nord de Timor, « collines sèches, quelques volcans » | https://en.wikipedia.org/wiki/Alor_Island (extrémité est, origine volcanique, relief très accidenté) | Confirmée, reformulée |
+| Kepa à cinq minutes de barque d'Alor Kecil | https://alor-diving-kepa.com/practical-information/transportations/ (5 min, 20 000 IDR par personne) | Confirmée |
+| La P'tite Kepa existe toujours | https://alor-diving-kepa.com/ (site officiel en ligne, réservations ouvertes, tarifs affichés) | Confirmée |
+| « Seul hébergement de l'îlot » | avis de voyageur sur trip.com cité par la recherche (« deux resorts sur Kepa ») | Retirée |
+| « Tenu par une famille française », électricité solaire, repas pris ensemble, réserver longtemps à l'avance | https://alor-diving-kepa.com/about-us (fondé en 1998 par Cédric et Anne, qui n'y vivent plus à plein temps ; plongée menée par Tom et Yle), page d'accueil (trois repas compris, recharge solaire), FAQ (acompte de 50 %, pas de carte, pas de wifi) ; Lonely Planet (resort français, solaire) | Corrigée ; « repas pris ensemble » et « longtemps à l'avance » retirés |
+| Récif à quelques mètres de la plage, coraux en très bon état, anémones, tortue | site officiel (récif de la maison adapté au snorkeling libre, briefing sur les courants), Wikipedia (coraux parmi les plus sains et variés d'Indonésie) | Confirmée ; anémones et tortue retirées |
+| Eau fraîche en août | https://en.wikivoyage.org/wiki/Alor_Archipelago (jusqu'à 18 °C, courants de marée forts) | Reformulée sans saison : « peut être froide, jusqu'à 18 °C » |
+| Pura et Ternate en barque ; nasses en bambou, enfants en lunettes de bois | site officiel (îles du détroit accessibles en bateau), Wikivoyage (Pura, île volcanique raide) | Confirmée ; nasses et lunettes de bois retirées |
+| Takpala : colline, demi-heure de Kalabahi, une quinzaine de maisons, lego-lego | Wikivoyage (13 km à l'est de Kalabahi, don), https://rri.co.id/voice-of-indonesia/art-and-culture/2738475/takpala-village-preserving-alors-abui-tribal-heritage-in-east-nusa-tenggara (13 maisons fala foka, 13 familles, marches de pierre, lego-lego), Lonely Planet (danse surtout pour les groupes, 25 min de Kalabahi) | Corrigée : treize maisons, 13 km, 25 minutes ; « gongs et moko » retiré |
+| Moko : tambours de bronze en sablier, dot | https://en.wikipedia.org/wiki/Moko_drums | Confirmée (dot, rareté) ; « sablier » retiré |
+| Musée des mille moko, avec des ikats | site officiel, source citée par la recherche (tissus kawate, « mille » figuré) | Confirmée, « ikats » -> kawate |
+| Vol d'environ une heure de Kupang | site officiel (une heure, vol du matin), Wikipedia El Tari (Wings Air), agrégateurs (ATR 72, fréquence variable) | Confirmée ; « pas forcément tous les jours » ajouté |
+| Moins d'une heure de route jusqu'à Alor Kecil | site officiel (45 min, taxi 250 000 IDR) | Confirmée, précisée ; ferry Kupang-Kalabahi trois fois par semaine ajouté |
+| Pas de distributeur hors de Kalabahi | site officiel (plusieurs distributeurs à Alor, pas de carte au logement) | Reformulée |
+
+Prix ajoutés (site officiel, page des tarifs en euros, non datée mais en ligne en novembre 2026) : 58 EUR la nuit pour deux en bungalow standard (41 EUR en hutte, 80 EUR en bungalow supérieur) ; 22 EUR la sortie snorkeling sur deux sites.
+
+Photos :
+- Ajoutées (Flickr, prilfish, CC BY 2.0, licence lue sur la page Flickr) : bungalow sur Kepa (https://www.flickr.com/photos/37707866@N00/4903824238) et plage de Kepa (https://www.flickr.com/photos/37707866@N00/4903268359), 1024 px, juillet et août 2010.
+- Retirées pour leur faire place : tisseuses d'Alor et courant de la baie de Kalabahi.
+- Légende corrigée : `Beautiful view from Pura Island…` est une vue prise depuis Pura, pas de Pura.
+
+## Région timor-occidental-et-alor
+
+| Affirmation | Source (URL) | Verdict |
+| --- | --- | --- |
+| Kupang « à l'ouest de Timor » | Wikipedia Kupang | Précisée : pointe sud-ouest |
+| Alor « volcanique et sèche », eau fraîche, courant fort | Wikipedia Alor, Wikivoyage Alor Archipelago | Reformulée : volcanique et escarpée, eau parfois froide |
+| « Très peu de voyageurs font le détour » | aucune | Retirée |
+| Août en saison sèche, mer fraîche « à cette période » | Wikipedia Kupang, Wikivoyage | Confirmée pour la saison sèche ; fraîcheur de l'eau écrite sans saison (jusqu'à 18 °C) |
+| Vol d'une heure, voiture avec chauffeur ou scooter, barque pour Kepa | site officiel de La P'tite Kepa, Wikivoyage | Confirmée |

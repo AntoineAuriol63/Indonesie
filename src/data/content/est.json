@@ -11,8 +11,8 @@
    "access": "Vol jusqu'à Sorong, puis ferry rapide pour Waisai en 2 h environ (départs à 9 h et 14 h), où le homestay vient nous chercher en bateau. Tous les déplacements entre les îles se font en bateau et se paient à part."
   },
   "timor-occidental-et-alor": {
-   "intro": "Kupang, à l'ouest de Timor, est la grande ville du coin : on y atterrit, on y passe une soirée devant un poisson grillé, puis on reprend un petit avion pour Alor. Là-bas, c'est une île volcanique et sèche, avec des villages perchés et un détroit plein de coraux où l'eau est fraîche et le courant fort. On pose ses sacs sur l'îlot de Kepa et on nage. Très peu de voyageurs font le détour.",
-   "august": "Août est en pleine saison sèche : ciel bleu, collines jaunies. Autour d'Alor, la mer est fraîche à cette période et les courants restent forts toute l'année.",
+   "intro": "Kupang, à la pointe sud-ouest de Timor, est la grande ville du coin : on y atterrit, on y passe une soirée devant un poisson grillé, puis on reprend un petit avion pour Alor. Là-bas, c'est une île volcanique et escarpée, avec des villages perchés et un détroit plein de coraux où le courant est fort et l'eau parfois froide. On pose ses sacs sur l'îlot de Kepa et on nage.",
+   "august": "Août est en pleine saison sèche : à Kupang, il ne pleut presque pas. Autour d'Alor, les courants restent forts toute l'année et l'eau peut descendre à 18 °C.",
    "access": "On atterrit à Kupang, puis un vol d'environ une heure mène à Alor. Sur place, on circule en voiture avec chauffeur ou en scooter, et on traverse en barque jusqu'à Kepa."
   }
  },
@@ -349,7 +349,7 @@
     {
      "name": "Snorkeling sur le récif de Kri",
      "type": "Mer",
-     "text": "La côte nord de Kri est connue pour ses récifs : devant certains homestays, le corail commence à la limite de la marée haute. Le courant devient fort quand la marée tourne. On met des palmes, on garde un œil sur le rivage et on dit au homestay où l'on va, ou on part avec un guide.",
+     "text": "À la pointe est, Cape Kri, un biologiste a compté 374 espèces de poissons en une seule plongée de 90 minutes, en 2012 : son record. Côté nord, le corail commence parfois à la limite de la marée haute. Le courant est fort quand la marée tourne : palmes aux pieds, et on prévient le homestay.",
      "time": "2 h",
      "price": null
     },
@@ -363,7 +363,7 @@
     {
      "name": "Raies manta à Manta Sandy",
      "type": "Faune",
-     "text": "Au nord-ouest d'Arborek, un site où les raies manta passent à faible profondeur : on les voit en restant en surface. Mais la saison va de mi-octobre à mi-mai. En juin et juillet, elles quittent le détroit de Dampier : en août, on ne compte pas dessus.",
+     "text": "Entre Arborek et Mansuar, un chenal de sable où les raies manta viennent se faire nettoyer. On les regarde depuis la surface, sans les toucher, vingt personnes à la fois au plus, sous l'œil des gardes. La saison va de mi-octobre à mi-mai : en août, elles ont quitté le détroit.",
      "time": "demi-journée",
      "price": null
     },
@@ -444,7 +444,7 @@
     {
      "name": "Belvédère de Piaynemo",
      "type": "Nature",
-     "text": "Le bateau accoste à un petit ponton, dans un lagon de la côte est. Un escalier en bois monte dans la forêt jusqu'au belvédère, sur un piton calcaire. Sur le ponton, on vend des boissons, de l'huile et du savon de coco, mais aussi des crabes de cocotier vivants, espèce protégée : on n'achète pas.",
+     "text": "Le bateau accoste à un petit ponton, dans un lagon. Un escalier en bois d'un peu plus de 300 marches monte dans la forêt jusqu'au belvédère : dix à vingt minutes. En bas, on vend des boissons, de l'huile de coco et aussi des crabes de cocotier vivants, espèce protégée : on n'achète pas.",
      "time": "1 h",
      "price": {
       "amount": 300000,
@@ -455,8 +455,8 @@
     {
      "name": "Telaga Bintang, le lagon en étoile",
      "type": "Nature",
-     "text": "Les habitants l'appellent le lagon de l'étoile à cause de sa forme, qu'on ne voit que du haut d'une butte calcaire.",
-     "time": "",
+     "text": "Une seconde butte, plus difficile que Piaynemo : pas d'escalier, on grimpe sur un sentier étroit en s'accrochant aux racines et aux rochers. D'en haut, le lagon dessine une étoile à cinq branches.",
+     "time": "30 min",
      "price": null
     },
     {
@@ -545,50 +545,51 @@
   },
   "kupang": {
    "intro": [
-    "Kupang est la capitale des petites îles de la Sonde orientales, tout à l'ouest de Timor. Une ville de province chaude et sèche, tournée vers sa baie, où l'on passe surtout parce que les vols pour Alor partent d'ici. Une nuit suffit.",
+    "Kupang est la capitale des petites îles de la Sonde orientales, à la pointe sud-ouest de Timor. Une ville de province chaude et sèche, tournée vers la mer, où l'on passe surtout parce que les vols pour Alor partent d'ici. Une nuit suffit.",
     "On en profite pour regarder le soleil se coucher sur le front de mer, manger du poisson grillé au marché de nuit et, avec une demi-journée de plus, aller nager dans le bassin de la grotte de Kristal."
    ],
    "todo": [
     {
      "name": "Marché de nuit de Kampung Solor",
      "type": "Cuisine",
-     "text": "À la tombée du jour, une rue du vieux centre se remplit de stands. On choisit son poisson, son calamar ou ses crevettes sur la glace, on le fait griller devant soi et on mange à des tables en plastique, avec du riz et du sambal.",
+     "text": "À la tombée du jour, vers 18 h 30, Jalan Kosasih, dans la vieille ville, se remplit de stands de fruits de mer. Poisson, calamar ou crevettes grillés, avec du riz et du sambal, et un jus d'avocat ou de fruit du dragon. Il y a du monde surtout après 19 h.",
      "time": "le soir",
      "price": null
     },
     {
      "name": "Coucher de soleil sur le front de mer",
      "type": "Ville",
-     "text": "La ville regarde vers l'ouest : le soleil se couche dans la baie. On s'installe sur la petite plage de Tedis, dans le vieux quartier, avec un épi de maïs grillé, au milieu des familles et des vendeurs ambulants.",
+     "text": "Le soleil se couche sur la mer. Le meilleur endroit est la petite plage de Koepan, dans la vieille ville, avec le phare au premier plan. Les habitants y viennent en fin d'après-midi. Dans les ruelles voisines, des fresques couvrent les murs.",
      "time": "1 h",
      "price": null
     },
     {
      "name": "Plage de Lasiana",
      "type": "Détente",
-     "text": "À une douzaine de kilomètres à l'est du centre, une longue plage de sable bordée de palmiers lontar. On y boit une noix de coco sous les paillotes. Le week-end, toute la ville y vient. Mieux en fin de journée.",
+     "text": "À 12 km à l'est du centre, la plage dite des mille lontars, bordée de palmiers et de paillotes. La mer y est calme. Rien d'extraordinaire en journée : on y va pour le coucher du soleil, un verre au bar de plage. Petit droit d'entrée.",
      "time": "2 h",
      "price": null
     },
     {
      "name": "Grotte de Kristal",
      "type": "Nature",
-     "text": "Vers Bolok, à l'ouest de la ville, une grotte cache un bassin d'eau claire et bleutée où l'on se baigne. On descend sur des rochers glissants, dans la pénombre. Il faut y aller en fin de matinée, quand le soleil entre et éclaire l'eau.",
+     "text": "À Bolok, à 15 km au sud-ouest, une demi-heure de route, une grotte cache un bassin d'eau claire et froide où l'on se baigne. On descend sur des rochers, dans le noir : sans bonne lampe, on vous en loue une au prix fort. Le soleil y entre entre 10 h et 14 h.",
      "time": "1 h 30",
      "price": null
     },
     {
      "name": "Se'i et sasando",
      "type": "Cuisine",
-     "text": "La spécialité de Kupang est le se'i, une viande fumée servie avec un sambal très citronné et des feuilles de papaye. Dans certains restaurants, on entend du sasando, la harpe en feuille de lontar de l'île voisine de Rote.",
+     "text": "La spécialité de Kupang est le se'i, une viande fumée venue de l'île de Rote, du porc le plus souvent, parfois du bœuf, servie avec du riz, un sambal lu'at et du jagung bose, une bouillie de maïs. De Rote vient aussi le sasando, une cithare en bambou entourée d'un éventail de feuilles de lontar.",
      "time": "",
      "price": null
     }
    ],
-   "access": "Vols directs pour l'aéroport El Tari depuis Bali, Surabaya ou Jakarta. Le centre est à une vingtaine de minutes en taxi.",
+   "access": "Vols directs pour l'aéroport El Tari depuis Bali, Surabaya ou Jakarta. Pour rejoindre le centre, un Grab coûte 100 000 à 200 000 roupies.",
    "tips": [
     "Au retour d'Alor, garder une nuit de marge à Kupang avant la correspondance suivante.",
-    "Il fait très chaud et sec en août : on sort le matin et en fin d'après-midi."
+    "Août est le mois le plus sec : presque pas une goutte de pluie et 32 °C l'après-midi. On sort le matin et en fin de journée.",
+    "En ville, on se déplace avec les applications Maxim ou Grab, ou en bemo pour 5 000 roupies."
    ],
    "photos": [
     {
@@ -600,7 +601,7 @@
     },
     {
      "file": "Sunset at NTT 4.jpg",
-     "caption": "Bateaux de pêche au coucher du soleil",
+     "caption": "Bateaux de pêche à Pasir Panjang au couchant",
      "author": "Alvaro Radhitya A.",
      "license": "CC BY-SA 4.0",
      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
@@ -613,7 +614,7 @@
      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
     },
     {
-     "file": "Unnamed Road, Lasiana, Klp. Lima, Kota Kupang, Nusa Tenggara Tim., Indonesia - panoramio.jpg",
+     "file": "Unnamed Road, Lasiana, Klp. Lima, Kota Kupang, Nusa Tenggara Tim., Indonesia - panoramio (1).jpg",
      "caption": "Coucher de soleil sur la plage de Lasiana",
      "author": "Emus Usboko",
      "license": "CC BY-SA 3.0",
@@ -630,59 +631,78 @@
   },
   "alor-kepa": {
    "intro": [
-    "Alor est la dernière des petites îles de la Sonde, au nord de Timor : des collines sèches, quelques volcans, et un détroit où le courant brasse une eau fraîche et très claire. Kepa est un îlot posé dans ce détroit, à cinq minutes de barque du village d'Alor Kecil.",
-    "On y loge dans quelques bungalows, en pension complète, et on nage sur le récif devant la plage. Le reste du temps, on monte voir les villages abui dans les collines et leurs tambours de bronze, les moko."
+    "Alor est la dernière des petites îles de la Sonde, au nord de Timor : une île volcanique au relief très accidenté, et un détroit où le courant brasse une eau très claire, parfois froide. Kepa est un îlot posé dans ce détroit, à cinq minutes de barque du village d'Alor Kecil.",
+    "On y loge dans des bungalows en bambou et en chaume, repas compris, et on nage sur le récif devant la plage. Le reste du temps, on monte voir le village abui de Takpala et les tambours de bronze d'Alor, les moko."
    ],
    "todo": [
     {
      "name": "Séjour sur l'îlot de Kepa",
      "type": "Détente",
-     "text": "Le seul hébergement de l'îlot, La P'tite Kepa, est tenu par une famille française : bungalows de style local, électricité solaire, repas pris tous ensemble. Il y a peu de places, on réserve longtemps à l'avance.",
+     "text": "La P'tite Kepa, sur la côte nord de l'îlot, a été fondée en 1998 par Cédric et Anne et tourne aujourd'hui avec une petite équipe. Bungalows en bambou et en chaume, de la hutte traditionnelle au bungalow avec salle d'eau, trois repas compris. Ni carte bancaire ni wifi. Acompte de 50 % à la réservation.",
      "time": "",
-     "price": null
+     "price": {
+      "amount": 58,
+      "currency": "EUR",
+      "what": "nuit pour deux en bungalow standard avec salle d'eau à La P'tite Kepa ; 41 EUR en hutte traditionnelle, 80 EUR en bungalow supérieur"
+     }
     },
     {
      "name": "Snorkeling devant Kepa et Alor Kecil",
      "type": "Mer",
-     "text": "Le récif démarre à quelques mètres de la plage : des coraux durs en très bon état, des anémones, parfois une tortue. L'eau est fraîche en août, un lycra épais ou un shorty évite d'écourter la baignade.",
+     "text": "Le récif commence tout près de la plage et on y nage seul, une fois que l'équipe a expliqué les courants du jour. Alor a des coraux parmi les plus sains et les plus variés d'Indonésie. L'eau peut être froide, jusqu'à 18 °C certains jours : un lycra épais ou un shorty évite d'écourter la baignade.",
      "time": "2 h",
      "price": null
     },
     {
      "name": "Sortie en barque vers Pura et Ternate",
      "type": "Mer",
-     "text": "Avec un pêcheur ou le bateau du logement, on traverse vers les îles de Pura et de Ternate, celle d'Alor, pas celle des Moluques. On nage le long des villages, au-dessus des nasses en bambou posées sur le récif, avec les enfants qui plongent en lunettes de bois.",
+     "text": "Avec le bateau du logement ou une barque de pêcheur, on traverse vers Pura, un volcan aux pentes raides, et Ternate, celle d'Alor, pas celle des Moluques. On nage sur les récifs du détroit, au pied des villages.",
      "time": "demi-journée",
-     "price": null
+     "price": {
+      "amount": 22,
+      "currency": "EUR",
+      "what": "sortie snorkeling en bateau sur deux sites avec La P'tite Kepa"
+     }
     },
     {
      "name": "Village de Takpala",
      "type": "Culture",
-     "text": "Un village abui perché sur une colline, à une demi-heure de route de Kalabahi. Une quinzaine de maisons en bambou à haut toit de chaume autour d'une place. Les habitants y dansent le lego-lego en cercle, bras dessus bras dessous, au son des gongs et des moko.",
+     "text": "Un village abui sur une colline, à 13 km de Kalabahi, 25 minutes de route. On y monte par des marches de pierre. Treize maisons à haut toit de chaume, où vivent encore treize familles. Les habitants dansent le lego-lego en cercle, bras dessus bras dessous, surtout quand un groupe vient. On laisse un don.",
      "time": "2 h",
      "price": null
     },
     {
      "name": "Musée des mille moko à Kalabahi",
      "type": "Culture",
-     "text": "Les moko sont des tambours de bronze en forme de sablier, qui servent encore de dot pour les mariages à Alor. Le petit musée de Kalabahi en montre toute une collection, avec des ikats tissés sur l'île.",
+     "text": "Les moko sont des tambours de bronze qui font encore partie de la dot à Alor. Ils sont devenus si rares que les familles doivent souvent en emprunter. Le petit musée de Kalabahi en montre une collection, bien moins de mille en réalité, avec des kawate, les tissus tissés sur l'île.",
      "time": "1 h",
      "price": null
     }
    ],
-   "access": "Vol d'environ une heure de Kupang à l'aéroport d'Alor, près de Kalabahi. Ensuite, moins d'une heure de route jusqu'à Alor Kecil et cinq minutes de barque pour Kepa.",
+   "access": "Vol Wings Air d'environ une heure de Kupang à l'aéroport de Mali, le matin, en avion à hélices ; il ne vole pas forcément tous les jours. Ensuite, 45 minutes de taxi jusqu'à Alor Kecil (250 000 roupies) et cinq minutes de barque pour Kepa (20 000 roupies par personne). Un ferry relie aussi Kupang à Kalabahi trois fois par semaine.",
    "tips": [
-    "Le courant du détroit est fort et tourne avec la marée : on nage aux heures et aux endroits indiqués sur place, jamais seul au large.",
-    "Alor est surtout connue des plongeurs, mais le récif de Kepa se voit très bien au masque et au tuba.",
-    "Pas de distributeur en dehors de Kalabahi."
+    "Le courant du détroit est fort et tourne avec la marée : on nage aux heures et aux endroits indiqués sur place, jamais sans avoir demandé.",
+    "Alor est surtout connue des plongeurs, avec plus de cinquante sites, mais le récif de Kepa se voit très bien au masque et au tuba.",
+    "La P'tite Kepa se paie en liquide (roupies, euros ou dollars) ou par virement. Les distributeurs sont à Kalabahi.",
+    "Au retour, pas de correspondance internationale serrée : on garde une nuit de marge à Kupang."
    ],
    "photos": [
     {
      "file": "Beautiful view from Pura Island - Alor - East Nusa Tenggara.jpg",
-     "caption": "Eau claire devant l'île de Pura",
+     "caption": "Le détroit vu de l'île de Pura",
      "author": "Sims8899",
      "license": "CC BY-SA 4.0",
      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "url": "https://live.staticflickr.com/4135/4903824238_2cdb717499_b.jpg",
+     "caption": "Bungalow sur l'îlot de Kepa",
+     "source": "Flickr, prilfish, CC BY 2.0"
+    },
+    {
+     "url": "https://live.staticflickr.com/4141/4903268359_c812d6045c_b.jpg",
+     "caption": "Plage de l'îlot de Kepa",
+     "source": "Flickr, prilfish, CC BY 2.0"
     },
     {
      "file": "A Church and Clear Sea Near Ternate Island Alor - panoramio.jpg",
@@ -704,20 +724,6 @@
      "author": "Irfantraveller",
      "license": "CC BY-SA 4.0",
      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-    },
-    {
-     "file": "Pengrajin tenun di Pulau Alor.jpg",
-     "caption": "Tisseuses d'ikat à Alor",
-     "author": "Arya Antaputra",
-     "license": "CC BY-SA 4.0",
-     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-    },
-    {
-     "file": "Strong Current at Kalabahi Bay - panoramio.jpg",
-     "caption": "Courant dans la baie de Kalabahi",
-     "author": "Herman Darnel Ibrahim",
-     "license": "CC BY-SA 3.0",
-     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
     }
    ]
   }
