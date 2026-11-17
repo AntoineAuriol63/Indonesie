@@ -1,8 +1,8 @@
 {
   "regions": {
     "java": {
-      "intro": "Java, c'est l'île des volcans et des grandes villes, et on la traverse d'ouest en est en train. On commence par Jakarta, on monte au frais à Bandung, puis on s'installe à Yogyakarta pour le palais du sultan, Borobudur et Prambanan. Ensuite viennent les hauts plateaux de Dieng et, tout à l'est, le lever de soleil sur le Bromo et la cascade de Tumpak Sewu. Les trains sont climatisés, à l'heure, et se réservent en ligne.",
-      "august": "Août tombe en pleine saison sèche : ciel dégagé presque tous les jours, même si une averse reste possible. C'est aussi la haute saison au Bromo et à Borobudur, et les nuits sont froides en altitude.",
+      "intro": "Java, c'est l'île des volcans et des grandes villes, et on la traverse d'ouest en est en train. On commence par Jakarta, on monte au frais à Bandung, puis on s'installe à Yogyakarta pour le palais du sultan, Borobudur et Prambanan. Ensuite viennent les hauts plateaux de Dieng et, tout à l'est, le lever de soleil sur le Bromo et la cascade de Tumpak Sewu. Les trains se réservent en ligne, sur l'application de la compagnie KAI.",
+      "august": "Août tombe en pleine saison sèche : c'est le mois le moins arrosé, même si une averse reste possible. C'est aussi la haute saison au Bromo et à Borobudur, les nuits sont froides en altitude et la savane du Bromo peut brûler.",
       "access": "On arrive par l'aéroport de Jakarta, ou par ceux de Yogyakarta et de Surabaya. Entre les villes on prend le train ; pour les temples et les volcans, une voiture avec chauffeur ou une excursion."
     }
   },
@@ -761,75 +761,76 @@
         {
           "name": "Quartier arabe d'Ampel",
           "type": "Culture",
-          "text": "Un dédale de ruelles couvertes autour de la mosquée et de la tombe de Sunan Ampel, l'un des neuf saints qui ont islamisé Java. Dattes, parfums, tapis de prière et sarongs dans les échoppes, pèlerins à toute heure. Tenue couvrante pour s'approcher de la mosquée.",
+          "text": "Un dédale de ruelles autour de la mosquée fondée en 1421 par Sunan Ampel, l'un des neuf saints qui ont islamisé Java, et de sa tombe. Dattes, parfums, châles, chapelets et corans dans les échoppes, pèlerins par milliers chaque jour. Bras et jambes couverts, et un foulard pour les femmes.",
           "time": "1 h 30",
           "price": null
         },
         {
           "name": "Pont rouge et quartier chinois",
           "type": "Ville",
-          "text": "De part et d'autre du Jembatan Merah, le « Pont rouge ». À l'ouest, les anciennes banques et maisons de commerce hollandaises de Jalan Rajawali. À l'est, la grande porte de Kembang Jepun, le quartier chinois, et le marché de Pabean avec ses montagnes de poisson séché et d'épices.",
+          "text": "Le Jembatan Merah, le « Pont rouge », relie deux mondes. D'un côté, les grands bâtiments coloniaux de Jalan Rajawali, l'ancien quartier européen. De l'autre, la porte aux dragons de Kembang Jepun, le quartier chinois, avec ses stands de cuisine les soirs de fin de semaine, et le marché de Pabean, vaste et sombre.",
           "time": "2 h",
           "price": null
         },
         {
           "name": "Monument des héros",
           "type": "Culture",
-          "text": "Une colonne blanche sur une grande pelouse, en souvenir de la bataille de Surabaya contre les Britanniques, en novembre 1945. Le musée du 10 Novembre, enterré sous la place, raconte la bataille avec des maquettes, des photos et des enregistrements d'époque.",
+          "text": "Une colonne blanche de 41 m sur une grande pelouse, en souvenir de la bataille de Surabaya contre les Britanniques, en novembre 1945. Le musée du 10 Novembre, enterré sous la place, raconte la bataille avec des dioramas, des photos et l'enregistrement d'un discours de Bung Tomo. Fermé le lundi, ferme à 15 h.",
           "time": "1 h",
           "price": null
         },
         {
           "name": "Hôtel Majapahit",
           "type": "Culture",
-          "text": "Le palace colonial de la ville, ouvert au début des années 1910. En 1945, des jeunes Indonésiens sont montés sur le toit déchirer la bande bleue du drapeau néerlandais pour en faire le drapeau rouge et blanc. On entre boire un thé dans les jardins intérieurs.",
+          "text": "Le palace colonial de la ville, ouvert en 1911 sous le nom d'hôtel Oranje. Le 19 septembre 1945, de jeunes Indonésiens ont arraché la bande bleue du drapeau néerlandais qui flottait dessus pour en faire le drapeau rouge et blanc. Il est au 65 de Jalan Tunjungan, et on y dort toujours.",
           "time": "45 min",
           "price": null
         },
         {
           "name": "Jalan Tunjungan le soir",
           "type": "Ville",
-          "text": "La grande rue commerçante de l'époque coloniale, refaite pour les piétons : façades éclairées, cafés, stands de cuisine et musiciens de rue. C'est là que les habitants viennent se promener à la fraîche, devant l'hôtel Majapahit.",
+          "text": "La grande rue commerçante du début du XXe siècle, relancée en 2021 pour la promenade du soir : façades éclairées, cafés sur les trottoirs, stands de cuisine et musiciens de rue. C'est là que les habitants viennent marcher à la fraîche, devant l'hôtel Majapahit.",
           "time": "1 à 2 h",
           "price": null
         },
         {
           "name": "Rawon et cuisine de Surabaya",
           "type": "Cuisine",
-          "text": "Le rawon : du bœuf mijoté dans un bouillon noirci par le keluak, une noix fermentée, servi avec riz, pousses de soja et œuf salé. Pour les curieux, le rujak cingur, une salade à la pâte de crevette et au museau de bœuf, et le lontong balap, du riz pressé en bouillon.",
+          "text": "Le rawon : du bœuf dans un bouillon noirci par le keluak, une noix, servi avec riz, pousses de soja et œuf salé. Pour les curieux, le rujak cingur, une salade en sauce avec du museau de bœuf, et le lontong balap, du riz pressé avec tofu, pousses de soja et sauce à la pâte de crevette.",
           "time": "",
           "price": null
         },
         {
           "name": "Mosquée Cheng Hoo",
           "type": "Culture",
-          "text": "Une petite mosquée rouge, verte et jaune en forme de pagode, construite par les musulmans chinois de la ville en hommage à l'amiral Zheng He. La visite prend dix minutes, et on n'en voit pas deux comme elle.",
+          "text": "Une petite mosquée rouge, verte et jaune aux allures de pagode, construite en 2002 par les musulmans chinois de la ville en hommage à l'amiral Zheng He. Elle accueille 200 fidèles, à un kilomètre au nord de la mairie. La visite prend dix minutes, et on n'en voit pas deux comme elle.",
           "time": "30 min",
           "price": null
         },
         {
           "name": "Pont Suramadu",
           "type": "Ville",
-          "text": "Plus de 5 km au-dessus du détroit, jusqu'à l'île de Madura : le plus long pont d'Indonésie. On le traverse en voiture, ou on le regarde s'allumer le soir depuis le front de mer de Kenjeran.",
+          "text": "Plus de 5 km au-dessus du détroit, jusqu'à l'île de Madura : le plus long pont d'Indonésie, ouvert en 2009. On le traverse en voiture, sans péage depuis 2018. Le soir, il est illuminé.",
           "time": "1 h",
           "price": null
         },
         {
           "name": "Arriver de Malang en minibus",
           "type": "Ville",
-          "text": "Des minibus relient Malang à Surabaya toute la journée, en 2 h environ par l'autoroute. Ils déposent en ville ou à l'aéroport Juanda, ce qui est commode pour enchaîner sur un vol vers Bali, Florès ou Sulawesi.",
-          "time": "2 h",
+          "text": "Des navettes porte-à-porte relient Malang à Surabaya et à l'aéroport Juanda en 2 h à 3 h 30 suivant les bouchons, ce qui est commode pour enchaîner sur un vol vers Bali, Florès ou Sulawesi. Sinon, le train Arjuno Ekspres met 2 h jusqu'à la gare de Gubeng, pour 65 000 à 95 000 roupies.",
+          "time": "2 h à 3 h 30",
           "price": {
-            "amount": 72500,
+            "amount": 150000,
             "currency": "IDR",
-            "what": "trajet en minibus de Malang à Surabaya, par personne"
+            "what": "navette porte-à-porte de Malang à l'aéroport Juanda, par personne, tarif d'un opérateur relevé en août 2025"
           }
         }
       ],
-      "access": "Train depuis Malang (2 à 3 h) ou Yogyakarta (4 à 5 h), arrivée à la gare de Gubeng, en plein centre. L'aéroport Juanda, à 45 minutes au sud, a des vols directs vers Bali, Lombok, Florès et Sulawesi.",
+      "access": "Train depuis Malang (2 h à 2 h 30) ou Yogyakarta (4 à 5 h), arrivée à la gare de Gubeng. L'aéroport Juanda, à 12 km du centre, a des vols directs vers Bali, Lombok, Florès et Sulawesi.",
       "tips": [
-        "Il fait très chaud et humide : visiter le matin et en fin de journée, rester au frais entre midi et 15 h.",
-        "Une journée suffit, deux si on veut souffler entre le Bromo et un vol."
+        "Il fait très chaud et humide, 32 à 34 °C dans la journée : visiter le matin et en fin de journée, rester au frais entre midi et 15 h.",
+        "Une journée suffit, deux si on veut souffler entre le Bromo et un vol.",
+        "Le musée du 10 Novembre est fermé le lundi."
       ],
       "photos": [
         {

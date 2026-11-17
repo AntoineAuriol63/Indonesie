@@ -159,3 +159,33 @@ Le quota de recherches web de la session étant épuisé à ce stade, les vérif
 | Foule le week-end | Wikipédia | ajoutée |
 
 Photos : les cinq photos existantes ont été regardées. « DSF9076.jpg » (description Commons vague : « Waterfall, Bromo national park ») montre bien l'amphithéâtre de Tumpak Sewu, elle est gardée avec une légende ajustée. Ajout de « Goa Tetes cascades, September 2026.jpg » (Mcbobgorge, CC0), seule bonne photo de Goa Tetes sur Commons, en format portrait (avertissement toléré).
+
+## Surabaya
+
+| Affirmation | Source (URL) | Verdict |
+| --- | --- | --- |
+| Deuxième ville du pays | https://en.wikivoyage.org/wiki/Surabaya | confirmée |
+| Ampel : mosquée et tombe de Sunan Ampel, l'un des neuf saints ; dattes, parfums, tapis de prière, sarongs ; tenue couvrante | https://en.wikipedia.org/wiki/Ampel_Mosque (1421) ; https://en.wikipedia.org/wiki/Sunan_Ampel (Wali Songo) ; Wikivoyage (dattes, parfums, corans) ; Rough Guides et Fodor's (châles, chapelets, tenue couvrante) | confirmée ; « ruelles couvertes », tapis et sarongs remplacés par les articles sourcés ; date et affluence ajoutées |
+| Pont rouge : banques hollandaises de Jalan Rajawali « à l'ouest », Kembang Jepun « à l'est », poisson séché et épices à Pabean | https://www.detik.com/jatim/berita/d-7726475/jembatan-di-surabaya-ikon-kota-yang-bisa-dikunjungi-wisatawan (le pont relie Jalan Rajawali et Jalan Kembang Jepun) ; https://www.goodnewsfromindonesia.id/2025/09/09/berpetualang-ke-kya-kya-surabaya-kawasan-pecinan-yang-dipenuhi-nuansa-tionghoa (stands du vendredi au dimanche) ; Lonely Planet (Pabean, vaste et sombre, entre quartier chinois et quartier arabe) | corrigée : orientations, banques, poisson séché et épices retirés (non sourcés) ; marché du soir de Kya-Kya ajouté |
+| Monument des héros, bataille contre les Britanniques en novembre 1945 | https://en.wikipedia.org/wiki/Heroes_Monument (41,15 m) ; https://en.wikipedia.org/wiki/Battle_of_Surabaya | confirmée, hauteur ajoutée |
+| Musée du 10 Novembre enterré, maquettes, photos, enregistrements | https://id.wikipedia.org/wiki/Museum_Sepuluh_Nopember (souterrain, dioramas, discours de Bung Tomo, mardi-dimanche 8 h-15 h) | confirmée ; horaires et fermeture du lundi ajoutés |
+| Hôtel Majapahit « ouvert au début des années 1910 », drapeau de 1945, thé dans les jardins | https://en.wikipedia.org/wiki/Hotel_Majapahit (fondé en 1910, ouvert le 1er juillet 1911, incident du 19 septembre 1945) ; Wikivoyage (Jalan Tunjungan 65) | précisée ; « thé dans les jardins » retiré (non sourcé) |
+| Jalan Tunjungan « refaite pour les piétons », cafés, stands, musiciens | https://id.wikipedia.org/wiki/Jalan_Tunjungan (Tunjungan Romansa, 2021) ; https://www.jawapos.com/surabaya-raya/2510170321/mlaku-mlaku-nang-tunjungan-kala-aset-kota-surabaya-menjadi-geliat-ekonomi-baru (oct. 2025) | corrigée : « relancée en 2021 pour la promenade du soir » |
+| Rawon : keluak, « noix fermentée », riz, pousses de soja, œuf salé | https://en.wikipedia.org/wiki/Rawon | confirmée ; « fermentée » retiré |
+| Rujak cingur, lontong balap | Wikivoyage ; https://en.wikipedia.org/wiki/Lontong_balap | confirmée et précisée |
+| Mosquée Cheng Hoo : rouge, verte et jaune, en forme de pagode, musulmans chinois, Zheng He | https://en.wikipedia.org/wiki/Cheng_Ho_Mosque_(Surabaya) (2001-2002, PITI, 200 fidèles, 1 km au nord de la mairie) | confirmée, détails ajoutés |
+| Pont Suramadu : plus de 5 km, plus long d'Indonésie ; vue depuis Kenjeran | https://en.wikipedia.org/wiki/Suramadu_Bridge (5 438 m, 2009, gratuit depuis 2018) | confirmée ; Kenjeran retiré (non sourcé) |
+| Minibus Malang-Surabaya : 2 h, 72 500 IDR | https://www.jawapos.com/wisata-dan-kuliner/2607080288/7-transportasi-malang-ke-bandara-juanda-yang-praktis-ada-travel-door-to-door-hingga-kereta-api ; jatimtimes (août 2025 : 150 000 IDR Malang-Juanda) ; unchartedlens (150 000 à 250 000 IDR, 2 h à 3 h 30) | corrigée : 2 h à 3 h 30 ; prix 72 500 -> 150 000 IDR (le montant du tableur n'a été retrouvé nulle part) ; train Arjuno Ekspres ajouté (2 h, 65 000 à 95 000 IDR, tiket.com) |
+| Train depuis Malang 2 à 3 h, depuis Yogyakarta 4 à 5 h, gare de Gubeng « en plein centre » | tiket.com et keretaapikita (Arjuno Ekspres 2 h, Penataran 2 h 30) ; https://en.wikipedia.org/wiki/Sancaka_(train) (environ 4 h) ; beritajatim (jusqu'à 5 h 30) | Malang précisé : 2 h à 2 h 30 ; Yogyakarta confirmée ; « en plein centre » retiré |
+| Aéroport Juanda « à 45 minutes au sud », vols vers Bali, Lombok, Florès, Sulawesi | https://en.wikipedia.org/wiki/Juanda_International_Airport (12 km du centre ; Denpasar, Lombok, Labuan Bajo, Makassar, Manado) | corrigée : « à 12 km du centre » ; vols confirmés |
+| Très chaud et humide | Wikivoyage (32 à 34 °C le jour) | confirmée, chiffres ajoutés |
+
+Photos : les six photos existantes ont été regardées et sont justes (la mosquée d'Ampel avec ses échoppes couvre le quartier d'Ampel). Mosquée Cheng Hoo : rien d'utilisable sur Commons (une photo de 697 px, une photo de groupe officielle, et « Masjid Cheng Ho.jpg » dont le lieu n'est pas sûr, probablement Pandaan). Une photo Unsplash intitulée « Masjid Cheng Hoo Surabaya » (Zaskia Auryn, 2021) existe, mais le site a refusé les requêtes pendant la session : non regardée, donc non retenue.
+
+## Région Java
+
+| Affirmation | Source (URL) | Verdict |
+| --- | --- | --- |
+| Trains « climatisés, à l'heure », réservables en ligne | application KAI citée par les sources des fiches ; ponctualité non vérifiée | « climatisés, à l'heure » retiré |
+| Août en saison sèche, « ciel dégagé presque tous les jours » | https://en.wikivoyage.org/wiki/Malang (août, mois le moins arrosé : 15 mm) | reformulée ; ajout du risque de feu au Bromo (fermeture du 8 au 20 août 2026) |
+| Arrivée par Jakarta, Yogyakarta ou Surabaya ; train entre les villes | sources des fiches | confirmée |
