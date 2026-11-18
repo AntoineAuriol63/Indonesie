@@ -614,9 +614,11 @@ const changeCode = () =>
   });
 
 function download() {
+  // Dernières versions enregistrées : une modification en cours, pas encore enregistrée, n'y figure pas.
+  const saved = (table) => [...docs.values()].filter((d) => d.table === table && d.saved).sort(byPosition).map((d) => ({ id: d.id, ...JSON.parse(d.saved) }));
   const snapshot = {
-    regions: store.regions(),
-    places: store.places().map((d) => ({ id: d.id, ...JSON.parse(d.saved || '{}') })),
+    regions: saved('regions'),
+    places: saved('etapes'),
     documents: Object.fromEntries([...docs.values()].filter((d) => d.table === 'documents').map((d) => [d.id, JSON.parse(d.saved)])),
   };
   const url = URL.createObjectURL(new Blob([JSON.stringify(snapshot, null, 1)], { type: 'application/json' }));
