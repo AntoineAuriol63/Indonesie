@@ -437,6 +437,29 @@ input.code[type] {
   margin-bottom: 12px;
   font-size: 19px;
 }
+.panel__sub {
+  margin: 22px 0 10px;
+  font-size: 16px;
+}
+.import {
+  display: grid;
+  gap: 6px;
+  max-height: 46vh;
+  margin: 0;
+  padding: 12px 14px 12px 30px;
+  overflow-y: auto;
+  border: 1.5px solid var(--line);
+  border-radius: 12px;
+  background: #fff;
+}
+.import__removed {
+  color: #a3262b;
+  font-weight: 700;
+}
+.import__note {
+  color: var(--ink-soft);
+  font-size: 14px;
+}
 .panel--danger {
   border-color: #f3b8b6;
   background: #fff8f7;

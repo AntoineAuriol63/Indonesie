@@ -6,6 +6,7 @@ import './admin.css';
 
 import { access, db } from './api.js';
 import { itineraryEditor, placeEditor, regionEditor, settingsEditor } from './editors.js';
+import { compareImport, importSummary, readImport } from './import.js';
 import { thumb } from './photos.js';
 import { confirmDialog, dialog, fill, h, toast } from './ui.js';
 
@@ -370,7 +371,7 @@ function show() {
       if (doc.table !== 'documents') a.querySelector('.side__name').textContent = doc.data.name || 'Sans nom';
     }
   };
-  const view = builders[doc.table]({ doc, changed: () => refresh(), store, open: go, remove: () => removePlace(doc), reorder, download, changeCode });
+  const view = builders[doc.table]({ doc, changed: () => refresh(), store, open: go, remove: () => removePlace(doc), reorder, download, importFile, changeCode });
   current = { doc, refresh };
   main.replaceChildren(
     h(
@@ -613,7 +614,7 @@ const changeCode = () =>
     actions: [{ label: 'Annuler', value: false }],
   });
 
-function download() {
+function download(label = 'contenus') {
   // Dernières versions enregistrées : une modification en cours, pas encore enregistrée, n'y figure pas.
   const saved = (table) => [...docs.values()].filter((d) => d.table === table && d.saved).sort(byPosition).map((d) => ({ id: d.id, ...JSON.parse(d.saved) }));
   const snapshot = {
@@ -622,8 +623,55 @@ function download() {
     documents: Object.fromEntries([...docs.values()].filter((d) => d.table === 'documents').map((d) => [d.id, JSON.parse(d.saved)])),
   };
   const url = URL.createObjectURL(new Blob([JSON.stringify(snapshot, null, 1)], { type: 'application/json' }));
-  h('a', { href: url, download: `indonesie-contenus-${new Date().toISOString().slice(0, 10)}.json` }).click();
+  h('a', { href: url, download: `indonesie-${label}-${new Date().toISOString().slice(0, 16).replace(/[T:]/g, '-')}.json` }).click();
   setTimeout(() => URL.revokeObjectURL(url), 2000);
+}
+
+// Remplace les contenus de la base par ceux d'un fichier JSON (même forme que le fichier téléchargé).
+function importFile() {
+  const input = h('input', { type: 'file', accept: '.json,application/json' });
+  input.addEventListener('change', async () => {
+    const file = input.files[0];
+    if (!file) return;
+    const { errors, rows } = readImport(await file.text(), store.regions().map((r) => r.id));
+    if (errors) {
+      return dialog({
+        title: 'Fichier à corriger',
+        wide: true,
+        body: [
+          h('p', {}, `Rien n'a été importé. ${plural(errors.length, 'point')} à corriger dans « ${file.name} » :`),
+          h('ul', { class: 'import' }, errors.slice(0, 15).map((e) => h('li', {}, e)), errors.length > 15 && h('li', { class: 'import__note' }, `… et ${errors.length - 15} autres.`)),
+        ],
+      });
+    }
+    const saved = (table) => Object.fromEntries([...docs.values()].filter((d) => d.table === table && d.saved).map((d) => [d.id, { name: JSON.parse(d.saved).name, data: JSON.parse(d.saved) }]));
+    const diff = compareImport(rows, { regions: saved('regions'), etapes: saved('etapes'), documents: saved('documents') });
+    if (diff.empty) return toast('Ce fichier est identique à la base : rien à importer.');
+    const unsaved = [...docs.values()].filter(isDirty).length;
+    const ok = await dialog({
+      title: 'Remplacer la base par ce fichier ?',
+      wide: true,
+      body: [
+        h('p', {}, `« ${file.name} » : ${plural(rows.regions.length, 'région')}, ${plural(rows.etapes.length, 'étape')}. Voici ce qui change :`),
+        importSummary(diff),
+        unsaved > 0 && h('p', { class: 'import__removed' }, `Attention : ${plural(unsaved, 'contenu')} en cours de modification dans le back office ${unsaved > 1 ? 'seront perdus' : 'sera perdu'}.`),
+        h('p', { class: 'note' }, "Une copie de la base actuelle est téléchargée juste avant, pour pouvoir revenir en arrière en la réimportant. Chaque contenu remplacé reste aussi dans son historique."),
+      ],
+      actions: [{ label: 'Annuler', value: false }, { label: 'Remplacer la base', value: true, kind: 'primary' }],
+    });
+    if (!ok) return;
+    try {
+      download('avant-import');
+      await guarded(() => db.importAll(rows));
+      for (const place of diff.etapes.removed) await guarded(() => db.remove(place.id));
+      docs.clear();
+      await boot();
+      toast('Import terminé. Le site affiche les nouveaux contenus dès son prochain chargement.');
+    } catch (error) {
+      toast(`Import interrompu : ${error.message}`, 'error');
+    }
+  });
+  input.click();
 }
 
 // ---------------------------------------------------------------- Événements

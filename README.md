@@ -48,6 +48,7 @@ https://antoineauriol63.github.io/Indonesie/admin/ (code dans `admin/` et `src/a
 - Une position se colle depuis Google Maps (« -8.5069, 115.2625 ») ou se pose à la souris sur la carte.
 - « Enregistrer » (ou Ctrl+S) écrit dans la base : le site affiche la nouvelle version à son prochain chargement.
 - « Historique » liste les versions précédentes d'un contenu et permet d'en reprendre une.
+- Réglages : télécharger tous les contenus dans un fichier JSON, ou en importer un qui remplace la base (format dans `docs/format-contenus.md`).
 
 ## Sauvegarde automatique
 

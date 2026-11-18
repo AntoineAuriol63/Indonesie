@@ -347,7 +347,7 @@ export function itineraryEditor({ doc, changed, store }) {
 
 // ---------------------------------------------------------------- Réglages
 
-export function settingsEditor({ doc, changed, download, changeCode }) {
+export function settingsEditor({ doc, changed, download, importFile, changeCode }) {
   const s = doc.data;
   const form = createForm(changed);
   return {
@@ -380,9 +380,12 @@ export function settingsEditor({ doc, changed, download, changeCode }) {
       ),
       section(
         'sauvegarde',
-        'Sauvegarde',
+        'Sauvegarde et import',
         note("Les contenus sont recopiés automatiquement dans le dépôt GitHub deux fois par semaine. On peut aussi en télécharger une copie complète à tout moment."),
-        h('button', { type: 'button', class: 'button', onclick: download }, 'Télécharger tous les contenus (fichier JSON)'),
+        h('button', { type: 'button', class: 'button', onclick: () => download() }, 'Télécharger tous les contenus (fichier JSON)'),
+        h('h3', { class: 'panel__sub' }, 'Importer un fichier'),
+        note("Pour travailler les contenus dans un fichier : téléchargez-le, modifiez-le, puis importez-le. Il remplace les régions, les étapes, l'itinéraire et les réglages ; une étape absente du fichier est supprimée. Le fichier est vérifié et les changements sont affichés avant toute modification."),
+        h('button', { type: 'button', class: 'button', onclick: importFile }, 'Importer un fichier JSON…'),
       ),
     ],
   };

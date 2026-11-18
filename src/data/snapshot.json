@@ -361,6 +361,20 @@
      "time": "demi-journée, le matin ou l'après-midi",
      "type": "Cuisine",
      "price": null
+    },
+    {
+     "name": "test",
+     "text": "",
+     "time": "",
+     "type": "Nature",
+     "photo": {
+      "file": "Rice terraces, Ubud, Bali.jpg",
+      "author": "Vyacheslav Argenberg",
+      "caption": "Rizières en terrasses de Tegallalang",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+     },
+     "price": null
     }
    ],
    "intro": [
