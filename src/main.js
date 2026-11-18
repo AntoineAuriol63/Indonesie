@@ -24,7 +24,6 @@ const ui = { region: null, place: null, itinerary: false, favorites: false, star
 const itineraryIds = ITINERARY.stops.map((s) => s.place);
 // Position dans la liste (programme ou favoris) au moment d'ouvrir une fiche, pour y revenir au même endroit.
 let listScroll = 0;
-favorites.keep((id) => PLACE_BY_ID[id] && !PLACE_BY_ID[id].hidden);
 
 const worldOptions = {
   canvas: $('scene'),
@@ -147,7 +146,7 @@ function placeCard(p) {
   const tips = c ? c.tips : [p.note].filter(Boolean);
   return `
     <header class="card__head" style="--c:${r.color}">
-      <button class="back" data-action="back">‹ ${esc(ui.itinerary ? 'Itinéraire' : ui.favorites ? 'Mes favoris' : r.name)}</button>
+      <button class="back" data-action="back">‹ ${esc(ui.itinerary ? 'Itinéraire' : ui.favorites ? 'Favoris' : r.name)}</button>
       <div class="card__title">
         <h2>${esc(p.name)}</h2>
         ${p.hidden ? '' : likeButton(p.id)}
@@ -258,7 +257,7 @@ function favoritesCard() {
   const head = (sub) => `
     <header class="card__head" style="--c:#ff5d73">
       <button class="back" data-action="back">‹ Indonésie</button>
-      <h2>Mes favoris</h2>
+      <h2>Favoris</h2>
       <p class="card__themes">${sub}</p>
     </header>`;
   if (!liked.length) {
@@ -268,6 +267,7 @@ function favoritesCard() {
         <div class="empty">
           <span class="empty__heart">${HEART}</span>
           <p>Pour garder une étape de côté, ouvrez sa fiche et cliquez sur le cœur à côté de son nom. Elle apparaîtra ici et sur la carte.</p>
+          ${favorites.isShared() ? '<p>La liste est la même pour tous ceux qui ouvrent le site.</p>' : ''}
         </div>
       </div>`;
   }
@@ -279,6 +279,7 @@ function favoritesCard() {
     <div class="card__scroll">
       <dl class="facts">
         ${fact('Durée', `${days(min, max)} pour tout faire, sans compter les trajets d'une étape à l'autre`)}
+        ${favorites.isShared() ? fact('Liste', 'La même pour tous ceux qui ouvrent le site : chacun peut ajouter ou retirer un cœur.') : ''}
       </dl>
       ${groups
         .map(
@@ -306,7 +307,7 @@ function favoritesCard() {
     </div>`;
 }
 
-// Bouton « Mes favoris » de la barre du haut, avec le nombre d'étapes aimées.
+// Bouton « Favoris » de la barre du haut, avec le nombre d'étapes aimées.
 function updateFavoritesButton() {
   const count = favorites.count();
   const button = $('favorites-toggle');
@@ -504,6 +505,25 @@ document.addEventListener('keydown', (event) => {
 
 window.addEventListener('resize', updatePadding);
 render();
+
+// La liste des favoris est commune : elle peut changer pendant la visite (quelqu'un d'autre a mis un cœur),
+// ou un enregistrement peut échouer. On remet alors l'affichage d'accord avec la liste.
+favorites.onChange((failed) => {
+  if (failed) toast("Le favori n'a pas pu être enregistré. Vérifiez la connexion, puis réessayez.");
+  const scroll = document.querySelector('#panel .card__scroll');
+  if (ui.place || (!ui.favorites && !ui.region)) {
+    const like = document.querySelector('#panel .card__title .like');
+    if (like) like.outerHTML = likeButton(ui.place);
+    updateFavoritesButton();
+    return syncWorld();
+  }
+  const top = scroll ? scroll.scrollTop : 0;
+  const strip = document.querySelector('#panel .gallery')?.scrollLeft || 0;
+  render();
+  document.querySelector('#panel .card__scroll').scrollTop = top;
+  if (strip) document.querySelector('#panel .gallery').scrollLeft = strip;
+});
+favorites.start((id) => PLACE_BY_ID[id] && !PLACE_BY_ID[id].hidden);
 
 // Lien direct vers une fiche : https://…/?etape=jakarta ouvre la carte sur cette étape.
 const direct = new URLSearchParams(location.search).get('etape');

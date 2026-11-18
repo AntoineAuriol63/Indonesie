@@ -29,6 +29,10 @@ La page `/admin/` du site publié (https://antoineauriol63.github.io/Indonesie/a
 - Renommer ou supprimer une activité met aussi à jour sa position dans `src/data/coords/`.
 - Le code est dans `public/admin/` (une page et un script, sans dépendance). Le dépôt et la branche sont en tête de `public/admin/admin.js`.
 
+## Favoris
+
+Le cœur d'une fiche ajoute l'étape à une liste de favoris commune à tous les visiteurs, gardée dans une table Supabase (`favoris`, une ligne par étape). Le site lit et écrit cette table directement avec la clé publique du projet (`src/ui/favorites.js`) ; les règles d'accès sont dans `docs/favoris.sql`, à exécuter une fois dans l'éditeur SQL de Supabase. Si la base ne répond pas, les favoris restent dans le navigateur.
+
 ## Mettre à jour le contenu
 
 Les textes des fiches viennent du tableur de préparation. Après une modification du tableur :
