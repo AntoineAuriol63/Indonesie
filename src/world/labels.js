@@ -1,6 +1,7 @@
 // Textes posés sur la carte : noms des régions (cliquables), étapes, villes et repères géographiques.
 // Partagé par la carte 3D et la carte en mode compatibilité, qui fournissent seulement la position à l'écran.
-import { CITIES, GEO_LABELS, PLACES, REGIONS, placesOf } from '../data/places.js';
+import { CITIES, GEO_LABELS } from '../data/map.js';
+import { PLACES, REGIONS, placesOf } from '../data/places.js';
 
 export function createLabels(layer, { onRegion, onPlace, onRegionHover }) {
   const items = [];

@@ -1,12 +1,20 @@
 name: Déployer le site
 
+# Publie le site à chaque modification du code, et deux fois par semaine même sans modification.
+# Le passage régulier sert à trois choses :
+#   - lire la base Supabase, ce qui évite que le projet gratuit soit mis en pause après une semaine sans activité ;
+#   - recopier les contenus de la base dans le dépôt (src/data/snapshot.json), comme sauvegarde avec historique ;
+#   - republier le site avec cette copie de secours à jour.
 on:
   push:
     branches: [main, claude/intelligent-hypatia-acu4wn]
+  schedule:
+    - cron: '23 4 * * 1,4' # lundi et jeudi, vers 4 h 23 UTC
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
+  actions: write
   pages: write
   id-token: write
 
@@ -24,6 +32,30 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
+
+      - name: Copie de secours des contenus (lecture de la base Supabase)
+        run: node scripts/snapshot.mjs
+
+      - name: Sauvegarde des contenus dans le dépôt
+        if: github.event_name != 'push'
+        run: |
+          if git diff --quiet -- src/data/snapshot.json; then
+            echo "Contenus inchangés depuis la dernière sauvegarde."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add src/data/snapshot.json
+            git commit -m "Sauvegarde automatique des contenus de la base"
+            git push || echo "Sauvegarde non poussée (le dépôt a changé entre-temps) : elle sera refaite au prochain passage."
+          fi
+
+      # GitHub désactive les tâches planifiées d'un dépôt resté 60 jours sans activité : on la réactive à chaque passage.
+      - name: Garde la tâche planifiée active
+        if: github.event_name == 'schedule'
+        run: gh workflow enable deploy.yml || true
+        env:
+          GH_TOKEN: ${{ github.token }}
+
       - run: npm run build
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3

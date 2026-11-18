@@ -1,9 +1,9 @@
 // Étapes aimées : une seule liste, commune à tous les visiteurs, gardée dans une table Supabase.
 // Le navigateur en garde une copie (localStorage) pour l'afficher tout de suite et pour continuer à fonctionner
-// si la base ne répond pas. La clé ci-dessous est la clé publique du projet, faite pour figurer dans le code du site ;
-// ce que chacun peut lire ou écrire est fixé par les règles de la table (voir docs/favoris.sql).
-const API = 'https://iocfpzdaqiceiqwhawmg.supabase.co/rest/v1/favoris';
-const API_KEY = 'sb_publishable_Mme0_QfZcI0A0_t9b7ZMRw_Gn82NQtZ';
+// si la base ne répond pas. Ce que chacun peut lire ou écrire est fixé par les règles de la table (docs/supabase.sql).
+import { PUBLIC_HEADERS, REST } from '../data/supabase.js';
+
+const API = `${REST}/favoris`;
 const CACHE = 'indonesie.favoris';
 const SENT = 'indonesie.favoris.envoyes';
 const REFRESH_EVERY = 30000;
@@ -41,7 +41,7 @@ const same = (a, b) => a.length === b.length && a.every((id) => b.includes(id));
 async function call(query, options = {}) {
   const response = await fetch(API + query, {
     ...options,
-    headers: { apikey: API_KEY, Authorization: `Bearer ${API_KEY}`, 'Content-Type': 'application/json', ...options.headers },
+    headers: { ...PUBLIC_HEADERS, 'Content-Type': 'application/json', ...options.headers },
   });
   // 409 : l'étape est déjà dans la liste, ajoutée par quelqu'un d'autre entre-temps.
   if (!response.ok && response.status !== 409) throw new Error(`Favoris : réponse ${response.status}`);

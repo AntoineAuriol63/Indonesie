@@ -2,7 +2,7 @@
 import * as THREE from 'three';
 import Delaunator from 'delaunator';
 import geo from '../data/geo.json';
-import { PEAKS, PLACES } from '../data/places.js';
+import { DETAIL_SPOTS, PEAKS } from '../data/map.js';
 import { fbm, mulberry32 } from './noise.js';
 
 // Projection : 1 unité = 1 degré, nord vers -z.
@@ -130,8 +130,8 @@ const peaks = PEAKS.map(([name, lon, lat, h, smokes]) => {
 
 // Zones où le maillage est affiné sur les grandes îles (autour des étapes et des lacs).
 const detailZones = [
-  ...PLACES.map((d) => {
-    const [x, z] = toWorld(d.lon, d.lat);
+  ...DETAIL_SPOTS.map(([lon, lat]) => {
+    const [x, z] = toWorld(lon, lat);
     return { x, z, r: 0.55, s: 0.075 };
   }),
   ...lakes.map((l) => ({ x: l.x, z: l.z, r: 0.75, s: 0.07 })),

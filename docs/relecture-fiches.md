@@ -1,5 +1,7 @@
 # Relecture des fiches : consignes
 
+> Depuis novembre 2026, les contenus ne sont plus dans des fichiers du dépôt : ils sont dans la base Supabase et se modifient depuis le back office (voir le README). Les chemins de fichiers cités plus bas (`src/data/content/`, `src/data/coords/`, `scripts/check-content.py`) n'existent plus. Les consignes de ton et de méthode restent valables.
+
 À lire par la session qui reprend le contenu des fiches avec un accès complet à internet.
 
 ## Demande

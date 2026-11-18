@@ -1,114 +1,32 @@
-// Régions, étapes et villes affichées sur la carte.
-// Les textes viennent du tableur de préparation (src/data/base.json, généré par scripts/import-base.py) ;
-// ce fichier n'ajoute que ce qui concerne l'affichage : couleurs, cadrages, modèles 3D, noms courts.
-import base from './base.json';
+// Contenus du site : régions, étapes, exemple d'itinéraire et réglages.
+// Ils sont gardés dans Supabase et modifiés depuis le back office (/admin/). Au démarrage, load.js les lit et les
+// passe à setContent(), qui prépare ce dont la carte et les fiches ont besoin. Tant que ce n'est pas fait, tout est vide.
 
-// Contenu rédigé des fiches (textes, activités, photos), un fichier par groupe de régions dans src/data/content/.
-const written = { regions: {}, places: {} };
-for (const file of Object.values(import.meta.glob('./content/*.json', { eager: true }))) {
-  Object.assign(written.regions, file.default.regions);
-  Object.assign(written.places, file.default.places);
-}
-
-// Une photo vient de Wikimedia Commons (champ « file », redimensionnée à la demande) ou d'une autre source (champ « url »).
-// Position des activités, pour la vraie carte en bas de fiche : src/data/coords/*.json,
-// sous la forme { 'id-etape': { "nom exact de l'activité": [lat, lon] } }.
-const coords = {};
-for (const file of Object.values(import.meta.glob('./coords/*.json', { eager: true }))) Object.assign(coords, file.default);
-
+// Une photo vient de Wikimedia Commons (champ « file », redimensionnée à la demande) ou d'une adresse web (champ « url »).
 const commons = (path) => (width) => `${path}?width=${width}`;
-const photoOf = (ph) =>
+export const photoOf = (ph) =>
   ph.url
     ? { caption: ph.caption, at: () => ph.url }
     : { caption: ph.caption, at: commons(`https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(ph.file)}`) };
-// Photo d'origine du tableur, utilisée tant qu'une étape n'a pas de galerie rédigée.
-const sheetPhoto = (ph) => ({ caption: ph.alt, at: commons(ph.src) });
-
-// Couleur, cadrage de la caméra (lon, lat, distance) et position du nom sur la carte.
-const REGION_VIEW = {
-  sumatra: { color: '#12b5a6', focus: [99.8, 1.2, 10], label: [101.6, -0.9] },
-  java: { color: '#ff8a3d', focus: [110, -7.4, 13.5], label: [109.2, -6.2] },
-  bali: { color: '#ff4f8b', focus: [115.1, -8.47, 3.7], label: [114.6, -7.45] },
-  'lombok-et-gili': { color: '#ffb703', focus: [116.3, -8.62, 3.3], label: [116.35, -9.4] },
-  sumbawa: { color: '#f77f00', focus: [117.8, -8.5, 5], label: [118.2, -7.45] },
-  'flores-et-komodo': { color: '#9b5de5', focus: [120.1, -8.65, 5.4], label: [122.6, -7.5] },
-  sumba: { color: '#c05299', focus: [119.85, -9.75, 4.2], label: [119.9, -10.75] },
-  'timor-occidental-et-alor': { color: '#577590', focus: [124.0, -9.3, 5.6], label: [125.6, -10.9], short: 'Timor et Alor' },
-  kalimantan: { color: '#43a047', focus: [114.6, -0.4, 13], label: [113.8, -0.3] },
-  sulawesi: { color: '#0096c7', focus: [121.9, -1.0, 12], label: [121.0, -2.4] },
-  moluques: { color: '#e63946', focus: [128.4, -1.3, 11.5], label: [128.5, -1.6] },
-  'raja-ampat': { color: '#f15bb5', focus: [130.5, -0.6, 4.2], label: [131.2, 1.0] },
-};
-
-// Nom court pour la carte, modèle 3D, ordre d'apparition quand on dézoome (rang 1 = affiché en premier)
-// et, si besoin, position du modèle quand le repère du tableur ne convient pas (activité en mer, îlot absent de la carte).
-const PLACE_VIEW = {
-  ubud: ['Ubud', 'pura', 1],
-  munduk: ['Munduk', 'waterfall', 3],
-  sidemen: ['Sidemen', 'rice', 3],
-  amed: ['Amed', 'snorkel', 2, [115.72, -8.3]],
-  'pemuteran-menjangan': ['Menjangan', 'fish', 3, [114.6, -8.07]],
-  'sud-de-bali-uluwatu': ['Uluwatu', 'surf', 2, [115.04, -8.86]],
-  'nusa-penida-lembongan': ['Nusa Penida', 'manta', 2, [115.5, -8.87]],
-  'labuan-bajo-komodo': ['Komodo', 'komodo', 1, [119.46, -8.57]],
-  'ruteng-et-manggarai': ['Ruteng', 'rice', 3],
-  'wae-rebo': ['Wae Rebo', 'house-cone', 2],
-  jakarta: ['Jakarta', 'skyline', 1],
-  'bandung-et-rancabali': ['Rancabali', 'tea', 3],
-  'yogyakarta-et-temples': ['Yogyakarta', 'stupa', 1],
-  dieng: ['Dieng', 'candi', 3],
-  'malang-bromo': ['Bromo', 'jeep', 1],
-  'tumpak-sewu': ['Tumpak Sewu', 'waterfall', 3],
-  surabaya: ['Surabaya', 'skyline', 2],
-  'tanjung-puting': ['Tanjung Puting', 'orangutan', 1],
-  'derawan-maratua': ['Derawan', 'turtle', 1, [118.3, 2.25]],
-  'sud-de-lombok': ['Sud de Lombok', 'surf', 2, [116.28, -8.97]],
-  tetebatu: ['Tetebatu', 'rice', 3],
-  'nord-de-lombok': ['Nord de Lombok', 'waterfall', 3],
-  'gili-air-meno-trawangan': ['Îles Gili', 'turtle', 1, [116.06, -8.3]],
-  'banda-neira': ['Banda Neira', 'fort', 1],
-  'ternate-tidore': ['Ternate', 'market', 1, [127.36, 0.78]],
-  morotai: ['Morotai', 'palm', 2],
-  'kri-gam-arborek': ['Kri et Arborek', 'house-stilt', 2, [130.52, -0.6]],
-  'waigeo-secteur-de-piaynemo': ['Piaynemo', 'karst', 1],
-  'pays-toraja': ['Pays Toraja', 'house-toraja', 1],
-  'manado-bunaken': ['Bunaken', 'fish', 1, [124.72, 1.58]],
-  tangkoko: ['Tangkoko', 'monkey', 2, [125.17, 1.5]],
-  'medan-bukit-lawang': ['Bukit Lawang', 'orangutan', 1],
-  'lac-toba': ['Lac Toba', 'house-horn', 1],
-  'bukittinggi-et-hauts-plateaux': ['Bukittinggi', 'house-horn', 1],
-  'sud-ouest-waikabubak': ['Waikabubak', 'house-sumba', 1],
-  'waingapu-et-est': ['Waingapu', 'horse', 2],
-  'sumbawa-besar-moyo': ['Moyo', 'waterfall', 1],
-  kupang: ['Kupang', 'palm', 1],
-  'alor-kepa': ['Alor', 'snorkel', 1, [124.38, -8.3]],
-  sanur: ['Sanur', 'palm', 3],
-};
-
-export const REGIONS = base.regions.map((r) => {
-  const view = REGION_VIEW[r.id];
-  return { ...r, ...written.regions[r.id], short: view.short || r.name, color: view.color, focus: { lon: view.focus[0], lat: view.focus[1], dist: view.focus[2] }, label: { lon: view.label[0], lat: view.label[1] } };
-});
-export const REGION_BY_ID = Object.fromEntries(REGIONS.map((r) => [r.id, r]));
 
 // Photo de chaque activité. Une activité peut désigner la sienne (champ « photo », même format que la galerie) ;
 // sinon on lui attribue la photo de la galerie dont la légende parle du même sujet, quand il y en a une.
 const STOP_WORDS = new Set(['dans', 'pour', 'avec', 'vers', 'depuis', 'sous', 'entre', 'leur', 'leurs', 'cette', 'tout', 'tous', 'plus']);
 const words = (text) =>
   new Set(
-    text
+    String(text || '')
       .toLowerCase()
       .normalize('NFD')
-      .replace(/[\u0300-\u036f]/g, '')
+      .replace(/[̀-ͯ]/g, '')
       .match(/[a-z0-9]{4,}/g)
       ?.filter((w) => !STOP_WORDS.has(w)) || [],
   );
 const shared = (a, b) => [...a].filter((w) => b.has(w)).length;
-function todoPhotos(todo, gallery) {
+export function todoPhotos(todo, gallery) {
   const names = todo.map((t) => words(t.name));
   const texts = todo.map((t) => words(t.text));
-  const result = todo.map((t) => (t.photo ? photoOf(t.photo) : null));
-  gallery.forEach((ph, index) => {
+  const result = todo.map((t) => (t.photo && (t.photo.file || t.photo.url) ? photoOf(t.photo) : null));
+  gallery.forEach((ph) => {
     const caption = words(ph.caption);
     let best = -1;
     let bestScore = 0;
@@ -124,81 +42,74 @@ function todoPhotos(todo, gallery) {
   return result;
 }
 
-// Étapes qui ne viennent pas du tableur. « hidden » : visible seulement dans l'exemple d'itinéraire.
-const EXTRA_PLACES = [
-  { id: 'sanur', region: 'bali', name: 'Sanur', themes: 'Plage / détente', see: 'Plage, front de mer à vélo', daysMin: 2, daysMax: 3, lat: -8.688, lon: 115.262, hidden: true, activities: [], prices: [] },
-];
-
-export const PLACES = [...base.places, ...EXTRA_PLACES].map((p) => {
-  const [short, model, rank, spot] = PLACE_VIEW[p.id];
-  const content = written.places[p.id];
-  // Une galerie n'est utilisée que si elle est complète (fichier et vraie légende pour chaque photo).
-  const gallery = (content?.photos || []).filter((ph) => (ph.file || ph.url) && ph.caption?.length > 3);
-  const photos = gallery.length ? gallery.map(photoOf) : p.photo ? [sheetPhoto(p.photo)] : [];
-  const todoImages = content ? todoPhotos(content.todo, gallery) : [];
-  // Une activité localisée l'est soit dans sa fiche (lat, lon), soit dans src/data/coords/.
-  const todoCoords = (content ? content.todo : []).map((t) => (Number.isFinite(t.lat) && Number.isFinite(t.lon) ? [t.lat, t.lon] : coords[p.id]?.[t.name] || null));
-  // « real » garde la vraie position de l'étape, même quand son modèle est déplacé en mer pour la carte 3D.
-  return { ...p, content, photos, todoImages, todoCoords, short, model, rank, real: { lat: p.lat, lon: p.lon }, lon: spot ? spot[0] : p.lon, lat: spot ? spot[1] : p.lat };
-});
-export const PLACE_BY_ID = Object.fromEntries(PLACES.map((p) => [p.id, p]));
+export let REGIONS = [];
+export let REGION_BY_ID = {};
+export let PLACES = [];
+export let PLACE_BY_ID = {};
+export let ITINERARY = { title: '', facts: '', summary: [], stops: [], days: [], transports: [], budget: { lines: [], totalLabel: '', total: '', note: '' } };
+// Réglages : titre et date affichés, phrase de l'écran d'accueil, taux de change utilisé pour convertir les prix en euros.
+export let SITE = { title: 'Indonésie', date: 'Août 2027', intro: '', idrPerEur: 20100 };
 export const placesOf = (regionId) => PLACES.filter((p) => p.region === regionId && !p.hidden);
 
-// Grandes villes : [nom, lon, lat, modèle 3D ou null si une étape voisine en a déjà un]
-export const CITIES = [
-  ['Jakarta', 106.83, -6.18, null],
-  ['Bandung', 107.61, -6.92, null],
-  ['Yogyakarta', 110.37, -7.8, null],
-  ['Surabaya', 112.74, -7.25, null],
-  ['Denpasar', 115.22, -8.67, 'plane'],
-  ['Labuan Bajo', 119.84, -8.46, 'boat'],
-  ['Medan', 98.67, 3.59, 'mosque'],
-  ['Padang', 100.36, -0.95, null],
-  ['Palembang', 104.75, -2.99, 'bridge'],
-  ['Pontianak', 109.33, -0.03, null],
-  ['Banjarmasin', 114.59, -3.32, 'market'],
-  ['Balikpapan', 116.83, -1.27, null],
-  ['Makassar', 119.36, -5.16, 'boat'],
-  ['Manado', 124.84, 1.49, null],
-  ['Kupang', 123.6, -10.17, null],
-  ['Ambon', 128.18, -3.7, 'palm'],
-  ['Sorong', 131.25, -0.88, null],
-  ['Jayapura', 140.75, -2.5, 'house-stilt'],
-].map(([name, lon, lat, model]) => ({ name, lon, lat, model }));
+const list = (value) => (Array.isArray(value) ? value : []);
+const number = (value, fallback) => (Number.isFinite(+value) && value !== null && value !== '' ? +value : fallback);
 
-// Repères géographiques non cliquables : pays voisins, mers, grandes îles hors sélection.
-export const GEO_LABELS = [
-  ['Malaisie', 102.4, 4.2, 'country'],
-  ['Malaisie', 116.0, 5.3, 'country'],
-  ['Brunei', 114.6, 4.5, 'country'],
-  ['Philippines', 125.0, 7.3, 'country'],
-  ['Papouasie-Nouvelle-Guinée', 144.5, -6.0, 'country'],
-  ['Timor oriental', 126.0, -8.75, 'country'],
-  ['Papouasie', 137.5, -4.0, 'island'],
-  ['Mer de Java', 111.5, -5.0, 'sea'],
-  ['Océan Indien', 104.0, -9.5, 'sea'],
-  ['Mer de Banda', 127.0, -6.0, 'sea'],
-  ['Mer de Célèbes', 121.5, 3.5, 'sea'],
-  ['Détroit de Makassar', 118.0, -2.2, 'sea'],
-  ['Océan Pacifique', 134.5, 3.0, 'sea'],
-  ['Mer de Chine méridionale', 107.5, 4.0, 'sea'],
-].map(([name, lon, lat, kind]) => ({ name, lon, lat, kind }));
+// Met en forme les contenus lus dans la base (ou dans la copie de secours). On reste tolérant : un champ oublié
+// dans le back office ne doit pas empêcher le site de démarrer.
+export function setContent(raw) {
+  REGIONS = list(raw.regions).map((r) => ({
+    ...r,
+    short: r.short || r.name,
+    color: r.color || '#1d2b53',
+    daysMin: number(r.daysMin, 1),
+    daysMax: number(r.daysMax, number(r.daysMin, 1)),
+    focus: { lon: number(r.focus?.lon, 118), lat: number(r.focus?.lat, -2.5), dist: number(r.focus?.dist, 10) },
+    label: { lon: number(r.label?.lon, number(r.focus?.lon, 118)), lat: number(r.label?.lat, number(r.focus?.lat, -2.5)) },
+  }));
+  REGION_BY_ID = Object.fromEntries(REGIONS.map((r) => [r.id, r]));
 
-// Volcans et sommets : [nom, lon, lat, hauteur relative, fume ?]
-export const PEAKS = [
-  ['Merapi', 110.446, -7.541, 0.3, true],
-  ['Slamet', 109.208, -7.242, 0.3, false],
-  ['Bromo', 112.95, -7.942, 0.2, true],
-  ['Semeru', 112.922, -8.108, 0.34, true],
-  ['Ijen', 114.242, -8.058, 0.24, true],
-  ['Batur', 115.375, -8.242, 0.1, false],
-  ['Agung', 115.508, -8.343, 0.2, true],
-  ['Rinjani', 116.47, -8.42, 0.26, true],
-  ['Tambora', 118.0, -8.25, 0.28, false],
-  ['Kelimutu', 121.82, -8.77, 0.16, false],
-  ['Sinabung', 98.392, 3.17, 0.28, true],
-  ['Kerinci', 101.264, -1.697, 0.38, true],
-  ['Lokon', 124.79, 1.36, 0.18, true],
-  ['Gamalama', 127.33, 0.8, 0.14, true],
-  ['Puncak Jaya', 137.158, -4.078, 0.5, false],
-];
+  PLACES = list(raw.places)
+    // Une étape sans région connue ou sans position ne peut pas être posée sur la carte.
+    .filter((p) => REGION_BY_ID[p.region] && Number.isFinite(+p.lat) && Number.isFinite(+p.lon))
+    .map((p) => {
+      const todo = list(p.todo);
+      // Une photo n'est montrée que si elle est complète (fichier ou adresse, et une vraie légende).
+      const gallery = list(p.photos).filter((ph) => (ph.file || ph.url) && ph.caption?.length > 3);
+      const hasSpot = Number.isFinite(+p.spot?.lon) && Number.isFinite(+p.spot?.lat);
+      return {
+        ...p,
+        short: p.short || p.name,
+        themes: p.themes || '',
+        daysMin: number(p.daysMin, 1),
+        daysMax: number(p.daysMax, number(p.daysMin, 1)),
+        model: p.model || 'palm',
+        rank: number(p.rank, 2),
+        hidden: !!p.hidden,
+        intro: list(p.intro),
+        tips: list(p.tips),
+        todo,
+        photos: gallery.map(photoOf),
+        todoImages: todoPhotos(todo, gallery),
+        todoCoords: todo.map((t) => (Number.isFinite(t.lat) && Number.isFinite(t.lon) ? [t.lat, t.lon] : null)),
+        // « real » garde la vraie position de l'étape, même quand son modèle est déplacé (en mer, par exemple) sur la carte 3D.
+        real: { lat: +p.lat, lon: +p.lon },
+        lon: hasSpot ? +p.spot.lon : +p.lon,
+        lat: hasSpot ? +p.spot.lat : +p.lat,
+      };
+    });
+  PLACE_BY_ID = Object.fromEntries(PLACES.map((p) => [p.id, p]));
+
+  const it = raw.documents?.itineraire || {};
+  ITINERARY = {
+    title: it.title || "Exemple d'itinéraire",
+    facts: it.facts || '',
+    summary: list(it.summary),
+    // Une étape supprimée depuis ne doit pas casser le tracé.
+    stops: list(it.stops).filter((s) => PLACE_BY_ID[s.place]),
+    days: list(it.days).map((d) => ({ ...d, place: PLACE_BY_ID[d.place] ? d.place : null })),
+    transports: list(it.transports),
+    budget: { lines: list(it.budget?.lines), totalLabel: it.budget?.totalLabel || '', total: it.budget?.total || '', note: it.budget?.note || '' },
+  };
+  const site = raw.documents?.site || {};
+  SITE = { title: site.title || 'Indonésie', date: site.date || '', intro: site.intro || '', idrPerEur: number(site.idrPerEur, 20100) || 20100 };
+}
