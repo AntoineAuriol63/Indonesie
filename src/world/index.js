@@ -302,7 +302,7 @@ export function createWorld({ canvas, labelLayer, onRegion, onPlace, onDetail })
   function setState(next) {
     state = next;
     labels.setState(state);
-    route.setStops(state.itinerary ? state.itinerary.map((id) => placeSpots[id].root.position.clone().setY(placeSpots[id].y + 0.03)) : []);
+    route.setStops(state.itinerary && state.route ? state.itinerary.map((id) => placeSpots[id].root.position.clone().setY(placeSpots[id].y + 0.03)) : []);
   }
 
   // ---------- Sélection à la souris / au doigt ----------

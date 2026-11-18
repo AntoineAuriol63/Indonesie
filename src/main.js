@@ -8,8 +8,9 @@ import './style.css';
 
 import { createWorld } from './world/index.js';
 import { createFlatWorld } from './world/flat.js';
-import { PLACE_BY_ID, REGION_BY_ID, placesOf } from './data/places.js';
+import { PLACE_BY_ID, REGIONS, REGION_BY_ID, placesOf } from './data/places.js';
 import { ITINERARY } from './data/itinerary.js';
+import { favorites } from './ui/favorites.js';
 import { toast } from './ui/fx.js';
 import { hideMinimap, showMinimap } from './ui/minimap.js';
 
@@ -18,10 +19,12 @@ const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&
 const isMobile = () => matchMedia('(max-width: 860px)').matches;
 const days = (min, max) => (min === max ? `${min} jour${min > 1 ? 's' : ''}` : `${min} à ${max} jours`);
 
-// Où l'on se trouve : vue d'ensemble, dans une région, sur une étape, ou dans l'exemple d'itinéraire.
-const ui = { region: null, place: null, itinerary: false, started: false };
+// Où l'on se trouve : vue d'ensemble, dans une région, sur une étape, dans l'exemple d'itinéraire ou dans les favoris.
+const ui = { region: null, place: null, itinerary: false, favorites: false, started: false };
 const itineraryIds = ITINERARY.stops.map((s) => s.place);
-let itineraryScroll = 0;
+// Position dans la liste (programme ou favoris) au moment d'ouvrir une fiche, pour y revenir au même endroit.
+let listScroll = 0;
+favorites.keep((id) => PLACE_BY_ID[id] && !PLACE_BY_ID[id].hidden);
 
 const worldOptions = {
   canvas: $('scene'),
@@ -75,6 +78,13 @@ function gallery(photos) {
 const fact = (label, value) => (value ? `<div class="fact"><dt>${label}</dt><dd>${esc(value)}</dd></div>` : '');
 const TYPE_CLASS = { Culture: 'culture', Nature: 'nature', Mer: 'mer', Randonnée: 'rando', Ville: 'ville', Cuisine: 'cuisine', Faune: 'faune', Détente: 'detente' };
 
+const HEART = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>';
+// Bouton cœur d'une étape : plein si elle est dans les favoris.
+function likeButton(id, className = '') {
+  const on = favorites.has(id);
+  return `<button class="like ${className}" data-action="like" data-id="${id}" aria-pressed="${on}" aria-label="${on ? 'Retirer des favoris' : 'Ajouter aux favoris'}" title="${on ? 'Retirer des favoris' : 'Ajouter aux favoris'}">${HEART}</button>`;
+}
+
 function regionCard(r) {
   const places = placesOf(r.id);
   return `
@@ -101,6 +111,7 @@ function regionCard(r) {
               <span class="row__name">${esc(p.name)}</span>
               <span class="row__meta">${esc(p.themes)} · ${days(p.daysMin, p.daysMax)}</span>
             </span>
+            ${favorites.has(p.id) ? `<span class="row__like" title="Dans les favoris">${HEART}</span>` : ''}
           </button>`,
           )
           .join('')}
@@ -136,8 +147,11 @@ function placeCard(p) {
   const tips = c ? c.tips : [p.note].filter(Boolean);
   return `
     <header class="card__head" style="--c:${r.color}">
-      <button class="back" data-action="back">‹ ${esc(ui.itinerary ? 'Itinéraire' : r.name)}</button>
-      <h2>${esc(p.name)}</h2>
+      <button class="back" data-action="back">‹ ${esc(ui.itinerary ? 'Itinéraire' : ui.favorites ? 'Mes favoris' : r.name)}</button>
+      <div class="card__title">
+        <h2>${esc(p.name)}</h2>
+        ${p.hidden ? '' : likeButton(p.id)}
+      </div>
     </header>
     <div class="card__scroll">
       ${gallery(p.photos)}
@@ -238,45 +252,130 @@ function itineraryCard() {
     </div>`;
 }
 
+// Les étapes aimées, rangées par région, avec la durée qu'il faudrait pour toutes les faire.
+function favoritesCard() {
+  const liked = favorites.list().map((id) => PLACE_BY_ID[id]);
+  const head = (sub) => `
+    <header class="card__head" style="--c:#ff5d73">
+      <button class="back" data-action="back">‹ Indonésie</button>
+      <h2>Mes favoris</h2>
+      <p class="card__themes">${sub}</p>
+    </header>`;
+  if (!liked.length) {
+    return `
+      ${head('Aucune étape pour le moment')}
+      <div class="card__scroll">
+        <div class="empty">
+          <span class="empty__heart">${HEART}</span>
+          <p>Pour garder une étape de côté, ouvrez sa fiche et cliquez sur le cœur à côté de son nom. Elle apparaîtra ici et sur la carte.</p>
+        </div>
+      </div>`;
+  }
+  const min = liked.reduce((sum, p) => sum + p.daysMin, 0);
+  const max = liked.reduce((sum, p) => sum + p.daysMax, 0);
+  const groups = REGIONS.map((r) => ({ r, places: liked.filter((p) => p.region === r.id) })).filter((g) => g.places.length);
+  return `
+    ${head(`${liked.length} étape${liked.length > 1 ? 's' : ''} dans ${groups.length} région${groups.length > 1 ? 's' : ''}`)}
+    <div class="card__scroll">
+      <dl class="facts">
+        ${fact('Durée', `${days(min, max)} pour tout faire, sans compter les trajets d'une étape à l'autre`)}
+      </dl>
+      ${groups
+        .map(
+          ({ r, places }) => `
+        <h3 class="fav-region" style="--c:${r.color}">${esc(r.name)}</h3>
+        <div class="rows">
+          ${places
+            .map(
+              (p) => `
+            <div class="fav">
+              <button class="row" data-action="place" data-id="${p.id}">
+                ${p.photos[0] ? `<img src="${esc(p.photos[0].at(160))}" alt="" loading="lazy" onerror="this.remove()" />` : ''}
+                <span class="row__text">
+                  <span class="row__name">${esc(p.name)}</span>
+                  <span class="row__meta">${esc(p.themes)} · ${days(p.daysMin, p.daysMax)}</span>
+                </span>
+              </button>
+              ${likeButton(p.id, 'like--row')}
+            </div>`,
+            )
+            .join('')}
+        </div>`,
+        )
+        .join('')}
+    </div>`;
+}
+
+// Bouton « Mes favoris » de la barre du haut, avec le nombre d'étapes aimées.
+function updateFavoritesButton() {
+  const count = favorites.count();
+  const button = $('favorites-toggle');
+  button.setAttribute('aria-pressed', ui.favorites);
+  button.querySelector('.btn__count').textContent = count || '';
+  button.classList.toggle('has-some', count > 0);
+}
+
+// Ce que la carte doit montrer : en mode itinéraire ou favoris, seulement les étapes concernées.
+function syncWorld() {
+  const liked = favorites.list();
+  // Une fiche ouverte depuis les favoris se montre comme d'habitude, avec sa scène détaillée et sa région.
+  const only = ui.itinerary ? itineraryIds : ui.favorites && !ui.place ? liked : null;
+  world.setState({
+    region: ui.favorites && ui.place ? PLACE_BY_ID[ui.place].region : ui.region,
+    place: ui.place,
+    itinerary: only,
+    route: ui.itinerary,
+    liked,
+  });
+}
+
 function render() {
   const panel = $('panel');
-  const open = ui.place || ui.region || ui.itinerary;
+  const open = ui.place || ui.region || ui.itinerary || ui.favorites;
   panel.classList.toggle('is-open', !!open);
   hideMinimap();
   if (ui.place) {
     panel.innerHTML = placeCard(PLACE_BY_ID[ui.place]);
     placeMap(PLACE_BY_ID[ui.place]);
   } else if (ui.itinerary) panel.innerHTML = itineraryCard();
+  else if (ui.favorites) panel.innerHTML = favoritesCard();
   else if (ui.region) panel.innerHTML = regionCard(REGION_BY_ID[ui.region]);
   panel.scrollTop = 0;
   document.body.classList.toggle('has-panel', !!open);
   document.body.classList.toggle('in-itinerary', ui.itinerary);
-  $('itinerary-toggle').textContent = ui.itinerary ? "Quitter l'itinéraire" : "Exemple d'itinéraire";
+  $('itinerary-toggle').innerHTML = ui.itinerary
+    ? `Quitter<span class="wide">&nbsp;l'itinéraire</span>`
+    : `<span class="wide">Exemple d'itinéraire</span><span class="narrow">Itinéraire</span>`;
   $('itinerary-toggle').setAttribute('aria-pressed', ui.itinerary);
-  world.setState({ region: ui.region, place: ui.place, itinerary: ui.itinerary ? itineraryIds : null });
+  updateFavoritesButton();
+  syncWorld();
   updatePadding();
 }
 
 // ---------------------------------------------------------------- Navigation
 
 function updatePadding() {
-  const open = ui.place || ui.region || ui.itinerary;
+  const open = ui.place || ui.region || ui.itinerary || ui.favorites;
   if (isMobile()) world.setViewPadding({ top: 60, bottom: open ? window.innerHeight * 0.55 : 0 });
   else world.setViewPadding({ top: 60, right: open ? 430 : 0 });
 }
 
 const home = () => world.flyTo(118.2, -2.9, 44, { duration: 1.8 });
 
-function flyToItinerary() {
-  const pts = itineraryIds.map((id) => PLACE_BY_ID[id]);
+// Cadre un groupe d'étapes (celles de l'itinéraire, ou les favoris).
+function flyToPlaces(ids) {
+  if (!ids.length) return home();
+  const pts = ids.map((id) => PLACE_BY_ID[id]);
   const lons = pts.map((p) => p.lon);
   const lats = pts.map((p) => p.lat);
   const span = Math.max(Math.max(...lons) - Math.min(...lons), (Math.max(...lats) - Math.min(...lats)) * 2.4);
-  world.flyTo((Math.max(...lons) + Math.min(...lons)) / 2, (Math.max(...lats) + Math.min(...lats)) / 2, Math.max(5, span * 1.6 + 3), { duration: 1.8 });
+  world.flyTo((Math.max(...lons) + Math.min(...lons)) / 2, (Math.max(...lats) + Math.min(...lats)) / 2, Math.min(60, Math.max(5, span * 1.6 + 3)), { duration: 1.8 });
 }
+const flyToItinerary = () => flyToPlaces(itineraryIds);
 
 function openRegion(id) {
   ui.itinerary = false;
+  ui.favorites = false;
   ui.region = id;
   ui.place = null;
   render();
@@ -285,10 +384,10 @@ function openRegion(id) {
 }
 
 function openPlace(id, options) {
-  // On retient où l'on en était dans le programme pour y revenir au même endroit.
-  if (ui.itinerary && !ui.place) itineraryScroll = document.querySelector('#panel .card__scroll')?.scrollTop || 0;
+  // On retient où l'on en était dans le programme ou les favoris pour y revenir au même endroit.
+  if ((ui.itinerary || ui.favorites) && !ui.place) listScroll = document.querySelector('#panel .card__scroll')?.scrollTop || 0;
   ui.place = id;
-  if (!ui.itinerary) ui.region = PLACE_BY_ID[id].region;
+  if (!ui.itinerary && !ui.favorites) ui.region = PLACE_BY_ID[id].region;
   render();
   world.focusPlace(id, options);
 }
@@ -297,26 +396,64 @@ function back() {
   if (ui.place) {
     ui.place = null;
     render();
-    if (ui.itinerary) {
-      document.querySelector('#panel .card__scroll').scrollTop = itineraryScroll;
-      return flyToItinerary();
+    if (ui.itinerary || ui.favorites) {
+      document.querySelector('#panel .card__scroll').scrollTop = listScroll;
+      return ui.itinerary ? flyToItinerary() : flyToPlaces(favorites.list());
     }
     const f = REGION_BY_ID[ui.region].focus;
     return world.flyTo(f.lon, f.lat, f.dist);
   }
   ui.region = null;
   ui.itinerary = false;
+  ui.favorites = false;
   render();
   home();
 }
 
 function toggleItinerary() {
   ui.itinerary = !ui.itinerary;
+  ui.favorites = false;
   ui.region = null;
   ui.place = null;
   render();
   if (ui.itinerary) flyToItinerary();
   else home();
+}
+
+function toggleFavorites() {
+  ui.favorites = !ui.favorites;
+  ui.itinerary = false;
+  ui.region = null;
+  ui.place = null;
+  render();
+  if (ui.favorites) flyToPlaces(favorites.list());
+  else home();
+}
+
+// Ajoute ou retire une étape des favoris, sans recharger la fiche ouverte.
+function toggleLike(el) {
+  const on = favorites.toggle(el.dataset.id);
+  if (ui.favorites && !ui.place) {
+    // Dans la liste des favoris, l'étape retirée disparaît de la liste et de la carte.
+    const scroll = document.querySelector('#panel .card__scroll')?.scrollTop || 0;
+    render();
+    document.querySelector('#panel .card__scroll').scrollTop = scroll;
+    return flyToPlaces(favorites.list());
+  }
+  el.setAttribute('aria-pressed', on);
+  el.setAttribute('aria-label', on ? 'Retirer des favoris' : 'Ajouter aux favoris');
+  el.title = on ? 'Retirer des favoris' : 'Ajouter aux favoris';
+  el.classList.remove('is-pop');
+  void el.offsetWidth;
+  if (on) el.classList.add('is-pop');
+  updateFavoritesButton();
+  if (on) {
+    const button = $('favorites-toggle');
+    button.classList.remove('is-bump');
+    void button.offsetWidth;
+    button.classList.add('is-bump');
+  }
+  syncWorld();
 }
 
 function start() {
@@ -335,6 +472,7 @@ const handlers = {
     ui.region = null;
     ui.place = null;
     ui.itinerary = false;
+    ui.favorites = false;
     render();
     home();
   },
@@ -342,6 +480,8 @@ const handlers = {
   place: (el) => openPlace(el.dataset.id),
   day: (el) => openPlace(el.dataset.id),
   itinerary: toggleItinerary,
+  favorites: toggleFavorites,
+  like: toggleLike,
   zoom: (el) => world.zoom(+el.dataset.factor),
   help: () => $('help').classList.toggle('is-open'),
   'why-2d': () =>
@@ -359,7 +499,7 @@ document.addEventListener('keydown', (event) => {
     if (event.key === 'Enter' || event.key === ' ') start();
     return;
   }
-  if (event.key === 'Escape' && (ui.place || ui.region || ui.itinerary)) back();
+  if (event.key === 'Escape' && (ui.place || ui.region || ui.itinerary || ui.favorites)) back();
 });
 
 window.addEventListener('resize', updatePadding);

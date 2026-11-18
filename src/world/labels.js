@@ -17,7 +17,8 @@ export function createLabels(layer, { onRegion, onPlace, onRegionHover }) {
 
   for (const r of REGIONS) {
     const count = placesOf(r.id).length;
-    const item = add('region', r.id, r.label.lon, r.label.lat, 'button', 'lbl--region', `${r.short}<small>${count} activité${count > 1 ? 's' : ''}</small>`, 50);
+    const item = add('region', r.id, r.label.lon, r.label.lat, 'button', 'lbl--region', `${r.short}<small>${count} activité${count > 1 ? 's' : ''}<span class="lbl__likes"></span></small>`, 50);
+    item.likes = item.el.querySelector('.lbl__likes');
     item.el.style.setProperty('--c', r.color);
     item.el.addEventListener('click', () => onRegion(r.id));
     item.el.addEventListener('pointerenter', () => onRegionHover?.(r.id));
@@ -40,18 +41,23 @@ export function createLabels(layer, { onRegion, onPlace, onRegionHover }) {
     for (const item of regionItems) item.el.classList.toggle('is-hot', item.id === id);
   };
 
-  function setState({ region, place, itinerary }) {
+  // itinerary : liste des seules étapes à montrer (exemple d'itinéraire ou favoris) ; route : elles sont numérotées dans l'ordre.
+  // liked : étapes aimées, marquées d'un cœur.
+  function setState({ region, place, itinerary, route, liked = [] }) {
     for (const item of items) {
       const el = item.el;
       if (item.type === 'region') {
         item.shown = !itinerary && item.id !== region;
         el.classList.toggle('is-dim', !!region);
+        const count = liked.filter((id) => byId[id]?.region === item.id).length;
+        item.likes.textContent = count ? ` · ♥ ${count}` : '';
       } else if (item.type === 'place') {
         const order = itinerary ? itinerary.indexOf(item.id) + 1 : 0;
         item.shown = itinerary ? order > 0 : item.region === region && !item.hidden;
         item.selected = item.id === place;
-        item.badge.textContent = order || '';
+        item.badge.textContent = (route && order) || '';
         el.classList.toggle('is-selected', item.selected);
+        el.classList.toggle('is-liked', liked.includes(item.id));
       } else if (item.type === 'city') {
         // Une ville qui porte le même nom qu'une étape affichée ferait doublon.
         item.shown = !itinerary && !PLACES.some((p) => p.short === item.id && p.region === region);

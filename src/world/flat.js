@@ -656,7 +656,7 @@ export function createFlatWorld({ canvas, labelLayer, onRegion, onPlace }) {
     setState(next) {
       state = next;
       labels.setState(state);
-      stops = state.itinerary ? state.itinerary.map((id) => labels.byId[id]) : [];
+      stops = state.itinerary && state.route ? state.itinerary.map((id) => labels.byId[id]) : [];
     },
     setViewPadding({ left = 0, right = 0, top = 0, bottom = 0 }) {
       shift.tx = (right - left) / 2;
