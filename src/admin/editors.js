@@ -347,7 +347,7 @@ export function itineraryEditor({ doc, changed, store }) {
 
 // ---------------------------------------------------------------- Réglages
 
-export function settingsEditor({ doc, changed, download }) {
+export function settingsEditor({ doc, changed, download, changeCode }) {
   const s = doc.data;
   const form = createForm(changed);
   return {
@@ -371,6 +371,12 @@ export function settingsEditor({ doc, changed, download }) {
             half: true,
           }),
         ),
+      ),
+      section(
+        'acces',
+        "Code d'accès",
+        note("Le back office s'ouvre avec un code à 4 chiffres, gardé 60 jours par chaque appareil. Au bout de 5 codes faux, les essais sont bloqués un quart d'heure. Code oublié : la marche à suivre est en tête du fichier docs/supabase.sql."),
+        h('button', { type: 'button', class: 'button', onclick: changeCode }, 'Changer le code'),
       ),
       section(
         'sauvegarde',

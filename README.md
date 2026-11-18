@@ -30,19 +30,18 @@ Ce qui reste dans le code : le relief et le décor de la carte (villes, mers, vo
 
 ### Installer la base
 
-1. Dans Supabase, créer son compte éditeur : Authentication > Users > Add user, en cochant « Auto Confirm User ».
-2. Coller `docs/supabase.sql` dans l'éditeur SQL et le lancer. Il crée les tables, les droits, l'historique et le dossier des photos, et donne le droit de modifier à tous les comptes qui existent à ce moment-là.
-3. Ouvrir le back office, se connecter et cliquer sur « Importer les contenus du site » : la copie de secours est versée dans la base.
+1. Coller `docs/supabase.sql` dans l'éditeur SQL de Supabase et le lancer. Il crée les tables, les droits, l'historique, le dossier des photos et l'accès par code.
+2. Ouvrir le back office : à la première ouverture, on choisit le code à 4 chiffres.
+3. Cliquer sur « Importer les contenus du site » : la copie de secours est versée dans la base.
 
-Pour ajouter un éditeur plus tard : créer son compte de la même façon, puis relancer la dernière commande du script.
-
-L'adresse du projet et sa clé publique sont dans `src/data/supabase.js`. La clé publique ne permet que de lire les contenus et de gérer les favoris ; écrire demande d'être connecté avec un compte éditeur (règles dans `docs/supabase.sql`).
+L'adresse du projet et sa clé publique sont dans `src/data/supabase.js`. La clé publique permet de lire les contenus et de gérer les favoris. Le site n'écrit jamais directement dans les tables de contenus : chaque écriture passe par une fonction de la base qui vérifie la session ouverte avec le code (règles dans `docs/supabase.sql`).
 
 ## Back office
 
 https://antoineauriol63.github.io/Indonesie/admin/ (code dans `admin/` et `src/admin/`)
 
-- Connexion par e-mail et mot de passe (compte créé dans Supabase).
+- Accès par un code à 4 chiffres, sans compte. Chaque appareil le garde 60 jours ; « Verrouiller » le fait redemander. Au bout de 5 codes faux, les essais sont bloqués un quart d'heure (30 codes faux par heure au plus, toutes adresses confondues).
+- Le code se change dans les réglages. Code oublié : lancer `select prive.reinitialiser_code();` dans l'éditeur SQL de Supabase, puis en choisir un nouveau à l'ouverture du back office.
 - La vue d'ensemble liste les étapes et signale ce qui reste à compléter (photo sans légende, activité sans position…).
 - Une étape : présentation, activités (ordre, type, prix converti en euros, photo), galerie de photos, conseils, positions sur une carte, réglages de la carte 3D.
 - Une photo vient de Wikimedia Commons (auteur et licence remplis tout seuls), d'une adresse web, ou de l'appareil : elle est alors réduite à 1600 px et rangée dans le stockage Supabase.
@@ -64,7 +63,7 @@ Le cœur d'une fiche ajoute l'étape à une liste de favoris commune à tous les
 | --- | --- |
 | Lecture des contenus, mise en forme pour le site | `src/data/load.js`, `src/data/places.js` |
 | Projet Supabase (adresse, clé publique) | `src/data/supabase.js` |
-| Tables, droits, historique, stockage des photos | `docs/supabase.sql` |
+| Tables, droits, accès par code, historique, stockage des photos | `docs/supabase.sql` |
 | Copie de secours des contenus | `src/data/snapshot.json`, `scripts/snapshot.mjs` |
 | Back office | `admin/index.html`, `src/admin/` |
 | Villes, repères géographiques, sommets | `src/data/map.js` |

@@ -1,58 +1,39 @@
-// Accès à Supabase pour le back office : connexion, lecture et écriture des contenus, envoi de photos.
-// Tout passe par l'API du projet, sans bibliothèque. Les droits sont vérifiés par la base (docs/supabase.sql) :
-// seul un compte éditeur connecté peut écrire.
-import { REST, SUPABASE_KEY, SUPABASE_URL, storageUrl } from '../data/supabase.js';
+// Accès à Supabase pour le back office : ouverture par un code à 4 chiffres, lecture et écriture des contenus, envoi de photos.
+// Tout passe par l'API du projet, sans bibliothèque. La lecture est publique. Chaque écriture passe par une fonction de la
+// base (docs/supabase.sql) qui vérifie le jeton de session reçu en échange du bon code.
+import { PUBLIC_HEADERS, REST, SUPABASE_URL, storageUrl } from '../data/supabase.js';
 
-const SESSION = 'indonesie.admin.session';
-const JSON_TYPE = { 'Content-Type': 'application/json' };
+const SESSION = 'indonesie.admin.jeton';
 
 export class ApiError extends Error {
-  constructor(message, status, code) {
+  constructor(message, code) {
     super(message);
-    this.status = status;
     this.code = code;
   }
 }
 
-let session = null;
+let token = null;
 try {
-  session = JSON.parse(localStorage.getItem(SESSION));
+  token = localStorage.getItem(SESSION);
 } catch {
-  // Pas de session lisible : il faudra se connecter.
+  // Pas de stockage : il faudra redonner le code à chaque visite.
 }
-let lastEmail = session?.email || '';
 function remember(next) {
-  session = next;
-  if (next?.email) lastEmail = next.email;
+  token = next;
   try {
-    if (next) localStorage.setItem(SESSION, JSON.stringify(next));
+    if (next) localStorage.setItem(SESSION, next);
     else localStorage.removeItem(SESSION);
   } catch {
     // Stockage indisponible : la session tient le temps de la page.
   }
 }
 
-// Traduit une erreur de l'API en une phrase utile.
-function explain(status, body) {
-  const code = body?.error_code || body?.code || '';
-  const text = body?.message || body?.msg || body?.error_description || (typeof body === 'string' ? body : '');
-  if (code === 'invalid_credentials' || /invalid login/i.test(text)) return 'E-mail ou mot de passe incorrect.';
-  if (code === 'email_not_confirmed') return "Ce compte n'est pas encore confirmé. Dans Supabase, ouvrez Authentication > Users et confirmez-le.";
-  if (code === 'PGRST205' || code === 'PGRST202' || code === '42P01' || code === 'NoSuchBucket') return "La base n'est pas encore installée : lancez le script docs/supabase.sql dans l'éditeur SQL de Supabase.";
-  if (code === '42501' || status === 403 || body?.statusCode === '403' || /row-level security/i.test(text)) return "Ce compte n'a pas le droit de modifier les contenus du site.";
-  if (code === '23505') return 'Un contenu porte déjà cet identifiant.';
-  if (status === 413 || /too large|exceeded the maximum/i.test(text)) return 'Fichier trop lourd : 5 Mo au maximum.';
-  if (status === 429) return 'Trop de tentatives. Patientez une minute, puis réessayez.';
-  if (status === 401) return 'Votre session a expiré. Reconnectez-vous.';
-  return `La base a répondu une erreur (${status}${text ? ` : ${text}` : ''}).`;
-}
-
-async function send(url, { method = 'GET', headers = {}, body, bearer } = {}) {
+async function send(url, { method = 'GET', headers = {}, body } = {}) {
   let response;
   try {
-    response = await fetch(url, { method, headers: { apikey: SUPABASE_KEY, Authorization: `Bearer ${bearer || SUPABASE_KEY}`, ...headers }, body });
+    response = await fetch(url, { method, headers: { ...PUBLIC_HEADERS, ...headers }, body });
   } catch {
-    throw new ApiError('Connexion impossible. Vérifiez votre accès à Internet, puis réessayez.', 0, 'network');
+    throw new ApiError('Connexion impossible. Vérifiez votre accès à Internet, puis réessayez.', 'reseau');
   }
   const text = await response.text();
   let data = null;
@@ -61,92 +42,89 @@ async function send(url, { method = 'GET', headers = {}, body, bearer } = {}) {
   } catch {
     data = text;
   }
-  if (!response.ok) throw new ApiError(explain(response.status, data), response.status, data?.error_code || data?.code || '');
-  return data;
+  if (response.ok) return data;
+  const code = data?.code || '';
+  const detail = data?.message || (typeof data === 'string' ? data : '');
+  if (['PGRST205', 'PGRST202', '42P01', '42883', 'NoSuchBucket'].includes(code) || /bucket not found/i.test(detail)) {
+    throw new ApiError("La base n'est pas encore installée, ou pas à jour : lancez le script docs/supabase.sql dans l'éditeur SQL de Supabase.", 'installation');
+  }
+  if (response.status === 413 || /too large|exceeded the maximum/i.test(detail)) throw new ApiError('Fichier trop lourd : 5 Mo au maximum.', 'taille');
+  if (/row-level security|mime type/i.test(detail)) throw new ApiError("La base a refusé ce fichier. Réessayez l'envoi ; seules les images sont acceptées.", 'refus');
+  throw new ApiError(`La base a répondu une erreur (${response.status}${detail ? ` : ${detail}` : ''}).`, 'erreur');
 }
 
-function keep(data) {
-  remember({
-    access_token: data.access_token,
-    refresh_token: data.refresh_token,
-    expires_at: Math.floor(Date.now() / 1000) + (data.expires_in || 3600),
-    email: data.user?.email || session?.email || '',
-  });
-}
+const REASONS = {
+  session: 'Le back office est verrouillé. Redonnez le code pour continuer.',
+  conflit: 'Ce contenu a été modifié ailleurs entre-temps.',
+  demande: "La base a refusé cette demande : identifiant ou contenu non valable.",
+  format: 'Le code doit faire exactement 4 chiffres.',
+  bloque: "Trop de codes faux. Les essais sont bloqués un moment : réessayez dans un quart d'heure.",
+  pas_de_code: "Aucun code n'a encore été choisi.",
+};
 
-export const auth = {
-  email: () => session?.email || null,
-  // Dernier e-mail connecté, pour préremplir le formulaire après une session expirée.
-  lastEmail: () => lastEmail,
-  async signIn(email, password) {
-    keep(await send(`${SUPABASE_URL}/auth/v1/token?grant_type=password`, { method: 'POST', headers: JSON_TYPE, body: JSON.stringify({ email, password }) }));
+// Appelle une fonction de la base. Celles du back office répondent { ok: true, … } ou { ok: false, raison }.
+async function call(name, args = {}) {
+  const result = await send(`${REST}/rpc/${name}`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(args) });
+  if (result && result.ok === false) {
+    if (result.raison === 'session') remember(null);
+    if (result.raison === 'code') {
+      const left = result.essais_restants;
+      throw new ApiError(left > 0 ? `Code incorrect. Encore ${left} essai${left > 1 ? 's' : ''} avant un blocage d'un quart d'heure.` : "Code incorrect. Les essais sont maintenant bloqués pendant un quart d'heure.", 'code');
+    }
+    throw new ApiError(REASONS[result.raison] || 'La base a refusé cette demande.', result.raison);
+  }
+  return result;
+}
+// Fonction qui demande une session ouverte.
+const secured = (name, args = {}) => {
+  if (!token) throw new ApiError(REASONS.session, 'session');
+  return call(name, { jeton: token, ...args });
+};
+
+export const access = {
+  hasToken: () => !!token,
+  // Le code a-t-il déjà été choisi ? (sinon, le back office propose de le choisir)
+  isCodeSet: async () => (await call('etat_acces')).code_defini,
+  // Le jeton gardé par ce navigateur est-il encore valable ?
+  async check() {
+    if (!token) return false;
+    const open = await call('session_ouverte', { jeton: token });
+    if (!open) remember(null);
+    return open;
   },
-  async signOut() {
-    const token = session?.access_token;
+  async open(code) {
+    remember((await call('ouvrir', { code })).jeton);
+  },
+  // Premier choix du code (ouvre aussi la session), ou changement quand une session est ouverte.
+  async choose(code) {
+    const result = await call('choisir_code', { code, jeton: token });
+    if (result.jeton) remember(result.jeton);
+  },
+  async lock() {
+    const old = token;
     remember(null);
-    if (token) await send(`${SUPABASE_URL}/auth/v1/logout`, { method: 'POST', bearer: token }).catch(() => {});
+    if (old) await call('fermer', { jeton: old }).catch(() => {});
   },
 };
 
-// Jeton de la session en cours, renouvelé peu avant son expiration (il dure une heure).
-let renewing = null;
-async function accessToken(force = false) {
-  if (!session) throw new ApiError('Votre session a expiré. Reconnectez-vous.', 401, 'session');
-  if (force || session.expires_at - Date.now() / 1000 < 90) {
-    renewing ||= send(`${SUPABASE_URL}/auth/v1/token?grant_type=refresh_token`, { method: 'POST', headers: JSON_TYPE, body: JSON.stringify({ refresh_token: session.refresh_token }) })
-      .then(keep)
-      .finally(() => (renewing = null));
-    try {
-      await renewing;
-    } catch (error) {
-      if (error.status >= 400 && error.status < 500) {
-        remember(null);
-        throw new ApiError('Votre session a expiré. Reconnectez-vous.', 401, 'session');
-      }
-      throw error;
-    }
-  }
-  return session.access_token;
-}
-
-async function authed(url, options = {}) {
-  try {
-    return await send(url, { ...options, bearer: await accessToken() });
-  } catch (error) {
-    // Jeton refusé alors qu'on le croyait valable : on le renouvelle une fois.
-    if (error.status === 401 && error.code !== 'session') return send(url, { ...options, bearer: await accessToken(true) });
-    throw error;
-  }
-}
-
 const COLUMNS = { regions: 'id,position,data,updated_at', etapes: 'id,position,data,updated_at', documents: 'id,data,updated_at' };
-const id = (value) => `id=eq.${encodeURIComponent(value)}`;
 
 export const db = {
-  list: (table, query = '') => authed(`${REST}/${table}?select=${COLUMNS[table] || '*'}${query ? `&${query}` : ''}`),
-  // Ajoute des lignes ; avec upsert, remplace celles qui existent déjà (import des contenus).
-  insert: (table, rows, { upsert = false } = {}) =>
-    authed(`${REST}/${table}?select=${COLUMNS[table]}${upsert ? '&on_conflict=id' : ''}`, {
-      method: 'POST',
-      headers: { ...JSON_TYPE, Prefer: `${upsert ? 'resolution=merge-duplicates,' : ''}return=representation` },
-      body: JSON.stringify(rows),
-    }),
-  // Modifie une ligne. Avec updatedAt, seulement si personne ne l'a modifiée depuis : sinon la réponse est vide.
-  update: (table, rowId, patch, updatedAt) =>
-    authed(`${REST}/${table}?select=${COLUMNS[table]}&${id(rowId)}${updatedAt ? `&updated_at=eq.${encodeURIComponent(updatedAt)}` : ''}`, {
-      method: 'PATCH',
-      headers: { ...JSON_TYPE, Prefer: 'return=representation' },
-      body: JSON.stringify(patch),
-    }),
-  remove: (table, rowId) => authed(`${REST}/${table}?${id(rowId)}`, { method: 'DELETE' }),
-  history: (table, rowId) =>
-    authed(`${REST}/historique?select=id,data,action,saved_at,saved_by&source=eq.${table}&ref=eq.${encodeURIComponent(rowId)}&order=saved_at.desc&limit=30`),
-  isEditor: () => authed(`${REST}/rpc/est_editeur`, { method: 'POST', headers: JSON_TYPE, body: '{}' }),
+  list: (table, query = '') => send(`${REST}/${table}?select=${COLUMNS[table]}${query ? `&${query}` : ''}`),
+  // Crée ou modifie un contenu. Avec « expected » (date de la version ouverte), échoue (code « conflit »)
+  // si quelqu'un l'a modifié depuis. Renvoie la nouvelle date de modification.
+  save: async (table, id, data, { position = null, expected = null } = {}) =>
+    (await secured('enregistrer', { source: table, ref: id, contenu: data, rang: position, attendu: expected })).updated_at,
+  move: async (id, position) => (await secured('deplacer', { ref: id, rang: position })).updated_at,
+  remove: (id) => secured('supprimer', { ref: id }),
+  history: async (table, id) => (await secured('versions', { source: table, ref: id })).versions,
+  importAll: (contents) => secured('importer', { contenus: contents }),
 };
 
 // Envoie une image dans le stockage du projet et renvoie son adresse publique.
+// La base autorise d'abord un nom de fichier tiré au hasard ; l'image ne peut être déposée que sous ce nom.
 export async function uploadPhoto(blob, prefix) {
-  const path = `${prefix}-${Date.now().toString(36)}.jpg`;
-  await authed(`${SUPABASE_URL}/storage/v1/object/photos/${path}`, { method: 'POST', headers: { 'Content-Type': 'image/jpeg', 'Cache-Control': 'max-age=31536000' }, body: blob });
-  return storageUrl(path);
+  const { nom } = await secured('autoriser_envoi', { prefixe: prefix });
+  await send(`${SUPABASE_URL}/storage/v1/object/photos/${nom}`, { method: 'POST', headers: { 'Content-Type': 'image/jpeg', 'Cache-Control': 'max-age=31536000' }, body: blob });
+  return storageUrl(nom);
 }

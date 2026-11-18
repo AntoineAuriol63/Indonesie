@@ -4,7 +4,7 @@ import '@fontsource/nunito/latin-400.css';
 import '@fontsource/nunito/latin-700.css';
 import './admin.css';
 
-import { auth, db } from './api.js';
+import { access, db } from './api.js';
 import { itineraryEditor, placeEditor, regionEditor, settingsEditor } from './editors.js';
 import { thumb } from './photos.js';
 import { confirmDialog, dialog, fill, h, toast } from './ui.js';
@@ -35,23 +35,59 @@ const store = {
   rate: () => +docs.get(key('documents', 'site'))?.data.idrPerEur || 20100,
 };
 
-// ---------------------------------------------------------------- Connexion
+// ---------------------------------------------------------------- Accès par code
 
-function loginForm(onDone, message) {
-  const email = h('input', { type: 'email', autocomplete: 'username', required: true, value: auth.lastEmail() });
-  const password = h('input', { type: 'password', autocomplete: 'current-password', required: true });
+// Champ pour un code à 4 chiffres : pavé numérique sur téléphone, chiffres masqués.
+const codeInput = (label) => {
+  const input = h('input', { type: 'password', inputMode: 'numeric', autocomplete: 'off', maxLength: 4, pattern: '[0-9]{4}', required: true, class: 'code', 'aria-label': label });
+  input.addEventListener('input', () => (input.value = input.value.replace(/\D/g, '').slice(0, 4)));
+  return input;
+};
+
+// Formulaire du code : il part tout seul dès que les 4 chiffres sont saisis.
+function codeForm(onDone, message) {
+  const code = codeInput('Code à 4 chiffres');
   const error = h('p', { class: 'login__error', role: 'alert' }, message || '');
-  const button = h('button', { class: 'button button--primary', type: 'submit' }, 'Se connecter');
+  const form = h('form', { class: 'login' }, code, error);
+  let busy = false;
+  const submit = async () => {
+    if (busy || code.value.length !== 4) return;
+    busy = true;
+    error.textContent = '';
+    try {
+      await access.open(code.value);
+      onDone();
+    } catch (e) {
+      if (e.code === 'pas_de_code') return showGate();
+      error.textContent = e.message;
+      code.value = '';
+      code.focus();
+    }
+    busy = false;
+  };
+  code.addEventListener('input', submit);
+  form.addEventListener('submit', (event) => (event.preventDefault(), submit()));
+  return form;
+}
+
+// Choix d'un nouveau code, saisi deux fois (première ouverture du back office, ou changement dans les réglages).
+function newCodeForm(onDone, label) {
+  const first = codeInput('Nouveau code');
+  const second = codeInput('Le même code, une seconde fois');
+  const error = h('p', { class: 'login__error', role: 'alert' });
+  const button = h('button', { class: 'button button--primary', type: 'submit' }, label);
   return h(
     'form',
     {
       class: 'login',
       onsubmit: async (event) => {
         event.preventDefault();
+        if (first.value.length !== 4) return (error.textContent = 'Le code doit faire exactement 4 chiffres.');
+        if (first.value !== second.value) return (error.textContent = 'Les deux codes ne sont pas identiques.');
         button.disabled = true;
         error.textContent = '';
         try {
-          await auth.signIn(email.value.trim(), password.value);
+          await access.choose(first.value);
           onDone();
         } catch (e) {
           error.textContent = e.message;
@@ -59,31 +95,39 @@ function loginForm(onDone, message) {
         }
       },
     },
-    h('div', { class: 'field' }, h('label', {}, 'E-mail', email)),
-    h('div', { class: 'field' }, h('label', {}, 'Mot de passe', password)),
+    h('div', { class: 'field' }, h('label', {}, 'Code à 4 chiffres', first)),
+    h('div', { class: 'field' }, h('label', {}, 'Encore une fois', second)),
     error,
     button,
   );
 }
-function showLogin(message) {
+
+async function showGate(message) {
+  let codeSet = true;
+  try {
+    codeSet = await access.isCodeSet();
+  } catch (error) {
+    return showMessage('Back office indisponible', error.message, [h('button', { class: 'button button--primary', onclick: boot }, 'Réessayer')]);
+  }
   root.replaceChildren(
     h(
       'div',
       { class: 'gate' },
       h('p', { class: 'gate__logo' }, '🌴'),
       h('h1', {}, 'Back office'),
-      h('p', { class: 'gate__sub' }, 'Pour modifier les contenus du site Indonésie.'),
-      loginForm(boot, message),
+      codeSet
+        ? [h('p', { class: 'gate__sub' }, 'Entrez le code à 4 chiffres.'), codeForm(boot, message)]
+        : [h('p', { class: 'gate__sub' }, "Première ouverture : choisissez le code à 4 chiffres qui protégera le back office. Il sera demandé sur chaque nouvel appareil."), newCodeForm(boot, 'Choisir ce code')],
       h('a', { href: '../', class: 'gate__link' }, '‹ Retour au site'),
     ),
   );
   root.querySelector('input').focus();
 }
-// Session expirée en cours de travail : on se reconnecte sans quitter la page, pour ne rien perdre.
+// Session fermée en cours de travail : on redonne le code sans quitter la page, pour ne rien perdre.
 const relogin = () =>
   dialog({
-    title: 'Session expirée',
-    body: (close) => [h('p', {}, 'Reconnectez-vous pour continuer. Vos modifications en cours sont conservées.'), loginForm(() => close(true))],
+    title: 'Back office verrouillé',
+    body: (close) => [h('p', {}, 'Redonnez le code pour continuer. Vos modifications en cours sont conservées.'), codeForm(() => close(true))],
     actions: [{ label: 'Annuler', value: false }],
   });
 async function guarded(action) {
@@ -98,25 +142,13 @@ async function guarded(action) {
 // ---------------------------------------------------------------- Démarrage
 
 async function boot() {
-  if (!auth.email()) return showLogin();
   root.replaceChildren(h('p', { class: 'boot' }, 'Chargement des contenus…'));
   let rows;
-  let editor;
   try {
-    [rows, editor] = await Promise.all([
-      Promise.all([db.list('regions', 'order=position,id'), db.list('etapes', 'order=position,id'), db.list('documents')]),
-      db.isEditor().catch(() => false),
-    ]);
+    if (!(await access.check())) return showGate();
+    rows = await Promise.all([db.list('regions', 'order=position,id'), db.list('etapes', 'order=position,id'), db.list('documents')]);
   } catch (error) {
-    if (error.code === 'session') return showLogin(error.message);
     return showMessage('Chargement impossible', error.message, [h('button', { class: 'button button--primary', onclick: boot }, 'Réessayer')]);
-  }
-  if (!editor) {
-    return showMessage(
-      "Ce compte n'est pas éditeur",
-      `Le compte ${auth.email()} peut se connecter, mais pas modifier les contenus. Pour l'autoriser, relancez la dernière commande du script docs/supabase.sql dans l'éditeur SQL de Supabase.`,
-      [h('button', { class: 'button', onclick: signOut }, 'Se déconnecter')],
-    );
   }
   const [regions, places, documents] = rows;
   if (!regions.length && !places.length) return showImport();
@@ -144,9 +176,11 @@ function showImport() {
     try {
       const snapshot = (await import('../data/snapshot.json')).default;
       const row = ({ id, ...data }, position) => ({ id, position, data });
-      await db.insert('regions', snapshot.regions.map(row), { upsert: true });
-      await db.insert('etapes', snapshot.places.map(row), { upsert: true });
-      await db.insert('documents', Object.entries(snapshot.documents).map(([id, data]) => ({ id, data })), { upsert: true });
+      await db.importAll({
+        regions: snapshot.regions.map(row),
+        etapes: snapshot.places.map(row),
+        documents: Object.entries(snapshot.documents).map(([id, data]) => ({ id, data })),
+      });
       toast(`Import terminé : ${plural(snapshot.regions.length, 'région')}, ${plural(snapshot.places.length, 'étape')}.`);
       boot();
     } catch (error) {
@@ -158,12 +192,12 @@ function showImport() {
   showMessage('La base est vide', "Les contenus actuels du site (régions, étapes, activités, photos, itinéraire) vont être copiés dans la base. C'est à faire une seule fois.", [button]);
 }
 
-async function signOut() {
-  if ([...docs.values()].some(isDirty) && !(await confirmDialog('Se déconnecter ?', 'Des modifications ne sont pas enregistrées. Elles seront perdues.', 'Se déconnecter'))) return;
-  await auth.signOut();
+async function lock() {
+  if ([...docs.values()].some(isDirty) && !(await confirmDialog('Verrouiller le back office ?', 'Des modifications ne sont pas enregistrées. Elles seront perdues.', 'Verrouiller'))) return;
+  await access.lock();
   docs.clear();
   location.hash = '';
-  showLogin();
+  showGate();
 }
 
 // ---------------------------------------------------------------- Mise en page
@@ -193,8 +227,7 @@ function renderShell() {
       h('a', { class: 'top__brand', href: '#/' }, h('span', {}, '🌴'), 'Indonésie', h('small', {}, 'back office')),
       h('span', { class: 'top__space' }),
       h('a', { class: 'button button--ghost', href: '../', target: '_blank', rel: 'noopener' }, 'Voir le site ↗'),
-      h('span', { class: 'top__user' }, auth.email()),
-      h('button', { class: 'button button--ghost', type: 'button', onclick: signOut }, 'Se déconnecter'),
+      h('button', { class: 'button button--ghost', type: 'button', title: 'Le code sera redemandé sur cet appareil', onclick: lock }, 'Verrouiller'),
     ),
     h('div', { class: 'layout' }, side, main),
   );
@@ -337,7 +370,7 @@ function show() {
       if (doc.table !== 'documents') a.querySelector('.side__name').textContent = doc.data.name || 'Sans nom';
     }
   };
-  const view = builders[doc.table]({ doc, changed: () => refresh(), store, open: go, remove: () => removePlace(doc), reorder, download });
+  const view = builders[doc.table]({ doc, changed: () => refresh(), store, open: go, remove: () => removePlace(doc), reorder, download, changeCode });
   current = { doc, refresh };
   main.replaceChildren(
     h(
@@ -425,25 +458,22 @@ async function save(doc, force = false) {
   if (issue) return toast(issue, 'error');
   tidy(doc);
   try {
-    let row;
-    if (doc.isNew) {
-      [row] = await guarded(() => db.insert(doc.table, [{ id: doc.id, ...(doc.table !== 'documents' && { position: doc.position }), data: doc.data }]));
-    } else {
-      const rows = await guarded(() => db.update(doc.table, doc.id, { data: doc.data }, force ? null : doc.updatedAt));
-      if (!rows.length) {
-        const again = await confirmDialog(
-          'Contenu modifié entre-temps',
-          "Ce contenu a été enregistré ailleurs (autre onglet, autre personne) depuis que vous l'avez ouvert. Enregistrer quand même remplace cette autre version par la vôtre ; elle reste dans l'historique.",
-          'Enregistrer quand même',
-          'primary',
-        );
-        if (again) return save(doc, true);
-        return;
-      }
-      row = rows[0];
+    let updatedAt;
+    try {
+      updatedAt = await guarded(() => db.save(doc.table, doc.id, doc.data, { position: doc.isNew ? doc.position : null, expected: doc.isNew || force ? null : doc.updatedAt }));
+    } catch (error) {
+      if (error.code !== 'conflit') throw error;
+      const again = await confirmDialog(
+        'Contenu modifié entre-temps',
+        "Ce contenu a été enregistré ailleurs (autre onglet, autre personne) depuis que vous l'avez ouvert. Enregistrer quand même remplace cette autre version par la vôtre ; elle reste dans l'historique.",
+        'Enregistrer quand même',
+        'primary',
+      );
+      if (again) return save(doc, true);
+      return;
     }
     doc.isNew = false;
-    doc.updatedAt = row.updated_at;
+    doc.updatedAt = updatedAt;
     doc.saved = JSON.stringify(doc.data);
     current?.refresh();
     toast('Enregistré. Le site affiche la nouvelle version dès son prochain chargement.');
@@ -502,7 +532,7 @@ async function removePlace(doc) {
   const text = `« ${doc.data.name} » sera retirée du site avec ses activités et ses photos.${used ? " Elle fait partie de l'exemple d'itinéraire : elle en sera retirée à l'affichage." : ''}`;
   if (!(await confirmDialog("Supprimer l'étape ?", text, 'Supprimer définitivement'))) return;
   try {
-    if (!doc.isNew) await guarded(() => db.remove('etapes', doc.id));
+    if (!doc.isNew) await guarded(() => db.remove(doc.id));
     docs.delete(key('etapes', doc.id));
     renderSide();
     toast('Étape supprimée.');
@@ -523,8 +553,8 @@ async function reorder(regionId, index, delta) {
   try {
     for (const doc of [a, b]) {
       if (doc.isNew) continue;
-      const [row] = await guarded(() => db.update('etapes', doc.id, { position: doc.position }));
-      if (row) doc.updatedAt = row.updated_at;
+      const updatedAt = await guarded(() => db.move(doc.id, doc.position));
+      if (updatedAt) doc.updatedAt = updatedAt;
     }
     renderSide();
   } catch (error) {
@@ -558,7 +588,7 @@ async function history(doc) {
                 h(
                   'div',
                   { class: 'versions__row' },
-                  h('span', {}, h('strong', {}, `Version du ${when(v.saved_at)}`), h('small', {}, [v.saved_by && `remplacée par ${v.saved_by}`, about(v.data)].filter(Boolean).join(' · '))),
+                  h('span', {}, h('strong', {}, `Version du ${when(v.saved_at)}`), h('small', {}, [v.action === 'suppression' ? 'avant suppression' : 'remplacée ce jour-là', about(v.data)].filter(Boolean).join(' · '))),
                   h('button', { type: 'button', class: 'button', onclick: () => close(v) }, 'Reprendre'),
                 ),
               ),
@@ -571,6 +601,17 @@ async function history(doc) {
   show();
   toast('Version reprise. Vérifiez-la, puis enregistrez pour la publier.');
 }
+
+// Changement du code depuis les réglages.
+const changeCode = () =>
+  dialog({
+    title: 'Changer le code',
+    body: (close) => [
+      h('p', {}, 'Le nouveau code sera demandé sur les autres appareils. Celui-ci reste ouvert.'),
+      newCodeForm(() => (close(true), toast('Code changé.')), 'Changer le code'),
+    ],
+    actions: [{ label: 'Annuler', value: false }],
+  });
 
 function download() {
   const snapshot = {
