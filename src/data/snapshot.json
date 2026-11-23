@@ -9,14 +9,14 @@
     "lon": 115.1,
     "dist": 3.7
    },
-   "intro": "On pourrait choisir deux ou trois points de chute : Ubud ou Sidemen pour les rizières et les temples, Munduk pour les lacs et les cascades, puis une étape en bord de mer. Amed et Pemuteran ont les récifs, Uluwatu les falaises et le kecak, Sanur la promenade. Penida et Lembongan ajoutent une traversée et demandent du temps à part.",
+   "intro": "Je choisirais d'abord une base pour les rizières et les temples : Ubud si on veut aussi se déplacer à pied en ville, Sidemen pour rester près des champs. Munduk peut faire une étape dans les hauteurs. Pour la mer, Amed et Pemuteran pour le récif, Uluwatu pour les falaises, Sanur pour la promenade. Les Nusa prennent des jours à part.",
    "label": {
     "lat": -7.45,
     "lon": 114.6
    },
    "short": "Bali",
-   "access": "Avion jusqu'à Denpasar, puis déplacements par la route. Bateau depuis Sanur pour les Nusa. Les bouchons peuvent rallonger les trajets. Dans le budget, compter aussi les formalités d'entrée et la taxe de Bali, avec les montants officiels à jour avant le départ.",
-   "august": "En général, août est sec et très fréquenté. Il peut quand même pleuvoir dans les hauteurs. Sur la côte sud notamment, la houle peut être forte même quand il fait beau.",
+   "access": "Vol jusqu'à Denpasar, puis voiture selon l'étape. Pour Penida ou Lembongan, ajouter le trajet jusqu'au port de Sanur et celui du débarcadère au logement. Vérifier les formalités d'entrée et le montant de la taxe de Bali avant le départ.",
+   "august": "En général, août est sec et chargé. Je réserverais les nuits aux endroits où l'adresse compte, près du récif ou à pied du centre. Dans les hauteurs, garder une veste et, sur la côte sud, regarder la houle avant de choisir où se baigner.",
    "daysMax": 14,
    "daysMin": 7
   },
@@ -29,14 +29,14 @@
     "lon": 120.1,
     "dist": 5.4
    },
-   "intro": "On commencerait à Labuan Bajo pour les bateaux de Komodo : dragons, Padar, plages et récifs. Si on poursuit dans Flores, Ruteng donne accès aux villages manggarai, à Cancar et à Liang Bua. Wae Rebo ajoute une randonnée avec nuit sur place. Pour l'instant, j'ai surtout regardé l'ouest de l'île.",
+   "intro": "Je commencerais à Labuan Bajo pour Padar, les dragons et le snorkeling. Si on a plusieurs jours de plus, on peut aller voir Cancar et les villages autour de Ruteng. Wae Rebo se décide à part : il faut marcher et dormir au village.",
    "label": {
     "lat": -7.5,
     "lon": 122.6
    },
    "short": "Flores et Komodo",
-   "access": "Arrivée à l'aéroport de Labuan Bajo, puis bateau pour le parc. Pour Ruteng et les villages, ce sera de la route avec beaucoup de virages. Il faut plusieurs jours de plus si on veut visiter l'intérieur.",
-   "august": "Août est généralement sec. Les îles sont souvent brunies, avec peu d'ombre, et le vent peut agiter la mer. Avant de réserver Komodo, il faudra regarder les quotas et les créneaux de 2027, puis le parcours proposé par le bateau.",
+   "access": "Vol vers Labuan Bajo, puis bateau pour Komodo. Pour Ruteng, prévoir une voiture et du temps pour les virages. Cancar peut se faire en route. Pour Wae Rebo, compter le transfert jusqu'à Denge en plus de la marche.",
+   "august": "Les îles sont souvent sèches et peu ombragées en août. Le vent peut changer un parcours en mer. Vérifier les quotas et la réservation du parc pour 2027 avant de payer le bateau.",
    "daysMax": 12,
    "daysMin": 5
   },
@@ -49,14 +49,14 @@
     "lon": 110,
     "dist": 13.5
    },
-   "intro": "Des grandes villes, les temples autour de Jogja et des volcans. Le train permet de relier Jakarta, Bandung, Yogyakarta, Malang et Surabaya ; Dieng, le Bromo et Tumpak Sewu demandent ensuite de la route. Il y a largement de quoi remplir deux semaines, donc il faudra choisir les étapes.",
+   "intro": "Jakarta pour la ville et la cuisine, Jogja pour les temples, Malang pour le Bromo. Ça donne déjà un trajet cohérent en train. Je regarderais Bandung, Dieng ou Tumpak Sewu si on a assez de jours pour les détours.",
    "label": {
     "lat": -6.2,
     "lon": 109.2
    },
    "short": "Java",
-   "access": "On peut regarder les arrivées à Jakarta, Yogyakarta ou Surabaya. Train entre les villes, puis chauffeur ou excursion pour les sites éloignés. On choisira les trains et les gares sur KAI quand les dates seront fixées.",
-   "august": "C'est généralement la saison sèche sur une grande partie de Java, mais il reste des averses et des matinées couvertes. Prendre des vêtements chauds pour l'altitude et les départs de nuit. Les volcans peuvent fermer selon leur activité ou les décisions des parcs.",
+   "access": "Comparer les arrivées à Jakarta, Yogyakarta ou Surabaya. Une fois le sens du trajet choisi, vérifier les gares et les horaires sur KAI. Prévoir une voiture ou une excursion pour Dieng, le Bromo et Tumpak Sewu.",
+   "august": "Août est souvent sec, avec des averses et du ciel couvert possibles. Prendre de quoi se couvrir pour l'altitude et les départs de nuit. Les visites des volcans dépendent des ouvertures du parc et de leur activité.",
    "daysMax": 15,
    "daysMin": 7
   },
@@ -69,14 +69,14 @@
     "lon": 114.6,
     "dist": 13
    },
-   "intro": "Deux idées assez éloignées l'une de l'autre dans la partie indonésienne de Bornéo. À Tanjung Puting, on remonte la rivière en bateau pour chercher les orangs-outans. À Derawan et Maratua, on reste dans les îles pour les récifs et les sorties en mer. Il faut les regarder comme deux séjours différents.",
+   "intro": "Tanjung Puting pour remonter la rivière en dormant sur un bateau. Derawan et Maratua pour poser ses affaires sur une île et sortir sur les récifs. Je choisirais selon ce qu'on a le plus envie de faire, car les deux secteurs sont éloignés.",
    "label": {
     "lat": -0.3,
     "lon": 113.8
    },
    "short": "Kalimantan",
-   "access": "Tanjung Puting : vol jusqu'à Pangkalan Bun, route vers Kumai puis klotok privé ou partagé. Derawan : arrivée possible par Berau, puis route et bateau. Faire les deux demande des liaisons en plus.",
-   "august": "Il pleut toute l'année, avec un mois d'août parfois moins arrosé selon les secteurs. Les feux de forêt et de tourbe peuvent aussi gêner les visites et les vols. La situation sera à regarder peu avant le voyage.",
+   "access": "Pour Tanjung Puting, vol vers Pangkalan Bun, route jusqu'à Kumai puis klotok. Pour Derawan, arrivée possible à Berau avant la route et le bateau. Comparer les transferts complets avant de décider.",
+   "august": "Il peut pleuvoir en août. Je vérifierais peu avant le départ si la fumée des feux gêne les vols ou les sorties dans le secteur choisi.",
    "daysMax": 10,
    "daysMin": 4
   },
@@ -89,14 +89,14 @@
     "lon": 116.3,
     "dist": 3.3
    },
-   "intro": "Kuta pour les plages et le surf, Tetebatu pour marcher dans les champs et voir les artisans, Senaru pour les cascades. Les trois Gili sont au large du nord-ouest et peuvent compléter le séjour. Tout ça se fait sans monter au Rinjani, dont l'ascension dépasse le type de randonnée qu'on cherche.",
+   "intro": "Kuta pour les plages, Tetebatu pour les champs et les artisans, Senaru pour les cascades. On peut finir dans les Gili si on veut passer quelques jours près de l'eau. Je choisirais deux bases sur Lombok selon le temps disponible.",
    "label": {
     "lat": -9.4,
     "lon": 116.35
    },
    "short": "Lombok et Gili",
-   "access": "Avion jusqu'à Lombok ou bateau depuis Bali. Sur Lombok, on circule par la route ; pour les Gili, le port dépend du bateau choisi. Garder une marge entre le retour d'une île et le vol international.",
-   "august": "Août est généralement sec. Les collines du sud sont souvent jaunes ; dans les champs, ça dépend des cultures et des récoltes. Les traversées entre Bali, Lombok et les Gili peuvent être agitées ou perturbées par le vent.",
+   "access": "Vol vers Lombok ou bateau depuis Bali, puis voiture sur l'île. Pour les Gili, vérifier le port que dessert l'opérateur. Garder du temps entre le retour des îles et le vol international.",
+   "august": "Août est généralement sec. Les collines du sud peuvent être jaunes et l'état des rizières dépend des récoltes. Le vent peut perturber les traversées entre Bali, Lombok et les Gili.",
    "daysMax": 10,
    "daysMin": 5
   },
@@ -109,14 +109,14 @@
     "lon": 128.4,
     "dist": 11.5
    },
-   "intro": "Banda m'intéresse pour la muscade et les forts ; Ternate et Tidore pour les sultanats et les paysages volcaniques. Morotai ajoute les îlots et l'histoire de la Seconde Guerre mondiale. Banda se rejoint plutôt par Ambon, le nord par Ternate. Les relier prend du temps : on choisirait probablement un de ces deux secteurs.",
+   "intro": "Banda pour les forts et la muscade. Ternate et Tidore pour les sultanats, les girofliers et les paysages volcaniques. Morotai peut s'ajouter au nord si les bateaux ou les vols tombent bien. Je choisirais d'abord entre Banda et le nord.",
    "label": {
     "lat": -1.6,
     "lon": 128.5
    },
    "short": "Moluques",
-   "access": "Avion jusqu'à Ambon ou Ternate, puis bateau ou petit avion selon l'île. Les départs décideront d'une partie du planning. Garder plusieurs jours de marge avant une correspondance importante.",
-   "august": "À Banda, août peut encore être pluvieux et venteux, avec une mer difficile. Dans le nord, la pluie reste possible toute l'année. Il faudra d'abord voir quelles liaisons fonctionnent à nos dates avant de retenir cette région.",
+   "access": "Passer par Ambon pour Banda ou par Ternate pour le nord. Vérifier les départs dans les deux sens avant de fixer les nuits. Laisser plusieurs jours de marge avant une correspondance importante.",
+   "august": "À Banda, le vent et la pluie peuvent limiter les traversées en août. La pluie reste possible au nord aussi. Je déciderais de l'étape une fois les liaisons de nos dates connues.",
    "daysMax": 12,
    "daysMin": 6
   },
@@ -129,14 +129,14 @@
     "lon": 130.5,
     "dist": 4.2
    },
-   "intro": "L'idée serait de rester plusieurs nuits au même endroit, à Kri, Gam ou Arborek, pour le récif et les sorties en bateau. Il y a aussi les oiseaux en forêt et Piaynemo, plus loin dans les îles Fam. Bien regarder le confort des homestays et le coût des bateaux : les repas sont souvent inclus, les transferts et excursions beaucoup moins.",
+   "intro": "Je prendrais une base à Kri, Gam ou Arborek pour alterner récif et sorties en bateau. On peut ajouter les oiseaux en forêt ou une journée vers Piaynemo selon la mer. Comparer la chambre, les repas compris et le prix des sorties séparément.",
    "label": {
     "lat": 1,
     "lon": 131.2
    },
    "short": "Raja Ampat",
-   "access": "Vol jusqu'à Sorong, ferry vers Waisai puis bateau du logement. Certaines adresses proposent un autre trajet : comparer le coût de l'aller-retour complet. Ajouter les droits touristiques et marins au budget.",
-   "august": "Le vent de sud-est peut gêner les sorties en août. Demander aux hébergements comment leur côte est exposée et quelles excursions restent possibles. Garder des journées libres pour décaler. On peut voir des mantas, mais on ne choisira pas les dates sur cette seule attente.",
+   "access": "Vol vers Sorong, ferry jusqu'à Waisai, puis bateau de l'hébergement. Demander le prix de l'aller-retour avec les horaires. Ajouter les droits touristiques et marins au budget.",
+   "august": "Demander au logement quels récifs et quelles sorties restent accessibles quand le vent de sud-est souffle. Je garderais une journée libre pour décaler Piaynemo ou une autre sortie.",
    "daysMax": 10,
    "daysMin": 7
   },
@@ -149,14 +149,14 @@
     "lon": 121.9,
     "dist": 12
    },
-   "intro": "Au sud, les villages, les tombes et les paysages du pays Toraja. Au nord, Bunaken pour les récifs et Tangkoko pour la forêt et les animaux. Bunaken et Tangkoko se combinent assez facilement ; ajouter Toraja demande un autre déplacement. Les funérailles dépendent du calendrier des familles.",
+   "intro": "Au nord, on peut combiner les récifs de Bunaken et deux marches en forêt à Tangkoko. Le pays Toraja donne un autre séjour au sud, pour les villages, les tombes et les rizières. Si on retient les deux, il faut compter le déplacement entre les régions.",
    "label": {
     "lat": -2.4,
     "lon": 121
    },
    "short": "Sulawesi",
-   "access": "Makassar pour partir vers Toraja, par la route ou avec un vol intérieur s'il fonctionne à nos dates. Manado pour Bunaken et Tangkoko. Si on fait le sud et le nord, regarder les vols et leurs éventuelles correspondances.",
-   "august": "On peut envisager ces secteurs en août, mais il n'y a pas une météo commune à toute Sulawesi. De la pluie reste possible en montagne et la mer est à surveiller pour Bunaken. Les cérémonies toraja se confirment localement.",
+   "access": "Arrivée à Manado pour Bunaken et Tangkoko. Pour Toraja, passer par Makassar et continuer en bus ou voiture. Regarder les vols intérieurs et leurs correspondances si on veut combiner les deux.",
+   "august": "Regarder la mer pour les sorties depuis Bunaken et prévoir de la pluie en montagne. En Toraja, demander sur place les dates du marché et les possibilités de visite avec un guide.",
    "daysMax": 14,
    "daysMin": 6
   },
@@ -169,14 +169,14 @@
     "lon": 99.8,
     "dist": 10
    },
-   "intro": "Deux secteurs à comparer. Dans le nord : Medan, la forêt de Bukit Lawang et le lac Toba. Dans l'ouest : Bukittinggi et les environs, pour les paysages et la culture minangkabau. Les trajets routiers prennent du temps. On gagnerait à en choisir un plutôt que de trop enchaîner.",
+   "intro": "Dans le nord, Medan peut précéder la forêt de Bukit Lawang et le lac Toba. À l'ouest, Bukittinggi permet de voir les paysages et les villages minangkabau. Je choisirais un secteur pour avoir du temps sur place entre les journées de route.",
    "label": {
     "lat": -0.9,
     "lon": 101.6
    },
    "short": "Sumatra",
-   "access": "Arrivée à Medan pour le nord ou à Padang pour l'ouest. Ensuite, voiture, bus ou minibus, puis bateau pour Samosir. Entre les deux secteurs, regarder les vols disponibles sans compter d'avance sur un direct.",
-   "august": "Il peut pleuvoir en août, notamment à Bukit Lawang et au lac Toba. Prévoir des chemins humides et glissants. Les épisodes de fumée liés aux feux dépendent des années et seront à surveiller avant de partir.",
+   "access": "Vol vers Medan pour le nord ou Padang pour l'ouest. Pour Samosir, ajouter le bateau à la route. Pour combiner les deux secteurs, comparer les vols réellement disponibles à nos dates.",
+   "august": "Il peut pleuvoir en août, même si on choisit une marche courte à Bukit Lawang. Demander l'état des sentiers au guide. Vérifier s'il y a des épisodes de fumée peu avant de partir.",
    "daysMax": 14,
    "daysMin": 7
   },
@@ -189,14 +189,14 @@
     "lon": 119.85,
     "dist": 4.2
    },
-   "intro": "À l'ouest, les villages autour de Waikabubak et la côte de Kodi, avec Ratenggaro et Weekuri. À l'est, les ateliers d'ikat, les collines et les cascades autour de Waingapu. Il faut choisir les logements en fonction des visites : les distances risquent sinon de faire beaucoup d'allers-retours.",
+   "intro": "À l'ouest, je ferais les villages de Waikabubak et une journée vers Kodi pour Ratenggaro et Weekuri. À l'est, on peut partir de Waingapu pour les ikats, les collines et les cascades. Si on retient les deux, mieux vaut prendre des nuits de chaque côté.",
    "label": {
     "lat": -10.75,
     "lon": 119.9
    },
    "short": "Sumba",
-   "access": "Tambolaka pour l'ouest, Waingapu pour l'est. On regardera les vols avant de décider si on traverse l'île. Une voiture avec chauffeur serait pratique pour les villages, les plages et les cascades.",
-   "august": "Généralement sec en août, avec des collines jaunes ou brunes et peu d'ombre sur la côte. La Pasola a habituellement lieu en février ou mars : on ne la verra pas pendant ce voyage.",
+   "access": "Tambolaka pour l'ouest et Waingapu pour l'est. Regarder si les vols permettent d'arriver d'un côté et de repartir de l'autre. Prévoir un chauffeur pour les visites dispersées.",
+   "august": "Août est généralement sec, avec des collines jaunes ou brunes et peu d'ombre côté mer. La Pasola a généralement lieu en février ou mars.",
    "daysMax": 8,
    "daysMin": 5
   },
@@ -209,14 +209,14 @@
     "lon": 117.8,
     "dist": 5
    },
-   "intro": "J'ai surtout regardé Sumbawa Besar et son palais en bois, Moyo pour les cascades et le récif, puis Kenawa près de Poto Tano. La baie de Saleh serait une autre sortie, pour chercher les requins-baleines. Le Tambora n'est pas retenu ici, vu le format de randonnées qu'on cherche.",
+   "intro": "Le palais de Sumbawa Besar, puis Moyo pour les cascades et le récif. Je mettrais Kenawa au passage de Poto Tano. La baie de Saleh prend une sortie à part si on veut chercher les requins-baleines.",
    "label": {
     "lat": -7.45,
     "lon": 118.2
    },
    "short": "Sumbawa",
-   "access": "Depuis Lombok, ferry Kayangan–Poto Tano puis route. On peut aussi regarder les vols vers Sumbawa Besar. Pour Moyo, fixer l'aller et le retour avec le logement, les départs locaux ne suivant pas forcément un horaire quotidien.",
-   "august": "Août est généralement sec, mais le vent peut gêner les bateaux vers Moyo ou Kenawa. Pour les requins-baleines, se renseigner sur les pratiques d'observation et ne pas compter sur une rencontre assurée.",
+   "access": "Depuis Lombok, ferry de Kayangan à Poto Tano, puis voiture. Regarder aussi les vols vers Sumbawa Besar. Pour Moyo, convenir de l'aller et du retour avec le logement avant de réserver les nuits autour.",
+   "august": "Le vent peut modifier les sorties en bateau même pendant la saison sèche. Pour la baie de Saleh, demander comment l'opérateur organise l'observation et prévoir que les requins-baleines peuvent manquer au rendez-vous.",
    "daysMax": 7,
    "daysMin": 4
   },
@@ -229,14 +229,14 @@
     "lon": 124,
     "dist": 5.6
    },
-   "intro": "Kupang pour une soirée en ville avant de rejoindre Alor. À Alor et Kepa, on viendrait surtout pour les récifs, avec des sorties vers les villages et Kalabahi. Le courant peut être fort : choisir une adresse qui organise du snorkeling, pas seulement de la plongée.",
+   "intro": "Kupang pour une soirée avant le vol. À Alor, je choisirais Kepa pour passer du temps près du récif, avec une journée à Takpala et Kalabahi. Regarder quelles sorties sont prévues pour le snorkeling.",
    "label": {
     "lat": -10.9,
     "lon": 125.6
    },
    "short": "Timor et Alor",
-   "access": "Passage par Kupang pour le vol vers l'aéroport de Mali, puis route et barque pour Kepa. Faire organiser le transfert complet. Au retour, garder une nuit de marge à Kupang avant le vol suivant.",
-   "august": "Août est généralement sec, mais le vent peut compliquer les bateaux. Le courant et la température de l'eau changent selon les sites. Demander au logement le matériel à apporter.",
+   "access": "Vol de Kupang vers Mali, puis route et barque jusqu'à Kepa. Demander un transfert complet au logement. Au retour, je garderais une nuit à Kupang avant le vol suivant.",
+   "august": "Août est souvent sec, mais le vent peut gêner les bateaux. Demander où on pourra nager selon le courant et la température de l'eau, et quel matériel le logement fournit.",
    "daysMax": 9,
    "daysMin": 5
   }
@@ -258,7 +258,7 @@
      "lat": -8.4352,
      "lon": 115.2806,
      "name": "Rizières de Tegallalang",
-     "text": "Des rizières en terrasses avec plusieurs entrées et des chemins qui descendent dans le vallon. Il y a des marches. Les balançoires se paient à part : regarder ce que comprend le billet avant de choisir l'accès.",
+     "text": "Descendre dans le vallon pour voir les terrasses de plus près. Il y a plusieurs entrées et des marches. Regarder ce que le billet permet de parcourir : les balançoires se paient à part.",
      "time": "environ 1 h 30",
      "type": "Nature",
      "price": null
@@ -348,11 +348,11 @@
     }
    ],
    "intro": [
-    "On pourrait dormir à Ubud pour les temples, les rizières et une soirée de danse. Le centre se parcourt à pied, les environs demandent de la route. Je garderais aussi du temps pour marcher sans avoir une excursion chaque jour."
+    "Le palais, le marché et la danse se font depuis le centre. Je ferais une journée à part pour Tirta Empul, Gunung Kawi et les rizières de Tegallalang. Entre les deux, on peut marcher sur la crête de Campuhan ou garder une matinée libre."
    ],
    "model": "pura",
    "short": "Ubud",
-   "access": "Depuis l'aéroport de Denpasar, on rejoint Ubud par la route. Le temps dépend beaucoup des bouchons et de l'adresse. Le centre se fait à pied ; pour les temples et les cascades autour, il faut un véhicule.",
+   "access": "Voiture depuis l'aéroport de Denpasar. Regarder le temps jusqu'à l'adresse exacte, surtout si on arrive en fin de journée. Une fois installés, on peut faire le centre à pied et réserver un chauffeur pour les temples.",
    "photos": [
     {
      "file": "Rice terraces, Ubud, Bali.jpg",
@@ -418,7 +418,7 @@
      "lat": -8.2542,
      "lon": 115.0735,
      "name": "Sentier des cascades de Munduk",
-     "text": "Golden Valley, Red Coral, Labuhan Kebo et Melanting peuvent se visiter à pied autour de Munduk. À voir avec le logement pour une boucle à notre rythme : certains passages et escaliers sont raides. Plusieurs entrées se paient séparément.",
+     "text": "On peut relier Golden Valley, Red Coral, Labuhan Kebo et Melanting à pied. Demander au logement où commencer et quelles chutes garder si on veut raccourcir la marche. Les escaliers sont parfois raides et plusieurs entrées se paient séparément.",
      "time": "environ 3 à 4 h",
      "type": "Randonnée",
      "price": null
@@ -470,11 +470,11 @@
     }
    ],
    "intro": [
-    "Une étape pour marcher entre cascades, plantations et lacs, dans un coin plus frais que la côte. Il y a beaucoup de marches sur certains chemins : une balade courte peut quand même être fatigante."
+    "Des cascades à pied autour du village, avec des marches au retour. On peut voir le temple de Bedugul et les lacs en venant, puis garder une autre journée pour les sentiers de Munduk."
    ],
    "model": "waterfall",
    "short": "Munduk",
-   "access": "On arrive par la route depuis Ubud, le sud ou la côte nord. Bedugul et les lacs peuvent se faire en chemin. Les arrêts prennent du temps : garder les cascades pour une autre journée.",
+   "access": "Route depuis Ubud ou la côte nord. Si on vient du sud, demander au chauffeur d'attendre à Bedugul le temps de voir le temple. Pour les cascades à pied, demander au logement où rejoindre le sentier.",
    "photos": [
     {
      "file": "Banyumala Waterfall.jpg",
@@ -537,7 +537,7 @@
    "todo": [
     {
      "name": "Balade dans les rizières",
-     "text": "Marcher entre les parcelles, les canaux et les hameaux. Un guide du coin connaît les chemins où l'on peut passer et adapte la boucle au temps qu'on a.",
+     "text": "Suivre les canaux d'irrigation et passer entre les parcelles et les hameaux. Demander à un guide du village de nous montrer les passages autorisés et d'adapter la boucle au temps qu'on a.",
      "time": "environ 2 à 3 h",
      "type": "Randonnée",
      "price": null
@@ -553,7 +553,7 @@
      "lat": -8.4113,
      "lon": 115.5881,
      "name": "Tirta Gangga",
-     "text": "Des bassins, des fontaines et des allées entre les statues. Il faut prendre la voiture depuis Sidemen ; on peut regrouper la visite avec un autre arrêt dans l'est.",
+     "text": "Des bassins, des fontaines et des allées entre les statues. Il faut prendre la voiture depuis Sidemen. On peut regrouper la visite avec un autre arrêt dans l'est.",
      "time": "environ 1 h 30 sur place",
      "type": "Culture",
      "price": null
@@ -592,11 +592,11 @@
     }
    ],
    "intro": [
-    "Les rizières et le tissage autour du village, puis les temples de l'est en excursion. Si on dort ici, autant garder du temps à Sidemen au lieu de repartir tous les matins en voiture."
+    "Les rizières et les ateliers de tissage autour du village peuvent prendre une journée. J'ajouterais Besakih ou Tirta Gangga le lendemain selon ce qu'on a le plus envie de voir."
    ],
    "model": "rice",
    "short": "Sidemen",
-   "access": "Route depuis Ubud ou l'aéroport. Pour repartir, passer par le logement ou un chauffeur. Padang Bai peut servir à continuer vers Lombok ou les Gili, selon le bateau choisi.",
+   "access": "Voiture depuis Ubud ou l'aéroport. On peut passer à Kerta Gosa en venant d'Ubud. Si on continue vers Lombok ou les Gili, regarder les bateaux de Padang Bai avant de fixer le départ de Sidemen.",
    "photos": [
     {
      "file": "Sidemen sawah countryside (Bali, Indonesia 2016) (30039194120).jpg",
@@ -664,7 +664,7 @@
      "lat": -8.3388,
      "lon": 115.66,
      "name": "Snorkeling dans la baie de Jemeluk",
-     "text": "Le récif de Jemeluk est accessible depuis la plage quand la mer le permet. Demander où entrer dans l'eau et jusqu'où aller. Des bateaux passent dans la baie.",
+     "text": "Entrer depuis la plage de Jemeluk si la mer est calme. Demander où se mettre à l'eau et jusqu'où nager : des bateaux passent dans la baie.",
      "time": "environ 2 h",
      "type": "Mer",
      "price": null
@@ -696,7 +696,7 @@
     },
     {
      "name": "Coucher de soleil à Jemeluk",
-     "text": "Monter sur les hauteurs de Jemeluk en fin de journée pour voir la baie et, s'il est dégagé, l'Agung.",
+     "text": "Monter au-dessus de Jemeluk en fin de journée pour voir la courbe de la baie. L'Agung peut apparaître derrière si le ciel se dégage. Ça se place après une journée à Jemeluk sans changer de secteur.",
      "time": "environ 1 h",
      "type": "Nature",
      "price": null
@@ -719,11 +719,11 @@
     }
    ],
    "intro": [
-    "Quelques jours près de la mer, avec Jemeluk, Lipah et une sortie possible à Tulamben. Amed s'étire le long de la côte. Il faut choisir l'adresse selon le récif et la plage qu'on veut avoir à proximité."
+    "Jemeluk pour le récif, Lipah pour une autre matinée dans l'eau, Tulamben si on veut voir l'épave du Liberty. Je choisirais d'abord la baie où dormir : les villages s'étirent le long de la côte."
    ],
    "model": "snorkel",
    "short": "Amed",
-   "access": "Amed regroupe plusieurs villages de la côte est. On y arrive par la route depuis Sidemen, Ubud ou le sud. Regarder l'adresse du logement : Jemeluk, Lipah et Tulamben ne sont pas tous à côté.",
+   "access": "Route depuis Sidemen, Ubud ou le sud. Demander quel accès à l'eau est à pied depuis le logement. Prévoir un trajet séparé pour Tulamben.",
    "photos": [
     {
      "file": "Amed, Bali. (14360249512).jpg",
@@ -793,7 +793,7 @@
      "lat": -8.143,
      "lon": 114.5399,
      "name": "Snorkeling à Menjangan",
-     "text": "Une journée en bateau sur les récifs de Menjangan. Comparer le nombre d'arrêts et le prix complet : guide, matériel, repas et droit du parc. Le choix des sites dépend de la mer.",
+     "text": "Une journée en bateau pour nager le long des récifs de Menjangan. Demander combien de mises à l'eau sont prévues et si le prix couvre le guide, le matériel, le repas et l'entrée du parc. Les arrêts peuvent changer selon la mer.",
      "time": "la journée",
      "type": "Mer",
      "price": null
@@ -843,11 +843,11 @@
     }
    ],
    "intro": [
-    "On peut nager près de Pemuteran, sortir en bateau à Menjangan et marcher avec un guide dans Bali Barat. De quoi rester plusieurs jours en alternant les sorties."
+    "On peut passer une journée à Menjangan en bateau, puis nager devant Pemuteran ou marcher dans le parc de Bali Barat le lendemain. Je garderais une matinée libre pour déplacer la sortie en mer si besoin."
    ],
    "model": "fish",
    "short": "Menjangan",
-   "access": "Pemuteran est sur la côte nord-ouest, accessible par la route depuis Munduk, Lovina ou Gilimanuk. Pour Menjangan, il reste le bateau : demander d'où il part et comment rejoindre le port depuis l'hôtel.",
+   "access": "Route depuis Munduk, Lovina ou Gilimanuk. Pour Menjangan, demander à l'opérateur d'où part le bateau et si le trajet entre l'hôtel et le port est compris.",
    "photos": [
     {
      "file": "Foto kapal pengangkut turis yang berlabuh sesaat di pulau menjangan.jpg",
@@ -917,7 +917,7 @@
      "lat": -8.8294,
      "lon": 115.0843,
      "name": "Temple d'Uluwatu",
-     "text": "Le temple surplombe l'océan, avec un chemin le long de la falaise. Ranger lunettes et petits objets : les macaques peuvent les attraper. Si ça arrive, appeler le personnel.",
+     "text": "Marcher le long de la falaise jusqu'au temple. On peut prolonger avec le kecak si on a les billets. Ranger lunettes et petits objets avant d'entrer. Si un macaque prend quelque chose, appeler le personnel.",
      "time": "environ 1 h 30",
      "type": "Culture",
      "price": null
@@ -935,7 +935,7 @@
      "lat": -8.8112,
      "lon": 115.1036,
      "name": "Plage de Padang Padang",
-     "text": "Une petite crique qu'on rejoint par un escalier entre les rochers. Il peut y avoir beaucoup de monde et de la houle. Se renseigner sur la baignade en arrivant.",
+     "text": "Une petite crique qu'on rejoint par un escalier entre les rochers. Il peut y avoir beaucoup de monde et de la houle. Demander en arrivant si on peut se baigner.",
      "time": "environ 2 h",
      "type": "Mer",
      "price": null
@@ -985,11 +985,11 @@
     }
    ],
    "intro": [
-    "Les falaises, le temple, le kecak et les plages en contrebas. Certaines criques demandent de longs escaliers. Je regarderais surtout cette étape pour les paysages côtiers, en choisissant la baignade ou le surf selon les conditions."
+    "Je ferais le temple et le kecak en fin de journée, avec une plage avant si on a le temps. Pour une deuxième journée, on peut choisir entre un cours de surf et une plage facile d'accès comme Melasti."
    ],
    "model": "surf",
    "short": "Uluwatu",
-   "access": "Route depuis l'aéroport vers la péninsule de Bukit. Les plages sont espacées et les bouchons peuvent prendre du temps. Si on ne maîtrise pas le scooter, on peut organiser les journées avec un chauffeur.",
+   "access": "Route depuis l'aéroport vers la péninsule de Bukit. Regarder la distance entre le logement et les plages qu'on veut voir. Pour faire plusieurs arrêts, prévoir une voiture et laisser du temps pour les embouteillages.",
    "photos": [
     {
      "file": "Kuta Bali Indonesia Pura-Luhur-Uluwatu-03.jpg",
@@ -1060,7 +1060,7 @@
      "lat": -8.7513,
      "lon": 115.4731,
      "name": "Kelingking",
-     "text": "La falaise et la plage de Kelingking vues d'en haut. On peut s'en tenir au belvédère. La descente est raide et exposée, et prend bien plus de temps que cette visite.",
+     "text": "Monter au belvédère pour voir la falaise et la plage en contrebas. Je prévoirais le temps pour la vue seule : descendre jusqu'à la plage est une marche raide et exposée, avec toute la remontée à faire.",
      "time": "environ 1 h au point de vue, hors route",
      "type": "Nature",
      "price": null
@@ -1119,7 +1119,7 @@
     },
     {
      "name": "Mangrove de Lembongan",
-     "text": "Parcourir la mangrove en barque ou en kayak. L'heure de départ dépend de la marée ; fixer la durée et le prix avec le prestataire.",
+     "text": "Parcourir la mangrove en barque ou en kayak. L'heure de départ dépend de la marée. Fixer la durée et le prix avec le prestataire.",
      "time": "environ 1 h",
      "type": "Nature",
      "price": null
@@ -1135,11 +1135,11 @@
     }
    ],
    "intro": [
-    "Penida pour les grandes falaises ; Lembongan et Ceningan pour une étape plus compacte, avec la mangrove et les sorties en mer. Il faut choisir où dormir. On ne pourra pas tout faire dans une journée depuis Bali."
+    "À Penida, on peut consacrer une journée aux falaises de l'ouest et une autre à Diamond Beach ou à une sortie en mer. À Lembongan, la mangrove, le pont jaune et Ceningan se combinent plus facilement. Je choisirais où dormir avant de faire le programme."
    ],
    "model": "manta",
    "short": "Penida / Lembongan",
-   "access": "Bateau rapide depuis Sanur. Le port d'arrivée dépend de l'opérateur et de l'île. Ajouter l'enregistrement et les trajets jusqu'aux logements au temps en mer. Pour changer d'île, confirmer l'aller et le retour avant de partir.",
+   "access": "Bateau rapide depuis Sanur. Vérifier le port d'arrivée et le temps jusqu'au logement. Si on change d'île, regarder les deux traversées avant de réserver les nuits.",
    "photos": [
     {
      "file": "Wonderfull Nusa Penida.jpg",
@@ -1210,7 +1210,7 @@
      "lat": -8.5683,
      "lon": 119.5069,
      "name": "Dragons de Komodo ou de Rinca",
-     "text": "Marcher sur Komodo ou Rinca avec un ranger pour chercher les dragons. Ce sont des animaux sauvages : suivre les distances et les consignes du parc, même s'ils semblent immobiles.",
+     "text": "On descend du bateau sur Komodo ou Rinca pour marcher avec un ranger. Demander à l'opérateur quelle île figure au programme. Pour observer les dragons, garder la distance indiquée par le ranger, même si l'animal reste immobile.",
      "time": "environ 1 à 2 h",
      "type": "Faune",
      "price": null
@@ -1228,14 +1228,14 @@
      "lat": -8.6014,
      "lon": 119.5205,
      "name": "Pink Beach",
-     "text": "Un arrêt sur une plage au sable rosé. La couleur change avec la lumière et plusieurs circuits ne vont pas au même endroit : regarder lequel est prévu. Baignade selon les conditions.",
+     "text": "Une pause sur une plage au sable rosé. Plusieurs circuits s'arrêtent sur des plages différentes : demander laquelle est prévue. La couleur change avec la lumière. Pour se baigner, suivre les indications de l'équipage.",
      "time": "environ 1 h",
      "type": "Mer",
      "price": null
     },
     {
      "name": "Chercher les raies manta",
-     "text": "Chercher les mantas pendant un arrêt de snorkeling, si le courant et la mer le permettent. Rien ne garantit d'en voir ; si elles sont là, on les laisse passer sans les poursuivre.",
+     "text": "Chercher les mantas pendant un arrêt de snorkeling, si le courant et la mer le permettent. Rien ne garantit d'en voir. Si elles sont là, on les laisse passer sans les poursuivre.",
      "time": "environ 45 min",
      "type": "Faune",
      "price": null
@@ -1260,7 +1260,7 @@
      "lat": -8.5472,
      "lon": 119.8146,
      "name": "Île de Kelor",
-     "text": "Une plage et une colline sur laquelle on peut monter. Le chemin est raide et sans beaucoup d'abri ; on peut aussi rester en bas.",
+     "text": "Une plage et une colline sur laquelle on peut monter. Le chemin est raide et sans beaucoup d'abri. On peut aussi rester en bas.",
      "time": "environ 1 h",
      "type": "Randonnée",
      "price": null
@@ -1285,11 +1285,11 @@
     }
    ],
    "intro": [
-    "Depuis Labuan Bajo, on part en bateau vers les îles du parc. À choisir entre une grosse journée en bateau rapide et plusieurs jours avec des nuits à bord. Ça change le temps sur les sites, le budget et le confort."
+    "Padar, les dragons et Pink Beach donnent déjà une grosse journée sur l'eau. Avec une nuit ou deux à bord, on peut étaler les arrêts et ajouter Kalong ou Kelor selon le parcours. À Labuan Bajo, Rangko peut se faire à part."
    ],
    "model": "komodo",
    "short": "Komodo",
-   "access": "Avion jusqu'à Labuan Bajo, puis transfert vers le logement ou le port. Les visites du parc se font en bateau. À choisir entre une journée en bateau rapide et une croisière avec nuits à bord.",
+   "access": "Vol jusqu'à Labuan Bajo, puis voiture jusqu'au logement ou au port. Regarder l'heure d'embarquement avant de réserver le vol. Selon le départ, il peut être plus simple de dormir en ville la veille.",
    "photos": [
     {
      "file": "Pulau Padar 1.jpg",
@@ -1355,7 +1355,7 @@
      "lat": -8.5887,
      "lon": 120.3789,
      "name": "Rizières en toile d'araignée de Cancar",
-     "text": "Du belvédère, on voit les champs organisés en toile d'araignée. On peut s'arrêter à Cancar en chemin, en comptant la marche jusqu'au point de vue.",
+     "text": "Monter au belvédère de Cancar pour voir les parcelles qui rayonnent comme une toile d'araignée. Ça peut se faire sur la route de Labuan Bajo si le chauffeur prévoit le temps de la marche.",
      "time": "environ 1 h",
      "type": "Nature",
      "price": null
@@ -1398,18 +1398,18 @@
     },
     {
      "name": "Combat de caci",
-     "text": "Une représentation de caci peut avoir lieu pendant un événement local. À demander une fois les dates du séjour connues ; on ne peut pas la compter d'avance dans le programme.",
+     "text": "Une représentation de caci peut avoir lieu pendant un événement local. À demander une fois les dates du séjour connues. On ne peut pas la compter d'avance dans le programme.",
      "time": "selon l’événement annoncé",
      "type": "Culture",
      "price": null
     }
    ],
    "intro": [
-    "Une étape à l'intérieur de Flores pour les villages manggarai et les paysages agricoles. Cancar peut se faire en route depuis Labuan Bajo, puis Liang Bua, les villages ou Ranamese depuis Ruteng. Il faut plusieurs trajets."
+    "On peut voir les rizières de Cancar sur la route de Labuan Bajo. Depuis Ruteng, je ferais le village de Ruteng Pu’u et le marché, puis Liang Bua ou le lac Ranamese selon le temps qu'on a."
    ],
    "model": "rice",
    "short": "Ruteng",
-   "access": "Depuis Labuan Bajo, plusieurs heures sur la route transflorésienne, avec beaucoup de virages. On peut s'arrêter à Cancar en chemin. Les autres visites se répartissent autour de Ruteng.",
+   "access": "Plusieurs heures de voiture depuis Labuan Bajo sur une route sinueuse. Prévenir le chauffeur si on veut s'arrêter à Cancar. Pour Liang Bua et Ranamese, regarder les trajets séparément au départ de Ruteng.",
    "photos": [
     {
      "file": "Wyspa Flores-Indonezja -pola ryżowe - panoramio.jpg",
@@ -1473,7 +1473,7 @@
      "lat": -8.8069,
      "lon": 120.3026,
      "name": "Montée à pied depuis Denge",
-     "text": "Plusieurs heures de montée en forêt depuis le secteur de Denge. On part avec un guide et le nécessaire pour la nuit. Le point de départ exact et la durée sont à fixer avec lui.",
+     "text": "Partir de Denge avec le guide et un sac pour la nuit. On monte plusieurs heures en forêt jusqu'au village. Confirmer avec le guide le point de départ et la durée avant de réserver la voiture.",
      "time": "plusieurs heures de montée ; départ à préciser avec le guide",
      "type": "Randonnée",
      "price": null
@@ -1516,11 +1516,11 @@
     }
    ],
    "intro": [
-    "Monter plusieurs heures en forêt, dormir au village, puis redescendre le lendemain. L'étape demande deux jours et une nuit collective assez simple. À choisir si on est prêts à laisser de côté notre confort habituel pour une nuit."
+    "On monte en forêt jusqu'aux maisons coniques de Wae Rebo. La nuit au village laisse du temps pour l'accueil, le café et le lever du jour avant de redescendre. Le couchage est collectif."
    ],
    "model": "house-cone",
    "short": "Wae Rebo",
-   "access": "Route jusqu'au secteur de Denge, puis montée à pied. Il faut organiser la voiture depuis Ruteng ou Labuan Bajo avec le départ de la randonnée. Compter deux jours si on dort au village.",
+   "access": "Voiture jusqu'au départ de la marche dans le secteur de Denge. Mettre au point le rendez-vous avec le guide et le retour de la voiture avant de partir. Garder deux jours pour l'aller-retour avec la nuit au village.",
    "photos": [
     {
      "file": "Rumah Adat Mbaru Niang.jpg",
@@ -1613,7 +1613,7 @@
      "lat": -6.1448,
      "lon": 106.8132,
      "name": "Glodok, le quartier chinois",
-     "text": "Le marché de Petak Sembilan, les rues commerçantes et le temple Jin De Yuan. On peut poursuivre ici après Kota Tua.",
+     "text": "Le marché de Petak Sembilan, les rues commerçantes et le temple Jin De Yuan. ",
      "time": "environ 2 h",
      "type": "Ville",
      "price": null
@@ -1631,7 +1631,7 @@
      "lat": -6.1698,
      "lon": 106.8309,
      "name": "Mosquée Istiqlal et cathédrale",
-     "text": "La mosquée Istiqlal et la cathédrale sont dans le même secteur. À la mosquée, passer par l'accueil pour les horaires de visite, la tenue et les espaces accessibles.",
+     "text": "La mosquée Istiqlal et la cathédrale sont dans le même secteur. ",
      "time": "environ 1 h 30",
      "type": "Culture",
      "price": null
@@ -1640,18 +1640,18 @@
      "lat": -6.1761,
      "lon": 106.8217,
      "name": "Musée national",
-     "text": "Des statues, des objets et des œuvres venus de plusieurs régions du pays. Ça donnerait du contexte avant de poursuivre le voyage. En novembre 2026 : fermeture le lundi et entrée adulte étranger à 150 000 IDR.",
+     "text": "Des statues, des objets et des œuvres venus de plusieurs régions du pays. Ça donnerait du contexte avant de poursuivre le voyage. En novembre 2026 : fermeture le lundi",
      "time": "environ 2 h",
      "type": "Culture",
      "price": {
-      "what": "entrée adulte étranger, par personne — tarif de novembre 2026, à revérifier pour 2027",
-      "amount": 150000,
-      "currency": "IDR"
+      "what": "",
+      "amount": 8,
+      "currency": "EUR"
      }
     },
     {
      "name": "Cuisine de rue",
-     "text": "À goûter : soto betawi, nasi uduk et kerak telor, préparé avec du riz gluant et de l'œuf. On repérera les stands au fil des balades.",
+     "text": "À goûter : soto betawi, nasi uduk et kerak telor, préparé avec du riz gluant et de l'œuf.",
      "time": "le temps d’un repas",
      "type": "Cuisine",
      "price": null
@@ -1660,7 +1660,7 @@
      "lat": -6.2006,
      "lon": 106.8407,
      "name": "Brocante de Jalan Surabaya",
-     "text": "Une rue de boutiques de brocante et d'antiquités à Menteng. On peut y flâner, mais l'âge annoncé des objets est à prendre avec prudence si on achète.",
+     "text": "Une rue de boutiques de brocante et d'antiquités à Menteng. ",
      "time": "environ 1 h",
      "type": "Ville",
      "price": null
@@ -1669,14 +1669,14 @@
      "lat": -6.195,
      "lon": 106.8227,
      "name": "Dimanche matin sans voitures",
-     "text": "Le dimanche matin, Sudirman et Thamrin accueillent le Car Free Day. On y vient pour marcher, faire du vélo ou prendre un petit-déjeuner. Regarder si l'événement est bien maintenu ce dimanche-là.",
+     "text": "Le dimanche matin, Sudirman et Thamrin accueillent le Car Free Day. On y vient pour marcher, faire du vélo ou prendre un petit-déjeuner. Regarder si l'événement est bien la ce dimanche-là",
      "time": "environ 1 h",
      "type": "Ville",
      "price": null
     }
    ],
    "intro": [
-    "Ça m'intéresserait pour la ville, les musées et la cuisine. Kota Tua, Glodok et Sunda Kelapa peuvent occuper une partie du séjour ; Monas, Istiqlal et le Musée national une autre. Mieux vaut regrouper les visites, les déplacements sont longs."
+    "Intéressant pour la ville, les musées et la cuisine. Kota Tua, Glodok et Sunda Kelapa peuvent occuper une partie du séjour et Monas, Istiqlal et le Musée national une autre. Mieux vaut regrouper les visites, les déplacements sont longs."
    ],
    "model": "skyline",
    "short": "Jakarta",
@@ -1746,7 +1746,7 @@
      "lat": -7.1661,
      "lon": 107.4023,
      "name": "Kawah Putih",
-     "text": "Un lac de cratère très clair, avec des gaz volcaniques. Rester sur les parcours ouverts et suivre les consignes du site. Un masque ordinaire ne protège pas de ces gaz.",
+     "text": "Voir le lac clair au fond du cratère. Il y a des gaz volcaniques : rester sur les parcours ouverts et respecter les consignes du jour. Un masque ordinaire ne protège pas de ces gaz.",
      "time": "environ 1 h 30",
      "type": "Nature",
      "price": null
@@ -1755,7 +1755,7 @@
      "lat": -7.154,
      "lon": 107.371,
      "name": "Plantations de thé de Rancabali",
-     "text": "La route traverse les plantations de thé. On peut s'arrêter en allant à Kawah Putih ; pour marcher entre les théiers, demander quels chemins sont accessibles.",
+     "text": "La route traverse les plantations de thé. On peut s'arrêter en allant à Kawah Putih. Pour marcher entre les théiers, demander quels chemins sont accessibles.",
      "time": "environ 1 à 2 h",
      "type": "Nature",
      "price": null
@@ -1782,7 +1782,7 @@
      "lat": -6.9191,
      "lon": 107.6098,
      "name": "Jalan Braga et le Bandung Art déco",
-     "text": "Marcher le long de Braga et d'Asia Afrika pour voir les bâtiments de l'époque coloniale. À faire pendant la journée en ville.",
+     "text": "Marcher le long de Braga et d'Asia Afrika pour voir les façades de l'époque coloniale. Je commencerais par cette balade, puis Gedung Merdeka si le musée peut se visiter ce jour-là.",
      "time": "environ 2 h",
      "type": "Ville",
      "price": null
@@ -1800,7 +1800,7 @@
      "lat": -6.9025,
      "lon": 107.6188,
      "name": "Gedung Sate",
-     "text": "Le bâtiment du gouvernement de Java occidental. On peut voir son architecture de l'extérieur ; l'accès à l'intérieur est à vérifier séparément.",
+     "text": "Le bâtiment du gouvernement de Java occidental. On peut voir son architecture de l'extérieur. L'accès à l'intérieur est à vérifier séparément.",
      "time": "environ 30 min",
      "type": "Culture",
      "price": null
@@ -1820,18 +1820,18 @@
     },
     {
      "name": "Cuisine sundanaise",
-     "text": "Quelques spécialités à chercher pour les repas : batagor, nasi timbel et surabi.",
+     "text": "Chercher du batagor pour une pause, du nasi timbel pour le déjeuner et du surabi si on veut goûter autre chose. Ça se place pendant la journée en ville, entre Braga et les musées.",
      "time": "le temps d’un repas",
      "type": "Cuisine",
      "price": null
     }
    ],
    "intro": [
-    "Bandung en ville d'un côté, Kawah Putih et les plantations au sud de l'autre. On peut consacrer une journée aux bâtiments, aux cafés et aux repas, puis une autre aux environs de Rancabali avec la route."
+    "Jalan Braga et Gedung Merdeka se font ensemble. Je garderais une autre journée pour le cratère de Kawah Putih et le thé à Rancabali, avec le lac si la route nous laisse le temps."
    ],
    "model": "tea",
    "short": "Bandung / Rancabali",
-   "access": "Depuis Jakarta, Whoosh ou train classique selon les horaires. Avec Whoosh, compter aussi le trajet entre la gare et le centre. Ciwidey et Rancabali demandent une journée par la route depuis Bandung, parfois avec de gros ralentissements.",
+   "access": "Train classique ou Whoosh depuis Jakarta. Comparer le trajet complet jusqu'à l'hôtel, y compris depuis la gare d'arrivée. Pour Kawah Putih et Ciwidey, prévoir une voiture à la journée.",
    "photos": [
     {
      "file": "Perkebunan Teh Rancabali.jpg",
@@ -1897,7 +1897,7 @@
      "lat": -7.608,
      "lon": 110.2038,
      "name": "Borobudur, montée sur le temple",
-     "text": "Un temple bouddhique en terrasses, avec des reliefs et des stupas. Attention au billet : celui du parc seul permet de voir le monument depuis l'enceinte. Pour monter, il faut réserver la formule et le créneau correspondants sur la billetterie officielle.",
+     "text": "Voir les reliefs et les stupas de ce temple bouddhique. On peut le regarder depuis le parc ou monter sur les terrasses. Pour monter, choisir le billet et le créneau correspondants sur la billetterie officielle.",
      "time": "demi-journée avec le trajet",
      "type": "Culture",
      "price": null
@@ -1974,11 +1974,11 @@
     }
    ],
    "intro": [
-    "Le palais, les marchés et le batik dans Jogja, puis Borobudur et Prambanan en deux sorties. Avec trois nuits, on fera un programme chargé. Une quatrième laisserait davantage de temps pour la ville ou un atelier."
+    "Le Kraton, Taman Sari et le batik donnent de quoi rester dans Jogja. Je mettrais Borobudur un matin et Prambanan un autre jour. Avec trois nuits, on pourra faire les deux temples et une partie de la ville."
    ],
    "model": "stupa",
    "short": "Yogyakarta",
-   "access": "Train depuis Jakarta ou d'autres villes de Java, ou avion jusqu'à YIA puis transfert vers Jogja. Borobudur et Prambanan sont deux sorties. Si on prend le train vers Brambanan, il reste à rejoindre le temple depuis la gare.",
+   "access": "Train depuis Jakarta ou arrivée à YIA, puis transfert vers Jogja. Organiser Borobudur et Prambanan séparément. Si on prend le train vers Brambanan, il reste le trajet de la gare au temple.",
    "photos": [
     {
      "file": "Borobudur Sunrise 2012-01-05.jpg",
@@ -2044,7 +2044,7 @@
      "lat": -7.2387,
      "lon": 109.925,
      "name": "Lever de soleil au Sikunir",
-     "text": "Partir de Sembungan avant l'aube et monter pour voir les volcans, si le ciel est dégagé. Prendre une lampe et des vêtements chauds pour l'attente en haut.",
+     "text": "Départ de Sembungan avant l'aube pour monter au Sikunir. Prendre une lampe et de quoi se couvrir pendant l'attente. On verra les volcans si le ciel se dégage.",
      "time": "environ 2 h aller-retour",
      "type": "Randonnée",
      "price": null
@@ -2094,11 +2094,11 @@
     }
    ],
    "intro": [
-    "Un plateau en altitude avec des temples, des lacs et des cratères. Dormir sur place permet de partir à l'aube. Pour la randonnée, il faut choisir : Sikunir est une sortie, Prau une journée plus sportive."
+    "On peut faire les temples d'Arjuna, Sikidang et les lacs sur le plateau. Pour voir le lever du jour à Sikunir, je dormirais sur place. Le mont Prau prend plus de temps et mérite sa propre sortie."
    ],
    "model": "candi",
    "short": "Dieng",
-   "access": "On passe par Wonosobo avant de monter sur le plateau. Depuis Yogyakarta, garder une bonne partie de la journée pour la route. En transports publics, il peut y avoir des changements et de l'attente.",
+   "access": "Route par Wonosobo avant de monter à Dieng. Depuis Jogja, compter une bonne partie de la journée. En transport public, regarder les changements et l'heure de la dernière liaison.",
    "photos": [
     {
      "file": "Telaga Warna,Dieng, Petualangan menyaksikan air berubah warna dari ketinggian.jpg",
@@ -2164,7 +2164,7 @@
      "lat": -7.9037,
      "lon": 112.9521,
      "name": "Lever de soleil sur le Bromo",
-     "text": "Partir de nuit pour voir la caldeira à l'aube. Il peut y avoir beaucoup de monde à Penanjakan et aux autres belvédères. Prévoir de quoi attendre dans le froid ; les nuages peuvent cacher la vue.",
+     "text": "Partir de nuit pour attendre le jour au-dessus de la caldeira. Demander quel belvédère est prévu : il peut y avoir du monde à Penanjakan et ailleurs. Prendre de quoi se couvrir et garder en tête que la vue dépend des nuages.",
      "time": "nuit et matinée depuis Malang, selon l'excursion",
      "type": "Nature",
      "price": null
@@ -2230,11 +2230,11 @@
     }
    ],
    "intro": [
-    "Malang permet de visiter une ville avant le Bromo. L'excursion part de nuit et fatigue pas mal : je garderais l'après-midi du retour libre. On peut aussi dormir plus près de la caldeira pour réduire la route nocturne."
+    "Jodipan et Jalan Ijen se font pendant une journée à Malang. Pour le Bromo, le départ se fait de nuit : je garderais l'après-midi du retour libre. On peut dormir près de la caldeira si on veut réduire le trajet avant l'aube."
    ],
    "model": "jeep",
    "short": "Bromo",
-   "access": "Train depuis Yogyakarta ou Surabaya selon les services disponibles. Pour le Bromo, on peut partir en excursion de Malang ou dormir plus près de la caldeira. Pour un vol depuis Surabaya, ajouter le transfert routier vers l'aéroport.",
+   "access": "Train depuis Yogyakarta ou Surabaya selon les horaires. Pour le Bromo, comparer l'heure de prise en charge à Malang et celle d'un départ près du parc. Pour le vol depuis Juanda, prévoir la route jusqu'à l'aéroport.",
    "photos": [
     {
      "file": "Mount Bromo at sunrise, showing its volcanoes and Mount Semeru (background).jpg",
@@ -2298,7 +2298,7 @@
    "todo": [
     {
      "name": "Point de vue panoramique",
-     "text": "Voir le cirque de la cascade depuis le haut. On peut s'en tenir à ce point de vue pour éviter la descente dans le canyon.",
+     "text": "Voir d'en haut les chutes qui forment le cirque. C'est la visite à choisir si on a peu de temps ou si on veut éviter la descente raide et mouillée dans le canyon.",
      "time": "environ 45 min",
      "type": "Nature",
      "price": null
@@ -2330,11 +2330,11 @@
     }
    ],
    "intro": [
-    "On peut voir la cascade d'en haut ou descendre dans le canyon. Le belvédère suffit si on veut éviter les passages raides et mouillés. Pour descendre, il faut prévoir une sortie plus physique."
+    "Le belvédère donne sur toute la cascade. On peut s'arrêter là ou descendre dans le canyon avec un guide si le parcours est ouvert. Je choisirais sur place selon la météo et le temps qu'on veut passer à marcher."
    ],
    "model": "waterfall",
    "short": "Tumpak Sewu",
-   "access": "Route depuis Malang ou Lumajang vers Pronojiwo. On peut dormir près de la cascade pour éviter le trajet du matin, en regardant le confort de la chambre. Depuis Malang en aller-retour, la route prend une bonne place dans la journée.",
+   "access": "Route depuis Malang ou Lumajang jusqu'au secteur de Pronojiwo. Pour arriver tôt, regarder les chambres proches du site. En aller-retour depuis Malang, garder de la place pour la route.",
    "photos": [
     {
      "file": "Tumpak sewu waterfall.jpg",
@@ -2399,7 +2399,7 @@
      "lat": -7.23,
      "lon": 112.7429,
      "name": "Quartier arabe d'Ampel",
-     "text": "Marcher dans les ruelles commerçantes autour de la mosquée et du tombeau de Sunan Ampel. C'est un lieu de pèlerinage : tenue couvrante et respect des espaces de prière.",
+     "text": "Faire le tour des rues commerçantes autour de la mosquée et du tombeau de Sunan Ampel. On peut continuer vers le quartier du pont rouge. Prendre une tenue couvrante et respecter les espaces de prière.",
      "time": "environ 1 h 30",
      "type": "Culture",
      "price": null
@@ -2435,7 +2435,7 @@
      "lat": -7.2585,
      "lon": 112.7384,
      "name": "Jalan Tunjungan le soir",
-     "text": "Se promener sur Tunjungan le soir et trouver où dîner. L'hôtel Majapahit est dans le même quartier.",
+     "text": "Marcher sur Tunjungan en fin de journée, passer devant l'hôtel Majapahit et choisir où dîner. Ça peut suffire si on arrive tard et qu'on repart le lendemain.",
      "time": "environ 1 à 2 h",
      "type": "Ville",
      "price": null
@@ -2460,18 +2460,18 @@
      "lat": -7.1841,
      "lon": 112.7802,
      "name": "Pont Suramadu",
-     "text": "Le pont relie Surabaya à Madura. Il aurait surtout sa place si on continue de ce côté ; pour le voir seul, regarder le détour depuis notre hôtel.",
+     "text": "Le pont relie Surabaya à Madura. Il aurait surtout sa place si on continue de ce côté. Pour le voir seul, regarder le détour depuis notre hôtel.",
      "time": "environ 1 h",
      "type": "Ville",
      "price": null
     }
    ],
    "intro": [
-    "Une journée de ville possible avant un vol, avec Ampel, les anciens quartiers et Tunjungan le soir. Si les horaires ne laissent qu'un transit, on se contentera d'un hôtel bien placé pour repartir."
+    "Ampel, le pont rouge et le quartier chinois occupent une partie de la journée. Tunjungan et un dîner de rawon peuvent faire la soirée. Ça se place bien avant un vol si on dort déjà à Surabaya."
    ],
    "model": "skyline",
    "short": "Surabaya",
-   "access": "Regarder la gare d'arrivée sur le billet de train. Juanda est au sud de l'agglomération. Depuis Malang, on peut prendre le train pour la ville ou une voiture vers l'aéroport, avec de la marge avant le vol.",
+   "access": "Vérifier la gare sur le billet. L'aéroport de Juanda est au sud de l'agglomération. Depuis Malang, comparer un train vers le centre et une voiture directement vers l'aéroport selon l'heure du vol.",
    "photos": [
     {
      "file": "Orenje Hotel - Majapahit Hotel - Yamato Hotel, Surabaya Indonesia at dusk.jpg",
@@ -2535,7 +2535,7 @@
      "lat": -2.7396,
      "lon": 111.7285,
      "name": "Croisière en klotok sur la Sekonyer",
-     "text": "Remonter la Sekonyer pendant plusieurs jours et dormir sur le klotok. On peut prendre un bateau privé ou rejoindre un départ partagé. Avant de réserver, regarder le couchage et le détail du prix : repas, guide et droits du parc.",
+     "text": "Remonter la Sekonyer en klotok et dormir à bord entre les arrêts. On peut prendre le bateau à deux ou partager un départ. Comparer le couchage et demander un prix qui détaille repas, guide et droits du parc.",
      "time": "environ 3 jours, 2 nuits",
      "type": "Nature",
      "price": null
@@ -2583,11 +2583,11 @@
     }
    ],
    "intro": [
-    "Passer quelques jours sur un klotok, remonter la rivière et s'arrêter sur les sites d'observation des orangs-outans. Le bateau sert aussi de chambre. Bien regarder le couchage, la douche et les toilettes avant de choisir."
+    "On remonte la Sekonyer sur un klotok et on descend à terre pour les sites d'observation. Entre les arrêts, on mange et on dort à bord. Je comparerais les bateaux autant pour le couchage que pour le parcours."
    ],
    "model": "orangutan",
    "short": "Tanjung Puting",
-   "access": "Avion jusqu'à Pangkalan Bun, puis route vers Kumai pour embarquer. Réserver la croisière avec un opérateur, en bateau privé ou sur un départ partagé.",
+   "access": "Vol vers Pangkalan Bun, puis route jusqu'à Kumai pour embarquer. Demander si l'opérateur vient à l'aéroport et à quelle heure le bateau revient, surtout si on reprend un vol.",
    "photos": [
     {
      "file": "Bornean orangutan (Pongo pygmaeus), Tanjung Putting National Park 01.jpg",
@@ -2657,7 +2657,7 @@
      "lat": 2.2841,
      "lon": 118.2435,
      "name": "Observer les tortues de Derawan",
-     "text": "Chercher les tortues avec un guide ou depuis une zone conseillée sur place. Les laisser venir, sans les suivre ni leur barrer le passage quand elles remontent respirer.",
+     "text": "Demander au logement quel coin du récif convient pour chercher les tortues ou partir avec un guide. Si on en voit une, garder ses distances et lui laisser le passage pour remonter respirer.",
      "time": "pendant la sortie",
      "type": "Faune",
      "price": null
@@ -2666,7 +2666,7 @@
      "lat": 2.2841,
      "lon": 118.2435,
      "name": "Tour de Derawan à pied",
-     "text": "Marcher dans le village et le long de la côte, entre deux sorties en bateau.",
+     "text": "Marcher dans les rues du village, puis suivre le bord de l'eau. Je garderais ce tour pour le jour d'arrivée ou une fin d'après-midi entre deux sorties en bateau.",
      "time": "environ 1 h",
      "type": "Détente",
      "price": null
@@ -2709,18 +2709,18 @@
      "lat": 1.6033,
      "lon": 118.1782,
      "name": "Requins-baleines de Talisayan",
-     "text": "Une sortie à part, près des installations de pêche de Talisayan, pour chercher les requins-baleines. Se renseigner sur la façon dont ils sont attirés et sur les règles suivies par l'opérateur.",
+     "text": "Une sortie à part, près des installations de pêche de Talisayan, pour chercher les requins-baleines. Vérifier la façon dont ils sont attirés et les règles suivies par l'opérateur.",
      "time": "demi-journée",
      "type": "Mer",
      "price": null
     }
    ],
    "intro": [
-    "Choisir une base à Derawan ou Maratua, puis sortir vers Sangalaki et Kakaban. Les distances en mer comptent dans le programme. Il faut confirmer l'accès au lac aux méduses avant de réserver si c'est une raison importante de venir."
+    "On peut rester à Derawan pour le village et les tortues, ou à Maratua pour le lagon. Kakaban et Sangalaki prennent du temps en bateau. Je choisirais la base en fonction des sorties qu'on veut vraiment faire."
    ],
    "model": "turtle",
    "short": "Derawan",
-   "access": "On peut arriver par Berau, puis continuer par la route et en bateau. Faire organiser l'ensemble en fonction du vol et de l'île où l'on dort.",
+   "access": "Arrivée possible par Berau, puis route et bateau. Demander à l'hébergement un trajet complet depuis l'aéroport, avec le prix et l'heure du dernier départ pour l'île.",
    "photos": [
     {
      "file": "Aerial of Derawan 2017-09-16.jpg",
@@ -2782,7 +2782,7 @@
    },
    "tips": [
     "Pour débuter le surf, choisir une école qui adapte le spot au niveau et à la houle.",
-    "Se renseigner sur les accès et les commerces à Tanjung Aan. Prendre de l'eau.",
+    "Vérifier les accès et les commerces à Tanjung Aan. Prendre de l'eau.",
     "Sade et Ende sont habités. Fixer les conditions de visite avec le guide avant de commencer."
    ],
    "todo": [
@@ -2790,7 +2790,7 @@
      "lat": -8.9103,
      "lon": 116.3206,
      "name": "Plage de Tanjung Aan",
-     "text": "Une plage dans la baie de Tanjung Aan, près de Merese. L'accès et les commerces ont changé : se renseigner avant d'y aller et prendre de l'eau. Pour nager, voir les conditions sur place.",
+     "text": "Passer un moment dans la baie, puis marcher sur la colline de Merese si on y va en fin de journée. Vérifier les accès et les commerces, prendre de l'eau et voir sur place si les conditions conviennent pour nager.",
      "time": "demi-journée",
      "type": "Mer",
      "price": null
@@ -2840,11 +2840,11 @@
     }
    ],
    "intro": [
-    "Dormir à Kuta pour les baies du sud, essayer le surf et ajouter Merese ou un village sasak. On pourrait changer de plage selon les journées, en distinguant celles où se baigner de celles où prendre un cours."
+    "Tanjung Aan et la colline de Merese vont bien ensemble. Pour apprendre à surfer, je réserverais une autre matinée à Selong Belanak. Kuta sert de base pour les repas et les différentes baies."
    ],
    "model": "surf",
    "short": "Sud de Lombok",
-   "access": "Route jusqu'à Kuta depuis l'aéroport ou un port de Lombok. Les plages sont espacées. On peut regrouper les arrêts avec un chauffeur, ou louer un véhicule si on sait le conduire.",
+   "access": "Voiture depuis l'aéroport ou le port jusqu'à Kuta. On pourra organiser les plages par secteur avec le chauffeur. Garder du temps entre le cours de surf et un arrêt de l'autre côté de Kuta.",
    "photos": [
     {
      "file": "BIRUNYA TANJUNG AAN.jpg",
@@ -2908,14 +2908,14 @@
    "todo": [
     {
      "name": "Marche dans les rizières",
-     "text": "Une boucle à pied entre les champs et les hameaux, avec un guide qui connaît les passages. On peut choisir une marche courte ou y ajouter la forêt et une cascade.",
+     "text": "Faire une boucle entre les parcelles et les hameaux avec un guide qui connaît les passages. On peut s'en tenir aux champs ou continuer vers la forêt de singes noirs et une cascade.",
      "time": "environ 3 à 4 h",
      "type": "Randonnée",
      "price": null
     },
     {
      "name": "Cascade de Sarang Walet",
-     "text": "Le chemin passe dans une gorge avec de l'eau. À faire seulement si le guide confirme que le débit et le parcours le permettent.",
+     "text": "Suivre le chemin dans la gorge, avec des passages dans l'eau. Demander au guide si la cascade s'ajoute à la marche dans les rizières ce jour-là. L'accès dépend du débit et de l'état du parcours.",
      "time": "environ 2 h",
      "type": "Nature",
      "price": null
@@ -2956,18 +2956,18 @@
      "lat": -8.533,
      "lon": 116.3414,
      "name": "Cascades de Benang Stokel et Benang Kelambu",
-     "text": "Une sortie à consacrer aux deux cascades. Se faire préciser le parcours et le prix complet, avec les entrées et l'accompagnement.",
+     "text": "Une sortie à consacrer aux deux cascades. Demander le parcours et le prix complet, avec les entrées et l'accompagnement.",
      "time": "demi-journée",
      "type": "Nature",
      "price": null
     }
    ],
    "intro": [
-    "Marcher dans les champs, voir les cascades et passer dans les villages d'artisans. Un guide peut adapter les balades aux cultures et à l'état des chemins. En août, il n'y aura pas forcément du riz vert partout."
+    "Les champs, la forêt et une cascade peuvent remplir une journée à pied. Je garderais les ateliers de Pringgasela ou de Loyok pour un autre moment avec une voiture."
    ],
    "model": "rice",
    "short": "Tetebatu",
-   "access": "Route vers l'intérieur de Lombok depuis Kuta, l'aéroport ou le nord. Les balades autour du village se font à pied. Il faut un véhicule pour les artisans et certaines cascades.",
+   "access": "Route vers l'intérieur de Lombok depuis Kuta, l'aéroport ou le nord. Demander au logement quelles marches partent de chez lui et quelles visites demandent un trajet.",
    "photos": [
     {
      "file": "Near-tetebatu (99516017).jpg",
@@ -3027,7 +3027,7 @@
      "lat": -8.3056,
      "lon": 116.4083,
      "name": "Cascade de Sendang Gile",
-     "text": "Descendre les escaliers depuis Senaru pour voir la cascade. Rester à distance de la chute. Il faudra remonter le même dénivelé au retour.",
+     "text": "La première cascade se rejoint par des escaliers depuis Senaru. On peut s'arrêter ici avant de choisir si on continue vers Tiu Kelep. Garder ses distances avec la chute et compter les marches au retour.",
      "time": "environ 1 h",
      "type": "Nature",
      "price": null
@@ -3068,11 +3068,11 @@
     }
    ],
    "intro": [
-    "Senaru permet de voir les cascades et les villages au pied du Rinjani sans en faire l'ascension. Sendang Gile demande surtout des escaliers ; Tiu Kelep ajoute des passages en forêt et dans l'eau."
+    "Depuis Senaru, on peut voir Sendang Gile et prolonger jusqu'à Tiu Kelep si le débit le permet. Bayan et une marche au-dessus des rizières donnent de quoi passer un deuxième moment dans le secteur."
    ],
    "model": "waterfall",
    "short": "Nord de Lombok",
-   "access": "Route vers Senaru depuis Bangsal, l'ouest ou l'intérieur de Lombok. Dormir près des départs de balade limite les transferts. On peut rester dans ce secteur sans monter au Rinjani.",
+   "access": "Voiture depuis Bangsal ou l'intérieur de Lombok. Chercher un logement près du départ des cascades si on veut faire la première balade à pied.",
    "photos": [
     {
      "file": "Tiu Kelep.jpg",
@@ -3133,7 +3133,7 @@
      "lat": -8.3427,
      "lon": 116.0438,
      "name": "Snorkeling avec les tortues",
-     "text": "Chercher les tortues avec un guide ou dans une zone indiquée sur place. Ne pas les toucher ni les suivre, et les laisser remonter respirer. On ne traverse jamais les chenaux entre les îles à la nage.",
+     "text": "Demander quels endroits sont indiqués pour voir des tortues depuis la plage ou en sortie accompagnée. Les laisser remonter respirer sans les suivre ni les toucher. Pour rejoindre une île voisine, prendre un bateau.",
      "time": "environ 1 à 2 h",
      "type": "Faune",
      "price": null
@@ -3154,7 +3154,7 @@
     },
     {
      "name": "Coucher de soleil côté ouest",
-     "text": "Aller sur la côte ouest en fin de journée. Quand l'horizon est dégagé, on voit les reliefs de Bali.",
+     "text": "Aller à pied ou à vélo sur la côte ouest avant le coucher de soleil. Si le ciel est dégagé, on voit les reliefs de Bali. Compter le retour jusqu'au logement si on dort près du port.",
      "time": "environ 1 h",
      "type": "Détente",
      "price": null
@@ -3175,18 +3175,18 @@
     },
     {
      "name": "Marché de nuit de Trawangan",
-     "text": "Dîner au marché du soir. Plusieurs stands proposent de quoi composer un repas ; faire préciser le prix du poisson et des accompagnements avant de commander.",
+     "text": "Dîner au marché du soir. Plusieurs stands proposent de quoi composer un repas. Faire préciser le prix du poisson et des accompagnements avant de commander.",
      "time": "le soir",
      "type": "Cuisine",
      "price": null
     }
    ],
    "intro": [
-    "Quelques jours pour la plage et le snorkeling, avec des déplacements à pied ou à vélo. Trawangan a plus de vie nocturne ; Air et Meno sont souvent choisies pour le calme. Regarder surtout où se trouve le logement par rapport aux bars et au port."
+    "Air et Meno pour se poser près de l'eau, Trawangan pour les restaurants et le marché du soir. Je choisirais l'île où dormir avant de prévoir une visite aux voisines. L'adresse compte autant que l'île pour le calme."
    ],
    "model": "turtle",
    "short": "Îles Gili",
-   "access": "Bateau depuis Lombok ou Bali. Le port dépend de l'opérateur. Entre les Gili, regarder les départs et le dernier retour au guichet. Sur place, on se déplace surtout à pied ou à vélo.",
+   "access": "Bateau depuis Bali ou Lombok, selon le port desservi. Pour une journée sur une île voisine, regarder l'aller et le dernier retour avant d'embarquer. Sur place, on marche ou on loue un vélo.",
    "photos": [
     {
      "file": "Gili Air Eastern coast looking at Lombok.jpg",
@@ -3252,7 +3252,7 @@
      "lat": -4.5261,
      "lon": 129.8989,
      "name": "Fort Belgica",
-     "text": "Le fort domine Banda Neira et la baie. On peut y monter pour la vue et l'histoire du commerce des épices, après avoir vérifié l'ouverture.",
+     "text": "Monter au fort pour voir les remparts et la baie de Banda Neira. On peut enchaîner avec le fort Nassau et les anciennes maisons si les horaires le permettent.",
      "time": "environ 1 h",
      "type": "Culture",
      "price": null
@@ -3309,11 +3309,11 @@
     }
    ],
    "intro": [
-    "La muscade, les forts et les îles autour donnent envie d'y passer plusieurs jours. Pour août, il faut d'abord régler la question des transports. On devra avoir de la marge et accepter d'annuler des sorties si la mer est mauvaise."
+    "On peut voir les forts et les anciennes maisons à pied, puis traverser vers Banda Besar pour la muscade. Le Gunung Api et une sortie snorkeling se placent sur d'autres journées, selon les départs et la mer."
    ],
    "model": "fort",
    "short": "Banda Neira",
-   "access": "Depuis Ambon, bateau ou avion selon les liaisons disponibles. Confirmer les départs avant de fixer les nuits. À Banda Neira, on marche ; pour les autres îles, on prend un bateau.",
+   "access": "Depuis Ambon, regarder les bateaux et les vols qui fonctionnent à nos dates avant de réserver les nuits. Sur Neira, on se déplace à pied. Pour les autres îles, convenir de l'aller et du retour avec le batelier.",
    "photos": [
     {
      "file": "Banda Pisang view on Api.jpg",
@@ -3383,7 +3383,7 @@
      "lat": 0.8139,
      "lon": 127.3881,
      "name": "Tournée des forts",
-     "text": "Tolukko, Oranje et Kalamata font trois arrêts possibles pendant la visite de Ternate. Les regrouper avec la ville et le tour de côte selon les ouvertures.",
+     "text": "Tolukko, Oranje et Kalamata donnent trois arrêts autour de Ternate. Je choisirais lesquels voir selon les ouvertures, puis je placerais le palais ou un bout du tour de côte dans la même sortie.",
      "time": "demi-journée",
      "type": "Culture",
      "price": null
@@ -3440,11 +3440,11 @@
     }
    ],
    "intro": [
-    "Voir les forts, les palais et les plantations d'épices, puis consacrer une journée à Tidore. Les volcans font partie du paysage ; on peut rester sur la côte et les pentes sans entreprendre une ascension."
+    "Les forts et le palais donnent une journée à Ternate. On peut continuer par le lac Tolire et les girofliers ou garder le lendemain pour Tidore et la vue sur les volcans depuis la côte."
    ],
    "model": "market",
    "short": "Ternate",
-   "access": "Arrivée à l'aéroport de Ternate, puis voiture pour la ville et le tour de l'île. Bateau depuis le secteur de Bastiong vers Tidore. Prévoir aussi la voiture sur Tidore et le retour.",
+   "access": "Vol jusqu'à Ternate, puis voiture pour les arrêts dispersés sur l'île. Pour Tidore, vérifier les bateaux du secteur de Bastiong et prévoir le trajet côté Tidore avant de partir.",
    "photos": [
     {
      "file": "Gamalama Mountain.jpg",
@@ -3510,7 +3510,7 @@
      "lat": 2.0879,
      "lon": 128.1903,
      "name": "Îles de Dodola",
-     "text": "Dodola Besar et Dodola Kecil sont reliées par un banc de sable qui apparaît avec la marée. Partir avec un batelier et prévoir de revenir avant que l'eau remonte.",
+     "text": "Partir de Daruba en bateau pour voir le banc de sable entre Dodola Besar et Dodola Kecil. Demander au batelier à quelle heure il se découvre et fixer le retour avant que l'eau remonte.",
      "time": "la journée",
      "type": "Mer",
      "price": null
@@ -3544,11 +3544,11 @@
     }
    ],
    "intro": [
-    "Des sorties dans les îlots autour de Daruba, dont Dodola, et des visites sur l'histoire de la guerre. Avant de choisir cette étape, il faut voir comment on y va et combien de jours on peut y rester."
+    "Dodola et les îlots se visitent en bateau depuis Daruba. Je garderais les musées et Air Kaca pour une journée à terre. Avant de décider combien de nuits prendre, il faut voir les liaisons à l'aller et au retour."
    ],
    "model": "palm",
    "short": "Morotai",
-   "access": "Regarder les vols pour nos dates. Sinon, le passage par Ternate, Sofifi et Tobelo combine route et bateau. Il faut une journée de transfert et des correspondances confirmées.",
+   "access": "Vérifier d'abord les vols pour nos dates. Par Ternate, Sofifi et Tobelo, on combine des bateaux et de la route. Garder assez de temps pour les changements et une marge avant le prochain vol.",
    "photos": [
     {
      "file": "Pantai Kolorai, Maluku Utara.jpg",
@@ -3619,7 +3619,7 @@
      "lat": -0.5608,
      "lon": 130.6757,
      "name": "Snorkeling sur le récif de Kri",
-     "text": "Explorer le récif en tenant compte de la marée et du courant. L'hébergement ou le guide indique les zones adaptées. Ne pas partir seul vers une pointe ou un chenal.",
+     "text": "Demander au logement par où entrer et sortir du récif selon le courant et la marée. On peut rester sur la portion indiquée ou partir avec le guide pour aller plus loin. Éviter de s'engager seul vers une pointe ou un chenal.",
      "time": "environ 2 h",
      "type": "Mer",
      "price": null
@@ -3662,11 +3662,11 @@
     }
    ],
    "intro": [
-    "Choisir un logement puis organiser les journées entre son récif et les sorties en bateau. Kri, Gam et Arborek ne donnent pas les mêmes accès ni les mêmes transferts. Comparer aussi la chambre, la salle d'eau et l'électricité."
+    "À Kri, on peut choisir un logement proche du récif. Gam ajoute les oiseaux de paradis et Arborek une balade au village et au ponton. Je regarderais ce qu'on peut faire depuis l'adresse avant de payer les sorties en bateau."
    ],
    "model": "house-stilt",
    "short": "Kri et Arborek",
-   "access": "Vol jusqu'à Sorong, ferry vers Waisai, puis bateau du logement. Demander le coût de l'aller-retour vers Kri, Gam ou Arborek, en précisant si c'est par personne ou pour tout le bateau.",
+   "access": "Vol jusqu'à Sorong, ferry pour Waisai puis bateau du logement. Demander le prix des deux transferts en précisant si le bateau est facturé pour deux ou par personne.",
    "photos": [
     {
      "file": "20170909 Lumba lumba homestay.jpg",
@@ -3732,7 +3732,7 @@
      "lat": -0.5642,
      "lon": 130.2706,
      "name": "Belvédère de Piaynemo",
-     "text": "Monter les escaliers pour voir les îlots depuis le belvédère. Il faut compter la chaleur et la redescente. Cet arrêt se fait pendant une sortie en bateau.",
+     "text": "Arrêt en bateau, puis escaliers jusqu'à la vue sur les îlots. Garder de l'eau pour la montée et le retour. Vérifier si le lagon en étoile est prévu dans la même sortie.",
      "time": "environ 1 h",
      "type": "Nature",
      "price": null
@@ -3741,7 +3741,7 @@
      "lat": -0.5689,
      "lon": 130.2707,
      "name": "Telaga Bintang, le lagon en étoile",
-     "text": "Un lagon en forme d'étoile, visible après une montée sur de la roche karstique peu aménagée. À faire avec un guide si on est à l'aise sur ce terrain. Sinon, on peut s'en tenir au belvédère principal de Piaynemo.",
+     "text": "Monter sur la roche karstique pour voir la forme du lagon. Le passage est peu aménagé. Demander au guide si le terrain nous convient. On peut aussi garder le belvédère principal et revenir au bateau.",
      "time": "environ 30 min",
      "type": "Nature",
      "price": null
@@ -3773,11 +3773,11 @@
     }
    ],
    "intro": [
-    "Waigeo et les îles Fam sont séparés par la mer. Pour Piaynemo, on peut faire une excursion depuis notre base ou dormir plus près. À comparer selon le prix du bateau et le temps passé en navigation."
+    "Piaynemo et le lagon en étoile vont ensemble dans les îles Fam. Depuis Waigeo, ça fait une journée de bateau. On peut dormir plus près si les sorties là-bas justifient un transfert et un changement de logement."
    ],
    "model": "karst",
    "short": "Piaynemo",
-   "access": "Waisai est sur Waigeo. Piaynemo se trouve plus à l'ouest, dans les îles Fam. On peut faire l'aller-retour en excursion ou dormir plus près, selon le temps de bateau et le prix.",
+   "access": "Waisai sert de point d'arrivée sur Waigeo. Comparer le temps et le prix d'une sortie jusqu'à Piaynemo avec le transfert et les nuits dans les îles Fam.",
    "photos": [
     {
      "file": "Piaynemo, Raja Ampat (39660320633).jpg",
@@ -3843,7 +3843,7 @@
      "lat": -2.9966,
      "lon": 119.9103,
      "name": "Village de Ke'te Kesu",
-     "text": "Voir les maisons tongkonan, les greniers et le site funéraire. Prévoir du temps avec un guide pour comprendre comment le village est organisé.",
+     "text": "Voir les maisons tongkonan, les greniers et le site funéraire de Ke’te Kesu. Avec un guide, on peut prendre le temps de comprendre à quoi servent les bâtiments avant d'aller vers Lemo ou Londa.",
      "time": "environ 1 h 30",
      "type": "Culture",
      "price": null
@@ -3911,18 +3911,18 @@
     },
     {
      "name": "Pa'piong et café toraja",
-     "text": "Le pa'piong se cuit dans du bambou. Demander au restaurant à l'avance s'il peut en préparer. À goûter aussi pendant le séjour : le café toraja.",
+     "text": "Le pa'piong se cuit dans du bambou. Demander au restaurant à l'avance s'il peut en préparer. On peut aussi goûter le café toraja.",
      "time": "le temps d’un repas",
      "type": "Cuisine",
      "price": null
     }
    ],
    "intro": [
-    "Plusieurs journées autour de Rantepao pour les maisons tongkonan, les tombes, les rizières et le marché de Bolu. Ça vaut le coup d'avoir quelqu'un pour expliquer les lieux et les traditions. Les funérailles dépendront des familles et des dates."
+    "Je ferais Ke’te Kesu, Lemo ou Londa avec un guide pour comprendre les maisons et les tombes. Batutumonga laisse une autre journée pour marcher dans les rizières. Le marché et les cérémonies se placent selon les dates."
    ],
    "model": "house-toraja",
    "short": "Pays Toraja",
-   "access": "Depuis Makassar, long trajet en bus ou voiture vers Rantepao. Un vol vers Toraja peut réduire la route s'il fonctionne à nos dates, puis il reste un transfert à l'arrivée.",
+   "access": "Bus ou voiture depuis Makassar jusqu'à Rantepao. Regarder aussi si un vol vers Toraja fonctionne à nos dates et combien de route il reste après l'atterrissage.",
    "photos": [
     {
      "file": "Kete' Kesu' Toraja.jpg",
@@ -3992,7 +3992,7 @@
      "lat": 1.6143,
      "lon": 124.7755,
      "name": "Snorkeling sur les tombants de Bunaken",
-     "text": "Une sortie avec un guide le long des récifs. Réserver un accompagnement prévu pour le snorkeling ; une simple place sur un bateau de plongeurs ne suffit pas.",
+     "text": "Sortir en bateau pour nager en surface le long des tombants. Demander un guide et des mises à l'eau adaptées au snorkeling avant de choisir une sortie, surtout si le bateau prend aussi des plongeurs.",
      "time": "demi-journée",
      "type": "Mer",
      "price": null
@@ -4047,11 +4047,11 @@
     }
    ],
    "intro": [
-    "Passer plusieurs jours sur les récifs, en dormant à Bunaken ou en sortant depuis Manado. Il faut un programme qui convient au snorkeling. Tomohon et le Mahawu demandent une autre journée sur la terre ferme."
+    "On peut dormir à Bunaken et sortir sur les récifs, ou rester à Manado avec des journées en bateau. Je regarderais les sorties accessibles aux snorkelers. Tomohon et le Mahawu prennent une autre journée sur la terre ferme."
    ],
    "model": "fish",
    "short": "Bunaken",
-   "access": "Avion jusqu'à Manado, puis port et bateau vers Bunaken ou Siladen. Le logement peut organiser le transfert complet. Pour Tomohon, il faudra revenir sur la terre ferme.",
+   "access": "Avion jusqu'à Manado, puis route au port et bateau vers Bunaken ou Siladen. Le logement peut proposer le transfert complet. Si on veut voir Tomohon ou Tangkoko, regarder où les placer dans le trajet.",
    "photos": [
     {
      "file": "Bunaken Marine Park.JPG",
@@ -4119,7 +4119,7 @@
    "todo": [
     {
      "name": "Tarsiers au crépuscule",
-     "text": "Marcher avec un guide en fin de journée pour chercher les tarsiers. Rester discret, sans flash et sans essayer de les attirer.",
+     "text": "Partir avec le guide en fin de journée pour chercher les tarsiers. Une nuit à Batuputih permet aussi de rester pour la sortie du matin. Pour les observer, rester discret et laisser le flash éteint.",
      "time": "environ 3 à 4 h",
      "type": "Faune",
      "price": null
@@ -4149,11 +4149,11 @@
     }
    ],
    "intro": [
-    "Marcher en forêt avec un guide pour chercher les tarsiers, les macaques et les oiseaux. Une nuit à Batuputih permet une sortie le soir et une autre tôt le matin. On ne verra pas forcément toutes les espèces."
+    "Une marche au crépuscule pour chercher les tarsiers et une autre à l'aube pour les macaques. Avec une nuit à Batuputih, on peut tenter les deux et passer à la plage de sable noir entre les sorties."
    ],
    "model": "monkey",
    "short": "Tangkoko",
-   "access": "Route de Manado vers Batuputih. Depuis Bunaken, il faut d'abord reprendre le bateau vers Manado. Une nuit à Batuputih permet de marcher le soir puis tôt le lendemain.",
+   "access": "Route depuis Manado jusqu'à Batuputih. Depuis Bunaken, prévoir aussi le bateau et le transfert au départ du port. Arriver assez tôt pour retrouver le guide avant la marche du soir.",
    "photos": [
     {
      "file": "Sulawesi trsr DSCN0523 v1.JPG",
@@ -4217,7 +4217,7 @@
    "todo": [
     {
      "name": "Trek d'une journée dans le Gunung Leuser",
-     "text": "Passer la journée en forêt avec un guide. Le terrain peut être raide et glissant. Choisir quelqu'un qui garde ses distances avec les animaux et ne les nourrit pas.",
+     "text": "Prendre la journée pour marcher en forêt. Demander au guide le dénivelé et l'état du terrain avant de choisir la boucle. On vient chercher les orangs-outans à distance, avec un guide qui ne les nourrit pas.",
      "time": "la journée",
      "type": "Randonnée",
      "price": null
@@ -4242,7 +4242,7 @@
      "lat": 3.5365,
      "lon": 98.1244,
      "name": "Grotte aux chauves-souris",
-     "text": "Une visite à faire à part de la marche en forêt. Se renseigner sur l'accès et l'équipement nécessaire. Ne pas toucher les chauves-souris ni les éclairer directement.",
+     "text": "Une visite à faire à part de la marche en forêt. Vérifier l'accès et l'équipement nécessaire. Ne pas toucher les chauves-souris ni les éclairer directement.",
      "time": "environ 2 à 3 h",
      "type": "Nature",
      "price": null
@@ -4278,7 +4278,7 @@
      "lat": 3.5856,
      "lon": 98.6806,
      "name": "Maison de Tjong A Fie et quartier de Kesawan",
-     "text": "Visiter la maison musée de Tjong A Fie, puis marcher dans les rues de Kesawan.",
+     "text": "Commencer par la maison-musée de Tjong A Fie, puis marcher dans les rues de Kesawan. Je les garderais pour le même créneau pour pouvoir prendre un peu de temps dans le quartier.",
      "time": "environ 1 h 30",
      "type": "Ville",
      "price": null
@@ -4294,11 +4294,11 @@
     }
    ],
    "intro": [
-    "Une journée en forêt à Bukit Lawang et un passage à Medan pour la ville. Plusieurs heures de route séparent les deux. Même le trek court peut être raide et humide, donc choisir le parcours avec le guide."
+    "À Bukit Lawang, choisir une demi-journée ou une journée de marche selon les pentes et l'état des sentiers. Pour Medan, je regrouperais la grande mosquée et le palais Maimun, puis Kesawan si on a encore du temps."
    ],
    "model": "orangutan",
    "short": "Bukit Lawang",
-   "access": "Plusieurs heures de route depuis Medan ou l'aéroport de Kualanamu. Organiser l'arrivée avec le logement pour la dernière partie à pied. On peut visiter Medan avant ou après la forêt.",
+   "access": "Plusieurs heures de voiture depuis Medan ou Kualanamu. Demander au logement où la voiture s'arrête et combien il reste à marcher avec les sacs. Visiter Medan en début ou en fin d'étape selon les horaires.",
    "photos": [
     {
      "file": "Yuli Seperi Orangutan TNGL-1.jpg",
@@ -4362,14 +4362,14 @@
      "lat": 2.6706,
      "lon": 98.8608,
      "name": "Tuk Tuk et baignade dans le lac",
-     "text": "Marcher autour de Tuk Tuk et profiter du bord du lac. Pour nager, demander un accès adapté et les conditions du moment.",
+     "text": "Marcher sur la presqu'île de Tuk Tuk et se poser au bord du lac. Ça peut faire la première matinée avant une sortie vers Tomok et Ambarita. Demander au logement où entrer dans l'eau si on veut nager.",
      "time": "temps libre",
      "type": "Détente",
      "price": null
     },
     {
      "name": "Villages et paysages de Samosir",
-     "text": "Choisir une partie de Samosir pour la journée. Scooter seulement si on est à l'aise et autorisé à en conduire ; sinon, prendre un chauffeur.",
+     "text": "Choisir une partie de Samosir pour la journée. Scooter seulement si on est à l'aise et autorisé à en conduire. Sinon, prendre un chauffeur.",
      "time": "la journée",
      "type": "Nature",
      "price": null
@@ -4394,7 +4394,7 @@
      "lat": 2.7524,
      "lon": 98.7441,
      "name": "Danses batak à Simanindo",
-     "text": "Visiter le musée de Simanindo. On peut aussi voir une danse si une représentation est annoncée pendant le séjour ; regarder le programme avant d'y aller.",
+     "text": "Visiter le musée de Simanindo. On peut aussi voir une danse si une représentation est annoncée pendant le séjour. Regarder le programme avant d'y aller.",
      "time": "environ 1 h 30",
      "type": "Culture",
      "price": null
@@ -4417,11 +4417,11 @@
     }
    ],
    "intro": [
-    "Dormir à Tuk Tuk, sur Samosir, pour visiter les villages batak et rester un peu au bord du lac. L'île est grande et Sipiso Piso se trouve ailleurs, au nord du lac. On ne pourra pas tout regrouper dans une petite boucle."
+    "À Samosir, Tuk Tuk laisse du temps au bord du lac. Tomok et Ambarita peuvent se faire dans la même sortie. Si on veut voir Sipiso Piso, je le mettrais à part sur la rive nord du lac."
    ],
    "model": "house-horn",
    "short": "Lac Toba",
-   "access": "Route jusqu'à Parapat, puis bateau vers Tuk Tuk ou un autre point de Samosir. On peut aussi regarder les vols pour Silangit. Depuis Bukit Lawang, compter la journée de transfert.",
+   "access": "Route jusqu'à Parapat, puis bateau vers Tuk Tuk ou un autre débarcadère selon le logement. On peut aussi regarder les vols vers Silangit. Depuis Bukit Lawang, réserver la journée au transfert.",
    "photos": [
     {
      "file": "Danau Toba dari Samosir.jpg",
@@ -4487,7 +4487,7 @@
      "lat": -0.3052,
      "lon": 100.3695,
      "name": "Jam Gadang et le marché Pasar Atas",
-     "text": "Commencer par Jam Gadang et le marché Pasar Atas, dans le centre. Garder le marché pour ses heures d'ouverture.",
+     "text": "Commencer à la tour Jam Gadang, puis faire le marché Pasar Atas pendant qu'il est ouvert. On peut garder le parc Panorama et sa vue sur le canyon pour la suite de la balade.",
      "time": "environ 1 h",
      "type": "Ville",
      "price": null
@@ -4496,7 +4496,7 @@
      "lat": -0.308,
      "lon": 100.3654,
      "name": "Canyon de Sianok depuis le parc Panorama",
-     "text": "Voir le canyon depuis le parc Panorama. Pas besoin d'une longue marche ; on peut enchaîner avec les tunnels japonais.",
+     "text": "Voir le canyon depuis le parc Panorama. Pas besoin d'une longue marche. On peut enchaîner avec les tunnels japonais.",
      "time": "environ 1 h",
      "type": "Nature",
      "price": null
@@ -4564,11 +4564,11 @@
     }
    ],
    "intro": [
-    "Le canyon et les marchés à Bukittinggi, puis une ou deux journées vers Harau, Maninjau ou Pagaruyung. Ces sorties partent dans des directions différentes. Je choisirais celles qui nous attirent le plus pour éviter trop de voiture."
+    "La tour Jam Gadang, le marché et le canyon se font depuis Bukittinggi. Ensuite, je choisirais entre Harau, Maninjau et Pagaruyung selon qu'on veut surtout marcher, voir le lac ou visiter le palais."
    ],
    "model": "house-horn",
    "short": "Bukittinggi",
-   "access": "Arrivée à Padang, puis route vers Bukittinggi. Depuis le nord de Sumatra, regarder les vols et les correspondances. Les visites autour de Bukittinggi se font par la route.",
+   "access": "Vol jusqu'à Padang, puis voiture jusqu'à Bukittinggi. Depuis le nord de Sumatra, regarder les correspondances disponibles. Les excursions autour de Bukittinggi demandent chacune un trajet par la route.",
    "photos": [
     {
      "file": "Danau Maninjau dari Lawang.jpg",
@@ -4634,7 +4634,7 @@
      "lat": -9.6274,
      "lon": 119.0042,
      "name": "Village de Ratenggaro",
-     "text": "Les maisons aux hauts toits et les tombes près de la côte. Se mettre d'accord sur le prix de la visite et demander avant de photographier les habitants.",
+     "text": "Voir les hauts toits et les tombes de Ratenggaro, près de la côte. On peut continuer vers Weekuri ou Mandorak dans la même journée. Se mettre d'accord sur le prix de la visite et demander avant de prendre les habitants en photo.",
      "time": "environ 1 h",
      "type": "Culture",
      "price": null
@@ -4698,11 +4698,11 @@
     }
    ],
    "intro": [
-    "Les villages autour de Waikabubak, puis la côte de Kodi vers Tambolaka. Maisons, tombes, lagon et plages sont assez dispersés. Choisir les nuits selon les visites pour ne pas refaire la même route."
+    "Tarung, Waitabar et Praijing se visitent autour de Waikabubak. Je garderais un autre jour pour Ratenggaro, Weekuri et Mandorak côté Kodi. Selon l'ordre des visites, on peut dormir près de la côte ou en ville."
    ],
    "model": "house-sumba",
    "short": "Waikabubak",
-   "access": "Arrivée possible à Tambolaka, puis route. Choisir les nuits selon les visites entre Waikabubak et la côte de Kodi. Une voiture avec chauffeur permet de les organiser.",
+   "access": "Arrivée possible à Tambolaka, puis voiture avec chauffeur. Comparer les temps depuis le logement jusqu'à Kodi et Waikabubak avant de décider où passer les nuits.",
    "photos": [
     {
      "file": "Rumah Kampung Adat Ratenggaro - Sumba Barat Daya.jpg",
@@ -4768,7 +4768,7 @@
      "lat": -9.6795,
      "lon": 120.1001,
      "name": "Collines de Wairinding",
-     "text": "Voir les collines en début ou en fin de journée, quand il fait moins chaud. En saison sèche, elles peuvent être jaunes ou brunes.",
+     "text": "Faire les collines tôt ou en fin de journée pour éviter le plus chaud. En août, elles peuvent être jaunes ou brunes. On peut placer cet arrêt en début ou en fin d'une sortie depuis Waingapu.",
      "time": "environ 1 h",
      "type": "Nature",
      "price": null
@@ -4802,7 +4802,7 @@
     },
     {
      "name": "Cascade de Tanggedu",
-     "text": "Aller voir les cascades et les rochers de Tanggedu. Se faire préciser la marche et garder de la marge pour la route du retour.",
+     "text": "Aller voir les cascades et les rochers de Tanggedu. Demander combien de temps on marche et garder de la marge pour la route du retour.",
      "time": "la journée",
      "type": "Randonnée",
      "price": null
@@ -4818,11 +4818,11 @@
     }
    ],
    "intro": [
-    "Les ateliers d'ikat, les collines et les cascades depuis Waingapu. Wairinding, Walakiri, Tanggedu et Rende sont dans plusieurs directions. On regroupera les journées par secteur, en gardant du temps dans les ateliers."
+    "Prailiu et Rende pour voir le tissage, Wairinding pour les collines et Walakiri pour la fin de journée. Je choisirais une cascade pour une sortie à part, car les trajets partent dans plusieurs directions."
    ],
    "model": "horse",
    "short": "Waingapu",
-   "access": "Avion jusqu'à Waingapu ou route depuis l'ouest. Les ateliers, les collines et les cascades sont dans plusieurs directions. Regrouper les arrêts avec le chauffeur.",
+   "access": "Vol vers Waingapu ou voiture depuis l'ouest de Sumba. Demander au chauffeur quels arrêts vont ensemble. Pour Tanggedu ou Waimarang, ajouter la marche au trajet en voiture.",
    "photos": [
     {
      "file": "Bukit Wairinding-Sumba Timur.jpg",
@@ -4888,7 +4888,7 @@
      "lat": -8.2118,
      "lon": 117.5199,
      "name": "Cascade de Mata Jitu",
-     "text": "La cascade de Mata Jitu, sur Moyo. Le trajet combine un transfert et une marche dont la longueur dépend du départ. Se faire expliquer l'accès avant de réserver la sortie.",
+     "text": "Rejoindre Mata Jitu sur Moyo, avec un trajet et un bout de marche. Demander d'où part la sortie et combien on marche. Je prévoirais le temps de revenir à Labuan Aji avant de programmer une autre visite.",
      "time": "environ 2 à 3 h",
      "type": "Nature",
      "price": null
@@ -4913,7 +4913,7 @@
      "lat": -8.5043,
      "lon": 117.4273,
      "name": "Palais Dalam Loka",
-     "text": "Visiter le palais en bois de Sumbawa Besar avant ou après Moyo, selon ses heures d'ouverture.",
+     "text": "Voir le palais en bois à Sumbawa Besar. Placer la visite avant Moyo ou au retour selon ses heures d'ouverture et l'horaire du bateau.",
      "time": "environ 45 min",
      "type": "Culture",
      "price": null
@@ -4938,11 +4938,11 @@
     }
    ],
    "intro": [
-    "Visiter le palais de Sumbawa Besar, puis traverser vers Moyo pour les cascades et le récif. Kenawa est près de Poto Tano ; Saleh demande encore une autre sortie. Il faut tenir compte de ces trajets avant de choisir le nombre de nuits."
+    "Le palais de Sumbawa Besar se fait avant le bateau pour Moyo. Sur l'île, on peut voir Mata Jitu et garder du temps pour nager près de Labuan Aji. Kenawa et la baie de Saleh se placent à d'autres moments du trajet."
    ],
    "model": "waterfall",
    "short": "Moyo",
-   "access": "Depuis Lombok, ferry vers Poto Tano puis route vers Sumbawa Besar. Regarder aussi les vols disponibles. Pour Moyo, faire organiser l'aller-retour par le logement. Kenawa se place plutôt lors du passage à Poto Tano.",
+   "access": "Depuis Lombok, ferry jusqu'à Poto Tano puis route vers Sumbawa Besar. Regarder aussi les vols possibles. Faire confirmer le bateau de Moyo à l'aller et au retour avant de fixer le reste du séjour.",
    "photos": [
     {
      "file": "Sumbawa Adventour - Moyo Island Mata Jitu Waterfall.jpg",
@@ -5008,14 +5008,14 @@
      "lat": -10.159,
      "lon": 123.5823,
      "name": "Marché de nuit de Kampung Solor",
-     "text": "Dîner de poisson ou de fruits de mer au marché du soir. Faire annoncer le prix avant de commander, surtout si c'est au poids.",
+     "text": "Aller au marché du soir pour manger du poisson ou des fruits de mer. Demander le prix avant de choisir, surtout si la commande se paie au poids.",
      "time": "le soir",
      "type": "Cuisine",
      "price": null
     },
     {
      "name": "Coucher de soleil sur le front de mer",
-     "text": "Se promener au bord de l'eau en fin de journée. Ça peut suffire pour le soir de l'arrivée.",
+     "text": "Marcher au bord de l'eau en fin de journée, puis aller dîner à Kampung Solor si on a encore le temps. Ça suffit pour le soir de l'arrivée avant le vol du lendemain.",
      "time": "environ 1 h",
      "type": "Ville",
      "price": null
@@ -5047,11 +5047,11 @@
     }
    ],
    "intro": [
-    "Une soirée pour se promener au bord de l'eau et dîner avant Alor. On peut ajouter des visites autour de Kupang si on reste davantage. Au retour d'Alor, j'y garderais une nuit de marge."
+    "Une soirée à Kupang pour le front de mer et le marché de Kampung Solor. Si on a une journée de plus, on peut aller à Lasiana ou regarder les conditions pour la grotte de Kristal. Je garderais surtout une nuit ici au retour d'Alor."
    ],
    "model": "palm",
    "short": "Kupang",
-   "access": "Arrivée à El Tari puis route vers le logement. Vérifier les vols vers Alor et au retour avant de fixer les nuits à Kupang.",
+   "access": "Voiture depuis l'aéroport El Tari. Si on arrive tard ou repart tôt, choisir l'adresse selon le trajet vers l'aéroport. Regarder les deux vols d'Alor avant de fixer les nuits.",
    "photos": [
     {
      "file": "Kupang lighthouse and anchorage.JPG",
@@ -5107,7 +5107,7 @@
    "tips": [
     "Le courant du détroit peut être fort. Choisir les mises à l'eau avec l'équipe locale et ne pas partir seul dans le chenal.",
     "La P'tite Kepa affichait 58 € la nuit pour deux en bungalow Standard, trois repas inclus, en novembre 2026. Demander le prix pour 2027.",
-    "Se faire préciser le matériel à apporter, les paiements acceptés et le prix des sorties.",
+    "Demander le matériel à apporter, les paiements acceptés et le prix des sorties.",
     "Garder de la marge à Kupang avant le vol suivant."
    ],
    "todo": [
@@ -5115,7 +5115,7 @@
      "lat": -8.2729,
      "lon": 124.4009,
      "name": "Snorkeling devant Kepa et Alor Kecil",
-     "text": "Nager sur le récif avec les indications de l'équipe : heure, point d'entrée, sortie et accompagnement. Demander aussi quoi porter selon la température de l'eau.",
+     "text": "Demander à l'équipe où entrer et sortir du récif et à quel moment le courant convient. Choisir l'accompagnement avec elle et regarder si on a besoin d'une combinaison selon la température de l'eau.",
      "time": "environ 2 h",
      "type": "Mer",
      "price": null
@@ -5131,7 +5131,7 @@
     },
     {
      "name": "Village de Takpala",
-     "text": "Visiter le village abui de Takpala en l'organisant sur place. Si on aimerait voir une danse, il faut la demander à l'avance ; elle n'a pas lieu à chaque visite.",
+     "text": "Visiter le village abui de Takpala en l'organisant sur place. Si on veut voir une danse, il faut la demander à l'avance. Elle n'a pas lieu à chaque visite.",
      "time": "environ 2 h",
      "type": "Culture",
      "price": null
@@ -5147,11 +5147,11 @@
     }
    ],
    "intro": [
-    "Surtout du snorkeling, avec quelques sorties vers les villages et Kalabahi. Le courant est un vrai critère pour choisir les sites. Pour le logement à Kepa, comparer les sorties proposées, le confort et les transferts."
+    "Kepa pour le récif, Kalabahi et Takpala pour une journée à terre. Je choisirais le logement selon les sorties snorkeling qu'il organise et les endroits où on pourra entrer dans l'eau selon le courant."
    ],
    "model": "snorkel",
    "short": "Alor",
-   "access": "Vol de Kupang vers Mali, route jusqu'à Alor Kecil puis courte traversée vers Kepa. Fixer le prix et les horaires du transfert complet avec le logement.",
+   "access": "Vol de Kupang vers l'aéroport de Mali, puis route jusqu'à Alor Kecil et barque vers Kepa. Demander au logement un prix et un horaire pour le transfert de bout en bout.",
    "photos": [
     {
      "file": "Beautiful view from Pura Island - Alor - East Nusa Tenggara.jpg",
@@ -5213,7 +5213,7 @@
      "lat": -8.6738,
      "lon": 115.2627,
      "name": "Lever de soleil sur la plage",
-     "text": "Aller sur la plage avant le petit-déjeuner pour voir le soleil se lever à l'est. Quand le ciel est dégagé, on aperçoit l'Agung.",
+     "text": "Marcher sur la plage avant le petit-déjeuner pour voir le lever de soleil. Si le ciel est dégagé, on peut apercevoir l'Agung. On peut continuer à pied le long de l'eau.",
      "time": "tôt le matin",
      "type": "Détente",
      "price": null
@@ -5261,11 +5261,11 @@
     }
    ],
    "intro": [
-    "Finir par la plage, la promenade et des repas sur le front de mer. Après Java et Ubud, je garderais ces journées assez libres. Lembongan reste possible, mais prend une journée entière avec les bateaux."
+    "Deux nuits pour finir près de l'eau, marcher le long de la plage et dîner au marché de Sindhu. Je garderais la dernière journée souple. Une sortie à Lembongan est possible si on a envie de reprendre le bateau pour la journée."
    ],
    "model": "palm",
    "short": "Sanur",
-   "access": "Route depuis Ubud, le sud ou l'aéroport. Pour le retour, calculer le trajet depuis notre hôtel en gardant de la marge pour les bouchons. Les bateaux vers les Nusa partent du port de Sanur.",
+   "access": "Voiture depuis Ubud ou l'aéroport. Pour le départ, regarder le temps de route depuis notre adresse et garder de la marge. Les bateaux des Nusa partent du port de Sanur.",
    "hidden": false,
    "photos": [
     {
@@ -5315,104 +5315,104 @@
    "days": [
     {
      "n": 1,
-     "text": "Vol pour Jakarta, avec une escale selon le billet.",
+     "text": "Départ de Paris pour Jakarta. À la réservation, regarder aussi l'heure d'arrivée le lendemain : elle déterminera ce qu'on peut faire en ville.",
      "night": "Nuit dans l'avion",
      "title": "Départ de Paris"
     },
     {
      "n": 2,
-     "text": "Rejoindre l'hôtel et poser les sacs. Si on arrive assez tôt et qu'on a encore de l'énergie, balade à Kota Tua puis Glodok. Sinon, on garde la journée légère après le vol.",
+     "text": "Poser les sacs à l'hôtel. Si on arrive assez tôt, je ferais la place Fatahillah et les rues de Glodok. Après un vol fatigant, un dîner près de l'hôtel suffit.",
      "night": "Nuit à Jakarta",
      "place": "jakarta",
      "title": "Arrivée à Jakarta"
     },
     {
      "n": 3,
-     "text": "Train de jour vers Yogyakarta. Ça prendra une bonne partie de la journée, avec les trajets jusqu'aux gares. Installation à l'hôtel puis dîner autour de Malioboro si l'heure le permet.",
+     "text": "Prendre le train de jour pour Jogja. Compter le trajet jusqu'à la gare de départ et celui de l'arrivée jusqu'à l'hôtel. On pourra dîner vers Malioboro une fois installés.",
      "night": "Nuit à Yogyakarta",
      "place": "yogyakarta-et-temples",
      "title": "Jakarta → Yogyakarta"
     },
     {
      "n": 4,
-     "text": "Le Kraton et les quartiers voisins le matin, puis Prambanan l'après-midi. On peut inverser cette journée avec la suivante selon les ouvertures et les billets.",
+     "text": "Commencer par le Kraton et les rues autour, puis aller à Prambanan l'après-midi. On peut échanger cette journée avec celle de Borobudur selon les ouvertures et les billets.",
      "night": "Nuit à Yogyakarta",
      "place": "yogyakarta-et-temples",
      "title": "Yogyakarta et Prambanan"
     },
     {
      "n": 5,
-     "text": "Borobudur le matin, avec le billet qui permet de monter sur le monument. Au retour, Taman Sari ou une balade dans Jogja s'il reste du temps et de l'énergie.",
+     "text": "Aller à Borobudur le matin, avec le billet qui permet de monter sur le monument. Au retour, Taman Sari si l'heure le permet ou une balade dans Jogja.",
      "night": "Nuit à Yogyakarta",
      "place": "yogyakarta-et-temples",
      "title": "Borobudur et Yogyakarta"
     },
     {
      "n": 6,
-     "text": "Train jusqu'à Malang. On garde la journée pour le trajet et l'installation. Le train précis sera à choisir sur KAI quand les horaires de nos dates seront disponibles.",
+     "text": "Train de Jogja à Malang. Choisir le départ sur KAI quand les horaires seront disponibles, puis garder le reste de la journée pour rejoindre le logement et dîner.",
      "night": "Nuit à Malang",
      "place": "malang-bromo",
      "title": "Yogyakarta → Malang"
     },
     {
      "n": 7,
-     "text": "Jodipan et une balade en ville, puis retour assez tôt pour se reposer. Le Bromo part dans la nuit, à l'heure donnée par l'agence. On garde la chambre à Malang pour dormir avant et retrouver nos affaires au retour.",
+     "text": "Voir les maisons colorées de Jodipan, puis marcher vers Jalan Ijen selon le temps qu'on a. Rentrer tôt : l'agence viendra nous chercher pendant la nuit. On garde la chambre pour dormir avant le départ et laisser les sacs.",
      "night": "Chambre gardée à Malang",
      "place": "malang-bromo",
      "title": "Malang"
     },
     {
      "n": 8,
-     "text": "Jeep, point de vue à l'aube, mer de sable et montée au cratère si elle est autorisée. Le circuit dépend du parc et de la météo. Retour à Malang, puis repos l'après-midi.",
+     "text": "Prendre la jeep avant l'aube. Après le point de vue, traverser la mer de sable et monter au cratère si l'accès est ouvert. Retour à Malang et après-midi libre.",
      "night": "Nuit à Malang",
      "place": "malang-bromo",
      "title": "Bromo"
     },
     {
      "n": 9,
-     "text": "Voiture jusqu'à l'aéroport de Surabaya, vol pour Denpasar puis route vers Ubud. On ne prévoit rien d'autre. Garder de la marge avant le vol et regarder les heures locales : Bali a une heure d'avance sur Java.",
+     "text": "Voiture jusqu'à Juanda, vol pour Denpasar puis route vers Ubud. Bali a une heure d'avance sur Java. Je garderais la journée pour les transferts et l'installation.",
      "night": "Nuit à Ubud",
      "place": "ubud",
      "title": "Malang → Surabaya → Ubud"
     },
     {
      "n": 10,
-     "text": "Le centre d'Ubud et une promenade dans les rizières autour. Le soir, une danse si le programme nous plaît.",
+     "text": "Faire le palais et le marché à pied, puis marcher vers les rizières si on a envie de continuer. Regarder le programme des danses pour le soir.",
      "night": "Nuit à Ubud",
      "place": "ubud",
      "title": "Ubud et les rizières"
     },
     {
      "n": 11,
-     "text": "Tirta Empul et Gunung Kawi avec un chauffeur, puis quelques arrêts dans les villages et les rizières en chemin. Retour à Ubud en fin de journée.",
+     "text": "Tirta Empul et Gunung Kawi dans la même sortie avec un chauffeur. Il y a des escaliers à Gunung Kawi. Ajouter un arrêt dans les rizières si on a encore du temps avant de rentrer.",
      "night": "Nuit à Ubud",
      "place": "ubud",
      "title": "Temples autour d'Ubud"
     },
     {
      "n": 12,
-     "text": "Dernière matinée à Ubud, puis route vers Sanur. Installation et promenade en bord de mer, selon l'heure d'arrivée.",
+     "text": "Garder la matinée à Ubud pour un dernier tour ou un café. Après la route et l'installation à Sanur, on peut marcher le long de la mer.",
      "night": "Nuit à Sanur",
      "place": "sanur",
      "title": "Ubud → Sanur"
     },
     {
      "n": 13,
-     "text": "Plage, marche ou vélo sur le front de mer. On choisira le moment et l'endroit pour se baigner selon la marée. Je garderais cette dernière journée sans grosse excursion.",
+     "text": "Marcher ou prendre un vélo le long de la plage, puis choisir où se baigner selon la marée. Je garderais la journée à Sanur, avec le marché de Sindhu le soir si on en a envie.",
      "night": "Nuit à Sanur",
      "place": "sanur",
      "title": "Sanur"
     },
     {
      "n": 14,
-     "text": "Rejoindre l'aéroport de Denpasar pour le vol retour. Choisir un billet qui arrive à Paris le jour 15.",
+     "text": "Rejoindre l'aéroport de Denpasar avec de la marge pour les bouchons. À la réservation, choisir un vol qui nous ramène à Paris le lendemain.",
      "night": "Nuit dans l'avion",
      "place": "sanur",
      "title": "Départ de Bali"
     },
     {
      "n": 15,
-     "text": "Retour à Paris.",
+     "text": "Arrivée à Paris.",
      "title": "Arrivée à Paris"
     }
    ],
@@ -5441,7 +5441,7 @@
    ],
    "title": "Java puis Bali, 15 jours à deux",
    "budget": {
-    "note": "On vise 4 000 € à deux, mais rien n'est réservé ni chiffré par devis. Les 1 000 € sur place par personne doivent couvrir les 12 nuits en chambre partagée, les repas, trains, transferts, visites et le vol intérieur avec bagages, plus les frais d'entrée dans le pays et à Bali. Assurance et dépenses personnelles à ajouter selon ce qu'on a déjà. À recalculer avec les prix d'août 2027 : on peut dépasser.",
+    "note": "On vise 4 000 € à deux. Si les vols internationaux coûtent 1 000 € par personne, il reste 1 000 € chacun pour les 12 nuits en chambre partagée, les repas, les trains, les voitures, les visites et le vol intérieur avec les bagages. Compter aussi les frais d'entrée en Indonésie et la taxe de Bali. Assurance et dépenses personnelles à ajouter selon ce qu'on a déjà. Ce sont des objectifs : on recalculera avec les billets et les devis pour août 2027.",
     "lines": [
      {
       "label": "Sur place + vol Surabaya–Bali, à chiffrer",
@@ -5456,21 +5456,21 @@
     "totalLabel": "Objectif par personne"
    },
    "summary": [
-    "Un exemple pour quinze jours à deux : arrivée à Jakarta, train à travers Java, Bromo, puis Ubud et Sanur à Bali. On cherche des petits hôtels confortables, avec chambre double et salle de bain privée. À Jogja, l'ordre des journées dépendra des ouvertures et des billets.",
-    "Il reste à comparer l'arrivée à Jakarta avec un vol vers Yogyakarta avec correspondance : on gagnerait peut-être du temps selon les horaires et les prix. Les douze nuits supposent d'arriver le jour 2 et de rentrer à Paris le jour 15."
+    "Une nuit à Jakarta, trois à Jogja pour la ville et les temples, trois à Malang avec le Bromo, puis Ubud et Sanur. On cherche de petits hôtels avec une chambre double et une salle de bain privée. Je garderais Sanur pour finir avec deux nuits près de la mer.",
+    "On peut aussi regarder un vol vers Yogyakarta avec correspondance. Si les horaires font gagner du temps, il faudra décider si on tient à l'étape de Jakarta. Dans ce programme, on arrive le jour 2 et on rentre à Paris le jour 15."
    ],
    "transports": [
-    "Chercher un billet multidestinations : Paris–Jakarta à l'aller, Denpasar–Paris au retour.",
-    "Train Jakarta–Yogyakarta, puis Yogyakarta–Malang.",
-    "Excursion partagée au Bromo.",
-    "Voiture de Malang à l'aéroport de Surabaya.",
-    "Vol Surabaya–Denpasar.",
-    "Chauffeurs pour les temples autour de Jogja et d'Ubud, et pour les transferts vers les hôtels et les aéroports."
+    "Comparer les billets multidestinations avec une arrivée à Jakarta et un retour depuis Denpasar. Regarder l'heure d'arrivée dans les deux sens.",
+    "Prendre le train de Jakarta à Jogja, puis de Jogja à Malang. Vérifier les gares sur les billets.",
+    "Pour le Bromo, chercher une excursion partagée qui vient nous prendre à Malang et nous y ramène.",
+    "Prévoir une voiture entre Malang et l'aéroport de Surabaya. Garder de la marge avant le vol.",
+    "Pour le vol Surabaya–Denpasar, comparer le prix avec les bagages et compter une heure de décalage en arrivant à Bali.",
+    "Organiser une voiture pour Borobudur et une autre pour Prambanan si besoin. À Ubud, on peut faire Tirta Empul et Gunung Kawi avec le même chauffeur."
    ]
   },
   "site": {
    "date": "Août 2027",
-   "intro": "Voyages en Indonésie ",
+   "intro": "Pour préparer notre voyage à deux en août 2027. On peut comparer les étapes, voir ce qu'on ferait sur place et partir d'une première idée de trajet, de Jakarta à Bali.",
    "title": "Indonésie",
    "idrPerEur": 20000
   }
